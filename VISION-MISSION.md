@@ -8,7 +8,7 @@ Science of Origin seeks to make room for discoveries and understandings that may
 
 ## 2. Mission
 
-Science of Origin is an experimental science based on observations and experiments. It investigates Origin and its manifestations, developing and establishing observed and experimented understandings through continued inquiry.
+Science of Origin investigates Origin and its manifestations without prescribing in advance what form inquiry must take. Understandings develop through continued exploration, using approaches appropriate to each subject.
 
 Its mission is to communicate these understandings clearly and humbly, make their foundations available for examination, and invite capable independent thinkers to investigate them further and share what they discover.
 
@@ -40,9 +40,9 @@ The website is a durable point of access to the research, not merely a personal 
 
 ## 5. Research and Communication Principles
 
-### Observation and experimentation
+### Open-ended inquiry
 
-Science of Origin is grounded in actual observations, experiences, and experimentation, rather than conceptual, theoretical, hypothetical, or philosophical speculation. Observed understandings are legitimate starting points for inquiry, including observations not yet independently reproduced.
+Science of Origin remains open to different forms of inquiry. Depending on the subject, exploration may involve observation, experience, conceptual exploration, theoretical development, hypotheses, philosophical examination, experimentation, or other approaches. No single method or category is prescribed in advance. The basis and status of each understanding should be made clear, distinguishing observations and experiences, interpretations, explanations, experimental findings, and independently reproduced results.
 
 ### Intellectual openness
 
