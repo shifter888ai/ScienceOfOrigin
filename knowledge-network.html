@@ -121,13 +121,13 @@
   <script>
     (() => {
       const divisions = [
-        {id:"foundations",label:"I. Foundations",x:150,y:115,desc:"Origin, Consciousness / Freewill, imagination, origination and manifestation.",url:"foundations.html"},
-        {id:"existence",label:"II. Existence",x:500,y:78,desc:"The nature and forms of existence: things, life, energy, matter, information, space and time.",url:"existence.html"},
-        {id:"structure",label:"III. Structure",x:850,y:145,desc:"Systems, rules, organization, relationships, boundaries, multiplicity and independence.",url:"structure.html"},
-        {id:"origin-models",label:"IV. Origin Models",x:145,y:505,desc:"The Oneness Origin and the constructed imitation described as Fake Origin.",url:"origin-models.html"},
-        {id:"creation",label:"V. Creation",x:500,y:555,desc:"Spontaneous and intentional imagination, conditional creation and further origination.",url:"creation.html"},
-        {id:"dynamics",label:"VI. Dynamics",x:850,y:500,desc:"Interactions, causality, states, processes, transformation, emergence and possibility.",url:"dynamics.html"},
-        {id:"research",label:"VII. Research",x:500,y:320,desc:"Observation, measurement, knowledge, uncertainty, research methods and findings.",url:"research.html"}
+        {id:"division-foundations",label:"I. Foundations",x:150,y:115,desc:"Origin, Consciousness / Freewill, imagination, origination and manifestation.",url:"foundations.html"},
+        {id:"division-existence",label:"II. Existence",x:500,y:78,desc:"The nature and forms of existence: things, life, energy, matter, information, space and time.",url:"existence.html"},
+        {id:"division-structure",label:"III. Structure",x:850,y:145,desc:"Systems, rules, organization, relationships, boundaries, multiplicity and independence.",url:"structure.html"},
+        {id:"division-origin-models",label:"IV. Origin Models",x:145,y:505,desc:"The Oneness Origin and the constructed imitation described as Fake Origin.",url:"origin-models.html"},
+        {id:"division-creation",label:"V. Creation",x:500,y:555,desc:"Spontaneous and intentional imagination, conditional creation and further origination.",url:"creation.html"},
+        {id:"division-dynamics",label:"VI. Dynamics",x:850,y:500,desc:"Interactions, causality, states, processes, transformation, emergence and possibility.",url:"dynamics.html"},
+        {id:"division-research",label:"VII. Research",x:500,y:320,desc:"Observation, measurement, knowledge, uncertainty, research methods and findings.",url:"research.html"}
       ];
       const topics = [
         {id:"origin",label:"Origin",x:65,y:45,division:"foundations",kind:"Fundamental topic",desc:"The fundamental source and the Oneness Origin.",url:"origin.html"},
@@ -146,12 +146,12 @@
         {id:"information",label:"Information & Knowledge",x:615,y:250,division:"research",kind:"Fundamental topic",desc:"Information, interpretation, knowledge and understanding.",url:"information-knowledge-understanding.html"},
         {id:"measurement",label:"Measurement",x:500,y:405,division:"research",kind:"Extended topic",desc:"Measurement methods, units, accuracy and uncertainty.",url:"measurement-quantification.html"}
       ];
-      const nodes = [...divisions.map(d=>({...d,kind:"Major division",major:true})), ...topics];
+      const nodes = [...divisions.map(d=>({...d,division:d.id.replace("division-",""),kind:"Major division",major:true})), ...topics];
       const edges = [
-        ["foundations","origin"],["foundations","infinity"],["foundations","zero"],["foundations","freewill"],
-        ["existence","existence"],["existence","things-life"],["structure","systems"],["structure","networks"],
-        ["origin-models","fake-origin"],["creation","origination"],["creation","manifestations"],["dynamics","interactions"],
-        ["research","observation"],["research","information"],["research","measurement"],
+        ["division-foundations","origin"],["division-foundations","infinity"],["division-foundations","zero"],["division-foundations","freewill"],
+        ["division-existence","existence"],["division-existence","things-life"],["division-structure","systems"],["division-structure","networks"],
+        ["division-origin-models","fake-origin"],["division-creation","origination"],["division-creation","manifestations"],["division-dynamics","interactions"],
+        ["division-research","observation"],["division-research","information"],["division-research","measurement"],
         ["origin","infinity","cross"],["infinity","zero","cross"],["zero","origination","cross"],
         ["freewill","origination","cross"],["origination","manifestations","cross"],["manifestations","existence","cross"],
         ["things-life","systems","cross"],["systems","networks","cross"],["interactions","manifestations","cross"],
@@ -171,15 +171,15 @@
         const text=make("text",{x:0,y}); text.textContent=label; group.appendChild(text);
       };
       nodes.forEach(n => {
-        const g=make("g",{class:"node "+(n.major?"major":n.kind==="Extended topic"?"extended":"topic"),tabindex:"0",role:"button","aria-label":n.label,"data-id":n.id,"data-division":n.major?n.id:n.division});
+        const g=make("g",{class:"node "+(n.major?"major":n.kind==="Extended topic"?"extended":"topic"),tabindex:"0",role:"button","aria-label":n.label,"data-id":n.id,"data-division":n.division});
         const r=n.major?37:n.kind==="Extended topic"?18:25;
         g.appendChild(make("circle",{cx:n.x,cy:n.y,r}));
         const words=n.label.split(" ");
         if(n.major) {
           const first=words.slice(0,2).join(" ");
           const second=words.slice(2).join(" ");
-          drawLabel(g,first,n.y+4);
-          if(second) drawLabel(g,second,n.y+20);
+          drawLabel(g,first,n.x,n.y+4);
+          if(second) drawLabel(g,second,n.x,n.y+20);
         } else {
           const t=make("text",{x:n.x,y:n.y+r+17}); t.textContent=n.label; g.appendChild(t);
         }
@@ -204,7 +204,7 @@
         });
         document.querySelectorAll(".edge").forEach(el=>{
           const a=byId[el.dataset.a],b=byId[el.dataset.b];
-          const visible=value==="all"||a.id===value||b.id===value||a.division===value||b.division===value;
+          const visible=value==="all"||a.division===value||b.division===value;
           el.style.opacity=visible?"":"0.08";
         });
       }
