@@ -1,223 +1,98 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore the evolving Science of Origin knowledge network: seven major divisions, connected topics and research relationships.">
-  <title>Knowledge Network — Science of Origin</title>
-  <link rel="stylesheet" href="assets/site.css">
-  <style>
-    .network-intro { max-width: 820px; }
-    .network-tools { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:24px 0 14px; }
-    .network-tools label { color:var(--muted); font-size:.9rem; }
-    .network-tools select, .network-tools button { background:var(--panel); color:var(--text); border:1px solid var(--line); border-radius:8px; padding:9px 12px; font:inherit; }
-    .network-tools button { cursor:pointer; }
-    .network-tools button:hover, .network-tools select:focus-visible { border-color:var(--accent); }
-    .network-layout { display:grid; grid-template-columns:minmax(0, 1fr) 270px; gap:18px; align-items:start; }
-    .network-frame { min-width:0; border:1px solid var(--line); border-radius:14px; background:radial-gradient(ellipse at center,#19232b 0%,#12191f 72%); overflow:hidden; }
-    #knowledge-map { display:block; width:100%; height:auto; min-height:380px; }
-    .edge { stroke:#53616c; stroke-width:1.5; opacity:.62; }
-    .edge.cross { stroke:#8eabbc; stroke-dasharray:5 5; opacity:.8; }
-    .node { cursor:pointer; outline:none; }
-    .node circle { fill:#202c35; stroke:#9bb9ca; stroke-width:2; transition:fill .15s,stroke-width .15s; }
-    .node.major circle { fill:#334652; stroke:#d2e2eb; stroke-width:2.5; }
-    .node.extended circle { fill:#17232b; stroke:#8095a3; stroke-width:1.5; }
-    .node text { fill:#edf2f5; font:13px Arial,sans-serif; text-anchor:middle; pointer-events:none; }
-    .node.major text { font-weight:700; font-size:14px; }
-    .node:hover circle, .node:focus circle, .node.selected circle { fill:#476477; stroke:#fff; stroke-width:3; }
-    .node.dimmed { opacity:.14; }
-    .network-side { border:1px solid var(--line); border-radius:14px; background:var(--panel); padding:18px; min-height:230px; }
-    .network-side h2 { margin:0 0 10px; font-size:1.15rem; }
-    .network-side p { color:var(--muted); font-size:.94rem; }
-    .network-side .node-kind { color:var(--accent); font-size:.75rem; text-transform:uppercase; letter-spacing:.1em; }
-    .network-side a { display:inline-block; margin-top:8px; }
-    .network-legend { display:flex; flex-wrap:wrap; gap:16px; margin:14px 0 0; color:var(--muted); font-size:.82rem; }
-    .legend-dot { display:inline-block; width:10px; height:10px; border:2px solid #9bb9ca; border-radius:50%; margin-right:6px; vertical-align:middle; }
-    .legend-dot.major { width:14px; height:14px; background:#334652; border-color:#d2e2eb; }
-    .legend-line { display:inline-block; width:20px; border-top:2px dashed #8eabbc; margin-right:6px; vertical-align:middle; }
-    .network-caveat { font-size:.9rem; }
-    @media(max-width:760px) { .network-layout { grid-template-columns:1fr; } .network-side { min-height:0; } #knowledge-map { min-height:300px; } }
-    @media(prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto!important; transition:none!important; } }
-  </style>
-</head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore the living, endlessly evolving Science of Origin knowledge network, with Origin at the center and seven connected research divisions.">
+<title>Living Knowledge Map — Science of Origin</title><link rel="stylesheet" href="assets/site.css">
+<style>
+.map-intro{max-width:900px}.evolution-principle{max-width:900px;padding:16px 19px;border-left:3px solid var(--accent);background:var(--panel);margin:22px 0}
+.map-tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:24px 0 14px}.map-tools label{color:var(--muted);font-size:.9rem}
+.map-tools select,.map-tools button{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:9px 12px;font:inherit}.map-tools button{cursor:pointer}
+.map-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:18px;align-items:start}.map-frame{min-width:0;border:1px solid var(--line);border-radius:14px;background:radial-gradient(ellipse at center,#1b2831 0%,#12191f 72%);overflow:hidden}
+#knowledge-map{display:block;width:100%;height:auto}.edge{fill:none;stroke:#758692;stroke-width:1.7;opacity:.52}.edge.central{stroke:#c1d3dd;stroke-width:2.2;opacity:.78}.edge.cross{stroke:#91adbd;stroke-dasharray:6 6;opacity:.76}
+.node{cursor:pointer;outline:none}.node circle{fill:#202c35;stroke:#9bb9ca;stroke-width:2;transition:fill .15s,stroke-width .15s}.node.major circle{fill:#334652;stroke:#d2e2eb;stroke-width:2.5}.node.origin circle{fill:#405b6b;stroke:#f0f6f9;stroke-width:3.5}.node.extended circle{fill:#17232b;stroke:#8095a3;stroke-width:1.5}
+.node text{fill:#edf2f5;font:13px Arial,sans-serif;text-anchor:middle;pointer-events:none}.node.major text{font-weight:700;font-size:13px}.node.origin text{font-weight:700;font-size:17px}
+.node:hover circle,.node:focus circle,.node.selected circle{fill:#54758a;stroke:#fff;stroke-width:3.5}.node.dimmed{opacity:.13}
+.map-side{border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:18px;min-height:245px}.map-side h2{margin:0 0 10px;font-size:1.15rem}.map-side p{color:var(--muted);font-size:.94rem}.map-side .node-kind{color:var(--accent);font-size:.75rem;text-transform:uppercase;letter-spacing:.1em}.map-side a{display:inline-block;margin-top:8px}
+.map-legend{display:flex;flex-wrap:wrap;gap:14px 18px;margin:14px 0 0;color:var(--muted);font-size:.82rem}.legend-dot{display:inline-block;width:10px;height:10px;border:2px solid #9bb9ca;border-radius:50%;margin-right:6px;vertical-align:middle}.legend-dot.major{width:14px;height:14px;background:#334652;border-color:#d2e2eb}.legend-dot.origin{width:16px;height:16px;background:#405b6b;border-color:#f0f6f9}.legend-line{display:inline-block;width:22px;border-top:2px solid #c1d3dd;margin-right:6px;vertical-align:middle}.legend-line.cross{border-top-style:dashed;border-color:#91adbd}.map-note{font-size:.9rem}
+@media(max-width:760px){.map-layout{grid-template-columns:1fr}.map-side{min-height:0}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+</style></head>
 <body>
-  <header>
-    <a class="brand" href="index.html">SCIENCE OF ORIGIN<small>本源科學 · 本源學</small></a>
-    <nav aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="foundations.html">I. Foundations</a>
-      <a href="existence.html">II. Existence</a>
-      <a href="structure.html">III. Structure</a>
-      <a href="origin-models.html">IV. Origin Models</a>
-      <a href="creation.html">V. Creation</a>
-      <a href="dynamics.html">VI. Dynamics</a>
-      <a href="research.html">VII. Research</a>
-      <a href="knowledge-network.html" aria-current="page">Knowledge Network</a>
-    </nav>
-  </header>
-  <main>
-    <div class="eyebrow">An evolving research map · Prototype 0.1</div>
-    <h1>Knowledge Network</h1>
-    <p class="lead network-intro">Explore Science of Origin as a distributed network of connected research subjects. Major divisions provide orientation; topics and their cross-connections reveal how the investigation relates across the framework.</p>
-    <p>This is an initial map of selected subjects from the existing research framework. It is a working visualization, not a final classification.</p>
-
-    <div class="network-tools">
-      <label for="division-filter">Highlight a major division</label>
-      <select id="division-filter">
-        <option value="all">All divisions</option>
-        <option value="foundations">I. Foundations</option>
-        <option value="existence">II. Existence</option>
-        <option value="structure">III. Structure</option>
-        <option value="origin-models">IV. Origin Models</option>
-        <option value="creation">V. Creation</option>
-        <option value="dynamics">VI. Dynamics</option>
-        <option value="research">VII. Research</option>
-      </select>
-      <button type="button" id="reset-map">Reset view</button>
-    </div>
-
-    <div class="network-layout">
-      <div>
-        <div class="network-frame">
-          <svg id="knowledge-map" viewBox="0 0 1000 650" role="group" aria-label="Interactive network map of Science of Origin topics">
-            <g id="edges" aria-hidden="true"></g>
-            <g id="nodes"></g>
-          </svg>
-        </div>
-        <div class="network-legend">
-          <span><i class="legend-dot major"></i>Major division</span>
-          <span><i class="legend-dot"></i>Fundamental topic</span>
-          <span><i class="legend-dot"></i>Extended topic</span>
-          <span><i class="legend-line"></i>Cross-division or conceptual connection</span>
-        </div>
-      </div>
-      <aside class="network-side" aria-live="polite" aria-atomic="true">
-        <div class="node-kind" id="detail-kind">How to explore</div>
-        <h2 id="detail-title">Select a node</h2>
-        <p id="detail-description">Choose any dot in the map to see its place in the framework, a short description and a link to its current research page when one exists.</p>
-        <a id="detail-link" href="research-framework.html">Read the Research Framework</a>
-      </aside>
-    </div>
-
-    <section>
-      <h2>How to read the network</h2>
-      <ul>
-        <li><strong>Major divisions</strong> organize broad research domains.</li>
-        <li><strong>Fundamental topics</strong> identify central subjects within those domains.</li>
-        <li><strong>Extended topics</strong> provide more specific directions for investigation.</li>
-        <li><strong>Connections</strong> show relationships across the map; a connection is not, by itself, a claim of proof or experimental confirmation.</li>
-      </ul>
-      <p class="note network-caveat">The initial connections are editorial links based on the current framework and topic pages. They indicate that subjects are related for research purposes; they do not automatically assert causation, dependency or an experimentally established relationship. Relationship types and research status can be made more precise as the map develops.</p>
-    </section>
-  </main>
-  <footer>
-    <p>Science of Origin</p>
-    <p>An evolving research project. Initial working edition.</p>
-    <p>© 2026 Science of Origin. All rights reserved.</p>
-    <p><a href="about.html">About this project</a></p>
-  </footer>
-
-  <script>
-    (() => {
-      const divisions = [
-        {id:"division-foundations",label:"I. Foundations",x:150,y:115,desc:"Origin, Consciousness / Freewill, imagination, origination and manifestation.",url:"foundations.html"},
-        {id:"division-existence",label:"II. Existence",x:500,y:78,desc:"The nature and forms of existence: things, life, energy, matter, information, space and time.",url:"existence.html"},
-        {id:"division-structure",label:"III. Structure",x:850,y:145,desc:"Systems, rules, organization, relationships, boundaries, multiplicity and independence.",url:"structure.html"},
-        {id:"division-origin-models",label:"IV. Origin Models",x:145,y:505,desc:"The Oneness Origin and the constructed imitation described as Fake Origin.",url:"origin-models.html"},
-        {id:"division-creation",label:"V. Creation",x:500,y:555,desc:"Spontaneous and intentional imagination, conditional creation and further origination.",url:"creation.html"},
-        {id:"division-dynamics",label:"VI. Dynamics",x:850,y:500,desc:"Interactions, causality, states, processes, transformation, emergence and possibility.",url:"dynamics.html"},
-        {id:"division-research",label:"VII. Research",x:500,y:320,desc:"Observation, measurement, knowledge, uncertainty, research methods and findings.",url:"research.html"}
-      ];
-      const topics = [
-        {id:"origin",label:"Origin",x:65,y:45,division:"foundations",kind:"Fundamental topic",desc:"The fundamental source and the Oneness Origin.",url:"origin.html"},
-        {id:"infinity",label:"Infinity",x:245,y:45,division:"foundations",kind:"Fundamental topic",desc:"Infinity as the closest definitional description of Origin and a central research domain.",url:"core-principles.html"},
-        {id:"zero",label:"Zero & Idle",x:55,y:220,division:"foundations",kind:"Fundamental topic",desc:"Zero as the idle of Origin and Infinity before manifestation.",url:"zero-idle-state-of-origin.html"},
-        {id:"freewill",label:"Freewill & Choice",x:255,y:220,division:"foundations",kind:"Fundamental topic",desc:"Freedom of choice, choice preceding origination, and the possibility of originating or not originating.",url:"consciousness-freewill.html"},
-        {id:"existence",label:"Existence & Reality",x:385,y:20,division:"existence",kind:"Fundamental topic",desc:"The nature of existence, manifestation and reality.",url:"existence-reality.html"},
-        {id:"things-life",label:"Things & Life",x:615,y:20,division:"existence",kind:"Fundamental topic",desc:"Things, life forms and their broad relationship with manifestation.",url:"things-life.html"},
-        {id:"systems",label:"Systems",x:770,y:65,division:"structure",kind:"Fundamental topic",desc:"System boundaries, components, organization and emergence.",url:"systems.html"},
-        {id:"networks",label:"Relationships & Networks",x:930,y:235,division:"structure",kind:"Fundamental topic",desc:"Connections, dependencies and networks.",url:"relationships-networks.html"},
-        {id:"fake-origin",label:"Fake Origin",x:65,y:590,division:"origin-models",kind:"Fundamental topic",desc:"A manifested imitation of Origin that presents relative independence as absolute independence.",url:"fake-origin-divided-origin.html"},
-        {id:"origination",label:"Origination",x:385,y:465,division:"creation",kind:"Fundamental topic",desc:"The capability and process through which manifestations originate.",url:"origination.html"},
-        {id:"manifestations",label:"Manifestations",x:615,y:465,division:"creation",kind:"Fundamental topic",desc:"Manifestation and further origination; also a foundational subject.",url:"manifestations.html"},
-        {id:"interactions",label:"Interactions",x:770,y:590,division:"dynamics",kind:"Fundamental topic",desc:"Interactions within and between manifestations and systems.",url:"interactions.html"},
-        {id:"observation",label:"Perception & Observation",x:385,y:250,division:"research",kind:"Fundamental topic",desc:"Detection, perception, observation and their limits.",url:"perception-observation.html"},
-        {id:"information",label:"Information & Knowledge",x:615,y:250,division:"research",kind:"Fundamental topic",desc:"Information, interpretation, knowledge and understanding.",url:"information-knowledge-understanding.html"},
-        {id:"measurement",label:"Measurement",x:500,y:405,division:"research",kind:"Extended topic",desc:"Measurement methods, units, accuracy and uncertainty.",url:"measurement-quantification.html"}
-      ];
-      const nodes = [...divisions.map(d=>({...d,division:d.id.replace("division-",""),kind:"Major division",major:true})), ...topics];
-      const edges = [
-        ["division-foundations","origin"],["division-foundations","infinity"],["division-foundations","zero"],["division-foundations","freewill"],
-        ["division-existence","existence"],["division-existence","things-life"],["division-structure","systems"],["division-structure","networks"],
-        ["division-origin-models","fake-origin"],["division-creation","origination"],["division-creation","manifestations"],["division-dynamics","interactions"],
-        ["division-research","observation"],["division-research","information"],["division-research","measurement"],
-        ["origin","infinity","cross"],["infinity","zero","cross"],["zero","origination","cross"],
-        ["freewill","origination","cross"],["origination","manifestations","cross"],["manifestations","existence","cross"],
-        ["things-life","systems","cross"],["systems","networks","cross"],["interactions","manifestations","cross"],
-        ["observation","information","cross"],["measurement","observation","cross"],["fake-origin","systems","cross"]
-      ];
-      const svgNS = "http://www.w3.org/2000/svg";
-      const edgeLayer = document.getElementById("edges");
-      const nodeLayer = document.getElementById("nodes");
-      const filter = document.getElementById("division-filter");
-      const byId = Object.fromEntries(nodes.map(n=>[n.id,n]));
-      const make = (tag,attrs={}) => { const el=document.createElementNS(svgNS,tag); Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v)); return el; };
-      edges.forEach(([a,b,type]) => {
-        const p=byId[a], q=byId[b]; if(!p||!q) return;
-        edgeLayer.appendChild(make("line",{x1:p.x,y1:p.y,x2:q.x,y2:q.y,class:type==="cross"?"edge cross":"edge","data-a":a,"data-b":b}));
-      });
-      const drawLabel = (group,label,x,y) => {
-        const text=make("text",{x,y}); text.textContent=label; group.appendChild(text);
-      };
-      nodes.forEach(n => {
-        const g=make("g",{class:"node "+(n.major?"major":n.kind==="Extended topic"?"extended":"topic"),tabindex:"0",role:"button","aria-label":n.label,"data-id":n.id,"data-division":n.division});
-        const r=n.major?37:n.kind==="Extended topic"?18:25;
-        g.appendChild(make("circle",{cx:n.x,cy:n.y,r}));
-        const words=n.label.split(" ");
-        if(n.major) {
-          const first=words.slice(0,2).join(" ");
-          const second=words.slice(2).join(" ");
-          drawLabel(g,first,n.x,n.y+4);
-          if(second) drawLabel(g,second,n.x,n.y+20);
-        } else {
-          const t=make("text",{x:n.x,y:n.y+r+17}); t.textContent=n.label; g.appendChild(t);
-        }
-        g.addEventListener("click",()=>selectNode(n.id));
-        g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();selectNode(n.id);}});
-        nodeLayer.appendChild(g);
-      });
-      function selectNode(id) {
-        const n=byId[id]; if(!n) return;
-        document.querySelectorAll(".node").forEach(el=>el.classList.toggle("selected",el.dataset.id===id));
-        document.getElementById("detail-kind").textContent=n.kind+(n.major?"":" · "+(divisions.find(d=>d.id.replace("division-","")===n.division)?.label||""));
-        document.getElementById("detail-title").textContent=n.label;
-        document.getElementById("detail-description").textContent=n.desc;
-        const link=document.getElementById("detail-link");
-        link.href=n.url; link.textContent="Open "+(n.major?"division":"research topic");
-      }
-      function applyFilter() {
-        const value=filter.value;
-        document.querySelectorAll(".node").forEach(el=>{
-          const belongs=el.dataset.division===value || el.dataset.id===value;
-          el.classList.toggle("dimmed",value!=="all"&&!belongs);
-        });
-        document.querySelectorAll(".edge").forEach(el=>{
-          const a=byId[el.dataset.a],b=byId[el.dataset.b];
-          const visible=value==="all"||a.division===value||b.division===value;
-          el.style.opacity=visible?"":"0.08";
-        });
-      }
-      filter.addEventListener("change",applyFilter);
-      document.getElementById("reset-map").addEventListener("click",()=>{
-        filter.value="all";applyFilter();
-        document.querySelectorAll(".node").forEach(el=>el.classList.remove("selected"));
-        document.getElementById("detail-kind").textContent="How to explore";
-        document.getElementById("detail-title").textContent="Select a node";
-        document.getElementById("detail-description").textContent="Choose any dot in the map to see its place in the framework, a short description and a link to its current research page when one exists.";
-        const link=document.getElementById("detail-link");link.href="research-framework.html";link.textContent="Read the Research Framework";
-      });
-    })();
-  </script>
-</body>
-</html>
+<header><a class="brand" href="index.html">SCIENCE OF ORIGIN<small>本源科學 · 本源學</small></a><nav aria-label="Main navigation">
+<a href="index.html">Home</a><a href="about.html">About</a><a href="foundations.html">I. Foundations</a><a href="existence.html">II. Existence</a><a href="structure.html">III. Structure</a><a href="origin-models.html">IV. Origin Models</a><a href="creation.html">V. Creation</a><a href="dynamics.html">VI. Dynamics</a><a href="research.html">VII. Research</a><a href="knowledge-network.html" aria-current="page">Living Knowledge Map</a></nav></header>
+<main>
+<div class="eyebrow">An open, evolving research network</div><h1>Living Knowledge Map</h1>
+<p class="lead map-intro">Explore Science of Origin as a multidirectional network of research domains, topics and relationships. Origin is placed at the visual center; the seven Major Divisions extend around it, with Fundamental Topics, Extended Topics and cross-connections forming an expandable field of inquiry.</p>
+<div class="evolution-principle"><strong>Endless Evolution</strong><p>Everything is always evolving endlessly and indefinitely. This map is a living representation of an open investigation: its structure, topics, relationships and understandings remain open to continuous discovery, expansion, transformation and refinement.</p><p><strong>The map is never finished—and must never be mistaken for the territory.</strong></p></div>
+<div class="map-tools"><label for="division-filter">Highlight a Major Division</label><select id="division-filter"><option value="all">All divisions</option><option value="foundations">I. Foundations</option><option value="existence">II. Existence</option><option value="structure">III. Structure</option><option value="origin-models">IV. Origin Models</option><option value="creation">V. Creation</option><option value="dynamics">VI. Dynamics</option><option value="research">VII. Research</option></select><button type="button" id="reset-map">Reset view</button></div>
+<div class="map-layout"><div><div class="map-frame"><svg id="knowledge-map" viewBox="0 0 1200 900" role="group" aria-label="Interactive living knowledge map with Origin at the center and seven Major Divisions around it"><g id="edges" aria-hidden="true"></g><g id="nodes"></g></svg></div>
+<div class="map-legend"><span><i class="legend-dot origin"></i>Origin</span><span><i class="legend-dot major"></i>Major Division</span><span><i class="legend-dot"></i>Fundamental Topic</span><span><i class="legend-dot"></i>Extended Topic</span><span><i class="legend-line"></i>Central / primary relationship</span><span><i class="legend-line cross"></i>Cross-connection</span></div></div>
+<aside class="map-side" aria-live="polite" aria-atomic="true"><div class="node-kind" id="detail-kind">Explore the map</div><h2 id="detail-title">Select a node</h2><p id="detail-description">Select Origin, a Major Division or any topic to explore its place in the framework. Where a related research page exists, a link will be provided.</p><a id="detail-link" href="research-framework.html">Read the Research Framework</a></aside></div>
+<section><h2>Three levels of knowledge organization</h2><ul><li><strong>Major Divisions</strong> — broad research domains that provide orientation.</li><li><strong>Fundamental Topics</strong> — central subjects and foundational concepts within and across divisions.</li><li><strong>Extended Topics</strong> — more specific concepts, relationships, applications, observations, experiments and research questions.</li></ul><p>These levels provide a useful way to navigate the knowledge; they are not a rigid hierarchy or a ranking of importance. A topic may connect with several divisions. An Extended Topic may later become a Fundamental Topic, and new discoveries may lead to new topics or even new divisions.</p></section>
+<section><h2>How to read the connections</h2><ul><li>The central connections place Origin at the center of the investigation and connect it with the seven Major Divisions.</li><li>Primary relationships show the current organizational placement of topics.</li><li>Cross-connections indicate research associations across divisions and topics.</li></ul><p class="note map-note">A line represents a relationship identified for research and navigation. It does not, by itself, establish causation, dependency, equivalence or experimental confirmation. The map is an evolving representation of current understanding, not a definition of Origin or a complete picture of reality.</p></section>
+<section><h2>A map that can grow</h2><p>The present map contains selected topics from the current framework. It is an initial working representation, not an exhaustive inventory. As the research develops, nodes and connections can be added, revised, moved, reclassified or removed. Relationships may also be refined into more precise types as their basis becomes clearer.</p><p>Its purpose is not to freeze knowledge into a diagram, but to make the evolving body of inquiry easier to explore, examine and extend.</p><p><a href="research-framework.html">Read the Research Framework</a> for the foundational architecture and current observed understandings.</p></section>
+</main>
+<footer><p>Science of Origin</p><p>An evolving research project. Initial working edition.</p><p>© 2026 Science of Origin. All rights reserved.</p><p><a href="about.html">About this project</a></p></footer>
+<script>
+(()=>{
+// Edit this data section to extend the map. Connections are research/navigation
+// associations, not automatic claims of proof, causation or dependency.
+const origin={id:"origin",label:"Origin",x:600,y:450,kind:"Origin · central subject",division:"all",desc:"Origin is the central subject of investigation in Science of Origin. Its visual position expresses central significance to the inquiry; it does not describe a physical location or claim to define Origin.",url:"origin.html",level:"origin"};
+const divisions=[
+{id:"division-foundations",label:"I. Foundations",x:600,y:115,division:"foundations",desc:"Origin, Consciousness / Freewill, imagination, origination and manifestation.",url:"foundations.html"},
+{id:"division-existence",label:"II. Existence",x:930,y:230,division:"existence",desc:"The nature and forms of existence: things, life, energy, matter, information, space and time.",url:"existence.html"},
+{id:"division-structure",label:"III. Structure",x:1010,y:530,division:"structure",desc:"Systems, rules, organization, relationships, boundaries, multiplicity and independence.",url:"structure.html"},
+{id:"division-origin-models",label:"IV. Origin Models",x:745,y:770,division:"origin-models",desc:"The Oneness Origin and the constructed imitation described as Fake Origin.",url:"origin-models.html"},
+{id:"division-creation",label:"V. Creation",x:455,y:770,division:"creation",desc:"Spontaneous and intentional imagination, conditional creation and further origination.",url:"creation.html"},
+{id:"division-dynamics",label:"VI. Dynamics",x:190,y:530,division:"dynamics",desc:"Interactions, causality, states, processes, transformation, emergence and possibility.",url:"dynamics.html"},
+{id:"division-research",label:"VII. Research",x:270,y:230,division:"research",desc:"Observation, measurement, knowledge, uncertainty, research methods and findings.",url:"research.html"}
+].map(d=>({...d,kind:"Major Division",level:"division"}));
+const topics=[
+{id:"infinity",label:"Infinity",x:485,y:205,division:"foundations",kind:"Fundamental Topic",desc:"Infinity as the closest definitional description of Origin and a central research domain.",url:"core-principles.html",level:"fundamental"},
+{id:"zero-idle",label:"Zero & Idle",x:710,y:220,division:"foundations",kind:"Fundamental Topic",desc:"Zero as the idle of Origin and Infinity before manifestation.",url:"zero-idle-state-of-origin.html",level:"fundamental"},
+{id:"freewill-choice",label:"Freewill & Choice",x:480,y:315,division:"foundations",kind:"Fundamental Topic",desc:"Freedom of choice, choice preceding origination, and the possibility of originating or not originating.",url:"consciousness-freewill.html",level:"fundamental"},
+{id:"existence-reality",label:"Existence & Reality",x:825,y:135,division:"existence",kind:"Fundamental Topic",desc:"The nature of existence, manifestation and reality.",url:"existence.html",level:"fundamental"},
+{id:"things-life",label:"Things & Life",x:1040,y:320,division:"existence",kind:"Fundamental Topic",desc:"Things, life forms and their place within the study of existence.",url:"existence.html",level:"fundamental"},
+{id:"systems",label:"Systems",x:1080,y:445,division:"structure",kind:"Fundamental Topic",desc:"Systems, organization, boundaries and relationships.",url:"structure.html",level:"fundamental"},
+{id:"relationships",label:"Relationships & Networks",x:900,y:640,division:"structure",kind:"Fundamental Topic",desc:"Connections and relationships within and across the research framework.",url:"structure.html",level:"fundamental"},
+{id:"fake-origin",label:"Fake Origin",x:820,y:700,division:"origin-models",kind:"Fundamental Topic",desc:"The constructed imitation described in the current Origin Models division.",url:"origin-models.html",level:"fundamental"},
+{id:"origination",label:"Origination",x:560,y:700,division:"creation",kind:"Fundamental Topic",desc:"The choice and process of originating, including the possibility of non-origination.",url:"origination.html",level:"fundamental"},
+{id:"manifestations",label:"Manifestations",x:380,y:690,division:"creation",kind:"Fundamental Topic",desc:"Expressions and observable existence, including things, lifeforms, intelligence, events and other manifestations.",url:"manifestations.html",level:"fundamental"},
+{id:"interactions",label:"Interactions",x:125,y:640,division:"dynamics",kind:"Fundamental Topic",desc:"Interactions within and between manifestations and systems.",url:"dynamics.html",level:"fundamental"},
+{id:"states-processes",label:"States & Processes",x:105,y:420,division:"dynamics",kind:"Fundamental Topic",desc:"States, processes, transformation and change as subjects of investigation.",url:"dynamics.html",level:"fundamental"},
+{id:"observation",label:"Perception & Observation",x:145,y:145,division:"research",kind:"Fundamental Topic",desc:"Perception, observation and the basis for investigation.",url:"perception-observation.html",level:"fundamental"},
+{id:"information-knowledge",label:"Information & Knowledge",x:355,y:125,division:"research",kind:"Fundamental Topic",desc:"Information, interpretation, knowledge and understanding.",url:"information-knowledge-understanding.html",level:"fundamental"},
+{id:"measurement",label:"Measurement & Quantification",x:300,y:350,division:"research",kind:"Extended Topic",desc:"Measurement methods, quantification, accuracy and uncertainty.",url:"measurement-quantification.html",level:"extended"},
+{id:"non-origination",label:"Non-origination",x:650,y:625,division:"creation",kind:"Extended Topic",desc:"The possibility of not originating, considered alongside origination.",url:"origination.html",level:"extended"},
+{id:"non-manifestation",label:"Non-manifestation",x:500,y:560,division:"creation",kind:"Extended Topic",desc:"Non-manifestation as a subject of investigation alongside manifestation.",url:"manifestations.html",level:"extended"},
+{id:"intelligence-experience",label:"Intelligence, Experience & Information",x:405,y:425,division:"research",kind:"Extended Topic",desc:"The current observed understanding distinguishes freedom of choice as the root of intelligence, experience as accumulating intelligence, and information as a third contributing element.",url:"research-framework.html",level:"extended"}
+];
+const nodes=[origin,...divisions,...topics],byId=Object.fromEntries(nodes.map(n=>[n.id,n]));
+const connections=[
+...divisions.map(d=>({from:"origin",to:d.id,type:"central"})),
+...topics.map(t=>({from:"division-"+t.division,to:t.id,type:"primary"})),
+{from:"infinity",to:"zero-idle",type:"cross"},{from:"zero-idle",to:"origination",type:"cross"},{from:"freewill-choice",to:"origination",type:"cross"},
+{from:"origination",to:"non-origination",type:"cross"},{from:"origination",to:"manifestations",type:"cross"},{from:"manifestations",to:"existence-reality",type:"cross"},
+{from:"things-life",to:"systems",type:"cross"},{from:"systems",to:"relationships",type:"cross"},{from:"interactions",to:"manifestations",type:"cross"},
+{from:"observation",to:"information-knowledge",type:"cross"},{from:"measurement",to:"observation",type:"cross"},
+{from:"intelligence-experience",to:"freewill-choice",type:"cross"},{from:"intelligence-experience",to:"information-knowledge",type:"cross"},
+{from:"non-manifestation",to:"zero-idle",type:"cross"},{from:"fake-origin",to:"origin",type:"cross"}
+];
+const ns="http://www.w3.org/2000/svg",edgeLayer=document.getElementById("edges"),nodeLayer=document.getElementById("nodes"),filter=document.getElementById("division-filter");
+const make=(tag,attrs={})=>{const el=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));return el;};
+connections.forEach(c=>{const a=byId[c.from],b=byId[c.to];if(a&&b)edgeLayer.appendChild(make("line",{x1:a.x,y1:a.y,x2:b.x,y2:b.y,class:"edge "+(c.type==="central"?"central":c.type==="cross"?"cross":""),"data-a":c.from,"data-b":c.to}));});
+const addText=(g,s,x,y)=>{const t=make("text",{x,y});t.textContent=s;g.appendChild(t);};
+nodes.forEach(n=>{
+const cls=["node",n.level==="division"?"major":"",n.level==="origin"?"origin":"",n.level==="extended"?"extended":""].filter(Boolean).join(" ");
+const g=make("g",{class:cls,tabindex:"0",role:"button","aria-label":n.label,"data-id":n.id,"data-division":n.division});
+const r=n.level==="origin"?55:n.level==="division"?43:n.level==="extended"?19:27;g.appendChild(make("circle",{cx:n.x,cy:n.y,r}));
+if(n.level==="division"){const p=n.label.split(" ");addText(g,p.slice(0,2).join(" "),n.x,n.y-2);addText(g,p.slice(2).join(" "),n.x,n.y+15);}
+else if(n.level==="origin")addText(g,"Origin",n.x,n.y+6);
+else{const s=n.label,cut=s.length>25?s.lastIndexOf(" ",25):-1,lines=cut>0?[s.slice(0,cut),s.slice(cut+1)]:[s];lines.forEach((line,i)=>addText(g,line,n.x,n.y+r+16+i*14));}
+g.addEventListener("click",()=>selectNode(n.id));g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();selectNode(n.id);}});nodeLayer.appendChild(g);
+});
+function selectNode(id){const n=byId[id];if(!n)return;document.querySelectorAll(".node").forEach(el=>el.classList.toggle("selected",el.dataset.id===id));document.getElementById("detail-kind").textContent=n.kind;document.getElementById("detail-title").textContent=n.label;document.getElementById("detail-description").textContent=n.desc;const a=document.getElementById("detail-link");if(n.url){a.href=n.url;a.textContent="Open related research page";a.hidden=false;}else a.hidden=true;}
+function applyFilter(){const v=filter.value;document.querySelectorAll(".node").forEach(el=>el.classList.toggle("dimmed",v!=="all"&&el.dataset.division!==v&&el.dataset.id!=="origin"));document.querySelectorAll(".edge").forEach(el=>{const a=byId[el.dataset.a],b=byId[el.dataset.b],show=v==="all"||a.division===v||b.division===v||a.id==="origin"||b.id==="origin";el.style.opacity=show?"":"0.07";});}
+filter.addEventListener("change",applyFilter);document.getElementById("reset-map").addEventListener("click",()=>{filter.value="all";applyFilter();document.querySelectorAll(".node").forEach(el=>el.classList.remove("selected"));document.getElementById("detail-kind").textContent="Explore the map";document.getElementById("detail-title").textContent="Select a node";document.getElementById("detail-description").textContent="Select Origin, a Major Division or any topic to explore its place in the framework. Where a related research page exists, a link will be provided.";const a=document.getElementById("detail-link");a.href="research-framework.html";a.textContent="Read the Research Framework";a.hidden=false;});
+})();
+</script></body></html>
