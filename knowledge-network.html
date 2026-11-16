@@ -190,7 +190,7 @@
       function selectNode(id) {
         const n=byId[id]; if(!n) return;
         document.querySelectorAll(".node").forEach(el=>el.classList.toggle("selected",el.dataset.id===id));
-        document.getElementById("detail-kind").textContent=n.kind+(n.major?"":" · "+(divisions.find(d=>d.id===n.division)?.label||""));
+        document.getElementById("detail-kind").textContent=n.kind+(n.major?"":" · "+(divisions.find(d=>d.id.replace("division-","")===n.division)?.label||""));
         document.getElementById("detail-title").textContent=n.label;
         document.getElementById("detail-description").textContent=n.desc;
         const link=document.getElementById("detail-link");
