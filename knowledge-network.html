@@ -167,8 +167,8 @@
         const p=byId[a], q=byId[b]; if(!p||!q) return;
         edgeLayer.appendChild(make("line",{x1:p.x,y1:p.y,x2:q.x,y2:q.y,class:type==="cross"?"edge cross":"edge","data-a":a,"data-b":b}));
       });
-      const drawLabel = (group,label,y) => {
-        const text=make("text",{x:0,y}); text.textContent=label; group.appendChild(text);
+      const drawLabel = (group,label,x,y) => {
+        const text=make("text",{x,y}); text.textContent=label; group.appendChild(text);
       };
       nodes.forEach(n => {
         const g=make("g",{class:"node "+(n.major?"major":n.kind==="Extended topic"?"extended":"topic"),tabindex:"0",role:"button","aria-label":n.label,"data-id":n.id,"data-division":n.division});
