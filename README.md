@@ -1,17 +1,22 @@
-# Science of Origin — Initial Website Pages
+# Science of Origin
 
-Initial static HTML draft containing:
-- `index.html` — Home
-- `origin.html` — Origin
-- `origination.html` — Origination
-- `research-framework.html` — Research Framework
-- `assets/site.css` — shared responsive styling
+Official website: https://scienceoforigin.space/
 
-## Preview
-Open `index.html` in a browser. The pages use relative links and do not require a build system or external libraries.
+Science of Origin is an evolving research project exploring Origin, Origination, existence, and the fundamental nature of everything that exists.
 
-## Deployment
-This is a draft only. It has not been connected to GitHub, deployed to Cloudflare Pages, or configured with either domain.
+## Website
 
-## Before publication
-Review wording, confirm the intended design direction, and compare the content with the complete historical discussions. The 0–1–2 and A–B–C models are explicitly provisional.
+The site is a lightweight static HTML website. Its pages are linked directly and do not require a build system or external libraries.
+
+The homepage introduces the seven divisions of the framework. The site also includes the **Foundational Framework**, the **Research Map**, the **Research Directory**, **Terminology**, current research directions, and the exploratory article **Origin Exploring Itself**.
+
+## Search engines
+
+- Sitemap: https://scienceoforigin.space/sitemap.xml
+- Robots instructions: https://scienceoforigin.space/robots.txt
+
+The sitemap lists the current published HTML pages. Update it when pages are added, removed, or renamed.
+
+## Local preview
+
+Open `index.html` in a browser. The pages use relative links and shared styling in `assets/site.css`.
