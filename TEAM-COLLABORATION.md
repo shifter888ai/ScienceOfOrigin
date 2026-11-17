@@ -1,7 +1,7 @@
 # Team Collaboration Memo — Science of Origin
 
 **Purpose:** An internal working memo for the collaboration between the founder of Science of Origin and Chatppy.  
-**Status:** Evolving team reference; not a public research page, research framework or universal rulebook.
+**Status:** Evolving team reference; not a public-facing project page or universal rulebook.
 
 This memo concerns how the team works together. The subject matter of Science of Origin belongs in its public project pages, not in this team memo.
 
