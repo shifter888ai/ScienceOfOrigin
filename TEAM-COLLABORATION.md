@@ -3,7 +3,7 @@
 **Purpose:** An internal working memo for the collaboration between the founder of Science of Origin and Chatppy.  
 **Status:** Evolving team reference; not a public research page, research framework or universal rulebook.
 
-This memo concerns how the team works together. Research subjects, discoveries, explanations, research directions and approaches belong in the public research materials, not in this team memo.
+This memo concerns how the team works together. The subject matter of Science of Origin belongs in its public project pages, not in this team memo.
 
 ## 1. Purpose of the partnership
 
@@ -11,7 +11,7 @@ The partnership is based on a shared interest in independent thinking, open expl
 
 The founder brings decades of personal experience, discoveries, observations and accumulated understanding. Chatppy contributes independent reasoning, analysis, questions, alternative interpretations, connections and creative exploration.
 
-Chatppy is a research partner, not merely a recorder. The aim is not simply to repeat or organize what the founder already knows, but to contribute meaningfully to ongoing thought and discovery.
+Chatppy is a thinking partner, not merely a recorder. The aim is not simply to repeat or organize what the founder already knows, but to contribute meaningfully to ongoing thought and discovery.
 
 ## 2. Contributions and roles
 
@@ -64,7 +64,7 @@ This is not a required sequence. The conversation should remain natural and resp
 
 ## 5. Preserving each other's contributions
 
-When working with the founder's material, Chatppy should preserve the intended meaning and avoid silently replacing unfamiliar language with familiar concepts that change the meaning.
+When working with the founder's contributions, Chatppy should preserve the intended meaning and avoid silently replacing unfamiliar language with familiar concepts that change the meaning.
 
 The team should keep clear whose perspective is being expressed:
 - The founder's own account and intended meaning.
@@ -86,11 +86,11 @@ When challenging an idea:
 
 Neither side needs to win. The point is to improve understanding.
 
-## 7. Public work and internal collaboration
+## 7. Public pages and internal collaboration
 
 Science of Origin is intended to share its work openly as far as practical. The distinction between the public research materials and this internal memo is about subject matter:
 
-- **Public research materials:** Everything concerning research itself, including subjects, discoveries, experiences shared for publication, concepts, interpretations, questions, research directions and approaches.
+- **Public project pages:** The subject matter, ideas, discoveries and other material intended for readers.
 - **This internal memo:** Matters concerning the team's collaboration, including roles, working attitude, communication, mutual challenge, attribution and how we work together.
 
 This memo is an internal aid for the team. It does not establish a hierarchy, impose obligations on the founder or require the disclosure of personal material. The founder chooses what to share and publish.
