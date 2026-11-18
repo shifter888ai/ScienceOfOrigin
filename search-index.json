@@ -1,5 +1,10 @@
 [
   {
+    "title": "About",
+    "url": "about.html",
+    "keywords": "about project mission vision science of origin"
+  },
+  {
     "title": "Boundaries & Domains",
     "url": "boundaries-domains.html",
     "keywords": "boundaries & domains boundaries domains"
@@ -50,11 +55,6 @@
     "keywords": "creation of new games creation of new games"
   },
   {
-    "title": "V. Creation",
-    "url": "creation.html",
-    "keywords": "v. creation creation"
-  },
-  {
     "title": "Cycles & Recurrence",
     "url": "cycles-recurrence.html",
     "keywords": "cycles & recurrence cycles recurrence"
@@ -65,11 +65,6 @@
     "keywords": "dependence & independence dependence independence"
   },
   {
-    "title": "VI. Dynamics",
-    "url": "dynamics.html",
-    "keywords": "vi. dynamics dynamics"
-  },
-  {
     "title": "Energy & Matter",
     "url": "energy-matter.html",
     "keywords": "energy & matter energy matter"
@@ -78,11 +73,6 @@
     "title": "Existence & Reality",
     "url": "existence-reality.html",
     "keywords": "existence & reality existence reality"
-  },
-  {
-    "title": "II. Nature of Existence",
-    "url": "existence.html",
-    "keywords": "ii. nature of existence existence"
   },
   {
     "title": "Fabricated Boundaries and Simulated Separation",
@@ -100,6 +90,11 @@
     "keywords": "fake origin — the divided origin fake origin divided origin"
   },
   {
+    "title": "Home",
+    "url": "index.html",
+    "keywords": "home science of origin root science existence origin project homepage"
+  },
+  {
     "title": "I. Foundations — Origin and Origination",
     "url": "foundations.html",
     "keywords": "i. foundations — origin and origination foundations"
@@ -108,6 +103,16 @@
     "title": "Identity & Continuity",
     "url": "identity-continuity.html",
     "keywords": "identity & continuity identity continuity"
+  },
+  {
+    "title": "II. Nature of Existence",
+    "url": "existence.html",
+    "keywords": "ii. nature of existence existence"
+  },
+  {
+    "title": "III. Structure",
+    "url": "structure.html",
+    "keywords": "iii. structure structure"
   },
   {
     "title": "Imagination",
@@ -125,14 +130,14 @@
     "keywords": "infinity of imagination infinity of imagination"
   },
   {
-    "title": "Information, Knowledge & Understanding",
-    "url": "information-knowledge-understanding.html",
-    "keywords": "information, knowledge & understanding information knowledge understanding"
-  },
-  {
     "title": "Information & Patterns",
     "url": "information-patterns.html",
     "keywords": "information & patterns information patterns"
+  },
+  {
+    "title": "Information, Knowledge & Understanding",
+    "url": "information-knowledge-understanding.html",
+    "keywords": "information, knowledge & understanding information knowledge understanding"
   },
   {
     "title": "Interactions",
@@ -140,9 +145,9 @@
     "keywords": "interactions interactions"
   },
   {
-    "title": "Nature of Life",
-    "url": "life.html",
-    "keywords": "nature of life life"
+    "title": "IV. Origin Models",
+    "url": "origin-models.html",
+    "keywords": "iv. origin models origin models"
   },
   {
     "title": "Manifestations",
@@ -160,6 +165,16 @@
     "keywords": "multiplicity & unity multiplicity unity"
   },
   {
+    "title": "Nature of Life",
+    "url": "life.html",
+    "keywords": "nature of life life"
+  },
+  {
+    "title": "Nature of Things",
+    "url": "things.html",
+    "keywords": "nature of things things"
+  },
+  {
     "title": "Oneness and Division",
     "url": "oneness-division.html",
     "keywords": "oneness and division oneness division"
@@ -168,6 +183,11 @@
     "title": "Order & Complexity",
     "url": "order-complexity.html",
     "keywords": "order & complexity order complexity"
+  },
+  {
+    "title": "Origin",
+    "url": "origin.html",
+    "keywords": "origin origin"
   },
   {
     "title": "Origin and Its Imitation",
@@ -180,14 +200,9 @@
     "keywords": "origin exploring itself origin exploring itself"
   },
   {
-    "title": "IV. Origin Models",
-    "url": "origin-models.html",
-    "keywords": "iv. origin models origin models"
-  },
-  {
-    "title": "Origin",
-    "url": "origin.html",
-    "keywords": "origin origin"
+    "title": "Origination",
+    "url": "origination.html",
+    "keywords": "origination origination"
   },
   {
     "title": "Origination Beyond the Creator's Original Design",
@@ -195,19 +210,9 @@
     "keywords": "origination beyond the creator's original design origination beyond original design"
   },
   {
-    "title": "Origination",
-    "url": "origination.html",
-    "keywords": "origination origination"
-  },
-  {
     "title": "Perception & Observation",
     "url": "perception-observation.html",
     "keywords": "perception & observation perception observation"
-  },
-  {
-    "title": "The Physical World as a Game",
-    "url": "physical-world-as-a-game.html",
-    "keywords": "the physical world as a game physical world as a game"
   },
   {
     "title": "Possibility & Potential",
@@ -240,6 +245,11 @@
     "keywords": "relative and apparent independence relative apparent independence"
   },
   {
+    "title": "Research & Discoveries",
+    "url": "research-discoveries.html",
+    "keywords": "research & discoveries research discoveries"
+  },
+  {
     "title": "Research Dialogue — Origin, Freewill and Conscious-Loop Structures",
     "url": "research-dialogues-origin-and-loops.html",
     "keywords": "research dialogue — origin, freewill and conscious-loop structures research dialogues origin and loops"
@@ -255,11 +265,6 @@
     "keywords": "research directory research directory"
   },
   {
-    "title": "Research & Discoveries",
-    "url": "research-discoveries.html",
-    "keywords": "research & discoveries research discoveries"
-  },
-  {
     "title": "Research Framework",
     "url": "research-framework.html",
     "keywords": "research framework research framework"
@@ -270,9 +275,9 @@
     "keywords": "research map research map"
   },
   {
-    "title": "VII. Research",
-    "url": "research.html",
-    "keywords": "vii. research research"
+    "title": "Research Sitemap",
+    "url": "sitemap.html",
+    "keywords": "complete index all sections pages links navigation"
   },
   {
     "title": "Sample Human Body-Complex",
@@ -283,6 +288,11 @@
     "title": "Scale & Levels",
     "url": "scale-levels.html",
     "keywords": "scale & levels scale levels"
+  },
+  {
+    "title": "Search",
+    "url": "search.html",
+    "keywords": "find search topics keywords titles"
   },
   {
     "title": "Simulated Absolute Independence",
@@ -310,11 +320,6 @@
     "keywords": "structure & function structure function"
   },
   {
-    "title": "III. Structure",
-    "url": "structure.html",
-    "keywords": "iii. structure structure"
-  },
-  {
     "title": "Systems",
     "url": "systems.html",
     "keywords": "systems systems"
@@ -325,14 +330,14 @@
     "keywords": "terminology terminology"
   },
   {
+    "title": "The Physical World as a Game",
+    "url": "physical-world-as-a-game.html",
+    "keywords": "the physical world as a game physical world as a game"
+  },
+  {
     "title": "Things & Life",
     "url": "things-life.html",
     "keywords": "things & life things life"
-  },
-  {
-    "title": "Nature of Things",
-    "url": "things.html",
-    "keywords": "nature of things things"
   },
   {
     "title": "Transformation & Emergence",
@@ -340,9 +345,19 @@
     "keywords": "transformation & emergence transformation emergence"
   },
   {
-    "title": "Zero-Energy Space",
-    "url": "zero-energy-space.html",
-    "keywords": "zero-energy space zero energy space"
+    "title": "V. Creation",
+    "url": "creation.html",
+    "keywords": "v. creation creation"
+  },
+  {
+    "title": "VI. Dynamics",
+    "url": "dynamics.html",
+    "keywords": "vi. dynamics dynamics"
+  },
+  {
+    "title": "VII. Research",
+    "url": "research.html",
+    "keywords": "vii. research research"
   },
   {
     "title": "Zero — Idle State of Origin",
@@ -350,18 +365,13 @@
     "keywords": "zero — idle state of origin zero idle state of origin"
   },
   {
+    "title": "Zero-Energy Space",
+    "url": "zero-energy-space.html",
+    "keywords": "zero-energy space zero energy space"
+  },
+  {
     "title": "Zero-Origin — Nature of Origin",
     "url": "zero-origin.html",
     "keywords": "zero-origin — nature of origin zero origin"
-  },
-  {
-    "title": "Research Sitemap",
-    "url": "sitemap.html",
-    "keywords": "complete index all sections pages links navigation"
-  },
-  {
-    "title": "Search",
-    "url": "search.html",
-    "keywords": "find search topics keywords titles"
   }
 ]
