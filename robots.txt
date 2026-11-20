@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://scienceoforigin.space/sitemap.xml
+Sitemap: https://scienceoforigin.org/sitemap.xml

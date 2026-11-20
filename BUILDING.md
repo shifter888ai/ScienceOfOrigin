@@ -17,9 +17,9 @@ From the repository root:
 npm run build
 ```
 
-The builder processes every root-level `.html` file. It extracts each page's existing brand link, navigation element and footer content, then inserts them into the shared component wrappers in `src/components/`.
+The builder processes every root-level `.html` file. It extracts each page's navigation element and inserts it into the shared header in `src/components/`. The brand and complete footer are defined once in the shared component files.
 
-Page-specific navigation, including `aria-current`, remains unchanged. Existing footer content and links are retained; About and Contact links are added to a page's footer only when missing.
+Page-specific navigation links are retained. The builder ensures that a navigation link to the current page has `aria-current="page"`; other page and section indicators are preserved. Every generated page receives exactly the same brand and footer content. Page-local footer content is not published; make global footer edits in `src/components/footer.html`.
 
 The generated `dist/` directory contains the complete HTML pages and copies the public `assets/` and `materials/` directories, `robots.txt`, `sitemap.xml` and `search-index.json`.
 
