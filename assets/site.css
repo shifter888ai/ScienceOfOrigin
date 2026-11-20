@@ -40,6 +40,8 @@ p, li { max-width: 780px; }
 .status { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; color: var(--muted); font-size: .78rem; }
 footer { border-top: 1px solid var(--line); padding: 22px 0 34px; color: var(--muted); font-size: .85rem; }
 footer p { margin: 4px 0; }
+.footer-contact { display: inline-flex; vertical-align: -3px; margin-left: 4px; color: var(--muted); }
+.footer-contact:hover { color: var(--text); }
 ul, ol { padding-left: 1.3rem; }
 @media (max-width: 600px) {
   header, main, footer { width: min(100% - 28px, var(--max)); }
