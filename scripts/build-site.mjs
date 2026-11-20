@@ -83,6 +83,11 @@ async function buildPage(fileName, headerTemplate, footerTemplate) {
 
   html = html.replace(headers[0][0], header).replace(footers[0][0], footer);
 
+  // Version shared assets on every generated page so browsers/CDNs do not retain
+  // stale positioning rules or the previous chat script after a deployment.
+  html = html.replace(/href=(["'])assets\\/site\\.css(?:\\?[^"']*)?\\1/gi, 'href="assets/site.css?v=20261121-1"');
+  html = html.replace(/src=(["'])assets\\/(site|ask)\\.js(?:\\?[^"']*)?\\1/gi, (_, quote, asset) => 'src="assets/' + asset + '.js?v=20261121-1"');
+
   if ((html.match(/<header\b/gi) ?? []).length !== 1 ||
       (html.match(/<footer\b/gi) ?? []).length !== 1) {
     throw new Error(fileName + ': generated page must contain exactly one header and footer');
