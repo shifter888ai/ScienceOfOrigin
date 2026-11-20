@@ -8,7 +8,7 @@ Architecture approved. The shared-component build foundation is implemented on a
 
 Use **shared source components with build-time generation of complete static HTML pages**.
 
-The header and footer each have one authoritative wrapper source. Existing research pages remain in their current root-level locations as editable source files. A small build step combines each page's own brand, navigation and footer content with the shared wrappers and produces ordinary HTML files for publication.
+The header and footer each have one authoritative wrapper source. Existing research pages remain in their current root-level locations as editable source files. A small build step combines the shared brand and footer with each page's own navigation and produces ordinary HTML files for publication.
 
 The site does not depend on runtime HTML injection through `worker.js`.
 
@@ -16,7 +16,7 @@ The site does not depend on runtime HTML injection through `worker.js`.
 
 The website is a lightweight static HTML site with approximately 90 root-level HTML pages. Moving every page into a new source directory would create unnecessary file churn and increase the risk of broken relative links. Keeping the existing page files in place is simpler and reversible.
 
-The builder extracts each page's existing brand link, navigation element and footer content. This preserves page-specific navigation state, including `aria-current`, and retains each page's existing footer links. The shared footer adds About or Contact links only when a page does not already contain them.
+The builder extracts each page's navigation element while the brand and complete footer come from the shared component files. This preserves page-specific navigation links and section indicators, and ensures that a navigation link to the current page is marked with `aria-current="page"`. All generated pages receive identical brand and footer content.
 
 ## Structure
 
@@ -85,7 +85,8 @@ Confirm the existing Cloudflare Pages build and output-directory settings. Confi
 
 - One source of truth for the global header wrapper and one for the global footer wrapper.
 - All public HTML pages are generated as complete, standalone static HTML.
-- Individual page content and navigation behavior are preserved.
-- About and Contact links are available through the footer on every page.
+- Individual page content and page-specific navigation links and indicators are preserved.
+- The brand and footer content are identical across all generated pages.
+- About and Contact links are available through the shared footer on every page.
 - The build and validation process can be run locally with documented commands.
 - The existing deployment method is retained or minimally adapted only after it has been inspected and tested.
