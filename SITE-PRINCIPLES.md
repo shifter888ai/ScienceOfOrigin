@@ -30,15 +30,27 @@ Present discoveries with humility and objectivity. The purpose is to communicate
 
 Humility governs the manner of communication; objectivity governs the faithful presentation of findings.
 
+## 3. Open Exchange and Reader Participation
+
+Keep communication open with readers. Welcome messages, comments, critiques, questions, corrections, research contributions, and relevant supporting materials.
+
+- Provide accessible ways for readers to communicate with the project and submit information or files for consideration.
+- Welcome disagreement and critical feedback as part of an open exchange.
+- Examine submissions fairly and objectively, without assuming they are correct or incorrect in advance.
+- Consider relevant contributions on the basis of their content and supporting information.
+
+Welcoming a submission does not mean accepting it as established. All contributions are considered in accordance with the practical, humble, and objective principles above.
+
 ## Application
 
-These principles apply to the entire website, including its homepage, About page, research framework, all research divisions, individual research pages, records, references, and future publications.
+These principles apply to the entire website, including its homepage, About page, research framework, all research divisions, individual research pages, records, references, contact channels, and future publications.
 
-When reviewing or revising any page:
+When reviewing or revising any page or communication channel:
 
 1. Check that its content reflects the practical research described in Principle 1.
 2. Check that its wording follows the humble and objective communication described in Principle 2.
-3. Preserve the meaning and provenance of original research records.
-4. Make editorial changes only where they improve accuracy, clarity, or consistency with these principles.
+3. Check that readers have an accessible way to communicate and contribute, as described in Principle 3.
+4. Preserve the meaning and provenance of original research records.
+5. Make editorial changes only where they improve accuracy, clarity, or consistency with these principles.
 
 These principles are the primary editorial reference for the Science of Origin website. Site design and technical conventions are maintained separately in `SITE-STANDARDS.md`.
