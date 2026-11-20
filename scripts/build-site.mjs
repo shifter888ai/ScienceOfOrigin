@@ -85,8 +85,14 @@ async function buildPage(fileName, headerTemplate, footerTemplate) {
 
   // Version shared assets on every generated page so browsers/CDNs do not retain
   // stale positioning rules or the previous chat script after a deployment.
-  html = html.replace(/href=(["'])assets\\/site\\.css(?:\\?[^"']*)?\\1/gi, 'href="assets/site.css?v=20261121-1"');
-  html = html.replace(/src=(["'])assets\\/(site|ask)\\.js(?:\\?[^"']*)?\\1/gi, (_, quote, asset) => 'src="assets/' + asset + '.js?v=20261121-1"');
+  for (const [from, to] of [
+    ['href="assets/site.css"', 'href="assets/site.css?v=20261121-1"'],
+    ["href='assets/site.css'", "href='assets/site.css?v=20261121-1'"],
+    ['src="assets/site.js"', 'src="assets/site.js?v=20261121-1"'],
+    ["src='assets/site.js'", "src='assets/site.js?v=20261121-1'"],
+    ['src="assets/ask.js"', 'src="assets/ask.js?v=20261121-1"'],
+    ["src='assets/ask.js'", "src='assets/ask.js?v=20261121-1'"]
+  ]) html = html.replaceAll(from, to);
 
   if ((html.match(/<header\b/gi) ?? []).length !== 1 ||
       (html.match(/<footer\b/gi) ?? []).length !== 1) {
