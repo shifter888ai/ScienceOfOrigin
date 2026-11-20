@@ -26,7 +26,7 @@ function count(source, token) {
 function requireOne(source, token, label, file) {
   const occurrences = count(source, token);
   if (occurrences !== 1) {
-    throw new Error(`${file}: expected exactly one ${label}; found ${occurrences}`);
+    throw new Error(file + ': expected exactly one ' + label + '; found ' + occurrences);
   }
 }
 
@@ -61,41 +61,40 @@ async function buildPage(relativePath, headerTemplate, footerTemplate) {
   const navEnd = html.indexOf(NAV_END);
   const footerStart = html.indexOf(FOOTER_START);
   const footerEnd = html.indexOf(FOOTER_END);
-  if (navEnd < navStart) throw new Error(`${pageName}: navigation end marker precedes start marker`);
-  if (footerEnd < footerStart) throw new Error(`${pageName}: footer end marker precedes start marker`);
+  if (navEnd < navStart) throw new Error(pageName + ': navigation end marker precedes start marker');
+  if (footerEnd < footerStart) throw new Error(pageName + ': footer end marker precedes start marker');
 
   const navigation = html.slice(navStart + NAV_START.length, navEnd).trim();
   const footerContent = html.slice(footerStart + FOOTER_START.length, footerEnd).trim();
-  if ((navigation.match(/<nav\\b/gi) ?? []).length !== 1 ||
-      !/<nav\\b[\\s\\S]*<\\/nav>/i.test(navigation)) {
-    throw new Error(`${pageName}: navigation slot must contain exactly one complete nav element`);
+  if ((navigation.match(/<nav\b/gi) ?? []).length !== 1 ||
+      !/<nav\b[\s\S]*<\/nav>/i.test(navigation)) {
+    throw new Error(pageName + ': navigation slot must contain exactly one complete nav element');
   }
-  if (!footerContent || /<footer\\b/i.test(footerContent)) {
-    throw new Error(`${pageName}: footer slot must contain footer content, not a footer wrapper`);
+  if (!footerContent || /<footer\b/i.test(footerContent)) {
+    throw new Error(pageName + ': footer slot must contain footer content, not a footer wrapper');
   }
-
-  html = html.slice(0, footerStart) + html.slice(footerEnd + FOOTER_END.length);
-  const navStartAfterFooter = html.indexOf(NAV_START);
-  const navEndAfterFooter = html.indexOf(NAV_END);
-  html = html.slice(0, navStartAfterFooter) + html.slice(navEndAfterFooter + NAV_END.length);
 
   const header = headerTemplate.replace('{{NAVIGATION}}', navigation);
   const footer = footerTemplate.replace('{{FOOTER_CONTENT}}', footerContent);
-  html = html.replace(HEADER_MARKER, header);
-  if (count(html, '{{FOOTER_CONTENT}}') || count(footer, '{{FOOTER_CONTENT}}')) {
-    throw new Error(`${pageName}: shared component slot was not replaced`);
+  if (count(header, '{{NAVIGATION}}') || count(footer, '{{FOOTER_CONTENT}}')) {
+    throw new Error(pageName + ': a shared component slot was not replaced');
   }
-  const footerMarker = '<!-- @site-footer -->';
-  requireOne(html, footerMarker, 'footer component marker', pageName);
-  html = html.replace(footerMarker, footer);
+
+  // Replace footer first, then navigation, preserving both page-specific slots.
+  html = html.slice(0, footerStart) + footer + html.slice(footerEnd + FOOTER_END.length);
+  const navStartAfterFooter = html.indexOf(NAV_START);
+  const navEndAfterFooter = html.indexOf(NAV_END);
+  html = html.slice(0, navStartAfterFooter) + html.slice(navEndAfterFooter + NAV_END.length);
+  html = html.replace(HEADER_MARKER, header);
 
   if (html.includes('@site-header') || html.includes('@site-footer') ||
-      html.includes('@page-navigation-') || html.includes('@site-footer-')) {
-    throw new Error(`${pageName}: an unprocessed component marker remains`);
+      html.includes('@page-navigation-') || html.includes('{{NAVIGATION}}') ||
+      html.includes('{{FOOTER_CONTENT}}')) {
+    throw new Error(pageName + ': an unprocessed component marker remains');
   }
-  if ((html.match(/<header\\b/gi) ?? []).length !== 1 ||
-      (html.match(/<footer\\b/gi) ?? []).length !== 1) {
-    throw new Error(`${pageName}: generated page must contain exactly one header and footer`);
+  if ((html.match(/<header\b/gi) ?? []).length !== 1 ||
+      (html.match(/<footer\b/gi) ?? []).length !== 1) {
+    throw new Error(pageName + ': generated page must contain exactly one header and footer');
   }
 
   await mkdir(path.dirname(outputPath), { recursive: true });
@@ -141,13 +140,13 @@ async function main() {
     if (await copyIfPresent(path.join(root, name), path.join(outputDir, name))) copied.push(name);
   }
 
-  console.log(`Built ${built.length} HTML page(s) into dist/:`);
-  for (const page of built) console.log(`  - ${page}`);
-  console.log(`Copied public resources: ${copied.join(', ') || 'none'}`);
+  console.log('Built ' + built.length + ' HTML page(s) into dist/:');
+  for (const page of built) console.log('  - ' + page);
+  console.log('Copied public resources: ' + (copied.join(', ') || 'none'));
   console.log('Output is complete static HTML; source pages remain unchanged.');
 }
 
 main().catch(error => {
-  console.error(`Build failed: ${error.message}`);
+  console.error('Build failed: ' + error.message);
   process.exitCode = 1;
 });
