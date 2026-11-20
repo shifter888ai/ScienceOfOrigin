@@ -31,16 +31,22 @@ async function collectRootHtml() {
     .sort((a, b) => a.localeCompare(b));
 }
 
-function ensureGlobalFooterLinks(content) {
-  const missing = [];
-  if (!/<a\b[^>]*href=["']about\.html["']/i.test(content)) {
-    missing.push('<a href="about.html">About this project</a>');
-  }
-  if (!/<a\b[^>]*href=["']contact\.html["']/i.test(content)) {
-    missing.push('<a href="contact.html">Contact</a>');
-  }
-  if (!missing.length) return content;
-  return content + '\n<p class="site-footer-links">' + missing.join(' · ') + '</p>';
+function markCurrentPage(nav, fileName) {
+  const doubleQuotedHref = 'href="' + fileName + '"';
+  const singleQuotedHref = "href='" + fileName + "'";
+  let matches = 0;
+  const updated = nav.replace(/<a\b[^>]*>/gi, anchor => {
+    if (!anchor.includes(doubleQuotedHref) && !anchor.includes(singleQuotedHref)) return anchor;
+    matches += 1;
+    if (matches > 1) {
+      throw new Error(fileName + ': navigation contains more than one link to the current page');
+    }
+    if (/\baria-current\s*=/.test(anchor)) {
+      return anchor.replace(/\baria-current\s*=\s*(["'])[^"']*\1/i, 'aria-current="page"');
+    }
+    return anchor.replace(/>$/, ' aria-current="page">');
+  });
+  return updated;
 }
 
 async function buildPage(fileName, headerTemplate, footerTemplate) {
@@ -67,19 +73,12 @@ async function buildPage(fileName, headerTemplate, footerTemplate) {
     throw new Error(fileName + ': expected exactly one navigation element in the header; found ' + navMatches.length);
   }
 
-  const footerContent = ensureGlobalFooterLinks(footers[0][1].trim());
-  if (!footerContent || /<footer\b/i.test(footerContent)) {
-    throw new Error(fileName + ': source footer must contain content, not another footer wrapper');
-  }
+  const navigation = markCurrentPage(navMatches[0][0], fileName);
+  const header = headerTemplate.replace('{{NAVIGATION}}', navigation);
+  const footer = footerTemplate;
 
-  const header = headerTemplate
-    .replace('{{BRAND}}', brandMatches[0][0])
-    .replace('{{NAVIGATION}}', navMatches[0][0]);
-  const footer = footerTemplate.replace('{{FOOTER_CONTENT}}', footerContent);
-
-  if (count(header, '{{BRAND}}') || count(header, '{{NAVIGATION}}') ||
-      count(footer, '{{FOOTER_CONTENT}}')) {
-    throw new Error(fileName + ': a shared component slot was not replaced');
+  if (count(header, '{{NAVIGATION}}')) {
+    throw new Error(fileName + ': the shared navigation slot was not replaced');
   }
 
   html = html.replace(headers[0][0], header).replace(footers[0][0], footer);
@@ -109,9 +108,7 @@ async function main() {
     readFile(path.join(componentsDir, 'footer.html'), 'utf8')
   ]);
   for (const [template, slot, file] of [
-    [headerTemplate, '{{BRAND}}', 'header.html'],
-    [headerTemplate, '{{NAVIGATION}}', 'header.html'],
-    [footerTemplate, '{{FOOTER_CONTENT}}', 'footer.html']
+    [headerTemplate, '{{NAVIGATION}}', 'header.html']
   ]) {
     if (count(template, slot) !== 1) {
       throw new Error(file + ' must contain exactly one ' + slot + ' slot');
