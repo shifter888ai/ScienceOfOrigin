@@ -1,23 +1,16 @@
 #!/usr/bin/env node
 /**
  * Dependency-free static-site builder.
- * Each source page retains its own navigation and footer content while the
- * shared header/footer structure is assembled into complete static HTML.
+ * Existing root-level HTML pages remain the editable source. The build
+ * assembles shared header/footer wrappers into complete HTML under dist/.
  */
 import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const pagesDir = path.join(root, 'src', 'pages');
 const componentsDir = path.join(root, 'src', 'components');
 const outputDir = path.join(root, 'dist');
-
-const HEADER_MARKER = '<!-- @site-header -->';
-const NAV_START = '<!-- @page-navigation-start -->';
-const NAV_END = '<!-- @page-navigation-end -->';
-const FOOTER_START = '<!-- @site-footer-start -->';
-const FOOTER_END = '<!-- @site-footer-end -->';
 
 function count(source, token) {
   return source.split(token).length - 1;
@@ -30,76 +23,74 @@ function requireOne(source, token, label, file) {
   }
 }
 
-async function collectHtml(directory, relative = '') {
-  const entries = await readdir(directory, { withFileTypes: true });
-  const files = [];
-  for (const entry of entries.sort((a, b) => a.name.localeCompare(b.name))) {
-    const childRelative = path.join(relative, entry.name);
-    const childAbsolute = path.join(directory, entry.name);
-    if (entry.isDirectory()) {
-      files.push(...await collectHtml(childAbsolute, childRelative));
-    } else if (entry.isFile() && entry.name.toLowerCase().endsWith('.html')) {
-      files.push(childRelative);
-    }
-  }
-  return files;
+async function collectRootHtml() {
+  const entries = await readdir(root, { withFileTypes: true });
+  return entries
+    .filter(entry => entry.isFile() && entry.name.toLowerCase().endsWith('.html'))
+    .map(entry => entry.name)
+    .sort((a, b) => a.localeCompare(b));
 }
 
-async function buildPage(relativePath, headerTemplate, footerTemplate) {
-  const sourcePath = path.join(pagesDir, relativePath);
-  const outputPath = path.join(outputDir, relativePath);
-  const pageName = relativePath.split(path.sep).join('/');
+function ensureGlobalFooterLinks(content) {
+  const missing = [];
+  if (!/<a\b[^>]*href=["']about\.html["']/i.test(content)) {
+    missing.push('<a href="about.html">About this project</a>');
+  }
+  if (!/<a\b[^>]*href=["']contact\.html["']/i.test(content)) {
+    missing.push('<a href="contact.html">Contact</a>');
+  }
+  if (!missing.length) return content;
+  return content + '\n<p class="site-footer-links">' + missing.join(' · ') + '</p>';
+}
+
+async function buildPage(fileName, headerTemplate, footerTemplate) {
+  const sourcePath = path.join(root, fileName);
+  const outputPath = path.join(outputDir, fileName);
   let html = await readFile(sourcePath, 'utf8');
 
-  requireOne(html, HEADER_MARKER, 'header marker', pageName);
-  requireOne(html, NAV_START, 'navigation start marker', pageName);
-  requireOne(html, NAV_END, 'navigation end marker', pageName);
-  requireOne(html, FOOTER_START, 'footer start marker', pageName);
-  requireOne(html, FOOTER_END, 'footer end marker', pageName);
-
-  const navStart = html.indexOf(NAV_START);
-  const navEnd = html.indexOf(NAV_END);
-  const footerStart = html.indexOf(FOOTER_START);
-  const footerEnd = html.indexOf(FOOTER_END);
-  if (navEnd < navStart) throw new Error(pageName + ': navigation end marker precedes start marker');
-  if (footerEnd < footerStart) throw new Error(pageName + ': footer end marker precedes start marker');
-
-  const navigation = html.slice(navStart + NAV_START.length, navEnd).trim();
-  const footerContent = html.slice(footerStart + FOOTER_START.length, footerEnd).trim();
-  if ((navigation.match(/<nav\b/gi) ?? []).length !== 1 ||
-      !/<nav\b[\s\S]*<\/nav>/i.test(navigation)) {
-    throw new Error(pageName + ': navigation slot must contain exactly one complete nav element');
+  const headers = [...html.matchAll(/<header\b[^>]*>[\s\S]*?<\/header>/gi)];
+  const footers = [...html.matchAll(/<footer\b[^>]*>([\s\S]*?)<\/footer>/gi)];
+  if (headers.length !== 1) {
+    throw new Error(fileName + ': expected exactly one source header; found ' + headers.length);
   }
+  if (footers.length !== 1) {
+    throw new Error(fileName + ': expected exactly one source footer; found ' + footers.length);
+  }
+
+  const headerContent = headers[0][0];
+  const brandMatches = [...headerContent.matchAll(/<a\b[^>]*class=["'][^"']*\bbrand\b[^"']*["'][^>]*>[\s\S]*?<\/a>/gi)];
+  const navMatches = [...headerContent.matchAll(/<nav\b[^>]*>[\s\S]*?<\/nav>/gi)];
+  if (brandMatches.length !== 1) {
+    throw new Error(fileName + ': expected exactly one brand link in the header; found ' + brandMatches.length);
+  }
+  if (navMatches.length !== 1) {
+    throw new Error(fileName + ': expected exactly one navigation element in the header; found ' + navMatches.length);
+  }
+
+  const footerContent = ensureGlobalFooterLinks(footers[0][1].trim());
   if (!footerContent || /<footer\b/i.test(footerContent)) {
-    throw new Error(pageName + ': footer slot must contain footer content, not a footer wrapper');
+    throw new Error(fileName + ': source footer must contain content, not another footer wrapper');
   }
 
-  const header = headerTemplate.replace('{{NAVIGATION}}', navigation);
+  const header = headerTemplate
+    .replace('{{BRAND}}', brandMatches[0][0])
+    .replace('{{NAVIGATION}}', navMatches[0][0]);
   const footer = footerTemplate.replace('{{FOOTER_CONTENT}}', footerContent);
-  if (count(header, '{{NAVIGATION}}') || count(footer, '{{FOOTER_CONTENT}}')) {
-    throw new Error(pageName + ': a shared component slot was not replaced');
+
+  if (count(header, '{{BRAND}}') || count(header, '{{NAVIGATION}}') ||
+      count(footer, '{{FOOTER_CONTENT}}')) {
+    throw new Error(fileName + ': a shared component slot was not replaced');
   }
 
-  // Replace footer first, then navigation, preserving both page-specific slots.
-  html = html.slice(0, footerStart) + footer + html.slice(footerEnd + FOOTER_END.length);
-  const navStartAfterFooter = html.indexOf(NAV_START);
-  const navEndAfterFooter = html.indexOf(NAV_END);
-  html = html.slice(0, navStartAfterFooter) + html.slice(navEndAfterFooter + NAV_END.length);
-  html = html.replace(HEADER_MARKER, header);
+  html = html.replace(headers[0][0], header).replace(footers[0][0], footer);
 
-  if (html.includes('@site-header') || html.includes('@site-footer') ||
-      html.includes('@page-navigation-') || html.includes('{{NAVIGATION}}') ||
-      html.includes('{{FOOTER_CONTENT}}')) {
-    throw new Error(pageName + ': an unprocessed component marker remains');
-  }
   if ((html.match(/<header\b/gi) ?? []).length !== 1 ||
       (html.match(/<footer\b/gi) ?? []).length !== 1) {
-    throw new Error(pageName + ': generated page must contain exactly one header and footer');
+    throw new Error(fileName + ': generated page must contain exactly one header and footer');
   }
 
-  await mkdir(path.dirname(outputPath), { recursive: true });
   await writeFile(outputPath, html, 'utf8');
-  return pageName;
+  return fileName;
 }
 
 async function copyIfPresent(source, destination) {
@@ -117,15 +108,18 @@ async function main() {
     readFile(path.join(componentsDir, 'header.html'), 'utf8'),
     readFile(path.join(componentsDir, 'footer.html'), 'utf8')
   ]);
-  if (count(headerTemplate, '{{NAVIGATION}}') !== 1) {
-    throw new Error('header.html must contain exactly one {{NAVIGATION}} slot');
-  }
-  if (count(footerTemplate, '{{FOOTER_CONTENT}}') !== 1) {
-    throw new Error('footer.html must contain exactly one {{FOOTER_CONTENT}} slot');
+  for (const [template, slot, file] of [
+    [headerTemplate, '{{BRAND}}', 'header.html'],
+    [headerTemplate, '{{NAVIGATION}}', 'header.html'],
+    [footerTemplate, '{{FOOTER_CONTENT}}', 'footer.html']
+  ]) {
+    if (count(template, slot) !== 1) {
+      throw new Error(file + ' must contain exactly one ' + slot + ' slot');
+    }
   }
 
-  const pages = await collectHtml(pagesDir);
-  if (!pages.length) throw new Error('No HTML source pages found in src/pages/');
+  const pages = await collectRootHtml();
+  if (!pages.length) throw new Error('No root-level HTML source pages found');
 
   await rm(outputDir, { recursive: true, force: true });
   await mkdir(outputDir, { recursive: true });
@@ -143,7 +137,7 @@ async function main() {
   console.log('Built ' + built.length + ' HTML page(s) into dist/:');
   for (const page of built) console.log('  - ' + page);
   console.log('Copied public resources: ' + (copied.join(', ') || 'none'));
-  console.log('Output is complete static HTML; source pages remain unchanged.');
+  console.log('Source HTML remains in the repository root; generated output is disposable.');
 }
 
 main().catch(error => {
