@@ -88,6 +88,11 @@ async function buildPage(fileName, headerTemplate, footerTemplate) {
     throw new Error(fileName + ': generated page must contain exactly one header and footer');
   }
 
+  const generatedFooter = html.match(/<footer\b[^>]*>[\s\S]*?<\/footer>/i)?.[0] ?? '';
+  if (!/<a\b[^>]*href=["']contact\.html["'][^>]*aria-label=["']Contact["']/i.test(generatedFooter)) {
+    throw new Error(fileName + ': generated global footer is missing its accessible Contact link');
+  }
+
   await writeFile(outputPath, html, 'utf8');
   return fileName;
 }
@@ -115,6 +120,10 @@ async function main() {
     }
   }
 
+  if (!/<a\b[^>]*href=["']contact\.html["'][^>]*aria-label=["']Contact["']/i.test(footerTemplate)) {
+    throw new Error('Shared footer template must contain an accessible Contact link');
+  }
+
   const pages = await collectRootHtml();
   if (!pages.length) throw new Error('No root-level HTML source pages found');
 
@@ -133,6 +142,7 @@ async function main() {
 
   console.log('Built ' + built.length + ' HTML page(s) into dist/:');
   for (const page of built) console.log('  - ' + page);
+  console.log('Verified accessible global Contact link on all ' + built.length + ' generated page(s).');
   console.log('Copied public resources: ' + (copied.join(', ') || 'none'));
   console.log('Source HTML remains in the repository root; generated output is disposable.');
 }
