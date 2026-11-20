@@ -84,6 +84,31 @@ async function retrievePages(request, question) {
   return pages.filter(Boolean);
 }
 
+function textFromContent(value) {
+  if (typeof value === 'string') return value;
+  if (Array.isArray(value)) {
+    return value.map(part => typeof part === 'string' ? part : (part && typeof part.text === 'string' ? part.text : '')).join('');
+  }
+  return '';
+}
+
+function extractAnswer(result) {
+  if (typeof result === 'string') return result;
+  const candidates = [
+    result && result.response,
+    result && result.choices && result.choices[0] && result.choices[0].message && result.choices[0].message.content,
+    result && result.message && result.message.content,
+    result && result.output_text,
+    result && result.result && result.result.response,
+    result && result.result && result.result.choices && result.result.choices[0] && result.result.choices[0].message && result.result.choices[0].message.content
+  ];
+  for (const candidate of candidates) {
+    const text = textFromContent(candidate).trim();
+    if (text) return text;
+  }
+  return '';
+}
+
 export async function onRequestPost({ request, env }) {
   if (!env.AI || typeof env.AI.run !== 'function') {
     return json({ error: 'The AI service has not been connected yet. Please try again later.' }, 503);
@@ -133,10 +158,11 @@ export async function onRequestPost({ request, env }) {
     const result = await env.AI.run(MODEL, {
       messages: [{ role: 'system', content: system }, ...history],
       max_completion_tokens: 900,
-      temperature: 0.35
+      temperature: 0.35,
+      chat_template_kwargs: { enable_thinking: false }
     });
-    const answer = typeof result === 'string' ? result : (result && typeof result.response === 'string' ? result.response : '');
-    if (!answer) return json({ error: 'The AI service returned an empty response. Please try again.' }, 503);
+    const answer = extractAnswer(result);
+    if (!answer) return json({ error: 'The AI service did not return a readable answer. Please try again.' }, 503);
     return json({
       answer: answer.trim(),
       sources: pages.map(page => ({ title: page.title, url: page.url }))
