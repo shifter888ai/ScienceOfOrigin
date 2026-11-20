@@ -103,7 +103,7 @@ export async function onRequestPost({ request, env }) {
     return json({ error: 'Please send a valid question.' }, 400);
   }
 
-  if (!Array.isArray(body.messages) || !body.messages.length) {
+  if (!body || !Array.isArray(body.messages) || !body.messages.length) {
     return json({ error: 'Please enter a question.' }, 400);
   }
 
