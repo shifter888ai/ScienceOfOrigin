@@ -2,7 +2,7 @@
 
 ## Status
 
-Proposed architecture. This document records the agreed direction before implementation. It does not change the published site or deployment process.
+Architecture approved. Phase 2 prototype is being developed on a review branch; the production site and deployment process remain unchanged.
 
 ## Decision
 
