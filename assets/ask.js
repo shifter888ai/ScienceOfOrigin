@@ -14,7 +14,7 @@
     String(value).replace(/\\([\\\x60*_{}\[\]()#+.!|>~-])/g, '$1');
 
   const appendInline = (parent, value) => {
-    const parts = String(value).split(/(\\*\\*[^*]+?\\*\\*|\\*[^*]+?\\*)/g);
+    const parts = String(value).split(/(\*\*[^*]+?\*\*|\*[^*]+?\*)/g);
     for (const part of parts) {
       if (!part) continue;
       if (part.startsWith('**') && part.endsWith('**')) {
@@ -62,7 +62,7 @@
       }
 
       const heading = line.match(/^#{1,3}\s+(.+)$/) ||
-        line.match(/^\\*\\*(.+)\\*\\*$/);
+        line.match(/^\*\*(.+)\*\*$/);
       if (heading) {
         flushParagraph();
         flushList();
