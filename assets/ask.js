@@ -11,7 +11,7 @@
   // Convert escaped Markdown punctuation back to its intended form.
   // Rendering is performed with DOM text nodes; model output is never HTML.
   const normalizeMarkdown = value =>
-    String(value).replace(/\\([\\\x60*_{}\[\]()#+.!|>~-])/g, '$1');
+    String(value).replace(/\\+([\\\x60*_{}\[\]()#+.!|>~-])/g, '$1');
 
   const appendInline = (parent, value) => {
     const parts = String(value).split(/(\*\*[^*]+?\*\*|\*[^*]+?\*)/g);
