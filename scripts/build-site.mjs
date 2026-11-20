@@ -109,8 +109,29 @@ async function buildPage(fileName, headerTemplate, footerTemplate) {
   if (!/<a\b[^>]*href=["']contact\.html["'][^>]*aria-label=["']Contact["']/i.test(generatedFooter)) {
     throw new Error(fileName + ': generated global footer is missing its accessible Contact link');
   }
-  if (!/<button\b[^>]*id=["']back-to-top["'][^>]*aria-label=["']Return to top["']/i.test(html) ||
-      !/<script\b[^>]*src=["']assets\/site\.js["']/i.test(html)) {
+  // The Return-to-Top control is shared site chrome, so add it during generation
+  // rather than requiring every individual source page to duplicate the markup.
+  if (!/<button\\b[^>]*id=["']back-to-top["']/i.test(html)) {
+    const control = `  <button class="back-to-top" id="back-to-top" type="button" aria-label="Return to top" title="Return to top" hidden>
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 14 6-6 6 6"></path></svg>
+  </button>\\n`;
+    if (!/<\\/body>/i.test(html)) {
+      throw new Error(fileName + ': cannot insert the global Return-to-Top control without a closing body tag');
+    }
+    html = html.replace(/<\\/body>/i, control + '</body>');
+  }
+
+  // Load the shared script on every generated page; the query string is intentional
+  // and must be accepted by the validation below.
+  if (!/<script\\b[^>]*src=["']assets\\/site\\.js(?:\\?[^"']*)?["']/i.test(html)) {
+    if (!/<\\/body>/i.test(html)) {
+      throw new Error(fileName + ': cannot insert the global site script without a closing body tag');
+    }
+    html = html.replace(/<\\/body>/i, '  <script src="assets/site.js?v=20261121-1"></script>\\n</body>');
+  }
+
+  if (!/<button\\b[^>]*id=["']back-to-top["'][^>]*aria-label=["']Return to top["']/i.test(html) ||
+      !/<script\\b[^>]*src=["']assets\\/site\\.js(?:\\?[^"']*)?["']/i.test(html)) {
     throw new Error(fileName + ': generated page is missing the global Return-to-Top control');
   }
 
