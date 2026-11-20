@@ -69,3 +69,45 @@ ul, ol { padding-left: 1.3rem; }
   .header-icon { width: 34px; height: 34px; }
   .back-to-top { right: 16px; bottom: 16px; }
 }
+
+
+/* Explicit desktop alignment for shared quick actions */
+header .header-top {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100%;
+  gap: 20px;
+}
+header .header-actions {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+header .header-icon { flex: 0 0 36px; }
+
+/* Keep the global arrow floating at the lower-right, independent of page layout */
+button.back-to-top,
+#back-to-top.back-to-top {
+  position: fixed !important;
+  left: auto !important;
+  right: 24px !important;
+  top: auto !important;
+  bottom: 24px !important;
+  z-index: 1000 !important;
+  transform: none !important;
+}
+@media (max-width: 600px) {
+  header .header-top { gap: 12px; }
+  header .header-actions { gap: 8px; }
+  header .header-icon { flex-basis: 34px; }
+  button.back-to-top,
+  #back-to-top.back-to-top {
+    right: 16px !important;
+    bottom: 16px !important;
+  }
+}
