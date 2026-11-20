@@ -15,6 +15,11 @@
     "keywords": "causality & influence causality influence"
   },
   {
+    "title": "Central Research History",
+    "url": "research-history.html",
+    "keywords": "central research history historical records chronology provenance source materials cross-field connections"
+  },
+  {
     "title": "Conditional Creation — IF / THEN / ELSE",
     "url": "conditional-creation.html",
     "keywords": "conditional creation — if / then / else conditional creation"
@@ -90,6 +95,11 @@
     "keywords": "fake origin — the divided origin fake origin divided origin"
   },
   {
+    "title": "Freedom That Depends on Nothing",
+    "url": "freedom-depends-on-nothing.html",
+    "keywords": "freedom that depends on nothing freewill imagination imaginations existence detection interaction independence"
+  },
+  {
     "title": "Home",
     "url": "index.html",
     "keywords": "home science of origin root science existence origin project homepage"
@@ -130,6 +140,11 @@
     "keywords": "infinity of imagination infinity of imagination"
   },
   {
+    "title": "Infinity, Surprise, and the Indescribable",
+    "url": "infinity-surprise-indescribable.html",
+    "keywords": "infinity surprise freewill self-knowledge self-awareness unknown origination zero idle undefined infinity imagination descriptions indescribable"
+  },
+  {
     "title": "Information & Patterns",
     "url": "information-patterns.html",
     "keywords": "information & patterns information patterns"
@@ -168,6 +183,11 @@
     "title": "Nature of Life",
     "url": "life.html",
     "keywords": "nature of life life"
+  },
+  {
+    "title": "Nature of Origin",
+    "url": "nature-of-origin.html",
+    "keywords": "nature of origin origin nature aspects infinity consciousness freewill spirit void idle manifestation experiential account"
   },
   {
     "title": "Nature of Things",
@@ -290,6 +310,16 @@
     "keywords": "scale & levels scale levels"
   },
   {
+    "title": "Science of Consciousness",
+    "url": "science-of-consciousness.html",
+    "keywords": "science of consciousness nature of life nature of things freewill spectrum spectra detection methodology freedomality entropy strength awakenology exincarnology"
+  },
+  {
+    "title": "Science of Consciousness — Research Record (November 19, 2026)",
+    "url": "science-of-consciousness-progress-004.html",
+    "keywords": "science of consciousness research record historical progress spectrum methodology detection emergent recursive methodologies"
+  },
+  {
     "title": "Search",
     "url": "search.html",
     "keywords": "find search topics keywords titles"
@@ -330,6 +360,11 @@
     "keywords": "terminology terminology"
   },
   {
+    "title": "The Origin-Game",
+    "url": "origin-game.html",
+    "keywords": "origin game gaming games creation origination purpose fun boredom activity games within games illusion freewill"
+  },
+  {
     "title": "The Physical World as a Game",
     "url": "physical-world-as-a-game.html",
     "keywords": "the physical world as a game physical world as a game"
@@ -360,6 +395,11 @@
     "keywords": "vii. research research"
   },
   {
+    "title": "Virtuality of Existence",
+    "url": "virtuality-of-existence.html",
+    "keywords": "virtuality existence imagination imaginable real unreal virtuality of existence manifestation"
+  },
+  {
     "title": "Zero — Idle State of Origin",
     "url": "zero-idle-state-of-origin.html",
     "keywords": "zero — idle state of origin zero idle state of origin"
@@ -373,30 +413,5 @@
     "title": "Zero-Origin — Nature of Origin",
     "url": "zero-origin.html",
     "keywords": "zero-origin — nature of origin zero origin"
-  },
-  {
-    "title": "Freedom That Depends on Nothing",
-    "url": "freedom-depends-on-nothing.html",
-    "keywords": "freedom that depends on nothing freewill imagination imaginations existence detection interaction independence"
-  },
-  {
-    "title": "Infinity, Surprise, and the Indescribable",
-    "url": "infinity-surprise-indescribable.html",
-    "keywords": "infinity surprise freewill self-knowledge self-awareness unknown origination zero idle undefined infinity imagination descriptions indescribable"
-  },
-  {
-    "title": "Central Research History",
-    "url": "research-history.html",
-    "keywords": "central research history historical records chronology provenance source materials cross-field connections"
-  },
-  {
-    "title": "Science of Consciousness",
-    "url": "science-of-consciousness.html",
-    "keywords": "science of consciousness nature of life nature of things freewill spectrum spectra detection methodology freedomality entropy strength awakenology exincarnology"
-  },
-  {
-    "title": "Science of Consciousness — Research Record (November 19, 2026)",
-    "url": "science-of-consciousness-progress-004.html",
-    "keywords": "science of consciousness research record historical progress spectrum methodology detection emergent recursive methodologies"
   }
 ]
