@@ -2,11 +2,11 @@
 
 ## Current status
 
-The build system is in its Phase 2 prototype. It currently builds the homepage source only; the remaining public pages have not yet been migrated. The production site and deployment process are unchanged.
+The build foundation is in place. The site-wide build now reads the existing root-level HTML pages as source, assembles the shared header and footer, and writes complete static HTML files to `dist/`. Source pages remain in their current locations; no content relocation is required.
 
 ## Requirements
 
-- Node.js with ES module support (Node.js 18 or later)
+- Node.js 18 or later
 - No package installation and no third-party dependencies
 
 ## Build
@@ -17,19 +17,14 @@ From the repository root:
 npm run build
 ```
 
-The command reads the HTML source pages in `src/pages/`, combines each page with the shared components in `src/components/`, and writes complete static HTML files to `dist/`. The existing `assets/` directory is copied into the output when present.
+The builder processes every root-level `.html` file. It extracts each page's existing brand link, navigation element and footer content, then inserts them into the shared component wrappers in `src/components/`.
 
-The generated `dist/` directory is disposable build output. Edit source files, not generated files.
+Page-specific navigation, including `aria-current`, remains unchanged. Existing footer content and links are retained; About and Contact links are added to a page's footer only when missing.
 
-## Page component markers
+The generated `dist/` directory contains the complete HTML pages and copies the public `assets/` and `materials/` directories, `robots.txt`, `sitemap.xml` and `search-index.json`.
 
-Each source page uses one `<!-- @site-header -->` marker, one `<!-- @site-footer -->` marker, and a navigation slot delimited by:
+The generated `dist/` directory is disposable build output. Edit the original root-level HTML and component source files, not generated files.
 
-- `<!-- @page-navigation-start -->`
-- `<!-- @page-navigation-end -->`
+## Validation and deployment
 
-The navigation remains page-specific in this prototype so its existing links and current-page marker can be preserved exactly. The shared header owns the site identity and header structure; the shared footer owns the global footer links.
-
-## Important
-
-This prototype is not yet a complete deployable site build. Do not point production hosting at `dist/` until all public pages and required root-level files (including sitemap, robots and search assets where applicable) have been migrated and validated, and the existing deployment path has been confirmed.
+The build fails if a page does not contain exactly one header and footer, or if its header does not contain exactly one brand link and one navigation element. Do not point production hosting at `dist/` until the build has been run locally, all output pages and links have been checked, and the current Cloudflare Pages deployment settings have been confirmed.
