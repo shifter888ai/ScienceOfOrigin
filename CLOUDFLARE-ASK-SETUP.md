@@ -5,7 +5,7 @@ The Ask page uses a Cloudflare Pages Function at `functions/api/ask.js` and a Wo
 ## One-time dashboard setup
 
 1. Open Cloudflare Dashboard → Workers & Pages.
-2. Open the Science of Origin Pages project.
+2. Open the Cloudflare Pages project serving scienceoforigin.org.
 3. Go to **Settings → Bindings**.
 4. Select **Add → Workers AI**.
 5. Set the variable name to exactly `AI`.
