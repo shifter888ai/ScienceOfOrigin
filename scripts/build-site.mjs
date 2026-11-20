@@ -88,9 +88,19 @@ async function buildPage(fileName, headerTemplate, footerTemplate) {
     throw new Error(fileName + ': generated page must contain exactly one header and footer');
   }
 
+  const generatedHeader = html.match(/<header\b[^>]*>[\s\S]*?<\/header>/i)?.[0] ?? '';
+  if (!/<a\b[^>]*href=["']search\.html["'][^>]*aria-label=["']Search["']/i.test(generatedHeader) ||
+      !/<a\b[^>]*href=["']ask\.html["'][^>]*aria-label=["']Ask AI["']/i.test(generatedHeader)) {
+    throw new Error(fileName + ': generated global header is missing Search or Ask quick access');
+  }
+
   const generatedFooter = html.match(/<footer\b[^>]*>[\s\S]*?<\/footer>/i)?.[0] ?? '';
   if (!/<a\b[^>]*href=["']contact\.html["'][^>]*aria-label=["']Contact["']/i.test(generatedFooter)) {
     throw new Error(fileName + ': generated global footer is missing its accessible Contact link');
+  }
+  if (!/<button\b[^>]*id=["']back-to-top["'][^>]*aria-label=["']Return to top["']/i.test(html) ||
+      !/<script\b[^>]*src=["']assets\/site\.js["']/i.test(html)) {
+    throw new Error(fileName + ': generated page is missing the global Return-to-Top control');
   }
 
   await writeFile(outputPath, html, 'utf8');
@@ -142,7 +152,7 @@ async function main() {
 
   console.log('Built ' + built.length + ' HTML page(s) into dist/:');
   for (const page of built) console.log('  - ' + page);
-  console.log('Verified accessible global Contact link on all ' + built.length + ' generated page(s).');
+  console.log('Verified Search and Ask header icons, Contact footer link, and Return-to-Top control on all ' + built.length + ' generated page(s).');
   console.log('Copied public resources: ' + (copied.join(', ') || 'none'));
   console.log('Source HTML remains in the repository root; generated output is disposable.');
 }
