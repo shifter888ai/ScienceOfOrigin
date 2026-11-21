@@ -35,6 +35,14 @@ Implementation requirements:
 - Do not extend this attribution rule to unrelated sources without evidence.
 - If a source boundary or answer attribution is ambiguous, retain the original context and mark the attribution for review rather than guessing.
 
+## Initial record-boundary work completed
+
+The English Q&A collection `materials/reddit-english-qa.txt` has a first structural boundary index at [`record-index/reddit-english-qa-index.csv`](record-index/reddit-english-qa-index.csv).
+
+The source was read as 357,871 characters across 3,682 lines. The boundary pass identified 651 Q&A records, each with one anchored `Q:` and one anchored `A:` marker. It records 1-based inclusive source line ranges, including multiline question and answer spans. This is a navigation/indexing result only; it does not constitute content review, case extraction, or evidence assessment.
+
+The remaining English source checks—including comparison with `reddit-english-all.txt`, original post IDs, timestamps, export provenance, and collection completeness—remain open.
+
 ## Source-level checks still required
 
 ### English Reddit collections
