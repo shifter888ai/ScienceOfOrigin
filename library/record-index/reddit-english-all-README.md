@@ -1,7 +1,7 @@
 # Reddit English All — Post and YWS Author-Marker Indexes
 
 **Source:** `materials/reddit-english-all.txt`  
-**Source Git blob SHA:** `undefined`  
+**Source Git blob SHA:** `0452d11a39654864572c0d563667765b5c96da3c`  
 **Observed size:** 1,651,691 characters  
 **Observed line count:** 29,553 lines  
 **Status:** Structural indexes only; not a content analysis or case extraction.
