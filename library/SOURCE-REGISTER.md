@@ -64,6 +64,14 @@ The inspected source contains 617 separator-delimited post blocks, 617 date head
 
 Both English collections are preserved separately. Their overlap and coverage relationship have not yet been determined.
 
+## Initial English collection overlap comparison completed
+
+A first exact-text comparison is documented in [`record-index/english-reddit-overlap-analysis.md`](record-index/english-reddit-overlap-analysis.md), with a 651-row cross-reference at [`record-index/reddit-english-qa-to-all-overlap.csv`](record-index/reddit-english-qa-to-all-overlap.csv).
+
+After limited normalization of case, whitespace, Markdown emphasis/code markers, and common curly quote/apostrophe variants, 487 of the 651 Q&A answer spans matched one or more indexed `Lower-Lingonberry-40:` author-marker bodies in the all-post archive. Of those, 473 had one exact-text match and 14 had multiple matching locations. 164 had no exact match located by this method.
+
+This establishes substantial textual overlap, not equivalence or completeness. No-match results do not prove absence from the all-post archive; text may be edited, split, truncated, or formatted differently. Both original collections remain separately preserved. Do not deduplicate or delete either source based on this pass.
+
 ## Source-level checks still required
 
 ### English Reddit collections
