@@ -2,8 +2,8 @@
 
 **Status:** Preliminary cross-source text comparison  
 **Sources:**
-- `materials/reddit-english-qa.txt` — Git blob `undefined`
-- `materials/reddit-english-all.txt` — Git blob `undefined`
+- `materials/reddit-english-qa.txt` — Git blob `d4f61612a60496e3b7d70868a4f57120ff5cf39c`
+- `materials/reddit-english-all.txt` — Git blob `0452d11a39654864572c0d563667765b5c96da3c`
 
 ## Result
 
