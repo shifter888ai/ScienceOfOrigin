@@ -43,6 +43,16 @@ The source was read as 357,871 characters across 3,682 lines. The boundary pass 
 
 The remaining English source checks—including comparison with `reddit-english-all.txt`, original post IDs, timestamps, export provenance, and collection completeness—remain open.
 
+## Initial Chinese compilation page indexing completed
+
+The Chinese text compilation `materials/元吾氏集录20210203.txt` has a page-level index at [`record-index/chinese-compilation-page-index.csv`](record-index/chinese-compilation-page-index.csv), with methodology and cautions in [`record-index/chinese-compilation-page-index-README.md`](record-index/chinese-compilation-page-index-README.md).
+
+The inspected text contains 1,671 explicit page markers (Page 1–1671), across 46,783 source lines and 1,147,327 decoded characters. The index records inclusive source line ranges, extracted text size, first-line excerpt, and date strings found per page. 206 page markers have no extracted nonblank text; these are marked for visual review and are not assumed to represent physically blank PDF pages.
+
+The compilation's opening editorial note says it combines blog, Tieba/forum, and online material. It warns that some online app exchanges may be ordinary Q&A, jokes, irony, context-specific replies, or deliberate bait, and notes that some reposted content was not included. These cautions are retained as source-provided provenance context; they are not independent verification of completeness.
+
+PDF-to-text page comparison, visual inspection, within-page record boundaries, and platform-level provenance remain open.
+
 ## Source-level checks still required
 
 ### English Reddit collections
