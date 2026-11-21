@@ -53,6 +53,17 @@ The compilation's opening editorial note says it combines blog, Tieba/forum, and
 
 PDF-to-text page comparison, visual inspection, within-page record boundaries, and platform-level provenance remain open.
 
+## Initial Reddit archive structural indexing completed
+
+The English Reddit archive `materials/reddit-english-all.txt` has two navigation indexes:
+- [`record-index/reddit-english-all-post-index.csv`](record-index/reddit-english-all-post-index.csv) — 617 post/thread blocks with inclusive line ranges, displayed date, subreddit, original poster, comment-section count, and permalink count.
+- [`record-index/reddit-english-all-yws-author-marker-index.csv`](record-index/reddit-english-all-yws-author-marker-index.csv) — 904 exact `Lower-Lingonberry-40:` author-marker locations linked to their containing post and comment section.
+- [`record-index/reddit-english-all-README.md`](record-index/reddit-english-all-README.md) — boundary method, counts, and limitations.
+
+The inspected source contains 617 separator-delimited post blocks, 617 date headers (2023-10-29 through 2026-11-18), 772 `--- comments ---` markers, 772 `Source:` permalink lines, and 904 exact YWS author markers. The 904 markers are not assumed to equal 904 complete comments; comment spans and reply relationships require separate analysis.
+
+Both English collections are preserved separately. Their overlap and coverage relationship have not yet been determined.
+
 ## Source-level checks still required
 
 ### English Reddit collections
