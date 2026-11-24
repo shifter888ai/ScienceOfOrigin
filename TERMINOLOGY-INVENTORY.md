@@ -711,6 +711,126 @@ This is a source passage, not a newly imposed definition. It should be compared 
 
 **Next historical-source pass:** inspect the two Chinese PDF volumes and compare their terminology with the Chinese TXT compilation and the Weibo records. Preserve document/page locators and exact Chinese forms; only then begin cross-language term reconciliation.
 
+
+### T. Chinese compilation — full text lexical discovery pass
+
+**Source inspected:** `materials/元吾氏集录20210203.txt` (1,147,327 characters; 46,783 lines) and its page index `library/record-index/chinese-compilation-page-index.csv`.
+
+**Coverage in this pass:** 1,671 explicit text page markers, consecutively numbered Page 1–Page 1671. The source page index reports 1,465 pages with extracted nonblank text and 206 page markers with no extracted nonblank text. A page marker with no extracted text is not proof of a blank original page; images, diagrams, screenshots, or scan content may be absent from the TXT.
+
+**Derived index:** `library/record-index/chinese-compilation-terminology-candidate-index.csv` contains 128 candidate Chinese/English term strings, page counts, page numbers, source line ranges, and first-page excerpts. Counts are the number of TXT pages containing a literal string at least once. They are not post counts, unique-document counts, term-definition counts, or proof of endorsement.
+
+#### High-frequency candidate strings in the compilation
+
+| Exact source string | Pages containing string | Note |
+|---|---:|---|
+| 意识 | 788 | Very broad recurring term |
+| 灵体 | 456 | Recurrent body/structure vocabulary |
+| 肉体 | 436 | Recurrent body/structure vocabulary |
+| 时间 | 419 | Broad term across many source types |
+| 能量 | 410 | Context-sensitive; do not assume conventional physics meaning |
+| 修炼 | 320 | Practice vocabulary |
+| 经验 | 303 | Repeated source framing |
+| 本源 | 270 | Core source expression |
+| 得道 | 269 | Recurring source expression; meanings require context |
+| 灵魂 | 258 | Preserve separately from 意识 and 灵体 |
+| 自由 | 253 | Broad term; distinguish 自由意识 and 自由意志 |
+| 灵界 | 247 | Source-specific domain term |
+| 宇宙 | 239 | Broad subject term |
+| 修行 | 232 | Preserve alongside 修道 and 修炼 |
+| 潜意识 | 224 | Compare with 表意识 and other consciousness labels |
+| 物质界 | 213 | Recurring domain term |
+| 轮回 | 209 | Major recurring applied term |
+| 观察 | 199 | Method and experience vocabulary |
+| 体验 | 187 | Preserve separately from 经验 |
+| 修道 | 187 | The compilation's own definition appears in the opening pages |
+| 催眠 | 184 | Recurrent process/system term |
+| 结构 | 181 | Recurrent structural vocabulary |
+| 合一 | 175 | Relationship/process term; context varies |
+| 频率 | 174 | Appears in several conceptual and measurement contexts |
+| 万物 | 170 | Common term in Origin descriptions |
+| 系统 | 168 | Broad structural term |
+| 空间 | 153 | Broad term; source includes specialized models |
+| 信息 | 148 | Information vocabulary |
+| 脉轮 | 147 | Body/structure vocabulary |
+| 意识强度 | 144 | Strongly recurring specialized phrase |
+| 客观 | 142 | Used in source-specific epistemic and observational contexts |
+| 意志 | 120 | Distinguish from 自由意志 and 自由意识 |
+| 实验 | 113 | Research and practice vocabulary |
+| 选择 | 110 | Will/choice vocabulary |
+| 幻相 | 108 | Preserve as a distinct source form |
+| 想象 | 106 | Distinguish 想象 from 想象力 |
+| 记忆 | 103 | Recurrent consciousness/body topic |
+| 一体 | 100 | Relationship to 合一 and 本源 needs review |
+| 量化 | 93 | Measurement vocabulary |
+| 多次元复合体 | 91 | Named body-structure concept |
+| 实践 | 90 | Recurrent methodological expression |
+
+#### Provenance and interpretation cautions from the compilation itself
+
+The opening editorial note (Page 1, source lines 1–36) says the compilation combines material from blog, Tieba, and online sources. It says the blog material follows the blog's own categories; forum material includes posts and replies; and Sina Weibo material is arranged chronologically, including replies and other people's reposts. It also warns that conversations on online platforms may be normal Q&A, jokes, ironic replies, context-specific exchanges, or deliberate bait, and asks readers to judge context. It says some content reposted on WeChat, Weibo, and blogs is not included.
+
+This means the TXT is a mixed historical compilation, not a clean set of 1,671 authored documents or 1,671 independent records. Page counts are only a navigational aid. Attribution and context must be reconstructed at the post/reply level before a phrase is assigned to YWS or treated as a definition.
+
+The introductory statement on Page 3 (source lines 59–86) describes the material as personal experience shared for reference, urges readers not to turn it into superstition, not to absolutize it, not to quote it out of context, not to follow methods mechanically, and encourages trying and discovering for themselves. The source text says: “鄙人修道，只有实修实证真知，没有理论假设空谈。所有资料，均为个人经验，仅供参考。” Preserve this as the compilation's own disclaimer and framing, not as an external verification of every item in the archive.
+
+#### Exact source definitions and phrases found near the beginning
+
+| Exact source wording | Source location | Inventory treatment |
+|---|---|---|
+| “道=本源之道=万物本源” | Page 9, lines 214–242 | Source-specific definition within the answer-guideline section |
+| “修道=认知本源+脱离轮回” | Page 8, lines 184–213 | Exact source definition; preserve the plus sign and original wording |
+| “修道答疑仅限于‘本源之道’，其实用价值是‘脱离轮回’。” | Page 9, lines 214–242 | Source statement about scope and practical value |
+| “实践是检验真理的唯一标准” | Pages 3, 6–11, and elsewhere | Repeated source principle; preserve its historical context and wording |
+| “经验共享” | Pages 6–7, 10–14, and elsewhere | Recurrent source description of the author's role and material status |
+
+#### Important historical research vocabulary: Consciousness Strength assessment
+
+Pages 306–316 (source lines 8841–9082) contain the document *意识强度检测点* and its first two named areas. The source labels this as “元吾氏催醒法研究” and describes the assessment points as both “意识强度检测点” and “意识强度练习点”.
+
+Page 306 says there are hundreds of large assessment points and tens of thousands of small ones, describes accumulated experimental data, and says an “意识强度检测仪” is mainly used for testing. It says the points are grouped into functional areas for experimentation and management. It then introduces “中央区：心智控制区”.
+
+Pages 306–313 introduce these exact terms and distinctions:
+
+- 心智控制; 心智控制程序模式; AI 机器程序
+- 自动化程度 vs 自主化程度（自由意识）
+- 抗性比率; 控制比率
+- 正测 / 反测; 正值 / 反值
+- 反应固化程度 / 反应变通程度
+- 向外归责程度 / 向内反思程度
+- 意识分散程度 / 意识专注程度
+- 思维僵化程度 / 思维自由程度
+- 劳作认可程度 / 享受认可程度
+- 陌生人敌视程度 / 陌生人友好程度
+- 性观念绑架度 / 性观念自由度
+- 自我不满程度 / 自我接纳程度
+- 心智翻译扭曲度 / 沟通理解还原度
+- 抗拒死亡程度（求生度） / 死亡接纳程度
+- 性别偏见程度 / 性别平等程度
+- 他人比较程度 / 自我比较程度
+
+Page 307 gives the source formulas “正值=100%-反值%” and “反值=100%-正值%”, and explicitly says positive/negative values have no direct relation to human judgments of good and bad. Page 314 introduces “上方区：自主意识区” and its own set of points, including 核心能量发挥率, 复合体协作能力, 灵活切换能力, 冷静处理能力, 挫折应激能力, 沉迷拔出能力, 他人共情能力, 静心独处能力, and 自我释放能力.
+
+**Research-status caution:** These pages describe a proposed assessment framework, named instruments, numerical scales, and population percentages. The inspected extract does not itself provide instrument specifications, calibration procedures, raw datasets, sample sizes, participant selection, uncertainty estimates, or independent reproduction for the reported percentages. This does not establish that such material is absent elsewhere in the source collection; it means these pages alone do not establish it. Record these as source-described methods and claims, not as independently validated measurements.
+
+Page 313 adds the English disclaimer: “All info is intended for experience sharing and reference only without any warranty.” This is consistent with the Chinese disclaimer but should be preserved as its own source wording.
+
+#### Later compilation wording: Consciousness Strength and Origin
+
+Page 1669 (source lines 46764–46773) contains the date label “2020.10.11 聊意识强度破9与合一本源” and the exact source phrases:
+
+- “合一本源的比例=意识强度检测值”
+- “意识强度18=本源”
+- “破9是合一本源90%左右” (with the surrounding qualification and explanation in the original passage)
+
+These are source claims from a dated group-chat compilation entry. Preserve them with the date and page locator; do not silently convert them into current canonical definitions or independently established results.
+
+#### TXT-to-PDF comparison status
+
+The repository also contains two PDF files, `materials/元吾氏集录20210203-1.pdf` (24,124,234 bytes) and `materials/元吾氏集录20210203-2.pdf` (24,517,286 bytes). The page-index README explicitly lists page-by-page comparison with both PDFs, PDF-to-TXT page mapping, visual inspection of pages with no extracted text, and preservation of diagrams/screenshots as outstanding work. The PDF binaries could not be inspected directly in this pass, so no claim is made that the 1,671 TXT page markers correspond one-to-one to PDF pages or that the TXT fully preserves the PDF content.
+
+**Next sub-pass:** obtain the two PDF binaries in an inspectable form; record SHA-256, metadata, page counts, and PDF-to-TXT page mapping; inspect all pages marked with no extracted text; then compare terminology, diagrams, tables, and source layout. Until that is done, treat the TXT as a distinct source object rather than a verified transcription of both PDFs.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
