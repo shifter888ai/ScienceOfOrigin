@@ -50,6 +50,7 @@ See [source-coverage-status.csv](source-coverage-status.csv) for machine-readabl
 
 - Preserved text export: `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt`.
 - Export contains 765 sequential original-post records (001–765), dated 2010-08-09 through 2026-11-23, with no numbering gaps in the export.
+- A connected-browser snapshot of the account timeline showed a top post titled “空间是什么”, matching the title of export record 765; the visible permalink was `https://weibo.com/1760432301/RsLldnd80`. This is a single-record live-account cross-check, not a history-wide reconciliation or media capture.
 - The export states it includes only original posts saved locally. This does not establish complete account-history coverage.
 - The derived structural index, provisional topic index, and media-reference locator index are navigation layers, not additional originals.
 - Media omissions are noted in the export; binary image/video recovery, deleted or unsaved posts, comments, reposts, and account-history reconciliation remain outstanding.
