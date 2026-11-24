@@ -1043,6 +1043,101 @@ The exact phrase `零能量空间` is absent from the 2021 compilation TXT index
 
 **Working conclusion:** the current source material supports a distinction between numerical zero and the framework's use of Zero; it also supports that Idle is not simply incapability or inactivity. The exact relation among Zero, Idle, Infinity, Origin and Freewill remains a conceptual question for the owner. No equation is being changed or adopted in this inventory pass.
 
+
+### X. Core-term history 3 — Consciousness / Freewill / Spectrum / Strength
+
+This section compares the current Science of Origin pages, the two uploaded Science of Consciousness framework documents, and the historical Chinese/English source collections. These materials represent different dates and stages of the research. They must not be silently harmonized into a single architecture.
+
+#### Current Science of Origin wording
+
+| Source | Current wording / relationship | Review significance |
+|---|---|---|
+| `origin.html` | Consciousness and Freewill are listed among the five named natures/aspects of Origin; Consciousness is described as the perspective of attributes and Freewill as the perspective of functionality | Presents them as distinct named perspectives/aspects |
+| `terminology.html` | Consciousness and Freewill are different approximate perspectives on the same Source; Freewill describes functionality and Consciousness describes attributes | Distinguishes the terms while relating them to one Source |
+| `science-of-consciousness.html` | “The current research position treats Consciousness and Freewill as the same nature of Origin, described by two different human words.” It says Science of Freewill is not maintained as a separate science; Spectrum of Consciousness and Spectrum of Freewill refer to the same Spectrum | A later explicit clarification; this differs in wording from pages that list Consciousness and Freewill as separate natures/aspects |
+| `research-framework.html` | Historical initial research fields list Science of Consciousness and Science of Freewill separately. Current architecture lists Science of Consciousness as the core field, Spectrum/Spectra as methodology, and Spectrum of Consciousness / Spectrum of Things as principal spectral subjects | Explicitly labels the two-field arrangement as historical and records the later one-field architecture |
+| `research-direction.html` | Spectrum of Consciousness and Spectrum of Things are two principal spectral subjects; Spectrum of Freewill is treated as the same Spectrum as Spectrum of Consciousness | Separates the research subjects from the methodology and keeps SoT = SoC open |
+
+The current Science of Origin pages therefore contain a terminology tension that needs owner review: some pages list Consciousness and Freewill as two named aspects/perspectives, while the current Science of Consciousness page says they are the same nature described by two different human words. The latter may be intended as a clarification of the former, but the exact relationship between “same nature” and “different perspectives” should be stated explicitly.
+
+#### Uploaded Science of Consciousness framework documents
+
+The two uploaded documents are retained as separate source versions:
+
+| Source document | Architecture stated in the document | Review note |
+|---|---|---|
+| `Science-of-Consciousness.txt` — Project Description & Research Framework | Four core research fields: Science of Consciousness, Science of Freewill, Spectrum of Consciousness, Spectrum of Things. Spectrum/Spectra is also described as the core research methodology. The primary objective is to investigate whether Spectrum of Things = Spectrum of Consciousness. | Lists Spectrum of Consciousness and Spectrum of Things both as research fields and as spectral research subjects/methodological targets |
+| `Science-of-Consciousness-—-Research-Architecture.txt` | Two research fields: Science of Consciousness and Science of Freewill. Spectrum/Spectra is the core research methodology. | A more compact architecture than the Project Description; still keeps Science of Freewill separate |
+| Current Science of Origin page `science-of-consciousness.html` | One core research field: Science of Consciousness. Spectrum/Spectra is the current measurable research methodology. Spectrum of Consciousness and Spectrum of Things are principal spectral research subjects. | Later clarification within Science of Origin; it does not erase the historical uploaded documents |
+
+The Project Description explicitly says that Spectrum of Things = Spectrum of Consciousness is a research objective, not an established conclusion, and calls for definitions, measurement, experimentation and reproducible evidence. The uploaded documents list five applications: Freedomality of Consciousness, Entropy of Consciousness, Strength of Consciousness of Things, Awakenology and Exincarnology. The Research Architecture file lists the same application family. These source versions should remain available as architecture history.
+
+#### Historical English source: Reddit, September 28, 2024
+
+In the YWS-attributed answer at Reddit all-post author-marker 0192 (source lines 6432–6483), the source states:
+
+- “The Level of Awareness = Lucidity of Consciousness.”
+- Lucidity of Consciousness can be quantifiably measured through a methodology called “Stength of Consciousness (SoC)” or “Strength of Freewill (SoF).”
+- Different groups use the terms Strength of Freewill (SoF), Strength of Consciousness (SoC), and Spectrum of Consciousness (SoC).
+- The source says these terms fall under the broader field “Science of Consciousness (SoC).”
+
+The source then lists research topics related to memory mechanisms and structures, memory malfunction, memory distortion, memory suppression, self-identity, self-modeling, self-consciousness, phenomenal consciousness, integration of experience, unified conscious experience, the binding problem, ego attachment, ego dissolution and stages of ego transcendence.
+
+This passage is important because it explicitly places several named approaches under Science of Consciousness, but it does not clearly specify whether Strength of Consciousness, Strength of Freewill and Spectrum of Consciousness are methods, metrics, constructs, viewing perspectives, or names used by different groups for related work. The repeated abbreviation “SoC” is especially ambiguous.
+
+#### Historical Chinese source: Consciousness Strength assessment
+
+The Chinese compilation contains `意识强度` on 144 pages and `意识强度检测点` on multiple pages. Pages 306–316 (source lines 8841–9082) introduce the Consciousness Strength assessment-point framework, its named functional areas, positive/negative values, measurement device, and multiple paired scales.
+
+Page 399 (source lines 11136–11155) says that the Consciousness Strength level is the combined value of all assessment points and describes the points as examining an individual's degree of union with Origin and depth of cognition of illusion. Page 300 (source lines 8697–8726) contains a historical 18-level model and identifies level 18 with 万物本源. These are source-described methods and claims; their external validation and measurement specifications are not established by those passages alone.
+
+#### Weibo bilingual term relationship
+
+Weibo record 689 (source lines 3043–3048) explicitly writes `自由意识（自由意志 Freewill）`. This is a historical bilingual pairing in that record. It should be preserved as written and compared with the current Science of Origin position that Consciousness and Freewill are two human descriptions of the same nature. It does not, by itself, establish that every use of 自由意识, 自由意志, Consciousness and Freewill is interchangeable.
+
+#### Terms to keep distinct during review
+
+| Term | Current or historical role recorded | Still unclear |
+|---|---|---|
+| Consciousness | A named nature/aspect of Origin; also a research subject and part of the Science of Consciousness field | Whether it is a distinct aspect from Freewill or the same nature described from another perspective |
+| Freewill | A named nature/aspect in current Origin descriptions; in current Science of Origin, also described as the same nature as Consciousness using another human word | How its functionality perspective relates to the “same nature” wording |
+| Science of Consciousness | Current core research field within Science of Origin | Scope relative to earlier separate Science of Freewill field |
+| Science of Freewill | Historical separate research field in earlier architecture documents | Current page says it is not maintained as a separate science |
+| Spectrum / Spectra | Current measurable research methodology | Whether any other methodologies are currently capable of measurable investigation, and which aspects Spectrum/Spectra cannot detect |
+| Spectrum of Consciousness | Principal spectral research subject; current page says it is the same Spectrum as Spectrum of Freewill | Relation to Strength of Consciousness and Level of Awareness |
+| Spectrum of Freewill | Historical/alternative named spectrum; current page says it refers to the same Spectrum as Spectrum of Consciousness | Whether this term remains useful or is retained only as a historical variant |
+| Spectrum of Things | Principal spectral research subject | Whether it is equivalent to Spectrum of Consciousness remains open |
+| Strength of Consciousness | Historical named methodology/measurement expression and current application family in related work | Whether it is a measurement method, scale, score, property, or application; relation to Spectrum |
+| Strength of Freewill | Historical named measurement expression (SoF) | Whether it is distinct from Strength of Consciousness or an alternate term for a related measurement |
+| Level of Awareness | Historical term equated with Lucidity of Consciousness in one answer | Whether this is a general term or a specific measurable variable |
+| Lucidity of Consciousness | Historical term paired with Level of Awareness | Operational definition and measurement criteria |
+| Freedomality of Consciousness | Application research field in the uploaded framework documents and current Science of Origin research page | Relationship to Freewill, freedom of choice, flexibility of Spectrum, and Strength |
+| Entropy of Consciousness | Application research field | Its operational definition and relation to Spectrum |
+| Strength of Consciousness of Things | Application research field | Relation to Spectrum of Things and Strength of Consciousness |
+
+#### Architecture conflict to preserve
+
+The three architecture snapshots are not identical:
+
+1. **Project Description:** four core research fields, including both spectra, plus Spectrum/Spectra methodology.
+2. **Research Architecture:** two research fields (Science of Consciousness and Science of Freewill), plus Spectrum/Spectra methodology.
+3. **Current Science of Origin:** one core research field (Science of Consciousness), with Spectrum/Spectra as methodology and Spectrum of Consciousness / Spectrum of Things as principal spectral subjects.
+
+The current Science of Origin website explicitly labels the two-field arrangement as historical and states the later one-field clarification. The uploaded documents remain earlier source versions and should not be edited to match the later architecture.
+
+#### Questions for owner review
+
+- Is Consciousness and Freewill the same underlying nature described from different human perspectives, with “attributes” and “functionality” as distinct viewing angles?
+- Should the Origin pages be updated to avoid implying two separate natures if the current research position is “same nature, two human words”?
+- Is Strength of Consciousness a measurement methodology, an index/score, a measurable property, or a combination of these?
+- Is Strength of Freewill a distinct measurement, a historical alternate label, or a separate approach that measures the same underlying nature?
+- How exactly does Strength of Consciousness relate to Spectrum of Consciousness?
+- Is Level of Awareness / Lucidity of Consciousness a measured variable, an outcome, or a description of a state?
+- Should “Spectrum of Freewill” remain in the terminology history as a historical variant while current public usage standardizes on Spectrum of Consciousness?
+- How does Freedomality of Consciousness relate to Freewill, Level of Actualization of Freewill, and the flexibility of a conscious spectrum?
+
+**Working conclusion:** the current Science of Origin page gives a later explicit clarification that Consciousness and Freewill are the same nature described by two human words, and that Spectrum of Consciousness and Spectrum of Freewill refer to the same Spectrum. Earlier source versions remain important historical records. The meanings and measurement relationships among Strength of Consciousness, Strength of Freewill, Spectrum and Level of Awareness still require owner clarification. No research architecture is changed by this inventory entry.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
