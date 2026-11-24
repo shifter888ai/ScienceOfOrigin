@@ -93,7 +93,7 @@ def allowed(rp,url):
 
 def fetch(url, rp, kind, parent=None, store=True, attachment=False):
     global last_request,total_attachment_bytes
-    url=urljoin(BASE,url)
+    url=canonical_url(urljoin(BASE,url))
     parsed=urlparse(url)
     if parsed.scheme not in ("http","https") or parsed.netloc != urlparse(BASE).netloc:
         record(url=url,kind=kind,parent=parent,status="skipped",stored=False,notes="Outside source origin.")
