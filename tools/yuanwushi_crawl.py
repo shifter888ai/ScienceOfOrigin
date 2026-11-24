@@ -82,13 +82,18 @@ def request_safe_url(url: str) -> str:
     fragment = quote(p.fragment, safe="=&?/:;+,%@!$'()*-._~")
     return urlunsplit((p.scheme, p.netloc, path, query, fragment))
 
+def canonical_url(url: str) -> str:
+    """Fragments identify positions within a page, not separate source resources."""
+    p = urlparse(url)
+    return urlunsplit((p.scheme, p.netloc, p.path, p.query, ""))
+
 def allowed(rp,url):
     return (urlparse(url).netloc == urlparse(BASE).netloc
             and rp.can_fetch(UA,request_safe_url(url)))
 
 def fetch(url, rp, kind, parent=None, store=True, attachment=False):
     global last_request,total_attachment_bytes
-    url=urljoin(BASE,url)
+    url=canonical_url(urljoin(BASE,url))
     parsed=urlparse(url)
     if parsed.scheme not in ("http","https") or parsed.netloc != urlparse(BASE).netloc:
         record(url=url,kind=kind,parent=parent,status="skipped",stored=False,notes="Outside source origin.")
@@ -143,7 +148,7 @@ def main():
     queue=[]
     seen=set()
     def add(url,kind,parent=None):
-        url=urljoin(BASE,url)
+        url=canonical_url(urljoin(BASE,url))
         if url not in seen and urlparse(url).netloc==urlparse(BASE).netloc:
             seen.add(url); queue.append((url,kind,parent))
     add(BASE,"homepage")
@@ -203,7 +208,7 @@ def main():
         if not data: continue
         # Capture only same-origin linked original documents and media, not scripts/styles.
         for tag,attr,href in parse_links(data):
-            target=urljoin(url,href)
+            target=canonical_url(urljoin(url,href))
             p=urlparse(target)
             ext=Path(p.path).suffix.lower()
             if p.netloc==urlparse(BASE).netloc and ext in EXTS:
@@ -230,7 +235,8 @@ def main():
       "rate_delay_seconds":DELAY,
       "record_count":len(records),
       "records_by_kind":counts,
-      "stored_files":sum(bool(x.get("stored")) for x in records),
+      "stored_records":sum(bool(x.get("stored")) for x in records),
+      "stored_files":len({x["path"] for x in records if x.get("stored") and x.get("path")}),
       "failed_or_skipped":sum(x.get("status") not in (200,304) for x in records),
       "wiki_max_page_parameter_discovered":wiki_max,
       "attachment_bytes_stored_or_considered":total_attachment_bytes,
