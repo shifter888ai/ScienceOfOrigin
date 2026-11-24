@@ -21,7 +21,8 @@ See [source-coverage-status.csv](source-coverage-status.csv) for machine-readabl
 
 ### Yuanwushi website
 
-- Priority entry points: `https://www.yuanwushi.org/`, `/wiki.html`, `/cxclub/`, and `/reddit/`.
+- Priority entry points: `https://www.yuanwushi.org/`, `/wiki.html`, `/article-1.html`, `/cxclub/`, and `/reddit/`.
+- Search-indexed `article-1.html` currently reports 106 articles in the collection index. The Wiki Q&A index reports 2,659 total Q&A records and has paginated views (for example, `wiki.html?p=3` and `p=4`). These are discovery counts, not proof that all underlying article/Q&A records or attachments have been preserved.
 - The CX Club index currently displays lessons 1–21 (July–November 2026), with lesson 22 described as upcoming.
 - A linked “all courses” PDF is indexed, but its directory lists only lessons 1–16. This is a concrete reconciliation task: compare the PDF with the individual lesson pages and identify whether later lessons are appended elsewhere.
 - Individual lesson pages are discoverable through search, but a complete URL inventory, full-site crawl, all attachments, and Wiki capture have not yet been completed.
