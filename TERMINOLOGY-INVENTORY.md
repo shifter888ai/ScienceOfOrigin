@@ -628,7 +628,7 @@ The Weibo candidate index now distinguishes literal matches in the full exported
 
 **Source inspected:** `materials/reddit-english-all.txt` (1,651,691 characters; 29,553 lines), its 617-post index, and its 904 exact `Lower-Lingonberry-40:` author-marker records. The source archive spans 2023-10-29 through 2026-11-18. The owner has instructed that the identified account's answers are authored by YWS; the post authors and other commenters remain separate speakers.
 
-**Derived index:** `library/record-index/reddit-all-yws-terminology-candidate-index.csv` (52 candidate terms/phrases after whole-word matching). It links each term to matching author-marker IDs, parent post IDs, and source line ranges.
+**Derived index:** `library/record-index/reddit-all-yws-terminology-candidate-index.csv` (120 candidate terms/phrases after whole-word matching). It links each term to matching author-marker IDs, parent post IDs, and source line ranges.
 
 **Span method and limitation:** Each author marker was segmented to the next detected speaker label, `Source:` line, comment-section boundary, post separator, or next author marker. This improves on the marker-only index, but is still a rule-based span extraction. Nested Reddit threads and unusual username labels can complicate boundaries; the source README correctly cautions that a marker is not automatically a complete comment. The derived spans and term hits remain reviewable locators, not a final semantic classification.
 
@@ -830,6 +830,75 @@ These are source claims from a dated group-chat compilation entry. Preserve them
 The repository also contains two PDF files, `materials/元吾氏集录20210203-1.pdf` (24,124,234 bytes) and `materials/元吾氏集录20210203-2.pdf` (24,517,286 bytes). The page-index README explicitly lists page-by-page comparison with both PDFs, PDF-to-TXT page mapping, visual inspection of pages with no extracted text, and preservation of diagrams/screenshots as outstanding work. The PDF binaries could not be inspected directly in this pass, so no claim is made that the 1,671 TXT page markers correspond one-to-one to PDF pages or that the TXT fully preserves the PDF content.
 
 **Next sub-pass:** obtain the two PDF binaries in an inspectable form; record SHA-256, metadata, page counts, and PDF-to-TXT page mapping; inspect all pages marked with no extracted text; then compare terminology, diagrams, tables, and source layout. Until that is done, treat the TXT as a distinct source object rather than a verified transcription of both PDFs.
+
+
+### U. Cross-source terminology concordance — first comparison
+
+This table compares the same literal term strings across the historical sources. It is a navigation aid for locating changes, recurring expressions, and source-specific context. The units differ by source and **must not be compared as if they were equivalent measurements**.
+
+#### Chinese-source comparison
+
+| Exact Chinese term | Weibo records — all exported text | Weibo records — after hashtag/URL filter | Chinese compilation pages |
+|---|---:|---:|---:|
+| 本源 | 45 | 44 | 270 |
+| 合一本源 | 5 | 5 | 24 |
+| 意识 | 181 | 100 | 788 |
+| 意识强度 | 152 | 67 | 144 |
+| 自由意识 | 21 | 12 | 68 |
+| 自由意志 | 8 | 7 | 67 |
+| 轮回 | 85 | 36 | 209 |
+| 脱离轮回 | 7 | 7 | 43 |
+| 催眠 | 83 | 51 | 184 |
+| 催醒法 | 6 | 6 | 19 |
+| 灵魂 | 104 | 31 | 258 |
+| 潜意识 | 4 | 4 | 224 |
+| 表意识 | 1 | 1 | 58 |
+| 多次元复合体 | 12 | 12 | 91 |
+| 意识焦点 | 4 | 4 | 40 |
+| 频率 | 2 | 2 | 174 |
+| 能量 | 60 | 5 | 410 |
+| 实验 | 3 | 3 | 113 |
+| 检测 | 13 | 13 | 75 |
+| 游戏规则 | 2 | 2 | 7 |
+| 零能量空间 | 1 | 1 | No literal match in this compilation index |
+
+The Weibo filter removes hashtag strings and URLs only; it does not remove quotations, copied titles, or other embedded text. The compilation counts are pages containing the literal string, not distinct authored posts. In particular, the difference between all-text and filtered Weibo counts for 意识, 意识强度, 灵魂, 能量, and 轮回 shows why hashtag-aware and context-aware review is necessary.
+
+The absence of the literal phrase “零能量空间” from the 2021 compilation TXT index, while it appears in Weibo record 563 (2022), is a chronological/source-coverage observation only. It does not establish that the concept was absent from earlier source material or that the later Weibo post was the first formulation.
+
+#### English Reddit comparison
+
+| Exact English term/phrase | Q&A questions | Q&A answers (YWS-attributed) | All-post archive YWS marker spans | All-post parent posts |
+|---|---:|---:|---:|---:|
+| reincarnation | 112 | 99 | 155 | 132 |
+| hypnotic reincarnation | 43 | 50 | 98 | 87 |
+| Hypnotic Reincarnation System | 17 | 32 | 55 | 51 |
+| SoC | 58 | 56 | 75 | 55 |
+| Consciousness | 62 | 37 | 56 | 46 |
+| Strength of Consciousness | 14 | 13 | 18 | 17 |
+| Freewill | 16 | 19 | 16 | 13 |
+| astral projection | 24 | 13 | 27 | 26 |
+| silver cord | 1 | 2 | 2 | 2 |
+| conscious streams | 0 | 1 | 1 | 1 |
+| Zero-Energy Space | — | — | 2 | 2 |
+| Oneness | 3 | 0 | 2 | 2 |
+| Infinity | 1 | 1 | 1 | 1 |
+| Level of Awareness | — | — | 1 | 1 |
+| Lucidity of Consciousness | — | — | 1 | 1 |
+| Strength of Freewill | — | — | 7 | 5 |
+
+The Q&A counts are question-record and answer-record counts. The all-post counts are segmented YWS author-marker spans and distinct parent threads. The two archives have substantial exact textual overlap (487 of 651 Q&A answer records match at least one author-marker span in the broader archive), but remain separate datasets. Do not add the columns together or interpret differences as changes in usage without deduplication and source-context review.
+
+#### Emerging historical questions for later review
+
+1. **Consciousness / Freewill / Spectrum / Strength:** the historical sources use several related names and abbreviations. The September 28, 2024 Reddit passage explicitly places Strength of Freewill, Strength of Consciousness, and Spectrum of Consciousness under Science of Consciousness, while the current project architecture separates some of these into fields and methods. This is a relationship to clarify, not a contradiction to resolve automatically.
+2. **Awareness / lucidity / consciousness:** Level of Awareness and Lucidity of Consciousness are equated in one Reddit answer. Their relationship to current Consciousness and Strength of Consciousness terminology remains open.
+3. **Consciousness / soul / spirit-body vocabulary:** the Chinese compilation and Reddit archives preserve several distinct terms (意识, 灵魂, 灵体, 肉体, 潜意识, 表意识, astral body, physical body, conscious streams). Do not collapse them into one translation family.
+4. **Origin / 本源 / 万物本源 / 合一本源:** the terms recur across source types, but the exact scope and relation may change by context and date.
+5. **轮回 / 催眠轮回 / 脱离轮回 / 催醒法:** distinguish the historical explanatory model, the process names, and the practical-method labels.
+6. **零能量空间:** a named concept appears in the Weibo archive and in later Reddit YWS comments; the 2021 compilation TXT index has no exact literal hit. Its source chronology and relationship to the earlier “空间也是一种生物” and energy-conversion materials need a separate review.
+
+**Next reconciliation task:** create term histories for the core concepts, starting with 本源 / Origin, 意识 / Consciousness, 自由意识 / Freewill, 意识强度 / Strength of Consciousness, 轮回 / Reincarnation, and 零能量空间 / Zero-Energy Space. Each history should preserve exact dated source passages and distinguish first located occurrence from earliest actual formulation.
 
 ## 4. Source conflicts and review queue
 
