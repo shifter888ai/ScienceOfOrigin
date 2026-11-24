@@ -60,3 +60,14 @@ These derived files do not replace or modify the original export or the first st
 The connected Weibo profile snapshot confirms that the latest visible post, `空间是什么`, matches export record 765. Its permalink is `https://weibo.com/1760432301/RsLldnd80`; the page exposes video locator `https://video.weibo.com/show?fid=1034:5368550857310263` and displays a duration of 01:55. A thumbnail filename is visible in the player snapshot: `68ee10adly1ijcio49qlnj21hc0u0ju7.jpg`.
 
 The media-reference index now records the verified post and video URLs on record 765. This is locator verification only: neither the video nor thumbnail binary has been captured or checksummed. Do not count them as recovered media yet.
+
+## Recent live-timeline reconciliation — 2026-11-24
+
+A connected-browser snapshot of the account profile displayed six recent timeline entries, dated 2026-11-06 through 2026-11-23. Each entry was matched to a corresponding local export record by date and visible post label/text:
+
+- Records 760–765 match the six visible timeline entries in the same date sequence.
+- Verified post permalinks and the two visible video locators are recorded in `weibo-recent-timeline-live-match.csv`.
+- Record 760 also exposes the linked article for “破权威幻”.
+- Records 762 and 765 expose video players with displayed durations of 04:04 and 01:55 respectively.
+
+This is a six-record recent-timeline spot check, not a complete account-history reconciliation. It does not establish that all 936 profile items are original posts or that the 765 locally saved export records cover the entire account history. The videos, thumbnail files and other omitted media remain unrecovered.
