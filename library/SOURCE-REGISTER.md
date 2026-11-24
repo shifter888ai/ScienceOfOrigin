@@ -117,3 +117,14 @@ The file `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z
 A structural record index is available at [`record-index/weibo-originals-record-index.csv`](record-index/weibo-originals-record-index.csv), with methodology and limitations in [`record-index/weibo-originals-record-index-README.md`](record-index/weibo-originals-record-index-README.md). The indexing pass detected all 765 sequential export markers (01–765), with no numbering gaps. It records export timestamps (Beijing Time), source line ranges, extracted text, visible URLs, and explicit omitted-image notes.
 
 This is a navigation/indexing result only. It does not establish completeness against the live Weibo account. The export is text-only and notes omitted images; binary images/videos, reposts, comments, deleted/private content, and unsaved historical posts are not established as captured. Topic classification is intentionally deferred to a separate reviewable layer. The original export remains unchanged.
+
+
+## Weibo derived discovery layers
+
+The original Weibo export remains preserved unchanged. Additional discovery files are maintained under `library/record-index/`:
+
+- `weibo-originals-topic-index.csv` — provisional multi-label keyword classification with matched-keyword evidence; not a verified interpretation.
+- `weibo-media-reference-index.csv` — locator inventory for posts containing URLs or media-related notes/markers; not proof that binary media has been downloaded.
+- `weibo-topic-classification-README.md` — tag definitions, counts, method, and limitations.
+
+These are derived research aids and must remain distinct from the source record. Topic tags require review before being used for quantitative conclusions. Media retrieval must be tracked separately with per-item provenance and outcome.
