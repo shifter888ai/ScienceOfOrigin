@@ -33,3 +33,9 @@
 ## Provenance
 
 This assessment is based on the public PDF text extraction available through the web reading tool on 2026-11-24, including its opening contents (extracted lines 0–29), the explicit lesson 7 heading (line 8007), the final extracted lines (through 8721), and text searches for lesson 8, 20, and 21 markers. It is not a substitute for the original PDF file.
+
+## Additional per-lesson PDF discovery (2026-11-24)
+
+Search-indexed content for lesson 1 (`/cxclub/lesson1.html`) and lesson 8 (`/cxclub/lesson8.html`) visibly includes the label “下载本课PDF版” (download this lesson PDF). This establishes that at least these two lesson pages expose individual PDF download links in the indexed page text. The exact target `href` values and PDF bytes have not yet been captured. Other lesson pages have not been exhaustively checked for equivalent links; do not infer that only lessons 1 and 8 have separate PDFs.
+
+A supplementary discovery list is maintained at `../record-index/yuanwushi-cxclub-attachment-discovery.csv`. The all-courses PDF assessment above remains separate; these per-lesson links do not resolve the all-courses PDF's incomplete extracted body or contents discrepancy.
