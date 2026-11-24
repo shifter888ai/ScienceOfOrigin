@@ -18,6 +18,8 @@ Connected-browser snapshot of `https://awakenology.org/` confirms current Englis
 
 Search-index snapshots of .org/English and .space/English both expose Latest Videos, Memories and two additional Ultimate Source topics. Crawl dates differ (about three weeks vs last week), so this is discovery-level similarity, not proof of live route parity. No direct .space or www-alias request was made in this capture.
 
+A further SoC source discovery located YWS's “What Is SoC (Strength of Consciousness)” 5th Edition (2018–2024) page at https://www.awakenology.org/What-is-SoC-Strength-of-Consciousness/. Its text view is readable and identifies Strength of Consciousness / Spectrum of Consciousness / SoC together, describes composite assessment values and fluctuating levels, and relates SoC to Hypnotic Reincarnation. The indexed “SoC AssessPoints (0) — Introduction” and “SoC AssessPoints (1) — Mind Control Area” pages identify themselves as 3rd Edition (2018–2019); their search-index text supplies historical definitions and a 13-pair assessment structure. Direct page opens for the two AssessPoints pages did not return the original bodies. See awakenology-soc-spectrum-primary-source-discovery-2026-11-24.md. These are source-discovery records, not complete HTML/media captures or independent validation.
+
 ## Weibo
 
 Connected-browser profile snapshot shows aggregate counter `全部微博（936）`, latest visible post `空间是什么`, permalink `https://weibo.com/1760432301/RsLldnd80`, video locator `https://video.weibo.com/show?fid=1034:5368550857310263`, displayed duration 01:55, and thumbnail filename `68ee10adly1ijcio49qlnj21hc0u0ju7.jpg`.
