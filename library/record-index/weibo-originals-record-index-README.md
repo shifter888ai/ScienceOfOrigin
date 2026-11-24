@@ -41,3 +41,12 @@ No topic labels have been assigned automatically. Topic classification should be
 ## Preservation rule
 
 Keep the original TXT unchanged. Treat this CSV as a derived index. If a later export is made, preserve it as a separate version and compare it with this source; do not overwrite this archive or silently merge differing records.
+
+
+## Follow-on discovery layers
+
+- Provisional topic classification: `weibo-originals-topic-index.csv` (keyword-based, multi-label, review required).
+- Media reference locator: `weibo-media-reference-index.csv` (not a media download; see the separate classification README).
+- Method and limitations: `weibo-topic-classification-README.md`.
+
+These derived files do not replace or modify the original export or the first structural index.
