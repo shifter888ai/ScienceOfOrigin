@@ -36,3 +36,14 @@ This is evidence of different indexed snapshots, not proof that the current live
 ## Provenance
 
 See `awakenology-domain-discovery.csv` and capture-log records CAP-20261124-048 through CAP-20261124-053. Search/page references are preserved there for traceability. This report contains no original page HTML or media binaries.
+
+## Follow-up: newer .org English contents snapshot
+
+A newer search-indexed snapshot of `https://www.awakenology.org/English/` (source reference `turn279804search0`, crawled about three weeks before the 2026-11-24 review) lists:
+
+- Latest Videos
+- A Memories section
+- “All Levels vs. the Individual Self: A Single Level”
+- “All Perspectives vs. the Individual Self: A Single Perspective”
+
+These are the same notable additions previously observed in the newer `.space` English contents snapshot. The earlier apparent difference is therefore more plausibly explained by unequal crawl ages than by a confirmed live content difference. This remains an inference from search snapshots: live response bodies, redirects, canonical URLs and complete route parity are still unverified.
