@@ -40,3 +40,7 @@ The 1,096 count is a count of exact author-marker occurrences, not a verified co
 ## Extraction script provenance
 
 A recursive repository-tree inspection at commit `434b8b6ebb44080a17cfec2a8c0b27b5cdea53cc` found no tracked file clearly identifiable as the Reddit extraction script or its configuration. The script may be maintained outside this repository. The team should provide a stable script version/source, configuration and input-scope description; absence from this tree is not evidence that no script exists.
+
+## Comment-section locator pass
+
+A second structural pass found **772** `--- comments ---` sections. Each section contains exactly one `Source:` permalink line and at least one author marker. Distribution: 596 sections contain one author marker; 176 contain multiple author markers; zero contain none. A new section-level locator index links the section line range, parent post record, permalink, and contained author-marker IDs. It does not infer an exact marker-to-permalink relationship in the 176 multi-marker sections.
