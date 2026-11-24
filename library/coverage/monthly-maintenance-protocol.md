@@ -14,11 +14,12 @@ Monthly review is the reconciliation cycle, not a reason to wait before preservi
 
 CX Club is an active weekly teaching source. The owner reports that the weekly Wednesday lessons serve approximately 1,200 students; this audience figure is owner-supplied context, not an independently verified website metric.
 
-- Check the CX Club index after each scheduled Wednesday lesson.
-- Capture the new lesson's original page and all linked downloadable files/media as soon as practical after publication.
-- Preserve each lesson as its own immutable source object; do not wait until month-end.
-- At month-end, reconcile lesson numbering, publication dates, monthly lesson counts, index links, PDFs, embedded images, and any lesson revisions.
-- Record cancellations, skipped weeks, unpublished lessons, or inaccessible material explicitly rather than assuming a missing lesson exists.
+- Wednesday is the teaching schedule, not a guaranteed online publication deadline. The owner reports that the team may publish weekly materials several days late; this is normal.
+- Check the CX Club index on/after Wednesday and recheck during a rolling seven-day publication window.
+- Do not classify a lesson as missing or overdue immediately after Wednesday. Only flag it as not yet published after the seven-day grace window, and retain that as a time-stamped observation rather than assuming permanent absence.
+- Once a lesson appears, capture its original page and all linked downloadable files/media promptly; preserve each lesson as its own immutable source object.
+- At month-end, reconcile lesson numbering, actual publication dates, lesson dates, monthly counts, index links, PDFs, embedded images, and revisions.
+- Record cancellations, skipped weeks, delayed publication, unpublished lessons, or inaccessible material distinctly.
 
 The public Yuanwushi homepage currently advertises a weekly Wednesday 20:00 Beijing-time public lesson. Actual publication and lesson date should be taken from the lesson record itself, not inferred from the schedule.
 
@@ -51,9 +52,10 @@ The public Yuanwushi homepage currently advertises a weekly Wednesday 20:00 Beij
 
 - Recheck account history and profile counters, and obtain a new original-post export when available.
 - Compare new export records with the prior immutable export; preserve each export separately.
-- Reconcile original posts separately from reposts, comments, deleted/private posts, and other account activity.
+- The owner explains that Xiaowei Memory automatically filters out forwarded/reposted items. Therefore, the local original-post export is expected to be smaller than the profile's aggregate 936-post counter; do not treat the difference as a missing-record count.
+- Reconcile the export against the original-post category/history, not the aggregate profile counter. Keep reposts, comments, deleted/private posts, and other account activity as separate categories.
 - Recover image/video binaries and thumbnails item by item; record parent post number, native permalink, media URL, type, capture method/time, checksum, and recovery status.
-- Do not treat the profile's aggregate post counter as equivalent to locally exported original-post count.
+- Record the Xiaowei Memory filtering behavior as owner-supplied workflow context until independently verified from the tool's own documentation or output.
 
 ## 3. Preservation and versioning rules
 
@@ -83,3 +85,9 @@ A monthly cycle is not complete merely because all four rows have been updated. 
 - [ ] Update source-specific indexes and coverage status.
 - [ ] Record rights, privacy, access, and attribution constraints.
 - [ ] Publish a concise monthly delta report and list unresolved gaps.
+
+
+## 6. Source-owner workflow clarifications (2026-11-24)
+
+- **CX Club publication lag:** the owner reports several days of delay between the Wednesday lesson and publication of its weekly materials is normal. Use a seven-day rolling grace window; do not label a lesson missing merely because it is absent on Wednesday or Thursday.
+- **Weibo export filter:** the owner reports Xiaowei Memory automatically filters forwarded posts. The 765 locally exported original posts therefore should not be compared directly with the 936 aggregate profile count. The 171-count arithmetic difference is not a missing-original estimate. Verify export coverage against the original-post category/history.
