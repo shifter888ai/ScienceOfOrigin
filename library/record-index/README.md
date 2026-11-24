@@ -53,7 +53,7 @@ The project owner's attribution instruction for this identified Q&A collection i
 
 ## Repository terminology occurrence index
 
-- [public-page-terminology-occurrence-index.csv](public-page-terminology-occurrence-index.csv) — first-pass exact lexical occurrence index for 70 selected English and Chinese terminology strings across the repository's 145 HTML/Markdown text files at the time of extraction. The current index contains 1,329 term/file rows across 126 files with at least one match.
+- [repository-terminology-occurrence-index.csv](repository-terminology-occurrence-index.csv) — first-pass exact lexical occurrence index for 70 selected English and Chinese terminology strings across the repository's 145 HTML/Markdown text files at the time of extraction. The current index contains 1,329 term/file rows across 126 files with at least one match.
 
 ### Fields
 
