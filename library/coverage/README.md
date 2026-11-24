@@ -96,3 +96,12 @@ The user's statement of ownership over their original authored material is recor
 - `complete-within-defined-scope`: all defined items accounted for and validated; scope and exclusions published.
 
 A status applies only to the stated scope and date. Never use “complete” without a defined scope.
+
+
+## Monthly maintenance
+
+All four source collections now follow the [Monthly Source Maintenance Protocol](monthly-maintenance-protocol.md). The [monthly update register](monthly-update-register.csv) records the November 2026 checkpoint and will hold one row per source per monthly cycle.
+
+Monthly reconciliation is the standard for Yuanwushi, Awakenology, Reddit, and Weibo. New material should be captured as soon as practical rather than waiting for month-end. CX Club has an additional event-driven rule: capture each new Wednesday lesson and its linked files promptly, then reconcile the month's lesson sequence, dates, PDFs, and media during the monthly review. The owner reports approximately 1,200 students; this is owner-supplied context, not a verified website metric.
+
+The November 2026 register is a checkpoint, not a completion claim. The four sources remain open with the gaps described above.
