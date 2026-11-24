@@ -1,0 +1,43 @@
+# Weibo Original-Post Record Index
+
+## Source object
+
+- Original export: `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt`
+- Platform/account: Weibo / 元吾氏
+- Account UID: `1760432301`
+- Source export label: “合并备份 · 原创微博”
+- Export says: 765 original posts, 148 monthly groups, August 2010–November 2026.
+- Export pagination: 160 pages.
+- Time zone stated by export: Beijing Time (UTC+8).
+- Git blob SHA of preserved source at indexing time: `50b5f3a20b5f2065fd6401816251356609afbed9`
+
+## Index output
+
+- `weibo-originals-record-index.csv` contains one row per detected post marker.
+- The index preserves the extracted post text as exported, plus record number, timestamp, export page, source line range, character count, media note, and URLs visible in the text.
+- Record numbers are the export's sequential labels (01–765), not asserted to be Weibo's native post IDs.
+- Source line ranges refer to the unmodified TXT source file.
+- Text is retained in Chinese and is not translated, normalized, or rewritten.
+
+## Structural validation
+
+- Detected post markers: 765
+- Sequential numbering: 01–765, no gaps detected
+- First timestamp: 2010-08-09 22:49:00
+- Last timestamp: 2026-11-23 23:58:00
+- Export pages detected: 0
+- Records containing an explicit omitted-image note: 134
+- URL strings found in extracted text: 114
+- Records with empty extracted text: 0
+
+## Important limitations
+
+This index is a navigation and search aid, not proof that the account's entire historical output has been captured. The export itself says it contains only locally saved original content. It does not establish completeness against the live account, deleted/private posts, reposts, or other Weibo content types.
+
+The export is text-only. It explicitly notes omitted images in some records; video and image media are not preserved as binary attachments by this TXT file. Visible URLs are copied as found in the export and may be incomplete, line-wrapped, encoded, or malformed. No attempt has been made to repair them.
+
+No topic labels have been assigned automatically. Topic classification should be a separate, reviewable derived layer linked to these stable export record numbers, so that interpretive tags do not alter the source text.
+
+## Preservation rule
+
+Keep the original TXT unchanged. Treat this CSV as a derived index. If a later export is made, preserve it as a separate version and compare it with this source; do not overwrite this archive or silently merge differing records.

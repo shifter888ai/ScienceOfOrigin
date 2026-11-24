@@ -108,3 +108,12 @@ SHA-256 checksums, exact file bytes, original source URLs, acquisition dates, pu
 - [ ] Extend the inventory to other repositories, project uploads, external archives, local collections, and media.
 
 **Preserve every original version. Establish what each file is before extracting what it contains.**
+
+
+## Weibo original-post export — initial structural index
+
+The file `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt` has been preserved as the original Xiaowei Memory text export. Its embedded header identifies Weibo UID `1760432301` (元吾氏), 765 original-post entries, 148 monthly groups, and a stated date span of August 2010–November 2026. The export contains 160 pages and states that it includes only original content saved locally on the user's device.
+
+A structural record index is available at [`record-index/weibo-originals-record-index.csv`](record-index/weibo-originals-record-index.csv), with methodology and limitations in [`record-index/weibo-originals-record-index-README.md`](record-index/weibo-originals-record-index-README.md). The indexing pass detected all 765 sequential export markers (01–765), with no numbering gaps. It records export timestamps (Beijing Time), source line ranges, extracted text, visible URLs, and explicit omitted-image notes.
+
+This is a navigation/indexing result only. It does not establish completeness against the live Weibo account. The export is text-only and notes omitted images; binary images/videos, reposts, comments, deleted/private content, and unsaved historical posts are not established as captured. Topic classification is intentionally deferred to a separate reviewable layer. The original export remains unchanged.
