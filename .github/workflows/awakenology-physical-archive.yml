@@ -1,6 +1,9 @@
 name: Awakenology physical archive
 
 on:
+  push:
+    paths:
+      - '.github/workflows/awakenology-physical-archive.yml'
   workflow_dispatch:
     inputs:
       source_ref:
