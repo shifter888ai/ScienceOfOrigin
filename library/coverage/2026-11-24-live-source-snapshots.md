@@ -23,3 +23,14 @@ Search-index snapshots of .org/English and .space/English both expose Latest Vid
 Connected-browser profile snapshot shows aggregate counter `全部微博（936）`, latest visible post `空间是什么`, permalink `https://weibo.com/1760432301/RsLldnd80`, video locator `https://video.weibo.com/show?fid=1034:5368550857310263`, displayed duration 01:55, and thumbnail filename `68ee10adly1ijcio49qlnj21hc0u0ju7.jpg`.
 
 Snapshot: `weibo-profile-live-2026-11-24.txt`. The owner explains that Xiaowei Memory automatically filters forwarded posts, so the 765 exported original-post records should not be compared with the aggregate 936 profile counter as a missing-record estimate. This is owner-supplied workflow context. Full original-post-category coverage and binary media recovery remain outstanding.
+
+## Yuanwushi / CX Club Lesson 21 — indexed-text discovery
+
+- Page: https://www.yuanwushi.org/cxclub/lesson21.html
+- Lesson date shown in indexed page: 2026-11-18
+- Search result retrieved: 2026-11-24; search engine indicated it had crawled the page approximately three days earlier.
+- The indexed text exposes substantial lesson content: “两头堵死” (inducement draws consciousness in; fear prevents exit) contrasted with “两头开放” (restoring autonomous judgment and freedom to enter, continue, pause or exit); consciousness precision; a 100±1 framing pattern in which individually true statements can steer an inference; and a set of discernment questions about inducement, fear, alternatives, freedom to change a decision, and exit.
+- Direct page open returned a cache miss. Therefore the search result is preserved only as a discovery lead and conceptual summary, **not** as a byte-faithful or complete original-page capture. The page's images and embedded media remain uncaptured.
+- Research cross-reference candidates: Science of Freewill (autonomous choice and reversibility); Freedomality of Consciousness (option awareness, freedom to continue/pause/exit, and discernment); Entropy of Consciousness (the lesson's discussion of unpredictability, as a conceptual lead only). These are candidate connections, not established operational definitions or empirical validation.
+
+See `yuanwushi-cxclub-lesson21-search-index-assessment-2026-11-24.md`.
