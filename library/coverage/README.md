@@ -1,0 +1,92 @@
+# Source Completion Program — Coverage Baseline
+
+**Baseline date:** 2026-11-24 (Japan Standard Time)  
+**Status:** Initial evidence-based baseline; none of the four sources is certified complete.  
+**Governing principle:** Preserve everything first. Discover and organize relationships through research.
+
+## Purpose
+
+This directory tracks completion of the four priority source collections:
+
+1. Yuanwushi website and its priority resources.
+2. Awakenology website and its source repository.
+3. Reddit account comments, using the Yuanwushi Reddit archive as the primary archive portal.
+4. Weibo account original posts and recoverable media.
+
+A source is not complete merely because a portal page, sitemap, export, or repository is available. Completion requires a defined scope, source-by-source coverage reconciliation, preservation of original objects and attachments where available, integrity checks, provenance, rights/privacy review, and an explicit gap report.
+
+## Current baseline
+
+See [source-coverage-status.csv](source-coverage-status.csv) for machine-readable status and [capture-log.csv](capture-log.csv) for the observations recorded in this baseline.
+
+### Yuanwushi website
+
+- Priority entry points: `https://www.yuanwushi.org/`, `/wiki.html`, `/cxclub/`, and `/reddit/`.
+- The CX Club index currently displays lessons 1–21 (July–November 2026), with lesson 22 described as upcoming.
+- A linked “all courses” PDF is indexed, but its directory lists only lessons 1–16. This is a concrete reconciliation task: compare the PDF with the individual lesson pages and identify whether later lessons are appended elsewhere.
+- Individual lesson pages are discoverable through search, but a complete URL inventory, full-site crawl, all attachments, and Wiki capture have not yet been completed.
+- Search-engine discovery is not equivalent to a source capture or full crawl.
+
+### Awakenology website
+
+- Repository: `https://github.com/shifter888ai/awakenology`.
+- Recursive Git tree at commit `05523aec14c286bce397678b8a213cca1fc29563` contained 823 entries, including 148 HTML files and page assets, scripts, tests, documentation, and internal tools.
+- Repository `sitemap.xml` contains 136 URLs. A path-level comparison matched all 136 sitemap URLs to HTML routes in the same repository tree.
+- Twelve HTML routes were not in the sitemap: 404, internal/new-article, AI Search, Ask, editor, GitHub editor, search, and static-POC helper pages. These require classification as intentionally excluded, operational, private, or potentially omitted public content—not automatic inclusion or deletion.
+- Repository `robots.txt` points to `https://awakenology.space/sitemap.xml` and disallows editor/auth/API routes. The sitemap is a discovery list, not proof that all historical or live resources are captured.
+- Next checks: compare `.org`, `.space`, and `.org`/www aliases and redirects; verify live status for all 136 URLs; inventory every linked asset/document/video; compare Git history and live routes; preserve exact source files and relevant rendered captures.
+- The repository tree is not itself a complete live-site crawl or a historical archive.
+
+### Reddit account archive
+
+- Primary portal: `https://yuanwushi.org/reddit/`; the Reddit profile page is provenance/reference only and must not be separately re-collected as a duplicate.
+- The portal currently displays monthly groups from 2023-10 through 2026-08. The visible monthly counts sum to 607 entries.
+- Existing repository text collections are separate source objects: `materials/reddit-english-all.txt` (617 post/thread blocks) and `materials/reddit-english-qa.txt` (651 Q&A records).
+- The portal's visible 607 monthly entries, 617 post/thread blocks, and 651 Q&A records are different counting units or coverage snapshots until reconciled. Do not infer that one count proves completeness.
+- Existing indexes and overlap analysis remain useful, but account-wide comment completeness, replies, deleted/unavailable records, media, date boundaries, and export freshness have not been fully verified.
+
+### Weibo account archive
+
+- Preserved text export: `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt`.
+- Export contains 765 sequential original-post records (001–765), dated 2010-08-09 through 2026-11-23, with no numbering gaps in the export.
+- The export states it includes only original posts saved locally. This does not establish complete account-history coverage.
+- The derived structural index, provisional topic index, and media-reference locator index are navigation layers, not additional originals.
+- Media omissions are noted in the export; binary image/video recovery, deleted or unsaved posts, comments, reposts, and account-history reconciliation remain outstanding.
+
+## Completion criteria
+
+For each source, record:
+
+1. Scope and identity (account/site/domain, owner, canonical URLs, aliases).
+2. Discovery set (sitemaps, navigation, archive indexes, exports, API data, linked resources).
+3. Expected item count and actual captured item count, with counting unit clearly defined.
+4. Original bytes/files or exact content captures, plus SHA-256 where available.
+5. Attachments and embedded media, each linked to its parent record.
+6. Date range and gaps; inaccessible, deleted, private, or missing items distinguished.
+7. Duplicate/mirror/version relationships without deleting originals.
+8. Provenance, capture method/time, language, attribution, licence, privacy and republication status.
+9. Verification report and explicit residual gaps.
+10. A dated completion decision with scope limitations.
+
+## Work sequence
+
+1. Yuanwushi site: map all routes and attachments; prioritize Wiki, CX Club and Reddit archive; resolve the 16-PDF-lessons versus 21-indexed-lessons discrepancy.
+2. Awakenology: reconcile all domains, 136 sitemap URLs, 148 HTML routes, assets, linked resources, and historical Git versions.
+3. Reddit: reconcile the portal's monthly listing with both existing TXT datasets and source-account history; do not duplicate the profile collection.
+4. Weibo: reconcile export against the source account and recover media item by item.
+5. Cross-source deduplication and relationship indexing only after original capture and identity checks.
+
+## Rights and privacy
+
+The user's statement of ownership over their original authored material is recorded in project context. It must not be generalized to third-party comments, participant submissions, platform content, or embedded works. Preserve attribution and source context; review rights, privacy, and access conditions before public redistribution. Do not bypass authentication or access controls.
+
+## Status vocabulary
+
+- `not-started`: no source-specific inventory yet.
+- `discovery`: source map or expected item set is being built.
+- `partial-capture`: some originals captured; coverage not reconciled.
+- `reconciliation`: compare expected and captured objects.
+- `verified-with-gaps`: scope checked; remaining gaps explicitly listed.
+- `complete-within-defined-scope`: all defined items accounted for and validated; scope and exclusions published.
+
+A status applies only to the stated scope and date. Never use “complete” without a defined scope.
