@@ -1,0 +1,97 @@
+name: Awakenology physical archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: "Awakenology branch, tag, or commit (default: main)"
+        required: false
+        default: "main"
+  schedule:
+    - cron: "17 6 1 * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: awakenology-physical-archive
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Science of Origin
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch and copy Awakenology
+        id: snapshot
+        env:
+          SOURCE_REF: ${{ github.event.inputs.source_ref || 'main' }}
+        run: |
+          set -euo pipefail
+          tmp="$(mktemp -d)"
+          git clone --no-checkout https://github.com/shifter888ai/awakenology.git "$tmp/upstream"
+          git -C "$tmp/upstream" fetch origin "$SOURCE_REF"
+          upstream_commit="$(git -C "$tmp/upstream" rev-parse FETCH_HEAD)"
+          upstream_date="$(git -C "$tmp/upstream" show -s --format=%cI "$upstream_commit")"
+          git -C "$tmp/upstream" checkout --detach "$upstream_commit"
+          git rm --cached -f materials/awakenology
+          rm -rf materials/awakenology
+          mkdir -p materials/awakenology
+          cp -a "$tmp/upstream/." materials/awakenology/
+          rm -rf materials/awakenology/.git
+          if [ -f .gitmodules ]; then
+            git config -f .gitmodules --remove-section 'submodule.materials/awakenology' || true
+            if [ ! -s .gitmodules ]; then rm .gitmodules; fi
+          fi
+          echo "commit=$upstream_commit" >> "$GITHUB_OUTPUT"
+          echo "date=$upstream_date" >> "$GITHUB_OUTPUT"
+          echo "source_ref=$SOURCE_REF" >> "$GITHUB_OUTPUT"
+
+      - name: Generate snapshot manifest and provenance
+        env:
+          UPSTREAM_COMMIT: ${{ steps.snapshot.outputs.commit }}
+          UPSTREAM_DATE: ${{ steps.snapshot.outputs.date }}
+          SOURCE_REF: ${{ steps.snapshot.outputs.source_ref }}
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, subprocess, os
+          root = pathlib.Path('materials/awakenology')
+          records = []
+          for p in sorted(x for x in root.rglob('*') if x.is_file()):
+              rel = p.relative_to(root).as_posix()
+              data = p.read_bytes()
+              blob = subprocess.check_output(['git', 'hash-object', '--stdin'], input=data).decode().strip()
+              records.append({'path': rel, 'bytes': len(data), 'git_blob_sha': blob, 'sha256': hashlib.sha256(data).hexdigest()})
+          manifest = {'source_repository': 'https://github.com/shifter888ai/awakenology', 'source_ref': os.environ['SOURCE_REF'], 'upstream_commit': os.environ['UPSTREAM_COMMIT'], 'upstream_commit_date': os.environ['UPSTREAM_DATE'], 'snapshot_scope': 'All files tracked by Git at the pinned upstream commit; Git metadata excluded.', 'file_count': len(records), 'total_bytes': sum(x['bytes'] for x in records), 'files': records}
+          pathlib.Path('library/awakenology-file-manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          p = pathlib.Path('library/awakenology-snapshot.md')
+          p.write_text('# Awakenology physical snapshot\n\n' + f"- Source: https://github.com/shifter888ai/awakenology\n- Source ref: `{os.environ['SOURCE_REF']}`\n- Upstream commit: `{os.environ['UPSTREAM_COMMIT']}`\n- Upstream commit date: `{os.environ['UPSTREAM_DATE']}`\n- Files: {len(records)}\n- Total bytes: {sum(x['bytes'] for x in records):,}\n- Scope: all Git-tracked source files at the pinned commit; Git metadata excluded.\n- Verification: each copied file is listed with its Git blob SHA-1 and SHA-256 in `awakenology-file-manifest.json`.\n- Update policy: monthly automated comparison and pull request; prior snapshots remain available through Science of Origin Git history.\n", encoding='utf-8')
+          PY
+
+      - name: Create reviewable pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/awakenology-snapshot
+          delete-branch: false
+          commit-message: "Archive monthly Awakenology repository snapshot"
+          title: "Archive Awakenology physical snapshot"
+          body: |
+            Automated physical archive of the Awakenology Git repository.
+
+            - Replaces the submodule gitlink with ordinary tracked files.
+            - Preserves the exact upstream commit and source provenance.
+            - Generates a per-file Git blob SHA-1 and SHA-256 manifest.
+            - Monthly scheduled runs create an update PR only when content changes.
+
+            Please review the source commit and manifest before merging.
+          add-paths: |
+            materials/awakenology/**
+            .gitmodules
+            library/awakenology-file-manifest.json
+            library/awakenology-snapshot.md
