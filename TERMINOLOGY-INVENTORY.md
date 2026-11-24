@@ -493,6 +493,66 @@ The Research Library Schema and AI Research Protocol introduce a second vocabula
 
 **Source files:** `materials/reddit-english-qa.txt`; `library/record-index/reddit-english-qa-index.csv`; `materials/reddit-english-all.txt`; `library/record-index/reddit-english-all-README.md`; `library/record-index/english-reddit-overlap-analysis.md`.
 
+
+### Q. Weibo original-post archive — first full-export lexical pass
+
+**Source inspected:** the complete preserved export `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt` and its structural index `library/record-index/weibo-originals-record-index.csv`.
+
+**Coverage verified in this pass:** 765 indexed records, sequentially numbered 001–765, with no gaps reported by the source index. The export spans 2010-08-09 through 2026-11-23 (Beijing Time). Each candidate term below is linked to record numbers and source line ranges in the derived file `library/record-index/weibo-terminology-candidate-index.csv`.
+
+**Extraction method:** literal substring matching against the exported `content_text` field for a curated list of 76 candidate Chinese/English terms. Counts are the number of records containing the literal string at least once, not total occurrences. The source field includes post body text and may also include hashtags, quoted material, linked-article titles, and other exported text. Therefore these are lexical-presence counts, **not** counts of concept use, author endorsement, definitions, or independent statements. The candidate index is a discovery aid and must be checked against each original record.
+
+#### High-frequency candidate strings
+
+| Exact source string | Records containing string | Illustrative records | Preliminary reading |
+|---|---:|---|---|
+| 意识 | 181 | 069, 098, 100, 104, 136, 192 | Broad recurring vocabulary; inspect compound forms and context |
+| 觉醒 | 161 | 206, 211, 288, 499, 513, 524 | Includes hashtag usage in later posts |
+| 意识强度 | 152 | 192, 206, 229, 235, 293, 314 | Strong recurring project-specific expression |
+| 游戏 | 146 | 021, 173, 205, 206, 230, 248 | Multiple uses; distinguish metaphor, model, and ordinary reference |
+| 真相 | 109 | 037, 043, 045, 046, 047, 056 | Includes title and hashtag contexts |
+| 灵魂 | 104 | 154, 206, 251, 474, 475, 492 | Must not be collapsed into 意识 without review |
+| 自由 | 95 | 198, 210, 230, 237, 242, 250 | Broad term; distinguish 自由意识 and 自由意志 |
+| 虚拟 | 93 | 148, 206, 230, 242, 510, 520 | Often occurs in compound expressions and tags |
+| 宇宙 | 89 | 147, 206, 341, 342, 343, 344 | Broad topic vocabulary |
+| 虚拟现实 | 88 | 206, 510, 520, 521, 538, 544 | Compound phrase; do not infer a single stable definition from frequency |
+| 轮回 | 85 | 109, 129, 159, 172, 173, 177 | Major recurring applied/research term |
+| 催眠 | 83 | 171, 177, 195, 199, 200, 204 | Distinguish ordinary hypnosis, source-specific use, and compounds |
+| 修行 | 82 | 101, 206, 319, 339, 341, 342 | Practice vocabulary; context-sensitive |
+| 能量 | 60 | 028, 144, 289, 563, 592, 599 | Meaning varies by source context; do not assume physics equivalence |
+| 记忆 | 55 | 394, 473, 474, 492, 516, 517 | Includes later memory-recovery hashtags |
+| 本源 | 45 | 037, 045, 047, 049, 075, 106 | Central source expression; compare its changing use over time |
+
+#### Specific phrases worth conceptual review
+
+| Exact source phrase | Record(s) | Source lines | Why preserve it |
+|---|---|---:|---|
+| 万物本源 | 037, 045, 075, 156, 212, 230, 569, 580 | See candidate index | Recurring compound around 本源 |
+| 终极真相 | 037, 045, 075 | 114–119 (record 037) | Historical title phrase |
+| 意识创造形相 | 069 | 215–216 | Named phrase in a research-title reference |
+| 潜意识 / 表意识 / 灵体意识 / 肉体意识 | 098 | 318–320 | Record explicitly writes “潜意识=灵体意识。表意识=肉体意识。” Preserve the exact paired wording; do not substitute current terminology |
+| 得道 / 合一本源 / 脱离轮回 | 129 | 426–427 | Record states “得道=合一本源＋脱离轮回。” Preserve as a source claim, not a current definition unless confirmed |
+| 虚拟存在 / 虚拟实相 / 虚拟 | 148 | 486–490 | Record includes English-Chinese paired statements about virtual existence, things, forms, and realities |
+| 自由意识 / 自由意志法则 / 虚拟法则 / 幻相 / 游戏 | 230 | 802–806 | Record gives explicit equivalence and relationship statements; these need careful comparison with current framework distinctions |
+| 业力 / 自由意志 | 198 | 674–675 | Record states “业力=自由意志的反弹力。” |
+| 业力 / 游戏规则 | 248 | 875–876 | Record states “业力=游戏规则。” Compare with record 198; do not reconcile silently |
+| 游戏创造者 / 游戏玩家 / 游戏NPC | 471 | 1782–1791 | Three named roles in a life-game question |
+| 零能量空间 / 循环结构 / 闭环结构 / 多空间循环转换 / 物质界 / 能量守恒 / 能量转换 | 563 | 2183–2240 | Long-form source account with its own internal section structure and named mechanisms |
+| 意识流 / 意识焦点 | 566 | 2253–2257 | Record states “波=意识流。粒=意识焦点。” |
+| 意识强度 / 本源 / 自由意识 / 游戏规则 / 可能性 / 确定性 / 显化 / 不存在 | 569 | 2270–2321 | Dense multi-concept post; requires a dedicated concept/relationship extraction |
+| 自由意识（自由意志 Freewill） | 689 | 3043–3048 | Explicit bilingual pairing in source; compare with current Science of Freewill framework |
+| 脱离轮回 | 764 | 3543–3551 | Recent exact source phrase; preserve alongside earlier 轮回 vocabulary |
+
+#### Initial historical observations — not conclusions
+
+1. **Terminology is not static.** The archive includes early posts, references to longer writings, later compact formulations, hashtags, and recent article/video notices. The same string may have different functions in different periods.
+2. **The archive contains explicit equations and compact propositions.** Examples include records 047, 098, 129, 198, 230, 248, 563, 566, and 569. These should be extracted as source claims with exact locators before being treated as glossary definitions.
+3. **Some apparent equivalences require particular care.** Records 198 and 248 both define 业力 using different expressions; record 230 links 自由意识, 自由意志法则, 虚拟法则, 幻相, 游戏, and 本源. Keep each statement separate until the owner clarifies their intended relation and scope.
+4. **Hashtags inflate literal presence.** Terms such as 觉醒, 意识强度, 轮回, 游戏, and 虚拟现实 recur in tags. The frequency figures do not measure the number of substantive discussions.
+5. **The Weibo archive is not the whole source history.** The export is described as locally saved original posts. The source register records 765 posts; this pass does not claim completeness against all account history or recover omitted media.
+
+**Next Weibo sub-pass:** classify each candidate hit as (a) authored proposition or explanation, (b) title/announcement pointing to a longer source, (c) hashtag only, (d) quotation or attributed material, (e) question/commentary, or (f) other/unclear. Then extract all explicit definition/equation forms and build a separate relationship register. Preserve record number, timestamp, original text, and source line range throughout.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
