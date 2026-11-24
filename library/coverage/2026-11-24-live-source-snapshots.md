@@ -26,6 +26,8 @@ Connected-browser profile snapshot shows aggregate counter `全部微博（936�
 
 Snapshot: `weibo-profile-live-2026-11-24.txt`. The owner explains that Xiaowei Memory automatically filters forwarded posts, so the 765 exported original-post records should not be compared with the aggregate 936 profile counter as a missing-record estimate. This is owner-supplied workflow context. Full original-post-category coverage and binary media recovery remain outstanding.
 
+On 2026-11-24, web-view opens were attempted for the exact post and video locators of records 762 and 765. The tool reported the post and video URLs as inaccessible. This does not establish deletion or unavailability through an authenticated browser. No video or thumbnail binary was downloaded or checksummed. See weibo-video-access-attempts-2026-11-24.md.
+
 ## Yuanwushi / CX Club Lesson 21 — indexed-text discovery
 
 - Page: https://www.yuanwushi.org/cxclub/lesson21.html
