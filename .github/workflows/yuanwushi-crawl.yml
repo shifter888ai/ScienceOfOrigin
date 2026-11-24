@@ -1,0 +1,53 @@
+name: Yuanwushi source crawl
+
+on:
+  push:
+    paths:
+      - '.github/workflows/yuanwushi-crawl.yml'
+      - 'tools/yuanwushi_crawl.py'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 1 * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yuanwushi-source-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out Science of Origin
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Capture public Yuanwushi source
+        env:
+          TZ: Asia/Tokyo
+          CAPTURE_DATE: ${{ '' }}
+          CRAWL_DELAY_SECONDS: '0.8'
+          MAX_ATTACHMENT_BYTES: '26214400'
+          MAX_TOTAL_ATTACHMENT_BYTES: '209715200'
+        run: |
+          set -euo pipefail
+          export CAPTURE_DATE="$(date +%F)"
+          python3 tools/yuanwushi_crawl.py
+
+      - name: Publish immutable snapshot branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C automation/yuanwushi-crawl
+          git add -A materials/yuanwushi/
+          if git diff --cached --quiet; then
+            echo "No new Yuanwushi snapshot changes."
+            exit 0
+          fi
+          git commit -m "Capture monthly Yuanwushi source snapshot"
+          git push --force-with-lease origin automation/yuanwushi-crawl
