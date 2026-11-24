@@ -10,6 +10,10 @@ The site is a lightweight static HTML website. Its root-level HTML files are the
 
 The homepage introduces the seven divisions of the framework. The site also includes the **Foundational Framework**, the **Research Map**, the **Research Directory**, **Terminology**, current research directions, and the exploratory article **Origin Exploring Itself**.
 
+## Research governance
+
+The standing AI-assisted research standard is documented in [AI-RESEARCH-PROTOCOL.md](AI-RESEARCH-PROTOCOL.md). It records the agreed principles of open-ended inquiry, openness of methodology, evidence-aware evaluation, source fidelity and independent review.
+
 ## Search engines
 
 - Sitemap: https://scienceoforigin.space/sitemap.xml
