@@ -623,6 +623,94 @@ The Weibo candidate index now distinguishes literal matches in the full exported
 
 **Next Reddit sub-pass:** examine the 617 post/thread blocks and 904 exact YWS author markers in `materials/reddit-english-all.txt`. Extract terminology from YWS-attributed spans separately from original posters, other commenters, quoted text, and thread titles. Use `reddit-english-all-post-index.csv`, `reddit-english-all-yws-author-marker-index.csv`, and the existing overlap file as locators; do not treat each author marker as a complete comment without checking boundaries.
 
+
+### S. Reddit English all-post archive — YWS-authored terminology pass
+
+**Source inspected:** `materials/reddit-english-all.txt` (1,651,691 characters; 29,553 lines), its 617-post index, and its 904 exact `Lower-Lingonberry-40:` author-marker records. The source archive spans 2023-10-29 through 2026-11-18. The owner has instructed that the identified account's answers are authored by YWS; the post authors and other commenters remain separate speakers.
+
+**Derived index:** `library/record-index/reddit-all-yws-terminology-candidate-index.csv` (52 candidate terms/phrases after whole-word matching). It links each term to matching author-marker IDs, parent post IDs, and source line ranges.
+
+**Span method and limitation:** Each author marker was segmented to the next detected speaker label, `Source:` line, comment-section boundary, post separator, or next author marker. This improves on the marker-only index, but is still a rule-based span extraction. Nested Reddit threads and unusual username labels can complicate boundaries; the source README correctly cautions that a marker is not automatically a complete comment. The derived spans and term hits remain reviewable locators, not a final semantic classification.
+
+**Matching method:** Case-insensitive whole-word/phrase matching, avoiding substring matches such as `Origin` inside `original`. Counts are matching YWS author-marker spans and distinct parent posts, not total occurrences or independent claims.
+
+#### High-frequency YWS-authored candidate phrases
+
+| Exact phrase | Author-marker spans | Parent posts | Note |
+|---|---:|---:|---|
+| reincarnation | 155 | 132 | Broad term; context and compounds vary |
+| hypnotic | 137 | 120 | Recurring modifier in named system and process terms |
+| escape | 80 | 67 | Often applied to reincarnation-system context |
+| soul | 89 | 73 | Includes many distinct source contexts |
+| hypnotic reincarnation | 98 | 87 | Stable recurring phrase |
+| Hypnotic Reincarnation System | 55 | 51 | Capitalized named form |
+| SoC | 75 | 55 | Abbreviation; expand from the surrounding source |
+| Consciousness | 56 | 46 | Broad term |
+| Spectrum of Consciousness | 23 | 22 | Exact named research term |
+| Strength of Consciousness | 18 | 17 | Exact named research term |
+| Freewill | 16 | 13 | Preserve the one-word spelling where used |
+| spectrum | 28 | 27 | Broader than the named Spectrum of Consciousness phrase |
+| astral projection | 27 | 26 | Recurrent experiential/practice term |
+| physical body | 19 | 17 | Appears in body/soul and astral projection contexts |
+| life | 54 | 51 | Broad word; not a single defined concept |
+| game | 53 | 44 | Used in multiple explanatory and model contexts |
+| NDE | 2 | 2 | Whole-word match in YWS spans; much more frequent in questioner text |
+| Zero-Energy Space | 2 | 2 | Exact named technical/model phrase in this archive |
+
+#### Additional terms that merit explicit inventory entries
+
+| Exact phrase | YWS-authored source locator | Why it matters |
+|---|---|---|
+| Level of Awareness | Marker 0192; lines 6432–6483 | Source states “The Level of Awareness = Lucidity of Consciousness.” |
+| Lucidity of Consciousness | Marker 0192; lines 6432–6483 | Paired with Level of Awareness in the same source statement |
+| Strength of Freewill (SoF) | Marker 0192; lines 6432–6483 | Named as a measurement methodology alongside Strength of Consciousness |
+| Strength of Consciousness (SoC) | Marker 0192; lines 6432–6483 | Source spelling includes “Stength” in one sentence, followed by the correctly spelled bullet form |
+| Spectrum of Consciousness (SoC) | Marker 0192; lines 6432–6483 | Listed as one of the terms used by different research groups |
+| Science of Consciousness (SoC) | Marker 0192; lines 6432–6483 | Source says the listed terms fall under this broader field |
+| memory mechanism / memory structure / memory malfunction / memory distortion / memory suppression | Marker 0192; lines 6432–6483 | Listed under research on memory systems |
+| self-identity / self-modeling / self-consciousness / phenomenal consciousness | Marker 0192; lines 6432–6483 | Listed as research areas related to detachment from the material world and “toy-body” |
+| Tier-1 / Tier-2 / Tier-3 reincarnation | Marker 0182–0183; September 28, 2024 thread | The source assigns different SoC level thresholds to three tiers; preserve the exact source context and do not merge tiers |
+| active reincarnation / passive reincarnation | Markers 0299, 0341, 0395, 0413, etc. | Paired source vocabulary; preserve as separate named types |
+| T-Group | 16 spans / 15 parent posts | Repeated source label; compare with Hypnotic Reincarnation Company and other organization names |
+| Hypnotic Reincarnation Company | 5 spans / 5 parent posts | Organization name used in the source |
+| Hypnotic Reincarnation Game Developer Company | Marker 0192; lines 6432–6483 | Exact named company phrase in a source explanation |
+| AI Operating System | 4 spans / 4 parent posts | Appears in the system-model vocabulary |
+| robotic body | 5 spans / 5 parent posts | Source-specific body/model phrase |
+| visitor / reincarnator | Multiple spans | Distinction used in the archive; review relation and exact scope |
+| loophole | 15 spans / 13 parent posts | Repeated term in the escape-system discussion |
+| Hypnotic Bases and Facilities | Marker 0451; December 3, 2024 thread | Exact plural phrase in YWS-authored explanation |
+| Hypnotic Council | Marker 0881; June 15, 2026 thread | Named term in an answer about a reported life-review account |
+| Oneness | 2 spans / 2 parent posts | Used in relation to Source, individuality, and consciousness |
+| Infinity | Marker 0237; September 30, 2024 thread | Source phrase: “The highest state is infinity, or the state of no-limit.” |
+| Zero-Energy Space | Markers 0689–0690; June 3, 2025 thread | Source term linked to a technology/model for bringing a physical universe into existence |
+| silver cord / conscious streams / streams of consciousness / conscious intention | Marker 0899; September 16, 2026 thread | First-person experience account with explicit relational and directional vocabulary |
+| Hypnotic wave / Hypnotic Bases | Marker 0902; November 17, 2026 thread | Latest captured source wording about the buzzing-sound question |
+| interconnected / individuality / merging | Marker 0895; August 30, 2026 thread | Source explicitly distinguishes being connected from being merged and losing individuality |
+| singular in nature / plural in manifestation | Marker 0125; September 1, 2024 thread | Exact compact relationship phrase; preserve without interpreting it as a definition of Origin |
+
+#### Particularly important source passage: Level of Awareness and Science of Consciousness
+
+In the September 28, 2024 Reddit thread *“SoC AssessPoints (1): Central Area - Mind Control”*, YWS's answer (author-marker 0192, source lines 6432–6483) contains a concentrated terminology passage:
+
+- “The Level of Awareness = Lucidity of Consciousness.”
+- It says Lucidity of Consciousness can be quantifiably measured through a methodology called “Stength of Consciousness (SoC)” or “Strength of Freewill (SoF).”
+- It then lists terms used by different groups: Strength of Freewill (SoF), Strength of Consciousness (SoC), and Spectrum of Consciousness (SoC).
+- It places these under the broader field “Science of Consciousness (SoC).”
+- It also lists memory mechanism, memory structure, memory malfunction, memory distortion, and memory suppression as research topics within memory systems.
+- It further lists self-identity, self-modeling, self-consciousness, phenomenal consciousness, integration of experience, unified conscious experience and the binding problem, ego attachment, dissolution of ego, and stages of ego transcendence.
+
+This is a source passage, not a newly imposed definition. It should be compared with the current Science of Consciousness architecture and the user's later distinctions between Consciousness, Freewill, Spectrum of Consciousness, Strength of Consciousness, and Level of Actualization of Freewill. Do not assume that identical abbreviations (SoC) make the named methods or concepts equivalent.
+
+#### Attribution and evidence cautions
+
+1. These counts refer only to spans attributed to YWS by the exact author-marker label and the segmentation method above. They do not count every term in the 617 original posts or every other participant's comments.
+2. The archive includes replies embedded at different indentation levels. A manual boundary audit is still needed for any span used as a canonical definition or key quotation.
+3. YWS-authored Reddit wording is a primary historical source for the owner's statements, but an assertion or first-person report is not automatically an externally established scientific finding.
+4. The 617-post archive, the 651-record Q&A file, and the overlap CSV remain separate datasets. The existing overlap analysis found exact normalized answer-text matches for 487 Q&A records, but this does not make the datasets interchangeable.
+5. The post title and original poster are context, not YWS-authored terminology. Do not import title wording or questioner wording into the YWS term list unless it also appears in a YWS-authored span.
+
+**Next historical-source pass:** inspect the two Chinese PDF volumes and compare their terminology with the Chinese TXT compilation and the Weibo records. Preserve document/page locators and exact Chinese forms; only then begin cross-language term reconciliation.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
