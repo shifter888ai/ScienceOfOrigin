@@ -25,6 +25,46 @@ All 36 native comment IDs match the earlier 2026-11-24 live-feed capture; this i
 
 The oldest visible comment, `l1rncim`, now has its body rendered in the profile feed as **“👍”**. The earlier individual-thread text snapshot did not render the body. The profile-feed capture therefore resolves the body-text gap for this record.
 
+## Native-ID and source-text crosswalk
+
+A direct comparison of all 36 captured profile-feed records against the primary Reddit TXT (blob SHA 0452d11a39654864572c0d563667765b5c96da3c) gives the following breakdown:
+
+| Cross-source result | Count | Interpretation |
+|---|---:|---|
+| Exact profile comment IDs present in the primary TXT | 24 | Exact native comment-ID matches |
+| Comment IDs absent, but matching body text appears in the corresponding parent-thread block | 5 | Four comments under post 1eydeks and one under post 1eyufcg; body-level matches, not native-ID matches |
+| Parent post and comment IDs absent; thread title displayed as “[deleted by user]” in the profile feed | 6 | No corresponding parent block or exact body text found in the primary TXT |
+| Parent post and comment ID absent, with body recovered from profile feed | 1 | l1rncim in post 1cf7vdu; captured body is “👍” |
+
+### Five body-level matches without native comment IDs
+
+- Post 1eydeks, source block lines 86–175: profile comment IDs ljyxctg, ljyx4ax, ljywvqu and ljywl5t. Their exact body texts appear within this same parent-thread block, but those four profile comment IDs are not present in the TXT.
+  - TXT Source locator: https://www.reddit.com/r/EscapingPrisonPlanet/comments/1eydeks/bad_news_it_seems_like_youll_get_sent_back_to/ljckzao/?context=3
+- Post 1eyufcg, source block lines 177–197: profile comment ID ljyvgxb. Its exact body text appears within this same parent-thread block, but the profile comment ID is not present in the TXT.
+  - TXT Source locator: https://www.reddit.com/r/EscapingPrisonPlanet/comments/1eyufcg/woman_stuck_in_dream_for_40_years/ljfyhgj/?context=3
+
+These are strong body-and-parent-block correspondences, but the TXT does not preserve the same native comment IDs for those five records. Keep them labelled as body-level matches rather than exact ID matches.
+
+### Six deleted-title records absent from the primary TXT
+
+The following profile-feed records have the displayed thread title “[deleted by user]”; neither their parent post IDs nor comment IDs occur in the primary TXT, and their captured body texts were not found there:
+
+- lk5k3r4 — post 1f2dllc
+- lk5jk51 — post 1f20zhh
+- lk5j7wo — post 1f1x4ul
+- lk5j3zo — post 1f2d2de
+- lk5hu19 — post 1f29szz
+- ljzvb4w — post 1f1ibgz
+
+The available evidence does not establish why these six records are absent from the TXT. Do not infer a filtering or deletion cause.
+
+### One recovered body with no matching parent block
+
+- l1rncim — post 1cf7vdu — body text “👍”.
+- The body is preserved in the profile-feed JSONL capture.
+- The parent post ID and comment ID are absent from the primary TXT.
+- No explanation for the mismatch is inferred.
+
 ## Completeness assessment
 
 The page visibly reports “Showing all comments” and the captured text contains no “Load more” or next-page control. However, it does not expose an explicit total-comment count, a terminal/end-of-history marker, or a verifiable pagination cursor. Therefore:
