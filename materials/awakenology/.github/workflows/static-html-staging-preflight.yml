@@ -1,0 +1,26 @@
+name: Static HTML staging deployment preflight (no deploy)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/static_html_poc/staging_deployment_preflight.py'
+      - 'scripts/static_html_poc/staging-plan.json'
+      - 'scripts/static_html_poc/test_staging_deployment_preflight.py'
+      - '.github/workflows/static-html-staging-preflight.yml'
+      - 'docs/static-html-poc/phase-8-staging-preflight.md'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preflight-only:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m unittest discover -s scripts/static_html_poc -p 'test_staging_deployment_preflight.py' -v
+      - run: python scripts/static_html_poc/staging_deployment_preflight.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: static-html-staging-deployment-preflight
+          path: static-html-staging-deployment-preflight.json
+          if-no-files-found: warn

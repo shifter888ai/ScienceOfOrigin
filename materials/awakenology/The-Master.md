@@ -1,0 +1,693 @@
+# Awakenology Website Redesign - The Master
+
+## Governing Principles
+
+1. **Fresh rebuild, not a patch** — Build the new website from scratch. The old WebsiteBuilder design is a content source only, never the design foundation.
+2. **Simple is best** — Lightweight, fast, minimal HTML/CSS/JS; no unnecessary frameworks or technology.
+3. **Content first** — Content is the primary purpose of every page; avoid unnecessary decoration.
+4. **One consistent design system** — Homepage, language TOCs, articles, Search/Ask, Disclaimer, and future pages share one system.
+5. **Dark mode is the default** — Dark first; light mode remains available; no light flash; every component works in both modes.
+6. **Black / white / gray foundation** — Restrained neutral palette with limited functional color.
+7. **System fonts only** — No external fonts. Serif may be used selectively for major headings.
+8. **Responsive by default** — Desktop and mobile must work properly.
+9. **Consistent navigation** — English / 日本語 / 中文 / Search / Ask as separate links, with the active page clear.
+10. **Consistent footer** — Contact icon → Reddit 1 → Reddit 2 → Reddit 3 → Disclaimer, then © 2017–CURRENT_YEAR Awakenology. The Contact icon links to the dedicated `/Contact/` page and is a standardized global footer component, not article content.
+11. **Common lightweight article template** — All articles use the approved global structure.
+12. **Preserve intentional wording** — Never silently correct unusual English or intentional formatting.
+13. **Accessibility and readability** — Maintain readable typography, spacing, contrast, links, and responsive behavior.
+14. **Performance first** — Minimal JavaScript and unnecessary assets/dependencies.
+15. **Existing functionality survives** — Cloudflare hosting, routes, AI Search/RAG, language navigation, theme switching, Chinese switching, external links, sitemap/robots, and 404 must continue to work.
+16. **Do not rebuild the backend / RAG** — Preserve AI Search and related backend functionality; redesign presentation/UI only.
+17. **Maintainability** — Prefer simple structures that are easy to understand, update, and reuse.
+18. **One controlled change at a time** — Build → commit → deploy → test → approve → next.
+19. **Approved components become the baseline** — Once tested and approved, do not alter them without deliberate approval.
+20. **Official website / domains** — `awakenology.space` remains the canonical primary domain. `awakenology.org` and `strengthofconsciousness.org` serve the same website through the existing Cloudflare Worker; canonical URLs remain on `awakenology.space`.
+21. **100% Original Content Match**
+
+### Original-to-Rebuilt Content Inventory Gate
+
+Before any rebuilt page is sent for live testing, create an explicit **Original-to-Rebuilt Content Inventory** from the original source and compare it against the rebuilt page.
+
+The inventory must account for every content-bearing element, including:
+- text/content blocks
+- headings and paragraph titles
+- TOCs
+- metadata
+- links
+- **every content image individually, wherever it appears in the original document body**
+- image source/path and actual asset
+- image position/order relative to all other content-bearing elements
+- image/container dimensions and CSS constraints
+- content-bearing elements that are siblings of the main text block or appear before/after the main text block
+- bold, underline, italic, color, alignment, and other intentional formatting
+- intentional whitespace/spacers
+- other content-bearing elements embedded inside legacy WebsiteBuilder wrappers
+
+For images specifically:
+- Original content-image count must equal rebuilt content-image count.
+- Every original content image must have a verified 1:1 rebuilt counterpart.
+- Verify the actual asset file/path, position, and applicable original HTML/CSS sizing rules for each image.
+- An image must never be classified as a "legacy artifact" merely because its element is inside an old WebsiteBuilder wrapper if it is part of the page's original content.
+- **Content scope is the entire original document body, not merely the main text/article container.** Inspect all original body-level and wrapper-contained content-bearing elements before the footer/global components are separated out.
+- **A content-bearing image outside the main text block is still a content image.** This includes images placed in a separate WebsiteBuilder picture wrapper before or after the main text block, provided the image is part of the original page content rather than a standardized global header/footer asset.
+- Distinguish global template assets from page-specific content assets by inspecting their role, wrapper/context, source, position, and original page structure; do not classify by location alone.
+- Any inventory mismatch is a hard failure and must be resolved before user testing.
+
+The inventory is the **page-specific evidence of what was there**; the Audit checklist is the **global verification that it was preserved**.
+
+    - **Never remove any original content.**
+    - Compare every rebuilt page against the original source.
+    - Preserve all text, headings, TOCs, metadata, links, images, unusual wording, intentional formatting, spaces, NBSPs, and content-bearing elements.
+    - Only design, layout, HTML structure, CSS, and necessary presentation code may change.
+    - A page is not complete until the comparison passes 100%.
+22. **100% Standard Component Match**
+    - Every rebuilt page must contain all required standard site components.
+    - They must match the approved global template exactly unless deliberately approved otherwise.
+    - This includes header/navigation, theme controls, **↑ Return to top**, footer, Reddit icons, Contact, Disclaimer, copyright, and other approved global components.
+    - Content preservation can never substitute for this check.
+    - If an approved component is missing, altered, or inconsistent, the page is not complete.
+23. **HTML Structure Sanity Check**
+    - A rebuilt page must have valid, clean HTML, not merely matching text.
+    - Never allow legacy WebsiteBuilder document structures to be accidentally inserted into the new template.
+    - Automatically verify:
+      - exactly one `<html>`, `<head>`, and `<body>`
+      - no `<html>`, `<head>`, or `<body>` nested inside `<main>` or `<article>`
+      - no legacy WebsiteBuilder layout wrappers accidentally carried into the redesigned page
+      - required opening/closing structure is intact
+      - the new page contains only the approved new design structure plus preserved content
+    - **Content Match, Standard Component Match, and HTML Structure Sanity are three independent checks.**
+    - Passing one check can never substitute for another.
+    - **Never trust a successful text comparison alone.**
+24. **Formatting Isolation Check**
+    - Formatting intended for one content region must never leak into another region.
+    - Especially verify italic, bold, underline, link, font, and color inheritance.
+    - TOC-specific formatting must remain confined to the TOC.
+    - Main article text must retain intended normal formatting unless the original content explicitly specifies otherwise.
+    - Automated validation must check DOM structure and formatting boundaries, not merely extracted text.
+    - A page is not complete if content is correct but formatting has leaked across structural boundaries.
+
+
+25. **Language Navigation Isolation Check**
+    - The global English / 日本語 / 中文 navigation belongs only in the global header.
+    - Never copy or extract legacy WebsiteBuilder language navigation into article or TOC content.
+    - Automatically inspect article and TOC regions for the global language-menu labels/links and fail the build if they appear there.
+    - This check is independent of Standard Component Match and Formatting Isolation.
+
+26. **Post-Commit Verification**
+    - After every page change, do not assume the intended edit reached GitHub.
+    - The required sequence is: fetch current file → modify → commit → fetch the committed file again → verify the exact changed markup/content in the committed version.
+    - Only after post-commit verification passes may the page be reported as fixed and sent for user visual testing.
+    - If the committed file does not contain the intended change, correct it before reporting completion.
+
+
+27. **Asset Path / Image Integrity Check**
+    - Every preserved image, download, and other content-bearing asset must retain its intended target and resolve correctly from the rebuilt page.
+    - Relative legacy asset paths must be converted appropriately for the new route structure; never assume a legacy relative path will work unchanged.
+    - Automatically inspect every `<img src>` and other asset-bearing URL.
+    - Verify that each referenced asset resolves to an existing intended asset; image-tag count alone is not sufficient.
+    - A page is not complete if an asset exists in the HTML but is broken because its URL resolves incorrectly.
+    - This check is independent of Content Match, Standard Component Match, HTML Structure Sanity, Formatting Isolation, and Language Navigation Isolation.
+
+
+28. **Image Scale / Rendering Preservation Check**
+    - For every content image, compare the original HTML **and CSS**, including the image element and its containing element.
+    - Preserve intentional per-image and per-container width, height, min-width, max-width, fixed-height, auto-width, alignment, margins, object-fit/object-position, and responsive behavior.
+    - If the original uses explicit image-specific or container-specific rules, reproduce those rules explicitly; do not replace them with a generic intrinsic-size or `max-width:100%;height:auto` assumption.
+    - Map and verify each content image individually when original images use different sizing rules.
+    - Inspect original responsive/breakpoint overrides and preserve their intended behavior.
+    - Image-scale verification is mandatory before a page is sent for live testing; visual discovery by the user must not be the first image-scale check.
+
+29. **All Internal Links Validation**
+    - Validate every internal link on every rebuilt page against the actual repository path and deployed route.
+    - Confirm the target exists and the link points to the correct intended page.
+    - This includes header navigation, TOC links, article links, footer links, language links, and other internal links.
+    - URL-encoded Japanese/Chinese paths must be decoded and checked against actual repository paths as well as deployed routes.
+    - Do not rely on visual inspection alone.
+
+30. **Chinese Default Variant**
+    - Traditional Chinese (繁體中文) is the unconditional global default for Chinese pages.
+    - Simplified Chinese remains available through the Worker-provided 简/繁 toggle.
+    - A saved explicit user preference may be respected after the global Traditional default is established.
+    - This rule applies site-wide, not only to the Chinese TOC or Disclaimer page.
+
+31. **Live Rendering Verification**
+    - Source/CSS/DOM verification must be completed before user testing.
+    - Where rendered-page inspection is available, inspect the rendered page before reporting the page ready for testing.
+    - User live testing remains the final rendered check after automated/source verification.
+    - Do not report a page as complete based only on text/content comparison.
+
+### Title Line Preservation
+- When an original page title contains multiple lines with different font sizes, weights, decorations, fonts, spacing, or line heights, each line must be inventoried and preserved individually.
+- Promoting the title to the standardized H1/header must not normalize, collapse, or otherwise alter those line-specific properties unless the user explicitly requests that visual change.
+- A multi-line original title is one content-bearing title with independently auditable line-level formatting; do not treat it as a single uniform H1 style by assumption.
+
+
+### Heading / Paragraph Title Alignment Preservation
+- Every original content heading/paragraph title must be inventoried individually for horizontal alignment: left, center, right, or justified.
+- Preserve the original alignment when rebuilding, even if the element is promoted to a standardized H1/H2/H3 or otherwise restyled.
+- Original alignment must be derived from the original HTML/CSS/container behavior, not assumed from the new template.
+- Any intentional alignment change must be explicitly requested and audited as a targeted visual change.
+
+### Per-Image Rendering Inventory
+- Every page-specific content image must have an individual rendering record in the page inventory.
+- The record must include: source asset/path, original source position/order, containing element, container width, image width, min/max-width, height/auto behavior, min/max-height, margins, alignment, object-fit/object-position, and responsive overrides where present.
+- Verify the rebuilt image against that individual record before user testing.
+
+### Container vs. Image Rendering
+- Audit container alignment and image rendered size as separate properties.
+- A centered image does not pass the image-scale audit unless its rendered dimensions also match the original rules.
+- Conversely, a correctly sized image does not pass if its container alignment or margins are wrong.
+
+### Generic Image CSS Restriction
+- Generic rules such as `width:100%; max-width:100%; height:auto` must not override an original page-specific image rule.
+- Page-specific image and container rules take precedence over generic article-image CSS whenever the original source contains explicit sizing or alignment rules.
+- Do not introduce a generic image rule that silently changes the rendered scale of an individually audited image.
+
+### Intentional Post-Rebuild Visual Changes
+- After a page passes the original-content and rendering audit, a user-requested visual modification may be applied only to the explicitly identified element or property.
+- All other audited content, image mappings, title-line properties, layout relationships, and rendering properties must remain unchanged unless separately requested and re-audited.
+- Rebuilding or reformatting unrelated parts of the page is not an acceptable side effect of a targeted visual change.
+
+
+### Heading / Paragraph Title Formatting Preservation
+- Every original content heading/paragraph title must be inventoried individually for line breaks, font size, font weight, font family, text decoration (including underline), horizontal alignment, line height, and spacing/margins.
+- Preserve these properties when rebuilding, even if the element is promoted to a standardized H1/H2/H3 or otherwise restyled.
+- Do not collapse multiple original title lines into a uniform H1 by assumption.
+- Original text decoration must be derived from the original HTML/CSS/container behavior, not assumed from the new template.
+- Any intentional formatting change must be explicitly requested and audited as a targeted visual change.
+
+### Global Component Content Exclusion
+- Standardized global components are not page-specific article content and must not be counted as preserved article content when they are intentionally replaced by the approved global component.
+- This includes the global Disclaimer, footer copyright, Contact, global navigation, and other standardized site-wide components.
+- If the original page contains legacy copies of these components, they must be explicitly classified during inventory and removed when the approved global component replaces them.
+- The rebuilt page must contain exactly one active/visible standardized instance of each approved global component.
+
+### Content Duplication / 1:1 Element Matching
+- Every content-bearing element extracted from the original page must be mapped to exactly one rebuilt element unless it is explicitly classified as an obsolete global component being replaced by an approved standardized global component.
+- Do not manually add a rebuilt element when an equivalent original content element has already been preserved through extraction or reconstruction.
+- The original-to-rebuilt inventory must explicitly check for both missing elements and duplicated elements.
+- For small but content-bearing elements such as source credits, attribution lines, author names, dates, separators, and copyright/source blocks, verify the original count and rebuilt count individually.
+- A rebuilt page fails the inventory gate if any original content-bearing element appears zero times or more than once without an explicit approved reason.
+
+### Source / Credit Block Audit
+- Original source-credit and attribution elements such as `----`, `YWS`, author names, dates, and similar bottom-of-article elements must be inventoried individually and preserved exactly once when they are page-specific content.
+- Do not recreate source-credit elements separately after extracting the original article content unless the original inventory shows that they were omitted and need restoration.
+- Distinguish page-specific source/credit content from standardized global footer copyright and other global components before reconstruction.
+
+### Context-Specific Original Style Preservation / Duplicate-Text Context Isolation
+- Every content-bearing element must be matched to its original DOM context, structural region, position/order, and role, not by text content alone.
+- Identical text appearing in different contexts—such as a TOC, article body, caption, source-credit block, navigation, or footer—must be treated as separate original elements with separate formatting requirements.
+- Preserve the original style of each occurrence independently, including bold/strong, italic/emphasis, underline, font size, font family, color, alignment, line height, spacing/margins, and other intentional formatting.
+- Never use a global text search/replace or first-match operation to modify formatting when the same text can occur in multiple DOM contexts.
+- When patching a duplicate-text element, target the exact DOM context/region and occurrence; verify that the intended occurrence changed and all other occurrences retained their original formatting.
+- Any duplicate-text context mismatch is a hard failure before user testing.
+
+### Governing Reconstruction Principle
+> **Do not rebuild from assumptions when the original has explicit HTML or CSS. Extract, inventory, map, and reproduce the original content-bearing rendering rules first; only then apply the approved new design or an explicitly requested visual change.**
+
+32. **Global Components / Single Source of Truth / Duplication Check**
+    - Before adding, rebuilding, or modifying any global site component, inspect `worker.js` first.
+    - The approved global components are:
+      1. **Dark/Light floating button** — Worker-owned
+      2. **↑ Return-to-top floating button** — Worker-owned
+      3. **Chinese 简/繁 floating toggle** — Worker-owned
+      4. **Global navigation menu:** English / 日本語 / 中文 / Search / Ask — page-template-owned
+      5. **Global footer:** Contact → Reddit 1 → Reddit 2 → Reddit 3 → Disclaimer → © 2017–CURRENT_YEAR Awakenology — Worker-delivered globally; page source must remain structurally compatible
+    - Global component ownership is explicit:
+      - **Cloudflare Worker:** global floating/behavioral components: Dark/Light, ↑ Return-to-top, and Chinese 简/繁 switching.
+      - **Rebuilt page template:** global structural components: English / 日本語 / 中文 / Search / Ask navigation. The Worker owns the delivered global footer; committed page markup and CSS must not conflict with or duplicate it.
+    - A Worker-injected component is considered present and compliant even though it is not physically present in the committed page HTML.
+    - Determine whether each component is already injected or controlled globally by the Cloudflare Worker before adding any page-local implementation.
+    - Every global component must have **one source of truth**. Never create a second page-local implementation of a component already provided by `worker.js`.
+    - Duplication Check must be performed on every rebuilt page before commit, not only when a global component is being modified.
+    - The Worker-provided **Dark/Light floating button** is the global theme control and single source of truth. Rebuilt pages must not recreate it with their own button, CSS, JavaScript, or local theme system.
+    - The global **↑ Return-to-top floating button** must likewise have one site-wide implementation. Rebuilt pages must not recreate it locally once it is provided by `worker.js`.
+    - The Worker-owned **Chinese 简/繁 floating toggle** likewise has one site-wide implementation. Rebuilt pages must not recreate its button, CSS, JavaScript, or local conversion system.
+    - The page-template-owned global navigation and Worker-delivered global footer must each have one approved implementation and must not be duplicated inside article or TOC content.
+    - **Duplication must be explicitly checked.** Validation must verify that each global component has exactly one active/visible instance and that no page-local implementation conflicts with the Worker-provided implementation.
+    - Validation must inspect both the rebuilt page source and `worker.js`, because duplicate or conflicting components may not be visible from the page source alone.
+    - If a component is intentionally moved between Worker control and page-template control, make that an explicit site-wide design decision rather than an accidental duplicate implementation.
+    - Footer copyright policy preserves 2017 as the founding year; any approved displayed year range is a presentation choice, not a change to the founding date.
+    - This check is independent of Standard Component Match, HTML Structure Sanity, and Content Match.
+
+33. **Reddit Footer Component Structural Integrity Check**
+    - The approved footer must contain exactly three Reddit icon anchors, in this order:
+      1. `https://www.reddit.com/r/EscapeReincarnation/`
+      2. `https://www.reddit.com/r/EscapePrisonPlanet/`
+      3. `https://www.reddit.com/user/Lower-Lingonberry-40/`
+    - Each Reddit anchor must contain exactly one `<img>`.
+    - All three Reddit icon image files must be stored **internally in the Awakenology repository**. New or rebuilt pages must reference internal assets, not external Wikimedia or other third-party image URLs.
+    - Each icon must retain its approved color treatment: Reddit 1 orange, Reddit 2 blue, Reddit 3 purple/blue, including visibility in dark mode.
+    - Each icon must have the correct `aria-label`.
+    - No malformed or nested closing tags are allowed.
+    - Validation must inspect actual DOM structure, destinations, image nesting, image sources, and attributes. String-presence checks such as `reddit-three` or `Snoo_black.svg` are not sufficient.
+    - A page is not complete if any Reddit footer component is structurally malformed or uses an external image asset.
+
+## Global Article Baseline
+
+### Title
+```css
+.article-header h1{
+  margin:0 0 12px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(22px,2.5vw,25px);
+  font-weight:600;
+  line-height:1.15
+}
+.article strong{font-weight:650}
+```
+
+Article title/author/date block is centered.
+
+### Spacing
+```css
+.article p{margin:0 0 10px;font-size:16px}
+.article p.aw-spacer{height:10px;margin:0;padding:0;font-size:0;line-height:0}
+```
+
+Whitespace-only original paragraphs must be preserved and handled consistently.
+
+### Return to top
+Use a small **floating ↑ button** fixed at the bottom-right corner.
+
+- Same simple visual style as the Dark/Light mode control.
+- Appears after the user scrolls down; hidden near the top.
+- Clicking it smoothly returns to the top of the page.
+- Works in both dark and light modes.
+- No text label is displayed.
+- This floating button is the approved global replacement for the previous **↑ Return to top** text link.
+
+### Footer
+Order:
+
+**Contact → Reddit 1 → Reddit 2 → Reddit 3 → Disclaimer**
+
+Reddit icons:
+- Reddit 1: orange
+- Reddit 2: blue
+- Reddit 3: purple/blue
+- All remain visible in dark mode.
+- **All three icon image files are internal repository assets. External third-party image URLs must not be used.**
+
+Copyright:
+
+**© 2017–CURRENT_YEAR Awakenology**
+
+### Duplication Check — Global Component Duplication
+
+- Standardized global components that are already provided by the site (for example Disclaimer, Contact, navigation, or footer content) must not be unnecessarily duplicated inside the article/body.
+- Any intentional repetition must be explicitly documented and approved.
+- If the site has a dedicated `/Disclaimer/` page and a global footer Disclaimer link, an obsolete in-body Disclaimer block must not remain.
+
+## Hard Rule
+
+> **Never remove any content.**
+
+## Core Direction
+
+> **We are building a new website, not trying to make the old WebsiteBuilder website look better.**
+
+> **A very fast, very simple, dark-first, content-focused Awakenology website with one consistent design system and almost no unnecessary technology.**
+
+## Completion Gate
+
+Every rebuilt page must pass **all four independent gates** before being reported as complete. Global Worker-injected components are validated at runtime/source-injection level rather than being required to appear literally in the committed page HTML:
+
+1. **100% Original Content Match**
+2. **100% Standard Component Match**
+3. **HTML Structure Sanity Check**
+4. **Reddit Footer Component Structural Integrity Check**
+
+Only then should the page be committed for user visual testing.
+
+### Cross-Page Standard Component Consistency
+- Standardized components must be compared against the approved design baseline and already-approved pages in the same language/section before live testing.
+- Compare title/H1 sizing, font family, font weight, line height, alignment, spacing, header, footer, navigation, article container, image behavior, and other shared components.
+- A page-specific original CSS value must not unintentionally override an approved standardized component.
+- Any intentional exception must be explicitly classified and documented; never infer an exception merely because the original page used a different value.
+- Cross-page consistency is a separate hard gate from page-specific content preservation.
+- On the final committed CSS/DOM, flag every unexplained difference from the approved baseline or representative approved pages as a hard failure.
+
+
+## Paragraph-Title Formatting Preservation
+
+- Every original paragraph title or title-like content line must be inventoried individually, including titles that remain ordinary paragraph elements rather than being promoted to H1/H2/H3.
+- Preserve each original title's formatting state: bold/strong, italic/emphasis, underline, font size, font family, text color, line breaks, alignment, line height, spacing/margins, and other intentional inline or CSS formatting.
+- Do not treat preservation of the title text alone as sufficient. A title passes only when its original formatting is also mapped to the rebuilt element.
+- If an original paragraph title is bold/strong, the rebuilt title must remain explicitly bold/strong unless an intentional design change is separately requested and audited.
+- The formatting inventory must compare the original DOM/CSS against the final rebuilt DOM/CSS for every paragraph title before live testing.
+- Any formatting mismatch is a hard failure, even when the text content matches exactly.
+
+## Semantic Element Conversion / Formatting Preservation
+
+When an original content element is converted to a different HTML element, its original visual formatting must be inventoried and reproduced independently. The new semantic element's default or standardized CSS must not override the original font weight, size, decoration, alignment, line height, spacing, or other intentional formatting unless an intentional design change is explicitly approved. Any mismatch introduced by semantic conversion is a hard failure before live testing.
+
+## Title / Meta Line-Structure Preservation
+
+- Every original page title, subtitle, author/date/meta block, and other title-associated block must be inventoried not only for text and formatting, but also for its exact line structure.
+- Record each original line separately, including explicit HTML line breaks such as <br>, separate paragraph boundaries, and intentional blank/whitespace lines or spacing between lines.
+- Preserve the original line breaks and line boundaries in the rebuilt DOM unless an intentional design change is explicitly requested and separately audited.
+- Text-content equality alone is not sufficient: "A B" and "A<br>B" are different rendered structures and must be treated as different.
+- When multiple original title/meta lines are reconstructed inside one element, explicitly reproduce their original line boundaries rather than relying on normal whitespace wrapping.
+- The line-structure inventory must be compared against the final rebuilt DOM/CSS before live testing.
+- Any unexplained loss, insertion, merging, or relocation of an original title/meta line break is a hard failure before live testing.
+
+
+### Heading / Title CSS Property Preservation / Standard CSS Override Prevention
+    - For every original content heading or title whose HTML element is changed during reconstruction, inventory each original explicit rendering property separately: font size, font weight, font family, line height, horizontal alignment, text decoration, margins/padding/spacing, color where explicitly specified, responsive sizing/behavior, and any inline or nested formatting that materially affects rendering.
+    - Reproduce every original explicit property in the rebuilt CSS/DOM unless the user explicitly approves a visual change to that property.
+    - Standardized article/component CSS must not silently override, normalize, or replace an original explicit heading/title property merely because the rebuilt element is now an H1/H2/H3/H4/H5 or another semantic element.
+    - Before live testing, compare the original property inventory against the final rebuilt CSS/DOM for each heading/title individually, including relevant responsive rules and CSS specificity/cascade effects.
+    - A text match or correct semantic element alone does not pass this gate; loss of any original explicit rendering property is a hard failure unless it is an explicitly approved visual change.
+
+
+### Footer Source Structure / Legacy Footer Class Isolation
+    - Every rebuilt page must use the approved footer source structure, not merely rely on Worker runtime replacement to create the approved visual result.
+    - Before live testing, inspect the committed page source for the actual footer element, its class names, child structure, and page-specific footer CSS.
+    - Legacy footer classes such as .footer must not remain when they can conflict with the approved .site-footer / .footer-inner / .footer-links structure or page-specific CSS cascade.
+    - The approved footer must be normalized at source level whenever a legacy page's footer structure or CSS can affect rendering.
+    - Verify exactly one footer, the approved footer hierarchy, the approved icon links, © 2017–CURRENT_YEAR Awakenology, and the active-page indicator: underline only the footer link whose destination is the current page (Contact on `/Contact/`, Disclaimer on `/Disclaimer/`); neither or both must not be underlined on other pages.
+    - Worker footer injection/replacement is supplementary runtime behavior and is not a substitute for source-level footer normalization.
+    - A page that passes source content checks but still contains a structurally conflicting legacy footer is a hard failure before live testing.
+
+
+## Full Automated Migration & Redesign Pipeline v2
+
+The migration/redesign process is an **agent-independent system**. AI coding agents may change, but the migration rules, inventory, validation, audit, and completion gates remain stable.
+
+### Formal Pipeline
+
+**Discover → Snapshot → Transform → Validate → Audit → Report → Commit → Deploy → Verify → Human Smoke Test**
+
+### Automation Rules
+
+- Discover the complete repository/page/asset inventory in one run.
+- Create a baseline snapshot before transformation.
+- Treat original page-specific content as protected data.
+- Apply deterministic transformation rules wherever possible.
+- Process the complete approved inventory without page-by-page confirmation.
+- Run the full automated audit before commit.
+- **ERROR** findings block commit and deployment.
+- **WARNING** findings are reported and remain visible in the migration manifest.
+- Produce a machine-readable migration manifest containing inventory, state, audit results, and exceptions.
+- Use one coherent migration commit for an approved migration batch.
+- Verify the committed result, deployment, and representative live behavior after deployment.
+- Perform a final human smoke test on representative desktop/mobile pages and critical interactions.
+- The process must be resumable from the manifest without losing prior verified state.
+- Safety and content preservation take priority over speed.
+
+### Control File Roles
+
+- **The-Master.md** — authoritative specification of what the site should be.
+- **AUDIT.md** — authoritative verification rules for proving the site is correct.
+- **worker.js** — runtime/global implementation of approved site behavior.
+- **migration-manifest.json** — machine-readable inventory, migration state, audit results, and exceptions.
+
+### Completion Gate
+
+A migration is complete only when all blocking audit checks pass, the committed result has been re-verified, deployment verification passes, and the final human smoke test passes.
+
+### Agent Independence
+
+Codex, Claude Code, Gemini/Google AI Studio, or another capable agent may execute or review work. No agent-specific behavior is part of the site specification. The migration engine and deterministic audit remain the system of record.
+
+### Migration Manifest Commit Provenance
+
+- The manifest must distinguish the approved `baseline_commit` from the `current_commit` whose source state is described by its audit results.
+- `baseline_commit` remains fixed unless a new migration baseline is deliberately approved.
+- `current_commit` must identify the exact repository source commit against which the recorded checks were run. It is not required to equal a later commit that changes only manifest bookkeeping; do not claim checks were run against a commit that was not actually checked.
+- Update the recorded commit only alongside the relevant verification results. Record unresolved findings as pending rather than marking the associated audit as passed.
+
+## SEO Rules
+
+- `https://awakenology.space` is the only canonical site domain; `awakenology.org` is excluded from this migration.
+- Sitemap must contain only live canonical routes. Deleted routes must be removed.
+- Every indexable HTML page must have a meaningful `<title>`, `meta description`, exactly one absolute canonical URL, and valid `html lang`.
+- Canonical URLs must be absolute URLs on `https://awakenology.space` and match the page's actual canonical route. A relative canonical such as `href="/"` does not pass.
+- Existing page-specific metadata must not be duplicated by the Worker. The Worker may supply missing metadata deterministically, but must not silently preserve malformed or empty metadata as if it were valid.
+- `/ai-search/` is an interactive utility page and is `noindex, follow`.
+- For indexable pages, Open Graph metadata must be accurate and non-empty when present. At minimum, `og:title`, `og:description`, and `og:url` must be valid; `og:url` must be an absolute canonical URL. Any supplied `og:image` must be a valid, non-empty absolute image URL.
+- The homepage must have a valid social-sharing image and homepage-appropriate Open Graph metadata. Its Open Graph type and any structured data must accurately describe the homepage; review consistency rather than assuming `article` is appropriate.
+- Open Graph and structured data are controlled global enhancements: use minimal, semantically accurate metadata and do not introduce per-page rewrites merely to satisfy a template.
+- Do not add hreflang mechanically. Add it only when genuine equivalent language URLs exist; the Worker-based Simplified Chinese conversion is not a separate hreflang URL.
+- Do not add structured data merely for SEO volume. Use only minimal, semantically accurate structured data where it provides clear value.
+- SEO changes must not rewrite or keyword-stuff preserved article content.
+- Legacy heading anomalies are audited separately; do not normalize H1/H2 structure automatically when doing metadata-only SEO work.
+
+### Multilingual Mobile Interaction Coverage
+
+- Choose mobile smoke-test routes across the homepage and detected English, Japanese, and Chinese route groups; avoid sampling only the first alphabetically sorted pages.
+- On mobile, verify theme switching and persistence across reload, return-to-top behavior, and Chinese variant toggle initialization where applicable.
+- These checks are heuristic and informational. They do not replace visual review, language/content QA, or a full accessibility audit.
+
+### Browser-Level Production Smoke Audit
+
+- Run `python3 -m pip install playwright`, install Chromium, then run `python3 scripts/audit_browser_smoke.py --screenshots`.
+- Audit every sitemap route at desktop size and a representative subset at mobile size. Capture rendered title/lang, same-host network errors, image load failures, horizontal overflow, JavaScript exceptions, and mobile theme-toggle behavior.
+- Treat findings as prompts for triage, not automatic proof of defects. Screenshots are review artifacts; this does not replace full visual comparison or manual keyboard/accessibility checks.
+- Generate the unified issue register only after the browser report and other audit reports are available, and retain missing reports as explicit coverage gaps.
+
+### Unified Audit Issue Register
+
+- Run `python3 scripts/consolidate_audit_reports.py` after all five audit reports have been generated.
+- Review `audit-issue-register.csv` and `audit-summary.md` as the single triage entry point. The register deduplicates findings, provides provisional severity and recommended action, and makes report coverage gaps visible.
+- Keep source-only SEO findings distinct from production runtime failures. Never apply an automated content edit solely because a heuristic flagged it.
+- The first rollout is informational; confirm findings and expected redirects before making checks merge-blocking.
+
+### Automated Anchor and Basic Accessibility Audit
+
+- Run `python3 scripts/audit_anchor_accessibility.py` to inventory missing internal fragment targets, duplicate IDs/named anchors, missing image `alt` attributes, and links/buttons with no detectable accessible name.
+- Review `anchor-accessibility-report.csv` as an informational artifact before deciding which legacy findings to repair. Explicit `alt=""` is valid for decorative images.
+- This is a source-level heuristic, not a complete WCAG audit; JavaScript-generated names, keyboard navigation, focus visibility, contrast, and the Worker-rendered DOM require separate browser verification.
+
+### Automated Live Link and Asset Availability
+
+- After generating `site-integrity-report.csv`, run `python3 scripts/audit_live_links_assets.py` to check each unique internal route or asset reference against the production domain.
+- Review `live-link-asset-report.csv` for HTTP errors, request failures, and redirects, with the referring source files retained for efficient fixes.
+- The probe is informational until legacy redirects and expected exceptions have been triaged. It does not replace browser rendering checks or anchor-fragment validation.
+
+### Automated Local Link and Asset Integrity
+
+- Run `python3 scripts/audit_site_integrity.py` to scan source HTML and CSS for broken internal page links and local assets, including image sources/srcsets, script/style references, inline styles, and CSS URL/import references.
+- Review the generated `site-integrity-report.csv` as an artifact. The first phase is informational and must not block unrelated work until existing findings are triaged.
+- Treat local source existence, live HTTP availability, and browser rendering as separate checks. Passing this scanner does not certify production links, external destinations, or visual correctness.
+
+### Automated Live SEO Verification
+
+- The workflow `.github/workflows/live-seo-runtime-audit.yml` runs on pushes to `main`, daily, and by manual dispatch.
+- It first compiles the SEO audit scripts and runs parser unit tests, then regenerates the source metadata inventory and checks metadata delivered by the production Worker.
+- Validate the canonical sitemap's uniqueness and domain, the live `robots.txt` sitemap directive, and that `/ai-search/` remains crawlable while delivering `noindex,follow`.
+- Save source and runtime reports as workflow artifacts. Do not treat a source-only warning as a live defect when the Worker repairs it.
+- A passing runtime SEO workflow does not close the independent visual, content-integrity, asset-rendering, or internal-link audits.
+
+## Approved Visual Design Baseline — 2026-10-11
+
+This section consolidates approved visual decisions that must be treated as the current baseline. It supplements the governing principles above; it does not authorize a redesign or override content-preservation requirements.
+
+### Brand and logo
+- Use the approved monochrome circled-A mark alongside the existing “Awakenology” wordmark.
+- Do not change the existing wordmark font or redesign the wordmark as part of a logo adjustment.
+- Keep the circled-A mark rotated approximately 5 degrees clockwise.
+- The mark is strictly monochrome: black/near-black in light mode and white in dark mode. Never apply violet or another accent color inside the logo.
+- Keep the current accepted logo geometry and stroke treatment as the baseline. Do not continue fine-tuning or alter its shape, proportions, stroke, or rotation without explicit approval.
+- On the homepage and shared article header, keep the mark to the left of the “Awakenology” wordmark. Use one consistent implementation wherever the shared brand appears.
+
+### Color system
+- Dark-mode background: `#0D0F12`.
+- Dark-mode primary text and monochrome logo: `#FFFFFF`.
+- Dark-mode violet accent: `#818CF8`.
+- Light-mode background: `#FFFFFF`.
+- Light-mode primary text and monochrome logo: `#0D0F12`.
+- Light-mode violet accent: `#6366C9`.
+- Muted text must remain readable in both themes.
+- Violet is a restrained interface accent for links, borders, and approved decorative treatments; it is not a logo color or a reason to add unnecessary decoration.
+- Preserve accessible contrast. Do not rely on color alone to communicate active states or meaning.
+
+### Layout and responsive behavior
+- Mobile/iPhone readability is a first-class requirement, not a later optimization.
+- Prefer compact cards and restrained spacing; do not introduce oversized cards or large decorative blocks that make mobile browsing cumbersome.
+- Prevent horizontal overflow, clipped navigation, overlapping floating controls, awkward word wrapping, and inaccessible tap targets.
+- Keep header, article, TOC, footer, and floating-control behavior consistent across desktop and mobile.
+- Use system fonts only, consistent with the existing governing principle; do not add external font dependencies.
+
+### Homepage and shared components
+- Preserve the approved homepage composition, including the “How To Free Your Soul” hero and the existing CosmicEye-1000-jpg full-width background treatment, including its approved placement and spacing.
+- Keep one shared visual system across the homepage, language TOCs, articles, Search/Ask, and Disclaimer.
+- Preserve the established header/footer structure and component ownership. Do not add page-local copies of Worker-owned theme, return-to-top, or Chinese variant controls.
+- Keep the theme switcher, return-to-top control, and Chinese 简/繁 toggle single-instance and usable in both themes.
+- Keep the approved footer content/order and `© 2017–CURRENT_YEAR Awakenology`; do not reintroduce duplicate separators, in-body global disclaimers, or duplicate global components.
+
+### Change-control rule
+- The current approved appearance is the baseline. A design audit must identify a concrete mismatch before recommending a visual change.
+- Make targeted changes only to the named component/property; unrelated layout, content, images, logo geometry, and behavior must remain unchanged.
+- Verify both themes and mobile/desktop behavior after any shared CSS or Worker change.
+
+
+### Rendered Accessibility Audit
+
+- Audit the live DOM, not only source HTML: visible image alt attributes, interactive control names, document language, main landmark count, heading-level progression, and initial keyboard focus.
+- Keep findings informational pending manual review; this is a smoke test, not a complete WCAG audit or proof of keyboard usability for every interaction.
+- Accessibility fixes must preserve original article wording and image intent. Do not infer or invent descriptive alt text automatically.
+
+
+### Audit report coverage
+
+- Every generated report, including `browser-accessibility-report.csv`, must feed the consolidated issue register.
+- Report absence must be visible as a coverage gap; it must never be silently interpreted as zero findings.
+- Keep source findings, production findings, and rendered accessibility findings distinguishable so repairs target the actual failure layer.
+
+
+### Consolidated Audit Regression Gate
+
+- Test the issue-register consolidator whenever scanner outputs or report mappings change.
+- Verify missing reports are surfaced as coverage issues and never interpreted as zero findings.
+- Verify rendered accessibility findings retain route, viewport, check type, severity, and occurrence count in the consolidated register.
+
+
+### Live Redirect and Failure Triage
+
+- Preserve production redirects in the consolidated issue register as warnings with original URL, final URL, and referencing-file count.
+- Do not treat redirects as confirmed defects by default. Review canonical intent and legacy compatibility before updating internal references.
+- Keep HTTP status failures distinct from transient request errors; do not invent a 404 for a timeout or network error.
+
+
+### Live Audit URL Normalization
+
+- Preserve existing percent-encoded path bytes when preparing URLs for live probes; do not double-encode encoded multilingual routes.
+- Regression-test raw Unicode, percent-encoded Unicode, nested relative references, query strings, fragment stripping, and external/scheme exclusions.
+
+
+### Live Probe Reliability
+
+- CI must compile all Python audit scripts before invoking any scanner.
+- Live URL results must distinguish `HTTP_ERROR`, `REQUEST_ERROR`, `REDIRECT`, `CONTENT_TYPE_MISMATCH`, and `PASS`.
+- Asset responses that return HTML at a successful status must be flagged for review, because a fallback page may hide a missing image or file.
+- Preserve percent-encoded Japanese/Chinese paths and test URL resolution without making production changes.
+
+
+### Complete Live Asset Audit Reporting
+
+- Every live probe outcome, including `CONTENT_TYPE_MISMATCH`, must be represented in consolidated triage; no newly introduced scanner status may silently disappear.
+- Run local inventory, live reference checks, and anchor checks as separate workflow steps, then consolidate and upload reports even when an earlier scan fails.
+- Verify suspected HTML fallback assets before modifying content or replacing images.
+
+
+### Audit Execution Continuity
+
+- Resolve each asynchronous probe's URL record before reading its kind; record unexpected task exceptions without losing the full CSV.
+- Keep GET-fallback HTTP responses separate from network failures and sort report findings by explicit severity class.
+- Run independent CI scanners after earlier failures; gate only true dependencies, and always consolidate/upload available results.
+
+
+### Pre-merge Live Audit Visibility
+
+- The live SEO/runtime audit must run on relevant PRs, main pushes, manual dispatch, and schedule, producing reviewable consolidated artifacts.
+- PR live probes observe the deployed production domain; they do not imply that an unmerged Worker or page edit has already been deployed.
+- Keep production probes read-only and review report coverage before treating the audit as complete.
+
+
+### Same-page Anchor Coverage
+
+- Check same-page fragment links against the current document, including named anchors, without excluding all `#fragment` links.
+- Include self-closing images in missing-alt inventory and retain content-safe, read-only auditing.
+
+
+## Private Visual Editor — Stable Baseline (verified 2026-10-18)
+
+The private visual editor at `https://editor.awakenology.space/editor/` is an approved, stable workflow baseline following the successful end-to-end test in PR #160. Preserve this behavior unless a deliberate change is approved and passes the full validation workflow.
+
+- The editor must require an authorized GitHub sign-in; GitHub credentials remain server-side in the Cloudflare Worker and must never be exposed to the browser.
+- Editing and review must not modify `main` directly. Publishing creates a Draft pull request for human review; creating a PR must not itself merge or deploy.
+- The editor must establish a current, valid repository baseline for the target article and verify that the source has not changed before publishing.
+- The editor must disable PR creation until an actual change has been reviewed and a valid article path/baseline is established.
+- An unchanged article must be rejected by the server even if a client-side control is bypassed. Empty/no-op PRs must not be created.
+- Review must show the intended article text diff and reconstructed full-page preview. Preserve surrounding page structure and reject unsafe exports/changes.
+- Whitespace is content: accidental whitespace-only edits are real diffs and must be reviewed, not silently normalized. Do not broaden or normalize edits beyond the user's intent.
+- Draft PRs must pass all required CI checks, including Content Integrity Gate, Live SEO runtime audit, SEO metadata inventory, Sitemap route parity, and Workers Builds, before merge.
+- Merge only after human review and explicit approval. The standard successful path is Draft PR → inspect diff and preview → all required checks pass → human approval → merge → deployment verification → live-page smoke test.
+- A successful build or a “Ready” deployment status alone is not proof of production rollout. Verify the live canonical page after deployment.
+- Treat the behavior verified by PR #160 as the regression baseline. Any future change to editor publishing, baseline validation, review gating, authentication, or deployment behavior must include focused regression tests and must not weaken these safeguards.
+- Do not change the editor or Worker merely as part of “freezing” the baseline. This section documents the approved behavior; implementation changes require a separate, scoped change.
+
+### Global copyright year range
+The Worker must emit `© 2017–CURRENT_YEAR Awakenology` directly in the delivered footer HTML, substituting the current UTC calendar year at request time. 2017 is the fixed founding year. Do not rely on browser JavaScript to rewrite the copyright text.
+
+
+## DOCX article fidelity and rendered-layout baseline (Article 5, 2026-10-27)
+
+- Preserve source article wording, punctuation, whitespace, order, image sources/attributes, and meaningful emphasis, colors, alignment, and spacing unless the site owner explicitly approves a correction. A text-equivalent HTML rewrite is not automatically a visually equivalent rewrite.
+- Generated DOCX HTML must be cleaned conservatively: merge only genuinely equivalent redundant spans; reject malformed Word/Office residue and stale or cross-article SEO/social metadata. Never indiscriminately strip styles, list markers, or layout semantics. Fail closed on ambiguous conversion and keep the original DOCX as the reference.
+- Represent list bullets with portable HTML list semantics or explicit Unicode bullet markers, never depend on a Wingdings/private font glyph such as the letter l. Preserve the number, order, labels, and text of every item.
+- List indentation must remain readable on narrow mobile viewports: the bullet sits to the left of its item text and continuation lines align under the text, not the bullet; legacy Word pt margins and negative text-indent must not cause overflow or excessive inset.
+- Check actual rendered output in both dark/light modes and TC/ST variants where applicable. Source/CI checks alone cannot certify visual fidelity. The live canonical page and user confirmation close a visual correction.
+- Keep article-specific regressions (including the frozen Article 5 text/image fixture and three bullet markers) as permanent safeguards; update a fixture only for an explicitly documented, approved intentional content/glyph change, never to make a failing test green.
+- Keep Generator fixes, individual article corrections, and production deployment as separately scoped, reviewable changes. PR creation/merge is not proof of deployment; human approval and live verification remain required.
+
+## Markdown Drafts and Finalized Article Source-of-Truth Rule
+
+- Use Markdown (`.md`) for internal test pages, working drafts, and review/validation documents.
+- When an article is finalized and approved for publication, convert the approved content to HTML (`.html`) and publish the HTML at its intended website route.
+- For a finalized/published article, the HTML file is the **single authoritative source of truth** and is maintained through the existing Private HTML Editor workflow.
+- Do not keep a permanent Markdown twin for the same finalized/published article. Avoid competing copies and synchronization drift.
+- After conversion and approval, make subsequent article edits to the authoritative HTML file. If further substantive drafting is needed, use a separate internal draft/test file only as a temporary working document, then apply approved changes to the HTML source and retire/archive the temporary draft as appropriate.
+- This rule applies prospectively to new work. Do not bulk-convert or modify existing published HTML articles just to adopt Markdown.
+- Markdown-to-HTML conversion experiments, including PR #336, must remain isolated and must not change production publishing or deployment until separately validated and explicitly approved.
+
+
+## Global UI Freeze — Approved Baseline (2026-11-07)
+
+The following user-approved production components are **FROZEN / STABLE** as of 2026-11-07:
+
+- **Search page** (/search/): the standalone real-time site search, including its native input/submit interaction, Cloudflare AI Search endpoint integration, result rendering, status/error handling, and responsive presentation. The site owner confirmed that real-time Search works on desktop and iPhone after PRs #420 and #421.
+- **Ask page** (/ask/): the standalone full-page AI chat, including responsive chat layout, multilingual guidance, History icon, New Chat icon, Send up-arrow, and the underlying chat interactions. The site owner confirmed that chat works well after PR #428; related approved changes include PRs #411, #414–#416, and #422–#428.
+- **Global header/navigation**: the shared Worker-generated header and navigation, including language links, Search and Ask links, theme control, and return-to-top control. Approved baseline established by PR #406 and subsequent approved navigation refinements.
+- **Global footer**: the shared Worker-generated footer, including Contact, Reddit links, Disclaimer, and copyright. Approved baseline established by PR #406.
+
+Do not redesign, restyle, reword, restructure, refactor, replace, or otherwise modify these frozen components by default. This restriction includes visual details, icons, labels, spacing, responsive behavior, scripts, component choice, navigation order, and interaction behavior. Do not make opportunistic changes to them as part of unrelated work, article edits, site-wide cleanup, or Worker changes.
+
+Any proposed change to a frozen component requires the site owner's **explicit, specific approval before implementation**. A suspected defect or compatibility issue may be reported with evidence and a narrowly scoped proposed fix, but must not be changed without that approval. Once approved, isolate the change, document its scope, run the corresponding checks in AUDIT.md, and obtain the owner's live confirmation before treating the revised baseline as stable.
+
+This freeze does not prevent unrelated page/content work that leaves the frozen components unchanged. It also does not authorize changes to the Search/Ask backend, Cloudflare AI Search configuration, or shared Worker implementation.
+
+## Global Header and Footer — Locked Visual Baseline (2026-11-09)
+
+The site owner has visually confirmed the shared global header and footer after the latest refinements. Treat both as **LOCKED / STABLE** across all domains served by the Awakenology Worker.
+
+### Header
+- Keep the language navigation in this order: English → 日本語 → 中文.
+- Keep the dedicated vertical divider between the three language links and the three action links.
+- Keep the action links in this order: Search (magnifying glass) → Ask (question mark inside a circle; **not** a chat bubble) → Links (chain-link icon).
+- Preserve the approved labels, accessible names/tooltips, spacing, alignment, theme compatibility, and responsive behavior.
+- Keep the shared header styling isolated from page-level styles so page CSS cannot unintentionally alter it.
+
+### Footer
+- Keep the order: Contact → Reddit 1 → Reddit 2 → Reddit 3 → Disclaimer → © 2017–CURRENT_YEAR Awakenology.
+- Contact links to the dedicated `/Contact/` page, not a `mailto:` URL.
+- Contact and Disclaimer icons use 24px alignment boxes. The Contact glyph is 20px on desktop; the mobile styling remains as tested and approved. Reddit images and the Disclaimer glyph are 20px, centered in their 24px alignment boxes.
+- Underline only the footer link for the current page: Contact on `/Contact/`, Disclaimer on `/Disclaimer/`. All other footer links remain un-underlined. Never underline both Contact and Disclaimer simultaneously, and never leave both un-underlined when one of those pages is active.
+- Preserve the approved links, accessible names/tooltips, spacing, alignment, theme compatibility, and responsive behavior.
+- The footer is delivered globally by the Cloudflare Worker; do not add page-local duplicates.
+
+### Change control
+- Do not modify the header or footer—visually, structurally, or behaviorally—as part of unrelated work, cleanup, refactoring, or site-wide styling.
+- Any proposed change requires the site owner's explicit, specific approval before implementation.
+- If a change is approved, isolate it to the named component/property, verify both dark and light modes and desktop/mobile layouts, run the relevant checks in `AUDIT.md`, and obtain the owner's live confirmation before updating this locked baseline.
+- Do not treat a successful PR merge or deployment as visual approval; the owner's live confirmation is required.
+
+
+## Contact Page and Email Delivery — Approved Baseline (2026-11-10)
+
+The dedicated `/Contact/` page and its email-submission workflow are approved and tested. Preserve this implementation unless a specific change is explicitly approved.
+
+- The global footer Contact icon links to `/Contact/`; it does not open a `mailto:` link.
+- The Contact page provides a direct email link, a message form, and a file-upload form.
+- Both forms submit through the existing Cloudflare Worker endpoint `/api/contact` and use one shared Cloudflare Turnstile widget. Do not add a second widget or separate per-form challenge.
+- The shared Turnstile token is obtained for each submission; the widget is reset after the attempt. Prevent simultaneous duplicate submissions.
+- Email is sent through Cloudflare Email Service only, using the approved sender `website@awakenology.org` and fixed recipient `contact@awakenology.org`. The visitor's email address is used only as Reply-To.
+- The Worker email binding is restricted to the approved sender and recipient. The Turnstile secret is stored only as the Worker secret `CONTACT_TURNSTILE_SECRET`; never place the secret in source code, documentation, client-side HTML, or logs.
+- File attachments are attached directly to the notification email. Maximum upload size is 15 MB. Files are not retained by the website; do not add R2, public file URLs, or other file storage.
+- Preserve HTTPS and same-host Origin checks, the approved file-type allowlist, and bot protection.
+- On successful submission, show the approved green checkmark before the success message. Keep error and success states distinct.
+- Do not introduce SMTP2GO, AOL, or another third-party email service into this workflow. Do not change existing unrelated mail-routing arrangements.
+- The message form and file-upload form have both been tested successfully. Treat their current behavior as stable; investigate a concrete defect before proposing changes.
+- Any future change must be isolated, reviewed through a PR, and tested on desktop and mobile. A PR merge alone is not proof of successful deployment; verify the live Contact page and both submission paths after an approved deployment.
