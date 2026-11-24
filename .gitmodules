@@ -1,0 +1,3 @@
+[submodule "materials/awakenology"]
+	path = materials/awakenology
+	url = https://github.com/shifter888ai/awakenology.git

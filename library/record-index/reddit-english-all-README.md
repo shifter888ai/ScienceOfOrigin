@@ -54,3 +54,8 @@ A direct recount of the unchanged source blob `0452d11a39654864572c0d563667765b5
 ## Comment-section locator structure (2026-11-24)
 
 The source contains 772 comment sections. Each section has exactly one `Source:` permalink line and at least one `Lower-Lingonberry-40:` marker. Of the 772 sections, 596 contain one author marker and 176 contain multiple author markers. The new section locator index preserves each section's line range, parent post ID, source permalink, and all marker IDs in that section. In multi-marker sections, it deliberately does not assert which individual marker the permalink identifies.
+
+
+## Owner-confirmed archive completeness — 2026-11-25
+
+The project owner confirms that this supplied TXT file is the complete Reddit archive for its intended collection scope. It was manually extracted and checked for completion. Treat the preserved TXT as a complete source archive; do not downgrade its status because a profile-feed slice, portal count, or external account view differs. Monthly updates are additive: preserve each prior version, add the new monthly source file/version, and regenerate derived indexes against the exact new source object. This owner confirmation defines the archive scope; it is not a claim that every item ever displayed anywhere on Reddit is included.

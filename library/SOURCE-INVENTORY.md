@@ -1,11 +1,11 @@
 # Initial Source Inventory — Science of Origin
 
-**Inventory version:** 0.1  
+**Inventory version:** 0.2  
 **Repository:** `shifter888ai/ScienceOfOrigin`  
 **Branch reviewed:** `main`  
 **Repository tree commit reviewed:** `75b01f903f0c88c66aed5d904fc291db45172262`  
-**Inventory date:** 2026-11-21  
-**Status:** Initial repository-level inventory; not yet a complete inventory of all materials ever recorded.
+**Inventory date:** 2026-11-25  
+**Status:** Updated with owner-confirmed Reddit/Weibo TXT archive scopes and the pinned Awakenology repository snapshot. The historical baseline below is retained; see the 2026-11-25 update section for current source status.
 
 ## 1. Scope and limits
 
@@ -171,3 +171,19 @@ This refresh includes the expanded research-library coverage and record-index fi
 | `materials/熵值检测点RR部分.rtf` | RTF | 812,389 | `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657` | Text successfully extracted and structurally reviewed; see the derived index |
 
 The two formats are retained as separate source objects. Their equivalence, conversion fidelity, and completeness have not been established. Neither Git blob SHA is a SHA-256 checksum.
+
+
+## Owner-confirmed source archives and repository snapshot — 2026-11-25
+
+### Reddit
+
+The project owner confirms that `materials/reddit-english-all.txt` and `materials/reddit-english-qa.txt` are complete, manually extracted and checked TXT archives for their intended Reddit collection scopes. Existing indexes are separate derived layers. Preserve the original TXT files unchanged and add one new manually checked version monthly.
+
+### Weibo
+
+The project owner confirms that `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt` is the complete, manually extracted and checked TXT archive for its intended Weibo original-post scope. Existing 765-record and 160-page indexes are derived navigation layers. Preserve the source TXT unchanged and add one new manually checked version monthly. Optional media-binary recovery is a separate layer, not a completeness condition for this TXT archive.
+
+### Awakenology
+
+The upstream repository `https://github.com/shifter888ai/awakenology` is pinned at `05523aec14c286bce397678b8a213cca1fc29563` (648 file blobs, 823 recursive tree entries, 51,750,456 bytes). The library stores this exact revision as a Git submodule pointer at `materials/awakenology` and provides a complete path/mode/Git-blob-SHA/size manifest. This is a reproducible pinned snapshot reference, not an independent physical copy of every blob. Update the pinned commit and manifest monthly; preserve prior snapshots in Git history.
+

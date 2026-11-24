@@ -38,7 +38,7 @@ A connected-browser snapshot of the source account timeline exposed a top item t
 
 ## Important limitations
 
-This index is a navigation and search aid, not proof that the account's entire historical output has been captured. The export itself says it contains only locally saved original content. The owner clarifies that Xiaowei Memory automatically filters forwarded posts; therefore, the 765-record original-post export is expected to be smaller than the aggregate profile counter of 936. The difference is not a missing-original estimate. This filtering behavior is owner-supplied workflow context and has not been independently verified against Xiaowei Memory documentation. The export still does not establish completeness of the original-post category against the live account, or coverage of deleted/private posts and other Weibo content types.
+The index is a navigation and search aid. The project owner confirms that the supplied TXT is the complete, manually extracted and checked archive for its intended original-post scope. The export's local-save/filtering behavior describes that defined scope; it should not be compared with the aggregate profile counter of 936 or used to infer missing records. The owner-confirmed completeness decision applies to this supplied archive, not to unrelated Weibo content categories such as reposts, comments, or separate private/deleted-content collections.
 
 The export is text-only. It explicitly notes omitted images in some records; video and image media are not preserved as binary attachments by this TXT file. Visible URLs are copied as found in the export and may be incomplete, line-wrapped, encoded, or malformed. No attempt has been made to repair them.
 
@@ -72,7 +72,7 @@ A connected-browser snapshot of the account profile displayed six recent timelin
 - Record 760 also exposes the linked article for “破权威幻”.
 - Records 762 and 765 expose video players with displayed durations of 04:04 and 01:55 respectively.
 
-This is a six-record recent-timeline spot check, not a complete account-history reconciliation. It does not establish that all 936 profile items are original posts or that the 765 locally saved export records cover the entire account history. The videos, thumbnail files and other omitted media remain unrecovered.
+This is a six-record supplementary live-timeline spot check. It is not used to define or challenge the owner-confirmed TXT archive scope. The videos, thumbnail files and other omitted media remain unrecovered as separate media objects; their absence does not make the supplied TXT archive incomplete.
 
 
 ## Owner clarification on Xiaowei Memory filtering — 2026-11-24
@@ -96,3 +96,10 @@ See `weibo-originals-page-coverage-index.csv` for all 160 pages and the number/r
 The 134 original-post records with explicit omitted-image notes are all represented in the media-reference index (134/134 parent-record coverage). This is index coverage only: the export contains no image binaries, and no image file has been recovered or checksummed yet. The 134-item recovery checklist is `weibo-omitted-image-recovery-index.csv`.
 
 The source TXT contains 114 URL occurrences (67 unique URL values). The media-reference index contains 121 occurrences (74 unique) after adding seven distinct live-profile locators. These extra locators do not represent recovered binaries.
+
+
+## Owner-confirmed archive completeness — 2026-11-25
+
+The project owner confirms that this supplied TXT file is the complete Weibo original-post archive for its intended collection scope. It was manually extracted and checked for completion. Treat the preserved TXT as a complete source archive; do not use the aggregate profile counter or limited live timeline snapshots to reopen its completeness status. Monthly updates are additive: preserve each prior version, add the new monthly source file/version, and regenerate derived indexes against the exact new source object.
+
+The TXT archive is complete as a text source. Image/video binaries that the export represents with omission notes or media locators are a separate media-preservation layer; their absence does not make the owner-confirmed TXT archive incomplete.
