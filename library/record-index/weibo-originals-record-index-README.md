@@ -25,7 +25,9 @@
 - Sequential numbering: 01–765, no gaps detected
 - First timestamp: 2010-08-09 22:49:00
 - Last timestamp: 2026-11-23 23:58:00
-- Export pages detected: 0
+- Source page markers detected: 160 (pages 1–160)
+- Pages with at least one indexed post start: 158
+- Pages 103 and 104 contain continuation text for record 563, which begins on page 102; no new post starts on those two pages
 - Records containing an explicit omitted-image note: 134
 - URL strings found in extracted text: 114
 - Records with empty extracted text: 0
@@ -80,3 +82,10 @@ The owner reports that Xiaowei Memory automatically filters forwarded posts. The
 ## Second live video locator — record 762
 
 The live profile snapshot also exposes record 762 (`时间是什么`, 2026-11-11 18:38 BJT) at `https://weibo.com/1760432301/RqU7cpTao`, with video locator `https://video.weibo.com/show?fid=1034:5364121303187507`, displayed duration 04:04, and thumbnail filename `68ee10adly1iiydy43vmxj21hc0u0go7.jpg`. These are locators only; the video and thumbnail binaries remain uncaptured and unchecksummed.
+
+
+## Page-level coverage verification — 2026-11-24
+
+The preserved TXT source contains 160 explicit page markers, numbered 1–160, with no missing page marker. The record index assigns 765 post starts across 158 distinct export pages. Pages 103 and 104 have no new post starts because they contain the continuation of record 563, which begins on page 102. This is a verified explanation for why the index has fewer distinct `export_page` values than the source has pages; it is not a missing-page gap.
+
+See `weibo-originals-page-coverage-index.csv` for all 160 pages and the number/range of post starts on each page.
