@@ -1327,6 +1327,7 @@ These are not silently resolved in the inventory. They require conceptual review
 - Indexed the 617-post Reddit archive and its 1,096 YWS author-marker occurrences with 120 candidate terms/phrases, using whole-word matching and a rule-based speaker-boundary segmentation.
 - Indexed the Chinese compilation TXT's 1,671 page markers with 128 candidate Chinese/English terms and page/line locators.
 - Added cross-source concordance tables for recurring Chinese and English terms.
+- Manually classified all Weibo candidate records for 本源 (45 records) and the linked terms 自由意识 (21), 自由意志 (8) and 合一本源 (5), separating substantive statements from announcements, links, media references and hashtag-only hits.
 - Added focused source histories for Origin / 本源; Zero / Idle / Infinity; Consciousness / Freewill / Spectrum / Strength; Imagination / Origination / Manifestation / Intention / Choice; and Spirit / Void / Voidness / Oneness / True Origin / Fake Origin.
 - Recorded the user's clarification that “All roads lead to Rome” is an expression about openness, not a truth claim.
 
