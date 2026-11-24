@@ -1287,42 +1287,62 @@ Likewise, 虚空 and 虚无 occur in the compilation, but literal occurrence alo
 
 ## 4. Source conflicts and review queue
 
-These are not silently resolved in the inventory. They require conceptual review.
+These are not silently resolved in the inventory. They require conceptual review or source-level verification.
 
-1. **Research fields vs methodology:** `Science-of-Consciousness.txt` lists four core research fields, including Spectrum of Consciousness and Spectrum of Things; `Science-of-Consciousness-—-Research-Architecture.txt` lists two research fields and places Spectrum/Spectra under methodology.
-2. **Consciousness and Freewill:** `consciousness-freewill.html` presents them as related descriptive perspectives on the Ultimate Source (attributes and functionality), while Science of Consciousness lists separate research fields for each. The relationship between conceptual identity and separate research fields needs clarification.
-3. **Zero, Idle, Infinity:** current pages connect Zero with the idle state of Origin and Infinity before manifestation. “0 = Infinity” is called an observed understanding, not an arithmetic equation. The meaning of “before” is explicitly not necessarily chronological. This is a priority conceptual review.
-4. **Void and Voidness:** both forms occur; the Terminology page describes Voidness as a visual perspective on Source in stillness and non-manifestation. Their relationship must not be assumed.
-5. **True Origin and Fake Origin:** preserve as distinct terms and investigate how the imitation/divided-origin model relates to the Oneness Origin.
-6. **Awakenology and Exincarnology:** the uploaded framework lists both as application fields; the broader project framework describes Exincarnology as an application within Awakenology. Clarify levels and nesting.
-7. **Freedomality terminology:** Freedomality of Consciousness, Freedomality Index, Freedometry, and Level of Actualization of Freewill appear in project context, but their current definitions and relations need source verification.
-8. **Spectrum equality:** “Spectrum of Things = Spectrum of Consciousness” is explicitly a research objective, not an established conclusion.
-9. **Observed understanding vs observation:** preserve “observed understanding” as a source phrase; do not reclassify it without the owner's conceptual review.
-11. **“All roads lead to Rome”:** the AI Research Protocol currently includes the expression in a principle heading and governing statement. The owner has clarified it is a metaphor for openness, not a truth claim; only some methodologies may have the depth to reach Origin. The formal wording should be reviewed accordingly.
-10. **Infinity:** appears as a nature/aspect of Origin, closest human-understandable description, a possibility-related description, and a research domain. These uses may be related but should not be collapsed prematurely.
+1. **Research architecture evolution:** the uploaded Project Description lists four core research fields; the uploaded Research Architecture lists two; the current Science of Origin page presents one core research field, with Spectrum/Spectra as methodology and two principal spectral subjects. The current site labels the two-field arrangement as historical, but the uploaded files remain distinct source versions.
+2. **Consciousness and Freewill:** some current Origin pages list them as separate named natures/perspectives (attributes and functionality), while the current Science of Consciousness page says they are the same nature described by two human words. Earlier documents also list Science of Freewill as a separate research field. Clarify “same nature” versus “different perspectives.”
+3. **Zero, Idle, Infinity:** current pages connect Zero with the idle state of Origin and Infinity before manifestation. “0 = Infinity” is called an observed understanding, not an arithmetic equation. “Before” is explicitly not necessarily chronological. The original working record also says “Zero begets all.” Priority conceptual review.
+4. **Origin / 本源 / 万物本源 / Ultimate Source / Oneness Origin:** related forms recur across historical sources, but their preferred equivalence and scope are not fully established. Preserve 合一本源 as distinct from the Source itself.
+5. **Infinity:** appears as a nature/aspect of Origin, the closest human-understandable description, a possibility-related description, and a research domain. These uses are related but should not be collapsed prematurely.
+6. **Spirit / Soul / 灵魂 / 灵体:** no one-to-one translation map has been established. Do not translate Spirit as Soul, 灵魂 or 灵体 without a direct source mapping.
+7. **Void / Voidness:** both forms occur; the Terminology page describes Voidness as a visual perspective on the Source in stillness and non-manifestation. Their relationship must not be assumed.
+8. **Oneness and separation:** the framework says the aspects are not separate entities, yet also says they may be independent, combine, separate and originate further aspects. Distinguish foundational Oneness Origin from structural oneness, relative independence and virtual individuality.
+9. **True Origin / Fake Origin:** preserve as distinct current model terms. Clarify model status and criteria; do not map them automatically onto every historical use of 虚拟, 幻相 or 虚假.
+10. **Imagination / Origination / Manifestation / Creation:** current pages distinguish these concepts; an older working record says Freewill, Creation and Imagination “are one.” Preserve both historical layers and clarify whether the older wording is identity, shared source or perspective.
+11. **Spontaneous / intentional / automatic / autonomous:** current pages distinguish spontaneous and intentional imagination from the Source's described modes of automatic and autonomous creation. Their relationship remains open.
+12. **Choice / Intention / Will / non-origination / non-manifestation:** clarify how choice precedes origination, how intention directs an origination, and how non-origination differs from non-manifestation or unobserved absence.
+13. **Strength / Spectrum / Awareness terminology:** Level of Awareness, Lucidity of Consciousness, Strength of Consciousness, Strength of Freewill, Spectrum of Consciousness and Science of Consciousness are linked in a historical Reddit answer, but their operational roles (method, metric, score, property or perspective) remain unclear.
+14. **Spectrum equality:** “Spectrum of Things = Spectrum of Consciousness” is explicitly a research objective, not an established conclusion.
+15. **Freedomality terminology:** Freedomality of Consciousness, Freedomality Index, Freedometry and Level of Actualization of Freewill appear in project context; their current definitions and relations need source verification.
+16. **Awakenology / Exincarnology:** the uploaded framework lists both as application fields; broader project terminology may place Exincarnology within Awakenology. Clarify the intended hierarchy without rewriting earlier source versions.
+17. **Observed understanding vs observation:** preserve “observed understanding” as a source phrase; do not reclassify it without owner review.
+18. **“All roads lead to Rome”:** the AI Research Protocol currently includes the expression in a principle heading and governing statement. The owner has clarified that it is a metaphor for openness, not a truth claim; only some methodologies may have the depth and capability to reach Origin. Formal wording remains flagged for revision.
+19. **Historical-source attribution:** the Weibo export is an indexed original-post collection, while the Chinese compilation is a mixed-source historical compilation containing posts, replies, reposts and other material. Reddit questioners, other commenters and YWS-attributed answers must remain separate.
+20. **PDF/TXT fidelity:** the two project PDF volumes have not yet been compared page-by-page with the Chinese compilation TXT. The 1,671 TXT page markers are not yet mapped one-to-one to PDF pages.
 
 ## 5. Extraction coverage and next pass
 
-### Completed in this initial pass
-- Read the current public Terminology page and identified that it describes itself as an initial selection, not a complete vocabulary.
-- Reviewed the Foundational Framework, Research Framework, Origin, Zero-Origin, Zero — Idle State of Origin, Origination, Manifestations, Imagination, Spontaneous and Intentional Imagination, Consciousness and Freewill, Possibility and Potential, and Existence and Reality pages in the repository.
-- Read the two supplied Science of Consciousness framework documents.
-- Recorded initial terms and explicit cross-source conflicts.
+### Completed in this pass
+
+- Screened multiple public Science of Origin research pages and core framework documents, including Origin, Zero-Origin, Zero — Idle State of Origin, Infinity of Imagination, Origination, Manifestations, Imagination, Spontaneous and Intentional Imagination, Consciousness and Freewill, Origin Models, Oneness and Division, and Science of Consciousness. This is a broad discovery pass, not an exhaustive exact-occurrence index of every repository page.
+- Read and compared the two uploaded Science of Consciousness framework documents against the current Science of Origin research architecture.
+- Indexed the complete Weibo export of 765 records with 100 candidate terms, distinguishing all-text matches from matches after a simple hashtag/URL filter.
+- Indexed the 651-record Reddit Q&A archive with 89 candidate phrases, keeping question spans separate from YWS-attributed answer spans.
+- Indexed the 617-post Reddit archive and its 904 YWS author markers with 120 candidate terms/phrases, using whole-word matching and a rule-based speaker-boundary segmentation.
+- Indexed the Chinese compilation TXT's 1,671 page markers with 128 candidate Chinese/English terms and page/line locators.
+- Added cross-source concordance tables for recurring Chinese and English terms.
+- Added focused source histories for Origin / 本源; Zero / Idle / Infinity; Consciousness / Freewill / Spectrum / Strength; Imagination / Origination / Manifestation / Intention / Choice; and Spirit / Void / Voidness / Oneness / True Origin / Fake Origin.
+- Recorded the user's clarification that “All roads lead to Rome” is an expression about openness, not a truth claim.
 
 ### Not yet completed
-- Exhaustive term extraction and exact occurrence indexing across the current repository tree (127 HTML/Markdown files at the post-merge snapshot); several public research-page groups have now been screened, but not every file has been examined at full text level.
-- Exact occurrence indexing and section/line locations for every term.
-- Full comparison of the public Science of Consciousness page with both uploaded framework documents.
-- Extraction from original Reddit, Weibo, Chinese compilation, and other source archives.
-- Translation-equivalence review across English and Chinese.
-- Historical usage timeline and preferred-term decisions.
-- User review of conceptual conflicts and working meanings.
+
+- Exhaustive term extraction and exact occurrence indexing across all 127 HTML/Markdown repository files.
+- Manual context classification of every Weibo candidate hit (authored explanation, title/announcement, hashtag, quotation, question/commentary, or unclear).
+- Full manual boundary audit of all Reddit YWS author-marker spans; the current segmentation is a discovery aid and may require correction in nested threads.
+- Full semantic extraction of all Reddit questioner and third-party commenter vocabulary in the broader archive.
+- Attribution and post-level segmentation across the mixed Chinese compilation.
+- Direct inspection, SHA-256 hashing, PDF metadata/page counts, and page-by-page comparison of the two project PDFs against the TXT compilation.
+- Visual inspection of TXT pages with no extracted text and recovery of diagrams, tables or screenshots where possible.
+- Full English–Chinese translation-equivalence review.
+- Preferred-term decisions and owner approval of the open conceptual relationships.
+- Curated reader-facing Glossary revision based on reviewed inventory entries.
 
 ### Next sequence
-1. Complete the public-page and core-document extraction, adding every meaningful term and all source locations.
-2. Compare the existing Terminology page against the expanded inventory.
-3. Conduct conceptual review of high-priority term relationships, beginning with Origin, Zero, Idle, and Infinity.
-4. Build and review the reader-facing Glossary from entries whose meanings have been agreed or can be safely presented as explicitly provisional.
-5. Expand historical terminology using original source collections without projecting current meanings backwards.
 
-**Important:** This document is an initial extraction register. It must not be described as the complete terminology inventory until the remaining source collections and repository-wide occurrence pass are complete.
+1. Continue manual context and attribution review of the historical candidate indexes, starting with the core concepts and exact definition/equation passages.
+2. Complete the PDF-to-TXT comparison once the two PDF binaries are available for direct inspection.
+3. Continue the core-term histories for remaining research terms and applications, preserving dates and source locators.
+4. Review the open conceptual questions with the owner before changing any working definitions.
+5. Build the next Glossary revision only from terms whose meanings are agreed or can be clearly labelled as provisional.
+
+**Important:** This document is a substantial working inventory, not yet the complete terminology inventory. Its indexes are discovery aids; literal frequency is not semantic meaning, author endorsement or evidence of truth. Historical source wording must remain intact, and no public-page definitions should be changed solely because a candidate term appears frequently.
