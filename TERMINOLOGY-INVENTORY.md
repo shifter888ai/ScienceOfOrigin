@@ -523,6 +523,11 @@ The Research Library Schema and AI Research Protocol introduce a second vocabula
 | 记忆 | 55 | 394, 473, 474, 492, 516, 517 | Includes later memory-recovery hashtags |
 | 本源 | 45 | 037, 045, 047, 049, 075, 106 | Central source expression; compare its changing use over time |
 
+
+#### Counting refinement
+
+The Weibo candidate index now distinguishes literal matches in the full exported text from matches remaining after a simple removal of hashtag strings and URLs. This second count is a rough body-text filter, not a full semantic classification: quoted text, titles, copied passages, and other embedded content remain. For example, `意识` occurs in 181 records in the full exported text and remains in 100 records after this filter; `意识强度` occurs in 152 and remains in 67; `本源` occurs in 45 and remains in 44. Use the record-level locators and original wording for interpretation, not these counts alone.
+
 #### Specific phrases worth conceptual review
 
 | Exact source phrase | Record(s) | Source lines | Why preserve it |
@@ -605,8 +610,8 @@ The Research Library Schema and AI Research Protocol introduce a second vocabula
 | 0025 | 112–114 | Tier 1, Tier 2, Tier 3; level 3 | The tier terminology appears in the question; the answer does not define the tiers in this record |
 | 0030 | 122–126 | hypnotists; Hypnotic Council; roles | The question contains the “Council of 12” framing; the answer introduces “Hypnotic Council” and describes roles. Preserve as a source-specific explanation |
 | 0033 | 130–134 | loosh energy; Archons; Matrix construct; Hypnotic Reincarnation System | The answer gives an explicit relation for “loosh energy”; preserve the entire answer and its source attribution |
-| 0038 | 146–? | astral projection | Candidate record; consult index for exact answer line range |
-| 0190 | index locator | Science of Consciousness; spectrum; Freewill; Strength of Consciousness | Candidate answer-side research vocabulary; inspect full record before glossary definition |
+| 0038 | 180–183 | astral projection | The questioner describes an out-of-body experience; the answer refers to an astral-projection article. Preserve the distinction between the questioner's report and YWS's reply |
+| 0190 | 1130–1165 | Science of Consciousness; spectrum; Freewill; Strength of Consciousness | Candidate answer-side research vocabulary; inspect full record before glossary definition |
 
 #### Attribution and status rules for this archive
 
