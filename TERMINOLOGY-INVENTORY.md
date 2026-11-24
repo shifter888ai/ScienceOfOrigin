@@ -1138,6 +1138,73 @@ The current Science of Origin website explicitly labels the two-field arrangemen
 
 **Working conclusion:** the current Science of Origin page gives a later explicit clarification that Consciousness and Freewill are the same nature described by two human words, and that Spectrum of Consciousness and Spectrum of Freewill refer to the same Spectrum. Earlier source versions remain important historical records. The meanings and measurement relationships among Strength of Consciousness, Strength of Freewill, Spectrum and Level of Awareness still require owner clarification. No research architecture is changed by this inventory entry.
 
+
+### Y. Core-term history 4 — Imagination / Origination / Manifestation / Intention / Choice
+
+This group is central to the framework because the terms describe different roles in the coming-about of manifestations. The current pages distinguish them, while the older Zero-Origin working record sometimes uses broader formulations in which Freewill, Creation and Imagination are described as one. Both layers are preserved.
+
+#### Current working distinctions
+
+| Term | Current Science of Origin working use | Key distinction |
+|---|---|---|
+| Imagination | A foundational concept associated with Origin, possibilities and manifestations; not limited to human fantasy, visualization or mental imagery | Related to, but not interchangeable with, origination or manifestation |
+| Origination | The capability and process through which manifestations come about and may give rise to further manifestations | The coming-about process; not the source itself or the thing that comes about |
+| Manifestation | What comes about through origination; broadly Things and Life Forms in the current framework | The outcome/what comes about, not the process or ultimate source |
+| Intention | An expression of Will that may give a particular origination direction or character | Not the same as Freewill itself, nor a guarantee of full control or foreknowledge of outcomes |
+| Choice | An expression of Freewill; includes the possibility of originating or not originating | Not limited to choosing among options already manifested |
+| Non-origination | The possibility of not originating | Not automatically failure, inability, prevention or an unobserved event |
+| Non-manifestation | The not-manifesting or non-expressing side of the framework | Not automatically a manifestation; absence of observation does not establish why no expression is observed |
+| Creation | A broader research division covering spontaneous/intentional imagination, conditional mechanisms, programming and further origination | Not a synonym for every instance of origination |
+
+#### Current source statements
+
+- `imagination.html` says manifestations are understood as imaginations of Origin; the imaginer and imagined are not treated as two independently existing ultimate sources. It distinguishes imagination, origination and manifestation rather than treating them as interchangeable.
+- `origination.html` says origination concerns the capability and process through which manifestations come about; a manifestation may be the immediate source of further origination without becoming a separate ultimate Origin.
+- `manifestations.html` distinguishes a property change, transformation, emergence and the origination of a new manifestation. It cautions that a new property or capability does not automatically establish a new manifestation.
+- `spontaneous-intentional-imagination.html` distinguishes spontaneous imagination (spontaneous arising of manifestations from Origin) from intentional imagination (imagination directed by intention within an existing manifestation). It also distinguishes these from the original description of the Source's two modes of spontaneous creation: automatic and autonomous.
+- `consciousness-freewill.html` says Will is associated with Freewill; Intention is an expression of Will; Origination is the coming-about of a manifestation through the intrinsic capability. It says experience may influence later intentions and expressions without creating, increasing or diminishing the underlying capability.
+- `research-framework.html` says choice precedes a particular origination and includes both the possibility of originating and the possibility of not originating.
+
+#### Historical Zero-Origin working-record wording
+
+The first consolidated working edition of `zero-origin-research-working-record.html`, Part II, section 5, states:
+
+- “Freewill → Creation → Imagination” does not describe three separate entities or necessarily three sequential stages.
+- “They are one — Oneness.”
+- Creation and Imagination are within Freewill, without implying a bounded container or spatial enclosure.
+- “Creation itself is Freewill, viewed from another perspective.”
+- “Imagination is also Freewill itself.”
+- “Imagination is an expression within Freewill, not an expression of something separate from Freewill.”
+
+This is a historical working-record formulation. The current public pages use more differentiated working meanings for Imagination, Origination, Manifestation and Creation. The inventory does not silently replace the older wording with the newer distinctions or declare the earlier formulation false; it records the conceptual development for owner review.
+
+#### Historical Chinese-source anchors
+
+| Source locator | Exact term or formulation | Review note |
+|---|---|---|
+| Chinese compilation, Page 264, lines 7431–7463 | “合一本源”; “得道=合一本源+脱离轮回” | The source describes union with Origin as an experience/state and connects it with an applied outcome |
+| Chinese compilation, Page 304, lines 8805–8830 | “破幻、合一”; “神游破幻，合一本源” | A compact source phrase relating methods/experience to the stated aim |
+| Chinese compilation, Page 1669, lines 46764–46773 | “合一本源的比例=意识强度检测值” | A historical measurement claim; operational and validation questions remain open |
+| Weibo record 129, lines 426–427 | “得道=合一本源＋脱离轮回。” | Repeats the source formula |
+| Weibo record 569, lines 2270–2321 | Dense cluster including 可能性, 确定性, 显化, 不存在 and 本源 | A source passage with several related concepts; requires separate record-level extraction before any definitions are adopted |
+
+The Chinese compilation's Page 264 note identifies the original version as published on 2008-08-25. This gives the `合一本源` / `得道` formula a dated historical anchor, but does not establish that every later use of “imagination”, “origination” or “manifestation” has the same meaning.
+
+#### Distinctions and open questions
+
+1. **Imagination vs. Origination:** is imagination a capacity/relationship associated with Origin, while origination is the process through which a possibility comes about? The current pages say they are related but not interchangeable; the precise relationship still needs clarification.
+2. **Imagination vs. Manifestation:** if manifestations are imaginations of Origin, in what sense is imagination distinct from what is manifested?
+3. **Origination vs. Creation:** does Creation name a broad research division that includes origination mechanisms, or is it also a specific process distinct from Origination?
+4. **Origination vs. Transformation:** what criteria establish that a new manifestation has come about rather than an existing manifestation changing or transforming?
+5. **Origination vs. Emergence:** when does an emergent property or capability count as a new manifestation, and when is it a property of an existing system?
+6. **Spontaneous vs. Intentional Imagination:** the current account distinguishes different contexts, but also says spontaneous intention may arise randomly and that spontaneity itself can be chosen deliberately. What exactly is spontaneous: the intention, the origination, the absence of a predetermined direction, or something else?
+7. **Automatic vs. Autonomous:** these are described as two original modes of spontaneous creation at the Source. How do they relate to spontaneous and intentional imagination within manifestations? The current page explicitly leaves this relationship open.
+8. **Choice vs. Intention:** does Choice precede a particular origination, while Intention gives that origination a direction or character? How does this work in spontaneous origination?
+9. **Non-origination vs. Non-manifestation:** are these different scopes (process vs. expression), or are there cases where one occurs without the other?
+10. **Historical Oneness wording:** when the earlier record says Freewill, Creation and Imagination “are one”, is this an identity claim, a statement of shared Source, or a description from different perspectives? The current differentiated terminology should not erase this question.
+
+**Working conclusion:** the current Science of Origin pages provide useful distinctions among Origin, Imagination, Origination and Manifestation, while the historical Zero-Origin working record preserves a broader Oneness formulation. Both are part of the research history. The exact relationships among spontaneous intention, choice, intention, origination and non-manifestation remain open for owner clarification.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
