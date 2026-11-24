@@ -67,10 +67,11 @@ For each source, record:
 
 ## Work sequence
 
-1. Yuanwushi site: map all routes and attachments; prioritize Wiki, CX Club and Reddit archive; resolve the 16-PDF-lessons versus 21-indexed-lessons discrepancy.
-2. Awakenology: reconcile all domains, 136 sitemap URLs, 148 HTML routes, assets, linked resources, and historical Git versions.
-3. Reddit: reconcile the portal's monthly listing with both existing TXT datasets and source-account history; do not duplicate the profile collection.
-4. Weibo: reconcile export against the source account and recover media item by item.
+1. Yuanwushi site: map all routes and attachments; prioritize Wiki, CX Club, linked files, and media capture.
+2. Awakenology: update the pinned Git repository snapshot monthly; live-domain crawling and route checks are separate optional work.
+3. Reddit: add the new manually checked monthly TXT versions, preserve prior versions, and regenerate source-linked indexes.
+4. Weibo: add the new manually checked monthly TXT version, preserve prior versions, and regenerate source-linked indexes. Track optional media recovery separately.
+5. Awakenology: update the pinned Git repository commit and full file-tree manifest monthly.
 5. Cross-source deduplication and relationship indexing only after original capture and identity checks.
 
 ## Rights and privacy
