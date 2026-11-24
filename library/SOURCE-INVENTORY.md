@@ -137,3 +137,37 @@ This rule must not be generalized to unrelated sources without evidence. Preserv
 This inventory is a starting snapshot, not a relevance filter and not a declaration of completeness.
 
 **Preserve everything first. Discover and organize relationships through research.**
+
+
+## Repository inventory refresh — 2026-11-25
+
+A refreshed recursive Git tree inventory was captured from `main` at commit `48cf484a007ff651cceebfb2d7fe9fd2077f32d8` (tree `48cf484a007ff651cceebfb2d7fe9fd2077f32d8`). The current snapshot contains **215 repository files excluding this manifest itself**, totaling **60,831,716 bytes**. The refreshed manifest is [`FILE-MANIFEST.json`](FILE-MANIFEST.json), version 0.2. Existing inventory IDs were retained; newly discovered paths were appended with new IDs.
+
+| Extension | Files |
+|---|---:|
+| `html` | 95 |
+| `md` | 58 |
+| `csv` | 38 |
+| `txt` | 10 |
+| `js` | 3 |
+| `pdf` | 2 |
+| `json` | 2 |
+| `gitignore` | 1 |
+| `css` | 1 |
+| `jsonl` | 1 |
+| `docx` | 1 |
+| `rtf` | 1 |
+| `mjs` | 1 |
+| `xml` | 1 |
+| **Total** | **215** |
+
+This refresh includes the expanded research-library coverage and record-index files created since the initial snapshot. The count describes repository objects at this commit only; it does not establish completeness of the historical source archive.
+
+### Newly registered entropy assessment source versions
+
+| Repository path | Format | Size (bytes) | Git blob SHA | Content status |
+|---|---|---:|---|---|
+| `materials/熵值检测点RR部分.docx` | DOCX | 1,764,873 | `509d7dc53ba656bcc4b7f19631d162986b0a9119` | File identified; binary content not yet inspected through the repository connector |
+| `materials/熵值检测点RR部分.rtf` | RTF | 812,389 | `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657` | Text successfully extracted and structurally reviewed; see the derived index |
+
+The two formats are retained as separate source objects. Their equivalence, conversion fidelity, and completeness have not been established. Neither Git blob SHA is a SHA-256 checksum.
