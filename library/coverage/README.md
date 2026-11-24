@@ -33,9 +33,9 @@ See [source-coverage-status.csv](source-coverage-status.csv) for machine-readabl
 - Repository: `https://github.com/shifter888ai/awakenology`.
 - Recursive Git tree at commit `05523aec14c286bce397678b8a213cca1fc29563` contained 823 entries, including 148 HTML files and page assets, scripts, tests, documentation, and internal tools.
 - Repository `sitemap.xml` contains 136 URLs. A path-level comparison matched all 136 sitemap URLs to HTML routes in the same repository tree.
-- Twelve HTML routes were not in the sitemap: 404, internal/new-article, AI Search, Ask, editor, GitHub editor, search, and static-POC helper pages. These require classification as intentionally excluded, operational, private, or potentially omitted public content—not automatic inclusion or deletion.
+- Twelve HTML routes were not in the sitemap. Source review now classifies them in [awakenology-nonsitemap-route-review.csv](awakenology-nonsitemap-route-review.csv) and [awakenology-nonsitemap-route-review.md](awakenology-nonsitemap-route-review.md): 1 custom 404, 1 experimental ASK model lab, 3 public utility routes (AI Search, Ask, Search), 4 editor/authoring tools, and 3 prototype asset fragments. No item in this set currently appears to be an omitted public article. This is a repository-source classification, not live HTTP/access-control verification.
 - Repository `robots.txt` points to `https://awakenology.space/sitemap.xml` and disallows editor/auth/API routes. The sitemap is a discovery list, not proof that all historical or live resources are captured.
-- Next checks: compare `.org`, `.space`, and `.org`/www aliases and redirects; verify live status for all 136 URLs; inventory every linked asset/document/video; compare Git history and live routes; preserve exact source files and relevant rendered captures.
+- Next checks: compare `.org`, `.space`, and `www` aliases and redirects; verify live status for all 136 sitemap URLs plus the 12 classified routes; inventory every linked asset/document/video; compare Git history and live routes; preserve exact source files and relevant rendered captures.
 - The repository tree is not itself a complete live-site crawl or a historical archive.
 
 ### Reddit account archive
