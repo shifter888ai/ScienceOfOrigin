@@ -105,3 +105,8 @@ All four source collections now follow the [Monthly Source Maintenance Protocol]
 Monthly reconciliation is the standard for Yuanwushi, Awakenology, Reddit, and Weibo. New material should be captured as soon as practical rather than waiting for month-end. CX Club has an additional event-driven rule: capture each new Wednesday lesson and its linked files promptly, then reconcile the month's lesson sequence, dates, PDFs, and media during the monthly review. The owner reports approximately 1,200 students; this is owner-supplied context, not a verified website metric.
 
 The November 2026 register is a checkpoint, not a completion claim. The four sources remain open with the gaps described above.
+
+
+## Awakenology repository manifests
+
+The 2026-11-24 repository snapshot manifests are `awakenology-repository-tree-manifest-2026-11-24.csv`, `awakenology-sitemap-route-to-blob-manifest-2026-11-24.csv`, and `awakenology-repository-tree-assessment-2026-11-24.md`. They map the 136 sitemap routes to repository blob objects and extend the non-sitemap route review with blob provenance. See the assessment for scope and live-domain limitations.
