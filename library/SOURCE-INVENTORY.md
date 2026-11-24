@@ -1,11 +1,11 @@
 # Initial Source Inventory — Science of Origin
 
-**Inventory version:** 0.1  
+**Inventory version:** 0.2  
 **Repository:** `shifter888ai/ScienceOfOrigin`  
 **Branch reviewed:** `main`  
 **Repository tree commit reviewed:** `75b01f903f0c88c66aed5d904fc291db45172262`  
-**Inventory date:** 2026-11-21  
-**Status:** Initial repository-level inventory; not yet a complete inventory of all materials ever recorded.
+**Inventory date:** 2026-11-25  
+**Status:** Updated with owner-confirmed Reddit/Weibo TXT archive scopes and the pinned Awakenology repository snapshot. The historical baseline below is retained; see the 2026-11-25 update section for current source status.
 
 ## 1. Scope and limits
 

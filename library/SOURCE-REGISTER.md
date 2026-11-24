@@ -1,12 +1,12 @@
 # Original Source Collection Register
 
-**Register version:** 0.1  
+**Register version:** 0.2  
 **Repository snapshot:** `45de49cb111a378e5baf9eaba847911be9edf18e`  
-**Status:** Initial registration candidates; provenance and integrity checks remain pending.
+**Status:** Updated 2026-11-25. Reddit and Weibo supplied TXT archives are owner-confirmed complete for their defined scopes; Awakenology is registered as a pinned repository snapshot; other provenance and live-source checks remain separately tracked.
 
 ## Purpose
 
-This register identifies the source collection files currently present in `materials/`. It does not decide that different formats are duplicates, and it does not claim that these files represent the entire historical archive.
+This register identifies source collection files and their defined scopes. Provisional candidate rows are retained as historical inventory notes; the owner-confirmed registrations appended below supersede their earlier pending status for Reddit and Weibo supplied TXT archives. Completeness statements apply to the defined supplied-file scopes.
 
 The repository-wide file manifest is [`FILE-MANIFEST.json`](FILE-MANIFEST.json). It records every file path, byte size, Git blob identifier, and provisional classification at the reviewed commit.
 
