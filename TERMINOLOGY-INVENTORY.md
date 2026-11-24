@@ -829,6 +829,22 @@ These are source claims from a dated group-chat compilation entry. Preserve them
 
 The repository also contains two PDF files, `materials/元吾氏集录20210203-1.pdf` (24,124,234 bytes) and `materials/元吾氏集录20210203-2.pdf` (24,517,286 bytes). The page-index README explicitly lists page-by-page comparison with both PDFs, PDF-to-TXT page mapping, visual inspection of pages with no extracted text, and preservation of diagrams/screenshots as outstanding work. The PDF binaries could not be inspected directly in this pass, so no claim is made that the 1,671 TXT page markers correspond one-to-one to PDF pages or that the TXT fully preserves the PDF content.
 
+
+#### PDF source-object register — binary comparison still pending
+
+The current repository tree identifies these two original PDF objects:
+
+| Repository path | File size (bytes) | Git blob ID |
+|---|---:|---|
+| `materials/元吾氏集录20210203-1.pdf` | 24,104,234 | `9216b2dd722e6fa79436042a1e6f1af314e164ab` |
+| `materials/元吾氏集录20210203-2.pdf` | 24,517,286 | `a5175b1a2ed6a07f7442eca8e7837cf8e24b7478` |
+
+The two files total 48,621,520 bytes. These are repository object identifiers, not SHA-256 checksums of the PDF bytes. A binary hash, PDF metadata, physical page count, and page-by-page visual comparison have not yet been produced.
+
+**Potential external comparison copy (not yet verified):** the separate public repository [yuanwushi/wiki](https://github.com/yuanwushi/wiki) on branch `revision` contains a single file `pdf/元吾氏集录20210203.pdf` listed at 51,276,818 bytes. Its README describes the repository material as voluntarily compiled by internet users. This is a third-party community copy, not an authoritative replacement for the two files in ScienceOfOrigin. Its different size means it must not be assumed byte-identical or page-identical to the two-volume set. It may be useful as an independent comparison candidate if its original PDF bytes can be preserved and inspected.
+
+**Required to close this item:** inspect the two project PDFs directly (or obtain an inspectable local copy), compute SHA-256, record PDF metadata and page counts, then map each TXT page marker to the corresponding PDF page. If the third-party copy is used, keep it as a separate source object and compare it without overwriting or replacing the project originals.
+
 **Next sub-pass:** obtain the two PDF binaries in an inspectable form; record SHA-256, metadata, page counts, and PDF-to-TXT page mapping; inspect all pages marked with no extracted text; then compare terminology, diagrams, tables, and source layout. Until that is done, treat the TXT as a distinct source object rather than a verified transcription of both PDFs.
 
 
