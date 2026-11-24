@@ -40,3 +40,8 @@ The author-marker index records exact source lines matching `Lower-Lingonberry-4
 - Line numbers are 1-based and inclusive. If the original file changes, regenerate the indexes against the new blob and retain prior versions.
 
 **Preserve the full thread context before extracting individual cases or conclusions.**
+
+
+## Portal monthly count reconciliation
+
+A separate comparison of the 617 indexed post/thread blocks with the older Yuanwushi Reddit portal search snapshot is documented in `../coverage/reddit-monthly-count-reconciliation.md` and `reddit-monthly-count-reconciliation.csv`. It records monthly counts and discrepancies without asserting that portal entries and post/thread blocks are equivalent units. No source records were changed.
