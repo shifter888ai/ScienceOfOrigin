@@ -67,4 +67,6 @@ The project owner's attribution instruction for this identified Q&A collection i
 
 English strings are matched case-insensitively with ASCII-alphanumeric word boundaries. Chinese strings are matched as literal substrings. The index records raw source-file text, including HTML markup and project/research documents; it is not a rendered-page index. It is a navigation aid, not a semantic classification or a claim that every hit uses the term in the same sense.
 
+Related manual context audit: [weibo-origin-context-audit.md](weibo-origin-context-audit.md) classifies all candidate records for 本源 and the linked terms 自由意识, 自由意志 and 合一本源, distinguishing substantive text from titles, links and hashtag-only hits.
+
 The candidate list is deliberately finite and reflects the current terminology review. It does not discover every possible synonym, spelling, translation, inflection, or related expression. The index does not distinguish quotations, negations, historical usage, proposed terms, or source-attributed claims from current framework definitions. Each hit must be checked in context before it is used to support a definition or conceptual relationship. Re-run the index when repository text changes or the candidate vocabulary expands.
