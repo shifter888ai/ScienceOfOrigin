@@ -190,7 +190,7 @@ def main():
     while queue:
         url,kind,parent=queue.pop(0)
         if kind in ("homepage","cxclub-index","wiki-index","rss"): continue
-        data=fetch(url,rp,kind,parent=parent or BASE)
+        data=fetch(url,rp,kind,parent=parent or BASE,attachment=(kind=="attachment"))
         if not data: continue
         # Capture only same-origin linked original documents and media, not scripts/styles.
         for tag,attr,href in parse_links(data):
