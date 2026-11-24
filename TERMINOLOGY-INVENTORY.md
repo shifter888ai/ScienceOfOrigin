@@ -968,6 +968,81 @@ This is the first focused reconciliation record. It preserves source wording acr
 
 **Working conclusion:** the source history supports a clear distinction between the Source (本源 / Origin) and union with the Source (合一本源) in the cited 2008 formulation. Other mappings remain under review. No new canonical definition is adopted in this inventory pass.
 
+
+### W. Core-term history 2 — Zero / Idle / Infinity
+
+This record follows the user's priority to clarify the relationship among Zero, Origin, Idle and Infinity. It preserves the older working-record formulations and the current published wording as separate historical layers. No equation or final definition is being adopted or revised here.
+
+#### Term family and source forms
+
+- Current English forms: `Zero`, `Idle`, `Infinity`, `Infinity of Imagination`, `before manifestation`, `non-manifestation`.
+- Historical symbolic forms: `0`, `0 = Infinity`, `0 represents idle`, `Zero begets all`, `0 begets 1; 1 begets 2; 2 begets 3; 3 begets all`.
+- Related but distinct terms: `Origin`, `Freewill`, `imagination`, `origination`, `manifestation`, `cessation`, `intention`, `spontaneity`.
+
+#### Historical working-record layers
+
+| Source layer / locator | Exact source wording or idea | Review note |
+|---|---|---|
+| Zero-Origin Research (1), Part I — original pre-Question 01 draft, section “Origin: The Entirety of Infinity” | “Origin is Freewill itself”; “Origin represents the entirety of Infinity”; “Origin is Freewill itself, and Freewill is Infinity.” | Preserve as an early draft formulation. It is not the same wording as the current five-aspect description |
+| Zero-Origin Research (1), Part II — first consolidated working edition, section 3 “Zero and Origin” | “Zero represents the idle of Origin and undefined Infinity.” “0 represents idle.” “Zero begets all.” | The text explicitly says the 0→1→2→3 illustration is a human-friendly description, not a literal sequence, mechanism, pattern or rule |
+| Same working edition, section 4 “Freewill and Infinity” | “Freewill is Infinity, and Infinity has no boundary.” Freewill does not require a reason, purpose, intention, condition, explanation, permission, recognition, detection, interaction or manifestation | Historical formulation; current published wording differentiates Infinity and Freewill as different perspectives/aspects |
+| Zero-Origin Research (2), Records 001–003 | Record 001: “Zero represents the idle of Origin”; YWS confirmed it as accurate but “never complete”; Zero also represents undefined Infinity; “Zero begets all.” Record 002: Freewill does not need a reason to be. Record 003: “Freewill is Infinity; Infinity has no boundary.” | These are concise public-facing summaries of recovered records, not verbatim transcripts of every message |
+| Current `zero-origin.html` | Zero is not a numerical starting point; it represents the idle state of Origin and Infinity before manifestation. Idle is not an absence of capability, freewill or possibility | Current published account; includes additional clarification of simultaneous idle and active aspects |
+| Current `zero-idle-state-of-origin.html` | Zero represents the idle state of Origin; Zero also represents Infinity before manifestation; “before manifestation” is not necessarily a time before | Current page explicitly rejects automatic interpretations as numerical zero, physical vacuum, simple nothingness, inactivity within a manifested system, or a point on a timeline |
+| Current `infinity-of-imagination.html` | Infinity is considered in relation to the unrestricted nature attributed to Origin and the scope of imagination associated with it | The page distinguishes imagination, origination and manifestation and says infinite imagination does not imply every conceivable possibility is manifested or realizable under every condition |
+| Current `terminology.html` | Zero: “0 = Infinity” is an observed understanding, not an arithmetic equation or numerical starting point. Idle: also described as the other half of the nature of existence and half of the source of intelligence | This page contains a second use of Idle that needs to be distinguished from the idle state of Origin |
+| Current `research-framework.html` | “Zero-Origin 0 = Infinity” is an observed understanding; Zero represents the idle of Origin and Infinity before manifestation | Research architecture wording; not an arithmetic identity |
+
+#### Current source distinctions
+
+The current published account makes the following distinctions:
+
+1. **Zero is not a numerical value.** It is used as a description or representation of Origin's idle state.
+2. **Idle is not incapability.** The account does not equate idle with absence of freewill, possibility or capacity.
+3. **Zero and Infinity are connected descriptions.** The current wording says Zero represents the idle state of Origin and Infinity before manifestation; the terminology page also records “0 = Infinity” as an observed understanding, not arithmetic.
+4. **Before manifestation is not automatically chronological.** The phrase is intended as a foundational distinction, not an established earlier moment on a timeline.
+5. **Idle and active are not mutually exclusive.** Origin may be idle in one aspect while active in another, or simultaneously idle and active.
+6. **Origination and cessation may coexist.** The current account allows simultaneous, continuous, deliberate, spontaneous, or mixed processes.
+7. **No intention is required for Origin to remain as it is.** The account also says Origin can choose to have no intention and remain idle, at will.
+8. **Spontaneity and deliberate choice are not treated as mutually exclusive.** The current account describes spontaneous imagination as occurring without a reason or cause, while also saying spontaneity itself can be chosen deliberately.
+9. **Infinity is not a quantity or duration.** It is a nature of Origin and a research domain. Particular manifestations, observable relationships and implications may be investigated without claiming to measure or exhaust Infinity.
+10. **Infinity of Imagination is a proposition about scope.** It does not mean every conceivable possibility is manifested, exists simultaneously, or can be realized under every condition.
+
+#### Historical Chinese-source lexical check
+
+The 1,671-page Chinese compilation TXT was searched for possible Chinese expressions that might appear related to Zero or Idle. Literal page-presence counts include:
+
+| Exact Chinese string | Pages containing string | Caution |
+|---|---:|---|
+| 零 | 29 | Broad character; contexts include ordinary numbers and unrelated expressions |
+| 零点 | 1 | Context not established as the current Zero concept |
+| 零能量空间 | 0 | No literal match in this compilation TXT |
+| 静止 | 10 | May describe ordinary stillness or other contexts |
+| 静态 | 3 | Context-specific |
+| 空闲 | 2 | Ordinary usage may not relate to the current term Idle |
+| 无为 | 17 | May occur in Daoist or other contexts; not automatically equivalent to Idle |
+| 不动 | 35 | Broad phrase; context varies |
+| 虚空 | 28 | Not automatically equivalent to Zero or Infinity |
+| 虚无 | 24 | Not automatically equivalent to Zero or Idle |
+| 空无 | 13 | Not automatically equivalent to Zero or Idle |
+| 不存在 | 35 | A statement of non-existence is not automatically the idle state of Origin |
+
+The exact phrase `零能量空间` is absent from the 2021 compilation TXT index but occurs in later Weibo and Reddit source material. This is a source-coverage observation, not proof of when the concept originated. None of the Chinese lexical matches above should be adopted as a translation of Zero or Idle without examining the original passage.
+
+#### Tensions and questions requiring owner clarification
+
+1. **Origin = Freewill vs. current aspects:** the original draft says Origin is Freewill itself and Freewill is Infinity. The current account names Infinity, Consciousness, Freewill, Spirit and Void as different aspects or perspectives, with Infinity describing nature and Freewill describing functionality. Is the older wording superseded, a different perspective, or still intended as an equivalent statement?
+2. **Zero = Infinity vs. Zero represents the idle state of Origin and Infinity:** is this an identity in the project's own descriptive language, a relationship, or a shorthand for a particular state? The current text rejects arithmetic identity but leaves the conceptual relation open.
+3. **Zero vs. Idle:** is Zero the name of the state, a symbol representing the state, or both? The current wording alternates between “Zero represents” and “Zero refers to”.
+4. **Idle as Origin's state vs. Idle as part of existence/intelligence:** are these the same concept expressed at different scales, or related but distinct uses?
+5. **Before manifestation:** is this purely a logical/foundational distinction, a non-temporal relationship, or something else? The current page says not to assume chronology, but the precise relation remains open.
+6. **No intention vs. choosing no intention:** can Origin remain idle without intention, and also deliberately choose to remain idle? If so, how should these be distinguished without importing human temporal or psychological assumptions?
+7. **Spontaneous without cause vs. chosen spontaneity:** does “chosen deliberately” describe the choice to allow spontaneity, or the spontaneous origination itself? Preserve the current wording until clarified.
+8. **Zero begets all:** is this only an illustrative phrase for the relationship between idle and manifestation, or does “begets” name a more precise process? The historical working record says its 0→1→2→3 illustration is not a literal sequence, mechanism, pattern or rule.
+9. **Infinity vs. Infinity of Imagination:** does Infinity name a nature/aspect of Origin, while Infinity of Imagination names one proposed implication of that nature? The current page treats them as related but distinct research descriptions.
+
+**Working conclusion:** the current source material supports a distinction between numerical zero and the framework's use of Zero; it also supports that Idle is not simply incapability or inactivity. The exact relation among Zero, Idle, Infinity, Origin and Freewill remains a conceptual question for the owner. No equation is being changed or adopted in this inventory pass.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
