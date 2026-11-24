@@ -50,3 +50,21 @@ The project owner's attribution instruction for this identified Q&A collection i
 - It does not classify topics, cases, claims, concepts, or evidence.
 - The source's original export provenance, collection completeness, and relationship to the other English collection remain under review.
 - If the source file changes, this index must be regenerated against the new source blob and the previous index retained as a historical derivative.
+
+## Repository terminology occurrence index
+
+- [public-page-terminology-occurrence-index.csv](public-page-terminology-occurrence-index.csv) — first-pass exact lexical occurrence index for 70 selected English and Chinese terminology strings across the repository's 145 HTML/Markdown text files at the time of extraction. The current index contains 1,329 term/file rows across 126 files with at least one match.
+
+### Fields
+
+- `term`: exact search string from the fixed candidate list.
+- `source_class`: broad file class (`public-page`, `shared-component`, `project-document`, `terminology-artifact`, `research-library`, or `source-materials-readme`).
+- `path`: repository-relative source path.
+- `occurrence_count`: number of lexical matches in that file.
+- `line_numbers`: 1-based source line numbers containing at least one match; multiple matches on the same line are counted in `occurrence_count` but the line number appears once.
+
+### Matching method and limitations
+
+English strings are matched case-insensitively with ASCII-alphanumeric word boundaries. Chinese strings are matched as literal substrings. The index records raw source-file text, including HTML markup and project/research documents; it is not a rendered-page index. It is a navigation aid, not a semantic classification or a claim that every hit uses the term in the same sense.
+
+The candidate list is deliberately finite and reflects the current terminology review. It does not discover every possible synonym, spelling, translation, inflection, or related expression. The index does not distinguish quotations, negations, historical usage, proposed terms, or source-attributed claims from current framework definitions. Each hit must be checked in context before it is used to support a definition or conceptual relationship. Re-run the index when repository text changes or the candidate vocabulary expands.
