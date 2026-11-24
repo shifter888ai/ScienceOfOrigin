@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, parse_qs, unquote
+from urllib.parse import urljoin, urlparse, parse_qs, unquote, quote, urlunsplit
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 from urllib.robotparser import RobotFileParser
@@ -74,8 +74,17 @@ def robots_policy():
     except Exception as e:
         raise RuntimeError(f"Could not verify robots.txt; fail-closed: {e}")
 
+def request_safe_url(url: str) -> str:
+    """Percent-encode non-ASCII URL characters for urllib without changing the source URL."""
+    p = urlparse(url)
+    path = quote(p.path, safe="/%:@!$&'()*+,;=-._~")
+    query = quote(p.query, safe="=&?/:;+,%@!$'()*-._~")
+    fragment = quote(p.fragment, safe="=&?/:;+,%@!$'()*-._~")
+    return urlunsplit((p.scheme, p.netloc, path, query, fragment))
+
 def allowed(rp,url):
-    return urlparse(url).netloc == urlparse(BASE).netloc and rp.can_fetch(UA,url)
+    return (urlparse(url).netloc == urlparse(BASE).netloc
+            and rp.can_fetch(UA,request_safe_url(url)))
 
 def fetch(url, rp, kind, parent=None, store=True, attachment=False):
     global last_request,total_attachment_bytes
@@ -91,7 +100,7 @@ def fetch(url, rp, kind, parent=None, store=True, attachment=False):
     wait=DELAY-(now-last_request)
     if wait>0: time.sleep(wait)
     last_request=time.monotonic()
-    req=Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/pdf,image/*,*/*;q=0.5"})
+    req=Request(request_safe_url(url),headers={"User-Agent":UA,"Accept":"text/html,application/pdf,image/*,*/*;q=0.5"})
     try:
         with urlopen(req,timeout=45) as response:
             status=response.status
