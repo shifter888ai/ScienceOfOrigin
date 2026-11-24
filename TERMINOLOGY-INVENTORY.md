@@ -2,7 +2,7 @@
 
 **Status:** Initial extraction register · Version 0.1  
 **Purpose:** Comprehensive, source-traceable discovery register for terminology used across Science of Origin.  
-**Scope of this pass:** Public research pages and core framework documents in the repository. This is an initial extraction, not yet a completeness claim. Historical Reddit, Weibo, Chinese compilation, and other original source collections remain a later extraction layer.
+**Scope of this pass:** A broad public-page discovery pass, the supplied Science of Consciousness framework documents, and first-pass lexical discovery across the available Weibo, Reddit, and Chinese compilation source collections. This is an expanded but still incomplete extraction; it is not an exhaustive semantic review or a completeness claim.
 
 ## 1. Purpose and governing rules
 
@@ -1077,13 +1077,13 @@ The Project Description explicitly says that Spectrum of Things = Spectrum of Co
 In the YWS-attributed answer at Reddit all-post author-marker 0192 (source lines 6432–6483), the source states:
 
 - “The Level of Awareness = Lucidity of Consciousness.”
-- Lucidity of Consciousness can be quantifiably measured through a methodology called “Stength of Consciousness (SoC)” or “Strength of Freewill (SoF).”
+- Lucidity of Consciousness can be quantifiably measured through a methodology called “Stength of Consciousness (SoC)” or “Strength of Freewill (SoF).” The source spelling is **“Stength”** (missing the second “r”); it is preserved here rather than silently corrected.
 - Different groups use the terms Strength of Freewill (SoF), Strength of Consciousness (SoC), and Spectrum of Consciousness (SoC).
 - The source says these terms fall under the broader field “Science of Consciousness (SoC).”
 
 The source then lists research topics related to memory mechanisms and structures, memory malfunction, memory distortion, memory suppression, self-identity, self-modeling, self-consciousness, phenomenal consciousness, integration of experience, unified conscious experience, the binding problem, ego attachment, ego dissolution and stages of ego transcendence.
 
-This passage is important because it explicitly places several named approaches under Science of Consciousness, but it does not clearly specify whether Strength of Consciousness, Strength of Freewill and Spectrum of Consciousness are methods, metrics, constructs, viewing perspectives, or names used by different groups for related work. The repeated abbreviation “SoC” is especially ambiguous.
+This passage is important because it explicitly describes Strength of Consciousness / Strength of Freewill as a “methodology” in that answer, while also listing Spectrum of Consciousness and Science of Consciousness under the same acronym. It does not establish whether the named approaches are methods, metrics, constructs, viewing perspectives, or names used by different groups for related work. The abbreviation **SoC is overloaded within the passage itself**: it is used for Strength of Consciousness, Spectrum of Consciousness, and Science of Consciousness. These usages must be disambiguated by the full term, not by the abbreviation alone.
 
 #### Historical Chinese source: Consciousness Strength assessment
 
@@ -1093,7 +1093,7 @@ Page 399 (source lines 11136–11155) says that the Consciousness Strength level
 
 #### Weibo bilingual term relationship
 
-Weibo record 689 (source lines 3043–3048) explicitly writes `自由意识（自由意志 Freewill）`. This is a historical bilingual pairing in that record. It should be preserved as written and compared with the current Science of Origin position that Consciousness and Freewill are two human descriptions of the same nature. It does not, by itself, establish that every use of 自由意识, 自由意志, Consciousness and Freewill is interchangeable.
+Weibo record 689 (2024-10-26; source lines 3043–3048) states: `自然規律只有一個：自由意識 （自由意志Freewill）. 其它都是遊戲規則 .` The parenthetical explicitly pairs `自由意識` with `自由意志Freewill` in this post. Preserve the original Traditional Chinese wording, spacing and punctuation as a historical source form. In context, the post also asserts that there is only one natural law and that other things are game rules. This is a source claim, not an independently established finding. The pairing should be compared with the current Science of Origin position that Consciousness and Freewill are two human descriptions of the same nature, but this single post does not establish that every use of 自由意識, 自由意志, Consciousness and Freewill is interchangeable.
 
 #### Terms to keep distinct during review
 
