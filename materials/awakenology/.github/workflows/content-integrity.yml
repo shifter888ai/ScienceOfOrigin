@@ -1,0 +1,216 @@
+name: Content Integrity Gate
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  content-integrity:
+    name: Detect accidental article-content loss
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository history
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check Word Generator inline JavaScript syntax
+        run: |
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import subprocess
+
+          class InlineScripts(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.inline = False
+                  self.scripts = []
+              def handle_starttag(self, tag, attrs):
+                  if tag == "script":
+                      self.inline = not dict(attrs).get("src")
+                      if self.inline:
+                          self.scripts.append("")
+              def handle_data(self, data):
+                  if self.inline:
+                      self.scripts[-1] += data
+              def handle_endtag(self, tag):
+                  if tag == "script":
+                      self.inline = False
+
+          parser = InlineScripts()
+          parser.feed(Path("editor/generator.html").read_text(encoding="utf-8"))
+          assert parser.scripts, "No inline Generator script found"
+          for index, script in enumerate(parser.scripts):
+              path = Path(f"/tmp/word-generator-inline-{index}.js")
+              path.write_text(script, encoding="utf-8")
+              subprocess.run(["node", "--check", str(path)], check=True)
+          PY
+
+      - name: Compare changed HTML content with base
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+          EVENT_PATH: ${{ github.event_path }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import difflib
+          import html
+          import json
+          import os
+          import re
+          import subprocess
+          import sys
+
+          base = os.environ.get("BASE_SHA", "")
+          head = os.environ.get("HEAD_SHA", "")
+          if not base or not head or base == "0000000000000000000000000000000000000000":
+              print("No comparable base/head SHA; skipping content comparison.")
+              sys.exit(0)
+
+          try:
+              with open(os.environ["EVENT_PATH"], encoding="utf-8") as f:
+                  event = json.load(f)
+          except (OSError, json.JSONDecodeError):
+              event = {}
+          labels = {
+              item.get("name", "")
+              for item in event.get("pull_request", {}).get("labels", [])
+          }
+          if "content-loss-approved" in labels:
+              print("The content-loss-approved label is present; intentional large content changes are explicitly approved.")
+              sys.exit(0)
+
+          changed = subprocess.check_output(
+              ["git", "diff", "--name-only", base, head], text=True
+          ).splitlines()
+
+          def read_at(ref, path):
+              result = subprocess.run(
+                  ["git", "show", f"{ref}:{path}"],
+                  text=True, capture_output=True
+              )
+              return result.stdout if result.returncode == 0 else None
+
+          def extract_content(source):
+              if source is None:
+                  return None, ""
+              article = re.search(r"<article\b[^>]*>(.*?)</article\s*>", source, re.I | re.S)
+              main = re.search(r"<main\b[^>]*>(.*?)</main\s*>", source, re.I | re.S)
+              body = re.search(r"<body\b[^>]*>(.*?)</body\s*>", source, re.I | re.S)
+              if article:
+                  region, kind = article.group(1), "article"
+              elif main:
+                  region, kind = main.group(1), "main"
+              elif body:
+                  region, kind = body.group(1), "body"
+              else:
+                  region, kind = source, "document"
+              region = re.sub(r"<(script|style|nav|header|footer)\b[^>]*>.*?</\1\s*>", " ", region, flags=re.I | re.S)
+              region = re.sub(r"<!--.*?-->", " ", region, flags=re.S)
+              region = re.sub(r"<[^>]+>", " ", region)
+              region = html.unescape(region)
+              region = re.sub(r"\s+", " ", region).strip()
+              return kind, region
+
+          def content_loss_reason(before, after):
+              if before is None or after is None:
+                  return None
+              before_kind, before_text = extract_content(before)
+              after_kind, after_text = extract_content(after)
+              if not before_text:
+                  return None
+              had_article = bool(re.search(r"<article\b", before, re.I))
+              has_article = bool(re.search(r"<article\b", after, re.I))
+              if had_article and not has_article and len(before_text) >= 500:
+                  return f"article container disappeared (base content: {len(before_text)} characters)."
+              if len(before_text) >= 500:
+                  minimum = max(250, int(len(before_text) * 0.60))
+                  if len(after_text) < minimum:
+                      return (
+                          f"extracted content shrank from {len(before_text)} to {len(after_text)} characters "
+                          f"(required at least {minimum}; {before_kind} -> {after_kind})."
+                      )
+                  # Detect substantial deletion/replacement even when more than 60%
+                  # of the old text remains. Intentional edits require explicit review.
+                  before_tokens = before_text.split()
+                  after_tokens = after_text.split()
+                  matcher = difflib.SequenceMatcher(None, before_tokens, after_tokens)
+                  deleted_spans = [
+                      " ".join(before_tokens[i1:i2])
+                      for tag, i1, i2, j1, j2 in matcher.get_opcodes()
+                      if tag in ("delete", "replace")
+                  ]
+                  deleted_chars = sum(len(span) for span in deleted_spans)
+                  largest_span = max((len(span) for span in deleted_spans), default=0)
+                  if largest_span >= 120 or (
+                      deleted_chars >= 160 and deleted_chars / len(before_text) >= 0.01
+                  ):
+                      return (
+                          f"substantial article text was deleted or replaced "
+                          f"({deleted_chars} characters affected; largest segment {largest_span}; "
+                          f"base {len(before_text)}, head {len(after_text)})."
+                      )
+              return None
+
+          # Negative/positive self-tests protect the detector itself from regressions.
+          sample_article = "<article><h1>Integrity test</h1><p>" + ("Preserved article text. " * 40) + "</p></article>"
+          emptied_article = '<article class="article"><p class="aw-spacer"></p></article>'
+          if content_loss_reason(sample_article, sample_article) is not None:
+              print("SELF-TEST FAILED: unchanged substantial article was flagged.")
+              sys.exit(1)
+          if content_loss_reason(sample_article, emptied_article) is None:
+              print("SELF-TEST FAILED: emptied substantial article was not detected.")
+              sys.exit(1)
+          partial_before = "<article><p>" + ("Stable paragraph text. " * 40) + ("UNIQUE REMOVAL SEGMENT. " * 10) + "</p></article>"
+          partial_after = partial_before.replace("UNIQUE REMOVAL SEGMENT. " * 10, "")
+          if content_loss_reason(partial_before, partial_after) is None:
+              print("SELF-TEST FAILED: substantial partial deletion above the old 60% threshold was not detected.")
+              sys.exit(1)
+          print("Content-integrity detector self-tests passed (preserved, emptied, and partial-deletion cases).")
+
+          failures = []
+          checked = 0
+          for path in changed:
+              if not path.lower().endswith((".html", ".htm")):
+                  continue
+              # Internal/New-Article is a generator test fixture, not a production article.
+              # Its placeholder is intentionally replaced during generator tests.
+              if path.replace("\\", "/").strip("/").lower() == "internal/new-article/index.html":
+                  print(f"Skipping content-loss baseline comparison for test fixture: {path}")
+                  continue
+              before = read_at(base, path)
+              after = read_at(head, path)
+              if before is None or after is None:
+                  continue
+              before_kind, before_text = extract_content(before)
+              if not before_text:
+                  continue
+              checked += 1
+              reason = content_loss_reason(before, after)
+              if reason:
+                  failures.append(f"{path}: {reason}")
+
+          print(f"Content integrity checked {checked} changed HTML file(s).")
+          if failures:
+              if os.environ.get("EVENT_NAME") == "push":
+                  for failure in failures:
+                      print(f"::warning::Post-merge content-integrity alert: {failure}")
+                  print("Post-merge alert only: the pull-request gate is the merge-prevention control.")
+              else:
+                  print("\nCONTENT INTEGRITY GATE FAILED:")
+                  for failure in failures:
+                      print(f"- {failure}")
+                  print("\nIf a substantial content reduction is intentional, review the exact article diff and add the PR label 'content-loss-approved' to explicitly bypass this gate.")
+                  sys.exit(1)
+          else:
+              print("No suspicious content loss detected.")
+          PY

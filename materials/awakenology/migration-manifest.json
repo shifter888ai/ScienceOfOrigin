@@ -1,0 +1,123 @@
+{
+  "pipeline_version": "2.0",
+  "repository": "shifter888ai/awakenology",
+  "branch": "main",
+  "baseline_commit": "0435b6ee4ca8a8c4d32bf938b41025ef975b8f46",
+  "current_commit": "7e1449062964d27185aa4782c13cccb2fa638f1f",
+  "generated_at": "2026-10-12",
+  "final_migration_state": "FINALIZED_BASELINE",
+  "site_domain": "https://awakenology.space",
+  "excluded_domains": [
+    "https://awakenology.org"
+  ],
+  "page_count": 114,
+  "asset_count": 207,
+  "inventory_status": "verified-baseline-counts",
+  "route_inventory_note": "114 canonical index.html routes were verified in the prior finalized migration audit; future automated migration runs must regenerate the complete route inventory from the repository rather than relying on this static baseline.",
+  "audit_summary": {
+    "standard_component_match": "PASS",
+    "image_asset_integrity": "PASS",
+    "image_scale_rendering_preservation": "PASS",
+    "deployment_workflow": "PASS",
+    "live_smoke_test": "PASS",
+    "seo": "PENDING_LIVE_METADATA_VERIFICATION",
+    "visual_design_rules_documentation": "MERGED_AND_VERIFIED",
+    "visual_rendering_audit": "PENDING"
+  },
+  "deployment_verification": "PASS",
+  "warnings": [
+    "Some legacy-derived HTML wrappers remain on individual pages; no content-affecting cleanup is authorized without a separate audit.",
+    "SEO baseline and SEO-2 global metadata enhancements are implemented; legacy H1 anomalies remain separately classified for review.",
+    "Homepage source currently contains an absolute canonical URL and a non-empty og:image; verify the Worker-delivered metadata and image URL before closing SEO review."
+  ],
+  "errors": [],
+  "notes": [
+    "Current production baseline is stable.",
+    "awakenology.org is excluded from the new-site migration.",
+    "The-Master.md is the authoritative site specification.",
+    "AUDIT.md is the authoritative verification specification.",
+    "worker.js contains runtime/global implementation.",
+    "This manifest is the machine-readable baseline/state record; future full-site migrations must regenerate inventory and audit results automatically.",
+    "Blocking ERROR findings must prevent commit/deployment.",
+    "SEO governance is defined in The-Master.md and SEO verification is defined in AUDIT.md.",
+    "Approved visual design baseline is consolidated in The-Master.md and corresponding verification checks are merged into main.",
+    "Visual consistency audit against the live rendered site remains pending; do not mark visual audit as passed until desktop/mobile and dark/light checks are performed.",
+    "This rules-consistency change updates governance and manifest provenance only; it does not change worker.js, index.html, or article content.",
+    "current_commit records the source commit reviewed for this manifest snapshot; manifest-only bookkeeping commits do not point to themselves.",
+    "Sitemap audit correction committed 2026-10-12: /ai-search/ is no longer listed because it is explicitly noindex,follow. Sitemap source rechecked at 114 unique HTTPS awakenology.space URLs.",
+    "Homepage canonical and og:image were already present in source during the 2026-10-12 audit; live-rendered metadata and Open Graph/structured-data consistency remain to be verified.",
+    "Targeted SEO remediation branch created 2026-10-12: improved the meta description on one page where the prior audit found a title-only description. Two other pages initially flagged were rechecked and their already-specific descriptions were preserved. Article body content remains unchanged. SEO remains pending until full metadata/content-integrity checks and live-delivered metadata verification are complete.",
+    "Targeted SEO remediation through PRs #68 and #69: replaced title-only meta descriptions on two dialogue pages. For each edited page, the complete <body> source was verified unchanged. SEO remains pending until delivered metadata and broader content-integrity checks are complete.",
+    "Repository source asset-path check completed 2026-10-12: scanned local src/href/poster references for common image, media, font, CSS, and JS file extensions across all 115 HTML files (114 sitemap pages plus AI Search; excluding 404.html). Every matched local reference resolved to a path present in the repository. This verifies repository path existence, not remote URL availability or visual rendering.",
+    "PR #69 merged 2026-10-12 (merge commit 7e1449062964d27185aa4782c13cccb2fa638f1f); targeted description remediation on 與退化派對話6 is now in main.",
+    "Private visual editor stable baseline recorded 2026-10-18 after PR #160 was squash-merged, Cloudflare build version c12c7766 reported Ready, and the site owner confirmed the live article page was OK. Future editor/publishing changes must pass the dedicated regression gate in AUDIT.md; the reference PR does not authorize automatic merging.",
+    "Global UI freeze approved 2026-11-07: Search, Ask, shared global header/navigation, and shared global footer are FROZEN_STABLE. Governing rules are in The-Master.md; scoped regression checks are in AUDIT.md. Documentation-only governance update; no website HTML/CSS/JS or Worker implementation is changed."
+  ],
+  "manifest_version": "2.3",
+  "private_visual_editor_baseline": {
+    "status": "VERIFIED_STABLE",
+    "verified_date": "2026-10-18",
+    "reference_pr": 160,
+    "merge_commit": "2c79cfc48cb5616c89af5c52430cc3adfbe2d513",
+    "cloudflare_version": "c12c7766",
+    "production_smoke_test": "PASS_CONFIRMED_BY_SITE_OWNER",
+    "required_checks": [
+      "Content Integrity Gate / Detect accidental article-content loss",
+      "Live SEO runtime audit",
+      "SEO metadata inventory",
+      "Sitemap route parity",
+      "Workers Builds"
+    ],
+    "governance": "The-Master.md defines approved behavior; AUDIT.md defines mandatory regression checks. Do not alter implementation as part of baseline documentation."
+  },
+  "snapshot_scope": "Historical migration baseline recorded on 2026-10-12; counts, commits, and audit statuses below are not a current production inventory or October 21 live audit.",
+  "audit_summary_note": "FINALIZED_BASELINE denotes the migration baseline only. PENDING audit entries remain pending until separately evidenced and explicitly updated.",
+  "global_ui_freeze": {
+    "status": "FROZEN_STABLE",
+    "approved_date": "2026-11-07",
+    "components": {
+      "search": {
+        "route": "/search/",
+        "status": "USER_CONFIRMED_WORKING_DESKTOP_AND_IPHONE",
+        "reference_prs": [
+          420,
+          421
+        ]
+      },
+      "ask": {
+        "route": "/ask/",
+        "status": "USER_CONFIRMED_WORKING",
+        "reference_prs": [
+          411,
+          414,
+          415,
+          416,
+          422,
+          423,
+          424,
+          426,
+          427,
+          428
+        ]
+      },
+      "global_header_navigation": {
+        "status": "APPROVED_STABLE",
+        "reference_prs": [
+          406,
+          402,
+          403,
+          404
+        ]
+      },
+      "global_footer": {
+        "status": "APPROVED_STABLE",
+        "reference_prs": [
+          406,
+          404
+        ]
+      }
+    },
+    "change_policy": "No modification, redesign, restyling, rewording, refactoring, or behavior change without the site owner's explicit, specific prior approval. Suspected defects may be reported with a scoped proposal but not changed without approval.",
+    "verification_policy": "For any explicitly approved change, run the Frozen Global UI Regression Gate in AUDIT.md and obtain site-owner live confirmation before updating this baseline."
+  }
+}

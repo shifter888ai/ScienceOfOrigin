@@ -1,0 +1,543 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SoC AssessPoints (9) - Module Exchange Area</title><meta name="description" content="Details module-exchange assessment points, covering module construction types and the structures and interactions used in the proposed framework.">
+<meta property="og:description" content="Details module-exchange assessment points, covering module construction types and the structures and interactions used in the proposed framework."><link rel="canonical" href="/SoC-AssessPoints-9-Module-Exchange-Area/"><link rel="alternate" hreflang="en" href="https://awakenology.space/SoC-AssessPoints-9-Module-Exchange-Area/"<link rel="alternate" hreflang="x-default" href="https://awakenology.space/SoC-AssessPoints-9-Module-Exchange-Area/">><link rel="alternate" hreflang="ja" href="https://awakenology.space/%E6%84%8F%E8%AD%98%E5%BC%B7%E5%BA%A6%E6%A4%9C%E6%B8%AC%E7%82%B99%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E4%BA%A4%E6%8F%9B%E9%A0%98%E5%9F%9F/"><link rel="alternate" hreflang="zh-Hant" href="https://awakenology.space/%E6%84%8F%E8%AD%98%E5%BC%BA%E5%BA%A6%E6%AA%A2%E6%B8%AC%E9%BB%9E9%E5%8F%B3%E4%B8%8B%E5%8D%80%E6%A8%A1%E5%A1%8A%E4%BA%A4%E6%8F%9B%E5%8D%80/"><link rel="icon" href="/gallery/favicons/favicon.png"><style>:root{--bg:#fff;--text:#202020;--muted:#666;--line:#ddd;--link:#111}html[data-aw-theme="dark"]{--bg:#111;--text:#eee;--muted:#aaa;--line:#333;--link:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.7}a{color:var(--link)}.site-header{border-bottom:1px solid var(--line)}.header-inner{max-width:1000px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:20px;font-weight:600;text-decoration:none}.nav{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}.nav a{text-decoration:none}.nav a:hover{text-decoration:underline}.article{max-width:760px;margin:0 auto;padding:52px 20px 70px}.article-header{text-align:center;margin-bottom:42px}.article-header h1{margin:0 0 12px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(22px,2.5vw,25px);font-weight:600;line-height:1.15}.meta{margin:3px 0;color:var(--muted);font-size:14px}.article h2{margin:46px 0 18px;padding-bottom:8px;border-bottom:1px solid var(--line);font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:400;line-height:1.25}.article p{margin:0 0 10px;font-size:16px}.article p.aw-spacer{height:10px;margin:0;padding:0;font-size:0;line-height:0}.article strong{font-weight:650}.article u{text-underline-offset:2px}.article ol,.article ul{margin:0 0 20px;padding-left:28px}.article li{margin:0 0 10px;font-size:16px}.article img{display:block;max-width:100%;height:auto;margin:18px auto}.top{position:fixed;right:10px;bottom:10px;margin:0;z-index:1000}.top a{display:flex;width:32px;height:32px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--text);text-decoration:none;font-size:18px;line-height:1;box-shadow:0 1px 4px rgba(0,0,0,.18)}.top a:hover{background:var(--text);color:var(--bg)}.site-footer{border-top:1px solid var(--line);padding:20px;font-size:13px;text-align:center;color:var(--muted)}.site-footer .links{display:flex;justify-content:center;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:8px}.site-footer .reddit-icon{display:inline-flex;width:24px;height:24px;align-items:center;justify-content:center;text-decoration:none;overflow:hidden}.site-footer .reddit-icon img{display:block;width:24px;height:22px;object-fit:contain;transform:translateX(1px)}.site-footer .reddit-one img{transform:translateX(1px) scale(1.08)}.site-footer .reddit-two img{transform:translateX(1px) scale(1.08);filter:brightness(0) saturate(100%) invert(39%) sepia(82%) saturate(1030%) hue-rotate(178deg) brightness(92%) contrast(94%)}.site-footer .reddit-three img{transform:translateX(1px) scale(.94);filter:brightness(0) saturate(100%) invert(32%) sepia(42%) saturate(1537%) hue-rotate(238deg) brightness(91%) contrast(92%)}html[data-aw-theme="dark"] .site-footer .reddit-three img{filter:brightness(0) saturate(100%) invert(76%) sepia(33%) saturate(1140%) hue-rotate(218deg) brightness(103%) contrast(94%)}@media(max-width:600px){.header-inner{display:block;padding:14px 16px}.brand{display:block;margin-bottom:10px}.nav{gap:12px}.article{padding:34px 16px 54px}.article p{font-size:16px;line-height:1.72}.article li{font-size:16px}}.qa strong,.statement strong,.bullet strong{font-weight:700}.qa,.statement,.bullet{margin-bottom:20px!important}.qa br,.statement br,.bullet br{content:"";display:block;margin-bottom:4px}</style><style id="0bk9go">.contact-icon,.disclaimer-icon{display:inline-flex;width:24px;height:24px;align-items:center;justify-content:center;font-size:20px;line-height:1;text-decoration:none}.contact-icon:hover,.disclaimer-icon:hover{text-decoration:none}</style></head><body id="top"><header class="site-header"><div class="header-inner"><a class="brand" href="/">Awakenology</a><nav class="nav" aria-label="Language navigation"><a href="/English/">English</a><a href="/Japanese/">日本語</a><a href="/Chinese/">中文</a><a href="/ai-search/">Search / Ask</a></nav></div></header><main class="article"><article><header class="article-header"><h1><strong>SoC AssessPoints (9) Lower Right Area: Module Exchange</strong></h1><p class="meta"><strong>YWS</strong></p><p class="meta">(Third Edition, 2018-2019)</p></header><div class="article-body"><p> </p>
+<p>This article is a continuation of "SoC AssessPoints (8): Upper Right Area - Spiritual Structure".</p>
+<p> </p>
+<p>Below are the AssessPoints for "Area 9."</p>
+<p> </p></div><div class="toc" aria-label="Table of Contents"><p><em>--------Table of </em><em>Contents</em><em>--------</em></p></div><div class="article-body"><p> </p>
+<p><em>*Part 1: Module Construction</em></p>
+<p> </p>
+<p><em>First Type: Spiral Induction Module Structure</em></p>
+<p><em>1. Stability of waveform twisting probability  </em></p>
+<p><em>2. Degree of integration between layers  </em></p>
+<p><em>3. Degree of faulting in module areas  </em></p>
+<p><em>4. Synchronization of module movement  </em></p>
+<p><em>5. </em><em>Inter-connectivity</em><em> </em><em>of</em><em> module development</em></p>
+<p> </p>
+<p><em>Second Type: Linear Folding Module Structure</em></p>
+<p><em>1. Establishment of crescent-shaped induction module structure  </em></p>
+<p><em>2. Establishment of vertical connection module structure  </em></p>
+<p><em>3. Establishment of inverted conical drip module structure  </em></p>
+<p><em>4. Establishment of rolling wave module structure  </em></p>
+<p><em>5. Establishment of semi-lunar progressive module structure  </em></p>
+<p><em>6. Establishment of vertical strip wind chime S-shaped module structure  </em></p>
+<p><em>7. Establishment of triangular seri</em><em>al</em><em> module structure  </em></p>
+<p><em>8. Establishment of bottomless pyramid-shaped radiation module structure</em></p>
+<p> </p>
+<p><em>*Part 2: Interaction Between Different Modules</em></p>
+<p> </p>
+<p><em>First Type: Coral-Like Interaction Zone</em></p>
+<p><em>1. </em><em>Worm-like m</em><em>ultilayer alternating interaction type  </em></p>
+<p><em>2. Butterfly</em><em>-like</em><em> cycl</em><em>ic</em><em> interaction type  </em></p>
+<p><em>3. Bridge-</em><em>like </em><em>stepped interaction type  </em></p>
+<p><em>4. Geometric nested interaction type  </em></p>
+<p><em>5. Core-expansion interaction type</em></p>
+<p> </p>
+<p><em>Second Type: Ravine-Like Interaction Zone</em></p>
+<p><em>1. </em><em>Layered </em><em>interaction structure  </em></p>
+<p><em>2. Scattered needle interaction structure  </em></p>
+<p><em>3. </em><em>Droplet-like</em><em> fluid interaction structure  </em></p>
+<p><em>4. Two-point rotati</em><em>ng</em><em> interaction structure  </em></p>
+<p><em>5. Needle-leaf seri</em><em>al</em><em> interaction structure  </em></p>
+<p><em>6. Water curtain interaction structure  </em></p>
+<p><em>7. Flooded interaction structure  </em></p>
+<p><em>8. Flying sword interaction structure  </em></p>
+<p><em>9. Overall spiral interaction structure</em></p>
+<p> </p>
+<p><em>Third Type: Dahlia</em><em>-Like</em><em> Interaction Zone </em></p>
+<p><em>1. Curved edge </em><em>tracing </em><em>interaction structure  </em></p>
+<p><em>2. Radiating core spinning ball interaction structure  </em></p>
+<p><em>3. Radiating core spiral interaction structure</em></p>
+<p> </p>
+<p><em>Fourth Type: </em><em>Megaphone-Like</em><em> Interaction Zone</em></p>
+<p><em>1. Single-line spiral interaction structure  </em></p>
+<p><em>2. Point</em><em>-like</em><em> energy convergence and divergence interaction structure  </em></p>
+<p><em>3. Multi-line straight interaction structure  </em></p>
+<p><em>4. Central axis elliptical bubble interaction structure</em></p>
+<p> </p>
+<p><em>*Part 3: Module Foundation</em></p>
+<p> </p>
+<p><em>First Type: Construction Zone for Foundation Structure</em></p>
+<p><em>Second Type: Operation Zone for Foundation Structure</em></p>
+<p><em>1. Mesh node operation </em><em>mode</em></p>
+<p><em>2. Arc connection operation </em><em>mode</em></p>
+<p><em>Third Type: Protection Zone for Foundation Structure</em></p>
+<p><em>----------</em></p>
+<p> </p>
+<p> </p>
+<p><u><strong>*Part 1: Module Construction</strong></u></p>
+<p> </p>
+<p>The establishment of human body <strong>information modules</strong> (or <strong>consciousness modules</strong>) is controlled by a program called <strong>YCCB</strong>. </p>
+<p>This program is used to establish corresponding information module areas by layering and functional division.</p>
+<p> </p>
+<p>This process operates through the following two methods.</p>
+<p> </p>
+<p>----</p>
+<p><u><strong>First Type: Spiral Induction Module Structure</strong></u></p>
+<p> </p>
+<p>The first method involves <strong>adjusting </strong>the structure of the information module areas at the base level through spiral induction, including mechanisms such as folding, twisting, and other deformations of the information modules.</p>
+<p> </p>
+<p>There are 5 adjustment methods:</p>
+<p> </p>
+<p><strong>1. Stability of Waveform Twisting Probability</strong></p>
+<p>   This refers to the probability of waveform structures twisting as they pass through the information module areas. </p>
+<p>Normal twisting allows the body to better adapt to various situations.</p>
+<p>   Normal waveform twisting can manifest as different responses in the individual. The assessment value indicates the stability of normal twisting; the higher the value, the more stable it is.</p>
+<p> </p>
+<p>*Quantitative Data (Stability of Normal Twisting):</p>
+<p>   Average for humans: 60-70%.</p>
+<p> </p>
+<p><strong>2. Degree of Integration Between Layers</strong></p>
+<p>   This refers to the phenomenon where similar parts of information modules from different areas integrate. </p>
+<p>This part plays a crucial role in the coordination of various functions in the individual. </p>
+<p>(The functions mainly affected can be further subdivided.) </p>
+<p>The assessment value indicates the stability of normal integration.</p>
+<p> </p>
+<p>*Quantitative Data (Stability of Normal Integration):</p>
+<p>   Average for humans: 50-60%.</p>
+<p> </p>
+<p><strong>3. Degree of Faulting in Module Areas</strong></p>
+<p>   Information modules naturally experience wear and tear, and the system will timely repair and update the damaged information modules. </p>
+<p>If there is interference, the damaged parts may get stuck, leading to the inability to filter them out, which prevents updating and gradually results in faults.  </p>
+<p>   The interference mainly causes abnormal exfoliation of the damaged parts, which receive reverse signals, producing an antagonistic effect. </p>
+<p>To restore the mechanism to normal, the reverse signals must be blocked. </p>
+<p>These reverse signals primarily come from interference infiltration techniques.  </p>
+<p>   An increase in faults affects the transmission of consciousness signals, weakening the influence of the individual’s freewill and making them more susceptible to manipulation. </p>
+<p> </p>
+<p>The assessment value indicates the degree of faulting.</p>
+<p> </p>
+<p>*Quantitative Data (Degree of Faulting):</p>
+<p>   Average for humans: 40-50%.</p>
+<p> </p>
+<p><strong>4. Synchronization of Module Movement</strong></p>
+<p>   Information modules move in an organized manner according to specific rules, with overall operations generally achieving synchronized order. </p>
+<p>Unsynchronized information module areas are prone to linked damage, leading to the emergence of new damaging factors. </p>
+<p>Therefore, the repair of information modules is a crucial part and an important reference for individual development.  </p>
+<p>   A higher value indicates that the individual develops more stably and orderly.</p>
+<p> </p>
+<p>*Quantitative Data (Synchronization):</p>
+<p>   Average for humans: 30-40%.</p>
+<p> </p>
+<p><strong>5. </strong><strong>Inter-connectivity</strong><strong> </strong><strong>of</strong><strong> Module Development</strong></p>
+<p>   Information modules develop themselves as they move. </p>
+<p>During development, the original force of the information modules may trigger a weakening effect, causing the modules to automatically drop in level, and the module fluctuations may lead to functional abnormalities. </p>
+<p>Inter-connectivity is reflected in the cooperation between modules.  </p>
+<p>   The module cooperation mechanism is based on internationally accepted rules established by the <strong>Human Body Rules Committee</strong>, which has issued 18 rules and regulations forming the basic laws of human operation.</p>
+<p> </p>
+<p>*Quantitative Data (Connectivity):</p>
+<p>   Average for humans: 50-60%.</p>
+<p> </p>
+<p>----</p>
+<p><u><strong>Second Type: Linear Folding Module Structure</strong></u></p>
+<p> </p>
+<p>The second method involves establishing information module structures through linear folding.</p>
+<p> </p>
+<p>There are 8 ways to establish this structure.</p>
+<p> </p>
+<p><strong>1. Establishment of Crescent-Shaped Induction Module Structure</strong></p>
+<p>   - <strong>Structure</strong>: Crescent-shaped, spiraling upward along a butterfly-shaped curve, ending with five ports that connect to a rectangular magnetic structure. It transmits to the next module structure through upper-level structural connections.  </p>
+<p>   - <strong>Function</strong>: Operates in the peripheral nervous system, capturing free information particles and providing energy for establishing new induction patterns.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p> </p>
+<p><strong>2. Establishment of Vertical Connection Module Structure</strong></p>
+<p>   - <strong>Structure</strong>: Vertical, discrete structure.</p>
+<p>   - <strong>Function</strong>: To disperse information particles outward. By adjusting the torque, the extent and angle of dispersion can be controlled.</p>
+<p> </p>
+<p>From a higher perspective: Through this method of dispersion, it is possible to connect information modules with a wide range and high inclusivity. In some respects, this approach allows for a variety of functions. </p>
+<p>Developing and utilizing these structures can enable purposeful gameplay operations.</p>
+<p>(Currently, there is limited research in this area, but future research is expected to increase.)</p>
+<p> </p>
+<p>*Quantitative Data: </p>
+<p>Human average:  60-70%.</p>
+<p> </p>
+<p><strong>3. Establishment of Inverted Conical Drip Module Structure</strong></p>
+<p>   - <strong>Structure</strong>: Inverted conical, drip-like structure.  </p>
+<p>   - <strong>Function</strong>: Consists of 3 layers of penetration structures:</p>
+<p>      - First Layer: Filters out larger impurity particles or clusters.</p>
+<p>      - Second Layer: Breaks down and recombines filtered impurity particles.</p>
+<p>      - Third Layer: Converts them into new particles that the individual can absorb.  </p>
+<p> </p>
+<p>   The overall structure functions similarly to recycling and converting impurity particles, maintaining the individual's cyclical operations.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 40-60%.</p>
+<p> </p>
+<p><strong>4. Establishment of Rolling Wave Module Structure</strong></p>
+<p>   - <strong>Structure</strong>: Several different rolling wave forms adjust according to different response modes, presenting a chain-like overall appearance.  </p>
+<p>   - <strong>Function</strong>: There are three types of response modes:</p>
+<p>      - First type: Inherited Evolutionary Mode: Spiral rolling that absorbs and ferments external trigger information particles.</p>
+<p>      - Second type: Antagonistic Rejection Mode: Closed rolling that collides with other information particles, providing stability and protection, a core function for the body.</p>
+<p>      - Third type: Mutual Assistance Exchange Mode: Tentacle-rotating rolling that exchanges information with external sources and other body parts.  </p>
+<p> </p>
+<p>   These three forms work together to create a complete operating mechanism, related to the harmonious natural development of the human body.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 40-50%.</p>
+<p> </p>
+<p><strong>5. Establishment of Semi-Lunar Progressive Module Structure</strong></p>
+<p>   - <strong>Structure</strong>: Semi-lunar with progressive layers.</p>
+<p>   - <strong>Function</strong>: A five-layer progressive structure that serves as the base for small units like neurons. It manufactures, reconfigures, and distributes a wide variety of small units to different locations.</p>
+<p>     - First Layer: Manufactures various small units as needed.</p>
+<p>     - Second Layer: Categorizes and stores them by function.</p>
+<p>     - Third Layer: Allocates and assembles them as required.</p>
+<p>     - Fourth Layer: Distributes them externally as needed.</p>
+<p>     - Fifth Layer: Recycles and adjusts for reuse.  </p>
+<p> </p>
+<p>   The module has a dual-layered base that ensures the smooth operation of the entire process, filled with a flowing primordial dense substance, a vital foundational element of life and the source of bodily dynamism.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 70%.</p>
+<p> </p>
+<p><strong>6. Establishment of Vertical Strip Wind Chime S-Shaped Module Structure</strong></p>
+<p>   - <strong>Structure</strong>: Vertical strip, wind chime, arranged in rows, S-shaped.  </p>
+<p>   - <strong>Function</strong>: The vertical strip wind chimes act as information triggers, capturing and processing information with point-like focus. </p>
+<p> </p>
+<p>When primordial information particles pass through the module as independent particles, the triggers automatically capture them. They are analyzed, categorized by function, reconfigured, and transmitted as a spiral wave. </p>
+<p>However, this process distorts the original information to some extent, so a restoration system at the module's end restores the waveform information to the original particle state.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 40-50%.</p>
+<p> </p>
+<p><strong>7. Establishment of Triangular Seri</strong><strong>al</strong><strong> Module Structure</strong></p>
+<p>   - <strong>Structure</strong>: Consists of many equally sized flat triangles, overlapping vertically with a 1:5 ratio between the gap distance and triangle edge length.</p>
+<p>   - <strong>Function</strong>: Triangles act as information triggers, capturing and processing information with linear focus. </p>
+<p>As information particles pass through the module, the entire module filters them through peristalsis, separating impurities and redistributing the information particles into a relatively stable and orderly state. </p>
+<p>This process causes some distortion and deformation of the original information, so a restoration system at the module's end restores the waveform information to the original particle state.</p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60%.</p>
+<p> </p>
+<p><strong>8. Establishment of Bottomless Pyramid-Shaped Radiation Module Structure </strong></p>
+<p>   - <strong>Structure</strong>: Pyramid with radiation inside, aligned along triangles, with a bottom that is either pentagonal or hexagonal instead of triangular.  </p>
+<p>   - <strong>Function</strong>: Information particles enter from the pyramid's tip and extend downward. The internal arrangement of the particles is elongated and magnified. </p>
+<p> </p>
+<p>This process also includes information decryption and modification. Through collective consciousness, individuals can integrate, collect, magnify, decrypt, and modify information, promoting mutual enhancement between the individual and the collective. </p>
+<p>This function involves information dissection, analyzing and processing the internal structure of the information.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p>----</p>
+<p> </p>
+<p><u><strong>*Part 2: Interaction Between Different Modules</strong></u></p>
+<p> </p>
+<p>This section describes four types of interaction zones.</p>
+<p> </p>
+<p>----</p>
+<p><u><strong>First Type: </strong><strong>Coral-Like Interaction Zone</strong></u></p>
+<p> </p>
+<p>   This zone features several neural node channels that connect various information modules.</p>
+<p> </p>
+<p>It involves 5 types of interactions.</p>
+<p> </p>
+<p><strong>1. Worm-Like Multilayer Alternating Interaction Type</strong></p>
+<p>    This is the most widespread interaction method, characterized by large-scale, frequent data exchanges. </p>
+<p>It is the most common and extensive form, with a powerful data processing capacity that ensures most of the body's functions operate normally.  </p>
+<p>The value at this point represents the smoothness of this interaction mode.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p> </p>
+<p><strong>2. Butterfly-Like Cyclic Interaction Type</strong></p>
+<p>   This interaction mode generates two simultaneous particle waves from one end module, engaging in alternating cyclic interaction. </p>
+<p>As these waves move, they undergo various alternating combinatorial transformations, representing a high-level interaction function. </p>
+<p>This interaction also plays a balancing role, facilitating the establishment of underlying interaction mechanisms. </p>
+<p>Between different modules, this mode enables cross-level processing of data, laying the foundation for accumulating new data and higher-level interactions. </p>
+<p>This mode includes a B-level anti-interference mechanism, ensuring smooth cross-level data conversion.  </p>
+<p>      This data is generally stable.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: around 80%.</p>
+<p> </p>
+<p><strong>3. Bridge-Like </strong><strong>Stepped </strong><strong>Interaction Type</strong></p>
+<p>      This interaction mode plays a broad and positive role in adjusting minor imbalances in data between modules. </p>
+<p>This positivity is reflected in a certain error tolerance rate, higher integration of data between modules, and lower rejection responses, helping to improve overall efficiency. </p>
+<p>Studying this structure's fine-tuning mechanism could simulate this mechanism to create devices that adjust larger imbalances and develop more intelligent adjustment programs. </p>
+<p>This structure has strong elasticity, offering great potential for postnatal adjustment and evolution.  </p>
+<p>      Specific quantitative values include stability and adjustment rates, currently measured as an overall value.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p> </p>
+<p><strong>4. Geometric Nested Interaction Type</strong></p>
+<p>      This interaction method is commonly used for transmitting encrypted data. During the interaction, it simultaneously decodes and re-encrypts the data to ensure secure and stable transmission.</p>
+<p>Encrypted data is inherently unstable and prone to change, requiring encryption to maintain stability. </p>
+<p>This interaction method uses a multi-layer nested structure to achieve instant decryption, facilitating interaction. At the same time, it re-encrypts the data to complete the return transmission.</p>
+<p>The research on this interaction method has practical value for secure data transmission.  </p>
+<p>The T-Group mainly focuses on cracking and monitoring this process, though cracking is extremely difficult due to the ever-changing and irregular encryption methods. </p>
+<p>The T-group's research primarily monitors the instant decryption process, attempting to create a gap between decryption and re-encryption to extract information.  </p>
+<p>Observations suggest that these two behaviors seem to be the same, where the decryption process is equivalent to the re-encryption process, making it difficult to identify gaps. </p>
+<p>However, the frequency type of the information can be determined by the shape changes and flow speed during the transmission process. </p>
+<p>This principle could be explored further to establish communication spaces between individuals.  </p>
+<p>      The assessed value at this point represents the usage rate of this interaction method. Humans generally have greater potential for utilizing this method.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 40-60%.</p>
+<p> </p>
+<p><strong>5. Core Expansion Interaction Type</strong></p>
+<p>      This type is mainly used for data transmission in low-end auxiliary components. </p>
+<p>It can handle a large amount of auxiliary structure data transmission and serves as a basic safeguard transmission method. </p>
+<p>During the transmission process, some granular impurities may mix in, which burdens subsequent parts and affects the overall flow efficiency of the body.  </p>
+<p>      Impurities can be categorized as:</p>
+<p>      1) Self-generated impurities.</p>
+<p>      2) External impurities delivered from outside.  </p>
+<p>      The T-Group uses the latter to achieve interference and impact, which is a common method that effectively reduces the body's operational efficiency. </p>
+<p>Due to the structure's low precision, it is challenging to prevent impurity mixing during transmission. </p>
+<p>Generally, impurities need to be removed after the information reaches the module's interior.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 50-60%, with external impurity rates around 40%.</p>
+<p> </p>
+<p>----</p>
+<p><u><strong>Second Type: Ravine-Like Interaction Zone</strong></u></p>
+<p> </p>
+<p>This zone features a complex interaction and communication mechanism with many intersecting and influencing parts. </p>
+<p>It has a main trunk support and resembles a tree-like structure. </p>
+<p>The advantage of this structure lies in its close interaction and stable nature, making it difficult to be influenced. </p>
+<p>Multiple branches extend from this zone, connecting to other modules. </p>
+<p>It possesses an intelligent function, capable of emitting signals. </p>
+<p>The depth and breadth of signal transmission depend on the frequency of the signal.</p>
+<p>By capturing these frequencies, it is possible to detect the affected parts of the body.</p>
+<p> </p>
+<p>This zone has 8 interaction structures.</p>
+<p> </p>
+<p><strong>1. Layered Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Layered.  </p>
+<p>   - <strong>Function</strong>: During interaction, it can disperse actions. This method is highly adaptable and flexible, capable of producing guiding effects through disintegration between different areas.  </p>
+<p> </p>
+<p>   This disintegration can occur in multiple areas, where different nested structures fix it at a specific frequency and orbit. Through a progressive conduction mechanism and heat generation, a gasification reaction occurs, supplementing current research.  </p>
+<p>   The supplemental role mainly involves twisting and rotating behaviors, optimizing the process to a higher level.  </p>
+<p>   The value at this point indicates the percentage of the structure's effectiveness, representing its development potential. </p>
+<p>Reaching 80-90% is considered a good level.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p> </p>
+<p><strong>2. Scattered Needle Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Scattered, needle-like.  </p>
+<p>   - <strong>Function</strong>: Many information modules rely on services provided by this structure, which is widely present in this zone.  </p>
+<p> </p>
+<p>   This structure can be a focus for development and utilization, with a large portion serving as backup power storage and preparation.  </p>
+<p>   The value includes the degree of development and backup power readiness.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average development level: 30-40%, backup level: 10-20%.</p>
+<p> </p>
+<p><strong>3. Droplet-Like Fluid Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Droplet-like, fluid.  </p>
+<p>   - <strong>Function</strong>: Characterized by strong adaptability.  </p>
+<p> </p>
+<p>   From a research perspective, it is not particularly significant and does not play a prominent role but is still indispensable. </p>
+<p>It can assist the smooth operation of other structures. Although numerous, its function is relatively simple.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 70-80%.</p>
+<p> </p>
+<p><strong>4. Two-Point Rotating Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Two-point, rotating interaction.  </p>
+<p>   - <strong>Function</strong>: Limited in number, it serves special functions in 4 situations:</p>
+<p>     1). Isolating certain entangled information.</p>
+<p>     2). Acting as a buffer in butterfly-enclosed structures.</p>
+<p>     3). Serving as an intermediary for attraction and separation between two structures.</p>
+<p>     4). Rotating together to accelerate the operation of other structures.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p> </p>
+<p><strong>5. Needle Leaf Serial Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Needle leaf, serial interaction.  </p>
+<p>      There are three operational forms:</p>
+<p>         1). Needle leaves sway in a certain pattern.</p>
+<p>         2). The entire series performs an overall spin.</p>
+<p>         3). The series can contract into a ball shape.  </p>
+<p>   - <strong>Function</strong>: Mainly serves a cruising function within this zone, with needle leaves swaying at different frequencies to absorb various types of micro-information particles, achieving transport and regulation.  </p>
+<p> </p>
+<p>Researching the relationship between swaying frequency and absorption units can have wide applications, benefiting information reception, transformation, and creation. </p>
+<p>(This is also one of the key factors for turning passive into active in the face of the T-Group.)  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 40-60%.</p>
+<p> </p>
+<p><strong>6. Water Curtain Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Evenly distributed along the inner wall of the ravine zone, but an independent interaction structure.  </p>
+<p>   - <strong>Function</strong>: Can sense different signals emitted by other interaction structures.  </p>
+<p> </p>
+<p>   The water curtain has 6-7 layers, capable of connecting different dimensions. It collects and senses information passing through, enabling transmission and interaction between different dimensions.  </p>
+<p>   This structure can penetrate the inner wall of the ravine, connecting to other dimensions in different directions and facilitating information exchange and interaction.  </p>
+<p>   This structure can extend in various ways as the ravine grows.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 50-60%.</p>
+<p> </p>
+<p><strong>7. Flooded Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Information sources enter the ravine structure like a liquid, extending along the ravine's shape and forming a water depth, resembling a closed reservoir.  </p>
+<p>   - <strong>Function</strong>: When a large amount of information enters in a short time, causing the water level to rise and pressure on the ravine structure (like a dam during flood season), the original ravine structure may fail to process the incoming water, automatically expanding laterally.  </p>
+<p> </p>
+<p>   This is similar to when an individual reaches a deep frequency in a unified state, processing a large amount of information in a short time, causing discomfort or nausea due to the pressure.  </p>
+<p> </p>
+<p>   To ensure normal operation, the ravine structure will change based on the water pressure:</p>
+<p>     - The depth of the ravine remains unchanged, but the lateral area expands accordingly, allowing timely drainage, lowering the water level, reducing pressure on the ravine, and restoring normal operation.</p>
+<p> </p>
+<p>   This structure differs from the previous one in its expansion capability.  </p>
+<p>   It can sense signals from other interaction structures and connect to different dimensions.  </p>
+<p>   When there is a short-term surge in information, it can extend and expand the multidimensional connectivity of the information, while also performing pressure tests.  </p>
+<p> </p>
+<p>   This function can be combined with multiple individuals' resources:</p>
+<p>     - If one individual's resource processing capacity is insufficient, the ravine structures of other individuals can be combined to form a shared whole, increasing the shared processing capacity of the information source, similar to memory sharing in computer systems.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 40%.</p>
+<p> </p>
+<p><strong>8. Flying Sword Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Also known as a waterfall-like interaction structure.  </p>
+<p>   - <strong>Function</strong>: Forms an impactful head structure from the information source to strike the ravine structure, speeding up information interaction and causing changes in the ravine structure. This impact increases the depth and breadth of the ravine structure's connections.  </p>
+<p> </p>
+<p>   However, the acceleration of information interaction also increases the difficulty of information control. Improper handling can result in information loss and distortion, making this a structure with both advantages and disadvantages.  </p>
+<p>   Therefore, the final interaction quality depends on the precision and balance of impact control.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 20-30%.</p>
+<p> </p>
+<p><strong>9. Overall Spiral Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Similar to the needle leaf serial interaction structure, with the common function of cruising, but different in the shape of overall movement.  </p>
+<p>      - Difference: When the stream of consciousness enters this interaction structure, it assumes a spiral shape (unnatural), resembling an elongated version of Italian fusilli pasta in appearance.</p>
+<p>   - <strong>Function</strong>: Facilitates transportation and regulation, accelerating the absorption of information flow and assisting in directing the stream of consciousness. It quickly and efficiently classifies and directs different information sources to designated areas, enabling faster and more rational connections.  </p>
+<p> </p>
+<p>   It has a wide range of applications and plays a significant role in information reception and transformation, similar to the needle leaf interaction structure, with considerable potential for related research.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 50-60%.</p>
+<p>----</p>
+<p><u><strong>Third Type: Dahlia</strong><strong>-Like</strong><strong> Interaction Zone</strong></u></p>
+<p> </p>
+<p> </p>
+<p>This zone contains 3 interaction structures.</p>
+<p> </p>
+<p><strong>1. Curved Edge Tracing Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Curved lines, moving along the edges like tracing a line.  </p>
+<p>   - <strong>Function</strong>: Initially scans the outer contours of information to obtain a preliminary overall status. It then spirals inward from the outer edges towards the center, achieving scanning, analysis, classification, and expansion.  </p>
+<p> </p>
+<p>   The interaction sequence moves from the outside to the inside, focusing on macro-level interaction. It is somewhat similar to how a spider weaves a web.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 70-80%.</p>
+<p> </p>
+<p><strong>2. Radiating </strong><strong>Core Spinning Ball</strong><strong> Interaction Structure  </strong></p>
+<p>   - <strong>Structure</strong>: Spherical, radiating from the core of the flower while spinning.  </p>
+<p>   - <strong>Function</strong>: Starts from the information center, connecting the core part of the information with the overall outer part, and then, through interaction and system operation, achieves scanning, analysis, classification, and expansion.  </p>
+<p> </p>
+<p>   The interaction sequence moves from the inside to the outside, involving both macro and micro-level interactions. It also resembles a plasma globe.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p> </p>
+<p><strong>3. Radiating </strong><strong>Core </strong><strong>Spiral Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Radiating lines from the flower’s core, rotating in a spiral motion.  </p>
+<p>   - <strong>Function</strong>: Begins at the information center and extends information interactions from a finer perspective.  </p>
+<p> </p>
+<p>   Compared to the previous two interactions, this one is more delicate and deeper, focusing primarily on micro-level interactions.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p>----</p>
+<p> </p>
+<p><u><strong>Fourth Type: Megaphone</strong><strong>-Like</strong><strong> Interaction Zone</strong></u></p>
+<p> </p>
+<p>This zone contains 4 interaction structures.</p>
+<p> </p>
+<p><strong>1. Single-Line Spiral Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: A single line, spiraling along the megaphone-shaped tube.  </p>
+<p>   - <strong>Function</strong>: Amplifies the information flow.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p> </p>
+<p><strong>2. Point-like Energy Convergence and Divergence Interactive Structure  </strong></p>
+<p>   - <strong>Structure</strong>: Point-like energy, repetitive dispersion and convergence motion.  </p>
+<p>   - <strong>Function</strong>: The primary function is to detect the density of information flow through dispersion and convergence, and to classify it accordingly.</p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 50-60%.</p>
+<p> </p>
+<p><strong>3. Multi-Line Straight Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: Multiple lines moving straight along the megaphone-shaped tube.  </p>
+<p>   - <strong>Function</strong>: Extends the information in a semi-blind manner, colliding with other information sources and detecting the reflected signals obtained during the process.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 40-50%.</p>
+<p> </p>
+<p><strong>4. Central Axis Elliptical Bubble Interaction Structure</strong></p>
+<p>   - <strong>Structure</strong>: An elliptical bubble along the central axis that can deform, sometimes oval or circular, or elongated, resembling a rugby ball at times.  </p>
+<p>   - <strong>Function</strong>: Enters the interior of information particle bubbles and interacts along the central axis, detecting the connection values within the information.  </p>
+<p>   Overall, it scans all the connections and data within the information source.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60%.</p>
+<p> </p>
+<p>----</p>
+<p> </p>
+<p><u><strong>*Part 3: Module Foundation</strong></u></p>
+<p> </p>
+<p>This foundational structure consists of 3 areas.</p>
+<p> </p>
+<p>---</p>
+<p><u><strong>First Area: </strong><strong>Construction Zone for </strong><strong>Foundation </strong><strong>Structure</strong></u></p>
+<p> </p>
+<p>- <strong>Structure</strong>: Built naturally along the edges of other structures, without a fixed shape.  </p>
+<p>- <strong>Function</strong>: Allows for rapid construction, providing a comprehensive understanding of the overall layout and content of the information.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 50-60%.</p>
+<p> </p>
+<p>---</p>
+<p><u><strong>Second Area: Operation Zone</strong><strong> for Foundation Structure</strong></u></p>
+<p> </p>
+<p>This zone has 2 modes of operation.</p>
+<p> </p>
+<p><strong>1. </strong><strong>Mesh </strong><strong>Node Operation Mode</strong></p>
+<p>   - <strong>Structure</strong>: Mesh network, connecting various nodes. The mesh itself serves as the operational channel and method.</p>
+<p>   - <strong>Function</strong>: Facilitates rapid construction, offering an overall understanding of the layout and content of the information.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60-70%.</p>
+<p> </p>
+<p><strong>2. Arc Connection Operation Mode</strong></p>
+<p>   - <strong>Structure</strong>: An operation mode that connects nodes with arc-shaped lines.  </p>
+<p>   - <strong>Function</strong>: Establishes point-to-point connections where the arcs bypass certain areas to make non-logical connections, allowing for in-depth analysis of information.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 60%.</p>
+<p> </p>
+<p>---</p>
+<p><u><strong>Third Area: Protection Zone</strong><strong> for Foundation Structure</strong></u></p>
+<p> </p>
+<p>- <strong>Structure</strong>: Nodes extend vertically and connect to form a protective net. Each node is like a small suction cup, linking together.  </p>
+<p>- <strong>Function</strong>: Categorizes and protects the storage of information, preventing interference between internal and external information.  </p>
+<p> </p>
+<p>*Quantitative Data:</p>
+<p>Human average: 70%.</p>
+<p> </p>
+<p>---</p>
+<p>- End of 9<sup>th</sup> Area SoC AssessPoints.</p>
+<p> </p>
+<p> </p>
+<p><strong>[Postscript]</strong></p>
+<p> </p>
+<p>The above 200+ SoC AssessPoints from Areas 1-9 are broadly categorized as major AssessPoints. </p>
+<p><strong>An individual's SoC-L</strong><strong>evel is the </strong><strong>C</strong><strong>ombined </strong><strong>Score </strong><strong>of all</strong><strong> the</strong><strong> </strong><strong>AssessPoints</strong><strong>.</strong></p>
+<p> </p>
+<p>These AssessPoints are designed to more specifically assess the depth of an individual's core unity and perception of illusions. </p>
+<p>Therefore, <strong>SoC AssessPoints</strong><strong> can also serve as "</strong><strong>SoC</strong><strong> Practice Points" or "</strong><strong>SoC Development</strong><strong> Points"</strong><strong>.</strong></p>
+<p> </p>
+<p>The deeper the understanding of the specific content of SoC, the more it helps expand SoC. The effectiveness of practicing these specific contents mainly relies on daily integration - 24/7/365.</p>
+<p> </p>
+<p>If the practice and effectiveness of these 200+ specific contents are sufficient, SoC can expand beyond Level 30, achieving true awakening = liberation from the cycle of hypnotic reincarnation.</p>
+<p> </p>
+<p>(There are tens of thousands of minor AssessPoints, but they are currently unnecessary for awakening and escaping the cycle of hypnotic reincarnation. They are more suitable for research purposes.)</p>
+<p> </p>
+<p>---</p>
+<p> </p>
+<p>- End of SoC AssessPoints 1-9.</p>
+<p> </p>
+<p>YWS</p>
+<p>©Copyright reserved.</p></div></article></main><footer class="site-footer"><div class="links"><a href="mailto:contact@awakenology.org">Contact</a><a class="reddit-icon reddit-one" href="https://www.reddit.com/r/EscapeReincarnation/" aria-label="Reddit: Escape Reincarnation"><img src="/assets/reddit-one.svg" alt=""></a><a class="reddit-icon reddit-two" href="https://www.reddit.com/r/EscapePrisonPlanet/" aria-label="Reddit: Escape Prison Planet"><img src="/assets/reddit-two.svg" alt=""></a><a class="reddit-icon reddit-three" href="https://www.reddit.com/user/Lower-Lingonberry-40/" aria-label="Reddit: Lower-Lingonberry-40"><img src="/assets/reddit-three.svg" alt=""></a><a href="/Disclaimer/">Disclaimer</a></div><div>© 2017 Awakenology</div></footer></body></html>

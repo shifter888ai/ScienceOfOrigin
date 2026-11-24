@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Awakenology — Private Visual Editor</title>
+<meta name="description" content="Private visual editor for reviewing Awakenology article HTML changes.">
+<meta name="robots" content="noindex, nofollow">
+<style>
+:root{font:15px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color-scheme:dark;background:#111;color:#f2f2f2;--panel:#191919;--line:#3c3c3c;--muted:#b5b5b5;--accent:#ededed}
+[hidden]{display:none!important}*{box-sizing:border-box}body{margin:0}header{padding:16px max(16px,calc((100vw - 1100px)/2));border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:center;flex-wrap:wrap;background:#151515}h1{font-size:18px;margin:0 auto 0 0;font-weight:650}header a,.navlink{color:inherit;border:1px solid #555;border-radius:7px;padding:8px 11px;text-decoration:none}header a[aria-current=page]{background:#eee;color:#111;border-color:#eee}main{max-width:1100px;margin:22px auto;padding:0 16px}nav{max-width:1100px;margin:0 auto;padding:12px 16px;display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line)}button,.file{border:1px solid #666;background:#292929;color:inherit;border-radius:7px;padding:9px 12px;cursor:pointer;font:inherit}button:hover:not(:disabled),header a:hover{border-color:#aaa}button:disabled{opacity:.38;cursor:not-allowed}input,select{font:inherit;color:inherit;background:#222;border:1px solid #555;border-radius:7px;padding:8px}input[type=file]{max-width:100%;padding:6px}label{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;color:#ddd;font-size:13px}header label{display:flex;align-items:center}header input[type=text]{width:min(340px,70vw)}#status{font-size:13px;color:#ddd;background:#202020;border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:14px auto;max-width:1100px}#status:empty{display:none}section.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;margin:14px 0}h2{font-size:17px;margin:0 0 8px}h3{font-size:14px;margin:14px 0 6px}p{margin:8px 0}small,.hint{color:var(--muted)}iframe{display:block;width:100%;min-height:70vh;border:1px solid #555;background:white;border-radius:8px}.diff{white-space:pre-wrap;overflow-wrap:anywhere;background:#101010;border:1px solid #444;border-radius:7px;padding:10px;max-height:45vh;overflow:auto;font:12px/1.5 ui-monospace,monospace}.diff .add{color:#9ee6a0}.diff .remove{color:#ffaaaa}.diff .same{color:#aaa}input[type=color]{height:34px;width:44px;padding:2px}#createPR{background:#eee;color:#111;border-color:#eee;font-weight:650}#githubPublish{background:#202020}@media(max-width:700px){header{padding:12px}header h1{width:100%;margin:0}header label{width:100%;align-items:flex-start}header input[type=text]{width:100%}main{padding:0 12px}nav{padding:10px 12px}}
+</style></head><body>
+<header><h1>Awakenology · Private Visual Editor</h1><a href="/editor/generator.html">Word Generator</a><a href="/editor/html-generator.html">HTML Generator</a><label>Page title <input id="pageTitle" type="text" placeholder="Optional visible page title" style="width:min(260px,70vw);padding:7px;background:#222;color:#eee;border:1px solid #666;border-radius:5px"></label><label>GitHub article path <input id="githubPath" type="text" placeholder="e.g. 與退化派對話8/index.html" style="width:min(340px,80vw);padding:7px;background:#222;color:#eee;border:1px solid #666;border-radius:5px"></label><button id="loadGitHub">Load from GitHub</button><label>Or load local HTML <input id="file" type="file" accept=".html,.htm,text/html"></label><button id="review" disabled>Review full-page HTML</button><button id="save" disabled>Download reviewed HTML</button></header>
+<nav aria-label="Formatting"><button data-cmd="bold" disabled><b>Bold</b></button><button data-cmd="underline" disabled><u>Underline</u></button><label>Font size <select id="fontSize" disabled><option value="">Default</option><option>10</option><option>12</option><option>14</option><option>16</option><option>18</option><option>20</option><option>24</option><option>28</option><option>32</option><option>36</option></select> pt</label><button id="applyFontSize" disabled>Apply size</button><button data-cmd="justifyLeft" aria-label="Align selected paragraph left" disabled>Left</button><button data-cmd="justifyCenter" aria-label="Align selected paragraph center" disabled>Center</button><button data-cmd="justifyRight" aria-label="Align selected paragraph right" disabled>Right</button><button data-cmd="undo" disabled>Undo</button><button data-cmd="redo" disabled>Redo</button><label>Text color <input id="color" type="color" value="#0000ff" disabled></label><button id="spacer" disabled>Insert blank line</button></nav>
+<div id="imageActions" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;max-width:1100px;margin:10px auto;padding:0 16px"><strong style="font-size:13px">Images</strong><button id="imageAdd" disabled type="button">Add image</button><label>Upload image <input id="imageUpload" type="file" accept="image/png,image/jpeg,image/gif,image/webp" disabled></label><button id="imageReplace" disabled type="button">Replace selected</button><button id="imageDelete" disabled type="button">Delete selected</button><small>Upload PNG, JPEG, GIF or WebP, or enter an existing repository image path.</small></div><div id="imageTools" hidden style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;max-width:1100px;margin:10px auto;padding:0 16px"><strong style="font-size:13px">Selected image</strong><label>Width <select id="imageWidth"><option value="">Original</option><option value="25%">25%</option><option value="50%">50%</option><option value="75%">75%</option><option value="100%">100%</option><option value="custom">Custom (px)</option></select></label><input id="imageCustom" type="number" min="1" max="4000" placeholder="Width px" hidden style="width:110px" aria-label="Custom image width in pixels"><label>Align <select id="imageAlign"><option value="left">Left</option><option value="center">Center</option><option value="right">Right</option></select></label><button id="imageReset" type="button">Reset</button><small>Aspect ratio preserved; original file unchanged.</small></div><div id="status" role="status">Enter a path in the public Awakenology GitHub repository or choose a local HTML file. GitHub loading is read-only; edits are not saved to GitHub.</div><section id="reviewPanel" class="panel" hidden style="max-width:1068px;margin:14px auto"><h2 style="font-size:16px">Review before download</h2><p id="reviewSummary"></p><h3 style="font-size:14px">Article text changes</h3><p><small>Lines prefixed with − were removed; lines prefixed with + were added. This compares exact article text, including whitespace. Formatting-only changes are flagged separately.</small></p><pre id="changeDiff" class="diff" aria-label="Article text difference"></pre><p><strong>Safety note:</strong> Export is blocked if surrounding page elements change in the DOM comparison. Browser serialization may still normalize original source markup; inspect the downloaded copy before committing it.</p><iframe id="fullPreview" title="Reconstructed full-page preview" style="width:100%;min-height:50vh;background:white"></iframe><section id="githubPublish" class="panel">
+<h3 style="font-size:14px;margin-top:0">Create a GitHub pull request</h3>
+<p><small>Available only after signing in with the authorized GitHub account. This creates a new branch and a <strong>draft PR</strong>; it does not change main or deploy the site. GitHub credentials remain server-side in the Cloudflare Worker.</small></p>
+<button id="createPR" disabled>Create draft PR from reviewed HTML</button>
+<p id="publishStatus" role="status" aria-live="polite"></p>
+</section>
+<button id="cancelReview">Cancel review</button></section>
+<main><iframe id="preview" title="Article editing preview" sandbox="allow-same-origin"></iframe></main>
+<script src="/editor/shared-editing-core.js"></script>
+<script>
+(()=>{'use strict';
+const $=s=>document.querySelector(s);
+
+let selectedImage=null;
+const SELECTED_IMAGE_CLASS='__editor-selected-image';
+const imageTools=$('#imageTools'),imageWidth=$('#imageWidth'),imageCustom=$('#imageCustom'),imageAlign=$('#imageAlign');
+function ensureImageSelectionStyle(){const d=doc();if(!d?.head||d.querySelector('#__editorImageSelectionStyle'))return;const style=d.createElement('style');style.id='__editorImageSelectionStyle';style.textContent='.article img.__editor-selected-image{outline:3px solid #ffbf00!important;outline-offset:3px!important;box-shadow:0 0 0 1px rgba(0,0,0,.85)!important;cursor:pointer!important;}';d.head.append(style);}
+function selectImage(img){if(selectedImage)selectedImage.classList.remove(SELECTED_IMAGE_CLASS);selectedImage=img;if(img){ensureImageSelectionStyle();img.classList.add(SELECTED_IMAGE_CLASS);}imageTools.hidden=!img;imageSelectionControls();if(!img)return;const w=img.style.width;imageWidth.value=['25%','50%','75%','100%'].includes(w)?w:w?'custom':'';imageCustom.hidden=imageWidth.value!=='custom';imageCustom.value=w.endsWith('px')?parseInt(w,10):'';imageAlign.value=img.style.marginLeft==='auto'&&img.style.marginRight==='auto'?'center':img.style.marginLeft==='auto'?'right':'left';}
+const imageAdd=$('#imageAdd'),imageUpload=$('#imageUpload'),imageReplace=$('#imageReplace'),imageDelete=$('#imageDelete');
+function imageSelectionControls(){imageReplace.disabled=imageDelete.disabled=!selectedImage;}
+function repositoryImagePath(value){const path=value.trim();if(!path||!/^\/(?!\/)[^?#]+\.(?:png|jpe?g|gif|webp)$/i.test(path)||path.split('/').some(part=>part==='.'||part==='..'))throw Error('Use an existing site image path such as /大揭露3/assets/trees.jpg.');return path;}
+function insertOrReplaceImage(src,replace){if(!ready())throw Error('Load an article first.');const a=article(),d=doc();if(replace){if(!selectedImage||!a.contains(selectedImage))throw Error('Select an article image to replace.');selectedImage.src=src;selectImage(selectedImage);}else{const img=d.createElement('img');img.src=src;img.alt='';img.style.maxWidth='100%';img.style.height='auto';const p=d.createElement('p');p.append(img);const sel=frame.contentWindow.getSelection();if(sel?.rangeCount&&a.contains(sel.getRangeAt(0).commonAncestorContainer)){const range=sel.getRangeAt(0);range.collapse(false);range.insertNode(p);}else a.append(p);selectImage(img);}reviewedHtml=null;setStatus('Image change applied locally. Review the full page before creating a draft PR.');}
+imageAdd.addEventListener('click',()=>{const value=prompt('Existing site image path (or use Upload image):','/');if(value===null)return;try{insertOrReplaceImage(repositoryImagePath(value),false)}catch(e){setStatus(e.message)}});
+imageReplace.addEventListener('click',()=>{const value=prompt('Replacement site image path (or use Upload image):','/');if(value===null)return;try{insertOrReplaceImage(repositoryImagePath(value),true)}catch(e){setStatus(e.message)}});
+imageDelete.addEventListener('click',()=>{if(!selectedImage||!article()?.contains(selectedImage))return;if(!confirm('Delete this image from the article? The repository image file will not be deleted.'))return;const img=selectedImage;selectImage(null);const p=img.parentElement;img.remove();if(p?.tagName==='P'&&!p.textContent.trim()&&!p.querySelector('img,video,iframe,br'))p.remove();setStatus('Image removed locally. Review before creating a draft PR.');});
+imageUpload.addEventListener('change',async()=>{const file=imageUpload.files?.[0];imageUpload.value='';if(!file)return;try{if(!/^image\/(?:png|jpeg|gif|webp)$/.test(file.type)||file.size>8*1024*1024)throw Error('Choose a PNG, JPEG, GIF or WebP image under 8 MB.');const src=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result);reader.onerror=()=>reject(Error('Image could not be read.'));reader.readAsDataURL(file)});insertOrReplaceImage(src,false);}catch(e){setStatus(e.message)}});
+function imageDocumentClick(e){const img=e.target.closest?.('.article img');if(img){selectImage(img);e.preventDefault();}}
+function applyImageSize(){if(!selectedImage)return;const w=imageWidth.value==='custom'?(Math.max(1,Math.min(4000,Number(imageCustom.value)||1))+'px'):imageWidth.value;selectedImage.style.width=w;selectedImage.style.height=w?'auto':'';selectedImage.style.maxWidth=w?'100%':'';selectedImage.removeAttribute('width');selectedImage.removeAttribute('height');}
+imageWidth.addEventListener('change',()=>{imageCustom.hidden=imageWidth.value!=='custom';if(imageWidth.value==='custom'&&!imageCustom.value){imageCustom.value=selectedImage?.naturalWidth||600;}applyImageSize()});
+imageCustom.addEventListener('change',()=>{if(imageWidth.value==='custom')applyImageSize()});
+imageAlign.addEventListener('change',()=>{if(!selectedImage)return;selectedImage.style.display='block';selectedImage.style.marginLeft=imageAlign.value==='left'?'0':'auto';selectedImage.style.marginRight=imageAlign.value==='right'?'0':'auto';});
+$('#imageReset').addEventListener('click',()=>{if(!selectedImage)return;['width','height','max-width','display','margin-left','margin-right'].forEach(p=>selectedImage.style.removeProperty(p));selectedImage.removeAttribute('width');selectedImage.removeAttribute('height');selectImage(selectedImage)});
+
+const file=document.querySelector('#file'), frame=document.querySelector('#preview'), main=document.querySelector('main'), save=document.querySelector('#save'), review=document.querySelector('#review'), status=document.querySelector('#status'), panel=document.querySelector('#reviewPanel'), fullPreview=document.querySelector('#fullPreview');
+let original=null, filename='', loaded=false, reviewedHtml=null, fullPageReady=false, loadedRepoPath='', githubBaseline=null, baselineRequest=0, hasActualArticleChanges=false;
+const controls=[...document.querySelectorAll('[data-cmd],#color,#spacer,#fontSize,#applyFontSize')];
+function setStatus(s){status.textContent=s}
+function findArticleElement(html){
+ const parsed=new DOMParser().parseFromString(html,'text/html');
+ let target=parsed.querySelector('.article');
+ if(!target){target=parsed.querySelector('article, main')||parsed.body;if(target)target.classList.add('article');}
+ return target;
+}
+function doc(){return frame.contentDocument}
+function article(){return doc()?.querySelector('.article')}
+function ready(){return loaded && !!article()}
+function withinSelection(){const sel=frame.contentWindow.getSelection();return !!(sel&&sel.rangeCount&&article().contains(sel.getRangeAt(0).commonAncestorContainer))}
+function normalizeEditorDocument(text){
+ const parsed=new DOMParser().parseFromString(text,'text/html');
+ // Repair legacy pages that placed metadata/styles before the site header but inside body.
+ for(const node of [...parsed.body.childNodes]){
+  if(node.nodeType===Node.TEXT_NODE){
+   // Strip the legacy literal backslash-n prefix, including any real whitespace after it.
+   node.nodeValue=node.nodeValue.replace(/^\\n\s*/,'');
+   if(!node.nodeValue){node.remove();continue;}
+   if(!node.nodeValue.trim()){parsed.head.append(node);continue;}
+  }
+  if(node.matches?.('header, .site-header, main, article, .article'))break;
+  parsed.head.append(node);
+ }
+ // srcdoc needs an explicit UTF-8 declaration in the actual head.
+ let charset=parsed.head.querySelector('meta[charset]');
+ if(!charset){charset=parsed.createElement('meta');charset.setAttribute('charset','utf-8');}
+ parsed.head.prepend(charset);
+ let target=parsed.querySelector('.article');
+ if(!target){target=parsed.querySelector('article, main')||parsed.body;target.classList.add('article');}
+ return '<!doctype html>\n'+parsed.documentElement.outerHTML;
+}
+function loadHtmlText(text,name,sourcePath='',allowGeneric=false){
+ text=normalizeEditorDocument(text);
+ let parsed=new DOMParser().parseFromString(text,'text/html');
+ let target=parsed.querySelector('.article');
+if(!target){setStatus('This HTML file has no usable article, main, or body content. No changes made.');return false}
+original=text;filename=name;loadedRepoPath=sourcePath;const titleDoc=new DOMParser().parseFromString(text,'text/html');document.querySelector('#pageTitle').value=(titleDoc.querySelector('main h1')||titleDoc.querySelector('h1'))?.textContent?.trim()||'';githubBaseline=null;baselineRequest++;hasActualArticleChanges=false;loaded=false;save.disabled=true;review.disabled=true;panel.hidden=true;main.hidden=false;reviewedHtml=null;fullPageReady=!!(parsed.querySelector('header, .site-header')&&parsed.querySelector('footer, .site-footer, .footer-inner'));controls.forEach(x=>x.disabled=true);imageAdd.disabled=imageUpload.disabled=true;selectImage(null);
+frame.onload=()=>{selectImage(null);ensureImageSelectionStyle();doc()?.addEventListener('click',imageDocumentClick);const a=article();if(!a){setStatus('Could not load article.');return}a.contentEditable='true';a.spellcheck=false;loaded=true;review.disabled=false;controls.forEach(x=>x.disabled=false);imageAdd.disabled=imageUpload.disabled=false;setStatus(fullPageReady?'Editing '+filename+'. Full-page header/footer detected; review will preserve the surrounding page.':'Local HTML loaded. Content area detected automatically; review the full-page preview before downloading.')};
+frame.srcdoc=text;return true;
+}
+file.addEventListener('change',async()=>{
+const f=file.files?.[0];if(!f)return;
+const pathInput=document.querySelector('#githubPath');
+let targetPath=pathInput.value.trim();
+// Convenient test default; users can enter another repository path before loading a different target.
+if(!targetPath)targetPath='Internal/New-Article/index.html';
+try{if(/^https?:\/\//i.test(targetPath)){const u=new URL(targetPath);if(u.hostname==='awakenology.space'||u.hostname==='www.awakenology.space')targetPath=decodeURIComponent(u.pathname).replace(/^\/+|\/+$/g,'');}}catch{}
+targetPath=targetPath.replace(/^\/+|\/+$/g,'');
+if(targetPath&&!/\.html?$/i.test(targetPath))targetPath+='/index.html';
+const validPath=targetPath&&/\.html?$/i.test(targetPath)&&!targetPath.split('/').some(part=>!part||part==='.'||part==='..');
+if(validPath)pathInput.value=targetPath;
+loadHtmlText(await f.text(),f.name,validPath?targetPath:'',true);
+if(!validPath){githubBaseline=null;setStatus('Local HTML loaded. Enter the target repository path (for example Internal/New-Article/index.html), then change the field to load its GitHub baseline before reviewing.');return;}
+const request=++baselineRequest;githubBaseline=null;updatePublishAvailability();setStatus('Local HTML loaded. Checking GitHub baseline for '+targetPath+'…');
+try{
+const url='https://raw.githubusercontent.com/shifter888ai/awakenology/main/'+targetPath.split('/').map(encodeURIComponent).join('/');
+const response=await fetch(url,{cache:'no-store'});
+if(!response.ok)throw new Error('GitHub returned HTTP '+response.status);
+const baseline=await response.text();
+if(request!==baselineRequest)return;
+if(!findArticleElement(baseline))throw new Error('The GitHub target has no usable article, main, or body content.');
+githubBaseline=baseline;setStatus('Local HTML loaded and GitHub baseline verified for '+targetPath+'. Click Review, then Create draft PR.');
+updatePublishAvailability();
+}catch(err){if(request===baselineRequest){githubBaseline=null;updatePublishAvailability();setStatus('Local HTML loaded, but publishing baseline could not be verified for '+targetPath+': '+(err?.message||String(err))+'. Check the exact existing repository path.');}}
+});
+document.querySelector('#githubPath').addEventListener('change',async()=>{if(!loaded)return;const p=document.querySelector('#githubPath').value.trim().replace(/^\/+|\/+$/g,'');if(!p||! /\.html?$/i.test(p)||p.split('/').some(part=>!part||part==='.'||part==='..')){loadedRepoPath='';githubBaseline=null;updatePublishAvailability();return}loadedRepoPath=p;const request=++baselineRequest;githubBaseline=null;updatePublishAvailability();setStatus('Checking the current GitHub baseline for '+p+'…');try{const url='https://raw.githubusercontent.com/shifter888ai/awakenology/main/'+p.split('/').map(encodeURIComponent).join('/');const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw new Error('GitHub returned HTTP '+response.status);const baseline=await response.text();if(request!==baselineRequest)return;if(!findArticleElement(baseline))throw new Error('The GitHub target has no usable article, main, or body content.');githubBaseline=baseline;setStatus('GitHub baseline loaded for '+p+'. Review the local HTML; the PR action will verify that main has not changed since this check.');updatePublishAvailability()}catch(err){if(request!==baselineRequest)return;loadedRepoPath='';githubBaseline=null;setStatus('Could not establish a safe GitHub baseline: '+(err?.message||String(err)));updatePublishAvailability()}});
+document.querySelector('#loadGitHub').addEventListener('click',async()=>{
+const rawPath=document.querySelector('#githubPath').value.trim().replace(/^\/+|\/+$/g,'');
+if(!rawPath||rawPath.split('/').some(part=>!part||part==='.'||part==='..')){setStatus('Enter a repository-relative file path, such as a folder name/index.html.');return}
+if(!/\.html?$/i.test(rawPath)){setStatus('Please choose an HTML file path ending in .html or .htm.');return}
+const button=document.querySelector('#loadGitHub');button.disabled=true;setStatus('Loading '+rawPath+' from the public GitHub repository…');
+try{const url='https://raw.githubusercontent.com/shifter888ai/awakenology/main/'+rawPath.split('/').map(encodeURIComponent).join('/');
+const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw new Error('GitHub returned HTTP '+response.status);
+const text=await response.text();if(loadHtmlText(text,rawPath.split('/').pop(),rawPath)){githubBaseline=text;setStatus('Loaded '+rawPath+' from GitHub (read-only). Edits are local until you export the reviewed HTML.');}
+}catch(err){setStatus('Could not load from GitHub: '+(err?.message||String(err)))}finally{button.disabled=false}
+});
+document.querySelector('#applyFontSize').addEventListener('mousedown',e=>e.preventDefault());document.querySelector('#applyFontSize').addEventListener('click',()=>{if(!ready()||!withinSelection()){setStatus('Select text inside the article first.');return}try{AwakenologyEditingCore.applyFontSize(doc(),frame.contentWindow.getSelection(),document.querySelector('#fontSize').value,article());article().focus();setStatus('Font size applied to selected text. Review the changes before downloading or creating a PR.')}catch(err){setStatus('Could not apply font size: '+(err?.message||String(err)))}});
+document.querySelectorAll('[data-cmd]').forEach(b=>b.addEventListener('mousedown',e=>e.preventDefault()));
+document.querySelectorAll('[data-cmd]').forEach(b=>b.addEventListener('click',()=>{if(!ready()||!withinSelection())return;doc().execCommand(b.dataset.cmd,false,null);article().focus()}));
+document.querySelector('#color').addEventListener('input',e=>{if(!ready()||!withinSelection())return;doc().execCommand('foreColor',false,e.target.value)});
+document.querySelector('#spacer').addEventListener('mousedown',e=>e.preventDefault());
+document.querySelector('#spacer').addEventListener('click',()=>{if(!ready()||!withinSelection())return;doc().execCommand('insertHTML',false,'<p class="spacer"></p>')});
+function articleText(html){const d=new DOMParser().parseFromString(html,'text/html');return d.querySelector('.article')?.textContent||''}
+function outsideArticle(html){const d=new DOMParser().parseFromString(html,'text/html');const a=d.querySelector('.article');if(!a)throw new Error('Missing article in integrity check');a.replaceWith(d.createComment('ARTICLE CONTENT'));const title=d.querySelector('main h1');if(title)title.replaceWith(d.createComment('EDITABLE PAGE TITLE'));return d.documentElement.outerHTML}
+function verifyExport(html){if(outsideArticle(original)!==outsideArticle(html))throw new Error('Surrounding page integrity check failed. Export blocked.');const d=new DOMParser().parseFromString(html,'text/html');const a=d.querySelector('.article');if(!a||a.hasAttribute('contenteditable')||a.hasAttribute('spellcheck'))throw new Error('Article export integrity check failed. Export blocked.');return a}
+function makeDiff(before,after){if(before===after)return[{kind:'same',text:'No article text changes detected.'}];let start=0;while(start<before.length&&start<after.length&&before[start]===after[start])start++;let bi=before.length-1,ai=after.length-1;while(bi>=start&&ai>=start&&before[bi]===after[ai]){bi--;ai--}let removed=before.slice(start,bi+1),added=after.slice(start,ai+1);const out=[];const context=45;const left=before.slice(Math.max(0,start-context),start);if(start>context)out.push({kind:'same',text:'… unchanged text before …'});if(left)out.push({kind:'same',text:left});let overlap='';for(let n=Math.min(removed.length,added.length);n>0;n--){if(removed.endsWith(added.slice(0,n))){overlap=added.slice(0,n);removed=removed.slice(0,-n);added=added.slice(n);break}if(added.endsWith(removed.slice(0,n))){overlap=removed.slice(0,n);removed=removed.slice(n);added=added.slice(0,-n);break}}if(removed)out.push({kind:'remove',text:'− '+removed});if(overlap)out.push({kind:'same',text:overlap});if(added)out.push({kind:'add',text:'+ '+added});const right=before.slice(bi+1,bi+1+context);if(right)out.push({kind:'same',text:right});if(bi+1+context<before.length)out.push({kind:'same',text:'… unchanged text after …'});return out}
+function buildReviewedHtml(){const parsed=new DOMParser().parseFromString(original,'text/html');const sourceArticle=parsed.querySelector('.article');const edited=article().cloneNode(true);edited.removeAttribute('contenteditable');edited.removeAttribute('spellcheck');edited.querySelectorAll('img.'+SELECTED_IMAGE_CLASS).forEach(img=>img.classList.remove(SELECTED_IMAGE_CLASS));sourceArticle.replaceWith(edited);const title=parsed.querySelector('main h1');const value=document.querySelector('#pageTitle').value.trim();if(value){if(title)title.textContent=value;else{const main=parsed.querySelector('main');if(main){const h=parsed.createElement('h1');h.textContent=value;main.prepend(h)}}}else title?.remove();return '<!doctype html>\n'+parsed.documentElement.outerHTML;}
+review.addEventListener('click',()=>{try{if(!ready()||!original){setStatus('Review unavailable: load an HTML file containing an .article element first.');return;}reviewedHtml=buildReviewedHtml();const before=articleText(original);const after=articleText(reviewedHtml);const exportedArticle=verifyExport(reviewedHtml);const changed=before!==after;const originalArticle=new DOMParser().parseFromString(original,'text/html').querySelector('.article');const markupChanged=originalArticle.outerHTML!==exportedArticle.outerHTML;hasActualArticleChanges=changed||markupChanged;let targetComparison='GitHub target comparison: not available; verify the repository path and baseline.';
+if(githubBaseline){try{const targetArticle=new DOMParser().parseFromString(githubBaseline,'text/html').querySelector('.article');targetComparison=targetArticle&&targetArticle.outerHTML===exportedArticle.outerHTML?'GitHub target comparison: identical; no PR is needed.':'GitHub target comparison: article differs; a draft PR can be created if the target path and baseline are verified.';}catch{}}
+document.querySelector('#reviewSummary').textContent='Safety check: surrounding page DOM integrity PASS. Compared with the loaded local file, article text '+(changed?'has changed.':'is unchanged.')+' Article HTML/formatting '+(markupChanged?'differs.':'is unchanged.')+' '+targetComparison+' Browser serialization may normalize source markup; inspect the preview before continuing.';const diff=makeDiff(before,after);document.querySelector('#changeDiff').replaceChildren(...diff.map(line=>{const span=document.createElement('span');span.className=line.kind;span.textContent=line.text+'\n';return span}));fullPreview.srcdoc=reviewedHtml;panel.hidden=false;main.hidden=true;save.disabled=false;setStatus('Review generated locally. Only the reviewed page is shown. Nothing has been downloaded or uploaded yet.');}catch(err){reviewedHtml=null;save.disabled=true;panel.hidden=true;setStatus('Review failed: '+(err?.message||String(err)));console.error(err);}});
+document.querySelector('#cancelReview').addEventListener('click',()=>{panel.hidden=true;main.hidden=false;reviewedHtml=null;save.disabled=true;setStatus('Review cancelled. Original file remains unchanged.');});
+save.addEventListener('click',()=>{if(!reviewedHtml){setStatus('Click Review full-page HTML first.');return;}const url=URL.createObjectURL(new Blob([reviewedHtml],{type:'text/html;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=filename.replace(/\.html?$/i,'')+'-reviewed.html';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);setStatus('Downloaded a reconstructed full-page HTML copy. Original file remains unchanged; inspect the downloaded page before using it.');});
+const createPRButton=document.querySelector('#createPR'), publishStatus=document.querySelector('#publishStatus');
+function publishMessage(s){publishStatus.textContent=s}
+function updatePublishAvailability(){
+let differsFromGitHub=false;
+if(reviewedHtml&&githubBaseline){
+ try{
+ const reviewedDoc=new DOMParser().parseFromString(reviewedHtml,'text/html');
+ const baselineDoc=new DOMParser().parseFromString(githubBaseline,'text/html');
+ const reviewedArticle=reviewedDoc.querySelector('.article');
+ const baselineArticle=findArticleElement(githubBaseline);
+ differsFromGitHub=!!(reviewedArticle&&baselineArticle&&reviewedArticle.outerHTML!==baselineArticle.outerHTML);
+ }catch{}
+}
+createPRButton.disabled=!(reviewedHtml&&differsFromGitHub&&loadedRepoPath&&loadedRepoPath.length&&githubBaseline&&panel.hidden===false);
+if(reviewedHtml&&panel.hidden===false&&!githubBaseline)publishMessage('No verified GitHub baseline. Enter the exact target path and load its baseline before creating a PR.');
+else if(reviewedHtml&&githubBaseline&&panel.hidden===false&&!differsFromGitHub)publishMessage('No changes against the GitHub target. No PR is needed.');
+else if(reviewedHtml&&githubBaseline&&panel.hidden===false&&differsFromGitHub)publishMessage('Changes verified against the GitHub target. Create a draft PR when ready.');
+}
+updatePublishAvailability();
+review.addEventListener('click',()=>{setTimeout(updatePublishAvailability,0)});
+document.querySelector('#cancelReview').addEventListener('click',()=>{updatePublishAvailability();publishMessage('')});
+createPRButton.addEventListener('click',async()=>{
+  if(!reviewedHtml||!loadedRepoPath||!githubBaseline){publishMessage('Load an article and establish its current GitHub baseline before creating a draft PR.');return}
+  createPRButton.disabled=true;
+  publishMessage('Verifying the latest article and creating a draft pull request…');
+  try {
+    const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(githubBaseline));
+    const baselineSha256=[...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,'0')).join('');
+    const response=await fetch('/api/editor/create-draft-pr',{
+      method:'POST',
+      headers:{'content-type':'application/json','accept':'application/json'},
+      body:JSON.stringify(await (async()=>{const parsed=new DOMParser().parseFromString(reviewedHtml,'text/html');const assets=[];const nodes=[...parsed.querySelectorAll('.article img[src^="data:"]')];const folder=loadedRepoPath.replace(/[^/]+$/,'')+'assets/';const batch=crypto.randomUUID().replace(/-/g,'').slice(0,16);for(let i=0;i<nodes.length;i++){const match=/^data:(image\/(?:png|jpeg|gif|webp));base64,([A-Za-z0-9+/=]+)$/.exec(nodes[i].getAttribute('src'));if(!match)throw Error('Unsupported embedded image.');const ext={'image/png':'png','image/jpeg':'jpg','image/gif':'gif','image/webp':'webp'}[match[1]];const path=folder+'editor-'+batch+'-image-'+String(i+1).padStart(3,'0')+'.'+ext;assets.push({path,contentBase64:match[2]});nodes[i].setAttribute('src','/'+path.split('/').map(encodeURIComponent).join('/'));}const payload={path:loadedRepoPath,reviewedHtml:'<!doctype html>\n'+parsed.documentElement.outerHTML,baselineSha256,assets};if(new TextEncoder().encode(JSON.stringify(payload)).length>20000000)throw Error('Page and images exceed the 20 MB publishing limit.');return payload})())
+    });
+    const data=await response.json().catch(()=>({}));
+    if(!response.ok)throw new Error(data.error||('Editor service returned HTTP '+response.status));
+    publishStatus.replaceChildren();
+    publishStatus.append(document.createTextNode('Draft PR #'+data.number+' created. Nothing has been merged or deployed. '));
+    const link=document.createElement('a');
+    link.href=data.pullRequestUrl;
+    link.target='_blank';
+    link.rel='noopener noreferrer';
+    link.textContent='Open draft PR';
+    publishStatus.append(link);
+    createPRButton.disabled=true;
+  } catch(err) {
+    publishMessage('Could not create draft PR: '+(err&&err.message?err.message:String(err)));
+    updatePublishAvailability();
+  }
+});
+})();
+
+</script></body>
+<!-- Temporary preview verification marker; editor-only, no public article content changed. -->
+</html>
+<!-- CI refresh after sitemap/audit correction -->

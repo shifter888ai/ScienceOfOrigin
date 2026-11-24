@@ -1,0 +1,120 @@
+name: Live SEO runtime audit
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/live-seo-runtime-audit.yml'
+      - 'worker.js'
+      - 'sitemap.xml'
+      - '**/*.html'
+      - '**/*.css'
+      - '**/*.js'
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      run_full_audit:
+        description: 'Run all production routes and resources instead of the default bounded sample'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: "17 3 * * *"
+permissions:
+  contents: read
+concurrency:
+  group: live-audit-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  live-seo-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install browser audit dependencies
+        run: |
+          python3 -m pip install playwright pytest
+          python3 -m playwright install --with-deps chromium
+      - name: Compile audit scripts and run parser tests
+        if: always()
+        run: |
+          python3 -m py_compile scripts/*.py
+          python3 -m unittest discover -s tests -p 'test_*.py' -v
+          python3 -m pytest tests/test_shared_editing_core.py tests/test_generator_word_style_inheritance.py tests/test_locked_typography.py -v
+
+      - name: Generate local reference inventory
+        if: always()
+        run: python3 scripts/audit_site_integrity.py
+      - name: Audit live references and assets
+        if: always() && hashFiles('site-integrity-report.csv') != ''
+        env:
+          FULL_LIVE_AUDIT: ${{ github.event_name == 'workflow_dispatch' && inputs.run_full_audit == true }}
+        run: |
+          if [ "$FULL_LIVE_AUDIT" = "true" ]; then
+            python3 scripts/audit_live_links_assets.py
+          else
+            python3 scripts/audit_live_links_assets.py --max-urls 100
+          fi
+      - name: Audit anchors and accessibility source
+        if: always()
+        run: python3 scripts/audit_anchor_accessibility.py
+      - name: Generate source metadata inventory
+        if: always()
+        run: python3 scripts/audit_seo_metadata.py
+      - name: Audit production-rendered metadata
+        if: always()
+        env:
+          FULL_LIVE_AUDIT: ${{ github.event_name == 'workflow_dispatch' && inputs.run_full_audit == true }}
+        run: |
+          if [ "$FULL_LIVE_AUDIT" = "true" ]; then
+            python3 scripts/audit_live_seo.py
+          else
+            python3 scripts/audit_live_seo.py --max-routes 12
+          fi
+      - name: Audit live pages in Chromium
+        if: always()
+        env:
+          FULL_LIVE_AUDIT: ${{ github.event_name == 'workflow_dispatch' && inputs.run_full_audit == true }}
+        run: |
+          if [ "$FULL_LIVE_AUDIT" = "true" ]; then
+            python3 scripts/audit_browser_smoke.py --screenshots
+          else
+            python3 scripts/audit_browser_smoke.py --max-routes 6 --screenshots
+          fi
+      - name: Audit rendered accessibility and keyboard focus
+        if: always()
+        env:
+          FULL_LIVE_AUDIT: ${{ github.event_name == 'workflow_dispatch' && inputs.run_full_audit == true }}
+        run: |
+          if [ "$FULL_LIVE_AUDIT" = "true" ]; then
+            python3 scripts/audit_browser_accessibility.py
+          else
+            python3 scripts/audit_browser_accessibility.py --max-routes 12
+          fi
+      - name: Consolidate audit reports after all scans finish
+        if: always()
+        run: python3 scripts/consolidate_audit_reports.py
+      - name: Upload source and runtime reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-source-and-runtime-reports
+          path: |
+            seo-metadata-report.csv
+            seo-runtime-report.csv
+            site-integrity-report.csv
+            live-link-asset-report.csv
+            anchor-accessibility-report.csv
+            audit-issue-register.csv
+            audit-summary.md
+            browser-smoke-report.csv
+            browser-accessibility-report.csv
+            browser-smoke-screenshots/*.png
+          if-no-files-found: warn
+          retention-days: 14

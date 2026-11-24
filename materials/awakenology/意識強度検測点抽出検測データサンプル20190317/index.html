@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>意識強度検測点：抽出検測データサンプル20190317 | Awakenology</title>
+<link rel="canonical" href="/%E6%84%8F%E8%AD%98%E5%BC%B7%E5%BA%A6%E6%A4%9C%E6%B8%AC%E7%82%B9%E6%8A%BD%E5%87%BA%E6%A4%9C%E6%B8%AC%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB20190317/"><link rel="alternate" hreflang="en" href="https://awakenology.space/SoC-AssessPoints-Test-Sample-Data/"><link rel="alternate" hreflang="x-default" href="https://awakenology.space/SoC-AssessPoints-Test-Sample-Data/"><link rel="alternate" hreflang="ja" href="https://awakenology.space/%E6%84%8F%E8%AD%98%E5%BC%B7%E5%BA%A6%E6%A4%9C%E6%B8%AC%E7%82%B9%E6%8A%BD%E5%87%BA%E6%A4%9C%E6%B8%AC%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB20190317/"><link rel="alternate" hreflang="zh-Hant" href="https://awakenology.space/%E6%84%8F%E8%AD%98%E5%BC%B7%E5%BA%A6%E6%AA%A2%E6%B8%AC%E9%BB%9E%E6%8A%BD%E6%A8%A3%E6%AA%A2%E6%B8%AC%E8%B3%87%E6%96%99%E6%A8%A3%E6%9C%AC/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="2019年3月17日記録の意識強度検測点データサンプルを紹介し、定期的な自己検測の考え方とExcel形式の原始データを案内します。">
+<meta property="og:title" content="意識強度検測点：抽出検測データサンプル20190317">
+<meta property="og:description" content="2019年3月17日記録の意識強度検測点データサンプルを紹介し、定期的な自己検測の考え方とExcel形式の原始データを案内します。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://awakenology.space/%E6%84%8F%E8%AD%98%E5%BC%B7%E5%BA%A6%E6%A4%9C%E6%B8%AC%E7%82%B9%E6%8A%BD%E5%87%BA%E6%A4%9C%E6%B8%AC%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB20190317/">
+<style>
+:root{color-scheme:light;--bg:#fff;--fg:#111;--muted:#666;--line:#ddd;--link:#111;--soft:#f6f6f6}
+html[data-aw-theme="dark"]{color-scheme:dark;--bg:#111;--fg:#eee;--muted:#aaa;--line:#333;--link:#fff;--soft:#1a1a1a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.6}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.site-header{border-bottom:1px solid var(--line)}
+.header-inner{max-width:900px;margin:0 auto;padding:22px 24px 18px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:700}
+.nav{display:flex;flex-wrap:wrap;gap:18px;font-size:14px}
+.nav a{padding-bottom:2px}
+main{max-width:800px;margin:0 auto;padding:52px 24px 70px}
+.article-header{text-align:center;margin:0 0 34px}
+.article-header h1{margin:0 0 12px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(22px,2.5vw,25px);font-weight:600;line-height:1.15}
+.article-header .meta{margin:0;color:var(--muted);font-size:14px}
+.article{font-size:16px}
+.article p{margin:0 0 10px}
+.article h2{font-size:21px;line-height:1.4;margin:26px 0 12px}
+.article h3{font-size:18px;line-height:1.45;margin:22px 0 10px}
+.article ul,.article ol{margin:0 0 14px;padding-left:28px}
+.article li{margin:6px 0}
+.article img{max-width:100%;height:auto}
+.article .aw-spacer{height:10px;margin:0;padding:0;font-size:0;line-height:0}
+.footer{border-top:1px solid var(--line);padding:24px}
+.footer-inner{max-width:760px;margin:0 auto;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;color:var(--muted);font-size:13px}
+.footer-links{display:flex;align-items:center;gap:12px}
+.reddit-icon{display:inline-flex;width:24px;height:24px;align-items:center;justify-content:center;overflow:hidden}
+.reddit-icon img{display:block;width:24px;height:22px;object-fit:contain;transform:translateX(1px)}
+.reddit-one img{transform:translateX(1px) scale(1.08)}
+.reddit-two img{transform:translateX(1px) scale(1.08);filter:brightness(0) saturate(100%) invert(39%) sepia(82%) saturate(1030%) hue-rotate(178deg) brightness(92%) contrast(94%)}
+.reddit-three img{transform:translateX(1px) scale(.94);filter:brightness(0) saturate(100%) invert(32%) sepia(42%) saturate(1537%) hue-rotate(238deg) brightness(91%) contrast(92%)}
+html[data-aw-theme="dark"] .reddit-three img{filter:brightness(0) saturate(100%) invert(76%) sepia(33%) saturate(1140%) hue-rotate(218deg) brightness(103%) contrast(94%)}
+@media(max-width:700px){.header-inner{display:block;padding:18px 18px 14px}.brand{display:block;margin-bottom:12px}.nav{gap:14px}main{padding:44px 18px 55px}.footer{padding:20px 14px}}
+.footer{border-top:1px solid var(--line);padding:24px}.footer-inner{max-width:760px;margin:0 auto;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;color:var(--muted);font-size:13px}.footer-links{display:flex;align-items:center;gap:12px}a.contact-icon,a.contact-icon:hover,a.disclaimer-icon,a.disclaimer-icon:hover{display:inline-flex;width:24px;height:24px;align-items:center;justify-content:center;font-size:20px;line-height:1;text-decoration:none}.reddit-icon{display:inline-flex;width:24px;height:24px;align-items:center;justify-content:center;overflow:hidden}.reddit-icon img{display:block;width:24px;height:22px;object-fit:contain;transform:translateX(1px)}.reddit-one img{transform:translateX(1px) scale(1.08)}.reddit-two img{transform:translateX(1px) scale(1.08);filter:brightness(0) saturate(100%) invert(39%) sepia(82%) saturate(1030%) hue-rotate(178deg) brightness(92%) contrast(94%)}.reddit-three img{transform:translateX(1px) scale(.94);filter:brightness(0) saturate(100%) invert(32%) sepia(42%) saturate(1537%) hue-rotate(238deg) brightness(91%) contrast(92%)}html[data-aw-theme="dark"] .reddit-three img{filter:brightness(0) saturate(100%) invert(76%) sepia(33%) saturate(1140%) hue-rotate(218deg) brightness(103%) contrast(94%)}@media(max-width:700px){.footer{padding:20px 14px}}</style>
+</head>
+<body>
+<header class="site-header">
+<div class="header-inner">
+<a class="brand" href="/" title="Home">Awakenology</a>
+<nav class="nav" aria-label="Site navigation">
+<a href="/English/">English</a>
+<a href="/Japanese/">日本語</a>
+<a href="/Chinese/">中文</a>
+<a href="/ai-search/">Search / Ask</a>
+</nav>
+</div>
+</header>
+<main>
+<header class="article-header">
+<h1>意識強度検測点：抽出検測データサンプル20190317</h1>
+</header>
+<article class="article">
+<p align="center" style="text-align:center; margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">【元吾氏】</font></span></span></span></p>
+
+<p align="center" style="text-align:center; margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">（</font><font face="MS UI Gothic">2019年3月17日記録）</font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">意識強度検測点</font> <font face="MS UI Gothic">= 練習点。</font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">意識強度検測点</font><font face="MS UI Gothic">/練習点は、「吾日百省吾身」を24時間、7日間、365日で具体化し、定量化することを実現できる場所であり、伝統的な修練における通病である「空洞」「自淫」を避けることができます。</font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">定期的または不定期に検測を行い、自分の意識強度の実際の拡張を確認することができます。</font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">以下に、意識強度検測点の抽出検測データサンプルを提供します。</font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">原始データの形式は</font><font face="MS UI Gothic">Excelドキュメントであり、本文下部のリンクからダウンロードできます。</font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><b><span style="font-size:14.0000pt"><span style="font-family:'MS UI Gothic'"><span style="font-weight:bold"><font face="MS UI Gothic">A）検測概況：</font></span></span></span></b></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">検測範囲：第</font><font face="MS UI Gothic">1-9区。  </font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">検測点数：</font><font face="MS UI Gothic">265点。  </font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">検測日：</font>  </span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">第</font><font face="MS UI Gothic">1-5区：20190317。  </font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">第</font><font face="MS UI Gothic">6-9区：20190316。  </font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">データ公開バージョン：一般版、第</font><font face="MS UI Gothic">3版。</font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><b><span style="font-size:16.0000pt"><span style="font-family:'MS UI Gothic'"><span style="font-weight:bold"><font face="MS UI Gothic">B）被検測者概況：</font></span></span></span></b></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<table class="Table" style='border-collapse:collapse; width:312.9000pt; margin-left:4.6500pt; border:1.0000pt solid windowtext; font-family:"Times New Roman"; font-size:10pt'>
+<tbody>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="bottom" width="183">
+<p align="center" style="text-align:center; margin:0pt 0pt 0.0001pt"><span style="vertical-align:bottom"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">被検者番号</font></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="bottom" width="221">
+<p align="center" style="text-align:center; margin:0pt 0pt 0.0001pt"><span style="vertical-align:bottom"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">当月意識強度総合値</font></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="bottom" width="221">
+<p align="center" style="text-align:center; margin:0pt 0pt 0.0001pt"><span style="vertical-align:bottom"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">当日検測点正確率</font></span></span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="183">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">實驗者</font><font face="MS UI Gothic">01號</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">11.5</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">97%</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="183">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">實驗者</font><font face="MS UI Gothic">02號</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">8.8</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">96%</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="183">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">實驗者</font><font face="MS UI Gothic">03號</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">7.8</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">94%</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="183">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">實驗者</font><font face="MS UI Gothic">04號</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">6.4</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">97%</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="183">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">實驗者</font><font face="MS UI Gothic">11號</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">8.6</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">95%</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="183">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">實驗者</font><font face="MS UI Gothic">12號</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">5</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">95%</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="183">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">實驗者</font><font face="MS UI Gothic">13號</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">8</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">96%</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="183">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">實驗者</font><font face="MS UI Gothic">14號</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">7.9</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">94%</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+</tr>
+<tr>
+<td style="border-bottom:1.0000pt solid windowtext; width:91.9000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:1.0000pt solid windowtext; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="183">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">實驗者</font><font face="MS UI Gothic">15號</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">8.2</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+<td style="border-bottom:1.0000pt solid windowtext; width:110.5000pt; padding:0.7500pt 0.7500pt 0.7500pt 0.7500pt ; border-left:none; border-right:1.0000pt solid windowtext; border-top:1.0000pt solid windowtext" valign="top" width="221">
+<p style="text-align:left; margin:0pt 0pt 0.0001pt"><span style="vertical-align:top"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="background:#ffffff"><span style="font-family:'MS UI Gothic'"><span style="color:#272626"><span style="letter-spacing:0.0000pt"><span style="text-transform:none"><span style="font-style:normal"><font face="MS UI Gothic">96%</font></span></span></span></span></span></span></span></span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h3 style="margin-left:0.0000pt; margin-top:5pt; margin-bottom:5pt; text-align:left"> </h3>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><b><span style="font-size:14.0000pt"><span style="font-family:'MS UI Gothic'"><span style="font-weight:bold"><font face="MS UI Gothic">C）検測数値の説明：</font></span></span></span></b></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">すべての検測数値は、検測日の平均値であり、単位はパーセント（</font><font face="MS UI Gothic">%）です。  </font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><span style="color:#c00000"><font face="MS UI Gothic">赤色の数字は、検測時に浮動範囲が比較的大きかった数値を示しています。</font>  </span></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">反値のセルには色が付けてあります。</font>  </span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><b><span style="font-size:14.0000pt"><span style="font-family:'MS UI Gothic'"><span style="font-weight:bold"><font face="MS UI Gothic">D）検測データサンプルダウンロード（Excelデータファイル）：</font></span></span></span></b></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"><strong><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">&lt;<a data-_="Link" href="/gallery/SoC_Test_Sample_Data_English_20190317.xlsx">意識強度検測点（一般版）：抽出検測データサンプル20190317</a>&gt;</font></span></span></span></strong></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">Enjoy！</font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:'MS UI Gothic'"><font face="MS UI Gothic">ゲームを楽しんでください！</font></span></span></span></p>
+
+<p style="margin:0pt 0pt 0.0001pt"> </p>
+</article>
+</main>
+<footer class="footer"><div class="footer-inner"><span class="footer-links"><a class="contact-icon" href="mailto:contact@awakenology.org" aria-label="Email Awakenology" title="Contact"><span aria-hidden="true">✉</span></a><a class="reddit-icon reddit-one" href="https://www.reddit.com/r/EscapeReincarnation/" aria-label="Reddit: Escape Reincarnation"><img src="/assets/reddit-one.svg" alt=""></a><a class="reddit-icon reddit-two" href="https://www.reddit.com/r/EscapePrisonPlanet/" aria-label="Reddit: Escape Prison Planet"><img src="/assets/reddit-two.svg" alt=""></a><a class="reddit-icon reddit-three" href="https://www.reddit.com/user/Lower-Lingonberry-40/" aria-label="Reddit: Lower-Lingonberry-40"><img src="/assets/reddit-three.svg" alt=""></a><a class="disclaimer-icon" href="/Disclaimer/" aria-label="Disclaimer" title="Disclaimer"><span aria-hidden="true">ⓘ</span></a></span><span>© 2017 Awakenology</span></div></footer>
+</body>
+</html>
