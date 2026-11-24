@@ -1,0 +1,766 @@
+record_no,published_at_bjt,year,month,export_page,source_line_start,source_line_end,content_characters,media_note,urls_found,topic_tags_provisional,classification_method,keyword_evidence
+001,2010-08-09 22:49:00,2010,08,1,9,11,21,,,general-reflection,fallback-general,
+002,2011-01-08 23:29:00,2011,01,1,12,14,6,,,general-reflection,fallback-general,
+003,2011-02-03 01:34:00,2011,02,1,15,16,5,,,general-reflection,fallback-general,
+004,2011-02-27 02:40:00,2011,02,1,17,22,15,,,relationships-society-commentary,keyword-single,relationships-society-commentary:崇拜
+005,2011-02-27 02:41:00,2011,02,2,23,24,10,,,relationships-society-commentary,keyword-single,relationships-society-commentary:迷信
+006,2011-02-27 17:57:00,2011,02,2,25,27,12,,,relationships-society-commentary,keyword-single,relationships-society-commentary:崇拜
+007,2011-03-11 03:30:00,2011,03,2,28,29,22,,,general-reflection,fallback-general,
+008,2011-03-11 03:31:00,2011,03,2,30,31,10,,,practice-experience,keyword-single,practice-experience:修炼
+009,2011-03-11 03:32:00,2011,03,2,32,33,20,,,general-reflection,fallback-general,
+010,2011-03-11 03:32:00,2011,03,2,34,35,19,,,practice-experience,keyword-single,practice-experience:方法
+011,2011-03-11 17:33:00,2011,03,2,36,43,78,,,health-body-biology,keyword-single,health-body-biology:身体
+012,2011-04-18 16:02:00,2011,04,3,44,45,21,,,general-reflection,fallback-general,
+013,2011-04-18 16:14:00,2011,04,3,46,47,10,,,general-reflection,fallback-general,
+014,2011-04-18 16:15:00,2011,04,3,48,49,18,,,general-reflection,fallback-general,
+015,2011-04-18 16:15:00,2011,04,3,50,51,22,,,general-reflection,fallback-general,
+016,2011-04-18 16:15:00,2011,04,3,52,53,10,,,consciousness-awakening,keyword-single,consciousness-awakening:开悟
+017,2011-04-18 16:16:00,2011,04,3,54,55,10,,,consciousness-awakening|relationships-society-commentary,keyword-multi,consciousness-awakening:开悟|relationships-society-commentary:迷信
+018,2011-04-18 16:16:00,2011,04,3,56,61,19,,,general-reflection,fallback-general,
+019,2011-04-18 16:17:00,2011,04,4,62,63,18,,,measurement-science,keyword-single,measurement-science:科学
+020,2011-04-18 16:17:00,2011,04,4,64,65,9,,,general-reflection,fallback-general,
+021,2011-04-18 16:18:00,2011,04,4,66,67,17,,,general-reflection,fallback-general,
+022,2011-04-18 16:23:00,2011,04,4,68,69,20,,,practice-experience,keyword-single,practice-experience:实践
+023,2011-04-18 16:23:00,2011,04,4,70,72,12,,,practice-experience,keyword-single,practice-experience:实践
+024,2011-05-31 17:12:00,2011,05,4,73,79,19,,,general-reflection,fallback-general,
+025,2011-06-06 15:49:00,2011,06,5,80,81,10,,,general-reflection,fallback-general,
+026,2011-06-10 22:27:00,2011,06,5,82,83,8,,,general-reflection,fallback-general,
+027,2011-06-13 17:47:00,2011,06,5,84,85,32,,,general-reflection,fallback-general,
+028,2011-06-14 23:50:00,2011,06,5,86,88,75,,,general-reflection,fallback-general,
+029,2011-06-15 13:44:00,2011,06,5,89,90,17,,,general-reflection,fallback-general,
+030,2011-06-16 14:22:00,2011,06,5,91,98,100,,,practice-experience,keyword-single,practice-experience:方法
+031,2011-06-16 14:24:00,2011,06,6,99,100,15,,,practice-experience,keyword-single,practice-experience:方法
+032,2011-06-17 13:15:00,2011,06,6,101,102,13,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:空间
+033,2011-06-19 16:11:00,2011,06,6,103,104,10,,,practice-experience,keyword-single,practice-experience:体验
+034,2011-06-20 12:17:00,2011,06,6,105,107,68,,,practice-experience,keyword-single,practice-experience:静观
+035,2011-06-20 12:20:00,2011,06,6,108,111,121,,,practice-experience|health-body-biology,keyword-multi,practice-experience:方法|health-body-biology:细胞
+036,2011-06-23 09:02:00,2011,06,6,112,113,15,,,general-reflection,fallback-general,
+037,2011-06-24 21:23:00,2011,06,6,114,119,21,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+038,2011-06-28 14:15:00,2011,06,7,120,122,16,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:空间
+039,2011-07-01 14:44:00,2011,07,7,123,124,28,,,general-reflection,fallback-general,
+040,2011-07-01 15:40:00,2011,07,7,125,127,75,,,practice-experience,keyword-single,practice-experience:方法
+041,2011-07-02 22:29:00,2011,07,7,128,130,56,,,general-reflection,fallback-general,
+042,2011-07-03 01:07:00,2011,07,7,131,132,22,,,general-reflection,fallback-general,
+043,2011-07-06 19:15:00,2011,07,7,133,134,29,,,general-reflection,fallback-general,
+044,2011-07-07 21:34:00,2011,07,7,135,141,69,,,announcements-projects,keyword-single,announcements-projects:资料
+045,2011-07-14 23:09:00,2011,07,8,142,143,23,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+046,2011-07-17 22:04:00,2011,07,8,144,145,16,,,general-reflection,fallback-general,
+047,2011-07-17 22:05:00,2011,07,8,146,147,16,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+048,2011-07-18 22:56:00,2011,07,8,148,149,16,,,general-reflection,fallback-general,
+049,2011-07-18 22:57:00,2011,07,8,150,151,16,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+050,2011-07-19 00:43:00,2011,07,8,152,154,70,,,announcements-projects,keyword-single,announcements-projects:资料
+051,2011-07-20 18:40:00,2011,07,8,155,161,70,,,announcements-projects,keyword-single,announcements-projects:资料
+052,2011-07-21 16:47:00,2011,07,9,162,164,70,,,announcements-projects,keyword-single,announcements-projects:资料
+053,2011-07-22 23:43:00,2011,07,9,165,168,81,,,announcements-projects,keyword-single,announcements-projects:资料
+054,2011-08-01 18:49:00,2011,08,9,169,170,27,,,general-reflection,fallback-general,
+055,2011-08-05 20:30:00,2011,08,9,171,173,48,,,practice-experience,keyword-single,practice-experience:方法
+056,2011-08-10 15:44:00,2011,08,9,174,175,16,,,general-reflection,fallback-general,
+057,2011-08-11 14:05:00,2011,08,9,176,182,68,,,announcements-projects,keyword-single,announcements-projects:资料
+058,2011-08-16 00:20:00,2011,08,10,183,184,23,,,general-reflection,fallback-general,
+059,2011-08-18 14:21:00,2011,08,10,185,186,21,,,general-reflection,fallback-general,
+060,2011-08-20 13:05:00,2011,08,10,187,188,30,,,general-reflection,fallback-general,
+061,2011-08-22 17:38:00,2011,08,10,189,190,25,,,general-reflection,fallback-general,
+062,2011-08-23 13:07:00,2011,08,10,191,193,67,,,general-reflection,fallback-general,
+063,2011-08-28 14:11:00,2011,08,10,194,197,122,,,general-reflection,fallback-general,
+064,2011-08-30 19:52:00,2011,08,10,198,204,65,,,general-reflection,fallback-general,
+065,2011-09-01 00:59:00,2011,09,11,205,207,87,,,announcements-projects,keyword-single,announcements-projects:资料
+066,2011-09-01 13:41:00,2011,09,11,208,210,68,,,announcements-projects,keyword-single,announcements-projects:资料
+067,2011-09-03 16:12:00,2011,09,11,211,212,25,,,practice-experience,keyword-single,practice-experience:观察
+068,2011-09-06 13:37:00,2011,09,11,213,214,26,,,practice-experience|measurement-science,keyword-multi,practice-experience:观察|measurement-science:科学
+069,2011-09-12 13:33:00,2011,09,11,215,216,26,,,consciousness-awakening|measurement-science,keyword-multi,consciousness-awakening:意识|measurement-science:科学
+070,2011-09-14 13:18:00,2011,09,11,217,223,61,,,general-reflection,fallback-general,
+071,2011-09-14 13:31:00,2011,09,12,224,227,129,,,general-reflection,fallback-general,
+072,2011-09-15 08:54:00,2011,09,12,228,230,68,,,announcements-projects,keyword-single,announcements-projects:资料
+073,2011-09-15 19:59:00,2011,09,12,231,232,21,,,general-reflection,fallback-general,
+074,2011-09-15 20:01:00,2011,09,12,233,235,50,,,general-reflection,fallback-general,
+075,2011-10-07 23:45:00,2011,10,12,236,237,26,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+076,2011-10-21 19:32:00,2011,10,12,238,245,70,,,announcements-projects,keyword-single,announcements-projects:资料
+077,2012-01-01 12:48:00,2012,01,13,246,247,6,,,general-reflection,fallback-general,
+078,2012-01-23 17:16:00,2012,01,13,248,250,15,,,general-reflection,fallback-general,
+079,2012-04-28 18:52:00,2012,04,13,251,253,36,,,general-reflection,fallback-general,
+080,2012-06-16 09:56:00,2012,06,13,254,255,15,,,general-reflection,fallback-general,
+081,2012-06-20 22:09:00,2012,06,13,256,264,210,,https://weibo.cn/sinaurl?u=http%睢A%睡F%,practice-experience,keyword-single,practice-experience:方法
+082,2012-06-28 22:30:00,2012,06,14,265,267,40,,,general-reflection,fallback-general,
+083,2012-07-18 18:18:00,2012,07,14,268,269,32,,,general-reflection,fallback-general,
+084,2012-07-23 00:12:00,2012,07,14,270,271,18,,,practice-experience,keyword-single,practice-experience:实修
+085,2012-07-24 16:01:00,2012,07,14,272,275,98,,,announcements-projects,keyword-single,announcements-projects:声明
+086,2012-07-24 18:30:00,2012,07,14,276,279,117,,,announcements-projects,keyword-single,announcements-projects:声明
+087,2012-07-26 21:58:00,2012,07,14,280,286,12,,,general-reflection,fallback-general,
+088,2012-08-01 22:04:00,2012,08,15,287,288,50,,,general-reflection,fallback-general,
+089,2012-08-03 21:24:00,2012,08,15,289,290,38,,,general-reflection,fallback-general,
+090,2012-08-06 22:43:00,2012,08,15,291,292,34,,,general-reflection,fallback-general,
+091,2012-08-25 21:31:00,2012,08,15,293,295,51,,,general-reflection,fallback-general,
+092,2012-09-03 12:36:00,2012,09,15,296,298,72,,,announcements-projects,keyword-single,announcements-projects:资料
+093,2012-09-03 14:25:00,2012,09,15,299,305,66,,,announcements-projects,keyword-single,announcements-projects:资料
+094,2012-09-05 00:28:00,2012,09,16,306,308,70,,,announcements-projects,keyword-single,announcements-projects:资料
+095,2012-09-05 01:55:00,2012,09,16,309,311,63,,,general-reflection,fallback-general,
+096,2012-09-15 09:16:00,2012,09,16,312,314,48,,,general-reflection,fallback-general,
+097,2012-09-21 08:59:00,2012,09,16,315,317,46,,,general-reflection,fallback-general,
+098,2012-10-14 12:41:00,2012,10,16,318,320,19,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+099,2013-02-09 13:58:00,2013,02,16,321,327,8,,,general-reflection,fallback-general,
+100,2013-07-17 22:23:00,2013,07,17,328,331,102,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+101,2013-07-20 22:23:00,2013,07,17,332,336,102,,,practice-experience,keyword-single,practice-experience:修行
+102,2013-09-18 22:17:00,2013,09,17,337,339,20,,,general-reflection,fallback-general,
+103,2013-10-07 22:13:00,2013,10,17,340,342,57,,,general-reflection,fallback-general,
+104,2013-10-27 12:51:00,2013,10,17,343,349,12,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+105,2013-11-03 11:18:00,2013,11,18,350,351,19,,,general-reflection,fallback-general,
+106,2013-11-16 14:51:00,2013,11,18,352,353,44,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+107,2013-11-17 00:26:00,2013,11,18,354,356,54,,,general-reflection,fallback-general,
+108,2013-11-17 12:58:00,2013,11,18,357,358,53,,,general-reflection,fallback-general,
+109,2013-11-25 23:16:00,2013,11,18,359,361,11,,,hypnosis-reincarnation|relationships-society-commentary,keyword-multi,hypnosis-reincarnation:轮回|relationships-society-commentary:迷信
+110,2013-12-24 18:58:00,2013,12,18,362,367,8,,,general-reflection,fallback-general,
+111,2013-12-24 21:52:00,2013,12,19,368,370,4,,,general-reflection,fallback-general,
+112,2014-01-01 21:52:00,2014,01,19,371,372,9,,,general-reflection,fallback-general,
+113,2014-01-11 11:10:00,2014,01,19,373,375,76,,,general-reflection,fallback-general,
+114,2014-01-24 23:49:00,2014,01,19,376,377,6,,,general-reflection,fallback-general,
+115,2014-01-29 22:37:00,2014,01,19,378,380,16,,,general-reflection,fallback-general,
+116,2014-02-14 19:03:00,2014,02,19,381,386,15,,,general-reflection,fallback-general,
+117,2014-02-17 15:50:00,2014,02,20,387,388,25,,,general-reflection,fallback-general,
+118,2014-02-23 18:20:00,2014,02,20,389,391,24,,,general-reflection,fallback-general,
+119,2014-03-22 00:48:00,2014,03,20,392,393,38,,,general-reflection,fallback-general,
+120,2014-03-29 20:07:00,2014,03,20,394,396,33,,,general-reflection,fallback-general,
+121,2014-04-22 21:40:00,2014,04,20,397,399,15,,,general-reflection,fallback-general,
+122,2014-08-23 16:49:00,2014,08,20,400,406,9,,,general-reflection,fallback-general,
+123,2014-09-06 09:34:00,2014,09,21,407,409,8,,,general-reflection,fallback-general,
+124,2014-11-08 13:37:00,2014,11,21,410,412,10,,,general-reflection,fallback-general,
+125,2014-12-20 16:32:00,2014,12,21,413,414,10,,,general-reflection,fallback-general,
+126,2014-12-24 20:21:00,2014,12,21,415,416,11,,,general-reflection,fallback-general,
+127,2014-12-31 19:02:00,2014,12,21,417,423,22,,,general-reflection,fallback-general,
+128,2015-01-09 11:26:00,2015,01,22,424,425,20,,,general-reflection,fallback-general,
+129,2015-01-11 13:56:00,2015,01,22,426,427,13,,,hypnosis-reincarnation|origin-cosmos-time-space,keyword-multi,hypnosis-reincarnation:轮回|origin-cosmos-time-space:本源
+130,2015-01-11 13:59:00,2015,01,22,428,429,28,,,general-reflection,fallback-general,
+131,2015-01-11 14:01:00,2015,01,22,430,431,31,,,general-reflection,fallback-general,
+132,2015-01-18 18:23:00,2015,01,22,432,433,14,,,general-reflection,fallback-general,
+133,2015-01-28 14:10:00,2015,01,22,434,440,24,,,practice-experience,keyword-single,practice-experience:实践
+134,2015-02-19 12:50:00,2015,02,23,441,443,12,,,general-reflection,fallback-general,
+135,2015-05-24 01:03:00,2015,05,23,444,446,17,,,general-reflection,fallback-general,
+136,2015-10-01 05:04:00,2015,10,23,447,448,23,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+137,2015-10-23 06:35:00,2015,10,23,449,451,22,,,general-reflection,fallback-general,
+138,2015-11-13 01:24:00,2015,11,23,452,457,20,,,general-reflection,fallback-general,
+139,2015-11-15 20:38:00,2015,11,24,458,459,33,,,general-reflection,fallback-general,
+140,2015-11-26 10:59:00,2015,11,24,460,463,138,,,general-reflection,fallback-general,
+141,2016-01-01 09:16:00,2016,01,24,464,465,11,,,general-reflection,fallback-general,
+142,2016-01-24 00:57:00,2016,01,24,466,468,30,,,general-reflection,fallback-general,
+143,2016-02-09 23:30:00,2016,02,24,469,470,12,,,general-reflection,fallback-general,
+144,2016-02-24 15:10:00,2016,02,24,471,477,6,,,general-reflection,fallback-general,
+145,2016-03-13 13:51:00,2016,03,25,478,479,9,,,general-reflection,fallback-general,
+146,2016-03-21 01:01:00,2016,03,25,480,482,18,,,general-reflection,fallback-general,
+147,2016-04-24 10:33:00,2016,04,25,483,485,16,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+148,2016-07-03 13:45:00,2016,07,25,486,490,196,,,general-reflection,fallback-general,
+149,2016-12-26 01:05:00,2016,12,25,491,496,40,,,general-reflection,fallback-general,
+150,2016-12-26 13:24:00,2016,12,26,497,505,591,,,general-reflection,fallback-general,
+151,2017-01-28 14:45:00,2017,01,26,506,508,4,,,general-reflection,fallback-general,
+152,2017-02-14 20:13:00,2017,02,26,509,511,17,,,general-reflection,fallback-general,
+153,2017-06-01 20:15:00,2017,06,26,512,517,11,,,general-reflection,fallback-general,
+154,2017-06-21 21:24:00,2017,06,27,518,520,32,,,consciousness-awakening,keyword-single,consciousness-awakening:灵魂
+155,2017-07-04 14:07:00,2017,07,27,521,526,73,,,general-reflection,fallback-general,
+156,2017-07-06 08:44:00,2017,07,27,527,529,41,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+157,2017-07-10 12:07:00,2017,07,27,530,531,43,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+158,2017-07-17 23:04:00,2017,07,27,532,534,69,,,general-reflection,fallback-general,
+159,2017-07-20 22:44:00,2017,07,27,535,540,18,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:轮回
+160,2017-07-25 16:22:00,2017,07,28,541,549,152,,,announcements-projects,keyword-single,announcements-projects:网站
+161,2017-08-10 21:35:00,2017,08,28,550,551,13,,,general-reflection,fallback-general,
+162,2017-08-20 01:30:00,2017,08,28,552,553,16,,,general-reflection,fallback-general,
+163,2017-08-26 13:12:00,2017,08,28,554,555,29,,,practice-experience,keyword-single,practice-experience:方法
+164,2017-08-26 13:15:00,2017,08,28,556,557,33,,,practice-experience,keyword-single,practice-experience:方法
+165,2017-08-26 13:38:00,2017,08,28,558,563,35,,,origin-cosmos-time-space|practice-experience,keyword-multi,origin-cosmos-time-space:本源|practice-experience:修炼
+166,2017-08-26 14:08:00,2017,08,29,564,565,25,,,practice-experience,keyword-single,practice-experience:修炼
+167,2017-08-29 13:24:00,2017,08,29,566,573,142,,,general-reflection,fallback-general,
+168,2017-09-11 20:01:00,2017,09,29,574,575,26,,,general-reflection,fallback-general,
+169,2017-09-21 15:52:00,2017,09,29,576,578,36,,,announcements-projects,keyword-single,announcements-projects:声明
+170,2017-10-02 23:11:00,2017,10,29,579,585,119,,,general-reflection,fallback-general,
+171,2017-10-04 08:09:00,2017,10,30,586,587,7,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:催眠
+172,2017-10-04 16:29:00,2017,10,30,588,589,26,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:轮回
+173,2017-10-12 14:43:00,2017,10,30,590,592,62,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:轮回
+174,2017-10-17 10:05:00,2017,10,30,593,594,23,,,general-reflection,fallback-general,
+175,2017-10-17 13:58:00,2017,10,30,595,596,31,,,general-reflection,fallback-general,
+176,2017-10-17 15:13:00,2017,10,30,597,603,96,,http://weibo.com/p/,general-reflection,fallback-general,
+177,2017-10-29 23:34:00,2017,10,31,604,612,221,,http://blog.sina.com.cn/s/blog_睥睧ee睠睟ad睟睠睟睡x睨j睧.html?mark_id,hypnosis-reincarnation|measurement-science,keyword-multi,hypnosis-reincarnation:轮回|measurement-science:实验
+178,2017-11-05 14:48:00,2017,11,31,613,616,118,,http://blog.sina.com.cn/s/blog_睥睧ee睠睟ad睟睠睟睟rihz.html?,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+179,2017-11-06 14:27:00,2017,11,31,617,619,57,,,general-reflection,fallback-general,
+180,2017-11-06 14:30:00,2017,11,31,620,621,26,,,general-reflection,fallback-general,
+181,2017-11-09 20:56:00,2017,11,31,622,629,151,,http://blog.sina.com.cn/s/blog_睥睧ee睠睟ad睟睠睟睡xatu.html?ref=,measurement-science|relationships-society-commentary,keyword-multi,measurement-science:实验|relationships-society-commentary:认知
+182,2017-11-12 18:14:00,2017,11,32,630,631,37,,,general-reflection,fallback-general,
+183,2017-11-16 20:14:00,2017,11,32,632,633,10,,,general-reflection,fallback-general,
+184,2017-11-17 19:04:00,2017,11,32,634,635,23,,,general-reflection,fallback-general,
+185,2017-11-23 16:02:00,2017,11,32,636,637,15,,,general-reflection,fallback-general,
+186,2017-11-29 21:41:00,2017,11,32,638,641,29,本次仅导出文字，未包含 1 张图片,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+187,2017-12-23 09:44:00,2017,12,32,642,643,12,,,general-reflection,fallback-general,
+188,2017-12-24 10:45:00,2017,12,32,644,649,4,,,general-reflection,fallback-general,
+189,2017-12-30 17:34:00,2017,12,33,650,651,14,,,general-reflection,fallback-general,
+190,2017-12-31 10:53:00,2017,12,33,652,654,27,,,general-reflection,fallback-general,
+191,2018-01-01 00:07:00,2018,01,33,655,656,8,,,general-reflection,fallback-general,
+192,2018-01-02 00:43:00,2018,01,33,657,658,17,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+193,2018-01-09 16:15:00,2018,01,33,659,660,24,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+194,2018-01-12 07:40:00,2018,01,33,661,662,10,,,general-reflection,fallback-general,
+195,2018-01-13 18:17:00,2018,01,33,663,668,5,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:催眠
+196,2018-01-13 22:16:00,2018,01,34,669,670,26,,,general-reflection,fallback-general,
+197,2018-01-15 20:21:00,2018,01,34,671,673,108,,https://weibo.cn/sinaurl?u=http%睢A%睡F%,general-reflection,fallback-general,
+198,2018-01-16 14:24:00,2018,01,34,674,675,12,,,freewill-freedom-choice,keyword-single,freewill-freedom-choice:自由意志
+199,2018-01-20 09:40:00,2018,01,34,676,677,32,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催醒
+200,2018-01-24 20:17:00,2018,01,34,678,679,28,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催眠
+201,2018-01-27 08:29:00,2018,01,34,680,682,57,,,general-reflection,fallback-general,
+202,2018-01-27 15:44:00,2018,01,34,683,689,35,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+203,2018-01-27 18:22:00,2018,01,35,690,692,64,,,general-reflection,fallback-general,
+204,2018-01-29 20:44:00,2018,01,35,693,695,21,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催眠
+205,2018-02-07 00:09:00,2018,02,35,696,697,7,,,general-reflection,fallback-general,
+206,2018-02-09 20:16:00,2018,02,35,698,700,67,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|practice-experience:修行
+207,2018-02-15 13:03:00,2018,02,35,701,705,173,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?,general-reflection,fallback-general,
+208,2018-02-18 12:05:00,2018,02,35,706,711,13,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+209,2018-02-19 14:44:00,2018,02,36,712,715,144,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+210,2018-02-20 14:22:00,2018,02,36,716,717,15,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+211,2018-02-20 18:41:00,2018,02,36,718,719,14,,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+212,2018-02-21 20:18:00,2018,02,36,720,721,10,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+213,2018-02-22 19:40:00,2018,02,36,722,723,12,,,general-reflection,fallback-general,
+214,2018-02-23 21:44:00,2018,02,36,724,725,17,,,general-reflection,fallback-general,
+215,2018-02-24 14:25:00,2018,02,36,726,731,9,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+216,2018-02-26 21:59:00,2018,02,37,732,734,56,,,measurement-science,keyword-single,measurement-science:科学
+217,2018-02-27 15:47:00,2018,02,37,735,744,149,,,practice-experience,keyword-single,practice-experience:实修
+218,2018-02-27 17:52:00,2018,02,37,745,759,112,,,measurement-science,keyword-single,measurement-science:科学
+219,2018-03-02 15:15:00,2018,03,38,760,761,5,,,general-reflection,fallback-general,
+220,2018-03-02 16:23:00,2018,03,38,762,765,130,本次仅导出文字，未包含 1 张图片,http://weibo.com/ttarticle/p/show?id,general-reflection,fallback-general,
+221,2018-03-03 12:30:00,2018,03,38,766,767,17,,,general-reflection,fallback-general,
+222,2018-03-08 16:01:00,2018,03,38,768,769,14,,,general-reflection,fallback-general,
+223,2018-03-09 20:02:00,2018,03,38,770,771,17,,,general-reflection,fallback-general,
+224,2018-03-10 14:32:00,2018,03,38,772,777,10,,,general-reflection,fallback-general,
+225,2018-03-18 21:39:00,2018,03,39,778,784,135,,,measurement-science,keyword-single,measurement-science:频率
+226,2018-03-23 09:23:00,2018,03,39,785,787,79,,,general-reflection,fallback-general,
+227,2018-03-27 22:10:00,2018,03,39,788,791,106,,http://睠睥睢.lu/睧睠jkO睟?mark_id=followtopweibo,general-reflection,fallback-general,
+228,2018-04-03 04:36:06,2018,04,39,792,793,7,,,general-reflection,fallback-general,
+229,2018-04-04 23:43:00,2018,04,39,794,801,107,,https://mp.weixin.qq.com/s/goxTQ睧jLNhJfatrdj睡mJ睟Q?mark_id=,consciousness-awakening,keyword-single,consciousness-awakening:意识
+230,2018-04-12 15:10:00,2018,04,40,802,806,64,,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:本源|freewill-freedom-choice:自由
+231,2018-04-13 16:45:00,2018,04,40,807,808,23,,,general-reflection,fallback-general,
+232,2018-04-18 21:37:00,2018,04,40,809,814,57,,,general-reflection,fallback-general,
+233,2018-04-22 12:41:00,2018,04,40,815,817,99,,https://weibo.cn/sinaurl?u=http%睢A,hypnosis-reincarnation|memory-dream-perception,keyword-multi,hypnosis-reincarnation:前世|memory-dream-perception:回忆
+234,2018-04-25 18:46:00,2018,04,40,818,825,103,,https://www.xiami.com/mv/,hypnosis-reincarnation|memory-dream-perception,keyword-multi,hypnosis-reincarnation:前世|memory-dream-perception:回忆
+235,2018-05-08 19:28:00,2018,05,41,826,828,30,,,consciousness-awakening|measurement-science,keyword-multi,consciousness-awakening:意识|measurement-science:频率
+236,2018-05-11 15:40:00,2018,05,41,829,830,12,,,general-reflection,fallback-general,
+237,2018-05-11 16:01:00,2018,05,41,831,836,82,,,freewill-freedom-choice,keyword-single,freewill-freedom-choice:自由意志
+238,2018-05-11 19:46:00,2018,05,41,837,839,21,,,practice-experience,keyword-single,practice-experience:体验
+239,2018-05-13 20:35:00,2018,05,41,840,846,42,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催醒
+240,2018-05-16 23:21:00,2018,05,42,847,850,112,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+241,2018-05-20 11:57:00,2018,05,42,851,852,6,,,general-reflection,fallback-general,
+242,2018-05-21 21:32:00,2018,05,42,853,855,45,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+243,2018-05-31 22:03:00,2018,05,42,856,858,8,,,general-reflection,fallback-general,
+244,2018-06-15 19:15:00,2018,06,42,859,860,18,,,general-reflection,fallback-general,
+245,2018-06-25 10:35:00,2018,06,42,861,868,101,,,general-reflection,fallback-general,
+246,2018-06-28 15:13:00,2018,06,43,869,870,16,,,general-reflection,fallback-general,
+247,2018-06-30 07:45:00,2018,06,43,871,874,32,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+248,2018-07-04 19:18:00,2018,07,43,875,876,8,,,general-reflection,fallback-general,
+249,2018-07-08 14:29:00,2018,07,43,877,878,29,,,general-reflection,fallback-general,
+250,2018-07-10 00:29:00,2018,07,43,879,881,52,,,freewill-freedom-choice,keyword-single,freewill-freedom-choice:自由
+251,2018-07-10 10:54:00,2018,07,43,882,883,20,,,consciousness-awakening,keyword-single,consciousness-awakening:灵魂
+252,2018-07-14 18:13:00,2018,07,43,884,889,38,,,general-reflection,fallback-general,
+253,2018-07-15 23:44:00,2018,07,44,890,891,15,,,general-reflection,fallback-general,
+254,2018-07-15 23:46:00,2018,07,44,892,893,12,,,general-reflection,fallback-general,
+255,2018-07-17 23:35:00,2018,07,44,894,895,33,,,general-reflection,fallback-general,
+256,2018-07-17 23:40:00,2018,07,44,896,897,13,,,general-reflection,fallback-general,
+257,2018-07-17 23:44:00,2018,07,44,898,899,8,,,general-reflection,fallback-general,
+258,2018-07-17 23:46:00,2018,07,44,900,901,6,,,general-reflection,fallback-general,
+259,2018-07-17 23:47:00,2018,07,44,902,903,13,,,general-reflection,fallback-general,
+260,2018-07-17 23:48:00,2018,07,44,904,909,17,,,general-reflection,fallback-general,
+261,2018-07-20 11:46:00,2018,07,45,910,912,25,,,general-reflection,fallback-general,
+262,2018-07-21 10:18:00,2018,07,45,913,915,25,,,general-reflection,fallback-general,
+263,2018-07-27 23:33:00,2018,07,45,916,917,18,,,freewill-freedom-choice,keyword-single,freewill-freedom-choice:自由
+264,2018-07-31 14:32:00,2018,07,45,918,922,32,,,general-reflection,fallback-general,
+265,2018-08-04 10:43:00,2018,08,45,923,924,12,,,general-reflection,fallback-general,
+266,2018-08-12 00:30:00,2018,08,45,925,932,169,,,general-reflection,fallback-general,
+267,2018-09-06 22:25:00,2018,09,46,933,934,14,,,general-reflection,fallback-general,
+268,2018-09-15 23:49:00,2018,09,46,935,936,16,,,general-reflection,fallback-general,
+269,2018-09-22 18:11:00,2018,09,46,937,938,4,,,general-reflection,fallback-general,
+270,2018-09-29 23:47:00,2018,09,46,939,941,16,,,general-reflection,fallback-general,
+271,2018-10-03 21:23:00,2018,10,46,942,943,14,,,general-reflection,fallback-general,
+272,2018-10-13 11:12:00,2018,10,46,944,951,117,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+273,2018-10-30 21:40:00,2018,10,47,952,954,8,,,general-reflection,fallback-general,
+274,2018-11-09 23:29:00,2018,11,47,955,956,18,,,general-reflection,fallback-general,
+275,2018-11-10 10:13:00,2018,11,47,957,958,28,,,general-reflection,fallback-general,
+276,2018-11-18 13:06:00,2018,11,47,959,960,12,,,consciousness-awakening|origin-cosmos-time-space,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:本源
+277,2018-11-18 13:08:00,2018,11,47,961,964,37,,,general-reflection,fallback-general,
+278,2018-12-16 11:47:00,2018,12,47,965,971,109,,,general-reflection,fallback-general,
+279,2018-12-24 14:16:00,2018,12,48,972,973,4,,,general-reflection,fallback-general,
+280,2018-12-29 01:00:00,2018,12,48,974,975,6,,,general-reflection,fallback-general,
+281,2018-12-30 21:40:00,2018,12,48,976,977,32,,,general-reflection,fallback-general,
+282,2018-12-31 20:16:00,2018,12,48,978,980,4,,,general-reflection,fallback-general,
+283,2019-01-02 00:46:00,2019,01,48,981,984,37,,,general-reflection,fallback-general,
+284,2019-01-02 13:38:00,2019,01,48,985,986,13,,,general-reflection,fallback-general,
+285,2019-01-04 12:26:00,2019,01,48,987,993,15,,,general-reflection,fallback-general,
+286,2019-01-04 12:33:00,2019,01,49,994,996,31,,,general-reflection,fallback-general,
+287,2019-01-07 13:10:00,2019,01,49,997,1000,94,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+288,2019-01-11 11:47:00,2019,01,49,1001,1003,27,,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+289,2019-01-11 21:41:00,2019,01,49,1004,1008,218,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,general-reflection,fallback-general,
+290,2019-01-12 13:34:00,2019,01,49,1009,1010,10,,,general-reflection,fallback-general,
+291,2019-01-27 10:56:00,2019,01,49,1011,1016,16,,,general-reflection,fallback-general,
+292,2019-01-30 14:13:00,2019,01,50,1017,1020,120,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=,general-reflection,fallback-general,
+293,2019-01-30 17:12:00,2019,01,50,1021,1023,15,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+294,2019-02-04 22:45:00,2019,02,50,1024,1025,8,,,general-reflection,fallback-general,
+295,2019-02-18 21:06:00,2019,02,50,1026,1028,39,,,practice-experience,keyword-single,practice-experience:实践
+296,2019-02-20 21:44:00,2019,02,50,1029,1037,89,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:催眠
+297,2019-03-19 20:07:00,2019,03,51,1038,1041,16,,,freewill-freedom-choice,keyword-single,freewill-freedom-choice:自由
+298,2019-04-20 14:24:00,2019,04,51,1042,1043,21,,,general-reflection,fallback-general,
+299,2019-04-23 08:37:00,2019,04,51,1044,1046,24,,,general-reflection,fallback-general,
+300,2019-05-01 08:09:00,2019,05,51,1047,1049,25,,,general-reflection,fallback-general,
+301,2019-05-07 13:21:00,2019,05,51,1050,1056,33,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+302,2019-05-11 19:20:00,2019,05,52,1057,1058,16,,,freewill-freedom-choice,keyword-single,freewill-freedom-choice:自由
+303,2019-05-13 10:00:00,2019,05,52,1059,1060,10,,,general-reflection,fallback-general,
+304,2019-05-28 19:03:00,2019,05,52,1061,1062,8,,,general-reflection,fallback-general,
+305,2019-05-31 18:58:00,2019,05,52,1063,1065,25,,,practice-experience,keyword-single,practice-experience:观察
+306,2019-06-05 21:02:00,2019,06,52,1066,1068,83,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睢睦睨睨睠睢睠睢睟睧睤睦睦睟,general-reflection,fallback-general,
+307,2019-06-06 23:43:00,2019,06,52,1069,1070,16,,,practice-experience,keyword-single,practice-experience:修炼
+308,2019-06-07 13:29:00,2019,06,52,1071,1076,4,,,general-reflection,fallback-general,
+309,2019-06-08 12:19:00,2019,06,53,1077,1079,14,,,general-reflection,fallback-general,
+310,2019-07-04 17:55:00,2019,07,53,1080,1081,4,,,general-reflection,fallback-general,
+311,2019-07-04 19:14:00,2019,07,53,1082,1083,33,,,memory-dream-perception,keyword-single,memory-dream-perception:感知
+312,2019-07-04 19:46:00,2019,07,53,1084,1086,19,,,general-reflection,fallback-general,
+313,2019-07-05 02:01:00,2019,07,53,1087,1090,102,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+314,2019-07-07 16:30:00,2019,07,53,1091,1096,22,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+315,2019-07-12 23:18:00,2019,07,54,1097,1098,23,,,general-reflection,fallback-general,
+316,2019-07-13 21:32:00,2019,07,54,1099,1100,24,,,general-reflection,fallback-general,
+317,2019-07-25 10:28:00,2019,07,54,1101,1103,56,,,general-reflection,fallback-general,
+318,2019-08-07 17:25:00,2019,08,54,1104,1105,4,,,general-reflection,fallback-general,
+319,2019-08-29 23:18:00,2019,08,54,1106,1110,119,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督督睠睟睦睤睟睠睡睢睢睡,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|practice-experience:修行
+320,2019-09-14 08:14:00,2019,09,54,1111,1116,4,,,general-reflection,fallback-general,
+321,2019-09-21 09:46:00,2019,09,55,1117,1121,105,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+322,2019-10-06 11:38:00,2019,10,55,1122,1126,109,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+323,2019-10-25 21:44:00,2019,10,55,1127,1131,99,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+324,2019-11-04 17:56:00,2019,11,55,1132,1140,93,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:转世
+325,2019-12-24 20:01:00,2019,12,56,1141,1144,29,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+326,2020-01-01 01:10:00,2020,01,56,1145,1146,4,,,general-reflection,fallback-general,
+327,2020-01-19 18:35:00,2020,01,56,1147,1148,16,,,general-reflection,fallback-general,
+328,2020-01-22 23:24:00,2020,01,56,1149,1150,13,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+329,2020-01-25 09:37:00,2020,01,56,1151,1153,104,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fmp.weixin.qq.com%,freewill-freedom-choice,keyword-single,freewill-freedom-choice:自由意志
+330,2020-01-25 09:42:00,2020,01,56,1154,1160,139,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fm.v.qq.com%睡Fplay.html%,freewill-freedom-choice,keyword-single,freewill-freedom-choice:自由意志
+331,2020-01-27 09:23:00,2020,01,57,1161,1164,87,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督督睥睤睡睥睟督睧睤睢督睤睡,general-reflection,fallback-general,
+332,2020-03-03 19:45:00,2020,03,57,1165,1168,111,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+333,2020-03-06 22:43:00,2020,03,57,1169,1172,106,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=,general-reflection,fallback-general,
+334,2020-03-27 20:26:00,2020,03,57,1173,1177,116,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+335,2020-04-18 20:47:00,2020,04,57,1178,1186,97,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+336,2020-05-06 16:48:00,2020,05,58,1187,1188,26,,,general-reflection,fallback-general,
+337,2020-05-09 19:55:00,2020,05,58,1189,1190,27,,,general-reflection,fallback-general,
+338,2020-05-11 17:57:00,2020,05,58,1191,1192,23,,,general-reflection,fallback-general,
+339,2020-05-14 19:46:00,2020,05,58,1193,1202,172,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|practice-experience:修行
+340,2020-05-17 12:48:00,2020,05,59,1203,1211,259,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fmp.weixin.qq.com,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|health-body-biology,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|origin-cosmos-time-space:本源|health-body-biology:DNA
+341,2020-05-19 19:57:00,2020,05,59,1212,1216,181,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|practice-experience:修行|measurement-science:检测
+342,2020-05-20 20:02:00,2020,05,59,1217,1225,181,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自主|practice-experience:修行|measurement-science:检测
+343,2020-05-21 19:35:00,2020,05,60,1226,1230,181,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|practice-experience:修行|measurement-science:检测
+344,2020-05-23 19:53:00,2020,05,60,1231,1235,181,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|practice-experience:修行|measurement-science:检测
+345,2020-05-24 17:59:00,2020,05,60,1236,1241,181,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|practice-experience:修行|measurement-science:检测
+346,2020-06-08 09:55:00,2020,06,60,1242,1247,23,,,general-reflection,fallback-general,
+347,2020-06-09 21:19:00,2020,06,61,1248,1252,181,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|practice-experience|measurement-science|health-body-biology,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|practice-experience:修行|measurement-science:检测|health-body-biology:神经
+348,2020-06-13 17:13:00,2020,06,61,1253,1257,181,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|practice-experience:修行|measurement-science:检测
+349,2020-06-18 22:43:00,2020,06,61,1258,1262,181,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|practice-experience:修行|measurement-science:检测
+350,2020-06-20 00:45:00,2020,06,61,1263,1271,181,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|practice-experience:修行|measurement-science:检测
+351,2020-06-20 17:06:00,2020,06,62,1272,1277,191,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,consciousness-awakening|origin-cosmos-time-space|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|practice-experience:修行|measurement-science:检测
+352,2020-07-19 19:44:00,2020,07,62,1278,1281,90,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睤睡睧督睦睡睤睡睥睟睨督睢睥,general-reflection,fallback-general,
+353,2020-08-24 20:58:00,2020,08,62,1282,1285,91,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睤督睠睤睢睦睟睥睠睥睢督睟,general-reflection,fallback-general,
+354,2020-09-22 18:03:00,2020,09,62,1286,1291,41,,,general-reflection,fallback-general,
+355,2020-09-26 21:35:00,2020,09,63,1292,1296,62,,,practice-experience,keyword-single,practice-experience:方法
+356,2020-10-01 19:00:00,2020,10,63,1297,1298,17,,,general-reflection,fallback-general,
+357,2020-10-10 12:11:00,2020,10,63,1299,1302,87,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睤睤睧督睢睤睨睧督睟睠,general-reflection,fallback-general,
+358,2020-12-31 01:01:00,2020,12,63,1303,1305,28,,,health-body-biology,keyword-single,health-body-biology:DNA
+359,2021-01-01 14:47:00,2021,01,63,1306,1311,16,,,general-reflection,fallback-general,
+360,2021-01-06 11:07:00,2021,01,64,1312,1314,115,,https://weibo.cn,general-reflection,fallback-general,
+361,2021-01-18 22:28:00,2021,01,64,1315,1316,29,,,general-reflection,fallback-general,
+362,2021-01-23 23:58:00,2021,01,64,1317,1321,142,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,general-reflection,fallback-general,
+363,2021-02-10 14:03:00,2021,02,64,1322,1325,93,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+364,2021-02-11 23:54:00,2021,02,64,1326,1328,33,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+365,2021-02-12 00:29:00,2021,02,64,1329,1335,81,,https://video.weibo.com/show?fid=睠睟睢督:,consciousness-awakening,keyword-single,consciousness-awakening:意识
+366,2021-02-13 18:11:00,2021,02,65,1336,1338,103,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fmp.weixin.qq.com%睡Fs,consciousness-awakening,keyword-single,consciousness-awakening:意识
+367,2021-02-14 20:50:00,2021,02,65,1339,1341,98,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fmp.weixin.qq.com%睡Fs%,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:催眠
+368,2021-02-14 20:51:00,2021,02,65,1342,1344,98,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fmp.weixin.qq.com%睡Fs%,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:催眠
+369,2021-02-26 19:27:00,2021,02,65,1345,1347,5,,,general-reflection,fallback-general,
+370,2021-03-11 09:44:00,2021,03,65,1348,1351,93,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:催眠
+371,2021-03-14 07:24:00,2021,03,65,1352,1357,22,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:轮回
+372,2021-03-18 10:13:00,2021,03,66,1358,1360,22,,,general-reflection,fallback-general,
+373,2021-03-22 09:23:00,2021,03,66,1361,1362,6,,,general-reflection,fallback-general,
+374,2021-03-30 19:45:00,2021,03,66,1363,1365,37,,,general-reflection,fallback-general,
+375,2021-04-01 10:38:00,2021,04,66,1366,1368,54,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+376,2021-04-23 12:25:00,2021,04,66,1369,1376,14,,,general-reflection,fallback-general,
+377,2021-05-05 18:36:00,2021,05,67,1377,1378,48,,,general-reflection,fallback-general,
+378,2021-05-10 23:48:00,2021,05,67,1379,1383,95,,,general-reflection,fallback-general,
+379,2021-05-12 21:02:00,2021,05,67,1384,1386,37,本次仅导出文字，未包含 1 张图片,,health-body-biology,keyword-single,health-body-biology:DNA
+380,2021-05-15 14:23:00,2021,05,67,1387,1389,87,,https://video.weibo.com/show?fid,general-reflection,fallback-general,
+381,2021-05-17 19:42:00,2021,05,67,1390,1396,83,,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+382,2021-05-19 20:23:00,2021,05,68,1397,1399,111,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,general-reflection,fallback-general,
+383,2021-05-20 16:58:00,2021,05,68,1400,1405,279,,https://weibo.cn/sinaurl?u=https%睢A%,general-reflection,fallback-general,
+384,2021-05-23 14:25:00,2021,05,68,1406,1429,224,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+385,2021-05-25 21:28:00,2021,05,69,1430,1431,10,,,general-reflection,fallback-general,
+386,2021-05-26 21:14:00,2021,05,69,1432,1433,17,,,general-reflection,fallback-general,
+387,2021-05-27 19:28:00,2021,05,69,1434,1435,21,,,general-reflection,fallback-general,
+388,2021-05-28 17:32:00,2021,05,69,1436,1438,55,,,general-reflection,fallback-general,
+389,2021-05-29 20:46:00,2021,05,69,1439,1441,102,,,general-reflection,fallback-general,
+390,2021-05-31 20:49:00,2021,05,69,1442,1453,305,,https://weibo.cn/sinaurl?u,general-reflection,fallback-general,
+391,2021-06-01 10:25:00,2021,06,70,1454,1455,8,,,general-reflection,fallback-general,
+392,2021-06-02 22:35:00,2021,06,70,1456,1463,303,,https://weibo.cn/sinaurl?u=,general-reflection,fallback-general,
+393,2021-06-03 13:47:00,2021,06,70,1464,1465,14,,,general-reflection,fallback-general,
+394,2021-06-03 16:59:00,2021,06,70,1466,1477,298,,https://weibo.cn/sinaurl?u=,memory-dream-perception|relationships-society-commentary,keyword-multi,memory-dream-perception:记忆|relationships-society-commentary:人类
+395,2021-06-04 17:50:00,2021,06,71,1478,1485,300,,https://weibo.cn/sinaurl?u=,relationships-society-commentary,keyword-single,relationships-society-commentary:人类
+396,2021-06-06 18:27:00,2021,06,71,1486,1487,18,,,freewill-freedom-choice,keyword-single,freewill-freedom-choice:自由
+397,2021-06-07 21:54:00,2021,06,71,1488,1489,14,,,general-reflection,fallback-general,
+398,2021-06-08 22:06:00,2021,06,71,1490,1495,257,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fwww.bilibili.com%,general-reflection,fallback-general,
+399,2021-06-09 01:36:00,2021,06,71,1496,1504,165,,,general-reflection,fallback-general,
+400,2021-06-09 20:24:00,2021,06,72,1505,1512,348,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fwww.bilibili.com%,general-reflection,fallback-general,
+401,2021-06-12 00:24:00,2021,06,72,1513,1514,33,,,general-reflection,fallback-general,
+402,2021-06-14 13:17:00,2021,06,72,1515,1516,10,,,general-reflection,fallback-general,
+403,2021-06-17 18:59:00,2021,06,72,1517,1518,8,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+404,2021-06-24 19:28:00,2021,06,72,1519,1520,27,,,general-reflection,fallback-general,
+405,2021-06-25 22:04:00,2021,06,72,1521,1526,14,,,general-reflection,fallback-general,
+406,2021-06-29 07:42:00,2021,06,73,1527,1529,4,,,general-reflection,fallback-general,
+407,2021-07-04 18:11:00,2021,07,73,1530,1531,10,,,general-reflection,fallback-general,
+408,2021-07-05 18:13:00,2021,07,73,1532,1535,26,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:催眠
+409,2021-07-07 16:31:00,2021,07,73,1536,1537,10,,,general-reflection,fallback-general,
+410,2021-07-08 14:47:00,2021,07,73,1538,1540,33,,,general-reflection,fallback-general,
+411,2021-07-08 14:50:00,2021,07,73,1541,1547,33,,,general-reflection,fallback-general,
+412,2021-07-16 00:20:53,2021,07,74,1548,1549,7,,,general-reflection,fallback-general,
+413,2021-07-17 10:22:00,2021,07,74,1550,1551,16,,,general-reflection,fallback-general,
+414,2021-07-17 23:23:00,2021,07,74,1552,1554,27,,,general-reflection,fallback-general,
+415,2021-07-18 21:11:00,2021,07,74,1555,1556,10,,,general-reflection,fallback-general,
+416,2021-07-19 20:13:00,2021,07,74,1557,1559,27,,,general-reflection,fallback-general,
+417,2021-07-24 09:35:00,2021,07,74,1560,1565,10,,,general-reflection,fallback-general,
+418,2021-07-27 23:29:00,2021,07,75,1566,1574,401,,https://weibo.cn/sinaurl?u=https%睢A%,general-reflection,fallback-general,
+419,2021-08-20 20:09:00,2021,08,75,1575,1576,33,,,general-reflection,fallback-general,
+420,2021-08-23 00:13:00,2021,08,75,1577,1578,13,,,general-reflection,fallback-general,
+421,2021-08-24 09:14:00,2021,08,75,1579,1580,10,,,general-reflection,fallback-general,
+422,2021-08-24 09:36:00,2021,08,75,1581,1582,10,,,general-reflection,fallback-general,
+423,2021-08-24 23:58:00,2021,08,75,1583,1588,14,,,general-reflection,fallback-general,
+424,2021-08-26 11:13:00,2021,08,76,1589,1590,10,,,general-reflection,fallback-general,
+425,2021-08-27 15:27:00,2021,08,76,1591,1592,39,,,general-reflection,fallback-general,
+426,2021-08-27 15:28:00,2021,08,76,1593,1594,16,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+427,2021-08-27 15:30:00,2021,08,76,1595,1597,52,,,general-reflection,fallback-general,
+428,2021-08-27 15:51:00,2021,08,76,1598,1599,9,,,general-reflection,fallback-general,
+429,2021-08-27 17:20:00,2021,08,76,1600,1601,15,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+430,2021-08-28 22:46:00,2021,08,76,1602,1607,5,,,general-reflection,fallback-general,
+431,2021-08-29 00:05:00,2021,08,77,1608,1611,21,,,general-reflection,fallback-general,
+432,2021-09-01 13:20:00,2021,09,77,1612,1616,257,,,general-reflection,fallback-general,
+433,2021-09-01 13:21:00,2021,09,77,1617,1618,79,,,general-reflection,fallback-general,
+434,2021-09-01 13:26:00,2021,09,77,1619,1620,88,,,general-reflection,fallback-general,
+435,2021-09-01 13:27:00,2021,09,77,1621,1622,32,,,general-reflection,fallback-general,
+436,2021-09-01 13:27:00,2021,09,77,1623,1628,55,,,general-reflection,fallback-general,
+437,2021-09-01 13:44:00,2021,09,78,1629,1632,193,,,general-reflection,fallback-general,
+438,2021-09-01 20:27:00,2021,09,78,1633,1634,5,,,general-reflection,fallback-general,
+439,2021-09-05 16:24:00,2021,09,78,1635,1636,26,,,general-reflection,fallback-general,
+440,2021-09-07 17:08:00,2021,09,78,1637,1639,47,,,general-reflection,fallback-general,
+441,2021-09-07 21:12:00,2021,09,78,1640,1641,12,,,general-reflection,fallback-general,
+442,2021-09-08 17:47:00,2021,09,78,1642,1644,28,,,general-reflection,fallback-general,
+443,2021-09-09 13:54:00,2021,09,78,1645,1651,34,,,general-reflection,fallback-general,
+444,2021-09-09 16:33:00,2021,09,79,1652,1656,103,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+445,2021-09-10 00:47:00,2021,09,79,1657,1658,17,,,general-reflection,fallback-general,
+446,2021-09-12 18:37:00,2021,09,79,1659,1660,59,,,general-reflection,fallback-general,
+447,2021-09-14 21:19:00,2021,09,79,1661,1662,41,,,general-reflection,fallback-general,
+448,2021-09-16 14:57:00,2021,09,79,1663,1664,17,,,general-reflection,fallback-general,
+449,2021-09-18 22:02:00,2021,09,79,1665,1677,413,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fmp.weixin.qq.com%,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+450,2021-09-19 20:20:00,2021,09,80,1678,1686,412,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fmp.weixin.qq.com%睡Fs,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:空间
+451,2021-09-20 18:00:00,2021,09,80,1687,1688,31,,,general-reflection,fallback-general,
+452,2021-09-20 18:03:00,2021,09,80,1689,1692,137,本次仅导出文字，未包含 1 张图片,https://video.weibo.com,general-reflection,fallback-general,
+453,2021-09-21 10:34:00,2021,09,80,1693,1698,67,,,general-reflection,fallback-general,
+454,2021-09-21 11:23:00,2021,09,81,1699,1700,36,,,general-reflection,fallback-general,
+455,2021-09-22 12:07:00,2021,09,81,1701,1704,130,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show,general-reflection,fallback-general,
+456,2021-09-22 20:38:00,2021,09,81,1705,1708,51,,,consciousness-awakening|origin-cosmos-time-space,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:本源
+457,2021-09-23 13:16:00,2021,09,81,1709,1712,163,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睥睧督睤睥睢睢睨睧睦睡睠睥睤睨,general-reflection,fallback-general,
+458,2021-09-25 23:36:00,2021,09,81,1713,1722,57,,,general-reflection,fallback-general,
+459,2021-09-26 01:00:00,2021,09,82,1723,1724,7,,,general-reflection,fallback-general,
+460,2021-09-26 10:01:00,2021,09,82,1725,1733,84,,,general-reflection,fallback-general,
+461,2021-09-27 18:09:00,2021,09,82,1734,1742,422,,https://weibo.cn/sinaurl?u=https%睢A%睡F%,general-reflection,fallback-general,
+462,2021-09-29 10:28:00,2021,09,82,1743,1749,10,,,general-reflection,fallback-general,
+463,2021-10-01 11:37:00,2021,10,83,1750,1751,11,,,general-reflection,fallback-general,
+464,2021-10-05 23:26:00,2021,10,83,1752,1754,59,本次仅导出文字，未包含 4 张图片,,general-reflection,fallback-general,
+465,2021-10-07 19:50:00,2021,10,83,1755,1757,87,,,general-reflection,fallback-general,
+466,2021-10-09 19:12:00,2021,10,83,1758,1762,139,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+467,2021-10-10 19:00:00,2021,10,83,1763,1768,17,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+468,2021-10-11 17:25:00,2021,10,84,1769,1772,42,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+469,2021-10-12 15:21:00,2021,10,84,1773,1777,148,,,general-reflection,fallback-general,
+470,2021-10-13 17:43:00,2021,10,84,1778,1781,42,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+471,2021-10-13 20:26:00,2021,10,84,1782,1791,44,,,general-reflection,fallback-general,
+472,2021-10-13 20:29:00,2021,10,85,1792,1795,41,,,general-reflection,fallback-general,
+473,2021-10-13 21:23:00,2021,10,85,1796,1801,66,,,memory-dream-perception,keyword-single,memory-dream-perception:记忆
+474,2021-10-13 21:25:00,2021,10,85,1802,1805,43,,,consciousness-awakening|memory-dream-perception,keyword-multi,consciousness-awakening:灵魂|memory-dream-perception:记忆
+475,2021-10-13 21:55:00,2021,10,85,1806,1818,110,,,consciousness-awakening|origin-cosmos-time-space,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:本源
+476,2021-10-14 14:35:00,2021,10,86,1819,1820,16,,,general-reflection,fallback-general,
+477,2021-10-15 17:50:00,2021,10,86,1821,1822,18,,,general-reflection,fallback-general,
+478,2021-10-16 20:33:00,2021,10,86,1823,1824,36,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:催眠
+479,2021-10-17 20:29:00,2021,10,86,1825,1827,69,,,general-reflection,fallback-general,
+480,2021-10-17 21:02:00,2021,10,86,1828,1829,11,,,general-reflection,fallback-general,
+481,2021-10-19 14:05:00,2021,10,86,1830,1833,98,,,general-reflection,fallback-general,
+482,2021-10-22 15:56:00,2021,10,86,1834,1839,24,,,general-reflection,fallback-general,
+483,2021-10-25 23:40:00,2021,10,87,1840,1841,38,,,general-reflection,fallback-general,
+484,2021-10-26 18:30:00,2021,10,87,1842,1844,23,,,general-reflection,fallback-general,
+485,2021-10-27 17:46:00,2021,10,87,1845,1847,25,,,general-reflection,fallback-general,
+486,2021-10-27 20:31:00,2021,10,87,1848,1849,16,,,general-reflection,fallback-general,
+487,2021-10-30 22:57:00,2021,10,87,1850,1852,10,,,general-reflection,fallback-general,
+488,2021-11-01 15:40:00,2021,11,87,1853,1854,10,,,general-reflection,fallback-general,
+489,2021-11-07 00:05:00,2021,11,87,1855,1860,16,,,memory-dream-perception,keyword-single,memory-dream-perception:幻象
+490,2021-11-09 12:47:00,2021,11,88,1861,1867,91,,,practice-experience,keyword-single,practice-experience:修行
+491,2021-11-09 12:49:00,2021,11,88,1868,1870,46,,,practice-experience,keyword-single,practice-experience:修行
+492,2021-11-09 18:33:00,2021,11,88,1871,1872,12,,,consciousness-awakening|memory-dream-perception,keyword-multi,consciousness-awakening:灵魂|memory-dream-perception:记忆
+493,2021-11-13 18:08:00,2021,11,88,1873,1878,249,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睦睟睢睠睠睧睥睡睡睠睢睟睡督睨,general-reflection,fallback-general,
+494,2021-11-15 18:46:00,2021,11,88,1879,1884,29,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:意识|practice-experience:观察
+495,2021-11-16 19:15:00,2021,11,89,1885,1886,19,,,general-reflection,fallback-general,
+496,2021-11-19 18:57:00,2021,11,89,1887,1890,124,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睦睟睤睢睟睤睦睟睧睢睨睥睥睢督,general-reflection,fallback-general,
+497,2021-11-25 13:52:00,2021,11,89,1891,1892,26,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+498,2021-11-26 21:06:00,2021,11,89,1893,1895,26,,,general-reflection,fallback-general,
+499,2021-11-27 08:51:00,2021,11,89,1896,1897,11,,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+500,2021-11-29 12:55:00,2021,11,89,1898,1906,42,,,general-reflection,fallback-general,
+501,2021-11-30 16:07:00,2021,11,90,1907,1910,54,,,general-reflection,fallback-general,
+502,2021-12-04 22:31:00,2021,12,90,1911,1913,33,,,general-reflection,fallback-general,
+503,2021-12-07 12:27:00,2021,12,90,1914,1916,35,,,general-reflection,fallback-general,
+504,2021-12-08 17:38:00,2021,12,90,1917,1919,47,本次仅导出文字，未包含 1 张图片,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+505,2021-12-09 17:28:00,2021,12,90,1920,1922,47,本次仅导出文字，未包含 1 张图片,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+506,2021-12-11 12:41:00,2021,12,90,1923,1929,33,,,general-reflection,fallback-general,
+507,2021-12-11 12:56:00,2021,12,91,1930,1932,29,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:轮回
+508,2021-12-13 15:36:00,2021,12,91,1933,1935,28,,,general-reflection,fallback-general,
+509,2021-12-13 21:26:00,2021,12,91,1936,1937,69,,,general-reflection,fallback-general,
+510,2021-12-14 18:34:00,2021,12,91,1938,1940,24,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+511,2021-12-15 00:31:00,2021,12,91,1941,1942,56,,,general-reflection,fallback-general,
+512,2021-12-15 18:57:00,2021,12,91,1943,1950,24,,,general-reflection,fallback-general,
+513,2021-12-16 16:50:00,2021,12,92,1951,1953,42,,,consciousness-awakening|hypnosis-reincarnation|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|practice-experience:修行
+514,2021-12-17 14:21:00,2021,12,92,1954,1956,39,,,general-reflection,fallback-general,
+515,2021-12-18 10:51:00,2021,12,92,1957,1958,14,,,general-reflection,fallback-general,
+516,2021-12-18 13:01:00,2021,12,92,1959,1960,10,,,memory-dream-perception,keyword-single,memory-dream-perception:记忆
+517,2021-12-20 13:57:00,2021,12,92,1961,1965,38,,,consciousness-awakening|memory-dream-perception,keyword-multi,consciousness-awakening:意识|memory-dream-perception:记忆
+518,2021-12-24 18:04:00,2021,12,92,1966,1974,92,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睦睠睦睨睦睥睟睨睥睧睟,general-reflection,fallback-general,
+519,2022-01-01 00:25:00,2022,01,93,1975,1976,20,,,general-reflection,fallback-general,
+520,2022-01-02 16:20:00,2022,01,93,1977,1981,118,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+521,2022-01-04 19:34:00,2022,01,93,1982,1986,118,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+522,2022-01-07 15:34:00,2022,01,93,1987,1989,27,,,general-reflection,fallback-general,
+523,2022-01-09 17:47:00,2022,01,93,1990,1996,37,,,general-reflection,fallback-general,
+524,2022-01-09 17:52:00,2022,01,94,1997,1999,30,,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+525,2022-01-10 13:01:00,2022,01,94,2000,2002,30,,,consciousness-awakening|freewill-freedom-choice|measurement-science,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由|measurement-science:检测
+526,2022-01-10 13:38:00,2022,01,94,2003,2005,20,,,general-reflection,fallback-general,
+527,2022-01-11 22:48:00,2022,01,94,2006,2008,39,,,general-reflection,fallback-general,
+528,2022-01-13 20:33:00,2022,01,94,2009,2016,27,,,general-reflection,fallback-general,
+529,2022-01-15 20:55:00,2022,01,95,2017,2020,144,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fb睡睢.tv%睡FhQNE睡oY,practice-experience,keyword-single,practice-experience:修行
+530,2022-01-16 22:41:00,2022,01,95,2021,2024,84,,,practice-experience,keyword-single,practice-experience:修行
+531,2022-01-22 22:01:00,2022,01,95,2025,2029,74,,,consciousness-awakening|hypnosis-reincarnation|practice-experience,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|practice-experience:修行
+532,2022-01-24 13:43:00,2022,01,95,2030,2031,16,,,general-reflection,fallback-general,
+533,2022-01-25 14:36:00,2022,01,95,2032,2037,15,,,general-reflection,fallback-general,
+534,2022-01-25 14:38:00,2022,01,96,2038,2040,156,,,general-reflection,fallback-general,
+535,2022-01-25 22:44:00,2022,01,96,2041,2042,14,,,general-reflection,fallback-general,
+536,2022-01-26 22:34:00,2022,01,96,2043,2045,38,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:觉醒|practice-experience:修行
+537,2022-01-28 11:34:00,2022,01,96,2046,2047,14,,,general-reflection,fallback-general,
+538,2022-01-29 13:02:00,2022,01,96,2048,2050,64,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|practice-experience:修行
+539,2022-01-30 17:56:00,2022,01,96,2051,2059,170,本次仅导出文字，未包含 1 张图片,https://weibo.com/ttarticle/p/show?id=睡睢睟睨督睟督睦睢睠睢睧睡睦睠睧睠睢睦睡督睦,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由
+540,2022-01-31 19:06:00,2022,01,97,2060,2062,4,,,general-reflection,fallback-general,
+541,2022-02-01 06:55:00,2022,02,97,2063,2064,14,,,general-reflection,fallback-general,
+542,2022-02-01 08:08:00,2022,02,97,2065,2068,100,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+543,2022-02-01 09:06:00,2022,02,97,2069,2072,100,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+544,2022-02-03 20:00:00,2022,02,97,2073,2081,139,本次仅导出文字，未包含 1 张图片,https://weibo.com/ttarticle/p/show?id=睡睢睟睨督睟督睦睢睡睧睥睢睢睟睡睨睨睡睡睥睨,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:本源
+545,2022-02-05 22:11:00,2022,02,98,2082,2086,149,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+546,2022-02-05 22:49:00,2022,02,98,2087,2091,140,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+547,2022-02-09 12:53:00,2022,02,98,2092,2096,87,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由
+548,2022-02-09 20:11:00,2022,02,98,2097,2102,25,,,consciousness-awakening,keyword-single,consciousness-awakening:灵魂
+549,2022-02-11 19:50:00,2022,02,99,2103,2107,79,,,relationships-society-commentary,keyword-single,relationships-society-commentary:人类
+550,2022-02-12 22:12:00,2022,02,99,2108,2111,90,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|practice-experience:修行
+551,2022-02-13 21:21:00,2022,02,99,2112,2116,102,,,consciousness-awakening|hypnosis-reincarnation|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|practice-experience:修行
+552,2022-02-14 19:52:00,2022,02,99,2117,2124,65,,,health-body-biology,keyword-single,health-body-biology:基因
+553,2022-02-15 13:48:00,2022,02,100,2125,2126,5,,,general-reflection,fallback-general,
+554,2022-02-18 16:55:00,2022,02,100,2127,2130,59,,,hypnosis-reincarnation,keyword-single,hypnosis-reincarnation:催眠
+555,2022-02-21 17:38:00,2022,02,100,2131,2135,114,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:意识|practice-experience:修行
+556,2022-02-24 17:43:00,2022,02,100,2136,2144,113,,,hypnosis-reincarnation|freewill-freedom-choice|practice-experience,keyword-multi,hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|practice-experience:修行
+557,2022-03-01 22:39:00,2022,03,101,2145,2150,206,本次仅导出文字，未包含 1 张图片,https://weibo.com/ttarticle/p/show?id=睡睢睟睨督睟督睦督睡睢睡睤督睨睦睧睧睨睧睢睦,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|memory-dream-perception:回忆|practice-experience:修行
+558,2022-03-03 20:39:00,2022,03,101,2151,2154,89,,,consciousness-awakening|hypnosis-reincarnation|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|practice-experience:修行
+559,2022-03-06 18:48:00,2022,03,101,2155,2164,213,本次仅导出文字，未包含 1 张图片,https://weibo.com/ttarticle/p/show?id=睡睢睟睨督睟督睦督督睟睦睨睠睨睤睠睠睠,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|memory-dream-perception:记忆|practice-experience:修行
+560,2022-03-10 21:41:00,2022,03,102,2165,2169,76,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|practice-experience:修行
+561,2022-03-12 17:57:00,2022,03,102,2170,2176,209,本次仅导出文字，未包含 1 张图片,https://weibo.com/ttarticle/p/show?id=睡睢睟睨督睟督睦督睥睡督睟睧睦睡睡,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|memory-dream-perception:回忆|practice-experience:修行
+562,2022-03-15 19:34:00,2022,03,102,2177,2182,103,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|practice-experience:修行
+563,2022-03-18 15:21:00,2022,03,102,2183,2240,1270,,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|measurement-science|announcements-projects,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:空间|freewill-freedom-choice:自由|measurement-science:实验|announcements-projects:声明
+564,2022-03-21 21:05:00,2022,03,105,2241,2244,88,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:灵魂|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|practice-experience:修行
+565,2022-03-24 18:17:00,2022,03,105,2245,2252,227,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|freewill-freedom-choice:意愿|practice-experience:方法|relationships-society-commentary:人类
+566,2022-03-27 20:00:00,2022,03,105,2253,2257,126,,,consciousness-awakening|origin-cosmos-time-space|measurement-science,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|measurement-science:科学
+567,2022-03-31 18:09:00,2022,03,105,2258,2266,59,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+568,2022-04-01 18:48:00,2022,04,106,2267,2269,15,,,general-reflection,fallback-general,
+569,2022-04-02 22:25:00,2022,04,106,2270,2321,848,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|practice-experience|health-body-biology,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|origin-cosmos-time-space:本源|freewill-freedom-choice:意愿|practice-experience:观察|health-body-biology:身体
+570,2022-04-04 21:32:00,2022,04,107,2322,2329,85,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+571,2022-04-09 13:02:00,2022,04,108,2330,2334,115,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:意识|practice-experience:修行
+572,2022-04-12 12:31:00,2022,04,108,2335,2338,76,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|practice-experience:修行
+573,2022-04-15 19:22:00,2022,04,108,2339,2343,104,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙
+574,2022-04-17 20:28:00,2022,04,108,2344,2352,118,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|practice-experience:修行
+575,2022-04-20 18:12:00,2022,04,109,2353,2356,129,,,consciousness-awakening|origin-cosmos-time-space,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙
+576,2022-04-23 07:02:00,2022,04,109,2357,2359,92,,,consciousness-awakening|origin-cosmos-time-space,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙
+577,2022-04-25 09:37:00,2022,04,109,2360,2363,51,,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+578,2022-04-26 20:53:00,2022,04,109,2364,2366,85,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+579,2022-04-29 14:16:00,2022,04,109,2367,2376,118,,,consciousness-awakening|origin-cosmos-time-space,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙
+580,2022-05-01 13:12:00,2022,05,110,2377,2381,123,,,consciousness-awakening|origin-cosmos-time-space,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:本源
+581,2022-05-05 17:47:00,2022,05,110,2382,2387,110,,,consciousness-awakening,keyword-single,consciousness-awakening:灵魂
+582,2022-05-08 12:19:00,2022,05,110,2388,2396,102,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space,keyword-multi,consciousness-awakening:灵魂|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙
+583,2022-05-10 22:16:00,2022,05,111,2397,2404,396,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+584,2022-05-20 21:37:00,2022,05,111,2405,2412,325,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:灵魂|hypnosis-reincarnation:催眠
+585,2022-05-22 15:03:00,2022,05,111,2413,2422,178,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睦睦睠睨睡睥睢睡睥睟睤睟睧睡睧,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:灵魂|hypnosis-reincarnation:催眠
+586,2022-05-23 14:19:00,2022,05,112,2423,2427,146,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睦睦睡睡睦睦睤睤睦睟睥睦睧睠睟,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+587,2022-05-26 21:53:00,2022,05,112,2428,2432,149,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睦睦睢督睦睧睧睢睨睡睧睦睨睤睡,consciousness-awakening,keyword-single,consciousness-awakening:灵魂
+588,2022-05-30 16:15:00,2022,05,112,2433,2436,118,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:灵魂|practice-experience:修炼
+589,2022-05-31 22:28:00,2022,05,112,2437,2446,95,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space,keyword-multi,consciousness-awakening:灵魂|hypnosis-reincarnation:催眠|origin-cosmos-time-space:本源
+590,2022-06-01 15:04:00,2022,06,113,2447,2449,24,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+591,2022-06-03 14:20:00,2022,06,113,2450,2451,4,,,general-reflection,fallback-general,
+592,2022-06-09 18:43:00,2022,06,113,2452,2456,132,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:灵魂|practice-experience:实修
+593,2022-06-12 12:22:00,2022,06,113,2457,2468,376,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fwww.bilibili.com%,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception,keyword-multi,consciousness-awakening:灵魂|hypnosis-reincarnation:轮回|memory-dream-perception:回忆
+594,2022-06-16 11:32:00,2022,06,114,2469,2472,51,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+595,2022-06-17 18:02:00,2022,06,114,2473,2481,372,,https://weibo.cn/sinaurl?u=https%睢A%睡F%睡Fwww.bilibili.com%睡Fvideo%,measurement-science,keyword-single,measurement-science:科学
+596,2022-07-02 00:07:00,2022,07,114,2482,2492,186,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|freewill-freedom-choice:意志
+597,2022-08-04 23:13:00,2022,08,115,2493,2495,4,,,general-reflection,fallback-general,
+598,2022-09-10 14:39:00,2022,09,115,2496,2497,4,,,general-reflection,fallback-general,
+599,2022-09-18 15:46:00,2022,09,115,2498,2502,75,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:意识|practice-experience:观察
+600,2022-09-19 15:25:00,2022,09,115,2503,2511,86,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:意识|practice-experience:观察
+601,2022-09-22 12:22:00,2022,09,116,2512,2517,116,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:意识|practice-experience:观察
+602,2022-10-03 12:21:00,2022,10,116,2518,2530,159,,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由
+603,2022-10-04 10:31:00,2022,10,116,2531,2539,86,,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+604,2022-10-05 10:51:00,2022,10,117,2540,2544,77,,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+605,2022-10-06 13:02:00,2022,10,117,2545,2548,77,,,consciousness-awakening,keyword-single,consciousness-awakening:意识
+606,2022-10-07 13:14:00,2022,10,117,2549,2552,77,,,consciousness-awakening,keyword-single,consciousness-awakening:灵魂
+607,2022-10-09 11:13:00,2022,10,117,2553,2560,88,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:意愿
+608,2022-10-12 00:30:00,2022,10,118,2561,2563,77,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:灵魂|practice-experience:修炼
+609,2022-10-22 12:48:00,2022,10,118,2564,2568,127,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:灵魂|origin-cosmos-time-space:宇宙|practice-experience:修炼
+610,2022-10-24 21:55:00,2022,10,118,2569,2575,69,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+611,2022-10-28 22:53:00,2022,10,118,2576,2582,4,,,general-reflection,fallback-general,
+612,2022-11-09 10:24:00,2022,11,119,2583,2588,192,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睧睢睢睧睡睟睠睠督睟睨睡睟睥睠,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由
+613,2022-11-22 14:28:00,2022,11,119,2589,2592,47,,,consciousness-awakening|relationships-society-commentary,keyword-multi,consciousness-awakening:灵魂|relationships-society-commentary:迷信
+614,2022-12-06 13:51:00,2022,12,119,2593,2594,3,,,general-reflection,fallback-general,
+615,2022-12-18 00:07:00,2022,12,119,2595,2603,82,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催眠|freewill-freedom-choice:自由
+616,2022-12-30 15:03:00,2022,12,120,2604,2607,89,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由
+617,2022-12-31 13:57:00,2022,12,120,2608,2609,9,,,general-reflection,fallback-general,
+618,2022-12-31 13:58:00,2022,12,120,2610,2611,13,,,general-reflection,fallback-general,
+619,2022-12-31 19:39:00,2022,12,120,2612,2614,19,,,general-reflection,fallback-general,
+620,2023-01-01 00:04:00,2023,01,120,2615,2617,45,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+621,2023-01-02 17:55:00,2023,01,120,2618,2627,194,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睧睤睢睤睟睥督睨睟睨睤睦睧睢睨,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆
+622,2023-01-03 09:44:00,2023,01,121,2628,2633,193,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睧睤睢睦督睤睥睠睥睥睠睦睤睡睥,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆
+623,2023-01-04 20:09:00,2023,01,121,2634,2639,211,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睧睤督睡睥督睨睢睧睤睥睠睥睟睢,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆
+624,2023-01-05 21:41:00,2023,01,121,2640,2642,52,,,general-reflection,fallback-general,
+625,2023-01-05 21:41:00,2023,01,121,2643,2652,217,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睧睤督睥睤睟睤睤睧睥睦睦睠睥睢,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆
+626,2023-01-06 20:32:00,2023,01,122,2653,2658,194,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睧睤督睨睨睤睦睦睨睡睤睥督睡睟,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆
+627,2023-01-07 10:35:00,2023,01,122,2659,2660,44,,,general-reflection,fallback-general,
+628,2023-01-07 11:38:00,2023,01,122,2661,2666,189,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睧睤睤睡睡睢睠睟睡睠督督睤睦睨,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆
+629,2023-01-08 09:26:00,2023,01,122,2667,2669,29,,,general-reflection,fallback-general,
+630,2023-01-08 09:52:00,2023,01,122,2670,2675,9,,,general-reflection,fallback-general,
+631,2023-01-10 22:37:00,2023,01,123,2676,2680,96,,,consciousness-awakening|origin-cosmos-time-space|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙|memory-dream-perception:记忆
+632,2023-01-21 15:08:00,2023,01,123,2681,2683,32,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+633,2023-01-23 00:25:00,2023,01,123,2684,2686,32,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+634,2023-01-23 14:46:00,2023,01,123,2687,2689,33,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+635,2023-01-27 18:50:00,2023,01,123,2690,2698,133,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆
+636,2023-01-31 20:35:00,2023,01,124,2699,2703,118,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:回忆
+637,2023-02-04 14:01:00,2023,02,124,2704,2707,81,,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+638,2023-02-06 23:33:00,2023,02,124,2708,2711,105,,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:时间是什么|freewill-freedom-choice:自由|memory-dream-perception:记忆
+639,2023-02-09 11:43:00,2023,02,124,2712,2719,78,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:觉醒|practice-experience:实践
+640,2023-02-10 22:14:00,2023,02,125,2720,2724,70,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由
+641,2023-02-18 23:26:00,2023,02,125,2725,2728,116,,,consciousness-awakening|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:灵魂|freewill-freedom-choice:自由|practice-experience:修行
+642,2023-02-23 14:30:00,2023,02,125,2729,2734,116,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:灵魂|practice-experience:修行
+643,2023-03-11 23:30:00,2023,03,125,2735,2742,85,,,consciousness-awakening|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:灵魂|origin-cosmos-time-space:本源|practice-experience:修行
+644,2023-03-25 17:31:00,2023,03,126,2743,2751,133,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|practice-experience,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催眠|practice-experience:修行
+645,2023-04-02 11:17:00,2023,04,126,2752,2757,127,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|practice-experience:修行
+646,2023-04-05 00:17:00,2023,04,126,2758,2768,105,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|practice-experience,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙|practice-experience:修行
+647,2023-04-06 23:16:00,2023,04,127,2769,2773,51,本次仅导出文字，未包含 1 张图片,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:宇宙
+648,2023-06-01 20:15:00,2023,06,127,2774,2778,101,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+649,2023-07-20 22:03:00,2023,07,127,2779,2786,230,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睨睡睤睥睧督睠睥睦睠督睦睤睨睥,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆
+650,2023-08-05 09:45:00,2023,08,127,2787,2795,170,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+651,2023-08-05 16:52:00,2023,08,128,2796,2802,213,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睨睢睠督睟督睟睠睟睤睤睢睢睧睠,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+652,2023-08-07 21:00:00,2023,08,128,2803,2808,114,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+653,2023-08-08 14:09:00,2023,08,128,2809,2814,117,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|practice-experience:修行
+654,2023-08-10 13:52:00,2023,08,128,2815,2823,77,,,consciousness-awakening|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由|practice-experience:修行
+655,2023-08-21 14:10:00,2023,08,129,2824,2830,163,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睨睢睦睠睥睠睥睟睦督睠睢睦睧睟,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由
+656,2023-09-10 11:54:00,2023,09,129,2831,2835,108,,,consciousness-awakening|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由|practice-experience:修炼
+657,2023-09-11 11:32:00,2023,09,129,2836,2838,55,,,consciousness-awakening|freewill-freedom-choice|practice-experience|health-body-biology,keyword-multi,consciousness-awakening:灵魂|freewill-freedom-choice:自由|practice-experience:修行|health-body-biology:身体
+658,2023-09-12 09:19:00,2023,09,129,2839,2844,15,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催眠
+659,2023-09-20 10:00:00,2023,09,130,2845,2850,156,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由
+660,2023-09-20 10:03:00,2023,09,130,2851,2856,138,,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由
+661,2023-09-22 23:02:00,2023,09,130,2857,2859,57,,,consciousness-awakening|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由|practice-experience:修行
+662,2023-09-25 01:00:00,2023,09,130,2860,2869,113,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由
+663,2023-09-30 10:27:00,2023,09,131,2870,2876,122,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由
+664,2023-10-01 11:12:00,2023,10,131,2877,2881,81,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由
+665,2023-10-14 15:02:00,2023,10,131,2882,2886,85,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|freewill-freedom-choice:自由
+666,2023-10-15 12:42:00,2023,10,131,2887,2895,92,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+667,2023-10-20 10:47:00,2023,10,132,2896,2900,102,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:本源|freewill-freedom-choice:自由|memory-dream-perception:记忆
+668,2023-10-28 01:14:00,2023,10,132,2901,2906,151,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睨睥睠睥睟睧睤睢睥睟睨睥睧睢睤,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|freewill-freedom-choice:自由
+669,2023-11-10 20:48:00,2023,11,132,2907,2911,73,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|practice-experience:体验
+670,2024-01-01 00:42:00,2024,01,132,2912,2918,28,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+671,2024-01-01 00:47:00,2024,01,133,2919,2925,184,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睨睧睤睠睤睥睨睧睠睨督睧督睧睨,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由
+672,2024-02-09 22:21:00,2024,02,133,2926,2928,23,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+673,2024-02-10 00:30:00,2024,02,133,2929,2935,162,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:督睨睨睨睥督睦督睡睤睥睤睧睧睧睡,consciousness-awakening|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由
+674,2024-03-01 00:16:00,2024,03,133,2936,2943,96,,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:本源|freewill-freedom-choice:自由
+675,2024-03-13 11:49:00,2024,03,134,2944,2948,87,,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由
+676,2024-05-08 19:48:00,2024,05,134,2949,2953,65,本次仅导出文字，未包含 1 张图片,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+677,2024-06-05 16:31:00,2024,06,134,2954,2959,139,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由
+678,2024-06-05 23:04:00,2024,06,134,2960,2966,37,,,practice-experience,keyword-single,practice-experience:方法
+679,2024-06-08 15:04:00,2024,06,135,2967,2971,133,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:睤睟督睡睨睨睡睢睧睥睢督睡睨睥睨,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:本源|freewill-freedom-choice:自由
+680,2024-06-09 16:29:00,2024,06,135,2972,2975,82,,,consciousness-awakening|origin-cosmos-time-space,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:宇宙
+681,2024-06-11 21:05:00,2024,06,135,2976,2977,15,,,general-reflection,fallback-general,
+682,2024-06-21 17:07:00,2024,06,135,2978,2992,43,,,consciousness-awakening|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:意愿|practice-experience:实践
+683,2024-07-08 18:51:00,2024,07,136,2993,2996,98,,,consciousness-awakening|origin-cosmos-time-space,keyword-multi,consciousness-awakening:意识|origin-cosmos-time-space:维度
+684,2024-07-28 00:04:00,2024,07,136,2997,3001,123,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|practice-experience|measurement-science,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|practice-experience:修行|measurement-science:检测
+685,2024-08-27 04:04:00,2024,08,136,3002,3012,128,,,consciousness-awakening|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆
+686,2024-08-29 00:41:00,2024,08,137,3013,3019,177,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|practice-experience|relationships-society-commentary,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|practice-experience:修行|relationships-society-commentary:教育
+687,2024-08-31 20:31:00,2024,08,137,3020,3037,159,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由
+688,2024-09-27 08:20:00,2024,09,138,3038,3042,152,,,consciousness-awakening|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|freewill-freedom-choice:自由|practice-experience:修行
+689,2024-10-26 18:19:00,2024,10,138,3043,3048,156,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+690,2024-12-03 06:33:00,2024,12,138,3049,3059,176,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|freewill-freedom-choice:自由|practice-experience:修行
+691,2025-01-01 18:18:00,2025,01,139,3060,3063,95,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|origin-cosmos-time-space:星际|freewill-freedom-choice:自由|memory-dream-perception:记忆
+692,2025-01-08 15:35:00,2025,01,139,3064,3070,228,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:睤睠睡睟睤睤睟睥睦睟睧睨睢睟睥睡,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|origin-cosmos-time-space:宇宙|freewill-freedom-choice:自由|practice-experience:修行
+693,2025-02-11 19:40:00,2025,02,139,3071,3078,81,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|practice-experience:修行
+694,2025-02-22 12:01:00,2025,02,140,3079,3085,151,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|origin-cosmos-time-space:本源|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+695,2025-03-26 20:47:00,2025,03,140,3086,3090,104,,,consciousness-awakening|practice-experience,keyword-multi,consciousness-awakening:觉醒|practice-experience:修行
+696,2025-04-09 13:30:00,2025,04,140,3091,3094,32,,,general-reflection,fallback-general,
+697,2025-06-03 03:46:00,2025,06,140,3095,3100,12,,,general-reflection,fallback-general,
+698,2025-06-04 22:53:00,2025,06,141,3101,3107,88,,,consciousness-awakening,keyword-single,consciousness-awakening:觉醒
+699,2025-07-08 14:46:00,2025,07,141,3108,3111,97,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+700,2025-07-09 00:42:00,2025,07,141,3112,3121,107,,,consciousness-awakening|hypnosis-reincarnation|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|practice-experience:修行
+701,2025-10-22 17:19:00,2025,10,142,3122,3128,102,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回
+702,2025-11-12 19:54:00,2025,11,142,3129,3134,169,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:睤睡睢睡睡睢睠睦睥睤睨睥睥,consciousness-awakening|hypnosis-reincarnation|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|practice-experience:修行
+703,2025-11-26 11:14:00,2025,11,142,3135,3144,130,,,consciousness-awakening|hypnosis-reincarnation|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|practice-experience:修行
+704,2025-12-15 13:42:00,2025,12,143,3145,3150,121,,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|memory-dream-perception:记忆|practice-experience:修行
+705,2026-01-01 01:11:00,2026,01,143,3151,3152,25,,,general-reflection,fallback-general,
+706,2026-01-01 01:28:00,2026,01,143,3153,3155,30,,,origin-cosmos-time-space,keyword-single,origin-cosmos-time-space:星际
+707,2026-01-01 01:32:00,2026,01,143,3156,3157,40,,,general-reflection,fallback-general,
+708,2026-01-01 02:19:00,2026,01,143,3158,3164,83,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:睤睡睤睟睟睧睥睡睠睦睨睟睧睡睧,general-reflection,fallback-general,
+709,2026-01-02 02:57:00,2026,01,144,3165,3171,179,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:星际|memory-dream-perception:记忆
+710,2026-03-04 00:23:00,2026,03,144,3172,3175,40,本次仅导出文字，未包含 3 张图片,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催醒
+711,2026-05-31 22:58:00,2026,05,144,3176,3178,92,,,general-reflection,fallback-general,
+712,2026-06-05 09:07:00,2026,06,144,3179,3188,123,本次仅导出文字，未包含 2 张图片,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催醒|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+713,2026-06-16 17:43:00,2026,06,145,3189,3195,120,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催醒|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+714,2026-06-17 23:06:00,2026,06,145,3196,3202,125,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+715,2026-06-21 15:41:00,2026,06,145,3203,3212,106,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催眠|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+716,2026-06-26 18:45:00,2026,06,146,3213,3218,89,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+717,2026-07-06 02:37:00,2026,07,146,3219,3223,64,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催醒
+718,2026-07-08 21:32:00,2026,07,146,3224,3225,4,,,general-reflection,fallback-general,
+719,2026-07-09 18:33:00,2026,07,146,3226,3227,9,,,general-reflection,fallback-general,
+720,2026-07-10 18:22:00,2026,07,146,3228,3236,91,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催眠
+721,2026-07-15 00:01:00,2026,07,147,3237,3241,88,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+722,2026-07-18 17:28:00,2026,07,147,3242,3250,125,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回
+723,2026-07-26 00:54:00,2026,07,147,3251,3258,43,,,general-reflection,fallback-general,
+724,2026-07-29 18:14:00,2026,07,148,3259,3264,147,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催醒|origin-cosmos-time-space:星际|freewill-freedom-choice:自由|practice-experience:修行
+725,2026-07-30 12:32:00,2026,07,148,3265,3270,139,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|memory-dream-perception|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行
+726,2026-08-01 13:52:00,2026,08,148,3271,3275,121,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|practice-experience:修行
+727,2026-08-05 11:12:00,2026,08,148,3276,3283,34,,,general-reflection,fallback-general,
+728,2026-08-14 22:43:00,2026,08,149,3284,3287,53,,,consciousness-awakening|hypnosis-reincarnation|relationships-society-commentary,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:轮回|relationships-society-commentary:骗子
+729,2026-08-16 01:16:00,2026,08,149,3288,3292,84,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠
+730,2026-08-22 02:36:00,2026,08,149,3293,3298,136,,,consciousness-awakening|hypnosis-reincarnation|practice-experience,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催眠|practice-experience:修行
+731,2026-08-23 04:00:00,2026,08,149,3299,3308,112,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|relationships-society-commentary:认知
+732,2026-08-31 14:53:00,2026,08,150,3309,3312,70,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回
+733,2026-08-31 16:20:00,2026,08,150,3313,3319,132,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|relationships-society-commentary,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|relationships-society-commentary:认知
+734,2026-09-03 08:06:00,2026,09,150,3320,3322,43,,,general-reflection,fallback-general,
+735,2026-09-08 19:44:00,2026,09,150,3323,3333,207,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:睤睢督睟睨督睥睡睢睧睡睠睟睟睦睥,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|memory-dream-perception|practice-experience|relationships-society-commentary,keyword-multi,consciousness-awakening:灵魂|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行|relationships-society-commentary:认知
+736,2026-09-12 09:28:00,2026,09,151,3334,3342,240,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|memory-dream-perception|practice-experience|relationships-society-commentary,keyword-multi,consciousness-awakening:催醒|hypnosis-reincarnation:催醒|freewill-freedom-choice:自由|memory-dream-perception:记忆|practice-experience:修行|relationships-society-commentary:认知
+737,2026-09-17 17:10:00,2026,09,151,3343,3348,125,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|practice-experience:修行
+738,2026-09-26 15:05:00,2026,09,151,3349,3357,111,,,consciousness-awakening|hypnosis-reincarnation|freewill-freedom-choice|practice-experience|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|freewill-freedom-choice:自由|practice-experience:修行|relationships-society-commentary:认知
+739,2026-09-26 17:11:00,2026,09,152,3358,3364,152,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|memory-dream-perception:回忆|relationships-society-commentary:认知
+740,2026-10-01 13:33:00,2026,10,152,3365,3367,38,本次仅导出文字，未包含 1 张图片,,general-reflection,fallback-general,
+741,2026-10-05 15:56:00,2026,10,152,3368,3373,133,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|relationships-society-commentary,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|relationships-society-commentary:认知
+742,2026-10-07 01:37:00,2026,10,152,3374,3383,155,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|relationships-society-commentary,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|relationships-society-commentary:受害者
+743,2026-10-07 13:53:00,2026,10,153,3384,3385,11,,,relationships-society-commentary,keyword-single,relationships-society-commentary:打假
+744,2026-10-07 13:58:00,2026,10,153,3386,3387,22,,,relationships-society-commentary,keyword-single,relationships-society-commentary:骗子
+745,2026-10-12 01:47:00,2026,10,153,3388,3392,142,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|memory-dream-perception:回忆|relationships-society-commentary:认知
+746,2026-10-14 03:23:00,2026,10,153,3393,3398,150,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|origin-cosmos-time-space:本源|memory-dream-perception:记忆|relationships-society-commentary:认知
+747,2026-10-17 16:13:00,2026,10,153,3399,3408,153,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|memory-dream-perception:回忆|relationships-society-commentary:认知
+748,2026-10-21 10:08:00,2026,10,154,3409,3414,124,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:,general-reflection,fallback-general,
+749,2026-10-22 18:15:00,2026,10,154,3415,3420,155,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|memory-dream-perception:记忆|relationships-society-commentary:认知
+750,2026-10-23 21:51:00,2026,10,154,3421,3430,155,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|memory-dream-perception:记忆|relationships-society-commentary:认知
+751,2026-10-24 15:12:00,2026,10,155,3431,3436,159,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|memory-dream-perception:记忆|relationships-society-commentary:认知
+752,2026-10-25 14:12:00,2026,10,155,3437,3442,157,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|origin-cosmos-time-space:本源|memory-dream-perception:记忆|relationships-society-commentary:认知
+753,2026-10-26 11:48:00,2026,10,155,3443,3452,157,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|memory-dream-perception:记忆|relationships-society-commentary:认知
+754,2026-10-27 14:34:00,2026,10,156,3453,3458,156,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|memory-dream-perception:记忆|relationships-society-commentary:认知
+755,2026-10-28 20:05:00,2026,10,156,3459,3464,158,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催眠|origin-cosmos-time-space:本源|memory-dream-perception:记忆|relationships-society-commentary:认知
+756,2026-10-30 14:12:00,2026,10,156,3465,3474,157,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|memory-dream-perception|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:催眠|memory-dream-perception:记忆|relationships-society-commentary:认知
+757,2026-10-31 19:23:00,2026,10,157,3475,3481,203,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:睤睢睥睟睠督睥睟睥睢督睨睠睠睢睡,consciousness-awakening|origin-cosmos-time-space|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:本源|memory-dream-perception:记忆
+758,2026-11-01 20:55:00,2026,11,157,3482,3487,211,本次仅导出文字，未包含 1 张图片,https://video.weibo.com/show?fid=睠睟睢督:睤睢睥睟睤睢睠督睥睠睢睟睧督睢督,consciousness-awakening|origin-cosmos-time-space|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:本源|memory-dream-perception:记忆
+759,2026-11-04 15:36:00,2026,11,157,3488,3496,136,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:本源|memory-dream-perception:记忆
+760,2026-11-06 15:49:00,2026,11,158,3497,3501,130,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|practice-experience|relationships-society-commentary,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回|origin-cosmos-time-space:星际|freewill-freedom-choice:自由|practice-experience:修行|relationships-society-commentary:权威
+761,2026-11-07 17:20:00,2026,11,158,3502,3532,478,,,consciousness-awakening|hypnosis-reincarnation|origin-cosmos-time-space|freewill-freedom-choice|practice-experience|measurement-science|relationships-society-commentary|announcements-projects,keyword-multi,consciousness-awakening:意识|hypnosis-reincarnation:催醒|origin-cosmos-time-space:星际|freewill-freedom-choice:自由|practice-experience:修行|measurement-science:检测|relationships-society-commentary:打假|announcements-projects:公告
+762,2026-11-11 18:38:00,2026,11,159,3533,3537,128,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:时间是什么|memory-dream-perception:记忆
+763,2026-11-12 15:07:00,2026,11,159,3538,3542,82,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回
+764,2026-11-13 21:28:00,2026,11,159,3543,3551,113,,,consciousness-awakening|hypnosis-reincarnation,keyword-multi,consciousness-awakening:觉醒|hypnosis-reincarnation:轮回
+765,2026-11-23 23:58:00,2026,11,160,3552,3557,128,本次仅导出文字，未包含 1 张图片,,consciousness-awakening|origin-cosmos-time-space|memory-dream-perception,keyword-multi,consciousness-awakening:觉醒|origin-cosmos-time-space:空间|memory-dream-perception:记忆
