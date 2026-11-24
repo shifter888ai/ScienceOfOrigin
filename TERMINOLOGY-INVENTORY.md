@@ -453,7 +453,7 @@ The Research Library Schema and AI Research Protocol introduce a second vocabula
 
 ### P. Historical English vocabulary — Reddit source discovery layer
 
-**Source basis:** The repository contains an English Reddit archive with 617 post/thread blocks and 904 exact YWS author markers, plus a separate Q&A collection with 651 question-and-answer records. A preliminary exact-text comparison found substantial overlap but did not establish that the collections are equivalent. The following terms are drawn from the inspected opening Q&A records and are discovery candidates, not automatically canonical Science of Origin terms.
+**Source basis:** The repository contains an English Reddit archive with 617 post/thread blocks and 1,096 exact YWS author-marker occurrences (not a verified count of distinct complete comments), plus a separate Q&A collection with 651 question-and-answer records. A preliminary exact-text comparison found substantial overlap but did not establish that the collections are equivalent. The following terms are drawn from the inspected opening Q&A records and are discovery candidates, not automatically canonical Science of Origin terms.
 
 | Exact source form / candidate term | Source context / locator | Review note |
 |---|---|---|
@@ -621,14 +621,16 @@ The Weibo candidate index now distinguishes literal matches in the full exported
 - A repeated term may be used differently in different threads. The index counts record-level presence, not a single stable concept.
 - The Q&A archive and the broader Reddit all-post archive remain separate. The existing overlap analysis finds exact normalized answer-text matches for 487 of 651 Q&A records, but this does not prove that the two archives are equivalent or that unmatched records are absent from the broader archive.
 
-**Next Reddit sub-pass:** examine the 617 post/thread blocks and 904 exact YWS author markers in `materials/reddit-english-all.txt`. Extract terminology from YWS-attributed spans separately from original posters, other commenters, quoted text, and thread titles. Use `reddit-english-all-post-index.csv`, `reddit-english-all-yws-author-marker-index.csv`, and the existing overlap file as locators; do not treat each author marker as a complete comment without checking boundaries.
+**Next Reddit sub-pass:** examine the 617 post/thread blocks and 1,096 exact YWS author-marker occurrences (not a verified count of distinct complete comments) in `materials/reddit-english-all.txt`. Extract terminology from YWS-attributed spans separately from original posters, other commenters, quoted text, and thread titles. Use `reddit-english-all-post-index.csv`, `reddit-english-all-yws-author-marker-index.csv`, and the existing overlap file as locators; do not treat each author marker as a complete comment without checking boundaries.
 
 
 ### S. Reddit English all-post archive — YWS-authored terminology pass
 
-**Source inspected:** `materials/reddit-english-all.txt` (1,651,691 characters; 29,553 lines), its 617-post index, and its 904 exact `Lower-Lingonberry-40:` author-marker records. The source archive spans 2023-10-29 through 2026-11-18. The owner has instructed that the identified account's answers are authored by YWS; the post authors and other commenters remain separate speakers.
+**Source inspected:** `materials/reddit-english-all.txt` (1,651,691 characters; 29,553 lines), its 617-post index, and its 1,096 exact `Lower-Lingonberry-40:` author-marker occurrences. The source archive spans 2023-10-29 through 2026-11-18. The owner has instructed that the identified account's answers are authored by YWS; the post authors and other commenters remain separate speakers.
 
 **Derived index:** `library/record-index/reddit-all-yws-terminology-candidate-index.csv` (120 candidate terms/phrases after whole-word matching). It links each term to matching author-marker IDs, parent post IDs, and source line ranges.
+
+**Coverage correction:** This 120-term candidate index was generated against the earlier 904-marker locator set. It references 474 unique author-marker IDs, with the highest referenced ID being 902. The primary source and current author-marker index now contain 1,096 marker occurrences. The candidate index has not yet been regenerated against the additional marker occurrences, so its term counts and coverage must be treated as an earlier discovery pass, not as complete counts for the current source.
 
 **Span method and limitation:** Each author marker was segmented to the next detected speaker label, `Source:` line, comment-section boundary, post separator, or next author marker. This improves on the marker-only index, but is still a rule-based span extraction. Nested Reddit threads and unusual username labels can complicate boundaries; the source README correctly cautions that a marker is not automatically a complete comment. The derived spans and term hits remain reviewable locators, not a final semantic classification.
 
@@ -1322,7 +1324,7 @@ These are not silently resolved in the inventory. They require conceptual review
 - Read and compared the two uploaded Science of Consciousness framework documents against the current Science of Origin research architecture.
 - Indexed the complete Weibo export of 765 records with 100 candidate terms, distinguishing all-text matches from matches after a simple hashtag/URL filter.
 - Indexed the 651-record Reddit Q&A archive with 89 candidate phrases, keeping question spans separate from YWS-attributed answer spans.
-- Indexed the 617-post Reddit archive and its 904 YWS author markers with 120 candidate terms/phrases, using whole-word matching and a rule-based speaker-boundary segmentation.
+- Indexed the 617-post Reddit archive and its 1,096 YWS author-marker occurrences with 120 candidate terms/phrases, using whole-word matching and a rule-based speaker-boundary segmentation.
 - Indexed the Chinese compilation TXT's 1,671 page markers with 128 candidate Chinese/English terms and page/line locators.
 - Added cross-source concordance tables for recurring Chinese and English terms.
 - Added focused source histories for Origin / 本源; Zero / Idle / Infinity; Consciousness / Freewill / Spectrum / Strength; Imagination / Origination / Manifestation / Intention / Choice; and Spirit / Void / Voidness / Oneness / True Origin / Fake Origin.
