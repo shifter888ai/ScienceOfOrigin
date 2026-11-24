@@ -71,7 +71,7 @@ The sequence is a practical implementation order, not a restriction on what may 
 
 ## Current implementation status
 
-This is the initial library foundation, not a claim that the complete historical collection has already been ingested. The source inventory is preliminary and must be expanded through repository, project-file, external archive, and media review.
+The library now has owner-confirmed complete TXT archives for Reddit and Weibo within their supplied collection scopes, with existing structural indexes; a pinned Awakenology Git repository snapshot with a full file manifest; and an ongoing Yuanwushi web-crawling collection. Monthly maintenance preserves new Reddit/Weibo TXT versions additively and updates the Awakenology Git snapshot. The Yuanwushi website collection remains the final major crawling task.
 
 The current public repository contains research pages, architecture documents, working records, source collections, website assets, and site implementation files. These categories must remain distinguishable in the catalogue.
 

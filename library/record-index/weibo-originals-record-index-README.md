@@ -96,3 +96,10 @@ See `weibo-originals-page-coverage-index.csv` for all 160 pages and the number/r
 The 134 original-post records with explicit omitted-image notes are all represented in the media-reference index (134/134 parent-record coverage). This is index coverage only: the export contains no image binaries, and no image file has been recovered or checksummed yet. The 134-item recovery checklist is `weibo-omitted-image-recovery-index.csv`.
 
 The source TXT contains 114 URL occurrences (67 unique URL values). The media-reference index contains 121 occurrences (74 unique) after adding seven distinct live-profile locators. These extra locators do not represent recovered binaries.
+
+
+## Owner-confirmed archive completeness — 2026-11-25
+
+The project owner confirms that this supplied TXT file is the complete Weibo original-post archive for its intended collection scope. It was manually extracted and checked for completion. Treat the preserved TXT as a complete source archive; do not use the aggregate profile counter or limited live timeline snapshots to reopen its completeness status. Monthly updates are additive: preserve each prior version, add the new monthly source file/version, and regenerate derived indexes against the exact new source object.
+
+The TXT archive is complete as a text source. Image/video binaries that the export represents with omission notes or media locators are a separate media-preservation layer; their absence does not make the owner-confirmed TXT archive incomplete.

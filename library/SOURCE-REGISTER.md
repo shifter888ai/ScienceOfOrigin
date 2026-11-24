@@ -157,3 +157,16 @@ A navigable outline and extraction notes are in [`record-index/entropy-rr-assess
 ### Interpretation boundary
 
 The document contains assessment descriptions and comparative entries labelled `RR`, `88`, and `JJ`. Those labels and values are preserved as source content. They must not be silently reinterpreted as standardized measurements, validated scores, or independently comparable scales. Any later analysis should cite the exact source section and distinguish source statements, participant assessments, and our own research interpretations.
+
+
+## Owner-confirmed archive registrations — 2026-11-25
+
+The following source scopes are formally registered under the owner's completeness instructions. These determinations apply to the supplied archive objects and their stated scopes; they do not silently extend to unrelated platform content.
+
+| Source ID | Source object | Format / scope | Status | Monthly maintenance |
+|---|---|---|---|---|
+| SRC-RED-COMMENTS | `materials/reddit-english-all.txt` and `materials/reddit-english-qa.txt` | TXT; complete Reddit archives for their intended collection scopes | Complete per owner; manually extracted and checked | Add one new checked version monthly; preserve prior versions |
+| SRC-WEIBO-POSTS | `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt` | TXT; complete Weibo original-post archive for its intended scope | Complete per owner; manually extracted and checked | Add one new checked version monthly; preserve prior versions |
+| SRC-AWK-REPO | `materials/awakenology` (pinned Git submodule reference) | Full Awakenology Git repository tree at `05523aec14c286bce397678b8a213cca1fc29563` | Complete pinned repository snapshot reference; see limitation below | Update from upstream `main` monthly and preserve prior commit references |
+
+**Awakenology snapshot implementation note:** the library stores a Git submodule pointer pinned to the exact upstream commit plus a complete path/mode/Git-blob-SHA/size manifest. This makes the repository snapshot reproducible and traceable, but it is not an independent physical duplication of every upstream blob. The source repository remains the content host for the submodule checkout.

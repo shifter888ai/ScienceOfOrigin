@@ -1,12 +1,12 @@
 {
-  "manifest_version": "0.2",
+  "manifest_version": "0.3",
   "repository": "shifter888ai/ScienceOfOrigin",
-  "branch": "library/reindex-2026-11-25-entropy-rr (PR snapshot)",
-  "reviewed_commit": "f75338cf164a59cfa17ebb3b48c1d4da60c2ddbe",
-  "inventory_scope": "All Git tree blobs at the reviewed PR-branch snapshot, excluding this manifest itself because a manifest cannot contain its own final blob hash/size. This is a repository inventory, not a claim of complete historical coverage.",
-  "total_files": 216,
-  "total_bytes": 60845098,
-  "identifier_note": "inventory_entry_id values are stable administrative identifiers. Existing IDs were preserved; new entries were appended. Git blob SHA is Git's object identifier, not a SHA-256 checksum. The manifest excludes itself to avoid a self-referential hash/size.",
+  "branch": "library/monthly-archive-ingest-2026-11-25 (PR snapshot)",
+  "reviewed_commit": "pending",
+  "inventory_scope": "All Git tree blobs in the PR snapshot, excluding this manifest itself to avoid a self-referential hash/size. The Awakenology repository is represented by a pinned Git submodule commit and a separate complete file-tree manifest; its external blobs are not counted as local ScienceOfOrigin repository blobs.",
+  "total_files": 219,
+  "total_bytes": 60988975,
+  "identifier_note": "Existing inventory_entry_id values were preserved; new entries appended. Git blob SHA is Git's object identifier, not a SHA-256 checksum. The manifest excludes itself. Git submodules are recorded separately and their external blobs are not counted as local repository blobs.",
   "entries": [
     {
       "inventory_entry_id": "INV-0001",
@@ -20,14 +20,14 @@
       "sha256_status": "not-calculated"
     },
     {
-      "inventory_entry_id": "INV-0002",
-      "path": "about.html",
-      "git_blob_sha": "22068732ee663156fd5d8eb2db942c153f76f563",
-      "size_bytes": 6781,
-      "extension": "html",
-      "initial_classification": "website-page-content-or-navigation",
+      "inventory_entry_id": "INV-0217",
+      "path": ".gitmodules",
+      "git_blob_sha": "a6c6ab9707b3d4a9ee5f07913a60abca82657557",
+      "size_bytes": 121,
+      "extension": "gitmodules",
+      "initial_classification": "repository-configuration",
       "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
+      "source_registration_status": "registered",
       "sha256_status": "not-calculated"
     },
     {
@@ -37,6 +37,127 @@
       "size_bytes": 13132,
       "extension": "md",
       "initial_classification": "research-document-or-project-data",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0008",
+      "path": "BUILDING.md",
+      "git_blob_sha": "c10c89dac37f7d8746302818cc8bd0c1f535853c",
+      "size_bytes": 1794,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0011",
+      "path": "CLOUDFLARE-ASK-SETUP.md",
+      "git_blob_sha": "9aabd7207f9b67e7e96e0cec9d34e94e3e4b042e",
+      "size_bytes": 1704,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0126",
+      "path": "GLOSSARY.md",
+      "git_blob_sha": "2fefc91ef29b3b3d2086d54202a91e2eebc7c7d3",
+      "size_bytes": 15293,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-data",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0075",
+      "path": "README.md",
+      "git_blob_sha": "7c1a5e698f880089ae4c2f3891a16e8db629e488",
+      "size_bytes": 1468,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0096",
+      "path": "SITE-ARCHITECTURE.md",
+      "git_blob_sha": "49da17878cfeab24b81f6aae4a4d89d7f3b0f674",
+      "size_bytes": 4532,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0097",
+      "path": "SITE-PRINCIPLES.md",
+      "git_blob_sha": "72c4d318a62432197c445f340c62a50c9f6d7e53",
+      "size_bytes": 3147,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0098",
+      "path": "SITE-STANDARDS.md",
+      "git_blob_sha": "178b6ad199ce8fde9a51be41116d15b48bad1789",
+      "size_bytes": 1624,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0110",
+      "path": "TEAM-COLLABORATION.md",
+      "git_blob_sha": "086c5fd40a3017f86e23190e6c374497438253a6",
+      "size_bytes": 6249,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0215",
+      "path": "TERMINOLOGY-INVENTORY.md",
+      "git_blob_sha": "66169c39596984c13dd8c8fe9b77f56bb0123ca5",
+      "size_bytes": 169419,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-data",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0116",
+      "path": "VISION-MISSION.md",
+      "git_blob_sha": "3bf7b5b07d4bd0e68617a38c3a6feb070b7f3bd2",
+      "size_bytes": 6602,
+      "extension": "md",
+      "initial_classification": "research-document-or-project-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0002",
+      "path": "about.html",
+      "git_blob_sha": "22068732ee663156fd5d8eb2db942c153f76f563",
+      "size_bytes": 6781,
+      "extension": "html",
+      "initial_classification": "website-page-content-or-navigation",
       "content_review_status": "not-content-reviewed",
       "source_registration_status": "not-yet-assessed",
       "sha256_status": "not-calculated"
@@ -108,17 +229,6 @@
       "sha256_status": "not-calculated"
     },
     {
-      "inventory_entry_id": "INV-0008",
-      "path": "BUILDING.md",
-      "git_blob_sha": "c10c89dac37f7d8746302818cc8bd0c1f535853c",
-      "size_bytes": 1794,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
       "inventory_entry_id": "INV-0009",
       "path": "causality-influence.html",
       "git_blob_sha": "6fff698dcbd3a616a0c30446fa7159781368f611",
@@ -134,17 +244,6 @@
       "path": "central-research-history-architecture.md",
       "git_blob_sha": "bc8cf00dbe73fd30f789d1c4f382c11837ac1a19",
       "size_bytes": 19672,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0011",
-      "path": "CLOUDFLARE-ASK-SETUP.md",
-      "git_blob_sha": "9aabd7207f9b67e7e96e0cec9d34e94e3e4b042e",
-      "size_bytes": 1704,
       "extension": "md",
       "initial_classification": "research-document-or-project-document",
       "content_review_status": "not-content-reviewed",
@@ -405,17 +504,6 @@
       "sha256_status": "not-calculated"
     },
     {
-      "inventory_entry_id": "INV-0126",
-      "path": "GLOSSARY.md",
-      "git_blob_sha": "2fefc91ef29b3b3d2086d54202a91e2eebc7c7d3",
-      "size_bytes": 15293,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-data",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
       "inventory_entry_id": "INV-0035",
       "path": "identity-continuity.html",
       "git_blob_sha": "4c6eedf98ec2960ee96f427ccfa1e94f622b47ce",
@@ -515,6 +603,94 @@
       "sha256_status": "not-calculated"
     },
     {
+      "inventory_entry_id": "INV-0044",
+      "path": "library/README.md",
+      "git_blob_sha": "b6e017491079bd4b666954b5337b91ff0aa8103a",
+      "size_bytes": 5194,
+      "extension": "md",
+      "initial_classification": "library-governance-or-catalogue",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0045",
+      "path": "library/SCHEMA.md",
+      "git_blob_sha": "01f9ebcb34d7c08f7ed1e55b65d4794516b9e08e",
+      "size_bytes": 12500,
+      "extension": "md",
+      "initial_classification": "library-governance-or-catalogue",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0046",
+      "path": "library/SOURCE-INVENTORY.md",
+      "git_blob_sha": "265196102f2d46ff9b1ca9bf46cba84b00ed787f",
+      "size_bytes": 13233,
+      "extension": "md",
+      "initial_classification": "library-governance-or-catalogue",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0206",
+      "path": "library/SOURCE-REGISTER.md",
+      "git_blob_sha": "55203e219e4a3e074f54cf236a64daa51d8ffb10",
+      "size_bytes": 15754,
+      "extension": "md",
+      "initial_classification": "research-library-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0207",
+      "path": "library/TERMINOLOGY-CONCEPTUAL-REVIEW-2.md",
+      "git_blob_sha": "e7a033223487dbe405e7c4d95d033670f2fd52af",
+      "size_bytes": 17150,
+      "extension": "md",
+      "initial_classification": "research-library-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0208",
+      "path": "library/TERMINOLOGY-CONCEPTUAL-REVIEW.md",
+      "git_blob_sha": "c92298fa7b47bb65dee12cad137e130a9adbe259",
+      "size_bytes": 13679,
+      "extension": "md",
+      "initial_classification": "research-library-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0209",
+      "path": "library/TRILINGUAL-GLOSSARY-INVENTORY.md",
+      "git_blob_sha": "d06a96c21f23ee9730a320e4c71b9206c19d8c6f",
+      "size_bytes": 14626,
+      "extension": "md",
+      "initial_classification": "research-library-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0210",
+      "path": "library/TRILINGUAL-TERMINOLOGY-INVENTORY.md",
+      "git_blob_sha": "42960fb64ad5a571187a1f9638763f001bc7f794",
+      "size_bytes": 21210,
+      "extension": "md",
+      "initial_classification": "research-library-document",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
       "inventory_entry_id": "INV-0127",
       "path": "library/coverage/2026-11-24-live-source-snapshots.md",
       "git_blob_sha": "5351f329e80f0b0fb65dd90f68a5001bffaf1deb",
@@ -541,6 +717,17 @@
       "path": "library/coverage/2026-11-24-source-completion-followup.md",
       "git_blob_sha": "fae91aff82a21ece491c1e3a132f4477fe8e8174",
       "size_bytes": 3620,
+      "extension": "md",
+      "initial_classification": "source-coverage-or-research-assessment",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0142",
+      "path": "library/coverage/README.md",
+      "git_blob_sha": "52b85939c86395e78800c9791369c74312d8fb3f",
+      "size_bytes": 9947,
       "extension": "md",
       "initial_classification": "source-coverage-or-research-assessment",
       "content_review_status": "not-content-reviewed",
@@ -589,6 +776,28 @@
       "initial_classification": "source-coverage-or-research-assessment",
       "content_review_status": "not-content-reviewed",
       "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0218",
+      "path": "library/coverage/awakenology-repository-snapshot-2026-11-25.csv",
+      "git_blob_sha": "479a38101c2746ae40753ff1a64f6a787e9c9d1a",
+      "size_bytes": 134515,
+      "extension": "csv",
+      "initial_classification": "source-snapshot-manifest",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "registered",
+      "sha256_status": "not-calculated"
+    },
+    {
+      "inventory_entry_id": "INV-0219",
+      "path": "library/coverage/awakenology-repository-snapshot-2026-11-25.md",
+      "git_blob_sha": "1c9dc6f1451b577b19e844306b2c822c9a7fe766",
+      "size_bytes": 2348,
+      "extension": "md",
+      "initial_classification": "source-snapshot-manifest",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "registered",
       "sha256_status": "not-calculated"
     },
     {
@@ -649,8 +858,8 @@
     {
       "inventory_entry_id": "INV-0139",
       "path": "library/coverage/capture-log.csv",
-      "git_blob_sha": "b611f0460a7074fe97d768247504ed19663c46b6",
-      "size_bytes": 34577,
+      "git_blob_sha": "b10979c07305774006d04fa7ff1f2a9a299143f5",
+      "size_bytes": 36131,
       "extension": "csv",
       "initial_classification": "source-coverage-or-research-assessment",
       "content_review_status": "not-content-reviewed",
@@ -660,8 +869,8 @@
     {
       "inventory_entry_id": "INV-0140",
       "path": "library/coverage/monthly-maintenance-protocol.md",
-      "git_blob_sha": "9068a757cfcb6afd639d79312b2782cdfee06b25",
-      "size_bytes": 10128,
+      "git_blob_sha": "1d4bb861e5d0e95a18a3dfed0072825a050a9c0a",
+      "size_bytes": 9727,
       "extension": "md",
       "initial_classification": "source-coverage-or-research-assessment",
       "content_review_status": "not-content-reviewed",
@@ -671,20 +880,9 @@
     {
       "inventory_entry_id": "INV-0141",
       "path": "library/coverage/monthly-update-register.csv",
-      "git_blob_sha": "268fab8a5bf1f30c59232859a2e8fbfab863a20d",
-      "size_bytes": 5038,
+      "git_blob_sha": "0344b2e2506e00c80d76db78168cd000467482e8",
+      "size_bytes": 6734,
       "extension": "csv",
-      "initial_classification": "source-coverage-or-research-assessment",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0142",
-      "path": "library/coverage/README.md",
-      "git_blob_sha": "78f4158d9d7f3270ae58f5331b6879c7e12dc7b1",
-      "size_bytes": 12611,
-      "extension": "md",
       "initial_classification": "source-coverage-or-research-assessment",
       "content_review_status": "not-content-reviewed",
       "source_registration_status": "not-yet-assessed",
@@ -803,8 +1001,8 @@
     {
       "inventory_entry_id": "INV-0153",
       "path": "library/coverage/source-coverage-status.csv",
-      "git_blob_sha": "4a6fe1c3d16630b1d0be7b8869d1f02f75bb5eb0",
-      "size_bytes": 7246,
+      "git_blob_sha": "c158683c8011db69401c643e24a811bfcc253cd5",
+      "size_bytes": 7324,
       "extension": "csv",
       "initial_classification": "source-coverage-or-research-assessment",
       "content_review_status": "not-content-reviewed",
@@ -933,12 +1131,12 @@
       "sha256_status": "not-calculated"
     },
     {
-      "inventory_entry_id": "INV-0044",
-      "path": "library/README.md",
-      "git_blob_sha": "f29e556e0fdc19aaac4e0abb3ef8557fa96a8c65",
-      "size_bytes": 4979,
+      "inventory_entry_id": "INV-0170",
+      "path": "library/record-index/README.md",
+      "git_blob_sha": "0f74f3d2eb9a74862a776f8bfb9bc46a1b49053f",
+      "size_bytes": 6042,
       "extension": "md",
-      "initial_classification": "library-governance-or-catalogue",
+      "initial_classification": "derived-record-index-or-capture",
       "content_review_status": "not-content-reviewed",
       "source_registration_status": "not-yet-assessed",
       "sha256_status": "not-calculated"
@@ -1003,17 +1201,6 @@
       "path": "library/record-index/entropy-rr-assessment-points-index.md",
       "git_blob_sha": "5c627a8b62dc55045815e9fa91b8832abc7a8f28",
       "size_bytes": 8537,
-      "extension": "md",
-      "initial_classification": "derived-record-index-or-capture",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0170",
-      "path": "library/record-index/README.md",
-      "git_blob_sha": "a3ac6da7a9364b0094b927e4b5c5413f68b1709a",
-      "size_bytes": 5309,
       "extension": "md",
       "initial_classification": "derived-record-index-or-capture",
       "content_review_status": "not-content-reviewed",
@@ -1087,6 +1274,17 @@
       "sha256_status": "not-calculated"
     },
     {
+      "inventory_entry_id": "INV-0179",
+      "path": "library/record-index/reddit-english-all-README.md",
+      "git_blob_sha": "0d9fa6ec707971f1133db23fd1ce7ff96178d95d",
+      "size_bytes": 5677,
+      "extension": "md",
+      "initial_classification": "derived-record-index-or-capture",
+      "content_review_status": "not-content-reviewed",
+      "source_registration_status": "not-yet-assessed",
+      "sha256_status": "not-calculated"
+    },
+    {
       "inventory_entry_id": "INV-0177",
       "path": "library/record-index/reddit-english-all-comment-section-index.csv",
       "git_blob_sha": "8c5d11e26b41122f73b516ebaab446f679798835",
@@ -1103,17 +1301,6 @@
       "git_blob_sha": "c74a7dd697f862dc32b5e8b880c95577a5573ea3",
       "size_bytes": 158107,
       "extension": "csv",
-      "initial_classification": "derived-record-index-or-capture",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0179",
-      "path": "library/record-index/reddit-english-all-README.md",
-      "git_blob_sha": "ac1977c93ad59f40bc9b775a56ce71ff59a886b1",
-      "size_bytes": 4984,
-      "extension": "md",
       "initial_classification": "derived-record-index-or-capture",
       "content_review_status": "not-content-reviewed",
       "source_registration_status": "not-yet-assessed",
@@ -1254,8 +1441,8 @@
     {
       "inventory_entry_id": "INV-0192",
       "path": "library/record-index/weibo-originals-record-index-README.md",
-      "git_blob_sha": "16d15d55585a5b5d7c9d167d91a1fd4cf21ef4fd",
-      "size_bytes": 8098,
+      "git_blob_sha": "c14c1ab0070b17d6507869e80b0a865794e50667",
+      "size_bytes": 8923,
       "extension": "md",
       "initial_classification": "derived-record-index-or-capture",
       "content_review_status": "not-content-reviewed",
@@ -1406,83 +1593,6 @@
       "sha256_status": "not-calculated"
     },
     {
-      "inventory_entry_id": "INV-0045",
-      "path": "library/SCHEMA.md",
-      "git_blob_sha": "01f9ebcb34d7c08f7ed1e55b65d4794516b9e08e",
-      "size_bytes": 12500,
-      "extension": "md",
-      "initial_classification": "library-governance-or-catalogue",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0046",
-      "path": "library/SOURCE-INVENTORY.md",
-      "git_blob_sha": "1f9a5c74441b1ae88b9ff944b35cfceebbf7662f",
-      "size_bytes": 11764,
-      "extension": "md",
-      "initial_classification": "library-governance-or-catalogue",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0206",
-      "path": "library/SOURCE-REGISTER.md",
-      "git_blob_sha": "82c7e7d1eb620c294057bdd872cd182290116f65",
-      "size_bytes": 14093,
-      "extension": "md",
-      "initial_classification": "research-library-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0207",
-      "path": "library/TERMINOLOGY-CONCEPTUAL-REVIEW-2.md",
-      "git_blob_sha": "e7a033223487dbe405e7c4d95d033670f2fd52af",
-      "size_bytes": 17150,
-      "extension": "md",
-      "initial_classification": "research-library-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0208",
-      "path": "library/TERMINOLOGY-CONCEPTUAL-REVIEW.md",
-      "git_blob_sha": "c92298fa7b47bb65dee12cad137e130a9adbe259",
-      "size_bytes": 13679,
-      "extension": "md",
-      "initial_classification": "research-library-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0209",
-      "path": "library/TRILINGUAL-GLOSSARY-INVENTORY.md",
-      "git_blob_sha": "d06a96c21f23ee9730a320e4c71b9206c19d8c6f",
-      "size_bytes": 14626,
-      "extension": "md",
-      "initial_classification": "research-library-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0210",
-      "path": "library/TRILINGUAL-TERMINOLOGY-INVENTORY.md",
-      "git_blob_sha": "42960fb64ad5a571187a1f9638763f001bc7f794",
-      "size_bytes": 21210,
-      "extension": "md",
-      "initial_classification": "research-library-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
       "inventory_entry_id": "INV-0047",
       "path": "life.html",
       "git_blob_sha": "ad881fa2f59cabe9cf193f49c9bde0b255a19e5c",
@@ -1518,8 +1628,8 @@
     {
       "inventory_entry_id": "INV-0050",
       "path": "materials/README.md",
-      "git_blob_sha": "45dfc7d6d226ddd67622c72951683a98a99c90b7",
-      "size_bytes": 570,
+      "git_blob_sha": "b8014cec4de1e38c9b03ed873d34c0f5475cb365",
+      "size_bytes": 1604,
       "extension": "md",
       "initial_classification": "source-collection-candidate",
       "content_review_status": "not-content-reviewed",
@@ -1835,17 +1945,6 @@
       "sha256_status": "not-calculated"
     },
     {
-      "inventory_entry_id": "INV-0075",
-      "path": "README.md",
-      "git_blob_sha": "7c1a5e698f880089ae4c2f3891a16e8db629e488",
-      "size_bytes": 1468,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
       "inventory_entry_id": "INV-0076",
       "path": "recursive-discovery-architecture-update-001.md",
       "git_blob_sha": "44ac1b6eb3b47001b7bee6b6fd34300a7824385e",
@@ -2066,39 +2165,6 @@
       "sha256_status": "not-calculated"
     },
     {
-      "inventory_entry_id": "INV-0096",
-      "path": "SITE-ARCHITECTURE.md",
-      "git_blob_sha": "49da17878cfeab24b81f6aae4a4d89d7f3b0f674",
-      "size_bytes": 4532,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0097",
-      "path": "SITE-PRINCIPLES.md",
-      "git_blob_sha": "72c4d318a62432197c445f340c62a50c9f6d7e53",
-      "size_bytes": 3147,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0098",
-      "path": "SITE-STANDARDS.md",
-      "git_blob_sha": "178b6ad199ce8fde9a51be41116d15b48bad1789",
-      "size_bytes": 1624,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
       "inventory_entry_id": "INV-0099",
       "path": "sitemap.html",
       "git_blob_sha": "20286c40626f17c4da41ead97f6e02c4ccc011da",
@@ -2220,28 +2286,6 @@
       "sha256_status": "not-calculated"
     },
     {
-      "inventory_entry_id": "INV-0110",
-      "path": "TEAM-COLLABORATION.md",
-      "git_blob_sha": "086c5fd40a3017f86e23190e6c374497438253a6",
-      "size_bytes": 6249,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-document",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0215",
-      "path": "TERMINOLOGY-INVENTORY.md",
-      "git_blob_sha": "66169c39596984c13dd8c8fe9b77f56bb0123ca5",
-      "size_bytes": 169419,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-data",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
       "inventory_entry_id": "INV-0111",
       "path": "terminology.html",
       "git_blob_sha": "e3784285b4575d70454aab7f1d0244449599e7d4",
@@ -2292,17 +2336,6 @@
       "size_bytes": 7925,
       "extension": "html",
       "initial_classification": "website-page-content-or-navigation",
-      "content_review_status": "not-content-reviewed",
-      "source_registration_status": "not-yet-assessed",
-      "sha256_status": "not-calculated"
-    },
-    {
-      "inventory_entry_id": "INV-0116",
-      "path": "VISION-MISSION.md",
-      "git_blob_sha": "3bf7b5b07d4bd0e68617a38c3a6feb070b7f3bd2",
-      "size_bytes": 6602,
-      "extension": "md",
-      "initial_classification": "research-document-or-project-document",
       "content_review_status": "not-content-reviewed",
       "source_registration_status": "not-yet-assessed",
       "sha256_status": "not-calculated"
@@ -2401,5 +2434,17 @@
     "json": 2,
     "mjs": 1,
     "xml": 1
-  }
+  },
+  "submodules": [
+    {
+      "path": "materials/awakenology",
+      "repository": "https://github.com/shifter888ai/awakenology",
+      "branch": "main",
+      "commit": "05523aec14c286bce397678b8a213cca1fc29563",
+      "file_count": 648,
+      "tree_entry_count": 823,
+      "total_bytes": 51750456,
+      "manifest": "library/coverage/awakenology-repository-snapshot-2026-11-25.csv"
+    }
+  ]
 }

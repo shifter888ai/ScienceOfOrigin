@@ -6,7 +6,7 @@
 
 ## 1. Cadence
 
-Run one consolidated review for all four sources every calendar month. Complete the review within the first five calendar days of the following month where access and source availability permit. Record the actual capture date and time; never backdate a capture.
+Run one consolidated maintenance cycle every calendar month. Reddit and Weibo receive new manually checked TXT archives; Awakenology receives a Git repository snapshot update; Yuanwushi receives a separate web-crawling review. Complete the cycle within the first five calendar days of the following month where source availability permits. Record actual capture date/time; never backdate a capture.
 
 Monthly review is the reconciliation cycle, not a reason to wait before preserving new material. Capture newly published or newly accessible original material as soon as practical, then include it in the next monthly reconciliation.
 
@@ -33,33 +33,32 @@ The public Yuanwushi homepage currently advertises a weekly Wednesday 20:00 Beij
 - Prioritize the 21-lesson CX Club sequence and the all-courses PDF discrepancy, then complete Wiki and full-site route discovery.
 - Maintain attribution, source language, timestamps, and rights/privacy notes.
 
-### Awakenology website
+### Awakenology Git repository
 
-- Check awakenology.org, awakenology.space, www aliases, language indexes, robots.txt, sitemap.xml, and repository changes.
-- Reconcile the live route set against the repository's 136 sitemap entries and 148 HTML-file snapshot; investigate new, removed, redirected, or changed routes.
-- Capture page originals and linked images, PDFs, videos, and other assets; record source revision and checksums.
-- Preserve domain/redirect/canonical differences as observations until directly verified.
+- Treat `https://github.com/shifter888ai/awakenology` as the primary maintained source repository.
+- At each monthly cycle, record the exact upstream `main` commit, recursive tree, file count, total bytes, and path/mode/Git-blob-SHA manifest.
+- Compare the new tree with the previous pinned commit; record added, modified, renamed, and deleted paths.
+- Update the pinned library snapshot reference and manifest. Preserve prior monthly commit references and manifests in Git history; never overwrite historical snapshot records.
+- The 2026-11-25 baseline is commit `05523aec14c286bce397678b8a213cca1fc29563` (648 file blobs; 823 tree entries; 51,750,456 bytes).
+- Live-site route/redirect/canonical checks are a separate web-crawling task, not a condition for completing the repository snapshot.
 
 ### Reddit
 
-- Treat `materials/reddit-english-all.txt` as the primary human-readable original-library source. It was produced by the team's automated extraction script specifically for human reading and is intended to be read and researched directly, not replaced by a normalized database or profile-page scrape.
-- Preserve the primary TXT unchanged. Do not silently normalize, rewrite, translate, split, or regenerate it in place. New script runs or source exports must be saved as additive, dated source versions.
-- Keep post/comment indexes, native IDs, permalink reconciliations, topic tags, translations, and analytical interpretations as separate derived layers that point back to the original TXT and exact source locations where available.
-- Record extraction provenance for each future run: capture date/time, script name and version or commit, configuration, input scope/date range, account identity, output filename, and SHA-256. Preserve the script/configuration or a stable version reference when the team can provide it.
-- Recheck the source account's comments view, the Yuanwushi Reddit archive portal, and available monthly pages/downloads as supplementary discovery and verification sources. A profile view is not a replacement for the primary reader-facing archive.
-- Reconcile additions and discrepancies using native Reddit post IDs and comment IDs/permalinks wherever available. Do not rely on title or text similarity alone to establish identity.
-- The official Reddit account-data export may be obtained as an independent completeness benchmark. It is supplementary verification, not a replacement for the human-readable original library.
-- Track original author comments, third-party replies, deleted/unavailable records, edits, and media as distinct record types. Do not infer account-wide completeness from a single profile-feed slice or from a displayed “Showing all comments” label without an explicit total or exhausted pagination evidence.
-- Preserve privacy and attribution; public visibility does not automatically grant republication rights.
+- The project owner confirms that `materials/reddit-english-all.txt` and `materials/reddit-english-qa.txt` are complete TXT archives for their intended Reddit collection scopes. They were manually extracted and checked for completion.
+- Treat these supplied files as complete source archives. Do not reopen their completeness based on portal counts, profile-feed slices, or external account views.
+- Preserve each source TXT unchanged. Each month, add the new manually checked TXT version as a separate immutable source object; never overwrite the previous version.
+- Keep post/thread indexes, comment-section locators, author-marker indexes, Q&A indexes, native IDs, topic tags, translations, and analysis as separate derived layers linked to the exact source version.
+- At each monthly update, record capture date/time, filename, Git blob SHA, SHA-256 where available, and the extraction/check status supplied by the owner. Compare the new version with the previous one and regenerate indexes against the exact new source object.
+- The 1,096 author-marker occurrences in the current all-post archive are not asserted to be 1,096 distinct complete comments; this is a counting-unit limitation of the derived index, not a completeness gap in the supplied TXT archive.
+- Preserve privacy, attribution, and rights context.
 
 ### Weibo
 
-- Recheck account history and profile counters, and obtain a new original-post export when available.
-- Compare new export records with the prior immutable export; preserve each export separately.
-- The owner explains that Xiaowei Memory automatically filters out forwarded/reposted items. Therefore, the local original-post export is expected to be smaller than the profile's aggregate 936-post counter; do not treat the difference as a missing-record count.
-- Reconcile the export against the original-post category/history, not the aggregate profile counter. Keep reposts, comments, deleted/private posts, and other account activity as separate categories.
-- Recover image/video binaries and thumbnails item by item; record parent post number, native permalink, media URL, type, capture method/time, checksum, and recovery status.
-- Record the Xiaowei Memory filtering behavior as owner-supplied workflow context until independently verified from the tool's own documentation or output.
+- The project owner confirms that the supplied Weibo TXT export is complete for its intended original-post scope and was manually extracted and checked for completion.
+- Treat the supplied TXT as a complete source archive. Do not use aggregate profile counters or limited live-timeline snapshots to reopen its completeness status.
+- Each month, add the new manually checked TXT export as a separate immutable source version; preserve all previous versions and record capture date/time, filename, Git blob SHA, and SHA-256 where available.
+- Compare new records with the prior export and regenerate structural indexes, page indexes, and topic/media locator layers against the exact new source version.
+- Image/video binaries represented by omission notes or media locators are a separate media-preservation layer; their absence does not make the owner-confirmed TXT archive incomplete.
 
 ## 3. Preservation and versioning rules
 

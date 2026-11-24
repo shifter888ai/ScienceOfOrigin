@@ -75,3 +75,12 @@ The candidate list is deliberately finite and reflects the current terminology r
 ## Entropy measurement-point source index
 
 - [熵值检测点RR部分 — structural content index](entropy-rr-assessment-points-index.md) — navigable outline and source metadata for the RTF version. The DOCX counterpart is separately preserved but not yet content-inspected.
+
+
+## Owner-confirmed archive status — 2026-11-25
+
+- Reddit: the supplied all-post and Q&A TXT files are complete for their intended collection scopes, manually extracted and checked by the project owner; monthly additive updates.
+- Weibo: the supplied original-post TXT file is complete for its intended scope, manually extracted and checked by the project owner; monthly additive updates.
+- Awakenology: the full upstream Git tree is pinned at commit `05523aec14c286bce397678b8a213cca1fc29563`; the submodule reference and complete tree manifest provide the repository snapshot. Monthly updates compare upstream Git history.
+
+See `../coverage/README.md` and `../coverage/monthly-maintenance-protocol.md` for the governing policy.
