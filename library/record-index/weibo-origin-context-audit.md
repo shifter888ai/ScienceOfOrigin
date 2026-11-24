@@ -78,3 +78,60 @@
 3. Records 106, 212 and 569 contain different source formulations of 本源 / 万物本源; preserve each with date and context rather than compressing them into one canonical definition.
 4. Article and video announcements require retrieval of their linked content before extracting definitions or claims from them.
 5. All statements remain attributed source material, not independently verified findings.
+
+## Additional linked-term audit: 自由意识, 自由意志 and 合一本源
+
+The same source index flags **21 records** for 自由意识: 12 body-text records and 9 hashtag-only records. It flags **8 records** for 自由意志: 7 body-text records and 1 hashtag-only record. The overlap and different usage contexts matter.
+
+### 自由意识 — body-text records
+
+| Record | Date | Context classification | What the exported text supports |
+|---:|---|---|---|
+| 210 | 2018-02-20 | Brief assertion | “一切都是自由意识，没有不是的.” |
+| 230 | 2018-04-12 | Conceptual claim / formula | Describes 自由意识 as the only real existence, 自由意志法则 as the only real law, other existences/laws as virtual, and “自由意识=万物本源.” |
+| 242 | 2018-05-21 | Conceptual claim / formula | Repeats the distinction between 自由意识 as the only real existence and 自由意志 as the only real law. |
+| 293 | 2019-01-30 | Formula / measurement relationship | “意识强度=自由意识的自由强度.” Preserve as a source-stated relationship, not a validated measurement definition. |
+| 328 | 2020-01-22 | Keyword announcement | “2020年关键词：自由意识.” This is a label, not a definition. |
+| 444 | 2021-09-09 | Conceptual description | Describes an infinite/immortal 自由意识 with infinite spontaneous imagination, manifested as the diverse universe, things and their rules/no-rules. |
+| 525 | 2022-01-10 | Topic pairing | “内观之道——多次元复合体。自由意识之道——意识强度检测点.” This associates a research direction with assessment points but does not define the term. |
+| 567 | 2022-03-31 | Model statement | “阳性矩阵=自由意识。阴性矩阵=控制意识.” Preserve as a source-specific model distinction. |
+| 569 | 2022-04-02 | Conceptual / relational claim | Describes game rules as protocols among free consciousnesses A and B, with outcomes depending on their relative strength or negotiation. It also states “本源并不是一个实体.” |
+| 570 | 2022-04-04 | Q&A / explanatory claim | In response to how to change a “negative matrix” into a “positive matrix,” the answer is “将控制意识转变成自由意识.” |
+| 610 | 2022-10-24 | Contrast / aphorism | Contrasts 自由意识 (“你说是啥就是啥”; “无正无邪”) with 程序意识 (“你说不是啥就不是啥”; “我正他邪”). |
+| 653 | 2023-08-08 | Metaphor / media reference | Alternating “想像…不想像…” is labelled “自由意识的脉动（动图）”; the animation itself is not included. |
+
+### 自由意识 — hashtag-only records
+
+Records **612, 615, 616, 621, 622, 623, 625, 626 and 628** contain 自由意识 only in hashtags. They should not be treated as body-text definitions or substantive uses.
+
+### 自由意志 — body-text records
+
+| Record | Date | Context classification | What the exported text supports |
+|---:|---|---|---|
+| 198 | 2018-01-16 | Formula / aphorism | “业力=自由意志的反弹力.” A source-specific formula. |
+| 230 | 2018-04-12 | Conceptual claim | “自由意志法则是唯一的真实法则,” paired in the same post with 自由意识 as the only real existence. |
+| 237 | 2018-05-11 | Human/social usage | Uses 自由意志 in the context of another person's freedom of will and respecting that person's choice. |
+| 242 | 2018-05-21 | Conceptual claim | Repeats the distinction between 自由意识 as existence and 自由意志 as law. |
+| 329 | 2020-01-25 | Media title / link | “贺岁大片：2020 自由意志”; no explanatory content in the export. |
+| 330 | 2020-01-25 | Media title / link | “2020 自由意志” with a video link; video content absent. |
+| 689 | 2024-10-26 | Explicit bilingual pairing | “自然規律只有一個：自由意識 （自由意志Freewill）. 其它都是遊戲規則.” This post explicitly pairs 自由意识 with 自由意志Freewill. |
+
+Record 570 contains 自由意志 only in its hashtag list; it is the one hashtag-only record in the candidate index for this term.
+
+### 合一本源 — five records
+
+| Record | Date | Context classification | What the exported text supports |
+|---:|---|---|---|
+| 129 | 2015-01-11 | Formula / relationship | “得道=合一本源＋脱离轮回.” This is the clearest concise relation in the five-record set. |
+| 165 | 2017-08-26 | Update announcement | Announces that a practical-value section was added to the article “怎么样才算是修炼得道”; the added section is not reproduced. |
+| 276 | 2018-11-18 | Formula / relationship | “灵修=合一本源+开放意识.” The terms are not further defined in this record. |
+| 301 | 2019-05-07 | Practical claim | Says union with Origin makes deception by high spirits or disorientation within games difficult. |
+| 580 | 2022-05-01 | Video title / reference | “如何合一本源：‘我是本源’” introduces a linked video; the video content is absent. |
+
+### Cross-term observations
+
+1. Records 230 and 242 distinguish **自由意识** from **自由意志法则** in the same posts: the former is described as real existence, the latter as the real law. Record 689 later explicitly pairs 自由意识 with 自由意志Freewill in parentheses. Preserve both usages and their dates; do not erase the distinction by treating every occurrence as interchangeable.
+2. Record 237 uses 自由意志 in an ordinary interpersonal context. That occurrence should not automatically be read as the full foundational use of Freewill in Science of Origin.
+3. Record 293 links Consciousness Strength to “the freedom strength of 自由意识.” Record 444 uses 自由意识 in a broad Origin-like description. Record 567, 569, 570, 610 and 653 use it in specific model, protocol, contrast or metaphor contexts. These are related source usages, not one standardized operational definition.
+4. `合一本源` describes a relation/experience involving Origin; it is not a synonym for 本源 itself. Record 129 explicitly places it alongside the separate outcome 脱离轮回.
+5. The index's 21 自由意识 hits and 8 自由意志 hits include media/hashtag references. Raw counts must not be presented as the number of substantive definitions.
