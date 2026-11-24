@@ -10,6 +10,7 @@
 
 - [`reddit-english-all-post-index.csv`](reddit-english-all-post-index.csv) — one row for each of the 617 post/thread blocks.
 - [`reddit-english-all-yws-author-marker-index.csv`](reddit-english-all-yws-author-marker-index.csv) — one row for each exact `Lower-Lingonberry-40:` author marker found in the source (1,096 rows, reconciled 2026-11-24).
+- [`reddit-english-all-comment-section-index.csv`](reddit-english-all-comment-section-index.csv) — one row per `--- comments ---` section, linking its source line range and Source permalink to the author-marker IDs it contains.
 
 ## Structural findings
 
@@ -49,3 +50,7 @@ A separate comparison of the 617 indexed post/thread blocks with the older Yuanw
 ## 2026-11-24 author-marker index reconciliation
 
 A direct recount of the unchanged source blob `0452d11a39654864572c0d563667765b5c96da3c` found **1096** exact `Lower-Lingonberry-40:` occurrences on 1096 source lines. The previous marker index contained 904 data rows and was incomplete by 192 markers. The index has been regenerated against the same source blob with source line numbers and parent post/comment-section associations. The primary TXT was not modified. Marker occurrences still do not equal verified complete comment records; comment spans and reply relationships remain unsegmented.
+
+## Comment-section locator structure (2026-11-24)
+
+The source contains 772 comment sections. Each section has exactly one `Source:` permalink line and at least one `Lower-Lingonberry-40:` marker. Of the 772 sections, 596 contain one author marker and 176 contain multiple author markers. The new section locator index preserves each section's line range, parent post ID, source permalink, and all marker IDs in that section. In multi-marker sections, it deliberately does not assert which individual marker the permalink identifies.
