@@ -42,10 +42,14 @@ The public Yuanwushi homepage currently advertises a weekly Wednesday 20:00 Beij
 
 ### Reddit
 
-- Recheck the Yuanwushi Reddit archive portal and its monthly pages/downloads.
-- Reconcile new portal entries with the local post/thread and Q&A datasets using permalinks, timestamps, subreddit, title, and comment structure.
-- Check the source account's comments view for newly available records; profile overview or submitted posts are not substitutes for comments.
-- Track original author comments, third-party replies, deleted/unavailable records, edits, and media as distinct record types.
+- Treat `materials/reddit-english-all.txt` as the primary human-readable original-library source. It was produced by the team's automated extraction script specifically for human reading and is intended to be read and researched directly, not replaced by a normalized database or profile-page scrape.
+- Preserve the primary TXT unchanged. Do not silently normalize, rewrite, translate, split, or regenerate it in place. New script runs or source exports must be saved as additive, dated source versions.
+- Keep post/comment indexes, native IDs, permalink reconciliations, topic tags, translations, and analytical interpretations as separate derived layers that point back to the original TXT and exact source locations where available.
+- Record extraction provenance for each future run: capture date/time, script name and version or commit, configuration, input scope/date range, account identity, output filename, and SHA-256. Preserve the script/configuration or a stable version reference when the team can provide it.
+- Recheck the source account's comments view, the Yuanwushi Reddit archive portal, and available monthly pages/downloads as supplementary discovery and verification sources. A profile view is not a replacement for the primary reader-facing archive.
+- Reconcile additions and discrepancies using native Reddit post IDs and comment IDs/permalinks wherever available. Do not rely on title or text similarity alone to establish identity.
+- The official Reddit account-data export may be obtained as an independent completeness benchmark. It is supplementary verification, not a replacement for the human-readable original library.
+- Track original author comments, third-party replies, deleted/unavailable records, edits, and media as distinct record types. Do not infer account-wide completeness from a single profile-feed slice or from a displayed “Showing all comments” label without an explicit total or exhausted pagination evidence.
 - Preserve privacy and attribution; public visibility does not automatically grant republication rights.
 
 ### Weibo
@@ -86,8 +90,15 @@ A monthly cycle is not complete merely because all four rows have been updated. 
 - [ ] Record rights, privacy, access, and attribution constraints.
 - [ ] Publish a concise monthly delta report and list unresolved gaps.
 
-
 ## 6. Source-owner workflow clarifications (2026-11-24)
 
 - **CX Club publication lag:** the owner reports several days of delay between the Wednesday lesson and publication of its weekly materials is normal. Use a seven-day rolling grace window; do not label a lesson missing merely because it is absent on Wednesday or Thursday.
 - **Weibo export filter:** the owner reports Xiaowei Memory automatically filters forwarded posts. The 765 locally exported original posts therefore should not be compared directly with the 936 aggregate profile count. The 171-count arithmetic difference is not a missing-original estimate. Verify export coverage against the original-post category/history.
+
+## 7. Reddit original-library decision (2026-11-24)
+
+The owner confirms that `materials/reddit-english-all.txt` was extracted by an engineer on the team using an automated script and was purposely designed for human readers. The owner approves using this file directly as the primary original-library source for the Reddit collection.
+
+This is a source-architecture decision, not a declaration that the file is a complete account-wide export. The current 617 post/thread blocks, permalink lines, author markers, and one 36-comment profile-feed slice are observations with distinct counting units. Completeness remains open until the extraction's input scope and provenance are documented and the source is reconciled against independent evidence.
+
+The primary TXT is preserved as the reader-facing source. Indexes, structured records, topic classifications, translations, cross-source matches, and research interpretations remain separate derived materials. Preserve all future versions additively; never overwrite the primary file or prior captures.
