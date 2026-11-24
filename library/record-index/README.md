@@ -70,3 +70,8 @@ English strings are matched case-insensitively with ASCII-alphanumeric word boun
 Related manual context audit: [weibo-origin-context-audit.md](weibo-origin-context-audit.md) classifies all candidate records for 本源 and the linked terms 自由意识, 自由意志 and 合一本源, distinguishing substantive text from titles, links and hashtag-only hits.
 
 The candidate list is deliberately finite and reflects the current terminology review. It does not discover every possible synonym, spelling, translation, inflection, or related expression. The index does not distinguish quotations, negations, historical usage, proposed terms, or source-attributed claims from current framework definitions. Each hit must be checked in context before it is used to support a definition or conceptual relationship. Re-run the index when repository text changes or the candidate vocabulary expands.
+
+
+## Entropy measurement-point source index
+
+- [熵值检测点RR部分 — structural content index](entropy-rr-assessment-points-index.md) — navigable outline and source metadata for the RTF version. The DOCX counterpart is separately preserved but not yet content-inspected.

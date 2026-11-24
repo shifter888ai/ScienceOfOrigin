@@ -128,3 +128,32 @@ The original Weibo export remains preserved unchanged. Additional discovery file
 - `weibo-topic-classification-README.md` — tag definitions, counts, method, and limitations.
 
 These are derived research aids and must remain distinct from the source record. Topic tags require review before being used for quantitative conclusions. Media retrieval must be tracked separately with per-item provenance and outcome.
+
+
+## Entropy assessment points — RR source versions
+
+Two versions of the source titled **熵值检测点RR部分** are present in `materials/` and are registered separately:
+
+| Provisional source key | Repository path | Format | Size (bytes) | Git blob SHA | Status |
+|---|---|---|---:|---|---|
+| SRC-CAND-007 | `materials/熵值检测点RR部分.docx` | DOCX | 1,764,873 | `509d7dc53ba656bcc4b7f19631d162986b0a9119` | Identified; binary content not inspected |
+| SRC-CAND-008 | `materials/熵值检测点RR部分.rtf` | RTF | 812,389 | `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657` | Text extracted; structural index prepared |
+
+Do not assume that the DOCX and RTF are byte-identical, text-identical, or equally complete. The RTF is the currently readable version used for the content index. Both originals remain preserved.
+
+### Source-derived metadata from the readable RTF
+
+- Title: `熵值检测点` (Entropy Measurement Points).
+- Version shown: v1.1; the document also retains v1.0 notes.
+- Update note: v1.1 says one sample dataset was deleted and a second batch was received on 2026-06-08, concerning several subdivisions in the first area.
+- Download period stated in the document: 2025-09-03 to 2025-09-30; it says this covered nine `互催` documents.
+- Information source field: `南山`.
+- The document's first overview section attributes the measurement-point system's production source to `超级灵联盟`; this is recorded as a statement in the source, not independently verified authorship or provenance.
+- The source describes nine main areas and one auxiliary area. Its overview states approximately 1,800 main measurement points, with further totals described as tens of thousands and subdivisions as over one hundred thousand. These are source-stated figures, not independently audited counts.
+- The source says scoring is not uniformly percentage-based and can exceed conventional percentage ranges at higher stages. Preserve this as the source's scoring description; do not normalize it into a standard scale.
+
+A navigable outline and extraction notes are in [`record-index/entropy-rr-assessment-points-index.md`](record-index/entropy-rr-assessment-points-index.md). The index is derived from the RTF text and its table of contents; it is not a replacement for the original document or a complete point-by-point transcription.
+
+### Interpretation boundary
+
+The document contains assessment descriptions and comparative entries labelled `RR`, `88`, and `JJ`. Those labels and values are preserved as source content. They must not be silently reinterpreted as standardized measurements, validated scores, or independently comparable scales. Any later analysis should cite the exact source section and distinguish source statements, participant assessments, and our own research interpretations.
