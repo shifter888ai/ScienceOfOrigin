@@ -333,6 +333,51 @@ The following terms and phrases are recorded in the chronological Zero-Origin re
 | Sufficient Condition | Condition or set of conditions adequate for a specified outcome | `conditions-constraints.html` | Keep distinct from necessary condition |
 
 
+
+### M. Research library entities, claim status, and provenance vocabulary
+
+The Research Library Schema and AI Research Protocol introduce a second vocabulary layer: terms used to describe the research archive, the kinds of material it stores, and the status of claims. These should be indexed separately from the concepts being investigated.
+
+| Term / exact form | Source meaning or context | Source locations | Review note |
+|---|---|---|---|
+| Source | Original file, publication, conversation, media object, or other source container | `library/SCHEMA.md`; `central-research-history-architecture.md` | Distinguish source container from a record extracted from it |
+| Record | Traceable unit within a source, such as a post, question, answer, message, passage, note, or observation | `library/SCHEMA.md`; `central-research-history-architecture.md` | Preserve source boundary and stable locator |
+| Case | Identifiable reported event, experience, observation, example, or measurement context | `library/SCHEMA.md` | A case is not automatically proof of its proposed explanation |
+| Term | Word, phrase, expression, symbol, or named terminology item in a particular language and usage | `library/SCHEMA.md` | Distinguish term from concept |
+| Concept | Idea or conceptual construct that may be expressed by multiple terms | `library/SCHEMA.md` | Multiple terms may map to one concept, but equivalence requires review |
+| Claim | Proposition asserted in a source or derived analysis | `library/SCHEMA.md`; `AI-RESEARCH-PROTOCOL.md` | A claim is not automatically a finding |
+| Measurement Record | Recorded measurement, data point, instrument reading, or quantitative result | `library/SCHEMA.md` | Preserve method, units, context, and source locator |
+| Experiment | Documented procedure or investigation with conditions, methods, and outcomes | `library/SCHEMA.md` | Distinguish planned experiment from completed experiment |
+| Relationship | Connection or association proposed or explored between terms or concepts | `terminology.html`; `library/SCHEMA.md` | A listed relationship does not establish proof or causation |
+| Research View | Cross-record or cross-topic view within the library architecture | `library/SCHEMA.md`; `central-research-history-architecture.md` | A derived view is not an original source |
+| Provenance | Origin, acquisition history, context, and traceability of a source or derived record | `library/SCHEMA.md`; `AI-RESEARCH-PROTOCOL.md` | Preserve factual provenance separately from interpretation |
+| Source Locator | Stable location within a source: page, line, post ID, URL fragment, timestamp, section, or similar | `library/SCHEMA.md` | Required for precise traceability |
+| Transcription Status | Whether text is verbatim, normalized, OCR, translated, excerpted, reconstructed, or unknown | `library/SCHEMA.md` | Preserve original and derived forms separately |
+| DEF — Working Definition | Term or concept as currently used within the Science of Origin framework | `AI-RESEARCH-PROTOCOL.md` | Not an externally established scientific fact merely because defined |
+| HYP — Hypothesis | Proposed explanation or relationship that can be examined or tested | `AI-RESEARCH-PROTOCOL.md` | State the proposal and possible tests/evidence |
+| INT — Interpretation | Meaning or explanation drawn from observations, experiences, records, or other material | `AI-RESEARCH-PROTOCOL.md` | Keep source observation or record distinguishable |
+| EST — Established Finding | Conclusion supported by verified evidence appropriate to its stated scope | `AI-RESEARCH-PROTOCOL.md` | Requires verification of sources, methods, and limitations |
+| OPEN — Open Question | Question or issue that remains unresolved; protocol says a central question may remain OPEN | `AI-RESEARCH-PROTOCOL.md` | Exact label is used in prose; check whether a formal schema entry is needed |
+| Original Source Claim | Source/content type in the library schema | `library/SCHEMA.md` | Preserve the assertion even if disputed or unsupported |
+| Third-party Observation | Source/content type in the library schema | `library/SCHEMA.md` | Record observer and context where supported |
+| Interpretation / Proposed Explanation | Source/content type in the library schema | `library/SCHEMA.md` | Do not merge with the underlying observation |
+| Measurement Claim | Source/content type in the library schema | `library/SCHEMA.md` | Distinguish a claim that measurement occurred from the data itself |
+| Experimental Claim | Source/content type in the library schema | `library/SCHEMA.md` | Distinguish a report of experiment from verified experimental record |
+| First-hand Experience | Recognized as a legitimate research starting point in the protocol | `AI-RESEARCH-PROTOCOL.md`; `research-framework.html` | Not equivalent to interpretation or independent reproduction |
+| Observed Understanding | Phrase used in the framework for understandings arising from observation and experience | `research-direction.html`; `terminology.html`; `zero-origin.html` | Preserve as its own source phrase; status relationship remains under review |
+| Independent Reproduction | Independent repetition or reproduction of a result where applicable and feasible | `AI-RESEARCH-PROTOCOL.md`; `research-discoveries.html` | Do not claim achieved unless documented |
+| Research Discovery | Finding emerging from investigation and supported by adequate evidence for the claim made | `research-discoveries.html` | Scope and support must match the conclusion |
+| Frontier Research | Research track exploring original concepts, terminology, observations, relationships, models, mechanisms, predictions, and experimental possibilities | `AI-RESEARCH-PROTOCOL.md` | Track A |
+| Established Research and Evidence | Research track examining published research, established knowledge, competing explanations, methods, experimental results, quantitative evidence, and reproducibility | `AI-RESEARCH-PROTOCOL.md` | Track B |
+| Convergence | Connection between frontier exploration and relevant established research/evidence where appropriate | `AI-RESEARCH-PROTOCOL.md` | Neither track automatically invalidates the other |
+
+### N. Exact phrase requiring owner clarification
+
+| Exact phrase | Source location | Source context | Inventory note |
+|---|---|---|---|
+| “All roads lead to Rome” | `AI-RESEARCH-PROTOCOL.md`; `index.html`; `research-framework.html`; `research-direction.html` | Used as an expression for openness of methodology; protocol text says it does not guarantee every path reaches the answer or that all methods are equally suitable/reliable | The project owner has clarified that this is an expression about openness, **not a truth claim**. The owner also notes that only a few methodologies may have the depth and capability to reach Origin. Preserve the phrase as historical wording, but flag the formal principle heading and governing statement for revision so the metaphor is not mistaken for a factual proposition. |
+
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
@@ -346,6 +391,7 @@ These are not silently resolved in the inventory. They require conceptual review
 7. **Freedomality terminology:** Freedomality of Consciousness, Freedomality Index, Freedometry, and Level of Actualization of Freewill appear in project context, but their current definitions and relations need source verification.
 8. **Spectrum equality:** “Spectrum of Things = Spectrum of Consciousness” is explicitly a research objective, not an established conclusion.
 9. **Observed understanding vs observation:** preserve “observed understanding” as a source phrase; do not reclassify it without the owner's conceptual review.
+11. **“All roads lead to Rome”:** the AI Research Protocol currently includes the expression in a principle heading and governing statement. The owner has clarified it is a metaphor for openness, not a truth claim; only some methodologies may have the depth to reach Origin. The formal wording should be reviewed accordingly.
 10. **Infinity:** appears as a nature/aspect of Origin, closest human-understandable description, a possibility-related description, and a research domain. These uses may be related but should not be collapsed prematurely.
 
 ## 5. Extraction coverage and next pass
@@ -357,7 +403,7 @@ These are not silently resolved in the inventory. They require conceptual review
 - Recorded initial terms and explicit cross-source conflicts.
 
 ### Not yet completed
-- Exhaustive term extraction from all 124 HTML/Markdown repository documents.
+- Exhaustive term extraction and exact occurrence indexing across the current repository tree (127 HTML/Markdown files at the post-merge snapshot); several public research-page groups have now been screened, but not every file has been examined at full text level.
 - Exact occurrence indexing and section/line locations for every term.
 - Full comparison of the public Science of Consciousness page with both uploaded framework documents.
 - Extraction from original Reddit, Weibo, Chinese compilation, and other source archives.
