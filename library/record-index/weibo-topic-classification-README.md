@@ -58,3 +58,7 @@ Keyword matching is sensitive to context and polysemy. A keyword can occur in a 
 ## Media recovery status
 
 The source export is text-only and explicitly records omitted image content in 134 posts. The media locator index currently covers 234 posts and contains 67 distinct visible URL strings. These URLs may point to videos, articles, profile pages, or other resources; they are not all direct downloadable media links. No media binaries have been recovered in this pass. Use the original Weibo post permalink or the visible URL as a locator and record each retrieval outcome separately.
+
+## Live Weibo media follow-up
+
+A supplementary locator table, `weibo-live-media-followup.csv`, records live account permalinks and media locators discovered during account-page checks. Its first row links export record 765 to the visible account post, video permalink, thumbnail filename, and player duration. These are discovery references only; they are not binary media captures. The profile's `全部微博（936）` count is recorded as a separate UI observation and must not be treated as directly comparable with the export's 765 locally saved original posts.
