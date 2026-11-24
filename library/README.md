@@ -14,6 +14,12 @@ The library is not limited to the current research framework, the current websit
 - [Research Library Schema](SCHEMA.md) — record types, identifiers, provenance, relationships, evidence distinctions, and preservation rules.
 - [Initial Source Inventory](SOURCE-INVENTORY.md) — an initial inventory of repository content and additional project reference files.
 
+## Source completion tracking
+
+- [Source Completion Program](coverage/README.md) — scope, completion criteria, current evidence baseline, and work sequence.
+- [Source Coverage Status](coverage/source-coverage-status.csv) — machine-readable status for the four priority sources.
+- [Capture Log](coverage/capture-log.csv) — dated observations and verification limits.
+
 ## One source base, connected layers
 
 The library will connect these layers without turning them into competing or duplicated archives:
