@@ -2,10 +2,10 @@
   "manifest_version": "0.3",
   "repository": "shifter888ai/ScienceOfOrigin",
   "branch": "library/monthly-archive-ingest-2026-11-25 (PR snapshot)",
-  "reviewed_commit": "pending",
+  "reviewed_commit": "15644f6993f809243fa8f674f030cdf4c7c077a7",
   "inventory_scope": "All Git tree blobs in the PR snapshot, excluding this manifest itself to avoid a self-referential hash/size. The Awakenology repository is represented by a pinned Git submodule commit and a separate complete file-tree manifest; its external blobs are not counted as local ScienceOfOrigin repository blobs.",
   "total_files": 219,
-  "total_bytes": 60988867,
+  "total_bytes": 60989261,
   "identifier_note": "Existing inventory_entry_id values were preserved; new entries appended. Git blob SHA is Git's object identifier, not a SHA-256 checksum. The manifest excludes itself. Git submodules are recorded separately and their external blobs are not counted as local repository blobs.",
   "entries": [
     {
@@ -627,8 +627,8 @@
     {
       "inventory_entry_id": "INV-0046",
       "path": "library/SOURCE-INVENTORY.md",
-      "git_blob_sha": "265196102f2d46ff9b1ca9bf46cba84b00ed787f",
-      "size_bytes": 13233,
+      "git_blob_sha": "c12fb73aa4c760f108dea4d0bc407ab082756f45",
+      "size_bytes": 13349,
       "extension": "md",
       "initial_classification": "library-governance-or-catalogue",
       "content_review_status": "not-content-reviewed",
@@ -638,8 +638,8 @@
     {
       "inventory_entry_id": "INV-0206",
       "path": "library/SOURCE-REGISTER.md",
-      "git_blob_sha": "55203e219e4a3e074f54cf236a64daa51d8ffb10",
-      "size_bytes": 15754,
+      "git_blob_sha": "0d313a3a7c124ce0468d82d3bf0d61d3165ae829",
+      "size_bytes": 16032,
       "extension": "md",
       "initial_classification": "research-library-document",
       "content_review_status": "not-content-reviewed",
