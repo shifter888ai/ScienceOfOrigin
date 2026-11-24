@@ -110,3 +110,8 @@ The November 2026 register is a checkpoint, not a completion claim. The four sou
 ## Awakenology repository manifests
 
 The 2026-11-24 repository snapshot manifests are `awakenology-repository-tree-manifest-2026-11-24.csv`, `awakenology-sitemap-route-to-blob-manifest-2026-11-24.csv`, and `awakenology-repository-tree-assessment-2026-11-24.md`. They map the 136 sitemap routes to repository blob objects and extend the non-sitemap route review with blob provenance. See the assessment for scope and live-domain limitations.
+
+
+## Yuanwushi article index
+
+The live homepage's six article categories are indexed in `yuanwushi-article-collection-index-2026-11-24.csv` (106 unique article URLs). The scope and link-only capture limitation are documented in `yuanwushi-article-collection-index-2026-11-24.md`.
