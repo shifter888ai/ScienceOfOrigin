@@ -1,0 +1,83 @@
+Awakenology
+
+<a href="https://awakenology.org/English/">English</a>
+
+<a href="https://awakenology.org/Japanese/">日本語</a>
+
+<a href="https://awakenology.org/Chinese/">中文</a>
+
+<a href="https://awakenology.org/search/" aria-label="Search">
+
+</a>
+
+<a href="https://awakenology.org/ask/" aria-label="Ask">
+
+</a>
+
+<a href="https://awakenology.org/links/" aria-label="Links">
+
+</a>
+
+How To Free Your Soul
+
+<a href="https://awakenology.org/English/">
+
+English
+
+</a>
+
+<a href="https://awakenology.org/Japanese/">
+
+日本語
+
+</a>
+
+<a href="https://awakenology.org/Chinese/">
+
+中文
+
+</a>
+
+<a href="https://awakenology.org/Coach_en/">
+
+<img src="fd52a006c2f9ea7465eb2997c1ec9c5a_120x120_fit.png" alt=""/>
+
+Coach
+
+</a>
+
+<a href="https://awakenology.org/Contact/" aria-label="Contact Awakenology">
+
+✉
+
+</a>
+
+<a href="https://www.reddit.com/r/EscapeReincarnation/" aria-label="Reddit: Escape Reincarnation">
+
+<img src="reddit-one.svg" alt=""/>
+
+</a>
+
+<a href="https://www.reddit.com/r/EscapePrisonPlanet/" aria-label="Reddit: Escape Prison Planet">
+
+<img src="reddit-two.svg" alt=""/>
+
+</a>
+
+<a href="https://www.reddit.com/user/Lower-Lingonberry-40/" aria-label="Reddit: Lower-Lingonberry-40">
+
+<img src="reddit-three.svg" alt=""/>
+
+</a>
+
+<a href="https://awakenology.org/Disclaimer/" aria-label="Disclaimer">
+
+ⓘ
+
+</a>
+
+© 2017–2026 Awakenology
+
+<button aria-label="Switch background theme">☀︎</button>
+
+<button aria-label="Return to top" title="Return to top">↑</button>
