@@ -89,3 +89,10 @@ The live profile snapshot also exposes record 762 (`时间是什么`, 2026-11-11
 The preserved TXT source contains 160 explicit page markers, numbered 1–160, with no missing page marker. The record index assigns 765 post starts across 158 distinct export pages. Pages 103 and 104 have no new post starts because they contain the continuation of record 563, which begins on page 102. This is a verified explanation for why the index has fewer distinct `export_page` values than the source has pages; it is not a missing-page gap.
 
 See `weibo-originals-page-coverage-index.csv` for all 160 pages and the number/range of post starts on each page.
+
+
+## Omitted-image coverage verification — 2026-11-24
+
+The 134 original-post records with explicit omitted-image notes are all represented in the media-reference index (134/134 parent-record coverage). This is index coverage only: the export contains no image binaries, and no image file has been recovered or checksummed yet. The 134-item recovery checklist is `weibo-omitted-image-recovery-index.csv`.
+
+The source TXT contains 114 URL occurrences (67 unique URL values). The media-reference index contains 121 occurrences (74 unique) after adding seven distinct live-profile locators. These extra locators do not represent recovered binaries.
