@@ -378,6 +378,121 @@ The Research Library Schema and AI Research Protocol introduce a second vocabula
 | “All roads lead to Rome” | `AI-RESEARCH-PROTOCOL.md`; `index.html`; `research-framework.html`; `research-direction.html` | Used as an expression for openness of methodology; protocol text says it does not guarantee every path reaches the answer or that all methods are equally suitable/reliable | The project owner has clarified that this is an expression about openness, **not a truth claim**. The owner also notes that only a few methodologies may have the depth and capability to reach Origin. Preserve the phrase as historical wording, but flag the formal principle heading and governing statement for revision so the metaphor is not mistaken for a factual proposition. |
 
 
+
+### O. Historical Chinese vocabulary — Weibo source discovery layer
+
+**Source basis:** The preserved Weibo export identifies 765 original-post entries dated August 2010–November 2026. The structural index maps each entry to source lines. The topic index uses provisional keyword rules; its tags are discovery aids, not authoritative interpretations. The terms below are candidate vocabulary strings drawn from the topic-index keyword families and should be checked against each original post before being treated as a term, concept, or definition.
+
+| Exact Chinese source form / candidate term | Provisional topic family | Source / review note |
+|---|---|---|
+| 意识 | consciousness-awakening | Keyword family in the provisional Weibo topic index |
+| 觉醒 | consciousness-awakening | Distinguish from 开悟 and 催醒 |
+| 开悟 | consciousness-awakening | Preserve as a distinct source expression |
+| 灵魂 | consciousness-awakening | Context may vary; do not equate automatically with Consciousness |
+| 意识强度 | consciousness-awakening | Candidate specialized phrase; compare with Strength of Consciousness |
+| 催醒 | consciousness-awakening | Historical term; preserve separately from Awakenology unless equivalence is confirmed |
+| 催眠 | hypnosis-reincarnation | Preserve source-specific usage |
+| 轮回 | hypnosis-reincarnation | Context may refer to a cycle, process, or doctrine |
+| 转世 | hypnosis-reincarnation | Preserve separately from 轮回 |
+| 前世 | hypnosis-reincarnation | Historical/source expression |
+| 潜催 | hypnosis-reincarnation | Specialized phrase; meaning requires source-context review |
+| 本源 | origin-cosmos-time-space | Candidate Chinese expression related to Origin; translation equivalence requires review |
+| 起源 | origin-cosmos-time-space | Do not automatically merge with 本源 |
+| 宇宙 | origin-cosmos-time-space | Broad subject term |
+| 星际 | origin-cosmos-time-space | Broad subject term |
+| 空间 | origin-cosmos-time-space | Compare with Space |
+| 时间 | origin-cosmos-time-space | Compare with Time |
+| 维度 | origin-cosmos-time-space | Context-dependent; may refer to dimensions or levels |
+| 自由意志 | freewill-freedom-choice | Candidate equivalent for Freewill; check exact usage |
+| 自由 | freewill-freedom-choice | Broad term; not automatically equivalent to Freewill |
+| 选择 | freewill-freedom-choice | Candidate equivalent for Choice |
+| 自主 | freewill-freedom-choice | Distinguish from 自由 and 自由意志 |
+| 意愿 | freewill-freedom-choice | Distinguish from intention and will in English usage |
+| 记忆 | memory-dream-perception | Broad subject term |
+| 梦境 | memory-dream-perception | Preserve separately from dream-related experiences |
+| 回忆 | memory-dream-perception | Distinguish from 记忆 where source context supports it |
+| 感知 | memory-dream-perception | Candidate equivalent for perception; review context |
+| 幻觉 | memory-dream-perception | Do not use as a synonym for imagination or illusion without context |
+| 修炼 | practice-experience | Historical practice term |
+| 修行 | practice-experience | Preserve separately from 修炼 |
+| 观察 | practice-experience | Candidate equivalent for observation |
+| 体验 | practice-experience | Candidate equivalent for experience |
+| 方法 | practice-experience | Method / approach; context required |
+| 实践 | practice-experience | Practical application / practice; preserve original form |
+| 检测 | measurement-science | Detection / testing; context required |
+| 测量 | measurement-science | Candidate equivalent for measurement |
+| 数据 | measurement-science | Data |
+| 频率 | measurement-science | Candidate equivalent for frequency |
+| 光谱 | measurement-science | Candidate equivalent for spectrum; distinguish from the English framework's exact technical usage |
+| 熵 | measurement-science | Candidate equivalent for entropy; project-specific meaning must be checked |
+| 实验 | measurement-science | Experiment |
+| 科学 | measurement-science | Science; broad use, not necessarily equivalent to the project's defined Science of Origin |
+| 社会 | relationships-society-commentary | Broad social subject |
+| 人类 | relationships-society-commentary | Humanity / human beings |
+| 人性 | relationships-society-commentary | Human nature |
+| 教育 | relationships-society-commentary | Education |
+| 权威 | relationships-society-commentary | Authority |
+| 迷信 | relationships-society-commentary | Superstition; preserve context and stance |
+| 认知 | relationships-society-commentary | Cognition / understanding; translation depends on context |
+| 公告 | announcements-projects | Announcement |
+| 官网 | announcements-projects | Official website |
+| 网站 | announcements-projects | Website |
+| 公开课 | announcements-projects | Public lesson / open class |
+| 俱乐部 | announcements-projects | Club |
+| 通知 | announcements-projects | Notice |
+| 身体 | health-body-biology | Body |
+| 健康 | health-body-biology | Health |
+| DNA | health-body-biology | Exact Latin-script source form |
+| 基因 | health-body-biology | Gene |
+| 大脑 | health-body-biology | Brain |
+| 神经 | health-body-biology | Nerve / nervous system; context required |
+
+**Important limitations:** The source README states that classification is based on keyword rules and matched-keyword evidence, and that tags may be triggered by quotations, denials, criticism, or unrelated contexts. These terms are therefore candidates only. The next historical-language pass must inspect the original post text, retain record number and source line locator, preserve the original Chinese expression, and add translations as separately labelled interpretations.
+
+**Source files:** `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt`; `library/record-index/weibo-originals-record-index.csv`; `library/record-index/weibo-originals-topic-index.csv`; `library/record-index/weibo-topic-classification-README.md`.
+
+### P. Historical English vocabulary — Reddit source discovery layer
+
+**Source basis:** The repository contains an English Reddit archive with 617 post/thread blocks and 904 exact YWS author markers, plus a separate Q&A collection with 651 question-and-answer records. A preliminary exact-text comparison found substantial overlap but did not establish that the collections are equivalent. The following terms are drawn from the inspected opening Q&A records and are discovery candidates, not automatically canonical Science of Origin terms.
+
+| Exact source form / candidate term | Source context / locator | Review note |
+|---|---|---|
+| gravity machine | Q&A record 0001 | Source answer expression; preserve as a claim in its original context |
+| gravity levels | Q&A record 0001 | Source-specific expression |
+| water layers | Q&A record 0002 | Phrase used in an answer describing layered densities |
+| hypnotic wave | Q&A record 0003 | Preserve exact singular form |
+| awakening wave | Q&A record 0003 | Appears as a questioner's alternative phrase |
+| Hypnotic Bases | Q&A record 0003 | Capitalization in source answer |
+| reincarnation system | Q&A records 0004, 0011 | Broad source expression |
+| soul-body bond | Q&A record 0005 | Source answer's description of awakening |
+| astral projection | Q&A record 0013 | Appears in an attributed first-person experience account |
+| astral body | Q&A record 0013 | Preserve as source wording, not an adopted scientific definition |
+| physical body | Q&A record 0013 | Context is the reported experience |
+| silver cord | Q&A record 0013 | Source-specific term |
+| conscious streams | Q&A record 0013 | Exact phrase in the answer; relation to Consciousness and Spectrum terms requires review |
+| black-hole tunnels | Q&A record 0013 | Experiential report wording |
+| hypnotic reincarnation | Q&A record 0014 | Historical applied term in the answer |
+| threat | Q&A record 0014 | Described as a technique in source wording |
+| freedom | Q&A record 0015 | Appears in a response about choice without a required reason |
+| souls / atmas | Q&A record 0016 | Preserve both source forms; do not infer equivalence across contexts |
+| one consciousness | Q&A record 0017 | Appears in a questioner's wording |
+| individuality | Q&A record 0017 | Appears in an answer distinguishing connection from merging |
+| interconnected | Q&A record 0017 | Source answer's relational description |
+| bioelectricity | Q&A record 0019 | Appears in a questioner's claim; not an endorsed project definition |
+| electromagnetic field | Q&A record 0019 | Appears in a questioner's claim |
+| Qi / Prana | Q&A record 0019 | Preserve original capitalization and slash form |
+| NDE | Q&A records 0014, 0030 | Abbreviation used in question text |
+| Near-Death Experience | Q&A record 0030 | Exact expanded phrase in question text |
+| reincarnation maze | Q&A record 0022 | Questioner's metaphor |
+| programmed reality | Q&A record 0024 | Quoted title/external reference in question text |
+| parallel reality | Q&A record 0029 | Questioner's phrase |
+| Quantum immortality | Q&A record 0029 | Questioner's phrase; not a project conclusion |
+| Tier 1 / Tier 2 / Tier 3 | Q&A record 0025 | Source question's tier labels; referent requires context |
+
+**Attribution and evidence caution:** The Q&A source contains questions and answers. The project source register records the owner's attribution rule for answers in this identified collection as YWS, while questioners and other participants must remain separately attributed. Do not treat a questioner's terminology as YWS terminology. The archive's structural index does not itself validate any claim or classify evidence. Preserve each term's speaker role, record ID, source lines, and surrounding context before adding it to the curated Glossary.
+
+**Source files:** `materials/reddit-english-qa.txt`; `library/record-index/reddit-english-qa-index.csv`; `materials/reddit-english-all.txt`; `library/record-index/reddit-english-all-README.md`; `library/record-index/english-reddit-overlap-analysis.md`.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
