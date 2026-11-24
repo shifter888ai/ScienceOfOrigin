@@ -18,7 +18,7 @@ Files:
 - `reddit-comments-live-capture-2026-11-24.csv` — 50 visible comment-card index rows.
 - `reddit-comments-feed-2026-11-24.txt` — feed-only text snapshot, trimmed before unrelated profile sidebar/chat content.
 
-This is not a complete account-history capture. It does not establish pagination/infinite-scroll coverage, older comment history, all account comments, third-party replies or media. Relative ages are retained as displayed and not converted into guessed timestamps. Repeated text across different subreddits remains separate because each permalink identifies a distinct comment record.
+This is not a complete account-history capture. It does not establish pagination/infinite-scroll coverage, older comment history, all account comments, third-party replies or media. The mismatch between the New sort control and the uniformly old relative-age labels may indicate a stale/partial rendering or a non-obvious feed ordering; the live feed should be revisited and compared with direct comment permalinks before drawing chronology conclusions. Relative ages are retained as displayed and not converted into guessed timestamps. Repeated text across different subreddits remains separate because each permalink identifies a distinct comment record.
 
 ## Next work
 
