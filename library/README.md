@@ -14,6 +14,14 @@ The library is not limited to the current research framework, the current websit
 - [Research Library Schema](SCHEMA.md) — record types, identifiers, provenance, relationships, evidence distinctions, and preservation rules.
 - [Initial Source Inventory](SOURCE-INVENTORY.md) — an initial inventory of repository content and additional project reference files.
 
+## Trilingual terminology and glossary working files
+
+- [Trilingual Terminology Inventory](TRILINGUAL-TERMINOLOGY-INVENTORY.md) — source-traceable English / Traditional Chinese / Japanese term forms, variants, contexts, translations, and unresolved mappings.
+- [Trilingual Glossary Inventory](TRILINGUAL-GLOSSARY-INVENTORY.md) — curated working explanations in three languages, kept distinct from verbatim source wording.
+- These are internal research files. The published Terminology and Glossary HTML pages remain English-only.
+- Japanese and English renderings of Chinese source passages are editorial translations unless the original source independently supplies those forms.
+- The inventories are incomplete first-pass extractions; unresolved entries must not be promoted to settled public definitions.
+
 ## Source completion tracking
 
 - [Source Completion Program](coverage/README.md) — scope, completion criteria, current evidence baseline, and work sequence.
