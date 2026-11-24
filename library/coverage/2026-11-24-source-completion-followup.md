@@ -6,7 +6,7 @@ This follow-up records additional evidence obtained from connected browser snaps
 
 ## Yuanwushi / CX Club
 
-- Connected-browser index lists lessons 1–21, grouped by month as 5 / 4 / 5 / 4 / 3; lesson 22 is upcoming.
+- Current indexed CX Club index (crawled 2026-11-24) lists lessons 1–21, grouped by month as 5 / 4 / 5 / 4 / 3; lesson 22 is upcoming. Lesson 20 has a substantial indexed excerpt (crawled 3 days before review), including its 2026-11-11 title/date, response-chain counts and discussion of awareness, precision and continuity. This remains search-index evidence, not an original page capture.
 - The linked all-courses PDF is available to the web reader as an 8,721-line text extraction.
 - Its visible directory lists lessons 1–16 and separate entries for 17–19. Targeted text searches found no entries for lessons 20 or 21.
 - This is a reader extraction, not an original binary capture. Preserve the PDF bytes and inspect metadata, page count and rendered pages before deciding whether the PDF itself omits lessons 20–21.
