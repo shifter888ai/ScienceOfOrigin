@@ -143,6 +143,196 @@ The entries below are a first-pass discovery list. The short notes are extractio
 | Exincarnation (脱離輪迴) | Named subject of applied research | Uploaded `Science-of-Consciousness.txt` | Preserve English and Chinese form |
 | Spectrum-Based Research | Principle describing use of Spectrum/Spectra as central methodology | Uploaded `Science-of-Consciousness.txt` | Method principle, not a separate research subject |
 
+
+## 6. Public research-page extraction — Pass 2
+
+This pass broadens the discovery register beyond the initial Foundations and core Origin pages. It records additional page-defined subjects and recurring technical vocabulary. The entries below are discovery cues based on page titles, section headings, and introductory descriptions. They are not final glossary definitions. Exact occurrence counts and complete section-level indexes remain outstanding.
+
+### G. Structure, systems, and relationships
+
+| Term / exact form | Source context recorded in this pass | Source locations | Review note |
+|---|---|---|---|
+| Boundaries | Distinctions, limits, or interfaces among regions, manifestations, systems, and conditions | `boundaries-domains.html`; `systems.html`; `identity-continuity.html` | Distinguish functional, intrinsic, relational, observer-defined, and conventional boundaries |
+| Domains | Areas or contexts in which principles, rules, and conditions apply | `boundaries-domains.html`; `constructed-realities-games.html` | Relationship to systems and manifestations needs comparison |
+| Inside / Outside | Relational descriptions associated with boundaries and domains | `boundaries-domains.html` | Context-dependent terms; not necessarily absolute divisions |
+| Permeability | Boundary property concerning whether or how boundaries may be crossed | `boundaries-domains.html` | Record as a structural descriptor |
+| Boundary Crossing | Crossing or changing a boundary between domains or systems | `boundaries-domains.html` | Preserve separately from boundary dissolution |
+| Conditions | Circumstances, states, or requirements relevant to whether or how something occurs | `conditions-constraints.html`; `conditional-creation.html` | Distinguish enabling, limiting, necessary, and sufficient conditions |
+| Constraints | Factors that limit, channel, or shape available forms or outcomes | `conditions-constraints.html`; `possibility-potential.html` | Compare with boundaries and rules |
+| System | Organized arrangement of components, relationships, or processes that can be examined as a whole | `systems.html`; `structure-function.html` | Distinguish system boundary from observer-selected scope |
+| Components | Elements or parts of a structure or system | `systems.html`; `structure-function.html` | Relationship to parts, wholes, and organization |
+| Structure | Arrangement and organization of components, properties, and relationships | `structure-function.html`; `structure.html` | Compare with function and organization |
+| Function | What a structure or system does or the role of its components | `structure-function.html` | Distinguish function from purpose |
+| Organization | Arrangement of elements, components, and relationships | `structure-function.html`; `order-complexity.html` | May be used across multiple scales |
+| Relationships | Connections, associations, or dependencies among components and systems | `relationships-networks.html`; `dependence-independence.html` | Keep relationship types distinct |
+| Networks | Multiple relationships forming organized connections among elements or systems | `relationships-networks.html` | Record network elements, topology, and dynamics separately when present |
+| Interactions | Processes through which manifestations or systems affect or relate to one another | `interactions.html`; `causality-influence.html` | Distinguish interaction from relationship and influence |
+| Dependence | Reliance of a manifestation, system, process, or capability on something else | `dependence-independence.html`; `relationships-networks.html` | Distinguish dependence from interdependence |
+| Interdependence | Mutual or reciprocal dependence | `dependence-independence.html`; `relationships-networks.html` | Distinguish from one-way dependence |
+| Independence | Degree or dimension in which a manifestation or system operates apart from others | `dependence-independence.html`; `relative-apparent-independence.html` | Distinguish relative, apparent, and absolute claims |
+| Relative Independence | Independence within a defined reference point, scope, or set of conditions | `relative-apparent-independence.html`; `fake-origin-divided-origin.html` | Do not equate with absolute independence |
+| Apparent Independence | Independence that a manifestation or system appears to possess | `relative-apparent-independence.html` | Compare with demonstrated independence |
+| Simulated Absolute Independence | Appearance or representation of complete independence within a constructed domain | `simulated-absolute-independence.html`; `fake-origin-divided-origin.html` | A named subject within the proposed Fake Origin model |
+| Autonomy | Self-maintenance or operation within specified conditions | `dependence-independence.html`; `relative-apparent-independence.html` | Not proof of absolute independence |
+| Identity | What makes something identifiable as itself or distinguishable from something else | `identity-continuity.html` | Distinguish identity from similarity and identification |
+| Identification | Process or criteria by which an identity is recognized | `identity-continuity.html` | Related to, but not identical with, identity |
+| Similarity | Resemblance between things or identities | `identity-continuity.html`; `origin-and-its-imitation.html` | Resemblance is not identity |
+| Continuity | Persistence or connection through change | `identity-continuity.html`; `states-processes.html` | Distinguish continuity from permanence |
+| Persistence | Continued existence or operation over a period or through change | `identity-continuity.html`; `states-processes.html` | Review relation to continuity and stability |
+| Stability | Maintenance of a state or structure under specified conditions | `conscious-loop-model.html`; `states-processes.html` | May be dynamic rather than static |
+| Adaptability | Capacity of a structure or system to adjust or reorganize | `structure-function.html`; `conscious-loop-model.html` | Distinguish from transformation |
+| Scale | Dimension or level at which a manifestation or system is examined | `scale-levels.html`; `order-complexity.html` | Distinguish scale from level |
+| Level | A level of organization or description | `scale-levels.html` | Not necessarily hierarchical |
+| Hierarchy | One possible form of organization among levels | `scale-levels.html`; `order-complexity.html` | Source explicitly considers non-hierarchical organization too |
+| Multiplicity | Presence of more than one thing, element, aspect, or manifestation | `multiplicity-unity.html` | Distinguish plurality from division |
+| Unity | A condition in which multiple elements or aspects form a whole | `multiplicity-unity.html`; `oneness-division.html` | Unity need not mean uniformity |
+| Parts and Wholes | Relationship between components and larger organized entities | `multiplicity-unity.html` | Distinguish aggregation from organization |
+| Emergence | Arising of properties, structures, or capabilities through interactions or organization | `transformation-emergence.html`; `interactions.html` | Distinguish emergence from origination and transformation |
+| Order | Arrangements, relationships, or regularities within elements or processes | `order-complexity.html` | Source distinguishes observed order and imposed order |
+| Complexity | Multiple dimensions of organization, relationships, and interactions | `order-complexity.html` | Measurement and observer-dependence need context |
+| Pattern / Patterns | Recurring or organized arrangements within Things, Life, and systems | `information-patterns.html`; `order-complexity.html` | Distinguish pattern from information |
+| Observed Order | Order recognized through observation | `order-complexity.html` | Distinguish from imposed order |
+| Imposed Order | Order introduced or attributed by an observer or organizing process | `order-complexity.html` | Record exact source context before defining |
+
+### H. Origin models, games, and constructed domains
+
+| Term / exact form | Source context recorded in this pass | Source locations | Review note |
+|---|---|---|---|
+| Origin Model / Origin Models | Models or exploratory accounts concerning Origin and its manifestations | `origin-models.html`; `research-framework.html` | Distinguish a model from Origin itself |
+| Imitation of Origin | A manifestation may resemble, represent, or function like Origin | `origin-and-its-imitation.html`; `fake-origin-divided-origin.html` | Resemblance or source-like function is not source identity |
+| Source-like Function | A function performed by a manifestation that resembles a function attributed to Origin | `origin-and-its-imitation.html` | Preserve as a distinct phrase |
+| True Origin — The Oneness Origin | Current model label for the Oneness Origin | `origin-and-its-imitation.html`; `fake-origin-divided-origin.html` | Compare with Origin page's naming |
+| Fake Origin — The Divided Origin | Proposed manifested imitation of Origin in which division and relative independence appear absolute | `fake-origin-divided-origin.html`; `origin-and-its-imitation.html` | Proposed framework model, not an externally established entity |
+| Constructed Reality | An organized construct with a domain of experience, operation, rules, boundaries, and possibilities | `constructed-realities-games.html`; `physical-world-as-a-game.html` | Distinguish construction from fabrication |
+| Game | An organized domain with settings, roles, boundaries, rules, and experiences | `constructed-realities-games.html`; `origin-game.html`; `game-and-fun.html` | Preserve historical and current uses separately |
+| Game Settings | Conditions and parameters under which a game operates | `origin-game.html`; `game-and-fun.html` | Record source's own categories |
+| Player | A role within a game account | `origin-game.html`; `game-and-fun.html` | May overlap with designer or other roles |
+| Designer / Creator | A role associated with designing or originating a game or manifestation | `origin-game.html`; `origination-beyond-original-design.html` | Do not assume every creator has total control |
+| NPC | Exact abbreviation used in the Origin-Game account | `origin-game.html` | Expand only from the source's own wording |
+| Physical World as a Game | A specific proposition within the proposed Fake Origin model | `physical-world-as-a-game.html` | Retain as a model proposition, not settled description |
+| Virtuality of Existence | Page-level subject concerning imagination and the virtuality of what is real or unreal | `virtuality-of-existence.html` | Preserve its assertive source claims and their status; do not generalize |
+| Virtual Individuality | Phrase used in Zero-Origin records for individuality within Oneness | `zero-origin-research-records-001-090.html`; `zero-origin-research-working-record.html` | Historical research term; exact relationship to identity needs review |
+| Simulated Separation | Separation that appears more complete or absolute than has been demonstrated | `fabricated-boundaries-simulated-separation.html` | Distinguish appearance from actual separation |
+| Fabricated Boundary | Boundary established, represented, or interpreted as a stronger separation than demonstrated | `fabricated-boundaries-simulated-separation.html` | Construction and fabrication are explicitly distinguished |
+| Fabricated Division | Proposed arrangement or presentation of distinctions as absolute separation | `fabricated-division-boundaries.html` | Keep distinct from ordinary plurality or distinction |
+| Restricted Access | One possible mechanism through which separation may be experienced or maintained | `fabricated-boundaries-simulated-separation.html` | A mechanism label, not itself proof of absolute separation |
+| Information Partitioning | One possible mechanism listed in the analysis of fabricated boundaries | `fabricated-boundaries-simulated-separation.html` | Preserve exact term |
+| Interface Control | One possible mechanism listed in the analysis of fabricated boundaries | `fabricated-boundaries-simulated-separation.html` | Preserve exact term |
+| Boundary Reinforcement | Process by which a boundary or appearance of separation may be reinforced | `fabricated-boundaries-simulated-separation.html`; `simulated-absolute-independence.html` | Compare with distinct operating rules |
+| Forgetting / Awakening | Paired concepts in the Origin-Game and Game and Fun records | `origin-game.html`; `game-and-fun.html` | Preserve as source expressions; relation to applied Awakenology needs review |
+| Fun / Ultimate Fun | The Game and Fun page describes fun as a fundamental aspect of gaming and ultimate fun as self-surprising | `game-and-fun.html`; `origin-game.html` | Experiential source claim; preserve provenance |
+
+### I. Creation, origination, and process mechanisms
+
+| Term / exact form | Source context recorded in this pass | Source locations | Review note |
+|---|---|---|---|
+| Creation | A subject within the research architecture concerning the coming-about or production of manifestations | `creation.html`; `research-framework.html` | Distinguish creation from origination and generation |
+| Conditional Creation | Creation/origination whose occurrence or form depends on specified or arising conditions | `conditional-creation.html` | Includes IF / THEN / ELSE structure |
+| IF / THEN / ELSE | Conditional structure used to describe condition-dependent pathways | `conditional-creation.html` | Preserve exact notation and labels |
+| Programmed Creation | Creation or origination guided by an organized program of instructions, rules, and processes | `programmed-creation.html` | Distinguish from conditional creation |
+| Program | Organized arrangement of instructions, rules, and processes | `programmed-creation.html` | Source may use technical analogy beyond computing |
+| Execution / Operation | Carrying out a program or process | `programmed-creation.html`; `conditional-creation.html` | Distinguish operation from outcome |
+| Generation | Production or formation of an outcome; source explicitly distinguishes generation from origination | `conditional-creation.html`; `programmed-creation.html`; `independent-origination-capabilities.html` | Important distinction: do not merge with origination |
+| Origination Capability | Capability through which a manifestation or system may originate further manifestations or systems | `independent-origination-capabilities.html` | Distinguish capability, process, and outcome |
+| Independent Origination Capability | Capability to originate further manifestations or systems from within a manifestation or system | `independent-origination-capabilities.html` | “Independent” does not mean unlimited or absolute |
+| Collective Origination | Origination involving multiple participants or systems | `conscious-loop-model.html`; `zero-origin-virtual-independence-recursive-worlds.html` | Preserve as distinct from central-originator models |
+| Recursive Origination | Origination in which outcomes may become contexts or sources for further origination | `origin-exploring-itself.html`; `zero-origin-virtual-independence-recursive-worlds.html` | Exact scope and mechanism need review |
+| Recursive Discovery | Named research subject in Zero-Origin research records | `zero-origin-idle-manifestation-checkpoint.html`; `zero-origin-virtual-independence-recursive-worlds.html` | Preserve as a research term |
+| Recursive Rediscovery | Named research subject in Zero-Origin research records | `zero-origin-idle-manifestation-checkpoint.html`; `zero-origin-virtual-independence-recursive-worlds.html` | Relationship to Recursive Discovery requires clarification |
+| Transformation | Change in an existing manifestation or system | `transformation-emergence.html`; `states-processes.html` | Distinguish from origination of something new |
+| Cessation | Ending or stopping of a manifestation or process | `manifestations.html`; `states-processes.html` | Relation to non-manifestation requires review |
+| State | Condition or configuration of something at a time or within a defined interval | `states-processes.html` | Distinguish state from process |
+| Process | Activity, sequence, or set of changes through which something operates or develops | `states-processes.html` | Distinguish process from state and outcome |
+| Feedback | Circular or reciprocal process in which outputs influence subsequent states or activity | `cycles-recurrence.html`; `conscious-loop-structures.html` | Compare with cycles and conscious loops |
+| Cycle | Process or sequence that returns to a state or condition related to an earlier one | `cycles-recurrence.html` | Distinguish periodic and non-periodic cycles |
+| Recurrence | Repetition or reappearance of a state, pattern, or process | `cycles-recurrence.html` | Recurrence need not mean exact repetition |
+| Conscious-Loop | A loop structure described as creating a looping process of consciousness or energy | `conscious-loop-model.html`; `conscious-loop-structures.html` | Exploratory model; distinguish earlier and consolidated accounts |
+| Conscious-Loop Model | Evolving exploratory model of loop structures and their possible roles in circulation, maintenance, interaction, and origination | `conscious-loop-model.html` | Source explicitly marks it as exploratory |
+| Zero-Energy Space | Proposed self-cycling spatial structure in an original source account | `zero-energy-space.html` | Preserve original account separately from later conscious-loop interpretation |
+| Multi-space Cyclic Conversion | Exact phrase used in Zero-Energy Space source terminology | `zero-energy-space.html` | Do not silently translate into a conventional physics term |
+| Origination Beyond the Creator's Original Design | Subject concerning outcomes or further manifestations beyond a creator's original design or anticipation | `origination-beyond-original-design.html` | Distinguish intention, design, outcome, emergence, and further origination |
+
+### J. Nature of Existence, physical descriptions, and dynamics
+
+| Term / exact form | Source context recorded in this pass | Source locations | Review note |
+|---|---|---|---|
+| Energy | Subject of investigation concerning forms, states, properties, measurement, and relation to Matter | `energy-matter.html`; `information-patterns.html` | Page distinguishes established physics usage from broader open questions |
+| Matter | Subject of investigation concerning nature, properties, forms, and relation to Energy | `energy-matter.html` | Preserve conventional and project-specific contexts separately |
+| Space | Subject concerning extension, position, distance, direction, relation, and possible scope beyond familiar physical descriptions | `space-time.html`; `zero-energy-space.html` | Distinguish ordinary space from Zero-Energy Space |
+| Time | Subject concerning measurement, models, origination, and applicability to Origin | `space-time.html`; `cycles-recurrence.html` | “Before” may be temporal or non-temporal; do not assume |
+| Space-Time | Combined or related description of space and time | `space-time.html` | Preserve as source form |
+| Physicality | Subject in discussions of the physical world and apparent independence | `physical-world-as-a-game.html`; `fake-origin-divided-origin.html` | Meaning and scope need review |
+| Life Form | Category of existence investigated within Nature of Life | `life.html`; `things-life.html`; `manifestations.html` | Distinguish Life from individual Life Forms |
+| Living / Non-living | Distinction investigated in Nature of Life | `life.html`; `things-life.html` | Criteria are a research question |
+| Virtuality | Descriptive term in the Virtuality of Existence page and Zero-Origin records | `virtuality-of-existence.html`; Zero-Origin research records | Do not equate with digital simulation without source support |
+| Actual Existence | Term used in the Possibility & Potential investigation | `possibility-potential.html` | Distinguish from potential existence |
+| Potential Existence | Term used in the Possibility & Potential investigation | `possibility-potential.html` | Distinguish from actual existence |
+| Probability | Description of likelihood under specified conditions and a particular framework | `probability-uncertainty.html` | Distinguish from possibility and potential |
+| Uncertainty | Limits or incompleteness in what can be known, measured, or predicted | `probability-uncertainty.html`; `measurement-quantification.html` | Distinguish data uncertainty, model assumptions, and unpredictability |
+| Randomness | Subject examined in relation to probability and unpredictability | `probability-uncertainty.html` | Do not equate with spontaneity |
+| Causality | Relationship between contributing causes/conditions and subsequent effects | `causality-influence.html` | Distinguish cause, condition, and influence |
+| Cause and Effect | Relationship examined within causality | `causality-influence.html` | Source considers multiple and reciprocal causes |
+| Influence | Direct or indirect effect among manifestations or systems | `causality-influence.html`; `relationships-networks.html` | Distinguish influence from causation |
+| Emergence | Arising of properties, structures, or capabilities through interaction or organization | `transformation-emergence.html`; `causality-influence.html` | Compare with origination |
+| Perception | Process by which information or effects are received or interpreted | `perception-observation.html` | Page distinguishes perception from observation |
+| Detection | Registration or recognition of a signal, property, or phenomenon | `perception-observation.html`; `science-of-consciousness.html` | Distinguish detection from interpretation |
+| Registration | Recording or registering an effect or signal | `perception-observation.html`; `science-of-consciousness.html` | Exact detector context matters |
+| Observer | Person, system, or perspective involved in observation | `perception-observation.html`; `existence-reality.html` | Avoid assuming human observer only |
+| Observed System | System or phenomenon being observed | `perception-observation.html` | Record whether observation is interactive |
+| Subjectivity | Subjective perspective or account, including the source page's stated absolute subjectivity position | `subjectivity-objectivity.html` | Preserve the page's status and provenance; do not generalize |
+| Objectivity | Objective description or perspective, discussed in relation to relative virtuality | `subjectivity-objectivity.html` | Do not silently equate with consensus |
+| Measurement | Process of determining or estimating a property according to stated definitions and methods | `measurement-quantification.html` | Record what is measured and by what method |
+| Quantification | Expression or establishment of quantities | `measurement-quantification.html` | Not all properties are assumed measurable |
+| Accuracy | Closeness of a measurement to an intended or reference value | `measurement-quantification.html` | Retain source-specific definition |
+| Precision | Consistency or resolution of repeated measurements | `measurement-quantification.html` | Distinguish from accuracy |
+| Resolution | Ability of a measurement method to distinguish values or changes | `measurement-quantification.html` | Instrument/method-specific |
+| Uncertainty of Measurement | Uncertainty associated with measurement and its sources of error | `measurement-quantification.html` | Keep distinct from broad philosophical uncertainty |
+| Reproducibility | Comparability and repeatability of research methods or results | `measurement-quantification.html`; Science of Consciousness framework | Distinguish intended principle from completed validation |
+
+### K. Zero-Origin research record vocabulary
+
+The following terms and phrases are recorded in the chronological Zero-Origin research pages. Their occurrence there does not automatically make them current canonical terms. Preserve the original record number and wording when indexing them.
+
+| Term / exact form | Source context recorded in this pass | Source locations | Review note |
+|---|---|---|---|
+| Reason | Records discuss Freewill and reason, having a reason, and needing a reason | `zero-origin-research-records-001-090.html`; `zero-origin-research-working-record.html` | Preserve distinctions between having and needing a reason |
+| Spontaneity | Recorded as a topic distinct from intention | `zero-origin-research-records-001-090.html` | Compare with Spontaneous Imagination |
+| Unanticipated Origination | Record title concerning origination beyond anticipation | `zero-origin-research-records-001-090.html` | Historical research phrase |
+| Surprise / Self-Surprise | Connected to Infinity and Freewill in record titles and Origin-Game account | `zero-origin-research-records-001-090.html`; `infinity-surprise-indescribable.html`; `origin-game.html` | Preserve experiential context |
+| Unknown | Discussed in relation to Freewill, Infinity, and what is not yet known | `zero-origin-research-records-001-090.html`; `infinity-surprise-indescribable.html` | Distinguish unknown from unknowable |
+| Contradictory Imaginations | Record title for contradictory imagination cases | `zero-origin-research-records-001-090.html` | Exact concept needs record-level extraction |
+| Asymmetric Awareness | Record title | `zero-origin-research-records-001-090.html` | Meaning not yet extracted |
+| Subconscious Relationship | Record title and working-record section on subconsciousness | `zero-origin-research-records-001-090.html`; `zero-origin-research-working-record.html` | Compare with Consciousness and Subconsciousness usage |
+| Subconsciousness | Used in the Zero-Origin records in relation to Consciousness | `zero-origin-research-records-001-090.html`; `zero-origin-research-working-record.html` | Do not equate with a conventional psychological definition without review |
+| Formless Souls | Term used in the working record's illustrative account | `zero-origin-research-working-record.html` | Preserve as source-specific expression |
+| Formed Souls | Term used in the working record's illustrative account | `zero-origin-research-working-record.html` | Preserve as source-specific expression |
+| Imaginations Within Imaginations | Working-record section title | `zero-origin-research-working-record.html` | Related to recursive imagination/origination |
+| Flavor of Intelligence | Exact phrase in working record | `zero-origin-research-working-record.html` | Preserve wording; meaning requires review |
+| Root of Intelligence | Exact phrase in working record | `zero-origin-research-working-record.html` | Preserve wording; meaning requires review |
+| 0 begets 11 begets 22 begets 33 begets all | Exact phrase recorded in working record | `zero-origin-research-working-record.html` | Preserve as historical expression, not normalize into a formula |
+| Origin Consultation | Phrase used in an exploratory dialogue | `origin-exploring-itself.html`; `infinity-surprise-indescribable.html` | Record context and date before treating as a canonical method |
+
+### L. Additional source-defined research distinctions
+
+| Term / exact form | Source context recorded in this pass | Source locations | Review note |
+|---|---|---|---|
+| Qualitative Description | Description that does not depend solely on numerical quantities | `measurement-quantification.html` | Distinguish from quantitative description |
+| Quantitative Description | Description expressed through quantities | `measurement-quantification.html` | Not synonymous with complete understanding |
+| Direct Measurement | Measurement made directly with respect to the property or defined observable | `measurement-quantification.html` | Follow source's exact operational definition |
+| Indirect Measurement | Measurement inferred through related quantities or effects | `measurement-quantification.html` | Preserve inference chain |
+| Instrument | Device or method used in measurement or observation | `measurement-quantification.html`; `perception-observation.html` | Include non-instrumental methods where source permits |
+| Reference Standard | Standard used to compare or calibrate a measurement | `measurement-quantification.html` | Record operational details |
+| Observed Reality | Reality as observed or described through observation | `existence-reality.html` | Distinguish from experienced reality |
+| Experienced Reality | Reality as experienced by a subject or system | `existence-reality.html` | Distinguish from observed reality |
+| Model Assumption | Assumption used within a model or prediction | `probability-uncertainty.html`; `origin-models.html` | Record assumptions separately from findings |
+| Prediction | Statement about a possible future outcome under a model or conditions | `probability-uncertainty.html` | Distinguish from possibility and observation |
+| Threshold | Condition or boundary at which a change or classification occurs | `conditions-constraints.html`; `scale-levels.html` | Context-specific |
+| Enabling Condition | Condition that allows a process or state to occur | `conditions-constraints.html` | Distinguish from necessary condition |
+| Limiting Condition | Condition that restricts a process or available outcome | `conditions-constraints.html` | Distinguish from constraint if source does |
+| Necessary Condition | Condition required for a specified outcome | `conditions-constraints.html` | Keep distinct from sufficient condition |
+| Sufficient Condition | Condition or set of conditions adequate for a specified outcome | `conditions-constraints.html` | Keep distinct from necessary condition |
+
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
