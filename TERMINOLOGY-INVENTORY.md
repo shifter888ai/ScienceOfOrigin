@@ -553,6 +553,71 @@ The Research Library Schema and AI Research Protocol introduce a second vocabula
 
 **Next Weibo sub-pass:** classify each candidate hit as (a) authored proposition or explanation, (b) title/announcement pointing to a longer source, (c) hashtag only, (d) quotation or attributed material, (e) question/commentary, or (f) other/unclear. Then extract all explicit definition/equation forms and build a separate relationship register. Preserve record number, timestamp, original text, and source line range throughout.
 
+
+### R. Reddit English Q&A archive — role-separated terminology pass
+
+**Source inspected:** `materials/reddit-english-qa.txt` (651 Q&A records; 357,871 characters) and `library/record-index/reddit-english-qa-index.csv`. The Q&A file is structured with separate question and answer spans. Under the owner's attribution instruction recorded for this collection, the answers are attributed to YWS; the questions remain attributable to their respective questioners.
+
+**Derived index:** `library/record-index/reddit-qa-terminology-candidate-index.csv`. It records candidate phrase counts separately for question spans and answer spans, plus record IDs and source line ranges.
+
+**Method:** case-insensitive literal substring matching over a curated set of 89 English candidate terms/phrases, separately in each question and answer. Counts represent records containing the phrase, not total occurrences. These are lexical discovery statistics, not semantic classification, author endorsement by questioners, or validation of claims. Terms appearing only in questions must not be represented as YWS terminology.
+
+#### Selected answer-side vocabulary (YWS-attributed answer spans)
+
+| Candidate phrase | Q&A records with phrase in answer | Example records | Note |
+|---|---:|---|---|
+| soul | 73 | 0013, 0038, 0039, 0063, 0089 | Broad recurring word; compounds and context matter |
+| hypnotic | 72 | 0003, 0033, 0034, 0043, 0052, 0053 | Often occurs in project-specific compounds |
+| escape | 69 | 0054, 0058, 0106, 0110, 0111, 0118 | May be ordinary verb or applied term |
+| SoC | 56 | 0097, 0111, 0118, 0149, 0158, 0172 | Abbreviation; expand from context, not automatically |
+| will | 55 | 0070, 0073, 0075, 0104, 0108, 0110 | Broad substring; distinguish freewill/free will |
+| reincarnation | 99 | 0032, 0033, 0034, 0035, 0036, 0043 | Strong recurring applied vocabulary |
+| hypnotic reincarnation | 50 | 0033, 0034, 0043, 0052, 0053, 0063 | More specific phrase than hypnosis |
+| reincarnation system | 38 | 0033, 0053, 0063, 0079, 0083, 0111 | Recurring system-level expression |
+| Hypnotic Reincarnation System | 32 | 0033, 0053, 0063, 0079, 0083, 0111 | Capitalized named form |
+| Consciousness | 37 | 0013, 0043, 0070, 0071, 0073, 0097 | Compare with SoC and streams of consciousness |
+| Freewill | 19 | 0070, 0073, 0104, 0172, 0190, 0195 | Preserve spelling as source uses it |
+| spectrum | 17 | 0097, 0117, 0190, 0195, 0210, 0211 | Appears in research/measurement contexts |
+| Strength of Consciousness | 13 | 0118, 0190, 0195, 0210, 0237, 0271 | Exact named phrase |
+| astral projection | 13 | 0013, 0038, 0056, 0104, 0235, 0236 | Includes first-person experience reports |
+| physical body | 15 | 0013, 0089, 0092, 0118, 0226, 0295 | Distinguish from body and astral body |
+| energy | 12 | 0033, 0118, 0157, 0172, 0198, 0223 | Broad term; do not assume conventional physics sense |
+| universe | 11 | 0100, 0117, 0157, 0175, 0190, 0201 | Broad subject term |
+| Hypnotic Bases | 1 | 0003 | Appears in the answer to a question about buzzing sounds |
+| conscious streams / streams of consciousness | 1 each | 0013 | Exact phrases in the same first-person answer; retain both exact forms |
+| conscious intention | 2 | 0013, 0352 | Distinct from general intention |
+| interconnected | 1 | 0017 | Appears in a clarification distinguishing connection from merging |
+| individuality | 1 | 0017 | Preserve alongside the source's distinction between connection and merging |
+| loosh energy | 1 | 0033 | Exact source phrase in a specific answer context |
+| Hypnotic Council | 0 in answers; 1 in question | 0030 | In this archive the phrase is in the question's description; do not attribute it to YWS based on that occurrence |
+
+#### Selected source passages and distinctions
+
+| Record | Source lines | Exact vocabulary or subject | Attribution / review note |
+|---|---:|---|---|
+| 0003 | 10–13 | hypnotic wave; awakening wave; Hypnotic Bases | The questioner proposes the two wave labels; the answer uses “hypnotic waves” and “Hypnotic Bases.” Keep speaker roles distinct |
+| 0013 | 42–59 | astral projection; physical body; astral body; soul; silver cord; streams of consciousness; conscious intention; black-hole tunnels | YWS-attributed first-person experiential account; preserve its wording and quantitative statements as a source record, not as an externally validated finding |
+| 0015 | 63–71 | choice; at will; freely; no reason ever needed; true freedom | The questioner frames the issue; the answer proposes a freedom-related question. Preserve the full Q/A pair |
+| 0017 | 78–87 | one consciousness; individuality; interconnected; merging; hive mind | The question uses “one consciousness”; the answer distinguishes interconnectedness from merging and loss of individuality |
+| 0018 | 88–90 | universe; game developer groups; physical universes | The “small game developer groups” wording occurs in the answer; retain as a source claim/model description |
+| 0019 | 91–93 | Bioelectricity; electromagnetic field; Qi; Prana; bio-electromagnetic field; spectrum; scanners; SoC algorithms | The first four expressions occur in the question; the answer introduces its own related terms. Do not attribute question wording to the answerer |
+| 0024 | 109–111 | computer programmed reality; virtual reality; virtual | “Computer programmed reality” appears in the question's quoted title; answer says “A virtual reality. Virtual, not real.” |
+| 0025 | 112–114 | Tier 1, Tier 2, Tier 3; level 3 | The tier terminology appears in the question; the answer does not define the tiers in this record |
+| 0030 | 122–126 | hypnotists; Hypnotic Council; roles | The question contains the “Council of 12” framing; the answer introduces “Hypnotic Council” and describes roles. Preserve as a source-specific explanation |
+| 0033 | 130–134 | loosh energy; Archons; Matrix construct; Hypnotic Reincarnation System | The answer gives an explicit relation for “loosh energy”; preserve the entire answer and its source attribution |
+| 0038 | 146–? | astral projection | Candidate record; consult index for exact answer line range |
+| 0190 | index locator | Science of Consciousness; spectrum; Freewill; Strength of Consciousness | Candidate answer-side research vocabulary; inspect full record before glossary definition |
+
+#### Attribution and status rules for this archive
+
+- Questioner wording is evidence that a term was raised in discussion, **not** that YWS coined, endorsed, or defined it.
+- Answer wording is attributed to YWS under the owner's instruction for this collection; it is still a source claim or experiential account, not automatically an EST finding.
+- Keep exact wording, punctuation, capitalization, speaker role, record ID, and source lines. Do not merge question and answer spans.
+- A repeated term may be used differently in different threads. The index counts record-level presence, not a single stable concept.
+- The Q&A archive and the broader Reddit all-post archive remain separate. The existing overlap analysis finds exact normalized answer-text matches for 487 of 651 Q&A records, but this does not prove that the two archives are equivalent or that unmatched records are absent from the broader archive.
+
+**Next Reddit sub-pass:** examine the 617 post/thread blocks and 904 exact YWS author markers in `materials/reddit-english-all.txt`. Extract terminology from YWS-attributed spans separately from original posters, other commenters, quoted text, and thread titles. Use `reddit-english-all-post-index.csv`, `reddit-english-all-yws-author-marker-index.csv`, and the existing overlap file as locators; do not treat each author marker as a complete comment without checking boundaries.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
