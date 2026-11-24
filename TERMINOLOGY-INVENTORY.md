@@ -1330,7 +1330,7 @@ These are not silently resolved in the inventory. They require conceptual review
 
 ### Not yet completed
 
-- Exhaustive term extraction and exact occurrence indexing across all 127 HTML/Markdown repository files.
+- Repository-wide exact lexical occurrence indexing across all 145 HTML/Markdown files in the repository at the time of extraction, covering 70 selected English/Chinese terms; the CSV contains 1,329 term/file rows across 126 files. This is a finite-candidate lexical pass, not exhaustive semantic extraction or a complete synonym inventory.
 - Manual context classification of every Weibo candidate hit (authored explanation, title/announcement, hashtag, quotation, question/commentary, or unclear).
 - Full manual boundary audit of all Reddit YWS author-marker spans; the current segmentation is a discovery aid and may require correction in nested threads.
 - Full semantic extraction of all Reddit questioner and third-party commenter vocabulary in the broader archive.
@@ -1343,7 +1343,7 @@ These are not silently resolved in the inventory. They require conceptual review
 
 ### Next sequence
 
-1. Continue manual context and attribution review of the historical candidate indexes, starting with the core concepts and exact definition/equation passages.
+1. Use the repository-wide occurrence index to continue manual context and attribution review of core concepts, starting with the Origin, Consciousness/Freewill, Zero/Idle/Infinity, Spirit/Void and Imagination/Origination passages.
 2. Complete the PDF-to-TXT comparison once the two PDF binaries are available for direct inspection.
 3. Continue the core-term histories for remaining research terms and applications, preserving dates and source locators.
 4. Review the open conceptual questions with the owner before changing any working definitions.
