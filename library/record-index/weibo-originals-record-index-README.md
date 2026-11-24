@@ -36,7 +36,7 @@ A connected-browser snapshot of the source account timeline exposed a top item t
 
 ## Important limitations
 
-This index is a navigation and search aid, not proof that the account's entire historical output has been captured. The export itself says it contains only locally saved original content. It does not establish completeness against the live account, deleted/private posts, reposts, or other Weibo content types.
+This index is a navigation and search aid, not proof that the account's entire historical output has been captured. The export itself says it contains only locally saved original content. The owner clarifies that Xiaowei Memory automatically filters forwarded posts; therefore, the 765-record original-post export is expected to be smaller than the aggregate profile counter of 936. The difference is not a missing-original estimate. This filtering behavior is owner-supplied workflow context and has not been independently verified against Xiaowei Memory documentation. The export still does not establish completeness of the original-post category against the live account, or coverage of deleted/private posts and other Weibo content types.
 
 The export is text-only. It explicitly notes omitted images in some records; video and image media are not preserved as binary attachments by this TXT file. Visible URLs are copied as found in the export and may be incomplete, line-wrapped, encoded, or malformed. No attempt has been made to repair them.
 
@@ -71,3 +71,12 @@ A connected-browser snapshot of the account profile displayed six recent timelin
 - Records 762 and 765 expose video players with displayed durations of 04:04 and 01:55 respectively.
 
 This is a six-record recent-timeline spot check, not a complete account-history reconciliation. It does not establish that all 936 profile items are original posts or that the 765 locally saved export records cover the entire account history. The videos, thumbnail files and other omitted media remain unrecovered.
+
+
+## Owner clarification on Xiaowei Memory filtering — 2026-11-24
+
+The owner reports that Xiaowei Memory automatically filters forwarded posts. The local export is therefore an original-post collection and is not expected to equal the profile's aggregate `全部微博（936）` counter. Do not calculate a missing-original count by subtracting 765 from 936. Verify completeness against the filtered original-post category/history instead. This is owner-supplied operational context, not independently verified tool documentation.
+
+## Second live video locator — record 762
+
+The live profile snapshot also exposes record 762 (`时间是什么`, 2026-11-11 18:38 BJT) at `https://weibo.com/1760432301/RqU7cpTao`, with video locator `https://video.weibo.com/show?fid=1034:5364121303187507`, displayed duration 04:04, and thumbnail filename `68ee10adly1iiydy43vmxj21hc0u0go7.jpg`. These are locators only; the video and thumbnail binaries remain uncaptured and unchecksummed.
