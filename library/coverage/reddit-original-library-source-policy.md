@@ -66,3 +66,7 @@ Where available, preserve the script source and configuration or a stable versio
 ## Research-use rule
 
 Quote and analyze the human-readable TXT as the primary library source. Use structured indexes to locate, count, compare, and cross-reference records, not to silently replace the wording or structure of the original. Keep source-derived observations distinct from later interpretation.
+
+## Repository provenance check (2026-11-24)
+
+A recursive inspection of the repository tree at commit `434b8b6ebb44080a17cfec2a8c0b27b5cdea53cc` found no tracked file clearly identifiable as the Reddit extraction script or its configuration. This only establishes that the inspected repository snapshot does not contain an identifiable script/configuration file; it does not establish that the team has not retained the script elsewhere. The script owner/team still needs to supply its stable version or source, configuration, and input-scope description for provenance closure.

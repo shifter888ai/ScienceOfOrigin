@@ -9,7 +9,7 @@
 ## Files
 
 - [`reddit-english-all-post-index.csv`](reddit-english-all-post-index.csv) — one row for each of the 617 post/thread blocks.
-- [`reddit-english-all-yws-author-marker-index.csv`](reddit-english-all-yws-author-marker-index.csv) — one row for each exact `Lower-Lingonberry-40:` author marker found in the source.
+- [`reddit-english-all-yws-author-marker-index.csv`](reddit-english-all-yws-author-marker-index.csv) — one row for each exact `Lower-Lingonberry-40:` author marker found in the source (1,096 rows, reconciled 2026-11-24).
 
 ## Structural findings
 
@@ -18,7 +18,7 @@
 - Date range in the date headers: 2023-10-29 through 2026-11-18.
 - 772 `--- comments ---` section markers.
 - 772 `Source:` permalink lines.
-- 904 exact `Lower-Lingonberry-40:` author markers.
+- 1,096 exact `Lower-Lingonberry-40:` author markers.
 
 The source title identifies the archive as a Reddit Q&A archive for `u/Lower-Lingonberry-40`. The project owner has instructed that answers in this identified collection are authored by YWS, even when aliases or nicknames appear. The index preserves the displayed author marker separately from the canonical attribution rule.
 
@@ -45,3 +45,7 @@ The author-marker index records exact source lines matching `Lower-Lingonberry-4
 ## Portal monthly count reconciliation
 
 A separate comparison of the 617 indexed post/thread blocks with the older Yuanwushi Reddit portal search snapshot is documented in `../coverage/reddit-monthly-count-reconciliation.md` and `reddit-monthly-count-reconciliation.csv`. It records monthly counts and discrepancies without asserting that portal entries and post/thread blocks are equivalent units. No source records were changed.
+
+## 2026-11-24 author-marker index reconciliation
+
+A direct recount of the unchanged source blob `0452d11a39654864572c0d563667765b5c96da3c` found **1096** exact `Lower-Lingonberry-40:` occurrences on 1096 source lines. The previous marker index contained 904 data rows and was incomplete by 192 markers. The index has been regenerated against the same source blob with source line numbers and parent post/comment-section associations. The primary TXT was not modified. Marker occurrences still do not equal verified complete comment records; comment spans and reply relationships remain unsegmented.
