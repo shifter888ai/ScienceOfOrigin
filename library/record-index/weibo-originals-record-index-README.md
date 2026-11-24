@@ -30,6 +30,10 @@
 - URL strings found in extracted text: 114
 - Records with empty extracted text: 0
 
+## Live-account spot check (2026-11-24)
+
+A connected-browser snapshot of the source account timeline exposed a top item titled “空间是什么”, with permalink `https://weibo.com/1760432301/RsLldnd80`. Its title matches export record 765, timestamped `2026-11-23 23:58:00` Beijing Time. This confirms that one item represented at the end of the export was also visible in the account timeline snapshot. The snapshot exposed only a limited recent-feed window; it does not validate the other 764 records, establish full account-history coverage, or preserve the associated video binary.
+
 ## Important limitations
 
 This index is a navigation and search aid, not proof that the account's entire historical output has been captured. The export itself says it contains only locally saved original content. It does not establish completeness against the live account, deleted/private posts, reposts, or other Weibo content types.
