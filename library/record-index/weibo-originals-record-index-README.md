@@ -54,3 +54,9 @@ Keep the original TXT unchanged. Treat this CSV as a derived index. If a later e
 - Method and limitations: `weibo-topic-classification-README.md`.
 
 These derived files do not replace or modify the original export or the first structural index.
+
+## Live media locator follow-up — 2026-11-24
+
+The connected Weibo profile snapshot confirms that the latest visible post, `空间是什么`, matches export record 765. Its permalink is `https://weibo.com/1760432301/RsLldnd80`; the page exposes video locator `https://video.weibo.com/show?fid=1034:5368550857310263` and displays a duration of 01:55. A thumbnail filename is visible in the player snapshot: `68ee10adly1ijcio49qlnj21hc0u0ju7.jpg`.
+
+The media-reference index now records the verified post and video URLs on record 765. This is locator verification only: neither the video nor thumbnail binary has been captured or checksummed. Do not count them as recovered media yet.

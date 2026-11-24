@@ -39,3 +39,9 @@ This assessment is based on the public PDF text extraction available through the
 Search-indexed content for lesson 1 (`/cxclub/lesson1.html`) and lesson 8 (`/cxclub/lesson8.html`) visibly includes the label “下载本课PDF版” (download this lesson PDF). This establishes that at least these two lesson pages expose individual PDF download links in the indexed page text. The exact target `href` values and PDF bytes have not yet been captured. Other lesson pages have not been exhaustively checked for equivalent links; do not infer that only lessons 1 and 8 have separate PDFs.
 
 A supplementary discovery list is maintained at `../record-index/yuanwushi-cxclub-attachment-discovery.csv`. The all-courses PDF assessment above remains separate; these per-lesson links do not resolve the all-courses PDF's incomplete extracted body or contents discrepancy.
+
+## Follow-up: current reader extraction check (2026-11-24)
+
+A recent reader extraction of the linked all-courses PDF exposes 8,721 text lines. Its visible directory lists lessons 1–16 and then separate entries for lessons 17, 18 and 19. Targeted text searches found no “第二十课” or “第二十一课” entries in the extracted text. The extracted text reaches its final lines at 8,721.
+
+This strengthens the documented directory discrepancy against the live CX Club index, which lists lessons 1–21. It does **not** establish that the original PDF binary itself ends at lesson 19: the reader may have omitted or failed to extract pages/content. The original PDF bytes, metadata, page count, rendered pages and a page-by-page visual check remain outstanding.
