@@ -916,6 +916,58 @@ The Q&A counts are question-record and answer-record counts. The all-post counts
 
 **Next reconciliation task:** create term histories for the core concepts, starting with 本源 / Origin, 意识 / Consciousness, 自由意识 / Freewill, 意识强度 / Strength of Consciousness, 轮回 / Reincarnation, and 零能量空间 / Zero-Energy Space. Each history should preserve exact dated source passages and distinguish first located occurrence from earliest actual formulation.
 
+
+### V. Core-term history 1 — Origin / 本源
+
+This is the first focused reconciliation record. It preserves source wording across the Chinese compilation, Weibo, Reddit, and the current Science of Origin pages. It is **not** a final glossary definition and does not decide which historical phrases should remain canonical.
+
+#### Term family and exact forms
+
+- English current forms: `Origin`, `Ultimate Source`, `Oneness Origin`, `True Origin`, `Fake Origin`.
+- Chinese historical forms: `本源`, `万物本源`, `本源之道`, `合一本源`.
+- Related but not automatically equivalent terms: `Origination`, `Oneness`, `Infinity`, `Zero`, `Idle`, `Manifestation`, `Fake Origin`.
+
+#### Source chronology and usage
+
+| Date / source locator | Exact source wording or usage | What the source supports |
+|---|---|---|
+| Chinese compilation, Page 9, lines 214–242 | “道=本源之道=万物本源” | A source-specific definition of 道 in the answer-guideline section; the same passage distinguishes this from other meanings of 道 |
+| Chinese compilation, Page 8, lines 184–213 | “修道=认知本源+脱离轮回” | A source definition of 修道; it links knowing Origin and exiting reincarnation |
+| Chinese compilation, Page 264, lines 7431–7463; original version date 2008-08-25 | “道，乃万物本源。” “进入根本界，或者叫本源界…也叫‘合一本源’。” “得道=合一本源+脱离轮回。” | An early dated source account distinguishes the Source itself, the experience/act of union with it, and the stated outcome called 得道 |
+| Chinese compilation, Page 81, lines 1611–1622 | “从合一本源的角度来观察” and a sequence of “本源的第 1 级投影” through further projections | A structural/projection vocabulary around 本源; this passage should be read in its own body-structure context |
+| Chinese compilation, Page 656, lines 19765–19795; dated 2015-01-11 | “得道=合一本源＋脱离轮回。” | Repetition of the compact formula in a later historical compilation entry |
+| Chinese compilation, Page 667, lines 20121–20159 | Discussion of occasional union with 本源 versus removal of subconscious tendencies/inertia and exiting reincarnation | The source distinguishes occasional union from what it calls fully attaining 得道 |
+| Chinese compilation, Page 1669, lines 46764–46773; dated 2020-10-11 | “合一本源的比例=意识强度检测值”; “意识强度18=本源” | A later source relationship between union-with-Origin, Consciousness Strength readings, and a named level; preserve as a dated source claim, not an independently verified measurement |
+| Weibo record 037, lines 114–119; related records 045 and 075 | Post/title reference: “终极真相----万物本源的描述” | A recurring title family around the description of 万物本源 |
+| Weibo record 047, lines 146–147 | A compact relationship formula connecting 真相, 本源, 万物 and the relationship between them | Preserve the source's formula and exact punctuation from the indexed record before quoting in the Glossary |
+| Weibo record 129, lines 426–427 | “得道=合一本源＋脱离轮回。” | A short-form historical restatement of the earlier formula |
+| Weibo record 230, lines 802–806 | A cluster linking 自由意识, 自由意志法则, 虚拟法则, 幻相 and 游戏 | A related conceptual cluster; it does not by itself define 本源 |
+| Reddit all-post archive, September 1, 2024, post 0100, YWS markers 0125 and 0129 (source lines around 3156–3200) | “It is singular in nature and plural in manifestation.”; “It is ‘Oneness’, if no better word to describe.” | English-language historical expressions about the Ultimate Source and Oneness; preserve the two statements separately and in their original Q/A contexts |
+| Current Science of Origin, `origin.html` | “Origin is the Ultimate Source”; “Origin is undefinable”; True Origin is described as the Oneness Origin | Current published working framework: Origin is not a beginning-in-time event or an object among objects; undefinability is not treated as unknowability |
+| Current Science of Origin, `terminology.html` | Origin's working meaning is the Ultimate Source described as Oneness Origin; Infinity is the closest human-understandable description, not a definition | Current reader-facing vocabulary; the page also distinguishes Origin from origination |
+| Current Science of Origin, `zero-origin.html` | Zero represents the idle state of Origin and Infinity before manifestation | Current account links Origin with Zero, Idle and Infinity; these terms are treated separately in the next review |
+
+#### Distinctions that must remain separate for now
+
+1. **Origin vs. Origination:** current Science of Origin distinguishes the fundamental source from the capability/process through which manifestations come about.
+2. **本源 / 万物本源 / 本源之道:** these forms are related in the historical source, but their scope and grammatical role vary. The Page 9 definition is explicitly about the use of 道 in that source's answer guidelines.
+3. **Origin vs. 合一本源:** the historical compilation uses 合一本源 for a relationship, experience, or state of union with the Source. It is not simply another name for the Source itself.
+4. **合一本源 vs. 得道:** the 2008 source formula defines 得道 as 合一本源 plus 脱离轮回. Later records repeat this. The two parts should not be collapsed into one term.
+5. **Origin vs. Infinity:** the current Science of Origin pages state that Infinity is a nature or the closest human-understandable description of Origin, not Origin itself.
+6. **Oneness Origin vs. Oneness:** the current term Oneness Origin is a name for the single ultimate Source in the current framework; historical Reddit usage also uses “Oneness” as a descriptive expression. Their exact relation remains open.
+7. **True Origin / Fake Origin:** these are current Origin-model labels. They should not be mapped automatically onto every historical occurrence of 本源, 虚拟, 幻相, or 虚假.
+8. **Void / Voidness:** `origin.html` lists Void among the named aspects, while `terminology.html` describes Voidness as a visual perspective on the Source in stillness/non-manifestation. Preserve this wording difference for review.
+
+#### Questions for conceptual review
+
+- Should 本源, 万物本源, Ultimate Source, and Oneness Origin be treated as translations/variants of one canonical term, or do some of them name different scopes?
+- Is 合一本源 best classified as an experience, relationship, process, achieved state, or a combination whose meaning depends on context?
+- Does the historical formula 得道=合一本源+脱离轮回 remain part of the current Science of Origin vocabulary, or should it be retained only as a historical definition from the earlier source framework?
+- How should the current True Origin / Fake Origin model relate to the historical vocabulary without rewriting the older sources?
+- Does “Oneness” name the Source, a nature/aspect, a relationship, or an experience in each cited context?
+
+**Working conclusion:** the source history supports a clear distinction between the Source (本源 / Origin) and union with the Source (合一本源) in the cited 2008 formulation. Other mappings remain under review. No new canonical definition is adopted in this inventory pass.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
