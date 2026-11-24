@@ -1,0 +1,3 @@
+Source: Yuanwushi website (https://www.yuanwushi.org/)
+The site footer observed in the 2026-11-24 homepage snapshot displayed a CC BY-NC-ND 4.0 badge and requested that reprints preserve original content unchanged. This archive preserves downloaded response bytes unchanged. Confirm current license terms on the live source before redistribution.
+This capture is for non-commercial research preservation. Original source wording and authorship remain with their respective rights holders. Derived indexes are stored separately.

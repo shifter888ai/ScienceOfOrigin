@@ -1,0 +1,33 @@
+{
+  "source": "https://www.yuanwushi.org/",
+  "capture_date": "2026-11-25",
+  "robots_checked": true,
+  "same_origin_only": true,
+  "original_response_bytes_preserved": true,
+  "rate_delay_seconds": 0.8,
+  "record_count": 1001,
+  "records_by_kind": {
+    "robots": 1,
+    "homepage": 1,
+    "cxclub-index": 1,
+    "wiki-index": 1,
+    "rss": 1,
+    "article": 106,
+    "pdf-attachment": 2,
+    "cxclub-lesson": 21,
+    "wiki-page": 133,
+    "attachment": 734
+  },
+  "stored_records": 993,
+  "stored_files": 993,
+  "failed_or_skipped": 7,
+  "wiki_max_page_parameter_discovered": 133,
+  "attachment_bytes_stored_or_considered": 191491308,
+  "limitations": [
+    "Only public same-origin routes discoverable from captured indexes/pages are included.",
+    "robots.txt is checked before every request; disallowed or inaccessible routes are not fetched.",
+    "Attachments over configured caps are recorded with URL and checksum but not stored.",
+    "Dynamic content requiring login, scripts, forms, or interaction is not captured.",
+    "A discovered wiki maximum is recorded from live pagination links; absence is not guessed."
+  ]
+}
