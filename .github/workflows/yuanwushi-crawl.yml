@@ -29,7 +29,6 @@ jobs:
       - name: Capture public Yuanwushi source
         env:
           TZ: Asia/Tokyo
-          CAPTURE_DATE: ${{ '' }}
           CRAWL_DELAY_SECONDS: '0.8'
           MAX_ATTACHMENT_BYTES: '26214400'
           MAX_TOTAL_ATTACHMENT_BYTES: '209715200'
