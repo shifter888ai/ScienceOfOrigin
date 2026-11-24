@@ -1205,6 +1205,86 @@ The Chinese compilation's Page 264 note identifies the original version as publi
 
 **Working conclusion:** the current Science of Origin pages provide useful distinctions among Origin, Imagination, Origination and Manifestation, while the historical Zero-Origin working record preserves a broader Oneness formulation. Both are part of the research history. The exact relationships among spontaneous intention, choice, intention, origination and non-manifestation remain open for owner clarification.
 
+
+### Z. Core-term history 5 — Spirit / Void / Voidness / Oneness / True Origin / Fake Origin
+
+This section records the current Origin-model vocabulary and compares it with the older Zero-Origin working record. It does not assume that English terms correspond directly to Chinese terms such as 灵魂, 灵体, 灵性 or 虚空.
+
+#### Current source descriptions
+
+| Term | Current Science of Origin wording | Important distinction |
+|---|---|---|
+| Spirit | One of the five named natures/aspects of Origin; described in `terminology.html` as the perspective of nature and the closest description of the Source's nature | A fuller working meaning is not yet supplied by the reviewed pages; do not translate automatically as 灵魂 or 灵体 |
+| Void | One of the five named natures/aspects of Origin in `origin.html`, `zero-origin.html` and `core-principles.html` | The current pages do not provide a complete standalone working definition |
+| Voidness | Described in `terminology.html` as a visual perspective on the Source in stillness and non-manifestation | Do not assume it is interchangeable with Void; the current wording differs by page |
+| Oneness | Used in relation to True Origin as the Oneness Origin and in descriptions of unity among manifestations | Structural oneness, experiential oneness and the foundational Oneness Origin are not automatically the same concept |
+| True Origin | The Oneness Origin; the one ultimate Origin in the current model | Not one manifestation among others and not one of multiple independent ultimate sources |
+| Fake Origin | A manifestation originated from True Origin that imitates the appearance or position of Origin, presenting relative independence as absolute independence | A proposed model/construct, not a second ultimate Origin |
+| Relative Independence | A manifestation or system may operate with its own structures, rules, conditions and capabilities within a domain | Relative operational independence is not absolute independence or proof of a separate ultimate source |
+| Simulated Absolute Independence | The appearance that a manifestation or system is wholly separate, self-originating or independent of a more fundamental source | A named aspect of the proposed Fake Origin model |
+
+#### Current Origin-model distinctions
+
+The current pages distinguish several layers:
+
+1. **True Origin:** the Oneness Origin, described as the one ultimate Source.
+2. **Manifestations:** things that come about through origination and remain related to the ultimate Source in the framework.
+3. **Immediate or local sources:** manifestations may generate outputs, organize processes, establish conditions or originate further manifestations within a domain, without becoming a second ultimate Origin.
+4. **Fake Origin:** a proposed manifested imitation that presents relative independence as absolute independence.
+5. **Structural division:** boundaries, partitions, subsystems and functional distinctions may exist within manifestations without independently proving absolute separation from the Source.
+
+The `origin-and-its-imitation.html` page explicitly distinguishes resemblance from identity and source-like function from ultimate sourcehood. The `fake-origin-divided-origin.html` page describes Fake Origin as a conceptual model and says that not every bounded system or game should automatically be classified as Fake Origin.
+
+#### Historical Zero-Origin wording
+
+The original pre-Question 01 draft in `zero-origin-research-working-record.html` uses Oneness in a broad foundational sense:
+
+- “Origin and all imaginations are One.”
+- “There are no boundaries separating Origin from imaginations, or one imagination from another. They are One.”
+- “Diversity is within Oneness.”
+- An imagination may retain its “virtual individuality” while being part of Oneness.
+- A virtual individuality may originate its own imagination freely and differently from other virtual individualities, while remaining within the Freewill of Origin.
+
+The consolidated research records also preserve statements that:
+- Origin is the root consciousness of all connected imaginations.
+- There are no actual boundaries separating Origin from its imaginations.
+- Different expressions remain within the Freewill of Origin.
+- Virtual individuality is within Oneness.
+- “Freewill is a nature of Origin or Oneness, not separated.”
+
+These are historical working-record formulations. The later current website distinguishes foundational Oneness Origin from structural oneness among parts, systems and manifestations. That distinction is useful, but the exact relation between the older broad wording and the current structural vocabulary remains for owner review.
+
+#### Structural oneness vs. foundational Oneness
+
+The current `oneness-division.html` page states that “oneness” may refer to a single entity, an organized whole, a shared structure, a common function, an integrated process, or an underlying relationship among distinguishable manifestations. It warns that these meanings are not interchangeable.
+
+It also explicitly says:
+- Structural unity should not automatically be treated as a definition or proof of ultimate Oneness.
+- Differentiation, partition, separation and fragmentation should be distinguished.
+- Two parts may be distinguishable and have a boundary between them while continuing to interact or depend on one another.
+- Structural examples of unity may help clarify distinctions, but do not independently establish the foundational proposition about Origin.
+
+This provides a useful reader-facing distinction between **structural oneness** and **the Oneness Origin**, while leaving their deeper relationship open.
+
+#### Historical Chinese vocabulary caution
+
+The Chinese compilation contains extensive uses of 灵魂, 灵体, 肉体, 灵性, 灵界 and related body-structure terms. Those terms are part of the historical Chinese source vocabulary, but the reviewed material does not establish a one-to-one translation map between them and the current English terms Spirit, Void, Voidness or Oneness.
+
+Likewise, 虚空 and 虚无 occur in the compilation, but literal occurrence alone does not establish equivalence with Void or Voidness. The glossary should retain the original Chinese forms and mark translations as source-specific or provisional until a direct bilingual definition is located.
+
+#### Tensions and open questions
+
+1. **Not separate entities vs. independent/separate aspects:** `origin.html` says the five aspects are not separate entities, but also says aspects may be independent, interact, influence one another, combine, separate and originate further aspects. What does “independent” mean here, and in what respect can aspects “separate” without becoming separate entities?
+2. **Void vs. Voidness:** Is Void the named nature and Voidness a descriptive/visual perspective on it, or are these different concepts? Which form should be used in reader-facing text?
+3. **Spirit vs. Soul / 灵魂 / 灵体:** Is Spirit intended as an aspect of Origin unrelated to the conventional English sense of a personal soul, or is there an explicit source mapping? Do not infer one.
+4. **Oneness Origin vs. structural oneness:** How are the foundational Oneness Origin and unity among distinguishable parts related without using structural analogy as proof of ultimate Oneness?
+5. **Oneness vs. no division:** Does Oneness mean no absolute separation, no dividing boundaries, a shared source, or a more specific relation? The historical working record uses several of these formulations.
+6. **Virtual individuality:** How can a virtual individuality remain distinct in experience and function while being within Oneness? Is virtual individuality a term for a manifested perspective, a model component or a specific kind of identity?
+7. **True Origin / Fake Origin:** What criteria distinguish a genuine source-like function from the claim of being an ultimate source? What observations, if any, could distinguish relative independence from the appearance of absolute independence?
+8. **Fake Origin status:** Which parts of the Fake Origin model are current foundational positions, which are proposed interpretations, and which are open research questions? The pages label the model as proposed; its individual claims should retain their own status.
+
+**Working conclusion:** the current framework distinguishes True Origin from a proposed manifested imitation called Fake Origin, and distinguishes structural unity from the foundational Oneness Origin. Spirit, Void and Voidness still require fuller source-grounded definitions. The relationship among Oneness, virtual individuality, relative independence and the statement that aspects may be independent or separate remains open for owner clarification.
+
 ## 4. Source conflicts and review queue
 
 These are not silently resolved in the inventory. They require conceptual review.
