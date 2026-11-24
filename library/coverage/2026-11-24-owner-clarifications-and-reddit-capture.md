@@ -12,7 +12,7 @@ This is owner-supplied workflow context, not independently verified Xiaowei Memo
 
 ## Reddit Comments feed capture
 
-A signed-in connected-browser snapshot of `https://www.reddit.com/user/Lower-Lingonberry-40/comments/` in New sort rendered 36 visible comment cards on 2026-11-24. The page displayed the sort control as New, but all visible cards in this snapshot showed an age of “2 yr. ago”; this unexpected age/order combination is recorded as observed and must not be interpreted as the latest account activity or complete history. The capture includes top-level comments and replies, each indexed by its own comment permalink, subreddit, thread title, relative age as displayed and relationship type.
+A signed-in connected-browser snapshot of `https://www.reddit.com/user/Lower-Lingonberry-40/comments/` in New sort rendered 36 visible comment cards on 2026-11-24. The page displayed the sort control as New, but visible cards in this snapshot showed relative ages of approximately 2–3 years; this unexpected age/order combination is recorded as observed and must not be interpreted as the latest account activity or complete history. The capture includes top-level comments and replies, each indexed by its own comment permalink, subreddit, thread title, relative age as displayed and relationship type.
 
 Files:
 - `reddit-comments-live-capture-2026-11-24.csv` — 36 visible comment-card index rows.
@@ -30,4 +30,4 @@ This is not a complete account-history capture. The Reddit page may render a dif
 
 ## Snapshot consistency note
 
-Reddit may return a different rendered slice on subsequent browser snapshots. The CSV and raw text file are generated from the same single browser snapshot and should be treated as one frozen capture. In this snapshot, the UI showed New sort but all visible entries displayed “2 yr. ago”; that inconsistency is recorded rather than interpreted.
+Reddit may return a different rendered slice on subsequent browser snapshots. The CSV and raw text file are generated from the same single browser snapshot and should be treated as one frozen capture. In this snapshot, the UI showed New sort but visible entries displayed relative ages of approximately 2–3 years; that inconsistency is recorded rather than interpreted.
