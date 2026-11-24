@@ -23,9 +23,9 @@ See [source-coverage-status.csv](source-coverage-status.csv) for machine-readabl
 
 - Priority entry points: `https://www.yuanwushi.org/`, `/wiki.html`, `/article-1.html`, `/cxclub/`, and `/reddit/`.
 - Search-indexed `article-1.html` currently reports 106 articles in the collection index. The Wiki Q&A index reports 2,659 total Q&A records and has paginated views (for example, `wiki.html?p=3` and `p=4`). These are discovery counts, not proof that all underlying article/Q&A records or attachments have been preserved.
-- The CX Club index currently displays lessons 1–21 (July–November 2026), with lesson 22 described as upcoming.
-- A linked “all courses” PDF is indexed, but its directory lists only lessons 1–16. This is a concrete reconciliation task: compare the PDF with the individual lesson pages and identify whether later lessons are appended elsewhere.
-- Individual lesson pages are discoverable through search, but a complete URL inventory, full-site crawl, all attachments, and Wiki capture have not yet been completed.
+- The live CX Club index exposes 21 individual lesson links (July–November 2026), with lesson 22 described as upcoming. The 21 URLs and index titles/dates are recorded in [yuanwushi-cxclub-lesson-index.csv](yuanwushi-cxclub-lesson-index.csv).
+- The index links a single “download all courses PDF” resource at `https://www.yuanwushi.org/cxclub/qa/all.pdf`. Search-index evidence for the PDF previously exposed lessons 1–16; the PDF itself has not yet been downloaded and checked, so PDF coverage for lessons 17–21 remains unverified.
+- The index URL inventory is now established, but lesson-page originals, the linked PDF bytes, embedded images/attachments, a full-site crawl, and Wiki capture have not yet been preserved.
 - Search-engine discovery is not equivalent to a source capture or full crawl.
 
 ### Awakenology website
