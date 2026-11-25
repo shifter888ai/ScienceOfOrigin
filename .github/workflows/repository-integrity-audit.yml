@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '.github/workflows/repository-integrity-audit.yml'
-      - 'tools/audit_repository_integrity.py'
+    paths-ignore:
+      - 'library/repository-integrity-manifest.json'
+      - 'library/repository-integrity-report.md'
   workflow_dispatch:
   schedule:
     - cron: '47 7 1 * *'
