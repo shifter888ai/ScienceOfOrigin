@@ -238,3 +238,18 @@ The Awakenology physical subtree (648 blobs / 51,750,456 bytes) has a tree SHA e
 The four priority acquisition milestones are complete within their owner-defined scopes: Reddit supplied TXT, Weibo supplied TXT, Awakenology pinned repository snapshot, and Yuanwushi initial website crawl. This does not prove that all external, private, offline, historical, or other-account sources have been discovered. Rights/privacy review and live-source parity remain open.
 
 **Preservation rule:** keep original source files immutable; store indexes, extraction outputs, comparisons, OCR, and interpretations as separately identified derived layers.
+
+
+## Owner clarification: canonical source files — 2026-11-25
+
+The project owner has clarified the intended source scope for two collections. This section supersedes any earlier statement that treats the supplemental formats as required for source completeness.
+
+### Chinese compilation — TXT is the complete source
+
+The owner confirms that `materials/元吾氏集录20210203.txt` alone is the complete source for the Chinese compilation at this stage. The two PDF volumes contain additional images, but those images are not important to the current research scope and are not a completion requirement. Preserve the PDFs as supplemental reference material; do not require OCR, page-image classification, or PDF/TXT visual equivalence before marking the TXT source complete. The prior page comparison and OCR outputs remain optional derived aids, not blockers to source completion.
+
+### Entropy assessment points — RTF is the complete source
+
+The owner confirms that `materials/熵值检测点RR部分.rtf` alone is the complete source for the Entropy assessment points. The DOCX contains the same substantive content and no images; the RTF is the canonical complete source for current use. Preserve the DOCX as a supplementary duplicate-format copy, but do not treat its comparison, layout, or the RTF table-of-contents difference as an outstanding source-completeness gate. The RTF-derived index remains a separate navigation aid.
+
+These are owner-defined scope decisions. They do not delete, overwrite, or discard either PDF or the DOCX. All original files remain preserved unchanged.
