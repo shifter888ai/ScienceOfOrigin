@@ -188,7 +188,7 @@ Scope limitation: this verifies the pinned repository tree, not live Awakenology
 
 ### Yuanwushi website — initial crawl and independent checksum audit passed
 
-The 2026-11-25 snapshot is stored on branch `automation/yuanwushi-crawl` at commit `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`. Its capture manifest contains 1,001 records; 993 files are stored at 993 unique paths, totaling 307,557,680 bytes. The independent checksum audit verified all 993 stored files: zero missing files, invalid paths, duplicate path groups, size mismatches, or SHA-256 mismatches. The audit workflow run is [45554125468](https://github.com/shifter888ai/ScienceOfOrigin/actions/runs/45554125468).
+**Source ID:** `SRC-YWS-WEB`. The 2026-11-25 snapshot is stored on branch `automation/yuanwushi-crawl` at commit `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`. Its capture manifest contains 1,001 records; 993 files are stored at 993 unique paths, totaling 307,557,680 bytes. The independent checksum audit verified all 993 stored files: zero missing files, invalid paths, duplicate path groups, size mismatches, or SHA-256 mismatches. The audit workflow run is [45554125468](https://github.com/shifter888ai/ScienceOfOrigin/actions/runs/45554125468).
 
 The crawl captured 106 article pages, 133 Wiki/Q&A pagination pages, 21 CX Club lessons, 727 linked attachments/media items, and two PDFs. The report records seven HTTP 404 resources (one audio file and six gallery images). This establishes integrity of the captured files, not absolute completeness of every public or historical site resource. The reported Wiki/Q&A aggregate of 2,659 records still requires pagination/count reconciliation; the seven unavailable resources remain individually gap-coded.
 
