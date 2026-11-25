@@ -2,7 +2,7 @@
 
 **Register version:** 0.2  
 **Latest repository commit reviewed:** `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755`  
-**Status:** Reconciled 2026-11-25. Reddit/Weibo supplied TXT scopes are owner-confirmed complete; Awakenology is physically archived; Yuanwushi's initial crawl passed independent checksums; Science of Consciousness uploads are registered. Other comparisons and live-source checks remain open.
+**Status:** Reconciled 2026-11-25. Reddit/Weibo supplied TXT scopes are owner-confirmed complete; Awakenology is physically archived; Yuanwushi's initial crawl passed independent checksums and its 2,659-record listing reconciles; Science of Consciousness uploads are registered. Other comparisons and live-source checks remain open.
 
 ## Purpose
 
@@ -182,7 +182,7 @@ The project owner confirms that the two Reddit TXT files and the Weibo TXT expor
 
 ### Awakenology repository — physical archive verified
 
-The current Science of Origin repository contains an ordinary tracked-file copy under `materials/awakenology/`, not a Git submodule pointer. The current repository tree contains 648 file blobs under that path, totaling 51,750,456 bytes, across 823 tree entries, matching the pinned upstream snapshot at commit `05523aec14c286bce397678b8a213cca1fc29563`. The files are stored as regular Git blobs in this repository. The earlier submodule descriptions in this register and related records are obsolete and superseded.
+The current Science of Origin repository contains an ordinary tracked-file copy under `materials/awakenology/`, not a Git submodule pointer. The current repository tree contains 648 file blobs under that path, totaling 51,750,456 bytes, across 823 tree entries. The subtree tree SHA `6fd6ffabeb09b671f15b4b81e27a378b5f5a6bd1` exactly matches the root tree SHA of pinned upstream commit `05523aec14c286bce397678b8a213cca1fc29563`. The files are stored as regular Git blobs in this repository. The earlier submodule descriptions in this register and related records are obsolete and superseded.
 
 Scope limitation: this verifies the pinned repository tree, not live Awakenology website parity, historical upstream revisions, external linked resources, or future changes. Monthly upstream comparison and additive snapshot history remain required.
 
