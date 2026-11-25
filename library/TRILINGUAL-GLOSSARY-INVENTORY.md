@@ -1,6 +1,6 @@
 # Science of Origin — Trilingual Glossary Inventory
 
-**Status:** Initial source-derived glossary register · Version 0.1  
+**Status:** Expanded source-derived glossary register · Version 0.2  
 **Languages:** English · 繁體中文 · 日本語  
 **Purpose:** A curated working explanation layer built from the Terminology Inventory. This is an internal research document, not the public Glossary. The published Glossary remains English-only.
 
@@ -212,6 +212,101 @@ The supplied framework distinguishes singular Spectrum from plural Spectra and m
 
 **Sources:** Science-of-Consciousness.txt; Chinese compilation candidate index, 光谱 pages 434 and 439.
 
+
+
+### Attaining the Way — 得道 — 道を得ること
+
+**Source statement (Chinese compilation, Page 264):**  
+「亲眼见到的是合道（合一本源），亲身认证的是得道/证道（脱离轮回）。」  
+「得道=合一本源+脱离轮回。」
+
+**English rendering:**  
+“What is seen directly is union with the Way (union with Origin); what is personally verified is attaining / realizing the Way (exiting the reincarnation cycle).”  
+“Attaining the Way = union with Origin + exiting the reincarnation cycle.”
+
+**Working explanation:**  
+In this passage, 得道 is presented as involving two distinguishable elements: 合一本源 and 脱离轮回. The source distinguishes directly seeing/experiencing union with Origin from personally verifying the stated liberation outcome. “Attaining the Way” should not be reduced to either element alone.
+
+**繁體中文說明:**  
+第264頁將「得道」表述為「合一本源＋脫離輪迴」，並區分親眼見到的合一本源與親身認證的脫離輪迴。這兩者在該段落中是可區分的內容，不應合併成同一概念。
+
+**日本語メモ:**  
+第264頁では、「道を得ること」は「本源との合一」と「輪廻からの離脱」の二要素を含むと記述される。原文は、合一を直接見ることと、離脱を自ら確認することを区別している。
+
+**Source:** Chinese compilation Page 264, lines 7431–7463.
+
+### Exincarnation — 脫離輪迴 — 輪廻からの離脱
+
+**Source statement:**  
+Chinese compilation Page 264 uses 「脱离轮回」 as a distinct component of 得道. The supplied Science of Consciousness Project Description names “Exincarnation (脱離輪迴)” and describes Exincarnology as applied research into liberation from the reincarnation cycle.
+
+**English rendering:**  
+The current project term “Exincarnation” is mapped to the source phrase 「脱离轮回」. This English label is supplied by the current framework; it is not a literal English expression in the Chinese passage.
+
+**Working explanation:**  
+Exincarnation is recorded as the current project term for liberation from the reincarnation cycle. In Page 264 it is distinct from 合一本源 (Union with Origin), although the source presents both as components of 得道. This entry does not establish the mechanism or independently verify the claimed outcome.
+
+**繁體中文說明:**  
+目前研究框架將 Exincarnation 對應為「脫離輪迴」。第264頁將「脫離輪迴」與「合一本源」分別列為「得道」的兩個要素；本詞條保留此區別，不推定其實現機制或驗證其結果。
+
+**日本語メモ:**  
+現行研究枠組みでは、Exincarnation は「輪廻からの離脱」に対応づけられている。第264頁では、本源との合一とは別の要素として記述される。離脱の仕組みや結果を独立に検証したものではない。
+
+**Sources:** Science-of-Consciousness.txt, Section 5; Chinese compilation Page 264, lines 7431–7463.
+
+### Consciousness Strength Assessment Points — 意識強度檢測點 — 意識強度の検査ポイント
+
+**Source statement (Chinese compilation, Page 306):**  
+「意识强度检测点（=“意识强度练习点”）」; the passage says the major points number in the hundreds and minor points in the tens of thousands, and describes their organization into functional areas.
+
+**English rendering:**  
+“Consciousness Strength assessment points,” also called “Consciousness Strength practice points” in this source passage.
+
+**Working explanation:**  
+The source presents the points as individual items within a functional assessment and practice framework. Pages 306–316 describe the Central Area / Mental Control Area and the Upper Area / Autonomous Consciousness Area. Page 399 says the Consciousness Strength level is a composite value of all assessment points. These are source-described framework elements, not independently validated instruments or scales in this review.
+
+**繁體中文說明:**  
+原文將「意識強度檢測點」括註為「意識強度練習點」，並描述大檢測點、小檢測點及其功能區分類。第399頁另稱意識強度級為所有檢測點的綜合值。這些均為原始資料中的框架描述，並非本次審閱所獨立驗證的量表或儀器。
+
+**日本語メモ:**  
+原文では「意識強度の検査ポイント」を「実践ポイント」とも表現し、大項目・小項目および機能領域に分類している。第399頁は、意識強度レベルを全検査ポイントの総合値と説明する。ここでは原資料の枠組みの記述として保持し、独立に検証された尺度とは扱わない。
+
+**Sources:** Chinese compilation Pages 306–316 and 399, lines 8841–9082 and 11136–11155.
+
+### Mental Control Area and Autonomous Consciousness Area — 心智控制區與自主意識區
+
+**Source statements (Chinese compilation):**
+- Page 306: 「中央区：心智控制区」 and 「心智控制=机器人心智控制程序模式（AI机器程序）。」
+- Page 314: 「上方区：自主意识区」 followed by the second area's assessment subjects.
+
+**Working explanation:**  
+The source organizes its assessment-point framework into functional areas. The inspected pages describe the Mental Control Area with paired positive/negative percentages and items such as automation versus autonomy. The Autonomous Consciousness Area includes subjects such as energy-use rate, cooperation, flexible switching, calm handling, resilience, disengagement from addiction, empathy, stillness in solitude and self-release. These labels are specific to this source's framework and should not be generalized to standard psychology terminology.
+
+**繁體中文說明:**  
+原始資料將檢測點分為功能區。中央區為「心智控制區」，上方區為「自主意識區」。兩區所列檢測內容及百分比均應保留原始框架語境，不直接套用為一般心理學的標準術語。
+
+**日本語メモ:**  
+原資料は検査ポイントを機能領域に分類し、「心智制御エリア」と「自主意識エリア」を記載する。各領域の項目や百分率は、この資料固有の枠組みの文脈で保持し、一般心理学の標準用語と同一視しない。
+
+**Sources:** Chinese compilation Pages 306–316, lines 8841–9082.
+
+### Level of Awareness and Lucidity of Consciousness — Level of Awareness / Lucidity of Consciousness
+
+**Source statement (Reddit archive, YWS-attributed answer):**  
+“The Level of Awareness = Lucidity of Consciousness.” The answer says Lucidity of Consciousness can be quantifiably measured through a methodology called “Stength of Consciousness (SoC)” or “Strength of Freewill (SoF)” [the source spells “Stength” in this sentence]. It then lists Strength of Freewill (SoF), Strength of Consciousness (SoC), and Spectrum of Consciousness (SoC) as terms used by different groups.
+
+**Working explanation:**  
+The answer explicitly equates Level of Awareness and Lucidity of Consciousness in that context. It describes two methodology names and then lists three terms used by different groups. The source's spelling “Stength” is preserved when quoting it. Repeated use of the abbreviation SoC does not make Science of Consciousness, Strength of Consciousness and Spectrum of Consciousness interchangeable. The measurement statement remains attributed source content, not independent validation.
+
+**繁體中文說明:**  
+該則 Reddit 回答明確提出 Level of Awareness＝Lucidity of Consciousness，並稱其可透過 Strength of Consciousness 或 Strength of Freewill 的方法量化測量。回答另列出不同團體使用的三個名稱。此處只記錄該則回答的表述，不推定三個名稱完全同義，也不視為獨立驗證的測量結果。
+
+**日本語メモ:**  
+当該 Reddit 回答は、Level of Awareness と Lucidity of Consciousness を同一視し、Strength of Consciousness または Strength of Freewill という方法で定量測定できると述べる。さらに異なるグループが使う三つの名称を列挙するが、三者が完全な同義語であるとは推定しない。
+
+**Source:** Reddit archive, lines 6432–6483.
+
+
 ## 3. Entries deliberately not yet defined
 
 The following terms require more original passage review before a glossary explanation is written:
@@ -236,4 +331,5 @@ This document is an internal trilingual research aid. The public `glossary.html`
 
 ## 5. Change history
 
+- **2026-11-25 — Version 0.2:** Added source-grounded entries for Attaining the Way, Exincarnation, Consciousness Strength Assessment Points, the two functional areas, and the Level of Awareness / Lucidity relationship. Added direct citations to the Chinese compilation TXT and Reddit archive. No published HTML was changed.
 - **2026-11-25 — Version 0.1:** Created an initial source-derived trilingual glossary register. Source quotations and relations are kept separate from editorial working explanations. No published HTML was changed.
