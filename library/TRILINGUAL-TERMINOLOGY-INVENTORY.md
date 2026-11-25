@@ -307,9 +307,9 @@ The following forms are present in source indexes or current project records, bu
 - **Source:** SRC-CC-001, Page 399, lines 11136–11155.
 - **Review status:** Direct passage extracted; definition OPEN.
 
-### T-021 — Consciousness Assessment Point / 意识强度检测点 / 意識強度の検査ポイント
+### T-021 — Strength of Consciousness Assessment Point / 意识强度检测点 / 意識強度の検査ポイント
 
-- **English display term:** Consciousness Strength Assessment Point (editorial rendering)
+- **English display term:** Strength of Consciousness Assessment Point (editorial rendering)
 - **繁體中文原詞:** 意识强度检测点（繁體字形：意識強度檢測點）
 - **日本語（暫定訳）:** 意識強度の検査ポイント
 - **Source wording (SRC):** Page 306 says 「意识强度检测点（=“意识强度练习点”）」 and describes hundreds of major points and tens of thousands of minor points.
@@ -318,9 +318,9 @@ The following forms are present in source indexes or current project records, bu
 - **Source:** SRC-CC-001, Pages 306–316, lines 8841–9082.
 - **Review status:** Direct passage extracted; complete catalogue and version mapping OPEN.
 
-### T-022 — Consciousness Practice Point / 意识强度练习点 / 意識強度の実践ポイント
+### T-022 — Strength of Consciousness Practice Point / 意识强度练习点 / 意識強度の実践ポイント
 
-- **English display term:** Consciousness Strength Practice Point (editorial rendering)
+- **English display term:** Strength of Consciousness Practice Point (editorial rendering)
 - **繁體中文原詞:** 意识强度练习点（繁體字形：意識強度練習點）
 - **日本語（暫定訳）:** 意識強度の実践ポイント
 - **Source wording (SRC):** Page 306 explicitly equates 「意识强度检测点」 with 「意识强度练习点」 in that document.
@@ -469,7 +469,7 @@ The following forms are present in source indexes or current project records, bu
 - **Source:** SRC-RD-001, lines 6432–6483.
 - **Review status:** Direct English source wording extracted; relation to Strength of Consciousness OPEN.
 
-### T-036 — Spectrum of Freewill / Spectrum of Freewill / 自由意志のスペクトル（暫定）
+### T-036 — Spectrum of Consciousness / Spectrum of Consciousness / 意識のスペクトル（暫定）
 
 - **English source term:** Spectrum of Consciousness (SoC)
 - **繁體中文:** 原文段落未提供對應中文詞形；正式對應詞 OPEN
