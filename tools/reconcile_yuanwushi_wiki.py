@@ -31,7 +31,7 @@ class WikiPageParser(HTMLParser):
                 self.page_links.add(int(page_match.group(1)))
 
     def handle_data(self, data):
-        match = re.search(r"共\\s*(\\d+)\\s*条答疑", data)
+        match = re.search(r"共\s*(\d+)\s*条答疑", data)
         if match:
             self.displayed_totals.add(int(match.group(1)))
 
