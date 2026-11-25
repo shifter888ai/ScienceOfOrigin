@@ -12,7 +12,7 @@
 | Reddit supplied TXT archives | Complete per owner-confirmed scope | Both supplied TXT files manually extracted and checked by the owner; structural indexes retained separately | Monthly additive versions; no need to reopen completeness using profile-feed counts |
 | Weibo supplied TXT archive | Complete per owner-confirmed scope | Supplied TXT manually extracted and checked by the owner; 765 sequential records / 160 page markers indexed | Monthly additive versions; optional media-binary preservation is separate |
 | Awakenology repository | Physical snapshot archived | 648 blobs, 823 tree entries, 51,750,456 bytes under `materials/awakenology/`; pinned upstream commit `05523aec14c286bce397678b8a213cca1fc29563` | Monthly upstream comparison; live-site parity and historical versions separate |
-| Yuanwushi website | Initial crawl stored and checksum-audited | 1,001 manifest records; 993 stored files / 993 unique paths / 307,557,680 bytes; independent SHA-256 audit passed for all 993 | Reconcile 2,659 Wiki/Q&A aggregate; disposition seven HTTP 404 resources; do not infer total-site completeness |
+| Yuanwushi website | Initial crawl stored and checksum-audited | 1,001 manifest records; 993 stored files / 993 unique paths / 307,557,680 bytes; independent SHA-256 audit passed for all 993 | Wiki listing reconciled: 133 pages, 2,659 unique IDs, zero duplicates; document seven 404 resources; linked detail bodies/media not individually revalidated |
 
 ## 2. Other source collections
 
@@ -33,7 +33,7 @@ This tree count is not a repository-wide SHA-256 audit. The existing `library/FI
 1. Regenerate the repository-wide path/size/Git-blob/SHA-256 manifest from the current checkout and run an independent integrity check.
 2. Compare the Chinese TXT compilation against both PDFs, including visual page review.
 3. Inspect the Entropy DOCX and compare it with the RTF extraction.
-4. Reconcile Yuanwushi Wiki/Q&A pagination and record the final disposition of all seven 404 resources.
+4. Investigate alternate sources for the seven 404 resources and record their final disposition; verify linked detail bodies/media where required.
 5. Continue Awakenology live-site alias, redirect, route, asset, and historical-version review.
 6. Inventory additional external, private, offline, historical, and other-repository sources; review rights, privacy, and access restrictions before public copying.
 
