@@ -1,6 +1,6 @@
 # Science of Origin — Trilingual Glossary Inventory
 
-**Status:** Expanded source-derived glossary register · Version 0.2  
+**Status:** Expanded source-derived glossary register · Version 0.3  
 **Languages:** English · 繁體中文 · 日本語  
 **Purpose:** A curated working explanation layer built from the Terminology Inventory. This is an internal research document, not the public Glossary. The published Glossary remains English-only.
 
@@ -322,6 +322,111 @@ The answer explicitly equates Level of Awareness and Lucidity of Consciousness i
 **Source:** Reddit archive, lines 6432–6483.
 
 
+
+
+### Infinity — 無限 — 無限
+
+**Current framework statements:**  
+The current Origin page describes Infinity as the closest description of Origin that humans can understand, while explicitly stating that it does not define Origin. Zero-Origin states, “Infinity is a nature of Origin, not Origin itself.”
+
+**Historical wording:**  
+The 2009 First Edition in Nature of Origin says, “If forced to define it, one could only say: Source = Infinity.” Later clarifications distinguish Infinity from Origin itself.
+
+**Working explanation:**  
+Keep the 2009 formulation as historical wording and the later distinction as the current framework position. Do not turn Infinity into a numerical quantity or a complete definition of Origin.
+
+**繁體中文說明:**  
+現行框架將「無限」描述為人類較能理解的本源描述之一，並明確指出無限是本源的一種本質／面向，而非本源本身。2009年第一版曾保留「Source = Infinity」的歷史表述；後續澄清應與該歷史表述並列，不可抹去其版本差異。
+
+**日本語メモ:**  
+現行枠組みでは、無限は人間が理解しやすい本源の記述であり、本源そのものの定義ではないとされる。2009年初版の「Source = Infinity」という歴史的表現は、後年の区別と分けて保存する。
+
+**Sources:** origin.html; zero-origin.html; nature-of-origin.html, First Edition 2009 and later clarifications.
+
+### Zero and the Idle State of Origin — 零與本源的靜止狀態 — ゼロと本源のアイドル状態
+
+**Current framework statements:**  
+Zero is not a numerical starting point. It represents the idle state of Origin and Infinity before manifestation. “Before manifestation” is a foundational distinction and is not necessarily a time before. Idle does not mean absence of capability, Freewill or possibility; Origin may be idle in one aspect while active in another.
+
+**Working explanation:**  
+Zero, idle and Infinity before manifestation are related descriptions in the current framework, but Zero is not ordinary numerical zero, nothingness, physical vacuum, inactivity within a manifested system, a manifested object or the origination process. The 0–1–2–3 illustration in the historical working record is not a literal mechanism or chronological sequence.
+
+**繁體中文說明:**  
+零在現行框架中代表本源的靜止狀態，以及顯化前的無限。「顯化前」不必然指時間上的先後；靜止也不代表缺乏能力、自由意志或可能性。零不應被簡化為數學上的零、虛無、物理真空或顯化系統中的不活動狀態。
+
+**日本語メモ:**  
+現行枠組みでは、ゼロは本源のアイドル状態、すなわち顕現前の無限を表す。「顕現前」は必ずしも時間的な先行を意味しない。アイドル状態は能力・自由意志・可能性の欠如を意味せず、通常の数値ゼロや物理的真空とも同一視しない。
+
+**Sources:** zero-idle-state-of-origin.html; zero-origin.html; origin.html; TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 2.
+
+### Spirit, Void and Voidness — 靈、Void 與 Voidness — スピリット、Void、Voidness
+
+**Current framework statements:**  
+The current five-name list includes Spirit and Void as named natures or aspects of Origin. Origin describes Spirit as the perspective of nature and the closest description of the Source's nature. It names Void but does not provide a complete definition in the passages reviewed.
+
+**Historical wording:**  
+The 2009 First Edition in Nature of Origin, Section E, uses Spirit as an approximate description from the perspective of nature and Voidness as a visual perspective associated with stillness, non-manifestation or “nothingness”.
+
+**Working explanation:**  
+Do not assume Void = Voidness. The current framework uses Void; the historical account uses Voidness. Their relationship remains open. Do not map Spirit directly to Soul, 灵魂 or 灵体 without a direct source statement.
+
+**繁體中文說明:**  
+現行五項本源面向中列有 Spirit 與 Void；歷史2009年第一版則使用 Voidness，並將其描述為視覺角度下對靜止、非顯化或「無」的描述。現有資料尚未證明 Void 與 Voidness 相同，也未建立 Spirit 與 Soul、靈魂或靈體的一對一對應。
+
+**日本語メモ:**  
+現行の五つの側面には Spirit と Void が含まれる。一方、2009年初版は Voidness を用い、静止・非顕現・「無」に関連する視覚的な記述としている。Void と Voidness が同一であるとは確認されておらず、Spirit と Soul／霊魂／霊体の対応も未確定である。
+
+**Sources:** origin.html; zero-origin.html; nature-of-origin.html, Section E; TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 4.
+
+### True Origin, Oneness Origin and Fake Origin — 真本源、一體本源與假本源 — 真の本源、一なる本源、偽の本源
+
+**Current framework statements:**  
+True Origin refers to the Oneness Origin: one ultimate Origin rather than multiple independent ultimate sources. Fake Origin is described as a manifestation originated from True Origin that imitates Origin and presents relative independence as absolute independence. It is not a second ultimate Origin.
+
+**Working explanation:**  
+Preserve three distinctions: foundational Oneness Origin; structural unity within a system; and relative or immediate sourcehood within a domain. Fake Origin is a proposed conceptual model, not an independently verified finding. Do not classify every historical occurrence of 虚拟, 幻相 or 虚假 as this specific model.
+
+**繁體中文說明:**  
+True Origin 在現行框架中指 Oneness Origin，即唯一的終極本源。Fake Origin 則被描述為源自 True Origin 的顯化物，模仿本源並將相對獨立呈現為絕對獨立；它不是第二個終極本源。此模型仍屬概念性研究，不是獨立驗證的結論。
+
+**日本語メモ:**  
+True Origin は Oneness Origin、すなわち複数の独立した究極源ではなく、一つの究極の本源を指す。Fake Origin は True Origin から生じた顕現が本源を模倣し、相対的独立を絶対的独立として提示するという概念モデルであり、第二の究極源ではない。独立に検証された結論としては扱わない。
+
+**Sources:** origin.html; origin-models.html; fake-origin-divided-origin.html; oneness-division.html; TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 3.
+
+### Freewill — 自由意志 — 自由意志
+
+**Current framework statements:**  
+Origin and Zero-Origin state: “Freewill is the freedom of change itself.” This includes the freedom to change or not change, originate or not originate, manifest or not manifest, combine or separate, and transform or remain. The framework describes Consciousness from the perspective of attributes and Freewill from the perspective of functionality.
+
+**Working explanation:**  
+Freewill and Consciousness are related descriptive perspectives on the same underlying nature in the current framework, but the words are not interchangeable definitions. Preserve historical source variations in which 自由意识 and 自由意志 are paired or distinguished in different contexts.
+
+**繁體中文說明:**  
+現行框架將自由意志描述為「改變的自由本身」，包括改變或不改變、起源或不起源、顯化或不顯化、結合或分離、轉化或保持不變的自由。意識從屬性角度描述，自由意志從功能角度描述；兩者相關，但不可因此視為可互換的定義。
+
+**日本語メモ:**  
+現行枠組みでは、Freewill は「変化する自由そのもの」と記述される。変化／不変、創出／非創出、顕現／非顕現、結合／分離、変容／維持の自由を含む。Consciousness は属性の観点、Freewill は機能の観点から記述され、関連はあるが同義の定義ではない。
+
+**Sources:** origin.html; zero-origin.html; consciousness-freewill.html; Weibo records 230, 242 and 689; TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 1.
+
+### Imagination, Origination and Manifestation — 想像、創出與顯化 — 想像、創出、顕現
+
+**Current framework statements:**  
+The current framework uses Imagination in a broad foundational sense for the capacity through which possibilities and manifestations arise from Origin. Origination concerns the capability and process through which manifestations come about and may give rise to further manifestations. Manifestation identifies what comes about. The framework states that all manifestations are imaginations of Origin and that imagination and manifestation are not separate stages in this account.
+
+**Working explanation:**  
+These are related but distinct conceptual roles. Do not collapse Origin (fundamental source), Origination (capability/process) and Manifestation (what comes about). Imagination has both a capacity/scope usage and a manifestation-related usage; the relationship remains open to further clarification. Spontaneous and intentional imagination are distinguished in the framework.
+
+**繁體中文說明:**  
+現行框架以廣義的「想像」描述本源產生可能性與顯化物的能力；「創出／起源過程」指顯化物形成及進一步產生其他顯化物的能力與過程；「顯化」指形成的內容。框架同時指出，所有顯化物都是本源的想像，且想像與顯化並非兩個分離階段。這些概念相關但角色不同，不應將本源、創出與顯化合併。
+
+**日本語メモ:**  
+現行枠組みでは、Imagination は本源から可能性や顕現が生じる能力を広く指す。Origination は顕現が生じ、さらに別の顕現を生み出す能力・過程であり、Manifestation は生じたものを指す。一方、すべての顕現は本源の想像であり、想像と顕現は別々の段階ではないとされる。三者の役割は区別し、想像の能力・範囲と顕現との関係は引き続き検討する。
+
+**Sources:** origin.html; zero-origin.html; imagination.html; infinity-of-imagination.html; origination.html; manifestations.html; TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 6.
+
+
 ## 3. Entries deliberately not yet defined
 
 The following terms require more original passage review before a glossary explanation is written:
@@ -347,5 +452,6 @@ This document is an internal trilingual research aid. The public `glossary.html`
 
 ## 5. Change history
 
+- **2026-11-25 — Version 0.3:** Added source-grounded working entries for Infinity, Zero / Idle, Spirit / Void / Voidness, True Origin / Oneness Origin / Fake Origin, Freewill, and Imagination / Origination / Manifestation. Preserved historical and current wording separately and kept unresolved translations provisional. No public HTML was changed.
 - **2026-11-25 — Version 0.2:** Added source-grounded entries for Attaining the Way, Exincarnation, Consciousness Strength Assessment Points, the two functional areas, and the Level of Awareness / Lucidity relationship. Added direct citations to the Chinese compilation TXT and Reddit archive. No published HTML was changed.
 - **2026-11-25 — Version 0.1:** Created an initial source-derived trilingual glossary register. Source quotations and relations are kept separate from editorial working explanations. No published HTML was changed.
