@@ -338,7 +338,8 @@ The following terms require more original passage review before a glossary expla
 - Entropy of Consciousness
 - Strength of Consciousness of Things
 - Awakenology
-- Exincarnation / Exincarnology
+- Exincarnology
+- Hypnotic Reincarnation
 
 ## 4. Publication boundary
 
