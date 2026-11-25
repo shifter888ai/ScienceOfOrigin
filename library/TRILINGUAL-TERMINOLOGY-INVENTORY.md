@@ -239,46 +239,6 @@
 - **Review status:** Framework term extracted; source-language equivalents provisional.
 
 
-## 5. Candidate terms awaiting direct source review
-
-The following forms are present in source indexes or current project records, but should not receive full definitions until the original passages are directly reviewed:
-
-- 本源意识
-- 万物本质
-- 虚拟存在
-- 虚拟现实
-- 自由意志
-- 意识频率
-- 意识光谱
-- 自由度 / 自由意识的自由强度
-- Freedomality of Consciousness
-- Freedomality Index (FI)
-- Freedometry
-- Level of Actualization of Freewill
-- Entropy of Consciousness
-- Strength of Consciousness of Things
-- Awakenology
-- Exincarnation / Exincarnology
-
-## 6. Next extraction priorities
-
-1. Obtain reliable passage-level access to the Chinese compilation TXT and compare it with both PDF volumes.
-2. Review source pages for 本源, 万物本源, 个体本源, 本源之道 and 合一本源; determine whether each occurrence is a definition, relation, title, quotation or other use.
-3. Review all contexts for 自由意识 and 自由意志 without assuming global equivalence.
-4. Extract 意识强度 passages and separate source descriptions, measurement claims, and practical statements.
-5. Review Japanese source material if available; until then, Japanese terms remain editorial translations.
-6. Compare the original Reddit collections and current English framework documents for terms whose English wording may have been authored or revised at different times.
-
-## 7. Change history
-
-- **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
-- **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
-
-
-## 7. Change history
-
-- **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
-- **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
 
 
 ### T-018 — Attaining the Way / 得道 / 道を得ること
@@ -485,3 +445,44 @@ The following forms are present in source indexes or current project records, bu
 - **Context:** This entry is Spectrum of Consciousness, not Spectrum of Freewill. Preserve the exact source term and do not infer a Spectrum of Freewill mapping.
 - **Source:** SRC-RD-001, lines 6432–6483.
 - **Review status:** Direct English source wording extracted; operational relationship OPEN.
+
+## 5. Candidate terms awaiting direct source review
+
+The following forms are present in source indexes or current project records, but should not receive full definitions until the original passages are directly reviewed:
+
+- 本源意识
+- 万物本质
+- 虚拟存在
+- 虚拟现实
+- 自由意志
+- 意识频率
+- 意识光谱
+- 自由度 / 自由意识的自由强度
+- Freedomality of Consciousness
+- Freedomality Index (FI)
+- Freedometry
+- Level of Actualization of Freewill
+- Entropy of Consciousness
+- Strength of Consciousness of Things
+- Awakenology
+- Exincarnation / Exincarnology
+
+## 6. Next extraction priorities
+
+1. Obtain reliable passage-level access to the Chinese compilation TXT and compare it with both PDF volumes.
+2. Review source pages for 本源, 万物本源, 个体本源, 本源之道 and 合一本源; determine whether each occurrence is a definition, relation, title, quotation or other use.
+3. Review all contexts for 自由意识 and 自由意志 without assuming global equivalence.
+4. Extract 意识强度 passages and separate source descriptions, measurement claims, and practical statements.
+5. Review Japanese source material if available; until then, Japanese terms remain editorial translations.
+6. Compare the original Reddit collections and current English framework documents for terms whose English wording may have been authored or revised at different times.
+
+## 7. Change history
+
+- **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
+- **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
+
+
+## 7. Change history
+
+- **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
+- **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
