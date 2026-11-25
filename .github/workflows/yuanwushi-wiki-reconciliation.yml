@@ -1,0 +1,51 @@
+name: Yuanwushi Wiki pagination reconciliation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/yuanwushi-wiki-reconciliation.yml'
+      - 'tools/reconcile_yuanwushi_wiki.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yuanwushi-wiki-reconciliation
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out Science of Origin
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check out captured Yuanwushi snapshot
+        uses: actions/checkout@v4
+        with:
+          ref: automation/yuanwushi-crawl
+          path: yuanwushi-snapshot
+
+      - name: Reconcile Q&A pages and record IDs
+        run: |
+          set -euo pipefail
+          python3 tools/reconcile_yuanwushi_wiki.py \
+            --snapshot yuanwushi-snapshot/materials/yuanwushi/snapshots/2026-11-25 \
+            --report library/coverage/yuanwushi-wiki-pagination-reconciliation-2026-11-25.md \
+            --csv library/coverage/yuanwushi-wiki-page-record-counts-2026-11-25.csv
+
+      - name: Publish reconciliation report
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C automation/yuanwushi-wiki-reconciliation
+          git add library/coverage/yuanwushi-wiki-pagination-reconciliation-2026-11-25.md library/coverage/yuanwushi-wiki-page-record-counts-2026-11-25.csv
+          git commit -m "Reconcile Yuanwushi Wiki Q&A pagination"
+          git push --force-with-lease origin automation/yuanwushi-wiki-reconciliation
