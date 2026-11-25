@@ -1,6 +1,6 @@
 # Repository Integrity Audit
 
-**Generated (UTC):** 2026-11-25T06:17:16.815479+00:00
+**Generated (UTC):** 2026-11-25T06:21:39.527329+00:00
 
 ## Scope
 
@@ -12,15 +12,15 @@ Git blob SHA-1 values were independently recomputed from exact blob bytes and co
 
 | Ref | Commit | Tracked blobs | Bytes | Non-blob entries | LFS pointers |
 |---|---|---:|---:|---:|---:|
-| main | 500cb3397fd3c8d3cce32a0e0e05d0571199a699 | 893 | 113,164,618 | 0 | 0 |
+| main | 4bbb8a5712b54bc6e4339567bbeca6551ef1545f | 897 | 114,174,511 | 0 | 0 |
 | refs/remotes/origin/automation/yuanwushi-crawl | e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae | 1,870 | 421,098,213 | 0 | 0 |
 
 ## Aggregate
 
-- Unique Git blobs independently hashed: **1,530**
-- Unique blob bytes read: **401,518,016**
-- Path/ref records: **2,763**
+- Unique Git blobs independently hashed: **1,534**
+- Unique blob bytes read: **402,527,909**
+- Path/ref records: **2,767**
 - Git blob SHA-1 mismatches: **0** (the script stops on any mismatch)
-- SHA-256 values recorded: **1,530**
+- SHA-256 values recorded: **1,534**
 
 The full path-by-path manifest is repository-integrity-manifest.json. It is generated separately from the source tree so the manifest does not hash itself.
