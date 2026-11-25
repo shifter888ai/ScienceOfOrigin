@@ -18,8 +18,8 @@
 
 | Collection | Current status | Remaining work |
 |---|---|---|
-| Chinese compilation (two PDFs + TXT) | 1,671 PDF pages match 1,671 TXT markers; 1,455 exact normalized matches, 10 high-similarity, 206 image-only/no-extractable-text pages. OCR derivative preserved. | Human-check OCR; classify the 206 pages; review the 10 high-similarity pages and confirm visual/page mapping |
-| Entropy assessment points (DOCX + RTF) | Normalized body text matches exactly after excluding the RTF-only 3,266-character TOC; DOCX has 957 paragraphs and no tables or embedded media | Review TOC difference, formatting, layout, and metadata |
+| Chinese compilation | Complete per owner-confirmed scope: the TXT alone is the complete source for current research. Two PDFs remain supplemental; prior page comparison/OCR outputs are optional derivatives. | No source-completeness work outstanding. OCR/image review only if later research requires the supplemental PDF images |
+| Entropy assessment points | Complete per owner-confirmed scope: the RTF is canonical and complete; DOCX remains a supplemental duplicate-format copy. Prior text comparison is documented. | No source-completeness work outstanding; optional format review only if later needed |
 | Science of Consciousness uploads | Two original TXT files registered and archived; repository SHA-256 matches supplied originals | Preserve originals; create derived research materials separately |
 
 ## 3. Repository state and integrity
@@ -30,12 +30,12 @@ The current SHA-256 manifest and report are `library/repository-integrity-manife
 
 ## 4. Open work queue
 
-1. Human verification/correction of the Chinese image-page OCR; page-by-page classification of all 206 image-only pages; review the 10 high-similarity pages.
-2. Entropy DOCX/RTF visual layout, metadata, and TOC review.
-3. Investigate and verify identity/provenance for the seven Yuanwushi 404 candidates; validate linked detail bodies/media where required.
-4. Complete Awakenology live-site alias, redirect, route, asset, and historical-version review.
-5. Inventory additional external, private, offline, historical, and other-repository sources; review rights and privacy before copying.
-6. Continue monthly additive updates for Reddit, Weibo, Awakenology, and Yuanwushi; refresh derived indexes and integrity manifests.
+1. Investigate and verify identity/provenance for the seven Yuanwushi 404 candidates, or explicitly retain them as unavailable/unverified; validate linked detail bodies/media where required.
+2. Complete Awakenology live-site alias, redirect, route, asset, and historical-version review.
+3. Inventory additional external, private, offline, historical, and other-repository sources; review rights and privacy before copying.
+4. Continue monthly additive updates for Reddit, Weibo, Awakenology, and Yuanwushi; refresh derived indexes and integrity manifests.
+
+Optional, non-blocking research tasks: verify/correct the Chinese OCR derivative or inspect supplemental PDF/DOCX formatting if those materials become relevant to a specific study.
 
 ## 5. Completion rule
 
