@@ -39,7 +39,7 @@
 | SRC-SOC-001 | `Science-of-Consciousness.txt` (project-supplied file) | Project Description & Research Framework |
 | SRC-SOC-002 | `Science-of-Consciousness-—-Research-Architecture.txt` (project-supplied file) | Short research architecture outline |
 
-**Access limitation:** The Chinese compilation TXT and two PDF volumes are registered in the repository, but the large TXT/PDF source content was not readable through the current file-fetch route during this pass. Its index is usable for navigation and candidate discovery only. No exact quotation or definition is attributed to those pages in this tranche without direct passage access. The PDF-to-TXT fidelity check remains outstanding.
+**Access and version note:** The Chinese compilation TXT is the canonical source for current research under the completed-library scope. The two PDF volumes are retained as supplemental references; optional OCR/image review is not a completion blocker. The passages cited in this tranche were read directly from the TXT. The candidate index remains a discovery aid, not a substitute for passage review.
 
 ## 4. Extracted terminology records
 
