@@ -211,15 +211,15 @@ The older Awakenology snapshot, physical-archive, bootstrap, workflow-fix, and Y
 
 ## Current completion boundary
 
-The four priority source-acquisition milestones remain achieved within their defined scopes: Reddit TXT archive, Weibo TXT archive, Awakenology pinned repository snapshot, and Yuanwushi initial website crawl. The Chinese compilation and Entropy source-format comparisons are now documented, with OCR and visual/layout review still open.
+The four priority source-acquisition milestones remain achieved within their defined scopes: Reddit TXT archive, Weibo TXT archive, Awakenology pinned repository snapshot, and Yuanwushi initial website crawl. The Chinese compilation TXT and Entropy RTF are owner-confirmed complete canonical sources for their defined research scopes. The two PDFs and DOCX remain preserved as supplemental originals; prior comparison and OCR outputs are optional derived aids, not completion gates.
 
 Still open:
-1. Human verification/correction of the Chinese image-page OCR and page-by-page classification of the 206 image-only pages; review the 10 high-similarity page comparisons.
-2. Entropy DOCX/RTF visual layout, metadata, and RTF-only TOC review.
-3. Identity/provenance checks for the seven Yuanwushi 404 recovery candidates; detail-page bodies, embedded media, deleted/private and unlinked historical resources are not all independently validated.
-4. Awakenology live-site parity, .org/.space alias/redirect checks, linked external resources, and historical versions.
-5. Discovery and rights/privacy review of external, private, offline, historical, and other-repository sources.
-6. Monthly additive source updates and refresh of derived indexes/manifests.
+1. Identity/provenance checks for the seven Yuanwushi 404 recovery candidates; detail-page bodies, embedded media, deleted/private and unlinked historical resources are not all independently validated.
+2. Awakenology live-site parity, .org/.space alias/redirect checks, linked external resources, and historical versions.
+3. Discovery and rights/privacy review of external, private, offline, historical, and other-repository sources.
+4. Monthly additive source updates and refresh of derived indexes/manifests.
+
+Optional research-quality tasks, if later needed, include human verification of the Chinese OCR derivative and further PDF/DOCX visual or metadata review. These are not blockers to the owner-defined canonical source scopes.
 
 The two Science of Consciousness uploads remain unchanged original TXT files; no merged or normalized replacement has been substituted.
 
