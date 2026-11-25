@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-25T06:21:39.527329+00:00",
+  "generated_utc": "2026-11-25T06:24:39.145547+00:00",
   "scope": "Tracked tree entries at selected branch tips; generated integrity report/manifest paths are excluded to avoid self-reference; not unreachable Git history or external LFS payloads.",
   "refs": [
     {
       "ref": "main",
-      "commit": "4bbb8a5712b54bc6e4339567bbeca6551ef1545f",
+      "commit": "61e9649dd29a3131c37e674ac61ceb5880eb4656",
       "tracked_blobs": 897,
-      "tracked_blob_bytes": 114174511,
+      "tracked_blob_bytes": 114185422,
       "non_blob_entries": 0,
       "lfs_pointer_blobs": 0
     },
@@ -21,7 +21,7 @@
     }
   ],
   "unique_git_blobs_hashed": 1534,
-  "unique_git_blob_bytes": 402527909,
+  "unique_git_blob_bytes": 402538820,
   "files": [
     {
       "ref": "main",
@@ -698,11 +698,11 @@
       "ref": "main",
       "path": "library/COMPLETION-DASHBOARD.md",
       "mode": "100644",
-      "git_blob_sha1": "932eb8d938112e2430b0654da52de1da285c0938",
-      "bytes": 4321,
+      "git_blob_sha1": "146521f46e0d11dec775137841474e7c4242e655",
+      "bytes": 4669,
       "object_type": "blob",
-      "git_blob_sha1_verified": "932eb8d938112e2430b0654da52de1da285c0938",
-      "sha256": "246946b2aad91701359eb055d4e0a235f88ef196d1954dcc9e2a9027f63331c2",
+      "git_blob_sha1_verified": "146521f46e0d11dec775137841474e7c4242e655",
+      "sha256": "d4d99f171b9bdcaac415155db9916c3f24631e36499fb61f8e14660217573065",
       "git_lfs_pointer": false
     },
     {
@@ -742,22 +742,22 @@
       "ref": "main",
       "path": "library/SOURCE-INVENTORY.md",
       "mode": "100644",
-      "git_blob_sha1": "c8b686407284152cc1dc702576f0479783ee8261",
-      "bytes": 15895,
+      "git_blob_sha1": "f38bcb428ef0a0328045d8eb1acdeb2d5a0e4569",
+      "bytes": 16811,
       "object_type": "blob",
-      "git_blob_sha1_verified": "c8b686407284152cc1dc702576f0479783ee8261",
-      "sha256": "2bb133bd80cb15465c89f404da31b668392750a4f4925cbe3d0aa62beb15c3a8",
+      "git_blob_sha1_verified": "f38bcb428ef0a0328045d8eb1acdeb2d5a0e4569",
+      "sha256": "1a117b7863fcf8a0d646dca7d303726e8a7270e396012f02feb7e02040228e70",
       "git_lfs_pointer": false
     },
     {
       "ref": "main",
       "path": "library/SOURCE-REGISTER.md",
       "mode": "100644",
-      "git_blob_sha1": "eecbc17f63874c6dd3a64b0889b702aa9f2459e2",
-      "bytes": 22721,
+      "git_blob_sha1": "fe9957c19bceb5cef85ebde39378cb6d91c81334",
+      "bytes": 27425,
       "object_type": "blob",
-      "git_blob_sha1_verified": "eecbc17f63874c6dd3a64b0889b702aa9f2459e2",
-      "sha256": "46766269f063604f7bf613e9279d18fea013906fa0d19008d704e8341ac1a136",
+      "git_blob_sha1_verified": "fe9957c19bceb5cef85ebde39378cb6d91c81334",
+      "sha256": "82398cc70b2c8052a25ea441fe6b9daff7e4e12e46c8199d899638c97d5467b0",
       "git_lfs_pointer": false
     },
     {
@@ -1028,11 +1028,11 @@
       "ref": "main",
       "path": "library/coverage/monthly-update-register.csv",
       "mode": "100644",
-      "git_blob_sha1": "9814baa23848348dd483f3b16b8a40e982d44037",
-      "bytes": 4892,
+      "git_blob_sha1": "533caf823d8a4e991e6cfe715c667871edde87d1",
+      "bytes": 6487,
       "object_type": "blob",
-      "git_blob_sha1_verified": "9814baa23848348dd483f3b16b8a40e982d44037",
-      "sha256": "75bbbb4c52d31f2f09ca747276f1aef5e2aa2e44bc2b5bde9185b9bdbfcd7bb0",
+      "git_blob_sha1_verified": "533caf823d8a4e991e6cfe715c667871edde87d1",
+      "sha256": "6425993fa884fa524e38f479e35551707cd7a581686073faf6cb2940f02c0ca9",
       "git_lfs_pointer": false
     },
     {
@@ -1149,11 +1149,11 @@
       "ref": "main",
       "path": "library/coverage/source-coverage-status.csv",
       "mode": "100644",
-      "git_blob_sha1": "373cbe5bb992d7292c27d1820b4876cf112989cb",
-      "bytes": 6900,
+      "git_blob_sha1": "3a9b48e10281b9721e8d550cef1ef688dbeb5249",
+      "bytes": 10248,
       "object_type": "blob",
-      "git_blob_sha1_verified": "373cbe5bb992d7292c27d1820b4876cf112989cb",
-      "sha256": "c58a61543af0460cd68e01d69be116cab9aea33cb6661185f4ac0a6d59439337",
+      "git_blob_sha1_verified": "3a9b48e10281b9721e8d550cef1ef688dbeb5249",
+      "sha256": "4180210cdd94df821b832be3eb35edcd3619d76dad0b3d0f0615888a9e225964",
       "git_lfs_pointer": false
     },
     {
