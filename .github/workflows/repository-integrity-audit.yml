@@ -1,0 +1,66 @@
+name: Repository-wide integrity audit
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/repository-integrity-audit.yml'
+      - 'tools/audit_repository_integrity.py'
+  workflow_dispatch:
+  schedule:
+    - cron: '47 7 1 * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repository-integrity-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out Science of Origin
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch the Yuanwushi archive branch
+        run: |
+          set -euo pipefail
+          git fetch origin refs/heads/automation/yuanwushi-crawl:refs/remotes/origin/automation/yuanwushi-crawl
+
+      - name: Verify Git objects and generate SHA-256 inventory
+        run: |
+          set -euo pipefail
+          git fsck --full --no-reflogs
+          python3 tools/audit_repository_integrity.py \
+            --refs main refs/remotes/origin/automation/yuanwushi-crawl \
+            --manifest library/repository-integrity-manifest.json \
+            --report library/repository-integrity-report.md
+
+      - name: Publish audit branch for review
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C automation/repository-integrity-audit
+          git add library/repository-integrity-manifest.json library/repository-integrity-report.md
+          if git diff --cached --quiet; then
+            echo "No repository integrity report changes."
+            exit 0
+          fi
+          git commit -m "Publish repository-wide integrity audit"
+          git push --force-with-lease origin automation/repository-integrity-audit
+
+      - name: Upload integrity audit files
+        uses: actions/upload-artifact@v4
+        with:
+          name: repository-integrity-audit
+          path: |
+            library/repository-integrity-manifest.json
+            library/repository-integrity-report.md
+          retention-days: 90
