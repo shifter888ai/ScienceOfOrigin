@@ -191,9 +191,9 @@ The upstream repository `https://github.com/shifter888ai/awakenology` is pinned 
 
 ## Current-state reconciliation — 2026-11-25
 
-The historical inventory sections above are retained as dated baselines. The latest repository-wide integrity audit covers main commit `4bbb8a5712b54bc6e4339567bbeca6551ef1545f` and the final Yuanwushi archive branch at `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`.
+The historical inventory sections above are retained as dated baselines. The latest repository-wide integrity audit covers main commit `61e9649dd29a3131c37e674ac61ceb5880eb4656` and the final Yuanwushi archive branch at `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`.
 
-- Main: 897 tracked file blobs / 114,174,511 bytes.
+- Main: 897 tracked file blobs / 114,185,422 bytes.
 - Yuanwushi archive branch: 1,870 tracked file blobs / 421,098,213 bytes.
 - Aggregate: 1,534 unique Git blobs independently hashed, 402,527,909 unique-blob bytes, 2,767 path/ref records; zero Git blob SHA-1 mismatches; no Git LFS pointers.
 - Awakenology: 648 physical tracked blobs / 51,750,456 bytes; subtree SHA exactly matches the pinned upstream commit's root tree SHA.
