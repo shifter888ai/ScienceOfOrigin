@@ -13,25 +13,30 @@
 
 ## What is preserved
 
-The CSV enumerates every file blob in the source commit, including its repository-relative path, Git mode, object type, Git blob SHA, and byte size. The library's `materials/awakenology` entry is a Git submodule pointer pinned to this exact commit, with `.gitmodules` pointing to the upstream repository.
+The CSV enumerates every file blob in the source commit, including its repository-relative path, Git mode, object type, Git blob SHA, and byte size. The complete source tree is physically copied into `materials/awakenology/` as ordinary tracked files in the ScienceOfOrigin repository.
 
 This captures the entire repository tree at the pinned revision as a reproducible, auditable reference. It includes site pages, images and other assets, scripts, documentation, workflows, internal tools, and other tracked files.
 
 ## Important implementation distinction
 
-The library uses a **pinned Git submodule reference plus a complete tree manifest**. It does not physically duplicate every source blob into the ScienceOfOrigin repository. The source content remains hosted in the Awakenology repository and is retrieved when the submodule is initialized. The manifest records the exact object identities and sizes, so the referenced revision can be checked against the original tree.
+The library contains a **physical copy of all tracked source blobs plus a complete tree manifest**. The files are ordinary Git blobs in the ScienceOfOrigin repository, not a submodule pointer. The subtree tree SHA matches the root tree SHA of the pinned upstream commit, establishing exact tree identity for this snapshot.
 
 ## Monthly update procedure
 
 1. Fetch the upstream `main` commit and recursive Git tree.
 2. Compare it with the prior pinned commit and manifest.
 3. Record added, modified, renamed, and deleted paths.
-4. Update the submodule pointer and create a dated full manifest.
+4. Update the physical source subtree and create a dated full manifest.
 5. Preserve prior snapshot manifests and commits in repository history.
-6. Verify the pinned submodule commit and every manifest path, mode, Git blob SHA, and size.
+6. Verify the pinned upstream commit and every physical manifest path, mode, Git blob SHA, and size.
 
 ## Scope boundary
 
 This is a complete snapshot of the tracked Git repository tree at the stated commit. It is not a live-site crawl, a complete history of every past repository revision, or a capture of external resources linked from the site. Live-domain aliases, redirects, route responses, and historical website versions remain separate research tasks.
 
 Git blob SHA values are Git object identifiers, not SHA-256 file checksums.
+
+
+## Physical archive correction — 2026-11-25
+
+An earlier draft of this report incorrectly described the library copy as a Git submodule. The current implementation is a **physical copy** under `materials/awakenology/`: 648 file blobs, 823 recursive tree entries, 51,750,456 bytes. Its subtree tree SHA matches the pinned upstream commit's root tree SHA. The correction supersedes the submodule wording above wherever it appears in older historical notes.
