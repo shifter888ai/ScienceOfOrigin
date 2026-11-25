@@ -186,6 +186,7 @@ def main():
         "## Entropy assessment: DOCX vs RTF","",
         f"- DOCX extracted characters: {len(dtext):,}",f"- RTF extracted characters: {len(rtext):,}",
         f"- Normalized text similarity: {eratio:.4f}",f"- Exact normalized text equality: {'yes' if dn==rn else 'no'}",
+        f"- Body comparison: {entropy_body_note}",
         f"- DOCX structure: {dmeta['paragraph_count']} paragraphs, {dmeta['table_count']} tables, {dmeta['inline_shape_count']} inline shapes, {dmeta['embedded_media_files']} embedded media files, {dmeta['section_count']} sections",
         "","DOCX extraction preserves paragraph and table-cell text in document-body order. RTF text was extracted with striprtf. Similarity does not assess layout, images, formulas, footnotes, comments, or semantic equivalence. Inspect differences and embedded objects before deciding whether one format faithfully represents the other.","",
         "The page-level OCR text and CSV are preserved as separate derived files under library/derived/. Detailed extracted PDF text and contact sheets remain in the workflow artifact source-format-review. Original files remain unchanged.",""]
