@@ -1,6 +1,6 @@
 # Science of Origin — Trilingual Terminology Inventory
 
-**Status:** Expanded source-extraction edition · Version 0.2  
+**Status:** Expanded source-extraction edition · Version 0.3  
 **Languages:** English · 繁體中文 · 日本語  
 **Purpose:** Preserve terminology found in original Science of Origin materials, with source traceability and provisional cross-language mappings. This is an internal research inventory, not the published website terminology page.
 
@@ -36,6 +36,7 @@
 | SRC-CC-IDX-001 | `library/record-index/chinese-compilation-terminology-candidate-index.csv` | Candidate terms and page/line locators used for discovery; not a substitute for direct passage review |
 | SRC-CC-001 | `materials/元吾氏集录20210203.txt` | Original Chinese compilation TXT; directly inspected Pages 264, 300, 306–316, 399 and 1669 in this tranche; Git blob `051b2a12490cacf3dc96e24cb99858ececa6bff0` |
 | SRC-RD-001 | `materials/reddit-english-all.txt` | English Reddit archive; directly inspected lines 6432–6483 for Level of Awareness, Lucidity, Strength and Spectrum terminology; Git blob `0452d11a39654864572c0d563667765b5c96da3c` |
+| SRC-OR-001 | Current Science of Origin framework pages in the repository | Directly inspected origin.html, zero-origin.html, zero-idle-state-of-origin.html, nature-of-origin.html, infinity-of-imagination.html, imagination.html, origination.html, manifestations.html, origin-models.html, fake-origin-divided-origin.html and oneness-division.html on 2026-11-25 |
 | SRC-SOC-001 | `Science-of-Consciousness.txt` (project-supplied file) | Project Description & Research Framework |
 | SRC-SOC-002 | `Science-of-Consciousness-—-Research-Architecture.txt` (project-supplied file) | Short research architecture outline |
 
@@ -446,6 +447,142 @@
 - **Source:** SRC-RD-001, lines 6432–6483.
 - **Review status:** Direct English source wording extracted; operational relationship OPEN.
 
+
+
+### T-037 — Infinity / 无限 / 無限
+
+- **English display term:** Infinity
+- **繁體中文原詞:** 无限（繁體字形：無限）
+- **日本語（暫定訳）:** 無限
+- **Current framework wording (SRC):** origin.html describes Infinity as the closest human-understandable description of Origin, not a definition of Origin. zero-origin.html states: “Infinity is a nature of Origin, not Origin itself.”
+- **Historical source wording:** The 2009 First Edition in nature-of-origin.html says “The Source = Infinity” if forced to define it; later clarifications explicitly distinguish Infinity from Origin itself.
+- **Context / distinction:** Preserve the historical 2009 formulation and later clarification as separate dated layers. The current account does not treat Infinity as identical to Origin, a numerical quantity, or an exhaustive definition.
+- **Source:** SRC-OR-001, nature-of-origin.html (First Edition 2009 and later clarifications), origin.html, zero-origin.html.
+- **Review status:** Current distinction recorded; historical wording retained without reconciliation.
+
+### T-038 — Zero / 零 / ゼロ
+
+- **English display term:** Zero
+- **繁體中文原詞:** 零
+- **日本語:** ゼロ
+- **Current framework wording (SRC):** zero-idle-state-of-origin.html states that Zero is not a numerical starting point or a value on a numerical scale; it represents the idle state of Origin.
+- **Related wording:** Zero also represents Infinity before manifestation. “Before manifestation” is explicitly not necessarily a chronological time-before.
+- **Context / distinction:** Do not interpret Zero as ordinary arithmetic zero, nothingness, a physical vacuum, inactivity within a manifested system, or the first event in a sequence. The historical illustration “0 begets 1…” is not a literal mechanism or chronology.
+- **Source:** SRC-OR-001, zero-idle-state-of-origin.html, zero-origin.html, origin.html; library/TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 2.
+- **Review status:** Current working description extracted; exact nature of the idle state remains open.
+
+### T-039 — Idle State of Origin / 本源的静止状态（譯形待核） / 本源のアイドル状態（暫定）
+
+- **English display term:** Idle State of Origin
+- **繁體中文:** 本源的靜止狀態（暫定描述，非已核定原詞）
+- **日本語（暫定訳）:** 本源のアイドル状態
+- **Current framework wording (SRC):** Zero represents the idle state of Origin. “Idle” indicates the state of Origin before manifestation and does not imply absence of capability, Freewill or possibility.
+- **Context / distinction:** Origin may be idle, active, or idle in one aspect while active in another. “Idle” is a descriptive state term, not a synonym for nonexistence, nothingness or a measured physical vacuum.
+- **Source:** SRC-OR-001, zero-idle-state-of-origin.html, zero-origin.html, origin.html.
+- **Review status:** English source term extracted; Chinese and Japanese are editorial renderings.
+
+### T-040 — Spirit / 灵 / 靈
+
+- **English display term:** Spirit
+- **繁體中文候選原詞:** 灵（繁體字形：靈）；對應關係仍需原文脈絡核對
+- **日本語（暫定訳）:** スピリット
+- **Current framework wording (SRC):** origin.html names Spirit as one of five natures or aspects and describes it as the perspective of nature, and the closest description of the Source's nature.
+- **Historical wording (SRC):** The 2009 First Edition in nature-of-origin.html, Section E, calls Spirit an approximate description from the perspective of nature and says it is still not accurate.
+- **Context / distinction:** The inspected framework pages do not establish a one-to-one identity or translation between Spirit, Soul, 灵魂 or 灵体. Do not merge these terms.
+- **Source:** SRC-OR-001, origin.html, zero-origin.html, nature-of-origin.html, Section E; library/TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 4.
+- **Review status:** Current role extracted; Chinese lexical mapping and relation to Soul remain OPEN.
+
+### T-041 — Void / 虚空（候選；原詞對應待核） / ヴォイド（暫定）
+
+- **English display term:** Void
+- **繁體中文:** 虛空（候選翻譯，未核定為原詞對應）
+- **日本語（暫定訳）:** ヴォイド
+- **Current framework wording (SRC):** Void is named as one of five natures or aspects of Origin in origin.html and zero-origin.html.
+- **Context / distinction:** The current pages name Void but do not supply a complete operational definition in the passages reviewed. Do not substitute Voidness or ordinary physical vacuum as its definition.
+- **Source:** SRC-OR-001, origin.html, zero-origin.html; library/TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 4.
+- **Review status:** Named aspect extracted; definition and Chinese/Japanese mapping OPEN.
+
+### T-042 — Voidness / 虚无状态（候選） / ヴォイドネス（暫定）
+
+- **English source term:** Voidness
+- **繁體中文:** 虛無狀態（候選描述；原詞映射待核）
+- **日本語（暫定訳）:** ヴォイドネス
+- **Historical source wording (SRC):** nature-of-origin.html, First Edition (2009), Section E, describes Voidness as a visual perspective on the Source. The parenthetical explanation associates it with the Source being still, not in motion and not creating, described as “non-manifestation” or “nothingness.”
+- **Current terminology note:** The current five-name list uses Void, while this historical account uses Voidness. The reviewed sources do not establish that the two are identical or that Void replaced Voidness.
+- **Source:** SRC-OR-001, nature-of-origin.html, Section E; library/TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 4.
+- **Review status:** Historical usage extracted; relation to current Void remains OPEN.
+
+### T-043 — True Origin / 真本源（候選） / 真の本源（暫定）
+
+- **English display term:** True Origin
+- **繁體中文:** 真本源（候選翻譯；未核定）
+- **日本語（暫定訳）:** 真の本源
+- **Current framework wording (SRC):** origin.html states that True Origin refers to the Oneness Origin and expresses the foundational position that there is one ultimate Origin rather than multiple independent ultimate sources.
+- **Context / distinction:** True Origin is not a separate entity alongside Origin; it is a named framing of the Oneness Origin in the current model. Preserve the source's capitalized English term.
+- **Source:** SRC-OR-001, origin.html, origin-models.html, fake-origin-divided-origin.html.
+- **Review status:** Current framework description extracted; Chinese and Japanese mappings provisional.
+
+### T-044 — Oneness Origin / 一体本源（候選） / 一なる本源（暫定）
+
+- **English display term:** Oneness Origin
+- **繁體中文:** 一體本源（候選描述，非已核定原詞）
+- **日本語（暫定訳）:** 一なる本源
+- **Current framework wording (SRC):** origin.html explicitly glosses True Origin as “the Oneness Origin” and describes it as one ultimate Origin, rather than multiple independent ultimate sources.
+- **Context / distinction:** Do not conflate foundational Oneness Origin with structural unity, a system functioning as one, or a collection with shared organization. oneness-division.html explicitly distinguishes these subjects.
+- **Source:** SRC-OR-001, origin.html, origin-models.html, oneness-division.html.
+- **Review status:** Current framework description extracted; Chinese and Japanese mappings provisional.
+
+### T-045 — Fake Origin / 假本源（候選） / 偽の本源（暫定）
+
+- **English display term:** Fake Origin
+- **繁體中文:** 假本源（候選對應，需與原始中文用例核對）
+- **日本語（暫定訳）:** 偽の本源
+- **Current framework wording (SRC):** origin-models.html and fake-origin-divided-origin.html describe Fake Origin as a manifestation originated from True Origin that imitates Origin and presents relative independence as absolute independence. It is not a second ultimate Origin.
+- **Context / distinction:** The model is explicitly conceptual and not presented as independently verified. Do not automatically equate every historical occurrence of 虚拟, 幻相 or 虚假 with this specific current Fake Origin model.
+- **Source:** SRC-OR-001, origin-models.html, fake-origin-divided-origin.html; library/TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 3.
+- **Review status:** Current model description extracted; original Chinese mapping and identification criteria OPEN.
+
+### T-046 — Freewill / 自由意志 / 自由意志
+
+- **English display term:** Freewill
+- **繁體中文原詞:** 自由意志
+- **日本語（暫定訳）:** 自由意志
+- **Current framework wording (SRC):** origin.html and zero-origin.html state: “Freewill is the freedom of change itself.” The description includes the freedom to change or not change, originate or not originate, manifest or not manifest, combine or separate, and transform or remain.
+- **Perspective distinction:** In origin.html, Consciousness describes Origin from the perspective of attributes; Freewill describes it from the perspective of functionality. The two are related descriptive perspectives, not interchangeable definitions.
+- **Historical context:** Weibo records 230 and 242 distinguish 自由意识 (described as existence) from 自由意志法则 (described as law); record 689 later explicitly pairs 自由意识 with “自由意志Freewill” in parentheses. Preserve dated source variation.
+- **Source:** SRC-OR-001, origin.html, zero-origin.html, consciousness-freewill.html; SRC-WB-001, records 230, 242 and 689; library/TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 1.
+- **Review status:** Current working description extracted; cross-source mapping with Free Consciousness remains nuanced and context-dependent.
+
+### T-047 — Imagination / 想象 / 想像（用字待統一）
+
+- **English display term:** Imagination
+- **繁體中文候選原詞:** 想象／想像（用字依來源保留）
+- **日本語（暫定訳）:** 想像
+- **Current framework wording (SRC):** origin.html uses imagination in a broad foundational sense: the proposed capacity through which possibilities and manifestations arise from Origin. It is not limited to human fantasy, visualization or mental images.
+- **Context / distinction:** The framework distinguishes spontaneous imagination from intentional imagination. It also states that manifestations are imaginations of Origin and that imagination and manifestation are not separate stages in this account. Preserve both the capacity/potential usage and the manifestation-related usage.
+- **Source:** SRC-OR-001, origin.html, zero-origin.html, imagination.html, infinity-of-imagination.html; library/TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 6.
+- **Review status:** Current working description extracted; relation between capacity, scope and manifestation remains open.
+
+### T-048 — Origination / 起源过程（描述性译法） / 創出（暫定）
+
+- **English display term:** Origination
+- **繁體中文:** 起源過程（描述性譯法；未核定為原詞）
+- **日本語（暫定訳）:** 創出
+- **Current framework wording (SRC):** origin.html distinguishes Origin (the fundamental source) from origination (the capability and process through which manifestations come about and may give rise to further manifestations).
+- **Context / distinction:** Origination is not another name for Origin, and it is not synonymous with a particular manifestation. The source describes spontaneous, deliberate and mixed modes, and says origination and cessation may occur simultaneously.
+- **Source:** SRC-OR-001, origin.html, zero-origin.html, origination.html; library/TERMINOLOGY-CONCEPTUAL-REVIEW.md, Section 6.
+- **Review status:** Current framework description extracted; Chinese and Japanese renderings provisional.
+
+### T-049 — Manifestation / 显化（候選） / 顕現（暫定）
+
+- **English display term:** Manifestation
+- **繁體中文:** 顯化（候選翻譯；需核對來源原詞及語境）
+- **日本語（暫定訳）:** 顕現
+- **Current framework wording (SRC):** origin.html and zero-origin.html describe manifestations as what comes about through origination, while stating that all manifestations are imaginations of Origin and that imagination and manifestation are not separate stages in this account.
+- **Context / distinction:** Manifestation identifies what comes about; origination concerns the capability/process; Origin concerns the fundamental source. Do not collapse these three terms. The framework also distinguishes manifestation from cessation and transformation.
+- **Source:** SRC-OR-001, origin.html, zero-origin.html, origination.html, manifestations.html.
+- **Review status:** Current framework description extracted; Chinese and Japanese renderings provisional.
+
 ## 5. Candidate terms awaiting direct source review
 
 The following forms are present in source indexes or current project records, but should not receive full definitions until the original passages are directly reviewed:
@@ -469,14 +606,15 @@ The following forms are present in source indexes or current project records, bu
 
 ## 6. Next extraction priorities
 
-1. Obtain reliable passage-level access to the Chinese compilation TXT and compare it with both PDF volumes.
-2. Review source pages for 本源, 万物本源, 个体本源, 本源之道 and 合一本源; determine whether each occurrence is a definition, relation, title, quotation or other use.
-3. Review all contexts for 自由意识 and 自由意志 without assuming global equivalence.
-4. Extract 意识强度 passages and separate source descriptions, measurement claims, and practical statements.
-5. Review Japanese source material if available; until then, Japanese terms remain editorial translations.
-6. Compare the original Reddit collections and current English framework documents for terms whose English wording may have been authored or revised at different times.
+1. Review the remaining original-source families for 本源意识, 万物本质, 虚拟存在 and 虚拟现实, separating definitions from examples, titles and contextual uses.
+2. Extract and compare the full source history of Freedomality of Consciousness, Freedomality Index (FI), Freedometry and Level of Actualization of Freewill.
+3. Review Entropy of Consciousness and Strength of Consciousness of Things as distinct application terms; do not import conventional technical definitions without a source-grounded mapping.
+4. Review Awakenology and Exincarnology source history and their relationship without assuming a hierarchy.
+5. Continue Japanese-source verification where original Japanese material exists; provisional translations must remain visibly provisional.
+6. Compare historical and current English formulations, preserving version changes and document-level differences.
 
 ## 7. Change history
 
+- **2026-11-25 — Version 0.3:** Added 13 terminology records (T-037–T-049) from direct review of current Science of Origin framework pages and preserved historical First Edition wording. Recorded Infinity, Zero, Idle State, Spirit, Void, Voidness, True Origin, Oneness Origin, Fake Origin, Freewill, Imagination, Origination and Manifestation. Explicitly retained unresolved Void/Voidness, Spirit/Soul, historical Infinity/Origin and cross-language mappings. No public HTML was changed.
 - **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
 - **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
