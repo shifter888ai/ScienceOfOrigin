@@ -3,6 +3,10 @@
 **Status:** Foundation / initial implementation  
 **Governing principle:** Preserve everything first. Discover and organize relationships through research.
 
+## Current completion status
+
+See [COMPLETION-DASHBOARD.md](COMPLETION-DASHBOARD.md) for the dated source-collection status, verified scope, unresolved gaps, and completion work queue. The dashboard distinguishes owner-confirmed archive scope, captured-file integrity, live-source coverage, and overall library discovery.
+
 ## Purpose
 
 This directory establishes the working foundation for the complete Science of Origin research library. The library is the common research base for all existing and future fields, applications, topics, cases, terminology, and discoveries.
