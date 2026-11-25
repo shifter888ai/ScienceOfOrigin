@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-25T05:59:11.589108+00:00",
-  "scope": "Tracked tree entries at selected branch tips; not unreachable Git history or external LFS payloads.",
+  "generated_utc": "2026-11-25T06:17:16.815479+00:00",
+  "scope": "Tracked tree entries at selected branch tips; generated integrity report/manifest paths are excluded to avoid self-reference; not unreachable Git history or external LFS payloads.",
   "refs": [
     {
       "ref": "main",
-      "commit": "92a2502af507b9274ff072945a0860737fe54751",
-      "tracked_blobs": 881,
-      "tracked_blob_bytes": 113081391,
+      "commit": "500cb3397fd3c8d3cce32a0e0e05d0571199a699",
+      "tracked_blobs": 893,
+      "tracked_blob_bytes": 113164618,
       "non_blob_entries": 0,
       "lfs_pointer_blobs": 0
     },
@@ -20,8 +20,8 @@
       "lfs_pointer_blobs": 0
     }
   ],
-  "unique_git_blobs_hashed": 1518,
-  "unique_git_blob_bytes": 401434789,
+  "unique_git_blobs_hashed": 1530,
+  "unique_git_blob_bytes": 401518016,
   "files": [
     {
       "ref": "main",
@@ -38,11 +38,22 @@
       "ref": "main",
       "path": ".github/workflows/repository-integrity-audit.yml",
       "mode": "100644",
-      "git_blob_sha1": "bdafa994bb08d76fceb953c0073f72908c7ff1a5",
-      "bytes": 2137,
+      "git_blob_sha1": "d6c120103458f3ef6054ccab933eb5f6db2cd56d",
+      "bytes": 2141,
       "object_type": "blob",
-      "git_blob_sha1_verified": "bdafa994bb08d76fceb953c0073f72908c7ff1a5",
-      "sha256": "68243a1ae814d4f5d74c65da39d0f264f95a1b7721d33d91d91dcd2bd6db35df",
+      "git_blob_sha1_verified": "d6c120103458f3ef6054ccab933eb5f6db2cd56d",
+      "sha256": "f20d5546d7736bdda31cccebe95ed037bbbed50ec0dcef3fd69e2d171fa49650",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": ".github/workflows/source-format-review.yml",
+      "mode": "100644",
+      "git_blob_sha1": "506ebc79eac927e0c2d44b96e3a34e5cc56a2a90",
+      "bytes": 1790,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "506ebc79eac927e0c2d44b96e3a34e5cc56a2a90",
+      "sha256": "fce3740128411d2805e07558a96a759b0974a9e5633c209c07696bd8467759cb",
       "git_lfs_pointer": false
     },
     {
@@ -65,6 +76,28 @@
       "object_type": "blob",
       "git_blob_sha1_verified": "99d07f0a0857efac521eed2a8a1018aad04f29c8",
       "sha256": "2dd3950af38ecf27bf84e5dcef459aeb5a55f7ae13943a6cb41e016fd58b5a16",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": ".github/workflows/yuanwushi-recovery-candidates.yml",
+      "mode": "100644",
+      "git_blob_sha1": "12ea4ec31866d09b348f5012ff46c39f8b58d726",
+      "bytes": 1423,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "12ea4ec31866d09b348f5012ff46c39f8b58d726",
+      "sha256": "fff8b0652a1c3bf9ec35d00cebe4ce2da0507148425ed17f1d1bda2fde6bef9a",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": ".github/workflows/yuanwushi-wiki-reconciliation.yml",
+      "mode": "100644",
+      "git_blob_sha1": "e32e0ebe6d189accd8f5d8b7a7990dd2bc605798",
+      "bytes": 1726,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "e32e0ebe6d189accd8f5d8b7a7990dd2bc605798",
+      "sha256": "c1d02215fb5bb464ef1f0236e8014880fdce8f5a990571050bcc2cbae7260388",
       "git_lfs_pointer": false
     },
     {
@@ -665,11 +698,11 @@
       "ref": "main",
       "path": "library/COMPLETION-DASHBOARD.md",
       "mode": "100644",
-      "git_blob_sha1": "c7c5c708de2b646aa54649a435a9881cfa5debf8",
-      "bytes": 4232,
+      "git_blob_sha1": "932eb8d938112e2430b0654da52de1da285c0938",
+      "bytes": 4321,
       "object_type": "blob",
-      "git_blob_sha1_verified": "c7c5c708de2b646aa54649a435a9881cfa5debf8",
-      "sha256": "48c6d1f7725d63464c22f78183431c274f7e9205bd43ae4b2db57a6bc3b7bc36",
+      "git_blob_sha1_verified": "932eb8d938112e2430b0654da52de1da285c0938",
+      "sha256": "246946b2aad91701359eb055d4e0a235f88ef196d1954dcc9e2a9027f63331c2",
       "git_lfs_pointer": false
     },
     {
@@ -709,22 +742,22 @@
       "ref": "main",
       "path": "library/SOURCE-INVENTORY.md",
       "mode": "100644",
-      "git_blob_sha1": "b7e4b021251dcc2c166b0ba12b41e8acab959ce0",
-      "bytes": 15844,
+      "git_blob_sha1": "c8b686407284152cc1dc702576f0479783ee8261",
+      "bytes": 15895,
       "object_type": "blob",
-      "git_blob_sha1_verified": "b7e4b021251dcc2c166b0ba12b41e8acab959ce0",
-      "sha256": "06c2fa8dd46685f124a48d03a305974d1a6604f5fd35c44524723a0abdd102a8",
+      "git_blob_sha1_verified": "c8b686407284152cc1dc702576f0479783ee8261",
+      "sha256": "2bb133bd80cb15465c89f404da31b668392750a4f4925cbe3d0aa62beb15c3a8",
       "git_lfs_pointer": false
     },
     {
       "ref": "main",
       "path": "library/SOURCE-REGISTER.md",
       "mode": "100644",
-      "git_blob_sha1": "32f56963a20c268f4ddcaefdbb43b5d2d23b9c59",
-      "bytes": 21529,
+      "git_blob_sha1": "eecbc17f63874c6dd3a64b0889b702aa9f2459e2",
+      "bytes": 22721,
       "object_type": "blob",
-      "git_blob_sha1_verified": "32f56963a20c268f4ddcaefdbb43b5d2d23b9c59",
-      "sha256": "a4bbabfed49731e39341c540340e53f76259fe1adcbc1f02931bc2cce9a10ba0",
+      "git_blob_sha1_verified": "eecbc17f63874c6dd3a64b0889b702aa9f2459e2",
+      "sha256": "46766269f063604f7bf613e9279d18fea013906fa0d19008d704e8341ac1a136",
       "git_lfs_pointer": false
     },
     {
@@ -984,11 +1017,11 @@
       "ref": "main",
       "path": "library/coverage/monthly-update-register.csv",
       "mode": "100644",
-      "git_blob_sha1": "8ad6f9930c76e4ba2f82c3895e25b1f1f0e22731",
-      "bytes": 4813,
+      "git_blob_sha1": "9814baa23848348dd483f3b16b8a40e982d44037",
+      "bytes": 4892,
       "object_type": "blob",
-      "git_blob_sha1_verified": "8ad6f9930c76e4ba2f82c3895e25b1f1f0e22731",
-      "sha256": "039173e9299ceb3026c6c9671587d16fa7b303aa12436e6759b5dde5c7f2a74f",
+      "git_blob_sha1_verified": "9814baa23848348dd483f3b16b8a40e982d44037",
+      "sha256": "75bbbb4c52d31f2f09ca747276f1aef5e2aa2e44bc2b5bde9185b9bdbfcd7bb0",
       "git_lfs_pointer": false
     },
     {
@@ -1105,11 +1138,11 @@
       "ref": "main",
       "path": "library/coverage/source-coverage-status.csv",
       "mode": "100644",
-      "git_blob_sha1": "a5035d3dd29e1bbedf8de12298d83df3e959cc51",
-      "bytes": 6742,
+      "git_blob_sha1": "373cbe5bb992d7292c27d1820b4876cf112989cb",
+      "bytes": 6900,
       "object_type": "blob",
-      "git_blob_sha1_verified": "a5035d3dd29e1bbedf8de12298d83df3e959cc51",
-      "sha256": "69242fb6aed138795856f3000530ec7119fe5e0d3b9991fc8c259a945124bc75",
+      "git_blob_sha1_verified": "373cbe5bb992d7292c27d1820b4876cf112989cb",
+      "sha256": "c58a61543af0460cd68e01d69be116cab9aea33cb6661185f4ac0a6d59439337",
       "git_lfs_pointer": false
     },
     {
@@ -1191,6 +1224,17 @@
     },
     {
       "ref": "main",
+      "path": "library/coverage/yuanwushi-wiki-page-record-counts-2026-11-25.csv",
+      "mode": "100644",
+      "git_blob_sha1": "d298e2aa1db8911b72a067d34e602bb97d109de9",
+      "bytes": 5634,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "d298e2aa1db8911b72a067d34e602bb97d109de9",
+      "sha256": "91e19c07cc17ecc4280532ff45dc9f2da6def67d91cfbac5144b84aafd5b4bf7",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
       "path": "library/coverage/yuanwushi-wiki-pagination-assessment.md",
       "mode": "100644",
       "git_blob_sha1": "9ab8e8860af279d280169b5a6273812b325372f8",
@@ -1198,6 +1242,28 @@
       "object_type": "blob",
       "git_blob_sha1_verified": "9ab8e8860af279d280169b5a6273812b325372f8",
       "sha256": "f42c4325506ab3ddc5c7b3423cd958b4e35897224a8ed5cdf05ccd4b5c330874",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "library/coverage/yuanwushi-wiki-pagination-reconciliation-2026-11-25.md",
+      "mode": "100644",
+      "git_blob_sha1": "189af068bc364b3cb1b3f5b52eab61d55e6f000f",
+      "bytes": 1128,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "189af068bc364b3cb1b3f5b52eab61d55e6f000f",
+      "sha256": "26fcd228f1b1380bfb684d69359acb67c5b3a8364c8d015c39845a91515befbd",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "library/derived/README.md",
+      "mode": "100644",
+      "git_blob_sha1": "c433120666d79dd8f07a30b2aaf2853fdf5e9651",
+      "bytes": 695,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "c433120666d79dd8f07a30b2aaf2853fdf5e9651",
+      "sha256": "e4ba2b03a7b848dae6d9b8e7a215fe2bdbf3fae2bef56bab8fdf42aa978abd24",
       "git_lfs_pointer": false
     },
     {
@@ -8924,6 +8990,39 @@
     },
     {
       "ref": "main",
+      "path": "materials/yuanwushi/recovery-candidates/README.md",
+      "mode": "100644",
+      "git_blob_sha1": "c117dbdcff261810da5820c43793ca149cae42bf",
+      "bytes": 1270,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "c117dbdcff261810da5820c43793ca149cae42bf",
+      "sha256": "00e24ea6fffe6e2133966be88b5ffa4e8e01d814048bdc9ae722007a0b79bd4f",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "materials/yuanwushi/recovery-candidates/mdn-t-rex-roar.mp3",
+      "mode": "100644",
+      "git_blob_sha1": "6b2b066a0f6fd1890ec3a70a0afcda21389b8c37",
+      "bytes": 39868,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "6b2b066a0f6fd1890ec3a70a0afcda21389b8c37",
+      "sha256": "41191d0727073bf848bcc8f0bd851d71a0b0058e901abb1c1b236ad327bda52e",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "materials/yuanwushi/recovery-candidates/recovery-candidate-register.csv",
+      "mode": "100644",
+      "git_blob_sha1": "77cd5f765440dc1010c491d04492b989c38289b3",
+      "bytes": 4612,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "77cd5f765440dc1010c491d04492b989c38289b3",
+      "sha256": "89638d60fb8d2d469439c1837bc8847d3e0515ec793949609dc429828399b49b",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
       "path": "materials/元吾氏集录20210203-1.pdf",
       "mode": "100644",
       "git_blob_sha1": "9216b2dd722e6fa79436042a1e6f1af314e164ab",
@@ -9586,11 +9685,44 @@
       "ref": "main",
       "path": "tools/audit_repository_integrity.py",
       "mode": "100644",
-      "git_blob_sha1": "b944d9c5d3599ab74aacad7cfe6c3522f13a27df",
-      "bytes": 6236,
+      "git_blob_sha1": "f750655c93614b2437ab4253a459456a19c73d0d",
+      "bytes": 6593,
       "object_type": "blob",
-      "git_blob_sha1_verified": "b944d9c5d3599ab74aacad7cfe6c3522f13a27df",
-      "sha256": "1acdd4c108793fba31619dcf1c00940f8e9e0b976c041f5e647d814bcbc15e60",
+      "git_blob_sha1_verified": "f750655c93614b2437ab4253a459456a19c73d0d",
+      "sha256": "e0fee214a0ae50f52bd0f3b2a9868159f2688f0ea8b38ee147ab7ad3a65c6525",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "tools/build_yuanwushi_recovery_candidates.py",
+      "mode": "100644",
+      "git_blob_sha1": "023b790c627bf686a870d1001b12cff278f3ff55",
+      "bytes": 5032,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "023b790c627bf686a870d1001b12cff278f3ff55",
+      "sha256": "f40402fefad3a65b9c31733b5d72a9f32ee86492991a3a44d7618d0f6257ec44",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "tools/reconcile_yuanwushi_wiki.py",
+      "mode": "100644",
+      "git_blob_sha1": "c371f5cc0f7d34094bf9c6471770b00a8dd387f0",
+      "bytes": 5583,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "c371f5cc0f7d34094bf9c6471770b00a8dd387f0",
+      "sha256": "0eeaa341873b878162369f2d1761036407b960a0056322377d6218e092d7c589",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "tools/source_format_review.py",
+      "mode": "100644",
+      "git_blob_sha1": "082c0bf8d302935362d18c2ae55d7b5d3a523879",
+      "bytes": 12536,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "082c0bf8d302935362d18c2ae55d7b5d3a523879",
+      "sha256": "d388797210bf9652b64a004891f705bd2ecb4da890f672bae8a7a917a0957d8f",
       "git_lfs_pointer": false
     },
     {
