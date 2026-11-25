@@ -2,7 +2,7 @@
 
 **Register version:** 0.2  
 **Integrity baseline:** See [`repository-integrity-report.md`](repository-integrity-report.md) and [`repository-integrity-manifest.json`](repository-integrity-manifest.json) for the latest audited refs, counts, and SHA-256 values.  
-**Status:** Reconciled 2026-11-25. Reddit and Weibo supplied TXT scopes are owner-confirmed complete; Awakenology is physically archived; Yuanwushi's initial crawl passed independent checksums and its 2,659-record listing reconciles; the Science of Consciousness uploads are registered; the Chinese compilation TXT and Entropy RTF are owner-confirmed canonical complete sources. Remaining work concerns unverified Yuanwushi 404 candidates and broader detail/media, live-site, historical, external, private, and offline source coverage.
+**Status:** Initial Library Assembly decision recorded 2026-11-25 for the identified and owner-confirmed source baseline. The Yuanwushi capture is verified-with-gaps (seven 404 resources explicitly unavailable/unverified); Awakenology's pinned repository snapshot is physically archived and verified; live-site parity and future source discovery are separate ongoing tracks. See `library/COMPLETION-DASHBOARD.md` and `library/coverage/2026-11-25-initial-library-assembly-decision.md` for the current authoritative disposition.
 
 ## Purpose
 
