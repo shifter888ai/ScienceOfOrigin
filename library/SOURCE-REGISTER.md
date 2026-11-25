@@ -1,7 +1,7 @@
 # Original Source Collection Register
 
 **Register version:** 0.2  
-**Main commit audited:** `4bbb8a5712b54bc6e4339567bbeca6551ef1545f`  
+**Main commit audited:** `61e9649dd29a3131c37e674ac61ceb5880eb4656`  
 **Status:** Reconciled 2026-11-25. Reddit/Weibo supplied TXT scopes are owner-confirmed complete; Awakenology is physically archived; Yuanwushi's initial crawl passed independent checksums and its 2,659-record listing reconciles; Science of Consciousness uploads are registered. Other comparisons and live-source checks remain open.
 
 ## Purpose
@@ -231,7 +231,7 @@ These are source documents, not a merged or normalized replacement. Their conten
 
 ### Repository-wide integrity and collection boundary
 
-The active SHA-256 manifest and report are `library/repository-integrity-manifest.json` and `library/repository-integrity-report.md`. The 2026-11-25 audit covered main commit `4bbb8a5712b54bc6e4339567bbeca6551ef1545f` and the final Yuanwushi archive branch `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`: 897 main blobs / 114,174,511 bytes; 1,870 Yuanwushi-branch blobs / 421,098,213 bytes; 1,534 unique Git blobs hashed; 402,527,909 unique-blob bytes; 2,767 path/ref records; zero Git blob SHA-1 mismatches; no Git LFS pointers. Generated manifest/report paths are excluded from the inventory. This is a tracked branch-tip audit, not an audit of unreachable Git history or external resources.
+The active SHA-256 manifest and report are `library/repository-integrity-manifest.json` and `library/repository-integrity-report.md`. The 2026-11-25 audit run `45560330817` covered main commit `61e9649dd29a3131c37e674ac61ceb5880eb4656` and the final Yuanwushi archive branch `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`: 897 main blobs / 114,185,422 bytes; 1,870 Yuanwushi-branch blobs / 421,098,213 bytes; 1,534 unique Git blobs hashed; 402,538,820 unique-blob bytes; 2,767 path/ref records; zero Git blob SHA-1 mismatches; no Git LFS pointers. Generated manifest/report paths are excluded from the inventory. This is a tracked branch-tip audit, not an audit of unreachable Git history or external resources.
 
 The Awakenology physical subtree (648 blobs / 51,750,456 bytes) has a tree SHA exactly matching the pinned upstream commit's root tree SHA. The two Science of Consciousness TXT uploads have SHA-256 values matching the originals supplied in this project workspace. The Yuanwushi snapshot has an independent SHA-256 audit of all 993 stored files. Historical automation branches were compared by path and blob identity; no unique source paths were found outside main, except an obsolete `.gitmodules` entry in an early Awakenology branch.
 

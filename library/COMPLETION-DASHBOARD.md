@@ -2,7 +2,7 @@
 
 **Review date:** 2026-11-25  
 **Repository:** `shifter888ai/ScienceOfOrigin`  
-**Main commit audited:** `4bbb8a5712b54bc6e4339567bbeca6551ef1545f`  
+**Main commit audited:** `61e9649dd29a3131c37e674ac61ceb5880eb4656` (audit run `45560330817`)  
 **Overall status:** In progress — priority source acquisition and first-pass format comparisons are complete; human verification, live-source parity, and wider source discovery remain open.
 
 ## 1. Priority source collections
@@ -24,7 +24,7 @@
 
 ## 3. Repository state and integrity
 
-The latest audited main tree contains **897 tracked file blobs totaling 114,174,511 bytes**. The final Yuanwushi archive branch contains **1,870 blobs totaling 421,098,213 bytes**. Across both branch tips, **1,534 unique Git blobs** were independently hashed (402,527,909 unique-blob bytes; 2,767 path/ref records). There were zero Git blob SHA-1 mismatches and no Git LFS pointers.
+The latest audited main tree contains **897 tracked file blobs totaling 114,185,422 bytes**. The current main tip adds only the generated manifest/report files, which are excluded from the checksum inventory. The final Yuanwushi archive branch contains **1,870 blobs totaling 421,098,213 bytes**. Across both branch tips, **1,534 unique Git blobs** were independently hashed (402,538,820 unique-blob bytes; 2,767 path/ref records). There were zero Git blob SHA-1 mismatches and no Git LFS pointers.
 
 The current SHA-256 manifest and report are `library/repository-integrity-manifest.json` and `library/repository-integrity-report.md`. The audit covers tracked contents at the selected branch tips, not unreachable Git history or resources outside those branches. Historical automation branches were compared by path; no unique source-file paths were found outside main, except an obsolete `.gitmodules` entry in an early branch.
 
