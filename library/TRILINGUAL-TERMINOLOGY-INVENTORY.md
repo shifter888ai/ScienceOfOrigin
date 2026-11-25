@@ -447,41 +447,6 @@
 - **Source:** SRC-RD-001, lines 6432–6483.
 - **Review status:** Direct English source wording extracted; operational relationship OPEN.
 
-## 5. Candidate terms awaiting direct source review
-
-The following forms are present in source indexes or current project records, but should not receive full definitions until the original passages are directly reviewed:
-
-- 本源意识
-- 万物本质
-- 虚拟存在
-- 虚拟现实
-- 自由意志
-- 意识频率
-- 意识光谱
-- 自由度 / 自由意识的自由强度
-- Freedomality of Consciousness
-- Freedomality Index (FI)
-- Freedometry
-- Level of Actualization of Freewill
-- Entropy of Consciousness
-- Strength of Consciousness of Things
-- Awakenology
-- Exincarnation / Exincarnology
-
-## 6. Next extraction priorities
-
-1. Review the remaining original-source families for 本源意识, 万物本质, 虚拟存在 and 虚拟现实, separating definitions from examples, titles and contextual uses.
-2. Extract and compare the full source history of Freedomality of Consciousness, Freedomality Index (FI), Freedometry and Level of Actualization of Freewill.
-3. Review Entropy of Consciousness and Strength of Consciousness of Things as distinct application terms; do not import conventional technical definitions without a source-grounded mapping.
-4. Review Awakenology and Exincarnology source history and their relationship without assuming a hierarchy.
-5. Continue Japanese-source verification where original Japanese material exists; provisional translations must remain visibly provisional.
-6. Compare historical and current English formulations, preserving version changes and document-level differences.
-
-## 7. Change history
-
-- **2026-11-25 — Version 0.3:** Added 13 terminology records (T-037–T-049) from direct review of current Science of Origin framework pages and preserved historical First Edition wording. Recorded Infinity, Zero, Idle State, Spirit, Void, Voidness, True Origin, Oneness Origin, Fake Origin, Freewill, Imagination, Origination and Manifestation. Explicitly retained unresolved Void/Voidness, Spirit/Soul, historical Infinity/Origin and cross-language mappings. No public HTML was changed.
-- **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
-- **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
 
 
 ### T-037 — Infinity / 无限 / 無限
@@ -617,3 +582,39 @@ The following forms are present in source indexes or current project records, bu
 - **Context / distinction:** Manifestation identifies what comes about; origination concerns the capability/process; Origin concerns the fundamental source. Do not collapse these three terms. The framework also distinguishes manifestation from cessation and transformation.
 - **Source:** SRC-OR-001, origin.html, zero-origin.html, origination.html, manifestations.html.
 - **Review status:** Current framework description extracted; Chinese and Japanese renderings provisional.
+
+## 5. Candidate terms awaiting direct source review
+
+The following forms are present in source indexes or current project records, but should not receive full definitions until the original passages are directly reviewed:
+
+- 本源意识
+- 万物本质
+- 虚拟存在
+- 虚拟现实
+- 自由意志
+- 意识频率
+- 意识光谱
+- 自由度 / 自由意识的自由强度
+- Freedomality of Consciousness
+- Freedomality Index (FI)
+- Freedometry
+- Level of Actualization of Freewill
+- Entropy of Consciousness
+- Strength of Consciousness of Things
+- Awakenology
+- Exincarnation / Exincarnology
+
+## 6. Next extraction priorities
+
+1. Review the remaining original-source families for 本源意识, 万物本质, 虚拟存在 and 虚拟现实, separating definitions from examples, titles and contextual uses.
+2. Extract and compare the full source history of Freedomality of Consciousness, Freedomality Index (FI), Freedometry and Level of Actualization of Freewill.
+3. Review Entropy of Consciousness and Strength of Consciousness of Things as distinct application terms; do not import conventional technical definitions without a source-grounded mapping.
+4. Review Awakenology and Exincarnology source history and their relationship without assuming a hierarchy.
+5. Continue Japanese-source verification where original Japanese material exists; provisional translations must remain visibly provisional.
+6. Compare historical and current English formulations, preserving version changes and document-level differences.
+
+## 7. Change history
+
+- **2026-11-25 — Version 0.3:** Added 13 terminology records (T-037–T-049) from direct review of current Science of Origin framework pages and preserved historical First Edition wording. Recorded Infinity, Zero, Idle State, Spirit, Void, Voidness, True Origin, Oneness Origin, Fake Origin, Freewill, Imagination, Origination and Manifestation. Explicitly retained unresolved Void/Voidness, Spirit/Soul, historical Infinity/Origin and cross-language mappings. No public HTML was changed.
+- **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
+- **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
