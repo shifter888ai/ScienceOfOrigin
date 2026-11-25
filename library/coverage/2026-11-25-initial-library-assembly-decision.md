@@ -22,7 +22,7 @@ The Reddit and Weibo completeness statements apply only to the supplied archives
 
 ## 2. Integrity evidence
 
-The latest repository integrity report and manifest are authoritative for the selected branch-tip audit. The recorded audit checked 881 tracked files on `main` and 1,870 tracked files on the Yuanwushi archive branch; 1,518 unique Git blobs were independently hashed, with zero Git blob SHA-1 mismatches. SHA-256 values were generated for all unique blobs in scope.
+The latest repository integrity report and manifest are authoritative for the selected branch-tip audit. They record the exact audited commits, branch blob/byte totals, unique-blob count, and SHA-256 inventory. The audit completed successfully with zero Git blob SHA-1 mismatches; SHA-256 values were generated for every unique blob in scope.
 
 The Awakenology physical subtree contains 648 ordinary tracked file blobs and matches the pinned upstream commit's root tree identity. It is not a submodule pointer.
 

@@ -23,7 +23,7 @@
 
 ## 2. Integrity and reconciliation
 
-- Repository-wide selected-branch audit: 881 tracked files on `main`, 1,870 on the Yuanwushi archive branch, and 1,518 unique blobs independently hashed; zero Git blob SHA-1 mismatches.
+- The latest published repository integrity report records the exact audited commits, branch blob/byte totals, unique-blob count, and SHA-256 inventory. Its audit completed successfully with zero Git blob SHA-1 mismatches. Use that report as the live numeric baseline rather than duplicating counts here.
 - Awakenology: 648 physical tracked blobs match the pinned upstream root tree identity.
 - Yuanwushi: 993/993 stored files passed independent SHA-256 checks; zero missing files, invalid paths, duplicate paths, size mismatches, or hash mismatches.
 - Yuanwushi Wiki: 133 pages, 2,659 record links, 2,659 unique IDs, zero duplicates.
