@@ -2,7 +2,7 @@
 
 **Register version:** 0.2  
 **Main commit audited:** `61e9649dd29a3131c37e674ac61ceb5880eb4656`  
-**Status:** Reconciled 2026-11-25. Reddit/Weibo supplied TXT scopes are owner-confirmed complete; Awakenology is physically archived; Yuanwushi's initial crawl passed independent checksums and its 2,659-record listing reconciles; Science of Consciousness uploads are registered. Other comparisons and live-source checks remain open.
+**Status:** Reconciled 2026-11-25. Reddit and Weibo supplied TXT scopes are owner-confirmed complete; Awakenology is physically archived; Yuanwushi's initial crawl passed independent checksums and its 2,659-record listing reconciles; the Science of Consciousness uploads are registered; the Chinese compilation TXT and Entropy RTF are owner-confirmed canonical complete sources. Remaining work concerns unverified Yuanwushi 404 candidates and broader detail/media, live-site, historical, external, private, and offline source coverage.
 
 ## Purpose
 
@@ -223,11 +223,11 @@ Two UTF-8 TXT source documents supplied in this project workspace on 2026-11-25 
 
 These are source documents, not a merged or normalized replacement. Their contents are related but not identical in scope: the project-description document includes the research scope, four core fields, Spectrum/Spectra methodology, the Spectrum of Things = Spectrum of Consciousness research objective, five applications, principles, and vision; the architecture outline is a shorter hierarchy. Preserve both originals. No scientific claims in either file are independently validated by this registration.
 
-### Chinese compilation and Entropy assessment — current comparison results
+### Optional comparison and OCR derivatives — not source-completeness gates
 
-**Source ID:** `SRC-CHINESE-COMPILATION`. The two PDFs contain 1,671 pages total (1,100 + 571), matching the TXT's 1,671 page markers. The page-level comparison found 1,455 exact normalized matches, 10 high-similarity matches (0.9804–0.9955), and 206 pages with no extractable text in either source. All 18 contact sheets were visually triaged; the image-only pages contain screenshots/text-bearing images, diagrams/illustrations, and some apparently blank/near-blank pages. Tesseract OCR produced non-empty output on 192/206 pages; 143 pages contain at least 10 recognized Han characters. The 63,773 raw OCR characters are preserved as an uncorrected derivative under `library/derived/`. See `library/coverage/source-format-comparison-2026-11-25.md` and `library/coverage/chinese-compilation-pdf-text-comparison-2026-11-25.csv`. Human OCR verification and page-by-page visual classification remain open.
+**Source ID:** `SRC-CHINESE-COMPILATION`. The project owner confirms `materials/元吾氏集录20210203.txt` alone is complete for the current research scope; the two PDFs remain supplemental references. The earlier comparison found 1,671 PDF pages matching 1,671 TXT page markers (1,455 exact normalized matches, 10 high-similarity matches, and 206 pages with no extractable text). An OCR derivative is preserved separately under `library/derived/`, with its methodology and limitations documented. These comparison/OCR outputs are optional research aids only: human OCR verification, page-image classification, and PDF/TXT visual equivalence are not completion gates for the owner-defined TXT source.
 
-**Source ID:** `SRC-ENTROPY-RR`. The DOCX has 957 paragraphs, no tables, inline shapes, or embedded media. The RTF includes a 3,266-character table-of-contents block absent from the DOCX; after excluding this block, normalized body text matches exactly. The formats are not otherwise established as layout-identical. Review of page layout, metadata, and the TOC difference remains open.
+**Source ID:** `SRC-ENTROPY-RR`. The project owner confirms `materials/熵值检测点RR部分.rtf` alone is complete and canonical for current research use; the DOCX is retained as a supplemental duplicate-format copy. The earlier comparison found that normalized body text matches after excluding the RTF-only 3,266-character table of contents. Further layout, metadata, or TOC review is optional and is not a source-completeness gate.
 
 ### Repository-wide integrity and collection boundary
 
@@ -235,7 +235,7 @@ The active SHA-256 manifest and report are `library/repository-integrity-manifes
 
 The Awakenology physical subtree (648 blobs / 51,750,456 bytes) has a tree SHA exactly matching the pinned upstream commit's root tree SHA. The two Science of Consciousness TXT uploads have SHA-256 values matching the originals supplied in this project workspace. The Yuanwushi snapshot has an independent SHA-256 audit of all 993 stored files. Historical automation branches were compared by path and blob identity; no unique source paths were found outside main, except an obsolete `.gitmodules` entry in an early Awakenology branch.
 
-The four priority acquisition milestones are complete within their owner-defined scopes: Reddit supplied TXT, Weibo supplied TXT, Awakenology pinned repository snapshot, and Yuanwushi initial website crawl. This does not prove that all external, private, offline, historical, or other-account sources have been discovered. Rights/privacy review and live-source parity remain open.
+The four priority acquisition milestones are complete within their owner-defined scopes: Reddit supplied TXT, Weibo supplied TXT, Awakenology pinned repository snapshot, and Yuanwushi initial website crawl. The Chinese compilation TXT and Entropy RTF are also owner-confirmed complete canonical sources for their defined research scopes, with the PDFs and DOCX retained as supplemental originals. This does not prove that all external, private, offline, historical, or other-account sources have been discovered. Rights/privacy review and live-source parity remain open.
 
 **Preservation rule:** keep original source files immutable; store indexes, extraction outputs, comparisons, OCR, and interpretations as separately identified derived layers.
 
