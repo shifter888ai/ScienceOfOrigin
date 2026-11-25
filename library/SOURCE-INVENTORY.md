@@ -185,7 +185,7 @@ The project owner confirms that `materials/weibo-1760432301-combined-originals-2
 
 ### Awakenology
 
-The upstream repository `https://github.com/shifter888ai/awakenology` is pinned at `05523aec14c286bce397678b8a213cca1fc29563` (648 file blobs, 823 recursive tree entries, 51,750,456 bytes). The library stores this exact revision as a Git submodule pointer at `materials/awakenology` and provides a complete path/mode/Git-blob-SHA/size manifest. This is a reproducible pinned snapshot reference, not an independent physical copy of every blob. Update the pinned commit and manifest monthly; preserve prior snapshots in Git history.
+The upstream repository `https://github.com/shifter888ai/awakenology` is pinned at `05523aec14c286bce397678b8a213cca1fc29563` (648 file blobs, 823 recursive tree entries, 51,750,456 bytes). The current library stores this exact revision as ordinary tracked files under `materials/awakenology/`, with a complete path/mode/Git-blob-SHA/size manifest. This is a physical in-repository copy, not a Git submodule pointer. Update the copy and manifest monthly; preserve prior snapshots in Git history.
 
 
 
