@@ -11,6 +11,11 @@ from pathlib import Path
 def git(*args: str) -> bytes:
     return subprocess.check_output(["git", *args])
 
+GENERATED_PATHS = {
+    "library/repository-integrity-manifest.json",
+    "library/repository-integrity-report.md",
+}
+
 def tracked_entries(ref: str) -> list[dict]:
     raw = git("ls-tree", "-r", "-l", "-z", ref)
     entries = []
@@ -20,6 +25,8 @@ def tracked_entries(ref: str) -> list[dict]:
         metadata, raw_path = item.split(b"\t", 1)
         mode, kind, oid, size_text = metadata.decode("ascii").split(" ", 3)
         path = raw_path.decode("utf-8")
+        if path in GENERATED_PATHS:
+            continue
         if kind == "blob":
             entries.append({"ref": ref, "path": path, "mode": mode, "git_blob_sha1": oid, "bytes": int(size_text), "object_type": "blob"})
         else:
@@ -89,7 +96,7 @@ def main() -> int:
     manifest = {
         "schema_version": 1,
         "generated_utc": datetime.now(timezone.utc).isoformat(),
-        "scope": "Tracked tree entries at selected branch tips; not unreachable Git history or external LFS payloads.",
+        "scope": "Tracked tree entries at selected branch tips; generated integrity report/manifest paths are excluded to avoid self-reference; not unreachable Git history or external LFS payloads.",
         "refs": branch_summary,
         "unique_git_blobs_hashed": len(blob_hashes),
         "unique_git_blob_bytes": sum(sizes.values()),
@@ -102,7 +109,7 @@ def main() -> int:
         "# Repository Integrity Audit", "",
         f"**Generated (UTC):** {manifest['generated_utc']}", "",
         "## Scope", "", manifest["scope"], "",
-        "Git blob SHA-1 values were independently recomputed from exact blob bytes and compared with their tree object IDs. SHA-256 was also computed for every unique blob. Git LFS pointer blobs are identified; their external payloads are not included.", "",
+        "Git blob SHA-1 values were independently recomputed from exact blob bytes and compared with their tree object IDs. SHA-256 was also computed for every unique blob. The generated integrity manifest and report are excluded from the inventory to avoid self-reference. Git LFS pointer blobs are identified; their external payloads are not included.", "",
         "## Branch snapshots", "",
         "| Ref | Commit | Tracked blobs | Bytes | Non-blob entries | LFS pointers |",
         "|---|---|---:|---:|---:|---:|",
