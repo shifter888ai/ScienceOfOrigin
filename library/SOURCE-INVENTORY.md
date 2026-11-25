@@ -187,3 +187,32 @@ The project owner confirms that `materials/weibo-1760432301-combined-originals-2
 
 The upstream repository `https://github.com/shifter888ai/awakenology` is pinned at `05523aec14c286bce397678b8a213cca1fc29563` (648 file blobs, 823 recursive tree entries, 51,750,456 bytes). The library stores this exact revision as a Git submodule pointer at `materials/awakenology` and provides a complete path/mode/Git-blob-SHA/size manifest. This is a reproducible pinned snapshot reference, not an independent physical copy of every blob. Update the pinned commit and manifest monthly; preserve prior snapshots in Git history.
 
+
+
+## Current-state reconciliation — 2026-11-25
+
+The historical inventory sections above describe earlier snapshots and are retained as history. The latest verified repository state is:
+
+- Main commit: `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755`.
+- Recursive tree: 876 tracked file blobs, 113,056,244 bytes; tree is not truncated.
+- Awakenology: `materials/awakenology/` contains 648 ordinary tracked file blobs, 51,750,456 bytes, across 823 tree entries. It is a physical in-repository copy, not a submodule.
+- Yuanwushi: the 2026-11-25 snapshot has 993 stored files / 993 unique paths / 307,557,680 bytes; the independent SHA-256 audit passed with zero discrepancies.
+- Reddit and Weibo: owner-confirmed complete for their defined supplied TXT archive scopes; monthly updates are additive.
+- Science of Consciousness: two supplied TXT originals are now archived under `materials/science-of-consciousness/` and separately registered in the source register.
+- Chinese compilation and Entropy assessment versions remain under source-level comparison and visual/format review.
+
+The previous 215-file inventory refresh predates the Yuanwushi and other recent additions and must not be used as the current repository count. `library/FILE-MANIFEST.json` must be regenerated and checked against the current main commit before it is treated as current.
+
+## Current completion boundary
+
+This repository now has four priority collection milestones: Reddit TXT archive (owner-confirmed scope), Weibo TXT archive (owner-confirmed scope), Awakenology pinned repository snapshot (physically archived), and Yuanwushi initial website crawl (stored-file checksum audit passed). These are distinct scopes and do not establish that every possible source held by the project owner has been discovered or archived.
+
+Still open:
+1. Chinese PDF-to-TXT comparison and visual inspection of all pages, especially the 206 pages with no extracted nonblank text.
+2. Entropy DOCX inspection and DOCX/RTF comparison.
+3. Yuanwushi Wiki/Q&A pagination/count reconciliation and disposition of seven 404 resources.
+4. Awakenology live-site parity, alias/redirect checks, linked external resources, and historical versions.
+5. Repository-wide manifest regeneration and SHA-256 integrity audit for the current tree.
+6. Discovery and rights/privacy review of external, private, offline, historical, and other-repository sources.
+
+The two Science of Consciousness uploads are preserved as original TXT files; they have not been merged, rewritten, or independently validated.
