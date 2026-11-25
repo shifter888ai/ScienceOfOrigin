@@ -1,0 +1,44 @@
+name: Verify Yuanwushi snapshot checksums
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/yuanwushi-checksum-audit.yml'
+      - 'tools/verify_yuanwushi_snapshot.py'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out verifier and repository
+        uses: actions/checkout@v4
+
+      - name: Check out published Yuanwushi snapshot
+        uses: actions/checkout@v4
+        with:
+          ref: automation/yuanwushi-crawl
+          path: yuanwushi-snapshot
+
+      - name: Independently verify snapshot files
+        run: |
+          set -euo pipefail
+          python3 tools/verify_yuanwushi_snapshot.py \
+            --repository-root yuanwushi-snapshot \
+            --snapshot materials/yuanwushi/snapshots/2026-11-25 \
+            | tee checksum-audit.json
+
+      - name: Publish audit summary
+        if: always()
+        run: |
+          if [ -f checksum-audit.json ]; then
+            echo '## Yuanwushi snapshot checksum audit' >> "$GITHUB_STEP_SUMMARY"
+            echo 'Snapshot: 2026-11-25' >> "$GITHUB_STEP_SUMMARY"
+            echo 'JSON report:' >> "$GITHUB_STEP_SUMMARY"
+            cat checksum-audit.json >> "$GITHUB_STEP_SUMMARY"
+          fi
