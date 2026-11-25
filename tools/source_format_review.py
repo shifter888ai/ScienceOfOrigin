@@ -5,7 +5,7 @@ import csv, re, sys, zipfile, unicodedata
 from difflib import SequenceMatcher
 from pathlib import Path
 from pypdf import PdfReader
-import fitz
+import pymupdf as fitz
 from PIL import Image, ImageDraw, ImageFont
 from docx import Document
 from docx.oxml.table import CT_Tbl
@@ -18,7 +18,7 @@ ROOT=Path("."); OUT=Path("source-review-artifacts"); LIB=Path("library/coverage"
 OUT.mkdir(exist_ok=True); LIB.mkdir(parents=True,exist_ok=True)
 
 def safe_text(s):
-    return s.encode("utf-8", "replace").decode("utf-8")
+    return s.encode("utf-8", "backslashreplace").decode("utf-8")
 
 def norm(s):
     s=safe_text(unicodedata.normalize("NFKC",s))
@@ -107,13 +107,13 @@ def main():
     txt_no=[n for n,v in pages.items() if not norm(v)]
     pdf_no=[i+1 for i,v in enumerate(pdf_text) if not norm(v)]
     visual=sorted(set(txt_no)|set(pdf_no)); sheets=contact_sheets(pdf_paths,visual)
-    (OUT/"chinese-pdf-extracted-pages.txt").write_text("\n\n".join(f"--- PDF page {i+1} ---\n{v}" for i,v in enumerate(pdf_text)),encoding="utf-8")
+    (OUT/"chinese-pdf-extracted-pages.txt").write_text(safe_text("\n\n".join(f"--- PDF page {i+1} ---\n{v}" for i,v in enumerate(pdf_text))),encoding="utf-8")
     dtext,dmeta=extract_docx(Path("materials/熵值检测点RR部分.docx"))
     rtf_raw=Path("materials/熵值检测点RR部分.rtf").read_text(encoding="utf-8",errors="replace")
     rtext=rtf_to_text(rtf_raw); dn,rn=norm(dtext),norm(rtext)
     eratio=SequenceMatcher(None,dn,rn,autojunk=False).ratio() if dn or rn else 1.0
-    (OUT/"entropy-docx-extracted.txt").write_text(dtext,encoding="utf-8")
-    (OUT/"entropy-rtf-extracted.txt").write_text(rtext,encoding="utf-8")
+    (OUT/"entropy-docx-extracted.txt").write_text(safe_text(dtext),encoding="utf-8")
+    (OUT/"entropy-rtf-extracted.txt").write_text(safe_text(rtext),encoding="utf-8")
     counts={}
     for row in rows: counts[row["status"]]=counts.get(row["status"],0)+1
     volume_text=", ".join([f"{m['file']} ({m['pages']} pages)" for m in pdf_meta])
