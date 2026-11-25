@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-25T07:14:47.839546+00:00",
+  "generated_utc": "2026-11-25T07:16:39.058402+00:00",
   "scope": "Tracked tree entries at selected branch tips; generated integrity report/manifest paths are excluded to avoid self-reference; not unreachable Git history or external LFS payloads.",
   "refs": [
     {
       "ref": "main",
-      "commit": "ad1f35664b0c9141f0177dff80e6bb2c63a74bad",
+      "commit": "597bf5a0dd153235ecfe202672d7ba4e2595545f",
       "tracked_blobs": 900,
-      "tracked_blob_bytes": 114236354,
+      "tracked_blob_bytes": 114236451,
       "non_blob_entries": 0,
       "lfs_pointer_blobs": 0
     },
@@ -21,7 +21,7 @@
     }
   ],
   "unique_git_blobs_hashed": 1544,
-  "unique_git_blob_bytes": 402662887,
+  "unique_git_blob_bytes": 402662984,
   "files": [
     {
       "ref": "main",
@@ -698,11 +698,11 @@
       "ref": "main",
       "path": "library/COMPLETION-DASHBOARD.md",
       "mode": "100644",
-      "git_blob_sha1": "28267868f2ec4ded32cff9d73440eabfe87258ae",
-      "bytes": 5181,
+      "git_blob_sha1": "1961d99e9fa9707dd4f27b0790f4c9b9013b8cfe",
+      "bytes": 5300,
       "object_type": "blob",
-      "git_blob_sha1_verified": "28267868f2ec4ded32cff9d73440eabfe87258ae",
-      "sha256": "a1aa05c099a35b2728f0ed70595f0e704964f833ccc34601a098a71621603bf6",
+      "git_blob_sha1_verified": "1961d99e9fa9707dd4f27b0790f4c9b9013b8cfe",
+      "sha256": "c16506a2127cb35add630c331f3166e3fa5a1667a3dacdc666b66757bc9e0ef2",
       "git_lfs_pointer": false
     },
     {
@@ -863,11 +863,11 @@
       "ref": "main",
       "path": "library/coverage/2026-11-25-initial-library-assembly-decision.md",
       "mode": "100644",
-      "git_blob_sha1": "36555f335a35b6ea0901a80f950643cce9f33ad6",
-      "bytes": 7366,
+      "git_blob_sha1": "bc14a6aef18d0f6625b1f4d858b94c5e08983c6c",
+      "bytes": 7344,
       "object_type": "blob",
-      "git_blob_sha1_verified": "36555f335a35b6ea0901a80f950643cce9f33ad6",
-      "sha256": "d8dbff575b9369ba9026d99e37ac42da4acd3f2167b0534a1fbebe15e4d3d6cd",
+      "git_blob_sha1_verified": "bc14a6aef18d0f6625b1f4d858b94c5e08983c6c",
+      "sha256": "835c1676f873c9d1da3ce18e5a1c4c8025419b8cb32f5f2c09e7f5d467089ca3",
       "git_lfs_pointer": false
     },
     {
