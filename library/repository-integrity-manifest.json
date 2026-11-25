@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-25T06:24:39.145547+00:00",
+  "generated_utc": "2026-11-25T06:59:09.896222+00:00",
   "scope": "Tracked tree entries at selected branch tips; generated integrity report/manifest paths are excluded to avoid self-reference; not unreachable Git history or external LFS payloads.",
   "refs": [
     {
       "ref": "main",
-      "commit": "61e9649dd29a3131c37e674ac61ceb5880eb4656",
-      "tracked_blobs": 897,
-      "tracked_blob_bytes": 114185422,
+      "commit": "858cc97447121a5e551a60ad7235c61badf9ef30",
+      "tracked_blobs": 898,
+      "tracked_blob_bytes": 114208635,
       "non_blob_entries": 0,
       "lfs_pointer_blobs": 0
     },
@@ -20,8 +20,8 @@
       "lfs_pointer_blobs": 0
     }
   ],
-  "unique_git_blobs_hashed": 1534,
-  "unique_git_blob_bytes": 402538820,
+  "unique_git_blobs_hashed": 1540,
+  "unique_git_blob_bytes": 402622775,
   "files": [
     {
       "ref": "main",
@@ -698,11 +698,11 @@
       "ref": "main",
       "path": "library/COMPLETION-DASHBOARD.md",
       "mode": "100644",
-      "git_blob_sha1": "146521f46e0d11dec775137841474e7c4242e655",
-      "bytes": 4669,
+      "git_blob_sha1": "9d729f2ea5a1496d0e55549c30c774afd3d2042d",
+      "bytes": 4875,
       "object_type": "blob",
-      "git_blob_sha1_verified": "146521f46e0d11dec775137841474e7c4242e655",
-      "sha256": "d4d99f171b9bdcaac415155db9916c3f24631e36499fb61f8e14660217573065",
+      "git_blob_sha1_verified": "9d729f2ea5a1496d0e55549c30c774afd3d2042d",
+      "sha256": "8fb55b155cf96f66716838c053194c0bb21ac21be2b30694c89e5e9ab7d85335",
       "git_lfs_pointer": false
     },
     {
@@ -742,22 +742,22 @@
       "ref": "main",
       "path": "library/SOURCE-INVENTORY.md",
       "mode": "100644",
-      "git_blob_sha1": "f38bcb428ef0a0328045d8eb1acdeb2d5a0e4569",
-      "bytes": 16811,
+      "git_blob_sha1": "ddafabea9b64398f22c16cbf93bad5f69bdf0db3",
+      "bytes": 17948,
       "object_type": "blob",
-      "git_blob_sha1_verified": "f38bcb428ef0a0328045d8eb1acdeb2d5a0e4569",
-      "sha256": "1a117b7863fcf8a0d646dca7d303726e8a7270e396012f02feb7e02040228e70",
+      "git_blob_sha1_verified": "ddafabea9b64398f22c16cbf93bad5f69bdf0db3",
+      "sha256": "44ff329c06e2b5f0acdb7b37de42c3877571d0dd97a1042204a5e23ac52e5d90",
       "git_lfs_pointer": false
     },
     {
       "ref": "main",
       "path": "library/SOURCE-REGISTER.md",
       "mode": "100644",
-      "git_blob_sha1": "fe9957c19bceb5cef85ebde39378cb6d91c81334",
-      "bytes": 27425,
+      "git_blob_sha1": "f0db1c160f0548952eba9e78402c38a500ee9c83",
+      "bytes": 29276,
       "object_type": "blob",
-      "git_blob_sha1_verified": "fe9957c19bceb5cef85ebde39378cb6d91c81334",
-      "sha256": "82398cc70b2c8052a25ea441fe6b9daff7e4e12e46c8199d899638c97d5467b0",
+      "git_blob_sha1_verified": "f0db1c160f0548952eba9e78402c38a500ee9c83",
+      "sha256": "6d29b3f0d3202070f22c7c37b916f84eb6d107a2e352300f7aa2ea28cfacfde9",
       "git_lfs_pointer": false
     },
     {
@@ -1028,11 +1028,11 @@
       "ref": "main",
       "path": "library/coverage/monthly-update-register.csv",
       "mode": "100644",
-      "git_blob_sha1": "533caf823d8a4e991e6cfe715c667871edde87d1",
-      "bytes": 6487,
+      "git_blob_sha1": "19416d142c457b37020ac9e6ebbd1b7c9059cc3c",
+      "bytes": 7637,
       "object_type": "blob",
-      "git_blob_sha1_verified": "533caf823d8a4e991e6cfe715c667871edde87d1",
-      "sha256": "6425993fa884fa524e38f479e35551707cd7a581686073faf6cb2940f02c0ca9",
+      "git_blob_sha1_verified": "19416d142c457b37020ac9e6ebbd1b7c9059cc3c",
+      "sha256": "49c41042b65b05a5bd0360a5465226f09f668faeb1cefbb843c80647b8524a17",
       "git_lfs_pointer": false
     },
     {
@@ -1149,11 +1149,11 @@
       "ref": "main",
       "path": "library/coverage/source-coverage-status.csv",
       "mode": "100644",
-      "git_blob_sha1": "3a9b48e10281b9721e8d550cef1ef688dbeb5249",
-      "bytes": 10248,
+      "git_blob_sha1": "c2a58432218a15b08606969f74e78bfe3cf0539f",
+      "bytes": 9864,
       "object_type": "blob",
-      "git_blob_sha1_verified": "3a9b48e10281b9721e8d550cef1ef688dbeb5249",
-      "sha256": "4180210cdd94df821b832be3eb35edcd3619d76dad0b3d0f0615888a9e225964",
+      "git_blob_sha1_verified": "c2a58432218a15b08606969f74e78bfe3cf0539f",
+      "sha256": "66bc6f61c7233dc001a602193c3b74ae8cefc164147e474e00a5727804140791",
       "git_lfs_pointer": false
     },
     {
@@ -9399,11 +9399,11 @@
       "ref": "main",
       "path": "research-directory.html",
       "mode": "100644",
-      "git_blob_sha1": "db8b412b193ce46b56f60b9559d28000b1b99477",
-      "bytes": 15026,
+      "git_blob_sha1": "f8572b652ec1bf1d8896303f6e799f0e747f7b08",
+      "bytes": 15186,
       "object_type": "blob",
-      "git_blob_sha1_verified": "db8b412b193ce46b56f60b9559d28000b1b99477",
-      "sha256": "dd72b8550119bd0d3cafa4ef52fd6b181f3bb8ebd1d0761042fae019fc0fad4a",
+      "git_blob_sha1_verified": "f8572b652ec1bf1d8896303f6e799f0e747f7b08",
+      "sha256": "ca3157e26bc204b89e50f5571846eb0e374e0c9312267cf047b559d7c448c953",
       "git_lfs_pointer": false
     },
     {
@@ -9509,11 +9509,11 @@
       "ref": "main",
       "path": "science-of-consciousness.html",
       "mode": "100644",
-      "git_blob_sha1": "354aeb7aa3693e276f8ce6bd5e6fb5cec33de6ed",
-      "bytes": 13593,
+      "git_blob_sha1": "035f4d99a058547273c5293870f7470ea039fe65",
+      "bytes": 13781,
       "object_type": "blob",
-      "git_blob_sha1_verified": "354aeb7aa3693e276f8ce6bd5e6fb5cec33de6ed",
-      "sha256": "1d5ed472b5787d17a8cebf257bb0bdecc12e2780a4d50bbd7ea66b31e6aa8608",
+      "git_blob_sha1_verified": "035f4d99a058547273c5293870f7470ea039fe65",
+      "sha256": "2351c6bfe8ef87d8e050b7f52f4008e1376f6f0a18f08f1b9ce60be91dec51c6",
       "git_lfs_pointer": false
     },
     {
@@ -9531,11 +9531,11 @@
       "ref": "main",
       "path": "search-index.json",
       "mode": "100644",
-      "git_blob_sha1": "0f7bc1c2bb6c9f9b646185e05596507cb40033ce",
-      "bytes": 14460,
+      "git_blob_sha1": "0fc53b372428d2ef486658b723789880ece9c89a",
+      "bytes": 14734,
       "object_type": "blob",
-      "git_blob_sha1_verified": "0f7bc1c2bb6c9f9b646185e05596507cb40033ce",
-      "sha256": "1b2171c836fd14470bd8ec8fe075535db550ad83d8affc7038a7012ef189715d",
+      "git_blob_sha1_verified": "0fc53b372428d2ef486658b723789880ece9c89a",
+      "sha256": "45780ad0a8a21253356609d2711cbbe8cfe5bcb0eb85dee27d7e04e303f48486",
       "git_lfs_pointer": false
     },
     {
@@ -9564,22 +9564,22 @@
       "ref": "main",
       "path": "sitemap.html",
       "mode": "100644",
-      "git_blob_sha1": "5060addfd37784526d4f249f2038dda4330389c9",
-      "bytes": 10195,
+      "git_blob_sha1": "81358ed4773fe483e1e943382559b8dc2b064ad9",
+      "bytes": 10285,
       "object_type": "blob",
-      "git_blob_sha1_verified": "5060addfd37784526d4f249f2038dda4330389c9",
-      "sha256": "6fe7ece979e1022a8ca13f2a29a8642da2079828b2a0643b73246062fb17e382",
+      "git_blob_sha1_verified": "81358ed4773fe483e1e943382559b8dc2b064ad9",
+      "sha256": "c55242495d65079d2bd8dad9de8c9ba481f1aebf8727a2fada8ade0d3cea0e27",
       "git_lfs_pointer": false
     },
     {
       "ref": "main",
       "path": "sitemap.xml",
       "mode": "100644",
-      "git_blob_sha1": "0407e04ca6624a2238f58273d178fe5beb270e73",
-      "bytes": 7468,
+      "git_blob_sha1": "1a23ff9b064ffc9c8caf125427f27069022cad59",
+      "bytes": 7556,
       "object_type": "blob",
-      "git_blob_sha1_verified": "0407e04ca6624a2238f58273d178fe5beb270e73",
-      "sha256": "824ffb7c6fba925ea8d9e0a883259aa1e52c9085f9d3ccbd125a8ae6fd21dd69",
+      "git_blob_sha1_verified": "1a23ff9b064ffc9c8caf125427f27069022cad59",
+      "sha256": "0553b6e9d78969f914cab87b64fe35e8ebb3ef401c2aafb59d945f800645a22b",
       "git_lfs_pointer": false
     },
     {
@@ -9811,6 +9811,17 @@
       "object_type": "blob",
       "git_blob_sha1_verified": "69609bb89fc26935f82337eb4f65ab5d4235447e",
       "sha256": "6b2a9633138e344fa74939bceb6474b9a47aaf57b86f9777f1c2d326d5cab803",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "what-is-frequency-and-spectrum.html",
+      "mode": "100644",
+      "git_blob_sha1": "cfc557a8306620f4ab2d65e123d015f5479cdb27",
+      "bytes": 18453,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "cfc557a8306620f4ab2d65e123d015f5479cdb27",
+      "sha256": "428f223821e69678cd165e16a5a238927904d7709334646707a001b98b6e4934",
       "git_lfs_pointer": false
     },
     {
