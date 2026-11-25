@@ -107,7 +107,7 @@ def main():
     txt_no=[n for n,v in pages.items() if not norm(v)]
     pdf_no=[i+1 for i,v in enumerate(pdf_text) if not norm(v)]
     visual=sorted(set(txt_no)|set(pdf_no)); sheets=contact_sheets(pdf_paths,visual)
-    (OUT/"chinese-pdf-extracted-pages.txt").write_text("\n\n".join(f"--- PDF page {i+1} ---\n{v}" for i,v in enumerate(pdf_text)),encoding="utf-8")
+    (OUT/"chinese-pdf-extracted-pages.txt").write_text(safe_text("\n\n".join(f"--- PDF page {i+1} ---\n{v}" for i,v in enumerate(pdf_text))),encoding="utf-8")
     dtext,dmeta=extract_docx(Path("materials/熵值检测点RR部分.docx"))
     rtf_raw=Path("materials/熵值检测点RR部分.rtf").read_text(encoding="utf-8",errors="replace")
     rtext=rtf_to_text(rtf_raw); dn,rn=norm(dtext),norm(rtext)
