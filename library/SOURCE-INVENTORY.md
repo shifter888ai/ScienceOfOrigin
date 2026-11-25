@@ -222,3 +222,10 @@ Still open:
 6. Monthly additive source updates and refresh of derived indexes/manifests.
 
 The two Science of Consciousness uploads remain unchanged original TXT files; no merged or normalized replacement has been substituted.
+
+
+## Owner clarification of canonical source scope — 2026-11-25
+
+The project owner confirms that the Chinese compilation TXT (`materials/元吾氏集录20210203.txt`) alone is a complete source for the current research scope. The two PDFs contain additional images, but those images are not important at this stage; retain the PDFs as supplemental references, not as required completion inputs.
+
+The project owner also confirms that the Entropy assessment RTF (`materials/熵值检测点RR部分.rtf`) alone is a complete source. The DOCX contains the same substantive content and no images; retain it as a supplementary duplicate-format copy. The RTF is the canonical source for current research use. These scope decisions supersede historical inventory statements that required PDF visual/OCR review or DOCX/RTF format reconciliation as completion gates. Preserve all original files unchanged.
