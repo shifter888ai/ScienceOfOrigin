@@ -5,7 +5,7 @@
 **Branch reviewed:** `main`  
 **Historical repository tree commit:** `75b01f903f0c88c66aed5d904fc291db45172262`  
 **Inventory date:** 2026-11-25  
-**Status:** Historical baseline retained; current state reconciled through main commit `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755`. See the current-state reconciliation section for verified counts and remaining gaps.
+**Status:** Historical baseline retained; current state reconciled through main commit `61e9649dd29a3131c37e674ac61ceb5880eb4656`. See the current-state reconciliation section for verified counts and remaining gaps.
 
 ## 1. Scope and limits
 
@@ -167,10 +167,10 @@ This refresh includes the expanded research-library coverage and record-index fi
 
 | Repository path | Format | Size (bytes) | Git blob SHA | Content status |
 |---|---|---:|---|---|
-| `materials/熵值检测点RR部分.docx` | DOCX | 1,764,873 | `509d7dc53ba656bcc4b7f19631d162986b0a9119` | File identified; binary content not yet inspected through the repository connector |
+| `materials/熵值检测点RR部分.docx` | DOCX | 1,764,873 | `509d7dc53ba656bcc4b7f19631d162986b0a9119` | Initial inventory checkpoint only; superseded by the later DOCX/RTF comparison in the current-state section |
 | `materials/熵值检测点RR部分.rtf` | RTF | 812,389 | `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657` | Text successfully extracted and structurally reviewed; see the derived index |
 
-The two formats are retained as separate source objects. Their equivalence, conversion fidelity, and completeness have not been established. Neither Git blob SHA is a SHA-256 checksum.
+At the initial inventory checkpoint, equivalence had not been established; the later current-state comparison records the normalized body-text result and remaining formatting gaps. Both formats remain separate source objects. Neither Git blob SHA is a SHA-256 checksum.
 
 
 ## Owner-confirmed source archives and repository snapshot — 2026-11-25
