@@ -238,6 +238,7 @@
 - **Source:** SRC-SOC-001 and SRC-SOC-002.
 - **Review status:** Framework term extracted; source-language equivalents provisional.
 
+
 ## 5. Candidate terms awaiting direct source review
 
 The following forms are present in source indexes or current project records, but should not receive full definitions until the original passages are directly reviewed:
@@ -267,6 +268,12 @@ The following forms are present in source indexes or current project records, bu
 4. Extract 意识强度 passages and separate source descriptions, measurement claims, and practical statements.
 5. Review Japanese source material if available; until then, Japanese terms remain editorial translations.
 6. Compare the original Reddit collections and current English framework documents for terms whose English wording may have been authored or revised at different times.
+
+## 7. Change history
+
+- **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
+- **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
+
 
 ## 7. Change history
 
@@ -313,7 +320,7 @@ The following forms are present in source indexes or current project records, bu
 - **繁體中文原詞:** 意识强度检测点（繁體字形：意識強度檢測點）
 - **日本語（暫定訳）:** 意識強度の検査ポイント
 - **Source wording (SRC):** Page 306 says 「意识强度检测点（=“意识强度练习点”）」 and describes hundreds of major points and tens of thousands of minor points.
-- **English rendering (TR-EN):** “Consciousness Strength assessment point”; the source also equates it parenthetically with a Consciousness Strength practice point.
+- **English rendering (TR-EN):** “Strength of Consciousness assessment point”; the source also equates it parenthetically with a Strength of Consciousness practice point.
 - **Context:** The source describes these as items organized by functional areas and used in a testing framework. Counts are source-reported historical claims and should retain their edition/date context.
 - **Source:** SRC-CC-001, Pages 306–316, lines 8841–9082.
 - **Review status:** Direct passage extracted; complete catalogue and version mapping OPEN.
@@ -324,7 +331,7 @@ The following forms are present in source indexes or current project records, bu
 - **繁體中文原詞:** 意识强度练习点（繁體字形：意識強度練習點）
 - **日本語（暫定訳）:** 意識強度の実践ポイント
 - **Source wording (SRC):** Page 306 explicitly equates 「意识强度检测点」 with 「意识强度练习点」 in that document.
-- **English rendering (TR-EN):** “Consciousness Strength practice point.”
+- **English rendering (TR-EN):** “Strength of Consciousness practice point.”
 - **Context:** Preserve the source's explicit parenthetical equivalence in this edition. It does not establish that assessment and practice are identical in every later or earlier source context.
 - **Source:** SRC-CC-001, Page 306, lines 8841–8860.
 - **Review status:** Direct passage extracted; broader usage comparison OPEN.
