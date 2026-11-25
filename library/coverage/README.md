@@ -1,7 +1,7 @@
 # Source Completion Program — Coverage Baseline
 
 **Baseline date:** 2026-11-24 (Japan Standard Time)  
-**Status:** Updated 2026-11-25. Reddit and Weibo supplied TXT archives are complete per owner confirmation; the Awakenology repository snapshot is pinned; Yuanwushi web collection remains in progress.  
+**Current disposition (2026-11-25):** Initial Library Assembly is complete within the identified and owner-confirmed source baseline, with the seven Yuanwushi 404 resources explicitly bounded as unavailable/unverified. Library Coverage and Maintenance remains ongoing. The current [Completion Dashboard](../COMPLETION-DASHBOARD.md), [Initial Library Assembly Decision](2026-11-25-initial-library-assembly-decision.md), and [source coverage status](source-coverage-status.csv) supersede older checkpoint language below.  
 **Governing principle:** Preserve everything first. Discover and organize relationships through research.
 
 ## Purpose
@@ -96,7 +96,7 @@ All four source collections now follow the [Monthly Source Maintenance Protocol]
 
 Monthly reconciliation is the standard for Yuanwushi, Awakenology, Reddit, and Weibo. New material should be captured as soon as practical rather than waiting for month-end. CX Club has an additional event-driven rule: capture each new Wednesday lesson and its linked files promptly, then reconcile the month's lesson sequence, dates, PDFs, and media during the monthly review. The owner reports approximately 1,200 students; this is owner-supplied context, not a verified website metric.
 
-The November 2026 register is a checkpoint, not a completion claim. The four sources remain open with the gaps described above.
+The November 2026 register is the dated baseline checkpoint. Current completion status is governed by the Completion Dashboard and Initial Library Assembly Decision. New material is handled additively; the seven Yuanwushi 404s remain unavailable/unverified, not recovered.
 
 
 ## Awakenology repository manifests
@@ -107,3 +107,18 @@ The 2026-11-24 repository snapshot manifests are `awakenology-repository-tree-ma
 ## Yuanwushi article index
 
 The live homepage's six article categories are indexed in `yuanwushi-article-collection-index-2026-11-24.csv` (106 unique article URLs). The scope and link-only capture limitation are documented in `yuanwushi-article-collection-index-2026-11-24.md`.
+
+
+## Current baseline decision — 2026-11-25
+
+The initial identified-source baseline has been assembled and integrity-checked. This decision is bounded to the sources listed in [Initial Library Assembly Decision](2026-11-25-initial-library-assembly-decision.md). It includes the owner-confirmed Reddit and Weibo TXT scopes, the physical Awakenology repository snapshot, the checksum-verified Yuanwushi crawl with seven explicitly unavailable/unverified 404s, the owner-confirmed Chinese TXT and Entropy RTF scopes, and the two separate Science of Consciousness TXT uploads.
+
+Important corrections to historical checkpoint text in this README:
+
+- Awakenology is physically copied as ordinary tracked files under `materials/awakenology/`; it is not a submodule pointer.
+- Yuanwushi's 993 stored files and 2,659 Wiki IDs have passed the independent checks described in the dashboard. Older discovery-stage statements that say no crawl or Wiki capture exists are historical checkpoints, not current status.
+- The seven 404 candidate files are not recovered originals. Their identity remains unverified.
+- The Chinese TXT and Entropy RTF owner-defined scopes are complete; the PDFs and DOCX are supplemental.
+- Live Awakenology domain parity, private/offline/historical material discovery, and monthly updates are separate ongoing coverage/maintenance tasks, not proof that the identified baseline was never assembled.
+
+Do not infer from this baseline that all possible material has been discovered. Apply the defined-scope completion rule and preserve future discoveries additively.

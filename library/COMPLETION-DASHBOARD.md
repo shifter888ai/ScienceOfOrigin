@@ -1,42 +1,59 @@
 # Science of Origin — Library Completion Dashboard
 
-**Review date:** 2026-11-25  
+**Review date:** 2026-11-25 (Japan Standard Time)  
 **Repository:** `shifter888ai/ScienceOfOrigin`  
-**Integrity baseline:** See [`repository-integrity-report.md`](repository-integrity-report.md) and [`repository-integrity-manifest.json`](repository-integrity-manifest.json) for the latest audited refs, counts, and SHA-256 values.  
-**Overall status:** In progress — priority source acquisition and first-pass format comparisons are complete; human verification, live-source parity, and wider source discovery remain open.
+**Decision record:** [Initial Library Assembly Decision](coverage/2026-11-25-initial-library-assembly-decision.md)  
+**Integrity baseline:** [Repository integrity report](repository-integrity-report.md) and [path-level manifest](repository-integrity-manifest.json).
 
-## 1. Priority source collections
+**Baseline assembled**
 
-| Collection | Current status | Verified scope | Remaining work |
-|---|---|---|---|
-| Reddit supplied TXT archives | Complete per owner-confirmed scope | Both supplied TXT files manually extracted and checked by the owner; structural indexes retained separately | Monthly additive versions |
-| Weibo supplied TXT archive | Complete per owner-confirmed scope | Supplied TXT manually extracted and checked by the owner; 765 sequential records / 160 page markers indexed | Monthly additive versions; optional media-binary preservation is separate |
-| Awakenology repository | Physical snapshot archived and tree identity verified | 648 blobs, 823 tree entries, 51,750,456 bytes; subtree SHA matches pinned upstream root tree SHA | Monthly upstream comparison; live-site parity and historical versions separate |
-| Yuanwushi website | Initial crawl, checksums, and listing reconciliation passed | 1,001 manifest records; 993 stored files / 993 unique paths / 307,557,680 bytes; 133 Wiki pages; 2,659 unique Q&A IDs, zero duplicates | Seven 404 candidates remain unverified; linked detail bodies/media and historical/unlinked resources not all checked |
+**Overall status:** Initial Library Assembly is complete within the identified and owner-confirmed source scope. Library Coverage and Maintenance remains ongoing. Seven Yuanwushi resources are explicitly unavailable/unverified; Awakenology live-site parity is a separate, unfinished verification track. Neither is represented as recovered or verified.
 
-## 2. Other source collections
+## 1. Included source collections
 
-| Collection | Current status | Remaining work |
+| Collection | Baseline status | Verified scope and disposition |
 |---|---|---|
-| Chinese compilation | Complete per owner-confirmed scope: the TXT alone is the complete source for current research. Two PDFs remain supplemental; prior page comparison/OCR outputs are optional derivatives. | No source-completeness work outstanding. OCR/image review only if later research requires the supplemental PDF images |
-| Entropy assessment points | Complete per owner-confirmed scope: the RTF is canonical and complete; DOCX remains a supplemental duplicate-format copy. Prior text comparison is documented. | No source-completeness work outstanding; optional format review only if later needed |
-| Science of Consciousness uploads | Two original TXT files registered and archived; repository SHA-256 matches supplied originals | Preserve originals; create derived research materials separately |
+| Reddit supplied TXT archives | Complete per owner-confirmed scope | Both TXT archives manually extracted and checked by the owner; indexes are separate derived layers |
+| Weibo supplied TXT archive | Complete per owner-confirmed scope | Owner-confirmed original-post TXT archive; 765 sequential records and 160 page markers indexed; optional media binaries are a separate layer |
+| Awakenology Git repository | Complete physical snapshot | Pinned commit `05523aec14c286bce397678b8a213cca1fc29563`; 648 blobs, 823 tree entries, 51,750,456 bytes; physical subtree tree identity matches upstream |
+| Yuanwushi website | Verified-with-gaps | 993 stored files independently checksummed; 133 Wiki pages and 2,659 unique IDs reconciled; seven HTTP 404 resources listed separately as unavailable/unverified candidates |
+| Chinese compilation | Complete per owner-confirmed scope | TXT is canonical for current research; two PDFs retained as supplemental references; OCR/image review is optional |
+| Entropy assessment points | Complete per owner-confirmed scope | RTF is canonical and complete; DOCX retained as supplemental duplicate-format copy |
+| Science of Consciousness | Original sources registered | Two distinct UTF-8 TXT uploads preserved unchanged with SHA-256 values |
 
-## 3. Repository state and integrity
+## 2. Integrity and reconciliation
 
-The active SHA-256 manifest and report are `library/repository-integrity-manifest.json` and `library/repository-integrity-report.md`. The report is the authoritative, automatically refreshed record of audited branch-tip commits, exact blob/byte counts, path/ref coverage, and verification results. The audit independently checks Git blob SHA-1 values and records SHA-256 for every unique blob in scope; generated report/manifest paths are excluded to avoid self-reference. It does not cover unreachable Git history, external LFS payloads, or resources outside the selected branches. Historical automation branches were compared by path; no unique source-file paths were found outside main, except an obsolete `.gitmodules` entry in an early branch.
+- Repository-wide selected-branch audit: 881 tracked files on `main`, 1,870 on the Yuanwushi archive branch, and 1,518 unique blobs independently hashed; zero Git blob SHA-1 mismatches.
+- Awakenology: 648 physical tracked blobs match the pinned upstream root tree identity.
+- Yuanwushi: 993/993 stored files passed independent SHA-256 checks; zero missing files, invalid paths, duplicate paths, size mismatches, or hash mismatches.
+- Yuanwushi Wiki: 133 pages, 2,659 record links, 2,659 unique IDs, zero duplicates.
 
-## 4. Open work queue
+The integrity audit covers the selected branch tips. It does not cover unreachable Git history, future changes, private or deleted platform content, or all external resources.
 
-1. Investigate and verify identity/provenance for the seven Yuanwushi 404 candidates, or explicitly retain them as unavailable/unverified; validate linked detail bodies/media where required.
-2. Complete Awakenology live-site alias, redirect, route, asset, and historical-version review.
-3. Inventory additional external, private, offline, historical, and other-repository sources; review rights and privacy before copying.
-4. Continue monthly additive updates for Reddit, Weibo, Awakenology, and Yuanwushi; refresh derived indexes and integrity manifests.
+## 3. Explicit residual gaps
 
-Optional, non-blocking research tasks: verify/correct the Chinese OCR derivative or inspect supplemental PDF/DOCX formatting if those materials become relevant to a specific study.
+### Yuanwushi — seven unavailable resources
 
-## 5. Completion rule
+Six image URLs and one audio URL returned HTTP 404 on 2026-11-25. Candidate files are stored separately with provenance and checksums, but none is byte-verified against the unavailable Yuanwushi original. They remain **unavailable/unverified**, not recovered. See [candidate register](../materials/yuanwushi/recovery-candidates/recovery-candidate-register.csv).
 
-A collection is complete only within a clearly stated scope and against a documented completion gate. A successful checksum audit proves integrity of files that were captured; it does not prove that every possible source was discovered. Owner-confirmed archive completeness applies only to the supplied archive scopes. Historical checkpoints remain preserved but are superseded by later dated findings where explicitly stated.
+### Awakenology live website
 
-**Preserve originals. Keep extraction, indexes, comparisons, and interpretations separate. Do not declare the entire library complete while the open work queue remains unresolved.**
+The pinned Git repository snapshot is complete and verified. Current public page/search snapshots provide discovery evidence for the homepage, language indexes, and selected pages. A full same-session HTTP/redirect/canonical/asset audit of .org, .space, www aliases, all 136 sitemap routes, 12 non-sitemap routes, and historical versions remains unverified. This is separate from the completed repository snapshot.
+
+## 4. Maintenance queue
+
+1. Add new Reddit and Weibo monthly TXT versions immutably; refresh their indexes.
+2. Update the Awakenology physical repository snapshot and manifest monthly.
+3. Run additive Yuanwushi crawls monthly; capture newly published CX Club lessons and linked files promptly.
+4. Re-run the integrity audit after source changes.
+5. Reopen the seven 404 gaps only if authoritative originals or sufficient identity evidence become available.
+6. Perform direct Awakenology live-site parity checks when a suitable HTTP/browser capture session is available.
+7. Add newly supplied or discovered external/private/offline sources as separate, provenance-labelled objects after rights and privacy review.
+
+## 5. Scope boundary
+
+This dashboard reports the identified and owner-confirmed source baseline. It does not claim that every item ever created, posted, stored privately, deleted, or linked externally has been discovered. Unknown external/private/offline material is an open-ended discovery domain, not a finite prerequisite for closing this initial baseline.
+
+The Chinese OCR derivative and supplemental PDF/DOCX format checks are optional and are not completion blockers under the owner's scope decisions.
+
+**Preserve originals. Keep captures, indexes, comparisons, OCR, and interpretations separate. Close only what the evidence and defined scope support.**

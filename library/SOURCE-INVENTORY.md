@@ -225,3 +225,12 @@ The two Science of Consciousness uploads remain unchanged original TXT files; no
 The project owner confirms that the Chinese compilation TXT (`materials/元吾氏集录20210203.txt`) alone is a complete source for the current research scope. The two PDFs contain additional images, but those images are not important at this stage; retain the PDFs as supplemental references, not as required completion inputs.
 
 The project owner also confirms that the Entropy assessment RTF (`materials/熵值检测点RR部分.rtf`) alone is a complete source. The DOCX contains the same substantive content and no images; retain it as a supplementary duplicate-format copy. The RTF is the canonical source for current research use. These scope decisions supersede historical inventory statements that required PDF visual/OCR review or DOCX/RTF format reconciliation as completion gates. Preserve all original files unchanged.
+
+
+## Initial Library Assembly decision — 2026-11-25
+
+The current bounded baseline is complete within the identified and owner-confirmed source scope recorded in `library/coverage/2026-11-25-initial-library-assembly-decision.md`. The older inventory sections above are historical checkpoints; the current Completion Dashboard and source-coverage CSV govern present status.
+
+The baseline includes the Reddit and Weibo owner-confirmed TXT archives; the physical Awakenology repository snapshot (648 ordinary tracked blobs, not a submodule); the Yuanwushi crawl (993 stored files independently checksum-verified, with seven HTTP 404 resources explicitly retained as unavailable/unverified); the Chinese compilation TXT; the Entropy RTF; and the two distinct Science of Consciousness TXT uploads.
+
+This decision does not claim that all possible private, deleted, offline, historical, or external sources have been discovered. Those remain additive discovery and maintenance domains, not universal prerequisites for closing the identified baseline. Awakenology live-site parity remains separate from the verified pinned repository snapshot.
