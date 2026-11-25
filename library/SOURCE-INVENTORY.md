@@ -3,9 +3,9 @@
 **Inventory version:** 0.2  
 **Repository:** `shifter888ai/ScienceOfOrigin`  
 **Branch reviewed:** `main`  
-**Repository tree commit reviewed:** `75b01f903f0c88c66aed5d904fc291db45172262`  
+**Historical repository tree commit:** `75b01f903f0c88c66aed5d904fc291db45172262`  
 **Inventory date:** 2026-11-25  
-**Status:** Updated with owner-confirmed Reddit/Weibo TXT archive scopes and the pinned Awakenology repository snapshot. The historical baseline below is retained; see the 2026-11-25 update section for current source status.
+**Status:** Historical baseline retained; current state reconciled through main commit `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755`. See the current-state reconciliation section for verified counts and remaining gaps.
 
 ## 1. Scope and limits
 
