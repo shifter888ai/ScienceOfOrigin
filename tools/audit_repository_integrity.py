@@ -14,10 +14,10 @@ def git(*args: str) -> bytes:
 def tracked_entries(ref: str) -> list[dict]:
     raw = git("ls-tree", "-r", "-l", "-z", ref)
     entries = []
-    for item in raw.split(b"\\0"):
+    for item in raw.split(b"\0"):
         if not item:
             continue
-        metadata, raw_path = item.split(b"\\t", 1)
+        metadata, raw_path = item.split(b"\t", 1)
         mode, kind, oid, size_text = metadata.decode("ascii").split(" ", 3)
         path = raw_path.decode("utf-8")
         if kind == "blob":
@@ -30,13 +30,16 @@ def hash_blob(oid: str, expected_size: int) -> dict:
     process = subprocess.Popen(["git", "cat-file", "blob", oid], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     sha256 = hashlib.sha256()
     sha1 = hashlib.sha1()
-    sha1.update(f"blob {expected_size}\\0".encode("ascii"))
+    sha1.update(f"blob {expected_size}\0".encode("ascii"))
     size = 0
+    prefix = b""
     assert process.stdout is not None
     while True:
         chunk = process.stdout.read(1024 * 1024)
         if not chunk:
             break
+        if len(prefix) < 80:
+            prefix += chunk[:80 - len(prefix)]
         size += len(chunk)
         sha256.update(chunk)
         sha1.update(chunk)
@@ -49,9 +52,8 @@ def hash_blob(oid: str, expected_size: int) -> dict:
     actual_git_sha1 = sha1.hexdigest()
     if actual_git_sha1 != oid:
         raise RuntimeError(f"Git blob hash mismatch for {oid}: computed {actual_git_sha1}")
-    probe = subprocess.check_output(["git", "cat-file", "blob", oid])[:80]
     return {"bytes": size, "git_blob_sha1_verified": actual_git_sha1, "sha256": sha256.hexdigest(),
-            "git_lfs_pointer": probe.startswith(b"version https://git-lfs.github.com/spec/v1")}
+            "git_lfs_pointer": prefix.startswith(b"version https://git-lfs.github.com/spec/v1")}
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -95,7 +97,7 @@ def main() -> int:
     }
     args.manifest.parent.mkdir(parents=True, exist_ok=True)
     args.report.parent.mkdir(parents=True, exist_ok=True)
-    args.manifest.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    args.manifest.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     lines = [
         "# Repository Integrity Audit", "",
         f"**Generated (UTC):** {manifest['generated_utc']}", "",
@@ -114,7 +116,7 @@ def main() -> int:
         "- Git blob SHA-1 mismatches: **0** (the script stops on any mismatch)",
         f"- SHA-256 values recorded: **{len(blob_hashes):,}**", "",
         "The full path-by-path manifest is repository-integrity-manifest.json. It is generated separately from the source tree so the manifest does not hash itself.", ""]
-    args.report.write_text("\\n".join(lines), encoding="utf-8")
+    args.report.write_text("\n".join(lines), encoding="utf-8")
     print(json.dumps({"refs": branch_summary, "unique_git_blobs_hashed": len(blob_hashes),
         "unique_git_blob_bytes": sum(sizes.values()), "path_ref_records": len(entries),
         "manifest": str(args.manifest), "report": str(args.report)}, ensure_ascii=False, indent=2))
