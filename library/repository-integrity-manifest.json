@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-25T07:07:43.532768+00:00",
+  "generated_utc": "2026-11-25T07:14:47.839546+00:00",
   "scope": "Tracked tree entries at selected branch tips; generated integrity report/manifest paths are excluded to avoid self-reference; not unreachable Git history or external LFS payloads.",
   "refs": [
     {
       "ref": "main",
-      "commit": "b2d223f079fdefcf076b5ad9e01012548aa2dfe9",
-      "tracked_blobs": 899,
-      "tracked_blob_bytes": 114221347,
+      "commit": "ad1f35664b0c9141f0177dff80e6bb2c63a74bad",
+      "tracked_blobs": 900,
+      "tracked_blob_bytes": 114236354,
       "non_blob_entries": 0,
       "lfs_pointer_blobs": 0
     },
@@ -20,8 +20,8 @@
       "lfs_pointer_blobs": 0
     }
   ],
-  "unique_git_blobs_hashed": 1541,
-  "unique_git_blob_bytes": 402635487,
+  "unique_git_blobs_hashed": 1544,
+  "unique_git_blob_bytes": 402662887,
   "files": [
     {
       "ref": "main",
@@ -698,11 +698,11 @@
       "ref": "main",
       "path": "library/COMPLETION-DASHBOARD.md",
       "mode": "100644",
-      "git_blob_sha1": "8288c1431aa2c4bf234dce945a1cf042c07b265a",
-      "bytes": 4832,
+      "git_blob_sha1": "28267868f2ec4ded32cff9d73440eabfe87258ae",
+      "bytes": 5181,
       "object_type": "blob",
-      "git_blob_sha1_verified": "8288c1431aa2c4bf234dce945a1cf042c07b265a",
-      "sha256": "5fd3a2e078f7895d347abc86a9d59071fce1f1d7d53b45dcf4040b162cd80cda",
+      "git_blob_sha1_verified": "28267868f2ec4ded32cff9d73440eabfe87258ae",
+      "sha256": "a1aa05c099a35b2728f0ed70595f0e704964f833ccc34601a098a71621603bf6",
       "git_lfs_pointer": false
     },
     {
@@ -742,22 +742,22 @@
       "ref": "main",
       "path": "library/SOURCE-INVENTORY.md",
       "mode": "100644",
-      "git_blob_sha1": "f51cb30df086e13d31c4a61be50bcb6a0339d512",
-      "bytes": 17950,
+      "git_blob_sha1": "f782d234c4660e8d9e1c8b35d49fa3fcf9ce1778",
+      "bytes": 19087,
       "object_type": "blob",
-      "git_blob_sha1_verified": "f51cb30df086e13d31c4a61be50bcb6a0339d512",
-      "sha256": "19b278a3eb639b36149040ff8c76335ee54246fba5ee8804fda21236bb782d04",
+      "git_blob_sha1_verified": "f782d234c4660e8d9e1c8b35d49fa3fcf9ce1778",
+      "sha256": "7234d30ed2f68e33c20f0eb024eefa4475a5c42755e1bc38391150cf3ae6a692",
       "git_lfs_pointer": false
     },
     {
       "ref": "main",
       "path": "library/SOURCE-REGISTER.md",
       "mode": "100644",
-      "git_blob_sha1": "d34a4244ea7e2941bda29929f42439f52e6a0cf5",
-      "bytes": 29175,
+      "git_blob_sha1": "448d43c0a0514379a978874b92b31c94a631436a",
+      "bytes": 31153,
       "object_type": "blob",
-      "git_blob_sha1_verified": "d34a4244ea7e2941bda29929f42439f52e6a0cf5",
-      "sha256": "a950d317f72d8e1b3444d400f331cbdd36ab377848d4f74e57f11ee19e3d190f",
+      "git_blob_sha1_verified": "448d43c0a0514379a978874b92b31c94a631436a",
+      "sha256": "d1005a0c3e6bfd8c39e7557ca61b54859a3bcb313f39064b85ec71d081fba6c2",
       "git_lfs_pointer": false
     },
     {
@@ -861,13 +861,24 @@
     },
     {
       "ref": "main",
+      "path": "library/coverage/2026-11-25-initial-library-assembly-decision.md",
+      "mode": "100644",
+      "git_blob_sha1": "36555f335a35b6ea0901a80f950643cce9f33ad6",
+      "bytes": 7366,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "36555f335a35b6ea0901a80f950643cce9f33ad6",
+      "sha256": "d8dbff575b9369ba9026d99e37ac42da4acd3f2167b0534a1fbebe15e4d3d6cd",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
       "path": "library/coverage/README.md",
       "mode": "100644",
-      "git_blob_sha1": "37ca27bfd7313c188bb80e6720a06e271c7287e2",
-      "bytes": 10045,
+      "git_blob_sha1": "e152568eb6239a2980ff128aecab13ef6aebad5f",
+      "bytes": 12088,
       "object_type": "blob",
-      "git_blob_sha1_verified": "37ca27bfd7313c188bb80e6720a06e271c7287e2",
-      "sha256": "a20a4dc1bbaf2a93476748b0ca1a9a6a1f827b60c2e3f5db167cb4513035fab3",
+      "git_blob_sha1_verified": "e152568eb6239a2980ff128aecab13ef6aebad5f",
+      "sha256": "33d92a97d308bf889bf9ad68d86b454599b55c11c16064f64a354cb06766dff0",
       "git_lfs_pointer": false
     },
     {
@@ -929,11 +940,11 @@
       "ref": "main",
       "path": "library/coverage/awakenology-repository-snapshot-2026-11-25.md",
       "mode": "100644",
-      "git_blob_sha1": "1c9dc6f1451b577b19e844306b2c822c9a7fe766",
-      "bytes": 2348,
+      "git_blob_sha1": "8d055e29e6e14254d8c7c318ac93ebd48de7ef6a",
+      "bytes": 2706,
       "object_type": "blob",
-      "git_blob_sha1_verified": "1c9dc6f1451b577b19e844306b2c822c9a7fe766",
-      "sha256": "da97fb566f62f1f8991233bf700aa4d1685b875746cbd671aee9ef0cac831d29",
+      "git_blob_sha1_verified": "8d055e29e6e14254d8c7c318ac93ebd48de7ef6a",
+      "sha256": "693bf2192f5bdad45b47b9be031698a5af59fbc4536e7adb1c8a0176924d814c",
       "git_lfs_pointer": false
     },
     {
@@ -1028,11 +1039,11 @@
       "ref": "main",
       "path": "library/coverage/monthly-update-register.csv",
       "mode": "100644",
-      "git_blob_sha1": "19416d142c457b37020ac9e6ebbd1b7c9059cc3c",
-      "bytes": 7637,
+      "git_blob_sha1": "7d482d1efeb94034818247b0acee9a5a4f4a725b",
+      "bytes": 9577,
       "object_type": "blob",
-      "git_blob_sha1_verified": "19416d142c457b37020ac9e6ebbd1b7c9059cc3c",
-      "sha256": "49c41042b65b05a5bd0360a5465226f09f668faeb1cefbb843c80647b8524a17",
+      "git_blob_sha1_verified": "7d482d1efeb94034818247b0acee9a5a4f4a725b",
+      "sha256": "35e44c8b84bed93348e6c11b7f1aec03c16498108c2b678bca0b1a1169d7905a",
       "git_lfs_pointer": false
     },
     {
@@ -1149,11 +1160,11 @@
       "ref": "main",
       "path": "library/coverage/source-coverage-status.csv",
       "mode": "100644",
-      "git_blob_sha1": "c2a58432218a15b08606969f74e78bfe3cf0539f",
-      "bytes": 9864,
+      "git_blob_sha1": "3d9586fb6a37a28e35b7b4acc8ff07d77f498527",
+      "bytes": 9700,
       "object_type": "blob",
-      "git_blob_sha1_verified": "c2a58432218a15b08606969f74e78bfe3cf0539f",
-      "sha256": "66bc6f61c7233dc001a602193c3b74ae8cefc164147e474e00a5727804140791",
+      "git_blob_sha1_verified": "3d9586fb6a37a28e35b7b4acc8ff07d77f498527",
+      "sha256": "65150d3b0683678b342b94fb4d23e5bde3d9846b06628ef321a62ab769181911",
       "git_lfs_pointer": false
     },
     {
