@@ -42,7 +42,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -C automation/source-format-review
-          git add library/coverage/chinese-compilation-pdf-text-comparison-2026-11-25.csv library/coverage/source-format-comparison-2026-11-25.md
+          git add library/coverage/chinese-compilation-pdf-text-comparison-2026-11-25.csv library/coverage/source-format-comparison-2026-11-25.md library/derived/chinese-image-page-ocr-2026-11-25.txt library/derived/chinese-image-page-ocr-2026-11-25.csv
           git commit -m "Publish Chinese and Entropy source format comparison"
           git push --force-with-lease origin automation/source-format-review
 

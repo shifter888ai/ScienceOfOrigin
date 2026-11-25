@@ -82,8 +82,9 @@ def ocr_pages(pdf_paths, page_numbers):
         proc=subprocess.run(["tesseract",str(image_path),"stdout","-l","chi_sim+eng","--psm","6"],
             capture_output=True,text=True,encoding="utf-8",errors="replace")
         text=safe_text(proc.stdout).strip()
-        results.append({"page_number":page_no,"ocr_characters":len(text),
-            "status":"ocr-text-found" if len(norm(text))>=10 else "no-usable-ocr-text",
+        han_characters=sum(1 for ch in text if 0x3400 <= ord(ch) <= 0x9fff)
+        results.append({"page_number":page_no,"ocr_characters":len(text),"han_characters":han_characters,
+            "status":"ocr-output-nonempty" if norm(text) else "no-ocr-output",
             "text":text,"return_code":proc.returncode})
         image_path.unlink(missing_ok=True)
     for doc in docs: doc.close()
@@ -133,11 +134,19 @@ def main():
     ocr_results, ocr_method=ocr_pages(pdf_paths,pdf_no)
     ocr_csv=OUT/"chinese-image-page-ocr.csv"
     with ocr_csv.open("w",encoding="utf-8-sig",newline="") as f:
-        writer=csv.DictWriter(f,fieldnames=["page_number","ocr_characters","status","return_code","text"])
+        writer=csv.DictWriter(f,fieldnames=["page_number","ocr_characters","han_characters","status","return_code","text"])
         writer.writeheader()
         writer.writerows(ocr_results)
-    (OUT/"chinese-image-page-ocr.txt").write_text(safe_text("\n\n".join(
-        f"--- PDF page {row['page_number']} ---\n{row['text']}" for row in ocr_results)),encoding="utf-8")
+    ocr_text=safe_text("\n\n".join(
+        f"--- PDF page {row['page_number']} ---\n{row['text']}" for row in ocr_results))
+    (OUT/"chinese-image-page-ocr.txt").write_text(ocr_text,encoding="utf-8")
+    derived=Path("library/derived")
+    derived.mkdir(parents=True,exist_ok=True)
+    (derived/"chinese-image-page-ocr-2026-11-25.txt").write_text(ocr_text,encoding="utf-8")
+    with (derived/"chinese-image-page-ocr-2026-11-25.csv").open("w",encoding="utf-8-sig",newline="") as f:
+        writer=csv.DictWriter(f,fieldnames=["page_number","ocr_characters","han_characters","status","return_code","text"])
+        writer.writeheader()
+        writer.writerows(ocr_results)
     (OUT/"chinese-pdf-extracted-pages.txt").write_text(safe_text("\n\n".join(f"--- PDF page {i+1} ---\n{v}" for i,v in enumerate(pdf_text))),encoding="utf-8")
     dtext,dmeta=extract_docx(Path("materials/熵值检测点RR部分.docx"))
     rtf_raw=Path("materials/熵值检测点RR部分.rtf").read_text(encoding="utf-8",errors="replace")
@@ -150,7 +159,8 @@ def main():
         _,i1,i2,j1,j2=differences[0]
         if dn[:i1]==rn[:j1] and dn[i2:]==rn[j2:] and "目录" in rn[j1:j2]:
             entropy_body_note=f"The only normalized text difference is an RTF-only table-of-contents block of {j2-j1:,} characters inserted after the opening {i1:,} characters. After excluding that block, the DOCX and RTF body text matches exactly."
-    ocr_found=sum(1 for row in ocr_results if row["status"]=="ocr-text-found")
+    ocr_nonempty=sum(1 for row in ocr_results if row["status"]=="ocr-output-nonempty")
+    ocr_han10=sum(1 for row in ocr_results if row["han_characters"]>=10)
     ocr_chars=sum(row["ocr_characters"] for row in ocr_results)
     (OUT/"entropy-docx-extracted.txt").write_text(safe_text(dtext),encoding="utf-8")
     (OUT/"entropy-rtf-extracted.txt").write_text(safe_text(rtext),encoding="utf-8")
@@ -165,18 +175,21 @@ def main():
         f"- PDF pages without extractable text: {len(pdf_no):,}",
         f"- Contact sheets created for visual inspection: {sheets}",
         f"- OCR method: {ocr_method}",
-        f"- Image-only PDF pages with usable OCR text: {ocr_found:,} / {len(ocr_results):,}",
-        f"- OCR characters recovered: {ocr_chars:,}",
+        f"- Image-only PDF pages with non-empty OCR output: {ocr_nonempty:,} / {len(ocr_results):,}",
+        f"- Pages with at least 10 recognized Han characters: {ocr_han10:,} / {len(ocr_results):,}",
+        f"- Raw OCR characters recovered (unreviewed): {ocr_chars:,}",
         f"- Page-comparison rows: {len(rows):,}","","### Page comparison status counts",""]
     for key,value in sorted(counts.items()): lines.append(f"- {key}: {value:,}")
     lines += ["","Similarity is computed after Unicode NFKC normalization and whitespace removal. It is a triage measure, not proof of transcription fidelity. Page-number alignment assumes TXT Page N corresponds to combined PDF page N; volume offsets and inserted cover pages must be checked before interpreting low similarity as omission.",
-        "Contact sheets are review aids only. OCR is a machine-generated derivative and has not been manually corrected; a blank OCR result does not prove a page is blank. No visual page has been declared complete by this automated pass.","",
+        "Contact sheets are review aids only. OCR is a machine-generated derivative and has not been manually corrected; a blank OCR result does not prove a page is blank. The 10-Han-character threshold is only a screening measure, not a quality guarantee.",
+        "Manual overview review of all 18 contact sheets found mixed image-only content: chat/message screenshots and other text-bearing images, illustrations/diagrams, and some apparently blank or near-blank pages. Page-by-page classification and OCR correction remain open.","",
         "## Entropy assessment: DOCX vs RTF","",
         f"- DOCX extracted characters: {len(dtext):,}",f"- RTF extracted characters: {len(rtext):,}",
         f"- Normalized text similarity: {eratio:.4f}",f"- Exact normalized text equality: {'yes' if dn==rn else 'no'}",
+        f"- Body comparison: {entropy_body_note}",
         f"- DOCX structure: {dmeta['paragraph_count']} paragraphs, {dmeta['table_count']} tables, {dmeta['inline_shape_count']} inline shapes, {dmeta['embedded_media_files']} embedded media files, {dmeta['section_count']} sections",
         "","DOCX extraction preserves paragraph and table-cell text in document-body order. RTF text was extracted with striprtf. Similarity does not assess layout, images, formulas, footnotes, comments, or semantic equivalence. Inspect differences and embedded objects before deciding whether one format faithfully represents the other.","",
-        "Detailed extracted text, OCR outputs, and contact sheets are in the workflow artifact source-format-review. Original files remain unchanged.",""]
+        "The page-level OCR text and CSV are preserved as separate derived files under library/derived/. Detailed extracted PDF text and contact sheets remain in the workflow artifact source-format-review. Original files remain unchanged.",""]
     report=LIB/"source-format-comparison-2026-11-25.md"
     report.write_text("\n".join(lines),encoding="utf-8")
     print("\n".join(lines))
