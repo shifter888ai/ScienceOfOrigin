@@ -210,7 +210,7 @@ This repository now has four priority collection milestones: Reddit TXT archive 
 Still open:
 1. Chinese PDF-to-TXT comparison and visual inspection of all pages, especially the 206 pages with no extracted nonblank text.
 2. Entropy DOCX inspection and DOCX/RTF comparison.
-3. Yuanwushi Wiki/Q&A pagination/count reconciliation and disposition of seven 404 resources.
+3. Yuanwushi Wiki/Q&A count is reconciled; investigate and disposition seven 404 resources and verify linked detail bodies/media where required.
 4. Awakenology live-site parity, alias/redirect checks, linked external resources, and historical versions.
 5. Repository-wide manifest regeneration and SHA-256 integrity audit for the current tree.
 6. Discovery and rights/privacy review of external, private, offline, historical, and other-repository sources.
