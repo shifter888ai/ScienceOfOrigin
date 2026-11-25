@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-25T06:17:16.815479+00:00",
+  "generated_utc": "2026-11-25T06:21:39.527329+00:00",
   "scope": "Tracked tree entries at selected branch tips; generated integrity report/manifest paths are excluded to avoid self-reference; not unreachable Git history or external LFS payloads.",
   "refs": [
     {
       "ref": "main",
-      "commit": "500cb3397fd3c8d3cce32a0e0e05d0571199a699",
-      "tracked_blobs": 893,
-      "tracked_blob_bytes": 113164618,
+      "commit": "4bbb8a5712b54bc6e4339567bbeca6551ef1545f",
+      "tracked_blobs": 897,
+      "tracked_blob_bytes": 114174511,
       "non_blob_entries": 0,
       "lfs_pointer_blobs": 0
     },
@@ -20,8 +20,8 @@
       "lfs_pointer_blobs": 0
     }
   ],
-  "unique_git_blobs_hashed": 1530,
-  "unique_git_blob_bytes": 401518016,
+  "unique_git_blobs_hashed": 1534,
+  "unique_git_blob_bytes": 402527909,
   "files": [
     {
       "ref": "main",
@@ -1004,6 +1004,17 @@
     },
     {
       "ref": "main",
+      "path": "library/coverage/chinese-compilation-pdf-text-comparison-2026-11-25.csv",
+      "mode": "100644",
+      "git_blob_sha1": "7584c3d072459f2ef3f950043473c580f5950b3f",
+      "bytes": 769574,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "7584c3d072459f2ef3f950043473c580f5950b3f",
+      "sha256": "15b233da75d3e409fd07ae5fd7d17a3a356402d47764a7ac3bacce1d30df8a66",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
       "path": "library/coverage/monthly-maintenance-protocol.md",
       "mode": "100644",
       "git_blob_sha1": "1d4bb861e5d0e95a18a3dfed0072825a050a9c0a",
@@ -1147,6 +1158,17 @@
     },
     {
       "ref": "main",
+      "path": "library/coverage/source-format-comparison-2026-11-25.md",
+      "mode": "100644",
+      "git_blob_sha1": "2128057ef3e411cbee38d46ab8e5072410fef71b",
+      "bytes": 2722,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "2128057ef3e411cbee38d46ab8e5072410fef71b",
+      "sha256": "b4b84cedf30d002f8f3d84c44510298b31aa09111f66b7861a28a1a10041f6da",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
       "path": "library/coverage/weibo-media-reference-coverage-assessment-2026-11-24.md",
       "mode": "100644",
       "git_blob_sha1": "2ae87c316005881a5cf52de51ed9e5bd473c7179",
@@ -1264,6 +1286,28 @@
       "object_type": "blob",
       "git_blob_sha1_verified": "c433120666d79dd8f07a30b2aaf2853fdf5e9651",
       "sha256": "e4ba2b03a7b848dae6d9b8e7a215fe2bdbf3fae2bef56bab8fdf42aa978abd24",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "library/derived/chinese-image-page-ocr-2026-11-25.csv",
+      "mode": "100644",
+      "git_blob_sha1": "b1c4aa47edcd7e11b7d79c6599bee086fa1ff333",
+      "bytes": 120216,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "b1c4aa47edcd7e11b7d79c6599bee086fa1ff333",
+      "sha256": "2a279611dbb5d2e1268dbc71438693c558761623543b7880d714d8f88efd742d",
+      "git_lfs_pointer": false
+    },
+    {
+      "ref": "main",
+      "path": "library/derived/chinese-image-page-ocr-2026-11-25.txt",
+      "mode": "100644",
+      "git_blob_sha1": "9f22b56771cbbd88ab6a78d0129f5b3eeea50a3b",
+      "bytes": 117381,
+      "object_type": "blob",
+      "git_blob_sha1_verified": "9f22b56771cbbd88ab6a78d0129f5b3eeea50a3b",
+      "sha256": "667654f3f1ea42bac9132b18c3c7021704f74a713125e0ef111b45b03fc15457",
       "git_lfs_pointer": false
     },
     {
