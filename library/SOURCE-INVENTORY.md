@@ -195,7 +195,7 @@ The historical inventory sections above are retained as dated baselines. The lat
 
 - Main: 897 tracked file blobs / 114,185,422 bytes.
 - Yuanwushi archive branch: 1,870 tracked file blobs / 421,098,213 bytes.
-- Aggregate: 1,534 unique Git blobs independently hashed, 402,527,909 unique-blob bytes, 2,767 path/ref records; zero Git blob SHA-1 mismatches; no Git LFS pointers.
+- Aggregate: 1,534 unique Git blobs independently hashed, 402,538,820 unique-blob bytes, 2,767 path/ref records; zero Git blob SHA-1 mismatches; no Git LFS pointers.
 - Awakenology: 648 physical tracked blobs / 51,750,456 bytes; subtree SHA exactly matches the pinned upstream commit's root tree SHA.
 - Yuanwushi: 993 stored files / 993 unique paths / 307,557,680 bytes; independent SHA-256 audit passed. Its Wiki listing reconciles to 2,659 unique record IDs across 133 pages, with zero duplicates.
 - Reddit and Weibo: owner-confirmed complete for their defined supplied TXT archive scopes; monthly updates are additive.
