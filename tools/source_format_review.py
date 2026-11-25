@@ -17,8 +17,11 @@ from striprtf.striprtf import rtf_to_text
 ROOT=Path("."); OUT=Path("source-review-artifacts"); LIB=Path("library/coverage")
 OUT.mkdir(exist_ok=True); LIB.mkdir(parents=True,exist_ok=True)
 
+def safe_text(s):
+    return s.encode("utf-8", "replace").decode("utf-8")
+
 def norm(s):
-    s=unicodedata.normalize("NFKC",s)
+    s=safe_text(unicodedata.normalize("NFKC",s))
     return "".join(ch for ch in s if not ch.isspace())
 
 def txt_pages(path):
