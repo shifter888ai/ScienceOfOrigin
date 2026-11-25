@@ -433,7 +433,6 @@ The following terms require more original passage review before a glossary expla
 
 - 本源意识
 - 虚拟存在 / 虚拟现实
-- 自由意志
 - 频率 / 意识频率
 - 意识光谱
 - Freedomality of Consciousness
