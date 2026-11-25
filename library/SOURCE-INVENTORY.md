@@ -191,28 +191,34 @@ The upstream repository `https://github.com/shifter888ai/awakenology` is pinned 
 
 ## Current-state reconciliation — 2026-11-25
 
-The historical inventory sections above describe earlier snapshots and are retained as history. The latest verified repository state is:
+The historical inventory sections above are retained as dated baselines. The latest repository-wide integrity audit covers main commit `4bbb8a5712b54bc6e4339567bbeca6551ef1545f` and the final Yuanwushi archive branch at `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`.
 
-- Main commit: `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755`.
-- Recursive tree: 876 tracked file blobs, 113,056,244 bytes; tree is not truncated.
-- Awakenology: `materials/awakenology/` contains 648 ordinary tracked file blobs, 51,750,456 bytes, across 823 tree entries. It is a physical in-repository copy, not a submodule.
-- Yuanwushi: the 2026-11-25 snapshot has 993 stored files / 993 unique paths / 307,557,680 bytes; the independent SHA-256 audit passed with zero discrepancies.
+- Main: 897 tracked file blobs / 114,174,511 bytes.
+- Yuanwushi archive branch: 1,870 tracked file blobs / 421,098,213 bytes.
+- Aggregate: 1,534 unique Git blobs independently hashed, 402,527,909 unique-blob bytes, 2,767 path/ref records; zero Git blob SHA-1 mismatches; no Git LFS pointers.
+- Awakenology: 648 physical tracked blobs / 51,750,456 bytes; subtree SHA exactly matches the pinned upstream commit's root tree SHA.
+- Yuanwushi: 993 stored files / 993 unique paths / 307,557,680 bytes; independent SHA-256 audit passed. Its Wiki listing reconciles to 2,659 unique record IDs across 133 pages, with zero duplicates.
 - Reddit and Weibo: owner-confirmed complete for their defined supplied TXT archive scopes; monthly updates are additive.
-- Science of Consciousness: two supplied TXT originals are now archived under `materials/science-of-consciousness/` and separately registered in the source register.
-- Chinese compilation and Entropy assessment versions remain under source-level comparison and visual/format review.
+- Chinese compilation: 1,671 PDF pages match 1,671 TXT page markers; 1,455 exact normalized matches, 10 high-similarity, 206 image-only/no-extractable-text pages; OCR derivative stored separately.
+- Entropy assessment: DOCX/RTF body text matches exactly after excluding the RTF-only TOC.
+- Science of Consciousness: two uploaded TXT originals are archived separately and their repository SHA-256 values match the supplied originals.
 
-The previous 215-file inventory refresh predates the Yuanwushi and other recent additions and must not be used as the current repository count. `library/FILE-MANIFEST.json` must be regenerated and checked against the current main commit before it is treated as current.
+The current `library/repository-integrity-manifest.json` and report are the active SHA-256 inventory. The older `library/FILE-MANIFEST.json` is a historical manifest and must not be treated as the current SHA-256 baseline.
+
+## Historical automation branch review
+
+The older Awakenology snapshot, physical-archive, bootstrap, workflow-fix, and Yuanwushi initial-crawl branches were compared with main by path and Git blob identity. They contain older workflow/register/site snapshots but no unique source-file paths absent from main; the early Awakenology bootstrap/physical-archive branch has an obsolete `.gitmodules` entry. The final Yuanwushi archive remains a separate source-bearing branch and is included in the integrity audit.
 
 ## Current completion boundary
 
-This repository now has four priority collection milestones: Reddit TXT archive (owner-confirmed scope), Weibo TXT archive (owner-confirmed scope), Awakenology pinned repository snapshot (physically archived), and Yuanwushi initial website crawl (stored-file checksum audit passed). These are distinct scopes and do not establish that every possible source held by the project owner has been discovered or archived.
+The four priority source-acquisition milestones remain achieved within their defined scopes: Reddit TXT archive, Weibo TXT archive, Awakenology pinned repository snapshot, and Yuanwushi initial website crawl. The Chinese compilation and Entropy source-format comparisons are now documented, with OCR and visual/layout review still open.
 
 Still open:
-1. Chinese PDF-to-TXT comparison and visual inspection of all pages, especially the 206 pages with no extracted nonblank text.
-2. Entropy DOCX inspection and DOCX/RTF comparison.
-3. Yuanwushi Wiki/Q&A count is reconciled; investigate and disposition seven 404 resources and verify linked detail bodies/media where required.
-4. Awakenology live-site parity, alias/redirect checks, linked external resources, and historical versions.
-5. Repository-wide manifest regeneration and SHA-256 integrity audit for the current tree.
-6. Discovery and rights/privacy review of external, private, offline, historical, and other-repository sources.
+1. Human verification/correction of the Chinese image-page OCR and page-by-page classification of the 206 image-only pages; review the 10 high-similarity page comparisons.
+2. Entropy DOCX/RTF visual layout, metadata, and RTF-only TOC review.
+3. Identity/provenance checks for the seven Yuanwushi 404 recovery candidates; detail-page bodies, embedded media, deleted/private and unlinked historical resources are not all independently validated.
+4. Awakenology live-site parity, .org/.space alias/redirect checks, linked external resources, and historical versions.
+5. Discovery and rights/privacy review of external, private, offline, historical, and other-repository sources.
+6. Monthly additive source updates and refresh of derived indexes/manifests.
 
-The two Science of Consciousness uploads are preserved as original TXT files; they have not been merged, rewritten, or independently validated.
+The two Science of Consciousness uploads remain unchanged original TXT files; no merged or normalized replacement has been substituted.
