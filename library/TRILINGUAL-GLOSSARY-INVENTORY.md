@@ -254,13 +254,13 @@ Exincarnation is recorded as the current project term for liberation from the re
 
 **Sources:** Science-of-Consciousness.txt, Section 5; Chinese compilation Page 264, lines 7431–7463.
 
-### Consciousness Strength Assessment Points — 意識強度檢測點 — 意識強度の検査ポイント
+### Strength of Consciousness Assessment Points — 意識強度檢測點 — 意識強度の検査ポイント
 
 **Source statement (Chinese compilation, Page 306):**  
 「意识强度检测点（=“意识强度练习点”）」; the passage says the major points number in the hundreds and minor points in the tens of thousands, and describes their organization into functional areas.
 
 **English rendering:**  
-“Consciousness Strength assessment points,” also called “Consciousness Strength practice points” in this source passage.
+“Strength of Consciousness assessment points,” also called “Strength of Consciousness practice points” in this source passage.
 
 **Working explanation:**  
 The source presents the points as individual items within a functional assessment and practice framework. Pages 306–316 describe the Central Area / Mental Control Area and the Upper Area / Autonomous Consciousness Area. Page 399 says the Consciousness Strength level is a composite value of all assessment points. These are source-described framework elements, not independently validated instruments or scales in this review.
