@@ -1,8 +1,8 @@
 # Original Source Collection Register
 
 **Register version:** 0.2  
-**Repository snapshot:** `45de49cb111a378e5baf9eaba847911be9edf18e`  
-**Status:** Updated 2026-11-25. Reddit and Weibo supplied TXT archives are owner-confirmed complete for their defined scopes; Awakenology is registered as a pinned repository snapshot; other provenance and live-source checks remain separately tracked.
+**Latest repository commit reviewed:** `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755`  
+**Status:** Reconciled 2026-11-25. Reddit/Weibo supplied TXT scopes are owner-confirmed complete; Awakenology is physically archived; Yuanwushi's initial crawl passed independent checksums; Science of Consciousness uploads are registered. Other comparisons and live-source checks remain open.
 
 ## Purpose
 
@@ -167,9 +167,9 @@ The following source scopes are formally registered under the owner's completene
 |---|---|---|---|---|
 | SRC-RED-COMMENTS | `materials/reddit-english-all.txt` and `materials/reddit-english-qa.txt` | TXT; complete Reddit archives for their intended collection scopes | Complete per owner; manually extracted and checked | Add one new checked version monthly; preserve prior versions |
 | SRC-WEIBO-POSTS | `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt` | TXT; complete Weibo original-post archive for its intended scope | Complete per owner; manually extracted and checked | Add one new checked version monthly; preserve prior versions |
-| SRC-AWK-REPO | `materials/awakenology` (pinned Git submodule reference) | Full Awakenology Git repository tree at `05523aec14c286bce397678b8a213cca1fc29563` | Complete pinned repository snapshot reference; see limitation below | Update from upstream `main` monthly and preserve prior commit references |
+| SRC-AWK-REPO | `materials/awakenology/` (physical tracked-file archive) | Full Awakenology Git repository tree at `05523aec14c286bce397678b8a213cca1fc29563` | Complete physical copy of the pinned repository snapshot: 648 blobs / 51,750,456 bytes | Update from upstream `main` monthly; preserve prior snapshots and manifests |
 
-**Awakenology snapshot implementation note:** the library stores a Git submodule pointer pinned to the exact upstream commit plus a complete path/mode/Git-blob-SHA/size manifest. This makes the repository snapshot reproducible and traceable, but it is not an independent physical duplication of every upstream blob. The source repository remains the content host for the submodule checkout.
+**Awakenology snapshot implementation note:** the library contains an ordinary tracked-file copy under `materials/awakenology/`, with 648 Git blobs across 823 tree entries (51,750,456 bytes), matching the pinned upstream tree. This is a physical copy within the Science of Origin repository, not a submodule pointer. Live-site parity and future upstream changes remain separate checks.
 
 
 ## Authoritative source-status reconciliation — 2026-11-25
