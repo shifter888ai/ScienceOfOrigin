@@ -253,3 +253,16 @@ The owner confirms that `materials/元吾氏集录20210203.txt` alone is the com
 The owner confirms that `materials/熵值检测点RR部分.rtf` alone is the complete source for the Entropy assessment points. The DOCX contains the same substantive content and no images; the RTF is the canonical complete source for current use. Preserve the DOCX as a supplementary duplicate-format copy, but do not treat its comparison, layout, or the RTF table-of-contents difference as an outstanding source-completeness gate. The RTF-derived index remains a separate navigation aid.
 
 These are owner-defined scope decisions. They do not delete, overwrite, or discard either PDF or the DOCX. All original files remain preserved unchanged.
+
+
+## Initial Library Assembly — final bounded disposition (2026-11-25)
+
+The current baseline is defined in `library/coverage/2026-11-25-initial-library-assembly-decision.md` and summarized in `library/COMPLETION-DASHBOARD.md`. It comprises the owner-confirmed Reddit and Weibo TXT archives, the physical Awakenology repository snapshot at commit `05523aec14c286bce397678b8a213cca1fc29563`, the Yuanwushi 2026-11-25 crawl, the owner-confirmed Chinese compilation TXT and Entropy RTF, and the two distinct Science of Consciousness TXT uploads.
+
+The Yuanwushi crawl is **verified-with-gaps**: 993 stored files independently passed SHA-256 verification, and 133 Wiki pages reconcile to 2,659 unique record IDs. Seven linked assets returned HTTP 404. Their candidates are separately registered with provenance and checksums, but none is byte-verified against the unavailable original. The seven are therefore closed for this baseline as **documented unavailable/unverified gaps**, not recovered resources. Do not insert candidates into the original snapshot.
+
+The Awakenology Git repository snapshot is a physical copy of 648 ordinary tracked blobs and matches the pinned upstream tree. It is not a submodule. Live `.org`/`.space` alias, route, canonical, asset, and historical-version parity remains a separate verification track; current search/page snapshots are discovery evidence only.
+
+The initial baseline does not assert that every private, deleted, offline, historical, or externally linked source has been discovered. Those are open-ended discovery domains and are handled when supplied, accessible, or relevant to a defined research question. Rights, privacy, and access conditions must be reviewed before copying or redistribution.
+
+**Decision:** Initial Library Assembly is complete within the identified and owner-confirmed baseline scope, with the stated residual gaps. Library Coverage and Maintenance remains ongoing. Preserve all originals and future versions additively.
