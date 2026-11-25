@@ -1,6 +1,6 @@
 # Science of Origin — Trilingual Terminology Inventory
 
-**Status:** Expanded source-extraction edition · Version 0.3  
+**Status:** Expanded source-extraction edition · Version 0.4  
 **Languages:** English · 繁體中文 · 日本語  
 **Purpose:** Preserve terminology found in original Science of Origin materials, with source traceability and provisional cross-language mappings. This is an internal research inventory, not the published website terminology page.
 
@@ -39,6 +39,11 @@
 | SRC-OR-001 | Current Science of Origin framework pages in the repository | Directly inspected origin.html, zero-origin.html, zero-idle-state-of-origin.html, nature-of-origin.html, infinity-of-imagination.html, imagination.html, origination.html, manifestations.html, origin-models.html, fake-origin-divided-origin.html and oneness-division.html on 2026-11-25 |
 | SRC-SOC-001 | `Science-of-Consciousness.txt` (project-supplied file) | Project Description & Research Framework |
 | SRC-SOC-002 | `Science-of-Consciousness-—-Research-Architecture.txt` (project-supplied file) | Short research architecture outline |
+| SRC-SOC-003 | `materials/awakenology/Science.md` | Current author-framed internal Science of Consciousness framework; directly inspected Sections 1–7, including field/application relationships, Freedomality terminology and Exincarnation terminology |
+| SRC-AW-TERM-001 | `materials/awakenology/Awakenology-Glossary/Terminology.md` | Internal glossary review draft; inspected application and Freedomality rows; treated as a working terminology source, not a final public glossary |
+| SRC-ENT-001 | `entropy-of-consciousness.html` | Public research introduction; directly inspected nine-zone architecture, research approach, laboratory/practical distinction and Entropy Particle usage |
+| SRC-ENT-IDX-001 | `library/record-index/entropy-rr-assessment-points-index.md` | Derivative index of an Entropy assessment source; inspected index only, not the underlying DOCX/RTF binary; used as a navigation and coverage aid, not a substitute for the original |
+| SRC-AW-PAGE-001 | `materials/awakenology/What-Is-Awakenology/index.html`; `materials/awakenology/What-is-SoC-Strength-of-Consciousness/index.html` | Snapshot pages inspected for Awakenology and Strength of Consciousness context; claims remain attributed to the source framework |
 
 **Access and version note:** The Chinese compilation TXT is the canonical source for current research under the completed-library scope. The two PDF volumes are retained as supplemental references; optional OCR/image review is not a completion blocker. The passages cited in this tranche were read directly from the TXT. The candidate index remains a discovery aid, not a substitute for passage review.
 
@@ -583,9 +588,108 @@
 - **Source:** SRC-OR-001, origin.html, zero-origin.html, origination.html, manifestations.html.
 - **Review status:** Current framework description extracted; Chinese and Japanese renderings provisional.
 
-## 5. Candidate terms awaiting direct source review
 
-The following forms are present in source indexes or current project records, but should not receive full definitions until the original passages are directly reviewed:
+### T-050 — Freedomality of Consciousness / 中文對應待核 / 日本語対応待核
+
+- **English display term:** Freedomality of Consciousness
+- **繁體中文:** 尚無已核定對應詞；保留英文原詞
+- **日本語:** 確認済みの対応語なし；英語原語を保持
+- **Current framework wording (SRC):** The internal Science of Consciousness framework describes Freedomality of Consciousness as the concept/property describing the degree to which an individual's inherent free will is actually expressed through their Soul Characteristics.
+- **Related framework statement:** The same source describes Soul Nature as inherently 100% free will, while Soul Characteristics may express only a portion of that free will. These are framework statements, not independently validated scientific findings.
+- **Context / distinction:** The supplied Science of Consciousness Project Description describes Freedomality as a property of consciousness and a possible subject of measurement and quantification. The internal framework gives a more specific working description but says its operational definition and measurement still require development and validation.
+- **Architecture note:** The supplied Project Description lists Science of Freewill among its four core fields; the internal `materials/awakenology/Science.md` instead lists Frequency of Consciousness, Spectrum of Consciousness, Entropy of Consciousness and Freedom of Consciousness as its four fields. Preserve this document-level difference. Freedomality of Consciousness is listed as an application in both sources.
+- **Source:** SRC-SOC-001; SRC-SOC-003, Sections 1 and 5; SRC-AW-TERM-001.
+- **Review status:** Current framework working description extracted; operational definition, measurement validity and cross-language mappings OPEN.
+
+### T-051 — Freedomality Index (FI) / 中文對應待核 / 日本語対応待核
+
+- **English display term:** Freedomality Index (FI)
+- **繁體中文:** 尚無已核定對應詞；保留英文原詞
+- **日本語:** 確認済みの対応語なし；英語原語を保持
+- **Current framework wording (SRC):** The internal Science of Consciousness framework describes the Freedomality Index (FI) as the quantified representation or estimate of Freedomality of Consciousness.
+- **Context / limitation:** Its scale, calculation, aggregation rules and interpretation remain to be operationally defined and validated. The source assumes no fixed numerical scale. Do not invent a range, unit, formula or conversion rule.
+- **Source:** SRC-SOC-003, Section 5; SRC-AW-TERM-001.
+- **Review status:** Working description extracted; operational specification and validation OPEN.
+
+### T-052 — Freedometry / 中文對應待核 / 日本語対応待核
+
+- **English display term:** Freedometry
+- **繁體中文:** 尚無已核定對應詞；保留英文原詞
+- **日本語:** 確認済みの対応語なし；英語原語を保持
+- **Current framework wording (SRC):** The internal Science of Consciousness framework describes Freedometry as a proposed measurement methodology for operationalizing and estimating Freedomality of Consciousness and its Freedomality Index (FI).
+- **Context / limitation:** The source explicitly says this is a proposed methodology, not an established or validated measurement method. Possible use of Spectrum of Consciousness assessment or sensor systems is presented as a research direction, not a completed measurement protocol. Direct observations must remain distinct from derived estimates and interpretations.
+- **Source:** SRC-SOC-003, Section 5; SRC-AW-TERM-001.
+- **Review status:** Proposed methodology name extracted; protocol, calibration, uncertainty, inference limits and independent validation OPEN.
+
+### T-053 — Entropy of Consciousness / 意識熵（工作對應） / 日本語対応待核
+
+- **English display term:** Entropy of Consciousness
+- **繁體中文（工作對應）:** 意識熵（出現在 Awakenology glossary working draft；尚非原始中文定義）
+- **日本語:** 確認済みの対応語なし；英語原語を保持
+- **Project Description wording (SRC):** Entropy of Consciousness is an application research field concerning entropy in relation to consciousness, including its properties, characteristics and measurable aspects.
+- **Internal framework wording (SRC):** `materials/awakenology/Science.md` lists Entropy of Consciousness as the third field of Science of Consciousness. This field classification differs from the supplied Project Description, which lists it as an application.
+- **Current public research page:** `entropy-of-consciousness.html` presents a nine-zone research architecture covering multidimensional capabilities, foundational characteristics, entropy dynamics, flexibility, integration and collaboration, three laboratory-testing zones, and practical application. It explicitly avoids reducing Entropy to a single numerical value and distinguishes laboratory reference assessments from practical performance.
+- **Context / limitation:** The reviewed sources do not provide a single operational definition of Entropy of Consciousness. Do not silently import a conventional thermodynamic definition or assume the framework's use is identical to it.
+- **Source:** SRC-SOC-001; SRC-SOC-003, Section 1; SRC-AW-TERM-001; SRC-ENT-001.
+- **Review status:** Application/field descriptions and public research architecture extracted; operational definition, measurement and cross-document classification OPEN.
+
+### T-054 — Entropy Particle / 中文對應待核 / 日本語対応待核
+
+- **English source term:** Entropy Particle
+- **繁體中文:** 原始對應詞待核；保留英文原詞
+- **日本語:** 原始對應詞待核；保留英文原詞
+- **Current public research-page wording (SRC):** `entropy-of-consciousness.html` uses the term Entropy Particle for structures whose characteristics are examined in the framework. Its Zone 6 examples include oscillation, energy accumulation, elasticity, resistance, controlled movement, weighting and self-balancing.
+- **Context / limitation:** The public page says detailed definitions and operational treatment are outside its scope. The derivative index `entropy-rr-assessment-points-index.md` summarizes an Entropy assessment framework, but the underlying DOCX/RTF source was not directly inspected in this tranche. Do not treat the listed examples as a complete definition or assume the particle terminology is equivalent to a conventional physical particle.
+- **Source:** SRC-ENT-001; SRC-ENT-IDX-001.
+- **Review status:** English occurrence and limited context extracted; original-language mapping, source-level definition and measurement protocol OPEN.
+
+### T-055 — Strength of Consciousness of Things / 中文對應待核 / 日本語対応待核
+
+- **English display term:** Strength of Consciousness of Things
+- **繁體中文:** 尚無已核定對應詞；保留英文原詞
+- **日本語:** 確認済みの対応語なし；英語原語を保持
+- **Project Description wording (SRC):** This is an application research field concerning the strength of consciousness in relation to things, including its properties and potential measurement.
+- **Context / distinction:** Keep this exact application name distinct from **Strength of Consciousness**, which appears separately in the Awakenology internal framework as an application of both Awakenology and Spectrum of Consciousness, and has a historical assessment-point framework. The sources reviewed do not establish that Strength of Consciousness of Things is the same construct, a renamed version, or a direct extension of Strength of Consciousness.
+- **Related research objective:** Spectrum of Things = Spectrum of Consciousness remains an objective for investigation, not an established conclusion. Do not infer the relationship from the shared word “Things.”
+- **Source:** SRC-SOC-001; SRC-SOC-002; SRC-SOC-003, Sections 2–3; SRC-AW-TERM-001; library/TERMINOLOGY-CONCEPTUAL-REVIEW-2.md.
+- **Review status:** Application scope extracted; construct definition, measurement and relationship to Strength of Consciousness / Spectrum of Things OPEN.
+
+### T-056 — Awakenology / 催醒法＋催醒學（工作對應） / 催醒法・催醒学（暫定）
+
+- **English display term:** Awakenology
+- **繁體中文（工作對應）:** 催醒法＋催醒學
+- **日本語（暫定訳）:** 催醒法・催醒学（原語表記を保持した作業上の対応）
+- **Current internal framework wording (SRC):** `materials/awakenology/Science.md` describes Awakenology as an application of Science of Consciousness and as an umbrella framework encompassing both 催醒法 (methods/practice) and 催醒學 (knowledge/principles).
+- **Project Description wording (SRC):** The supplied Project Description describes Awakenology as applied research into methods of awakening humanity and the development of consciousness.
+- **Context / distinction:** Awakenology is not restricted to 催醒法 alone in the current internal framework. The method/practice and knowledge/principles components are both retained. The precise relation between this application and the other application fields must follow the dated source version rather than be assumed.
+- **Source:** SRC-SOC-001; SRC-SOC-003, Sections 2–3; SRC-AW-TERM-001; SRC-AW-PAGE-001.
+- **Review status:** Umbrella/application description extracted; source-history comparison and Japanese terminology review OPEN.
+
+### T-057 — Exincarnology / 脫離輪迴法（脫離輪迴學） / エクスインカルノロジー（暫定）
+
+- **English display term:** Exincarnology
+- **繁體中文（工作對應）:** 脫離輪迴法（脫離輪迴學）
+- **日本語（暫定訳）:** エクスインカルノロジー（internal glossary working form）
+- **Current internal framework wording (SRC):** `materials/awakenology/Science.md` identifies Exincarnology as the first application of Awakenology and describes it as the specialized discipline and practical framework concerning 脫離輪迴, encompassing the practical method and its knowledge/principles.
+- **Project Description wording (SRC):** The supplied Science of Consciousness Project Description lists Exincarnology among the five applications and describes it as applied research into methods of Exincarnation, focusing on liberation from the reincarnation cycle. The short Research Architecture lists it alongside Awakenology without stating a parent/child relationship.
+- **Context / distinction:** Preserve the source-version difference: one document lists the application fields together, while the internal framework nests Exincarnology under Awakenology. This tranche records both and does not silently reconcile them.
+- **Source:** SRC-SOC-001; SRC-SOC-002; SRC-SOC-003, Sections 2–4; SRC-AW-TERM-001.
+- **Review status:** Current internal hierarchy and project-description classification extracted; full source history and Japanese mapping OPEN.
+
+### T-058 — Exincarnation / 脫離輪迴 / 輪廻からの離脱（暫定）
+
+- **English display term:** Exincarnation
+- **繁體中文原詞:** 脫離輪迴
+- **日本語（暫定訳）:** 輪廻からの離脱
+- **Current internal framework wording (SRC):** Exincarnation is described as the process or achievement that Exincarnology aims at.
+- **Chinese compilation source wording (SRC):** Page 264 uses 「脱离轮回」 and states 「得道=合一本源+脱离轮回」. The passage distinguishes union with Origin from exiting the reincarnation cycle as two components of 得道.
+- **Context / distinction:** Preserve the source phrase 脫離輪迴 and the current project term Exincarnation as a mapped pair with provenance. Exincarnation is not a synonym for Union with Origin. The source's claimed outcome and mechanism are not independently verified by this inventory.
+- **Source:** SRC-SOC-001; SRC-SOC-003, Sections 3–4; SRC-CC-001, Page 264, lines 7431–7463.
+- **Review status:** Project mapping and historical source relation extracted; operational scope and independent verification OPEN.
+
+## 5. Candidate terms and unresolved source families
+
+The following still require additional direct source review before a fuller history or operational definition can be recorded:
 
 - 本源意识
 - 万物本质
@@ -595,26 +699,23 @@ The following forms are present in source indexes or current project records, bu
 - 意识频率
 - 意识光谱
 - 自由度 / 自由意识的自由强度
-- Freedomality of Consciousness
-- Freedomality Index (FI)
-- Freedometry
-- Level of Actualization of Freewill
-- Entropy of Consciousness
-- Strength of Consciousness of Things
-- Awakenology
-- Exincarnation / Exincarnology
+- Level of Actualization of Freewill — mentioned as an unresolved relationship in the conceptual review; the exact term and definition were not found in the reviewed current `Science.md` or Awakenology glossary source.
+- Hypnotic Reincarnation — a source-stated relation is recorded in T-020, but a fuller definition and source history remain open.
+
+Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation now have working records based on the inspected project sources. Their operational definitions, historical source coverage, translations or interrelationships remain open as specified in each record.
 
 ## 6. Next extraction priorities
 
 1. Review the remaining original-source families for 本源意识, 万物本质, 虚拟存在 and 虚拟现实, separating definitions from examples, titles and contextual uses.
-2. Extract and compare the full source history of Freedomality of Consciousness, Freedomality Index (FI), Freedometry and Level of Actualization of Freewill.
-3. Review Entropy of Consciousness and Strength of Consciousness of Things as distinct application terms; do not import conventional technical definitions without a source-grounded mapping.
-4. Review Awakenology and Exincarnology source history and their relationship without assuming a hierarchy.
-5. Continue Japanese-source verification where original Japanese material exists; provisional translations must remain visibly provisional.
-6. Compare historical and current English formulations, preserving version changes and document-level differences.
+2. Locate and directly verify the source history of **Level of Actualization of Freewill**; establish whether it is a preferred term, a descriptive measure, or a separate construct before defining it.
+3. Inspect the underlying Entropy DOCX/RTF source directly and build point-level extraction with exact wording, original order, locators and surrounding context; the current assessment-point index is only a navigation aid.
+4. Review the source history and intended relationship among Freedomality of Consciousness, Freedomality Index (FI), Freedometry and any Level of Actualization of Freewill terminology.
+5. Compare Strength of Consciousness of Things with Strength of Consciousness and Spectrum of Things without assuming identity or a parent/child relationship.
+6. Continue Awakenology / Exincarnology source-history review and preserve the different organizational descriptions across document versions.
+7. Continue Japanese-source verification where original Japanese material exists; provisional translations must remain visibly provisional.
 
 ## 7. Change history
 
-- **2026-11-25 — Version 0.3:** Added 13 terminology records (T-037–T-049) from direct review of current Science of Origin framework pages and preserved historical First Edition wording. Recorded Infinity, Zero, Idle State, Spirit, Void, Voidness, True Origin, Oneness Origin, Fake Origin, Freewill, Imagination, Origination and Manifestation. Explicitly retained unresolved Void/Voidness, Spirit/Soul, historical Infinity/Origin and cross-language mappings. No public HTML was changed.
+- **2026-11-25 — Version 0.4:** Added T-050–T-058 for Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Entropy Particle, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation. Added direct review of the current internal Science.md framework, Awakenology terminology review draft, Entropy public research page and Entropy assessment-point index. Preserved conflicting field/application classifications and the different Awakenology / Exincarnology hierarchies by source version. Left Level of Actualization of Freewill unresolved because the exact term and definition were not present in the reviewed current source files. No public HTML was changed.\n- **2026-11-25 — Version 0.3:** Added 13 terminology records (T-037–T-049) from direct review of current Science of Origin framework pages and preserved historical First Edition wording. Recorded Infinity, Zero, Idle State, Spirit, Void, Voidness, True Origin, Oneness Origin, Fake Origin, Freewill, Imagination, Origination and Manifestation. Explicitly retained unresolved Void/Voidness, Spirit/Soul, historical Infinity/Origin and cross-language mappings. No public HTML was changed.
 - **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
 - **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
