@@ -190,7 +190,18 @@ Scope limitation: this verifies the pinned repository tree, not live Awakenology
 
 **Source ID:** `SRC-YWS-WEB`. The 2026-11-25 snapshot is stored on branch `automation/yuanwushi-crawl` at commit `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`. Its capture manifest contains 1,001 records; 993 files are stored at 993 unique paths, totaling 307,557,680 bytes. The independent checksum audit verified all 993 stored files: zero missing files, invalid paths, duplicate path groups, size mismatches, or SHA-256 mismatches. The audit workflow run is [45554125468](https://github.com/shifter888ai/ScienceOfOrigin/actions/runs/45554125468).
 
-The crawl captured 106 article pages, 133 Wiki/Q&A pagination pages, 21 CX Club lessons, 727 linked attachments/media items, and two PDFs. The report records seven HTTP 404 resources (one audio file and six gallery images). This establishes integrity of the captured files, not absolute completeness of every public or historical site resource. The reported Wiki/Q&A aggregate of 2,659 records still requires pagination/count reconciliation; the seven unavailable resources remain individually gap-coded.
+The crawl captured 106 article pages, 133 Wiki/Q&A pagination pages, 21 CX Club lessons, 727 linked attachments/media items, and two PDFs. The independent pagination reconciliation confirms that all 133 page parameters (1–133) are present and that the captured listing contains 2,659 Q&A record links, 2,659 unique record IDs, and zero duplicate links, matching the source index's displayed total of 2,659. See the page-level counts in `library/coverage/yuanwushi-wiki-page-record-counts-2026-11-25.csv`.
+
+Seven linked resources returned HTTP 404 during the 2026-11-25 capture (one audio file and six gallery images):
+- `https://www.yuanwushi.org/media/cc0-audio/t-rex-roar.mp3`
+- `https://www.yuanwushi.org/gallery/ad1.png?ts=1782918978`
+- `https://www.yuanwushi.org/gallery_gen/b52fa1d35f2d1619a1f59346867b078e_fit.png?ts=1782918978`
+- `https://www.yuanwushi.org/gallery_gen/2651c57393beec7145101a09f294103b_fit.png?ts=1782918978`
+- `https://www.yuanwushi.org/gallery/ad3.png?ts=1782918978`
+- `https://www.yuanwushi.org/gallery_gen/df80bfe5abe2c2024c726a1b44b6c4ca_fit.png?ts=1782918978`
+- `https://www.yuanwushi.org/gallery_gen/1a31ccfafcc0abc14fa37c5d2236feed_898x490_fit.png?ts=1782918978`
+
+The 993 stored files pass independent checksums, and the 2,659 listing IDs reconcile to the displayed total. These checks do not independently verify every linked Q&A detail-page body, embedded media, deleted/private records, or all historical/unlinked resources. The seven 404 resources remain individually recorded pending alternate-source recovery checks or explicit disposition.
 
 ### Science of Consciousness project uploads — originals registered
 
