@@ -23,7 +23,7 @@ def norm(s):
 
 def txt_pages(path):
     text=path.read_text(encoding="utf-8-sig")
-    matches=list(re.finditer(r"(?m)^--- Page (\\d+) ---\\s*$",text))
+    matches=list(re.finditer(r"(?m)^--- Page (\d+) ---\s*$",text))
     pages={}
     for i,m in enumerate(matches):
         end=matches[i+1].start() if i+1<len(matches) else len(text)
