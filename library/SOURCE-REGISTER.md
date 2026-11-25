@@ -82,30 +82,35 @@ This establishes substantial textual overlap, not equivalence or completeness. N
 - Preserve both files even if one is later found to be a subset or derivative of the other.
 - Confirm whether timestamps are original platform timestamps, export timestamps, or normalized dates.
 
-### Chinese compilation
+### Chinese compilation — page comparison and OCR review
 
-- Inspect both PDFs page by page, including images, diagrams, tables, footnotes, and page numbering.
-- Compare the TXT compilation against both PDF volumes.
-- Identify whether the TXT is a full transcription, OCR output, edited compilation, or a different edition; do not assume.
-- Record page-to-text mapping, missing pages, duplicated passages, and conversion uncertainty.
-- Preserve original Chinese wording and source context.
+The original source set consists of two PDF volumes and one TXT compilation. Volume 1 contains 1,100 pages and volume 2 contains 571 pages (1,671 total), matching the TXT's 1,671 page markers.
+
+The 2026-11-25 normalized page comparison found:
+- 1,455 exact page matches.
+- 10 high-similarity pages (0.9804–0.9955); differences are concentrated in spacing, line breaks, and emoji extraction.
+- 206 pages with no extractable text in either the PDF text layer or TXT page segment.
+
+All 18 contact sheets covering the 206 image-only pages were visually triaged. They contain a mixture of chat/message screenshots and other text-bearing images, diagrams/illustrations, and some apparently blank or near-blank pages. They must not be treated as 206 empty pages.
+
+Tesseract OCR (chi_sim+eng, page segmentation mode 6) produced non-empty output on 192/206 pages; 143 pages contain at least 10 recognized Han characters. The 63,773 raw OCR characters are uncorrected machine output, not verified transcription. The page-level OCR TXT and CSV are preserved separately under `library/derived/`; see `library/derived/README.md`. The page comparison CSV and report are under `library/coverage/`.
+
+Remaining work: review the 10 high-similarity pages; verify OCR against original page images; classify image-only pages page by page; resolve any page-number offsets, missing visual content, or transcription uncertainty. Preserve both PDF originals and the TXT original unchanged.
 
 ## Integrity and provenance
 
-The repository manifest records Git blob SHA values, which identify Git objects. They are **not SHA-256 file checksums**.
+A repository-wide integrity baseline is now recorded in `library/repository-integrity-manifest.json` and `library/repository-integrity-report.md`. It covers the current main source tree and the final Yuanwushi archive branch, recomputes Git blob SHA-1 values from exact object bytes, and records SHA-256 for every unique blob. The 2026-11-25 run hashed 1,534 unique blobs across 2,767 path/ref records, with zero Git blob SHA-1 mismatches and no Git LFS pointers. The generated manifest/report paths are excluded to avoid self-reference. This is a branch-tip audit, not a scan of unreachable Git history, external LFS payloads, or resources outside the selected branches.
 
-SHA-256 checksums, exact file bytes, original source URLs, acquisition dates, publication dates, rights status, and independent backup status have not yet been verified in this register. These fields must be added only after the corresponding checks are completed.
+The two Science of Consciousness uploads have SHA-256 values matching the originals supplied in this project workspace. The Yuanwushi snapshot has its own independent SHA-256 audit of all 993 stored files. Source rights, private/offline material, external resources, and independent off-repository backups remain separate provenance and access-review work.
 
 ## Next actions
 
-- [ ] Register each source using the full schema in [`SCHEMA.md`](SCHEMA.md).
-- [ ] Obtain and record SHA-256 checksums for exact source bytes.
-- [ ] Preserve an independent archival copy with access and rights controls.
-- [ ] Inspect source structure and define reliable record boundaries.
-- [ ] Compare English collection overlap without deleting either source.
-- [ ] Compare Chinese PDF pages with the TXT version, including visual content.
-- [ ] Create source-linked record entries only after locators and context rules are verified.
-- [ ] Extend the inventory to other repositories, project uploads, external archives, local collections, and media.
+- Review and correct the 206-page OCR derivative against the original PDFs; prioritize pages with recognized Chinese text and the 10 high-similarity TXT/PDF comparisons.
+- Complete visual/format comparison of the Entropy DOCX and RTF, including the RTF-only table of contents and any layout or metadata differences.
+- Investigate the seven Yuanwushi 404 resources using the separate recovery-candidate register; do not treat same-path candidates as verified originals.
+- Complete Awakenology live-site parity, alias/redirect, asset, and historical-version review.
+- Inventory additional external, private, offline, historical, and other-repository sources; review rights and privacy before copying.
+- Continue monthly additive source updates and regenerate derived indexes against exact immutable source versions.
 
 **Preserve every original version. Establish what each file is before extracting what it contains.**
 
@@ -137,9 +142,9 @@ Two versions of the source titled **熵值检测点RR部分** are present in `ma
 | Provisional source key | Repository path | Format | Size (bytes) | Git blob SHA | Status |
 |---|---|---|---:|---|---|
 | SRC-CAND-007 | `materials/熵值检测点RR部分.docx` | DOCX | 1,764,873 | `509d7dc53ba656bcc4b7f19631d162986b0a9119` | Identified; binary content not inspected |
-| SRC-CAND-008 | `materials/熵值检测点RR部分.rtf` | RTF | 812,389 | `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657` | Text extracted; structural index prepared |
+| SRC-CAND-008 | `materials/熵值检测点RR部分.rtf` | RTF | 812,389 | `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657` | Text extracted; includes a 3,266-character TOC absent from DOCX; body text matches DOCX after excluding TOC |
 
-Do not assume that the DOCX and RTF are byte-identical, text-identical, or equally complete. The RTF is the currently readable version used for the content index. Both originals remain preserved.
+The formats are not text-identical: the RTF contains a 3,266-character table-of-contents block absent from the DOCX. After excluding that block, their normalized body text matches exactly. This does not establish identical formatting, layout, metadata, or provenance. Both originals remain preserved.
 
 ### Source-derived metadata from the readable RTF
 
@@ -167,7 +172,7 @@ The following source scopes are formally registered under the owner's completene
 |---|---|---|---|---|
 | SRC-RED-COMMENTS | `materials/reddit-english-all.txt` and `materials/reddit-english-qa.txt` | TXT; complete Reddit archives for their intended collection scopes | Complete per owner; manually extracted and checked | Add one new checked version monthly; preserve prior versions |
 | SRC-WEIBO-POSTS | `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt` | TXT; complete Weibo original-post archive for its intended scope | Complete per owner; manually extracted and checked | Add one new checked version monthly; preserve prior versions |
-| SRC-AWK-REPO | `materials/awakenology/` (physical tracked-file archive) | Full Awakenology Git repository tree at `05523aec14c286bce397678b8a213cca1fc29563` | Complete physical copy of the pinned repository snapshot: 648 blobs / 51,750,456 bytes | Update from upstream `main` monthly; preserve prior snapshots and manifests |
+| SRC-AWK-REPO | `materials/awakenology/` (physical tracked-file archive) | Full Awakenology Git repository tree at `05523aec14c286bce397678b8a213cca1fc29563` | Complete physical copy: 648 blobs / 51,750,456 bytes; subtree SHA exactly matches upstream root tree SHA `6fd6ffabeb09b671f15b4b81e27a378b5f5a6bd1` | Update from upstream `main` monthly; preserve prior snapshots and manifests |
 
 **Awakenology snapshot implementation note:** the library contains an ordinary tracked-file copy under `materials/awakenology/`, with 648 Git blobs across 823 tree entries (51,750,456 bytes), matching the pinned upstream tree. This is a physical copy within the Science of Origin repository, not a submodule pointer. Live-site parity and future upstream changes remain separate checks.
 
@@ -203,6 +208,10 @@ Seven linked resources returned HTTP 404 during the 2026-11-25 capture (one audi
 
 The 993 stored files pass independent checksums, and the 2,659 listing IDs reconcile to the displayed total. These checks do not independently verify every linked Q&A detail-page body, embedded media, deleted/private records, or all historical/unlinked resources. The seven 404 resources remain individually recorded pending alternate-source recovery checks or explicit disposition.
 
+### Yuanwushi 404 recovery candidates — separate, unverified layer
+
+The 2026-11-25 crawl recorded seven HTTP 404 resources. Six image files referenced by Yuanwushi article-13-6710 have same-relative-path/name candidates in the Awakenology physical archive. The T-Rex audio referenced by article-5-6634 has a candidate copy from `mdn/interactive-examples` at pinned commit `13024db581b08fae11a0ca229497198b9b0534e7`, whose repository declares CC0 1.0 Universal. The candidate files, sizes, SHA-256 values, and provenance are recorded under `materials/yuanwushi/recovery-candidates/`. None is byte-verified against the unavailable Yuanwushi original; they remain candidates and do not replace the original crawl.
+
 ### Science of Consciousness project uploads — originals registered
 
 Two UTF-8 TXT source documents supplied in this project workspace on 2026-11-25 have been copied unchanged into `materials/science-of-consciousness/`:
@@ -214,11 +223,11 @@ Two UTF-8 TXT source documents supplied in this project workspace on 2026-11-25 
 
 These are source documents, not a merged or normalized replacement. Their contents are related but not identical in scope: the project-description document includes the research scope, four core fields, Spectrum/Spectra methodology, the Spectrum of Things = Spectrum of Consciousness research objective, five applications, principles, and vision; the architecture outline is a shorter hierarchy. Preserve both originals. No scientific claims in either file are independently validated by this registration.
 
-### Chinese compilation and Entropy assessment sources — review still open
+### Chinese compilation and Entropy assessment — current comparison results
 
-The Chinese compilation remains represented by two original PDF volumes and one TXT file. The TXT index has 1,671 page markers; 206 markers have no extracted nonblank text and require visual PDF review. PDF-to-TXT page equivalence, visual content, and provenance are not yet established.
+The Chinese PDF/TXT page comparison and OCR review results are recorded in `library/coverage/source-format-comparison-2026-11-25.md`. The 206 pages with no extractable text are preserved as a separate OCR derivative; the OCR is uncorrected and requires human verification.
 
-The Entropy assessment DOCX and RTF remain separate original source objects. The RTF has a derived structural index; DOCX/RTF equivalence, completeness, tables, embedded media, and formatting fidelity remain unverified. Do not treat the RTF extraction as a substitute for inspecting the DOCX.
+The Entropy DOCX and RTF body text matches exactly after excluding the RTF-only 3,266-character table of contents. The DOCX has 957 paragraphs and no tables, inline shapes, or embedded media. Visual formatting, page layout, metadata, and the TOC difference still require review.
 
 ### Repository-wide integrity and collection boundary
 
