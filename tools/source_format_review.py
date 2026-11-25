@@ -100,7 +100,7 @@ def main():
         else: status="low-similarity"
         rows.append({"page_number":n,"txt_characters":len(t),"pdf_characters":len(p),
             "normalized_similarity":f"{ratio:.4f}","status":status,
-            "txt_excerpt":t[:100].replace("\n"," "),"pdf_excerpt":p[:100].replace("\n"," ")})
+            "txt_excerpt":safe_text(t[:100]).replace("\n"," "),"pdf_excerpt":safe_text(p[:100]).replace("\n"," ")})
     csv_path=LIB/"chinese-compilation-pdf-text-comparison-2026-11-25.csv"
     with csv_path.open("w",encoding="utf-8-sig",newline="") as f:
         writer=csv.DictWriter(f,fieldnames=list(rows[0].keys())); writer.writeheader(); writer.writerows(rows)
