@@ -1,8 +1,8 @@
 # Original Source Collection Register
 
 **Register version:** 0.2  
-**Repository snapshot:** `45de49cb111a378e5baf9eaba847911be9edf18e`  
-**Status:** Updated 2026-11-25. Reddit and Weibo supplied TXT archives are owner-confirmed complete for their defined scopes; Awakenology is registered as a pinned repository snapshot; other provenance and live-source checks remain separately tracked.
+**Latest repository commit reviewed:** `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755`  
+**Status:** Reconciled 2026-11-25. Reddit/Weibo supplied TXT scopes are owner-confirmed complete; Awakenology is physically archived; Yuanwushi's initial crawl passed independent checksums; Science of Consciousness uploads are registered. Other comparisons and live-source checks remain open.
 
 ## Purpose
 
@@ -167,6 +167,50 @@ The following source scopes are formally registered under the owner's completene
 |---|---|---|---|---|
 | SRC-RED-COMMENTS | `materials/reddit-english-all.txt` and `materials/reddit-english-qa.txt` | TXT; complete Reddit archives for their intended collection scopes | Complete per owner; manually extracted and checked | Add one new checked version monthly; preserve prior versions |
 | SRC-WEIBO-POSTS | `materials/weibo-1760432301-combined-originals-2026-11-24T06-35-03-529Z.txt` | TXT; complete Weibo original-post archive for its intended scope | Complete per owner; manually extracted and checked | Add one new checked version monthly; preserve prior versions |
-| SRC-AWK-REPO | `materials/awakenology` (pinned Git submodule reference) | Full Awakenology Git repository tree at `05523aec14c286bce397678b8a213cca1fc29563` | Complete pinned repository snapshot reference; see limitation below | Update from upstream `main` monthly and preserve prior commit references |
+| SRC-AWK-REPO | `materials/awakenology/` (physical tracked-file archive) | Full Awakenology Git repository tree at `05523aec14c286bce397678b8a213cca1fc29563` | Complete physical copy of the pinned repository snapshot: 648 blobs / 51,750,456 bytes | Update from upstream `main` monthly; preserve prior snapshots and manifests |
 
-**Awakenology snapshot implementation note:** the library stores a Git submodule pointer pinned to the exact upstream commit plus a complete path/mode/Git-blob-SHA/size manifest. This makes the repository snapshot reproducible and traceable, but it is not an independent physical duplication of every upstream blob. The source repository remains the content host for the submodule checkout.
+**Awakenology snapshot implementation note:** the library contains an ordinary tracked-file copy under `materials/awakenology/`, with 648 Git blobs across 823 tree entries (51,750,456 bytes), matching the pinned upstream tree. This is a physical copy within the Science of Origin repository, not a submodule pointer. Live-site parity and future upstream changes remain separate checks.
+
+
+## Authoritative source-status reconciliation — 2026-11-25
+
+This section supersedes earlier status statements in this register wherever they conflict with the dated findings below. Earlier notes are retained as historical records of the state at the time they were written; they are not the current status.
+
+### Reddit and Weibo supplied TXT archives
+
+The project owner confirms that the two Reddit TXT files and the Weibo TXT export are complete, manually extracted and checked for their intended scopes. Their status is **complete for those owner-defined supplied-file scopes**. Existing structural indexes are derived navigation aids and do not redefine archive completeness. Monthly updates are additive; preserve each prior source version unchanged. Optional media recovery and platform-wide comparison are separate workstreams.
+
+### Awakenology repository — physical archive verified
+
+The current Science of Origin repository contains an ordinary tracked-file copy under `materials/awakenology/`, not a Git submodule pointer. The current repository tree contains 648 file blobs under that path, totaling 51,750,456 bytes, across 823 tree entries, matching the pinned upstream snapshot at commit `05523aec14c286bce397678b8a213cca1fc29563`. The files are stored as regular Git blobs in this repository. The earlier submodule descriptions in this register and related records are obsolete and superseded.
+
+Scope limitation: this verifies the pinned repository tree, not live Awakenology website parity, historical upstream revisions, external linked resources, or future changes. Monthly upstream comparison and additive snapshot history remain required.
+
+### Yuanwushi website — initial crawl and independent checksum audit passed
+
+**Source ID:** `SRC-YWS-WEB`. The 2026-11-25 snapshot is stored on branch `automation/yuanwushi-crawl` at commit `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`. Its capture manifest contains 1,001 records; 993 files are stored at 993 unique paths, totaling 307,557,680 bytes. The independent checksum audit verified all 993 stored files: zero missing files, invalid paths, duplicate path groups, size mismatches, or SHA-256 mismatches. The audit workflow run is [45554125468](https://github.com/shifter888ai/ScienceOfOrigin/actions/runs/45554125468).
+
+The crawl captured 106 article pages, 133 Wiki/Q&A pagination pages, 21 CX Club lessons, 727 linked attachments/media items, and two PDFs. The report records seven HTTP 404 resources (one audio file and six gallery images). This establishes integrity of the captured files, not absolute completeness of every public or historical site resource. The reported Wiki/Q&A aggregate of 2,659 records still requires pagination/count reconciliation; the seven unavailable resources remain individually gap-coded.
+
+### Science of Consciousness project uploads — originals registered
+
+Two UTF-8 TXT source documents supplied in this project workspace on 2026-11-25 have been copied unchanged into `materials/science-of-consciousness/`:
+
+| Source ID | Original filename | Repository path | SHA-256 |
+|---|---|---|---|
+| SRC-SOC-FRAMEWORK | `Science-of-Consciousness.txt` | `materials/science-of-consciousness/Science-of-Consciousness.txt` | `0955131bcdfadffcf59cafbeb5fd6f97cb4fd163137f40e1c950ee6a19c44a53` |
+| SRC-SOC-ARCH | `Science-of-Consciousness-—-Research-Architecture.txt` | `materials/science-of-consciousness/Science-of-Consciousness-—-Research-Architecture.txt` | `cded63335372b921c7fda4922d046410cb96ffee020063e75b201c1f6ed2e4f0` |
+
+These are source documents, not a merged or normalized replacement. Their contents are related but not identical in scope: the project-description document includes the research scope, four core fields, Spectrum/Spectra methodology, the Spectrum of Things = Spectrum of Consciousness research objective, five applications, principles, and vision; the architecture outline is a shorter hierarchy. Preserve both originals. No scientific claims in either file are independently validated by this registration.
+
+### Chinese compilation and Entropy assessment sources — review still open
+
+The Chinese compilation remains represented by two original PDF volumes and one TXT file. The TXT index has 1,671 page markers; 206 markers have no extracted nonblank text and require visual PDF review. PDF-to-TXT page equivalence, visual content, and provenance are not yet established.
+
+The Entropy assessment DOCX and RTF remain separate original source objects. The RTF has a derived structural index; DOCX/RTF equivalence, completeness, tables, embedded media, and formatting fidelity remain unverified. Do not treat the RTF extraction as a substitute for inspecting the DOCX.
+
+### Repository-wide integrity and collection boundary
+
+The current `main` tree at commit `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755` contains 876 tracked file blobs totaling 113,056,244 bytes. This is a tree inventory count, not a SHA-256 audit. The repository-wide manifest and checksums must be regenerated/verified against this current commit; the earlier manifest snapshot is stale. External, private, offline, historical, and other-account sources have not been comprehensively inventoried, so the entire library must not yet be declared complete.
+
+**Preservation rule:** keep original source files immutable; store indexes, extraction outputs, comparisons, and interpretations as separately identified derived layers.
