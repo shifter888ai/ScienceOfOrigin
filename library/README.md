@@ -24,7 +24,7 @@ The library is not limited to the current research framework, the current websit
 - [Trilingual Glossary Inventory](TRILINGUAL-GLOSSARY-INVENTORY.md) — curated working explanations in three languages, kept distinct from verbatim source wording.
 - These are internal research files. The published Terminology and Glossary HTML pages remain English-only.
 - Japanese and English renderings of Chinese source passages are editorial translations unless the original source independently supplies those forms.
-- Version 0.2 adds direct passage extraction from the completed Chinese compilation TXT and the English Reddit archive. The inventories remain incomplete, successive extraction records; unresolved entries must not be promoted to settled public definitions.
+- Versions 0.2–0.3 add direct passage extraction from the completed Chinese compilation TXT, the English Reddit archive, and current Science of Origin framework pages. The inventories remain successive research records; unresolved entries must not be promoted to settled public definitions.
 
 ## Source completion tracking
 
