@@ -18,7 +18,7 @@
 
 - both-no-extracted-text: 206
 - exact-normalized-match: 1,455
-- high-similarity: 10
+- high-similarity: 10 (normalized similarity 0.9804–0.9955)
 
 Similarity is computed after Unicode NFKC normalization and whitespace removal. It is a triage measure, not proof of transcription fidelity. Page-number alignment assumes TXT Page N corresponds to combined PDF page N; volume offsets and inserted cover pages must be checked before interpreting low similarity as omission.
 Contact sheets are review aids only. OCR is a machine-generated derivative and has not been manually corrected; a blank OCR result does not prove a page is blank. The 10-Han-character threshold is only a screening measure, not a quality guarantee.
@@ -31,7 +31,7 @@ Manual overview review of all 18 contact sheets found mixed image-only content: 
 - Normalized text similarity: 0.9377
 - Exact normalized text equality: no
 - Body comparison: The only normalized text difference is an RTF-only table-of-contents block of 3,266 characters inserted after the opening 99 characters. After excluding that block, the DOCX and RTF body text matches exactly.
-- DOCX structure: 957 paragraphs, 0 tables, 0 inline shapes, 0 embedded media files, 1 sections
+- DOCX structure: 957 paragraphs, 0 tables, 0 inline shapes, 0 embedded media files, 1 section
 
 DOCX extraction preserves paragraph and table-cell text in document-body order. RTF text was extracted with striprtf. Similarity does not assess layout, images, formulas, footnotes, comments, or semantic equivalence. Inspect differences and embedded objects before deciding whether one format faithfully represents the other.
 
