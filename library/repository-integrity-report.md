@@ -1,6 +1,6 @@
 # Repository Integrity Audit
 
-**Generated (UTC):** 2026-11-25T06:21:39.527329+00:00
+**Generated (UTC):** 2026-11-25T06:24:39.145547+00:00
 
 ## Scope
 
@@ -12,13 +12,13 @@ Git blob SHA-1 values were independently recomputed from exact blob bytes and co
 
 | Ref | Commit | Tracked blobs | Bytes | Non-blob entries | LFS pointers |
 |---|---|---:|---:|---:|---:|
-| main | 4bbb8a5712b54bc6e4339567bbeca6551ef1545f | 897 | 114,174,511 | 0 | 0 |
+| main | 61e9649dd29a3131c37e674ac61ceb5880eb4656 | 897 | 114,185,422 | 0 | 0 |
 | refs/remotes/origin/automation/yuanwushi-crawl | e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae | 1,870 | 421,098,213 | 0 | 0 |
 
 ## Aggregate
 
 - Unique Git blobs independently hashed: **1,534**
-- Unique blob bytes read: **402,527,909**
+- Unique blob bytes read: **402,538,820**
 - Path/ref records: **2,767**
 - Git blob SHA-1 mismatches: **0** (the script stops on any mismatch)
 - SHA-256 values recorded: **1,534**
