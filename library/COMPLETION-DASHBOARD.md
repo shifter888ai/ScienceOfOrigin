@@ -5,7 +5,7 @@
 **Decision record:** [Initial Library Assembly Decision](coverage/2026-11-25-initial-library-assembly-decision.md)  
 **Integrity baseline:** [Repository integrity report](repository-integrity-report.md) and [path-level manifest](repository-integrity-manifest.json).
 
-<badge>Baseline assembled</badge>
+**Baseline assembled**
 
 **Overall status:** Initial Library Assembly is complete within the identified and owner-confirmed source scope. Library Coverage and Maintenance remains ongoing. Seven Yuanwushi resources are explicitly unavailable/unverified; Awakenology live-site parity is a separate, unfinished verification track. Neither is represented as recovered or verified.
 
