@@ -1,7 +1,7 @@
 # Original Source Collection Register
 
 **Register version:** 0.2  
-**Latest repository commit reviewed:** `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755`  
+**Main commit audited:** `4bbb8a5712b54bc6e4339567bbeca6551ef1545f`  
 **Status:** Reconciled 2026-11-25. Reddit/Weibo supplied TXT scopes are owner-confirmed complete; Awakenology is physically archived; Yuanwushi's initial crawl passed independent checksums and its 2,659-record listing reconciles; Science of Consciousness uploads are registered. Other comparisons and live-source checks remain open.
 
 ## Purpose
@@ -141,7 +141,7 @@ Two versions of the source titled **熵值检测点RR部分** are present in `ma
 
 | Provisional source key | Repository path | Format | Size (bytes) | Git blob SHA | Status |
 |---|---|---|---:|---|---|
-| SRC-CAND-007 | `materials/熵值检测点RR部分.docx` | DOCX | 1,764,873 | `509d7dc53ba656bcc4b7f19631d162986b0a9119` | Identified; binary content not inspected |
+| SRC-CAND-007 | `materials/熵值检测点RR部分.docx` | DOCX | 1,764,873 | `509d7dc53ba656bcc4b7f19631d162986b0a9119` | Inspected: 957 paragraphs; no tables, inline shapes, or embedded media; body matches RTF after excluding TOC |
 | SRC-CAND-008 | `materials/熵值检测点RR部分.rtf` | RTF | 812,389 | `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657` | Text extracted; includes a 3,266-character TOC absent from DOCX; body text matches DOCX after excluding TOC |
 
 The formats are not text-identical: the RTF contains a 3,266-character table-of-contents block absent from the DOCX. After excluding that block, their normalized body text matches exactly. This does not establish identical formatting, layout, metadata, or provenance. Both originals remain preserved.
@@ -225,12 +225,16 @@ These are source documents, not a merged or normalized replacement. Their conten
 
 ### Chinese compilation and Entropy assessment — current comparison results
 
-The Chinese PDF/TXT page comparison and OCR review results are recorded in `library/coverage/source-format-comparison-2026-11-25.md`. The 206 pages with no extractable text are preserved as a separate OCR derivative; the OCR is uncorrected and requires human verification.
+**Source ID:** `SRC-CHINESE-COMPILATION`. The two PDFs contain 1,671 pages total (1,100 + 571), matching the TXT's 1,671 page markers. The page-level comparison found 1,455 exact normalized matches, 10 high-similarity matches (0.9804–0.9955), and 206 pages with no extractable text in either source. All 18 contact sheets were visually triaged; the image-only pages contain screenshots/text-bearing images, diagrams/illustrations, and some apparently blank/near-blank pages. Tesseract OCR produced non-empty output on 192/206 pages; 143 pages contain at least 10 recognized Han characters. The 63,773 raw OCR characters are preserved as an uncorrected derivative under `library/derived/`. See `library/coverage/source-format-comparison-2026-11-25.md` and `library/coverage/chinese-compilation-pdf-text-comparison-2026-11-25.csv`. Human OCR verification and page-by-page visual classification remain open.
 
-The Entropy DOCX and RTF body text matches exactly after excluding the RTF-only 3,266-character table of contents. The DOCX has 957 paragraphs and no tables, inline shapes, or embedded media. Visual formatting, page layout, metadata, and the TOC difference still require review.
+**Source ID:** `SRC-ENTROPY-RR`. The DOCX has 957 paragraphs, no tables, inline shapes, or embedded media. The RTF includes a 3,266-character table-of-contents block absent from the DOCX; after excluding this block, normalized body text matches exactly. The formats are not otherwise established as layout-identical. Review of page layout, metadata, and the TOC difference remains open.
 
 ### Repository-wide integrity and collection boundary
 
-The current `main` tree at commit `78ee76b1b349bb0ba2abc47aefc5ded9d2aac755` contains 876 tracked file blobs totaling 113,056,244 bytes. This is a tree inventory count, not a SHA-256 audit. The repository-wide manifest and checksums must be regenerated/verified against this current commit; the earlier manifest snapshot is stale. External, private, offline, historical, and other-account sources have not been comprehensively inventoried, so the entire library must not yet be declared complete.
+The active SHA-256 manifest and report are `library/repository-integrity-manifest.json` and `library/repository-integrity-report.md`. The 2026-11-25 audit covered main commit `4bbb8a5712b54bc6e4339567bbeca6551ef1545f` and the final Yuanwushi archive branch `e9f8f7cadf6e9aa31063a781e1708f38d4c2c3ae`: 897 main blobs / 114,174,511 bytes; 1,870 Yuanwushi-branch blobs / 421,098,213 bytes; 1,534 unique Git blobs hashed; 402,527,909 unique-blob bytes; 2,767 path/ref records; zero Git blob SHA-1 mismatches; no Git LFS pointers. Generated manifest/report paths are excluded from the inventory. This is a tracked branch-tip audit, not an audit of unreachable Git history or external resources.
 
-**Preservation rule:** keep original source files immutable; store indexes, extraction outputs, comparisons, and interpretations as separately identified derived layers.
+The Awakenology physical subtree (648 blobs / 51,750,456 bytes) has a tree SHA exactly matching the pinned upstream commit's root tree SHA. The two Science of Consciousness TXT uploads have SHA-256 values matching the originals supplied in this project workspace. The Yuanwushi snapshot has an independent SHA-256 audit of all 993 stored files. Historical automation branches were compared by path and blob identity; no unique source paths were found outside main, except an obsolete `.gitmodules` entry in an early Awakenology branch.
+
+The four priority acquisition milestones are complete within their owner-defined scopes: Reddit supplied TXT, Weibo supplied TXT, Awakenology pinned repository snapshot, and Yuanwushi initial website crawl. This does not prove that all external, private, offline, historical, or other-account sources have been discovered. Rights/privacy review and live-source parity remain open.
+
+**Preservation rule:** keep original source files immutable; store indexes, extraction outputs, comparisons, OCR, and interpretations as separately identified derived layers.
