@@ -5,16 +5,18 @@
 **RTF Git blob SHA:** `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`  
 **Transcription date:** 2026-11-26  
 **Source section:** `附录：互催原文档`, printed TOC locator page 65  
-**Transcribed paragraphs:** 2151 non-empty paragraphs  
+**Transcribed text runs:** 2151 non-empty text runs  
 **Transcribed text length:** 28,789 characters
+
+**Independent RTF check:** All 2,151 numbered text runs were found in the original RTF text-run sequence, in the same order; see [RTF v1.1 Layout Verification](entropy-assessment-layout-verification-v1.1.md).
 
 ## Scope and handling
 
-This file records the RTF appendix body in source order as a searchable text transcription. It preserves the original Chinese wording and the order of non-empty text paragraphs, including the assessment labels `RR`, `88` and `JJ`, values/ranges, comments, nested headings and source terminology.
+This file records the RTF appendix body in source order as a searchable text transcription. It preserves the original Chinese wording and the order of 2,151 non-empty visible text runs, including the assessment labels `RR`, `88` and `JJ`, values/ranges, comments, nested headings and source terminology.
 
 - RTF bookmark boundary groups were removed while retaining the visible label text immediately following those bookmarks.
 - RTF Unicode escapes were decoded; formatting control words and layout instructions were removed.
-- Paragraph breaks are retained as numbered source lines. Formatting distinctions, tables/layout, font emphasis and exact visual grouping are not reconstructed.
+- Each numbered source line corresponds to an extracted visible text run; it is not necessarily a Word paragraph. Formatting-run boundaries are retained as separate numbered lines. Paragraph/page layout, tables, font emphasis and exact visual grouping are not reconstructed.
 - Some numbers, punctuation marks and label/value fragments appear in separate paragraphs because the original RTF uses separate formatted runs. They have **not** been semantically joined or assigned to fields here.
 - This is not a translation, scientific validation, scoring interpretation, or completed normalized point-level register.
 - The preceding table of contents and page locators are documented in [Entropy Assessment Source Review — RTF v1.1](ENTROPY-ASSESSMENT-SOURCE-REVIEW.md). The printed TOC page references are source locators, not verified PDF page indices.
