@@ -6,7 +6,7 @@
 **RTF Git blob SHA:** `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`  
 **DOCX counterpart:** `materials/熵值检测点RR部分.docx` (1,764,873 bytes; Git blob SHA `509d7dc53ba656bcc4b7f19631d162986b0a9119`)  
 **Version shown:** v1.1; v1.0 material is also referenced  
-**Index status:** Structural extraction from the RTF; not a full point-by-point transcription or validation of the scoring system.
+**Index status:** Structural summary checked against direct inspection of the RTF on 2026-11-26; not a full point-by-point transcription or validation of the scoring system. See `library/record-index/entropy-assessment-point-catalogue.md` for the complete 231-link TOC catalogue.
 
 ## 1. Source and version notes
 
@@ -94,12 +94,12 @@ Page numbers above are the document's printed/table-of-contents references, not 
 - **Freedomality of Consciousness / Science of Freewill:** possible connections may be explored where the source's actual indicators concern autonomy, choice, flexibility, or action. Do not infer these links from area names alone; inspect the exact point descriptions first.
 - **Science of Consciousness / Spectrum of Consciousness:** possible comparison material only after defining whether the source's constructs and measurement units correspond to the project's constructs.
 
-Recommended next research step: build a point-level extraction with exact Chinese wording, table-of-contents/page locator, associated RR/88/JJ entry, and surrounding explanation. Keep source text, source ratings, and research interpretation in separate fields.
+Completed next step: the full linked TOC was extracted with exact Chinese wording and printed page locators into `entropy-assessment-point-catalogue.md`. The derivative catalogue deliberately excludes individual RR/88/JJ scores and case-specific comments. Further work should extract selected point definitions and surrounding general explanations, keeping source wording, individual assessments, and research interpretation in separate fields.
 
 ## 8. Preservation and limitations
 
 - Both DOCX and RTF files remain separate originals in `materials/`.
-- The RTF is the readable version used for this index. The DOCX binary was identified in the repository but not inspected by the current connector.
+- The RTF is the readable version used for this index. The RTF was directly inspected on 2026-11-26. The DOCX binary was identified in the repository but its contents were not independently parsed by the current connector.
 - Git blob identifiers are not SHA-256 checksums.
 - The index is a derivative navigation aid. It does not replace the source, verify its claims, or establish that the supplied section is the complete entropy assessment system.
-- Any later point-level extraction must preserve exact wording, source order, uncertainty, and surrounding context.
+- The linked TOC catalogue preserves the source wording, order and printed page locators. Further point-level definition work should preserve surrounding context and keep general source descriptions separate from individual assessment values and comments.
