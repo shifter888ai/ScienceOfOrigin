@@ -277,7 +277,7 @@ The broad relationship is supported by the shared nine-zone structure. However:
 
 ## 8. Research implications and open questions
 
-The original source now supports a more precise follow-up programme. A line-numbered transcription of the RTF appendix body has been added at [`library/entropy-assessment-body-transcription-v1.1.md`](entropy-assessment-body-transcription-v1.1.md). It preserves 1,353 non-empty source paragraphs in order. This is a searchable transcription, not yet a normalized point register: score labels, values and comments have not been semantically assigned to headings where the original layout fragments them across formatted runs.
+The original source now supports a more precise follow-up programme. A line-numbered transcription of the RTF appendix body has been added at [`library/entropy-assessment-body-transcription-v1.1.md`](entropy-assessment-body-transcription-v1.1.md). It preserves 2,151 non-empty source paragraphs in order. This is a searchable transcription, not yet a normalized point register: score labels, values and comments have not been semantically assigned to headings where the original layout fragments them across formatted runs.
 
 Remaining extraction steps:
 
