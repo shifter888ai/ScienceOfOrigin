@@ -41,7 +41,7 @@ These three blocks follow the Zone 1 overview explanation and precede the statem
 
 - `RR` (source form `RR`; L0027–L0030): 30-60 / ，不平衡，主要还是需要整体视角去破除当中的程序意识。
 - `88` (source form `88`; L0031–L0033): 1200
-- `JJ` (source form `JJ`; L0034–L0040): 80-120 / 再具体细分为 / 5 / 个小点
+- `JJ` (source form `JJ`; L0034–L0039): 80-120 / 再具体细分为 / 5 / 个小点
 
 ### Zone 1 — Part 3 aggregate
 
@@ -49,7 +49,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 
 - `RR` (source form `RR`; L0444–L0446): 40-60
 - `88` (source form `88`; L0447–L0449): 900-1200
-- `JJ` (source form `JJ`; L0450–L0453): 120
+- `JJ` (source form `JJ`; L0450–L0452): 120
 
 ## 4. Point and sub-indicator records
 
@@ -181,7 +181,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0073–L0076): 30 / ，较弱，缺乏突破极限的魄力，觉得只要能跨维度就可以了，不敢想去追求更多维度极限的效果，以为那些是高阶才需要去努力的。
   - `88` (source form `88`; L0077–L0079): 800
-  - `JJ` (source form `JJ`; L0080–L0084): 70 / ，这方面稍有不足。
+  - `JJ` (source form `JJ`; L0080–L0083): 70 / ，这方面稍有不足。
 
 ### 013. 2、多维边界清晰度。
 
@@ -195,7 +195,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0087–L0090): 40 / ，这方面不重视，划分粗糙，认为物质界是一个维度，灵界一个维度，没有对灵界维度继续细分，建议可以挖掘一些基础信息，比如什么是维度，维度的本质，维度的划分，维度的边界等。
   - `88` (source form `88`; L0091–L0093): 900
-  - `JJ` (source form `JJ`; L0094–L0097): 120
+  - `JJ` (source form `JJ`; L0094–L0096): 120
 
 ### 014. 3、多维中整体视角把握的能力
 
@@ -209,7 +209,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0100–L0102): 60
   - `88` (source form `88`; L0103–L0105): 1200
-  - `JJ` (source form `JJ`; L0106–L0109): 100
+  - `JJ` (source form `JJ`; L0106–L0108): 100
 
 ### 015. 4、多维中抗干扰的能力
 
@@ -249,7 +249,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0150–L0153): 60-80 / ，天然的一个特性，属于强点之一，需要去练习和强化。
   - `88` (source form `88`; L0154–L0157): 1200 / ，这方面比较强，所以会敢于更多冒进。综合下来安全值也很高。
-  - `JJ` (source form `JJ`; L0158–L0162): 80-90 / ，需要加强。
+  - `JJ` (source form `JJ`; L0158–L0161): 80-90 / ，需要加强。
 
 ### 018. 5、多维的双向意识操作能力
 
@@ -263,7 +263,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0165–L0167): 40-60
   - `88` (source form `88`; L0168–L0170): 1600
-  - `JJ` (source form `JJ`; L0171–L0174): 90-100
+  - `JJ` (source form `JJ`; L0171–L0173): 90-100
 
 ### 019. 6、多维间的稳定性
 
@@ -315,7 +315,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0210–L0213): 60-80 / ，灵魂天然特性的强点。
   - `88` (source form `88`; L0214–L0216): 1200
-  - `JJ` (source form `JJ`; L0217–L0220): 120
+  - `JJ` (source form `JJ`; L0217–L0219): 120
 
 ### 023. 6、多维度间的整理协作的能力
 
@@ -329,7 +329,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0223–L0225): 40
   - `88` (source form `88`; L0226–L0228): 1200
-  - `JJ` (source form `JJ`; L0229–L0232): 80-90
+  - `JJ` (source form `JJ`; L0229–L0231): 80-90
 
 ### 024. 7、独立观测的能力
 
@@ -343,7 +343,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0235–L0237): 40
   - `88` (source form `88`; L0238–L0240): 1600
-  - `JJ` (source form `JJ`; L0241–L0244): 90
+  - `JJ` (source form `JJ`; L0241–L0243): 90
 
 ### 025. 8、多维广度的程度
 
@@ -357,7 +357,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0247–L0249): 60
   - `88` (source form `88`; L0250–L0252): 1200-1400
-  - `JJ` (source form `JJ`; L0253–L0256): 80-90
+  - `JJ` (source form `JJ`; L0253–L0255): 80-90
 
 ### 026. 9、多维总括能力
 
@@ -415,7 +415,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0283–L0285): 40
   - `88` (source form `88`; L0286–L0288): 800
-  - `JJ` (source form `JJ`; L0289–L0292): 90
+  - `JJ` (source form `JJ`; L0289–L0291): 90
 
 ### 031. 2、关键帧当中可持续运作的能力
 
@@ -459,7 +459,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0301–L0304): 60 / ，这方面其实是一个强项。重点强化提升会很快。
   - `88` (source form `88`; L0305–L0307): 1200
-  - `JJ` (source form `JJ`; L0308–L0311): 120
+  - `JJ` (source form `JJ`; L0308–L0310): 120
 
 ### 035. 3、这些关键帧的整体把握能力
 
@@ -503,7 +503,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0320–L0322): 40
   - `88` (source form `88`; L0323–L0325): 900
-  - `JJ` (source form `JJ`; L0326–L0329): 85
+  - `JJ` (source form `JJ`; L0326–L0328): 85
 
 ### 039. 4、多维度间的经验与本源的贯通程度
 
@@ -517,7 +517,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0333–L0335): 40
   - `88` (source form `88`; L0336–L0339): 1200-1600 / ，不是很稳定，取决于
-  - `JJ` (source form `JJ`; L0346–L0349): 80-90
+  - `JJ` (source form `JJ`; L0346–L0348): 80-90
 
 ### 040. 5、多维度的整体升维能力
 
@@ -531,7 +531,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0360–L0362): 40-60
   - `88` (source form `88`; L0363–L0365): 1600
-  - `JJ` (source form `JJ`; L0366–L0369): 100-120
+  - `JJ` (source form `JJ`; L0366–L0368): 100-120
 
 ### 041. 6、多维间回到本源的能力
 
@@ -598,7 +598,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0407–L0410): 1 / 级，
   - `88` (source form `88`; L0413–L0418): 4 / 级 / -6 / 级，和经验的不平衡有关。
-  - `JJ` (source form `JJ`; L0419–L0423): 3 / 级，静静很重视这方面的发展，发展的比较丰富。
+  - `JJ` (source form `JJ`; L0419–L0422): 3 / 级，静静很重视这方面的发展，发展的比较丰富。
 
 ### 047. 2、多维度间这些想象源的转换能力
 
@@ -626,7 +626,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0456–L0458): 60-80
   - `88` (source form `88`; L0459–L0461): 1600-1800
-  - `JJ` (source form `JJ`; L0462–L0465): 120
+  - `JJ` (source form `JJ`; L0462–L0464): 120
 
 ### 049. 2、多维间本源视角的整合度
 
@@ -639,7 +639,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0467–L0470): 60 / 左右
   - `88` (source form `88`; L0471–L0473): 1200
-  - `JJ` (source form `JJ`; L0474–L0477): 90
+  - `JJ` (source form `JJ`; L0474–L0476): 90
 
 ### 050. 1）本源视角的整合程度
 
@@ -686,7 +686,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0489–L0492): 85-90 / ，也是
   - `88` (source form `88`; L0495–L0497): 1800
-  - `JJ` (source form `JJ`; L0498–L0501): 110-120
+  - `JJ` (source form `JJ`; L0498–L0500): 110-120
 
 ### 054. 4、本源权限在多维间的发挥能力。
 
@@ -700,7 +700,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0504–L0506): 60-80
   - `88` (source form `88`; L0507–L0509): 1400-1600
-  - `JJ` (source form `JJ`; L0510–L0513): 120
+  - `JJ` (source form `JJ`; L0510–L0512): 120
 
 ### 055. 5、运用本源意识维护维度平衡的能力。
 
@@ -714,7 +714,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0517–L0520): 60-80 / ，局部平衡的维护较多。继续扩展视角的话会有更大的提高。
   - `88` (source form `88`; L0521–L0523): 1600-1800
-  - `JJ` (source form `JJ`; L0524–L0527): 120
+  - `JJ` (source form `JJ`; L0524–L0526): 120
 
 ### 056. 6、多维间本源意识运用的针穿度
 
@@ -728,7 +728,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0530–L0532): 60-80
   - `88` (source form `88`; L0533–L0535): 1600
-  - `JJ` (source form `JJ`; L0536–L0539): 100-120
+  - `JJ` (source form `JJ`; L0536–L0538): 100-120
 
 ### 057. 7、运用本源意识对多维进行调频的程度
 
@@ -742,7 +742,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0542–L0545): 60 / 左右
   - `88` (source form `88`; L0546–L0548): 1200
-  - `JJ` (source form `JJ`; L0549–L0552): 110
+  - `JJ` (source form `JJ`; L0549–L0551): 110
 
 ### 058. 8、运用本源意识创造新维度的能力。
 
@@ -756,7 +756,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0556–L0558): 40-60
   - `88` (source form `88`; L0559–L0561): 1800
-  - `JJ` (source form `JJ`; L0562–L0566): 90 / 左右
+  - `JJ` (source form `JJ`; L0562–L0565): 90 / 左右
 
 ### 059. 9、运用本源意识对多维度进行重组的能力。
 
@@ -784,7 +784,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0591–L0596): 1 / 级 / -2 / 级
   - `88` (source form `88`; L0597–L0602): 4 / 级 / -6 / 级
-  - `JJ` (source form `JJ`; L0603–L0609): 2 / 级 / -3 / 级
+  - `JJ` (source form `JJ`; L0603–L0608): 2 / 级 / -3 / 级
 
 ### 061. 2、多维度间的清理能力
 
@@ -832,7 +832,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0648–L0650): 60-70
   - `88` (source form `88`; L0651–L0653): 1000-1200
-  - `JJ` (source form `JJ`; L0654–L0658): 100 / 左右
+  - `JJ` (source form `JJ`; L0654–L0657): 100 / 左右
 
 ### 065. 2、熵值的广度
 
@@ -846,7 +846,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0661–L0663): 40-60
   - `88` (source form `88`; L0664–L0666): 900-1000
-  - `JJ` (source form `JJ`; L0667–L0670): 80-90
+  - `JJ` (source form `JJ`; L0667–L0669): 80-90
 
 ### 066. 3、熵值探索的深度
 
@@ -860,7 +860,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0673–L0675): 60-80
   - `88` (source form `88`; L0676–L0679): 1200 / 左右
-  - `JJ` (source form `JJ`; L0680–L0683): 100-110
+  - `JJ` (source form `JJ`; L0680–L0682): 100-110
 
 ### 067. 4、熵值的发展的动态性
 
@@ -935,7 +935,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0699–L0701): 60-80
   - `88` (source form `88`; L0702–L0704): 1200
-  - `JJ` (source form `JJ`; L0705–L0708): 90-100
+  - `JJ` (source form `JJ`; L0705–L0707): 90-100
 
 ### 074. 5、熵值发展的宏观程度
 
@@ -1090,7 +1090,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0770–L0775): 60-80 / ，这方面其实也是 / rr / 的灵魂特性的强点，也需要好好的去恢复。可以更高效的提升效率。下面的小点中，多样性和灵活性会比较强一些，本身发展方面不太重视强度的提升，可以去做重点强化。
   - `88` (source form `88`; L0776–L0778): 1000-1200
-  - `JJ` (source form `JJ`; L0779–L0782): 100
+  - `JJ` (source form `JJ`; L0779–L0781): 100
 
 ### 088. 2、动态中的资源运用能力
 
@@ -1164,7 +1164,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0797–L0800): 60 / ，其实也是个强点之一，需要好好的回忆和强化。前两项比较强一些，后几项偏弱。
   - `88` (source form `88`; L0801–L0804): 1200 / 左右，感觉是比较平衡。目前可以着重提升最后一项。
-  - `JJ` (source form `JJ`; L0805–L0808): 80-90
+  - `JJ` (source form `JJ`; L0805–L0807): 80-90
 
 ### 095. 3、动态中的分形能力。
 
@@ -1178,7 +1178,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0812–L0814): 80
   - `88` (source form `88`; L0815–L0817): 800
-  - `JJ` (source form `JJ`; L0818–L0821): 90
+  - `JJ` (source form `JJ`; L0818–L0820): 90
 
 ### 096. 4、动态中把握方向的能力
 
@@ -1192,7 +1192,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0824–L0826): 40
   - `88` (source form `88`; L0827–L0829): 1000
-  - `JJ` (source form `JJ`; L0830–L0833): 90-100
+  - `JJ` (source form `JJ`; L0830–L0832): 90-100
 
 ### 097. 5、动态中扩展目标能力
 
@@ -1206,7 +1206,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0836–L0838): 60
   - `88` (source form `88`; L0839–L0842): 800-1200 / ，感觉到这部分是因为自身目的的设定区域主要在发展不太平衡、限制较多的环境中，环境本身可扩展的广度深度比较有限。
-  - `JJ` (source form `JJ`; L0843–L0846): 90
+  - `JJ` (source form `JJ`; L0843–L0845): 90
 
 ### 098. 6、动态中的打击能力
 
@@ -1220,7 +1220,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0850–L0853): 40-60 / ，不是很平衡，对这方面没有很重视，经常停下来打击，缺乏动态打击以及融合发展的意识。
   - `88` (source form `88`; L0854–L0857): 1200 / ，比较擅长这方面，是一个强点。
-  - `JJ` (source form `JJ`; L0858–L0861): 80
+  - `JJ` (source form `JJ`; L0858–L0860): 80
 
 ### 099. 7、动态中的突进能力
 
@@ -1234,7 +1234,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0864–L0867): 40-60 / ，这方面还是有一点偏弱，和判断力有关。判断不好突进的时机，包括突进的角度等，和整体把握有关的。
   - `88` (source form `88`; L0868–L0870): 1000-1200
-  - `JJ` (source form `JJ`; L0871–L0874): 80-90
+  - `JJ` (source form `JJ`; L0871–L0873): 80-90
 
 ### 100. 8、动态中的钓鱼能力
 
@@ -1279,7 +1279,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0884–L0887): 40-60 / ，诱惑类方面比较强一些，检测类主要是全面度不够，需求类的比较偏局部，需要更大的需求的把握。
   - `88` (source form `88`; L0888–L0891): 800-1200 / ，目前在广泛撒网，属于需求类。测试类的相比之下偏弱一些。诱惑类方面，属于擅长布置很大的整体综合类的诱饵陷阱。
-  - `JJ` (source form `JJ`; L0892–L0895): 90
+  - `JJ` (source form `JJ`; L0892–L0894): 90
 
 ### 104. 9、动态中的双向或者全向视角的把握能力
 
@@ -1399,7 +1399,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0993–L0995): 60
   - `88` (source form `88`; L0996–L0998): 800
-  - `JJ` (source form `JJ`; L0999–L1002): 100
+  - `JJ` (source form `JJ`; L0999–L1001): 100
 
 ### 114. 2、分化中的多层次透出能力
 
@@ -1433,7 +1433,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1009–L1011): 40
   - `88` (source form `88`; L1012–L1014): 600
-  - `JJ` (source form `JJ`; L1015–L1018): 80
+  - `JJ` (source form `JJ`; L1015–L1017): 80
 
 ### 117. 3、熵值粒子的灵活碰撞能力
 
@@ -1487,7 +1487,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1029–L1031): 60-70
   - `88` (source form `88`; L1032–L1035): 900-1200 / ，感觉到
-  - `JJ` (source form `JJ`; L1038–L1044): 80 / ，跟 / gg / 的风格很像，也是很少用这个这方面。
+  - `JJ` (source form `JJ`; L1038–L1043): 80 / ，跟 / gg / 的风格很像，也是很少用这个这方面。
 
 ### 122. 4、熵值粒子叠加效能的程度
 
@@ -1541,7 +1541,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1055–L1057): 60
   - `88` (source form `88`; L1058–L1060): 1200
-  - `JJ` (source form `JJ`; L1061–L1064): 110
+  - `JJ` (source form `JJ`; L1061–L1063): 110
 
 ### 127. 5、熵值粒子变化中打散重组的能力
 
@@ -1555,7 +1555,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1067–L1069): 60
   - `88` (source form `88`; L1070–L1072): 900
-  - `JJ` (source form `JJ`; L1073–L1076): 80-90
+  - `JJ` (source form `JJ`; L1073–L1075): 80-90
 
 ### 128. 6、熵值粒子在变幻中的整体协作能力
 
@@ -1618,7 +1618,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1088–L1090): 40-60
   - `88` (source form `88`; L1091–L1094): 1200 / ，擅长的强点。
-  - `JJ` (source form `JJ`; L1095–L1098): 100-110
+  - `JJ` (source form `JJ`; L1095–L1097): 100-110
 
 ### 134. 7、熵值粒子变化中的跨维度把握的能力
 
@@ -1662,7 +1662,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1107–L1109): 50-60
   - `88` (source form `88`; L1110–L1112): 1000-1200
-  - `JJ` (source form `JJ`; L1113–L1116): 100
+  - `JJ` (source form `JJ`; L1113–L1115): 100
 
 ### 138. 8、熵值粒子变化中与其他粒子的协作性
 
@@ -1746,7 +1746,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1133–L1135): 40-60
   - `88` (source form `88`; L1136–L1139): 1000-1200 / ，强点
-  - `JJ` (source form `JJ`; L1140–L1143): 110
+  - `JJ` (source form `JJ`; L1140–L1142): 110
 
 ### 146. 9、熵值粒子的爆开能力
 
@@ -1800,7 +1800,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1155–L1157): 60
   - `88` (source form `88`; L1158–L1160): 1000
-  - `JJ` (source form `JJ`; L1161–L1164): 80-90
+  - `JJ` (source form `JJ`; L1161–L1163): 80-90
 
 ### 151. 10、熵值粒子灵活变化中的稳定性
 
@@ -1814,7 +1814,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1167–L1169): 40
   - `88` (source form `88`; L1170–L1172): 900-1000
-  - `JJ` (source form `JJ`; L1173–L1176): 90
+  - `JJ` (source form `JJ`; L1173–L1175): 90
 
 ### 152. 11、熵值粒子变化中的敏捷性
 
@@ -1828,7 +1828,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1179–L1182): 60 / ，在敏捷性当中的速度还可以，但是效果没有很高，缺乏一些足够的视角支持。
   - `88` (source form `88`; L1183–L1185): 1200
-  - `JJ` (source form `JJ`; L1186–L1189): 80-90
+  - `JJ` (source form `JJ`; L1186–L1188): 80-90
 
 ### 153. 12、熵值粒子在变化中的再生能力
 
@@ -1888,7 +1888,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1214–L1217): 2 / 级左右，也是一个强点。就是虽然各种干扰比较多，但自身的基础振频的稳定性还可以。
   - `88` (source form `88`; L1218–L1221): 6 / 级左右
-  - `JJ` (source form `JJ`; L1222–L1226): 2-3 / 级左右
+  - `JJ` (source form `JJ`; L1222–L1225): 2-3 / 级左右
 
 ### 158. 2、熵值粒子的记忆程度
 
@@ -1916,7 +1916,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1250–L1252): 50-60
   - `88` (source form `88`; L1253–L1255): 1200
-  - `JJ` (source form `JJ`; L1256–L1259): 90
+  - `JJ` (source form `JJ`; L1256–L1258): 90
 
 ### 160. 2、熵值粒子联合的切入点
 
@@ -1930,7 +1930,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1262–L1264): 60
   - `88` (source form `88`; L1265–L1267): 1200
-  - `JJ` (source form `JJ`; L1268–L1271): 90
+  - `JJ` (source form `JJ`; L1268–L1270): 90
 
 ### 161. 3、熵值粒子联合的融合度
 
@@ -1944,7 +1944,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1274–L1276): 60-70
   - `88` (source form `88`; L1277–L1280): 1200-1300 / ，很擅长的强点。
-  - `JJ` (source form `JJ`; L1281–L1284): 90
+  - `JJ` (source form `JJ`; L1281–L1283): 90
 
 ### 162. 4、熵值粒子联合中的重点突出性
 
@@ -1958,7 +1958,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1288–L1291): 50-60 / ，这点需要重点加强。
   - `88` (source form `88`; L1292–L1294): 1000-1200
-  - `JJ` (source form `JJ`; L1295–L1298): 80-90
+  - `JJ` (source form `JJ`; L1295–L1297): 80-90
 
 ### 163. 5、熵值粒子联合的整体协作性
 
@@ -1986,7 +1986,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1328–L1331): 40-60 / ，本身其实很有潜力，如果去重点强化的话，可以发展的很好。
   - `88` (source form `88`; L1332–L1334): 1000
-  - `JJ` (source form `JJ`; L1335–L1338): 80-90
+  - `JJ` (source form `JJ`; L1335–L1337): 80-90
 
 ### 165. 7、熵值粒子联合的演化性
 
@@ -2000,7 +2000,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1343–L1345): 60
   - `88` (source form `88`; L1346–L1348): 1200
-  - `JJ` (source form `JJ`; L1349–L1352): 100-110
+  - `JJ` (source form `JJ`; L1349–L1351): 100-110
 
 ### 166. 8、熵值粒子联合的自检度
 
@@ -2014,7 +2014,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `,RR`; L1357–L1360): 40-60 / ，需要重点加强
   - `88` (source form `88`; L1361–L1363): 1000-1100
-  - `JJ` (source form `JJ`; L1364–L1367): 90-100
+  - `JJ` (source form `JJ`; L1364–L1366): 90-100
 
 ### 167. 9、熵值粒子联合中的策反能力
 
@@ -2028,7 +2028,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1371–L1374): 60-80 / ，本来也是一个强点，但是目前策反的思路有些偏旧，需要整体进行更新，整体升级，这个前两天也提到过，然后这两天在清理了那些旧的单向的局部的情感关系之后，可以再继续着重的再去跟进一下这点。
   - `88` (source form `88`; L1375–L1377): 1200
-  - `JJ` (source form `JJ`; L1378–L1382): 90-110 / ，相关的一些意识和策略需要进行继续整体升级，不要过于就是贪恋于旧的一些经验，而不断地清零。
+  - `JJ` (source form `JJ`; L1378–L1381): 90-110 / ，相关的一些意识和策略需要进行继续整体升级，不要过于就是贪恋于旧的一些经验，而不断地清零。
 
 ### 168. 10、熵值粒子联合的系统性
 
@@ -2042,7 +2042,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1387–L1390): 40 / ，是一个重点发展的方向，首先要有更大层面去创造的意愿，有时候你会受到催眠影响，觉得很大层面的创造没啥意思，不如具体的小创造丰富多彩，但其实更有意思的是在更大的创造上面，更大的层面也会非常的具体和清晰，而可以发挥的空间更大，所以其实更有意思。
   - `88` (source form `88`; L1391–L1393): 1000-1100
-  - `JJ` (source form `JJ`; L1394–L1397): 90
+  - `JJ` (source form `JJ`; L1394–L1396): 90
 
 ### 169. 11、熵值粒子联合中对已形成系统的打破性
 
@@ -2056,7 +2056,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1400–L1403): 40 / ，很多时候还没有设接触到这方面，以为比较遥远，但其实这一点在各方面的适配度实践度都很高，在你们生活中的很多方面都可以运用，任何事情都可以看作是对整个宇宙的打破，和每毫秒不断地打碎重组异曲同工吧，包括对自己的任何的一些的突破和收获，都能够继续去打破。就像不规则宇宙，它也是不断地打破它自己，它每毫秒每微秒都是新生的，并不是一个延续的存在。
   - `88` (source form `88`; L1404–L1407): 1000 / ，感觉需要更大层面的这重组重建的把握和魄力
-  - `JJ` (source form `JJ`; L1408–L1411): 90
+  - `JJ` (source form `JJ`; L1408–L1410): 90
 
 ### 170. 12、熵值粒子联合的经验回收程度
 
@@ -2114,7 +2114,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1439–L1444): 2 / 级左右，这方面其实也算是一个强点，这方面 / rr / 的意识还是会比较开放，任何不可能的都想去尝试，都想去做，需要更多的恢复这方面的灵魂特性。
   - `88` (source form `88`; L1445–L1450): 6 / 级左右，有时候能到 / 7 / 级。
-  - `JJ` (source form `JJ`; L1451–L1455): 2-3 / 级
+  - `JJ` (source form `JJ`; L1451–L1454): 2-3 / 级
 
 ### 175. 2、熵值粒子联合中与本源信息的传递程度
 
@@ -2128,7 +2128,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1459–L1462): 1-2 / 级，其实也是很有潜力的
   - `88` (source form `88`; L1463–L1466): 6-7 / 级
-  - `JJ` (source form `JJ`; L1467–L1471): 2-3 / 级
+  - `JJ` (source form `JJ`; L1467–L1470): 2-3 / 级
 
 ### 176. 3、熵值粒子联合中发现更多元素粒子的能力。
 
@@ -2142,7 +2142,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1476–L1479): 2-3 / 级，这方面
   - `88` (source form `88`; L1484–L1487): 6-7 / 级
-  - `JJ` (source form `JJ`; L1488–L1500): 3 / 级 / 第六七八区：实验室区 / 一、实验室区介绍 / 后面 / 6-8 / 的三个区都属于实验室测试区。 / 这些检测点基本上都是在实验室测试中使用的，因为在实战中这些检测点的表现会相差很大，变量非常多，难以把握，所以这些检测点基本都是通过实验室来进行检测。因此检测出来的数值仅供参考，和实际实战的表现会有不同的出入。 / 这三个区都没有附属区的小点。 / 二、实验室区的应用：
+  - `JJ` (source form `JJ`; L1488–L1499): 3 / 级 / 第六七八区：实验室区 / 一、实验室区介绍 / 后面 / 6-8 / 的三个区都属于实验室测试区。 / 这些检测点基本上都是在实验室测试中使用的，因为在实战中这些检测点的表现会相差很大，变量非常多，难以把握，所以这些检测点基本都是通过实验室来进行检测。因此检测出来的数值仅供参考，和实际实战的表现会有不同的出入。 / 这三个区都没有附属区的小点。 / 二、实验室区的应用：
 
 ### 177. 1、上传案例建立自己的实战参考模型
 
@@ -2178,7 +2178,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1530–L1532): 60
   - `88` (source form `88`; L1533–L1535): 1000-1200
-  - `JJ` (source form `JJ`; L1536–L1540): 90-110 / 这个摆动程度包含几个小点：
+  - `JJ` (source form `JJ`; L1536–L1539): 90-110 / 这个摆动程度包含几个小点：
 
 ### 180. 1）摆动的自然度
 
@@ -2192,7 +2192,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1543–L1545): 40-50
   - `88` (source form `88`; L1546–L1548): 1100-1200
-  - `JJ` (source form `JJ`; L1549–L1552): 80-90
+  - `JJ` (source form `JJ`; L1549–L1551): 80-90
 
 ### 181. 2）摆动状态的持续性
 
@@ -2206,7 +2206,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1558–L1563): 40-50 / ，这方面有一些可以去提升的地方，从这个角度去增加持续性，挖掘自身持续性较低的原因。总的来说和 / rr / 的一些意识偏固化有关系，也就是做一些新的事情的持续性低是因为某些旧意识固化导致的。
   - `88` (source form `88`; L1564–L1566): 800
-  - `JJ` (source form `JJ`; L1567–L1570): 90
+  - `JJ` (source form `JJ`; L1567–L1569): 90
 
 ### 182. 2）当中的失衡风险程度
 
@@ -2220,7 +2220,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1573–L1578): 40 / 左右，对于 / rr / 来说这个数值还可以再提高一些，就是不需要这么保守也可以。
   - `88` (source form `88`; L1579–L1581): 800
-  - `JJ` (source form `JJ`; L1582–L1586): 80 / ，这方面还是比较平衡，也是发展的比较好的原因之一。
+  - `JJ` (source form `JJ`; L1582–L1585): 80 / ，这方面还是比较平衡，也是发展的比较好的原因之一。
 
 ### 183. 3）摆动的幅度
 
@@ -2234,7 +2234,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1589–L1591): 50-60
   - `88` (source form `88`; L1592–L1594): 1000
-  - `JJ` (source form `JJ`; L1595–L1598): 100
+  - `JJ` (source form `JJ`; L1595–L1597): 100
 
 ### 184. 4）摆动的深度
 
@@ -2248,7 +2248,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1601–L1603): 60
   - `88` (source form `88`; L1604–L1606): 1200
-  - `JJ` (source form `JJ`; L1607–L1610): 100-110
+  - `JJ` (source form `JJ`; L1607–L1609): 100-110
 
 ### 185. 2、熵值粒子的蓄力程度
 
@@ -2262,7 +2262,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1613–L1615): 60-70
   - `88` (source form `88`; L1616–L1618): 1000
-  - `JJ` (source form `JJ`; L1619–L1622): 100
+  - `JJ` (source form `JJ`; L1619–L1621): 100
 
 ### 186. 3、熵值粒子弹性程度
 
@@ -2276,7 +2276,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1625–L1628): 60-70 / ，在这方面是很擅长的，但是很多地方还没有这个回忆起来
   - `88` (source form `88`; L1629–L1631): 1100-1200
-  - `JJ` (source form `JJ`; L1632–L1635): 90
+  - `JJ` (source form `JJ`; L1632–L1634): 90
 
 ### 187. 4、熵值粒子的防阻能力
 
@@ -2290,7 +2290,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1638–L1640): 60
   - `88` (source form `88`; L1641–L1643): 1000
-  - `JJ` (source form `JJ`; L1644–L1647): 90-100
+  - `JJ` (source form `JJ`; L1644–L1646): 90-100
 
 ### 188. 5、熵值粒子轮摆程度
 
@@ -2304,7 +2304,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1654–L1656): 60
   - `88` (source form `88`; L1657–L1660): 800 / ，感觉也是因为
-  - `JJ` (source form `JJ`; L1663–L1666): 90
+  - `JJ` (source form `JJ`; L1663–L1665): 90
 
 ### 189. 6、熵值粒子加权程度
 
@@ -2318,7 +2318,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1669–L1671): 50-60
   - `88` (source form `88`; L1672–L1674): 900-1000
-  - `JJ` (source form `JJ`; L1675–L1678): 90
+  - `JJ` (source form `JJ`; L1675–L1677): 90
 
 ### 190. 7、熵值粒子的自平衡能力
 
@@ -2332,7 +2332,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1681–L1684): 50-60 / ，这方面也需要去恢复和加强吧，这方面加强也很重要。
   - `88` (source form `88`; L1685–L1687): 1000-1200
-  - `JJ` (source form `JJ`; L1688–L1691): 90-100
+  - `JJ` (source form `JJ`; L1688–L1690): 90-100
 
 ### 191. 8、熵值粒子风险应对能力
 
@@ -2375,7 +2375,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1699–L1702): 60-70 / ，本性还是很喜欢挑战风险的，并没有很怂，也是需要去做记忆恢复。
   - `88` (source form `88`; L1703–L1708): 1200 / ，还是很喜欢挑战风险，然后对于风险的评估能力也很强， / 1200 / 左右。
-  - `JJ` (source form `JJ`; L1709–L1712): 100-110
+  - `JJ` (source form `JJ`; L1709–L1711): 100-110
 
 ### 195. 9、熵值粒子抛出能力
 
@@ -2389,7 +2389,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1717–L1719): 60
   - `88` (source form `88`; L1720–L1722): 1000
-  - `JJ` (source form `JJ`; L1723–L1726): 90
+  - `JJ` (source form `JJ`; L1723–L1725): 90
 
 ### 196. 10、熵值粒子的着陆能力
 
@@ -2403,7 +2403,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1729–L1732): 60-70 / ，其实还是比较擅长着陆，就是无论什么姿势抛出去，最后着陆的效果都都还可以，能比较灵活的去把握，这方面是一个强点，需要继续去恢复吧，把这个点恢复好了，对你继续提升是很有帮助的。总的来说目前就是还没有完全着陆好，很多地方还没有适应好，包括没有回忆起来自己原本是什么样子，就是可以从这个角度去做一些挖掘。
   - `88` (source form `88`; L1733–L1735): 1000-1100
-  - `JJ` (source form `JJ`; L1736–L1739): 100
+  - `JJ` (source form `JJ`; L1736–L1738): 100
 
 ### 197. 11、熵值粒子应变能力
 
@@ -2417,7 +2417,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1742–L1745): 60-70 / ，本身这方面其实也挺擅长的，但是目前这方面没有发挥出来，就是这种应变能力吧，像是比较遥远，能看到，但是好像不知道怎么用。建议还是恢复整体视角，自然就能够更多的回忆起来。
   - `88` (source form `88`; L1746–L1748): 1000-1100
-  - `JJ` (source form `JJ`; L1749–L1752): 100-110
+  - `JJ` (source form `JJ`; L1749–L1751): 100-110
 
 ### 198. 12、熵值粒子的回归能力
 
@@ -2445,7 +2445,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1770–L1773): 70-80 / ，这方面也是非常擅长的，就是加密了很多，目前就是需要去解密。
   - `88` (source form `88`; L1774–L1777): 1200 / ，也是很擅长
-  - `JJ` (source form `JJ`; L1778–L1782): 100-110 / ，也是比较擅长
+  - `JJ` (source form `JJ`; L1778–L1781): 100-110 / ，也是比较擅长
 
 ### 200. 2、熵值粒子的隐藏能力
 
@@ -2459,7 +2459,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1785–L1788): 70-80 / ，也是很擅长，因为失忆会导致想不起来藏在哪里了。
   - `88` (source form `88,`; L1789–L1792): 1200 / ，也非常擅长。
-  - `JJ` (source form `JJ`; L1793–L1797): 100-120 / 其实大家进入这个游戏，基本上加密和隐藏能力都会比较强一些，这个是当时进入这个游戏之前的一个重点测试项目，这个项目分数比较高一些才能过关，才会被派到这个游戏中。
+  - `JJ` (source form `JJ`; L1793–L1796): 100-120 / 其实大家进入这个游戏，基本上加密和隐藏能力都会比较强一些，这个是当时进入这个游戏之前的一个重点测试项目，这个项目分数比较高一些才能过关，才会被派到这个游戏中。
 
 ### 201. 3、熵值粒子加壳能力
 
@@ -2473,7 +2473,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1800–L1803): 60-70 / ，加了很多壳，需要自己去解密。就是进入游戏前给自己做了很多这方面的设置，检测效果一部分还是挺成功的，有一部分没有那么成功，然后导致身份暴露，这方面需要继续回忆，还有成功的那部分，去回忆成功部分的设置。
   - `88` (source form `88`; L1804–L1807): 1200 / ，是很强的，套了很多壳，
-  - `JJ` (source form `JJ`; L1810–L1816): 100-110 / ，和 / gg / 的风格有点像，不是很轻盈的风格。
+  - `JJ` (source form `JJ`; L1810–L1815): 100-110 / ，和 / gg / 的风格有点像，不是很轻盈的风格。
 
 ### 202. 4、熵值粒子的脱壳能力
 
@@ -2487,7 +2487,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1819–L1822): 50-60 / ，这方面会稍微弱一些，有变形的话就会不太容易脱下来，造成一些负担。
   - `88` (source form `88`; L1823–L1825): 1000-1100
-  - `JJ` (source form `JJ`; L1826–L1829): 110
+  - `JJ` (source form `JJ`; L1826–L1828): 110
 
 ### 203. 5、熵值粒子的结构能力
 
@@ -2501,7 +2501,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1832–L1835): 50-60 / ，这方面需要再加强。
   - `88` (source form `88`; L1836–L1839): 900-1000 / ，这方面也是
-  - `JJ` (source form `JJ`; L1842–L1846): 100-110 / ，这方面也比较擅长。
+  - `JJ` (source form `JJ`; L1842–L1845): 100-110 / ，这方面也比较擅长。
 
 ### 204. 6、熵值粒子的解密能力
 
@@ -2529,7 +2529,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1866–L1869): 80 / ，也是比较擅长的
   - `88` (source form `88`; L1870–L1873): 1000-1200 / ，也是很擅长的
-  - `JJ` (source form `JJ`; L1874–L1878): 100-110 / ，这方面是比较平衡
+  - `JJ` (source form `JJ`; L1874–L1877): 100-110 / ，这方面是比较平衡
 
 ### 206. 2、熵值粒子的集体作战能力
 
@@ -2542,7 +2542,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1880–L1882): 60
   - `88` (source form `88`; L1883–L1886): 1000-1100 / ，也是目前也是一直在锻炼和强化的。
-  - `JJ` (source form `JJ`; L1887–L1890): 100
+  - `JJ` (source form `JJ`; L1887–L1889): 100
 
 ### 207. 3、熵值粒子的整体策略能力
 
@@ -2556,7 +2556,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1893–L1896): 60 / ，目前还比之前有些提升
   - `88` (source form `88`; L1897–L1899): 1100
-  - `JJ` (source form `JJ`; L1900–L1903): 100-1100
+  - `JJ` (source form `JJ`; L1900–L1902): 100-1100
 
 ### 208. 4、熵值粒子的整体支持能力
 
@@ -2570,7 +2570,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1906–L1909): 50-60 / ，这个也是需要去锻炼加强的
   - `88` (source form `88`; L1910–L1912): 1100-1200
-  - `JJ` (source form `JJ`; L1913–L1916): 110
+  - `JJ` (source form `JJ`; L1913–L1915): 110
 
 ### 209. 5、熵值粒子的续航能力
 
@@ -2584,7 +2584,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1919–L1921): 60
   - `88` (source form `88`; L1922–L1925): 1000-1200 / ，整体来说
-  - `JJ` (source form `JJ`; L1930–L1933): 100
+  - `JJ` (source form `JJ`; L1930–L1932): 100
 
 ### 210. 6、熵值粒子的复盘能力吧
 
@@ -2611,7 +2611,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1954–L1957): 60-70 / ，表面上下载了不少，但是真正的深度下载并不多，或者说合一深度并不够。需要更深合一程度的下载。
   - `88` (source form `88`; L1958–L1960): 1200-1300
-  - `JJ` (source form `JJ`; L1961–L1964): 110
+  - `JJ` (source form `JJ`; L1961–L1963): 110
 
 ### 212. 2、熵值特性的落地结合能力
 
@@ -2625,7 +2625,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1967–L1970): 60-70 / ，需要更多这方面的一个意识，在生活中的大的小的方面都去思考，要用观察的方式来思考，而不是传统的去想，类似一种新的眼光重新观察的感觉。
   - `88` (source form `88`; L1971–L1973): 1200
-  - `JJ` (source form `JJ`; L1974–L1977): 100
+  - `JJ` (source form `JJ`; L1974–L1976): 100
 
 ### 213. 3、落地实践的锚点设置能力
 
@@ -2639,7 +2639,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1980–L1983): 60 / ，感觉这方面不是一个强点，很多时候点找的都不是很精准，需要更多把握整体视角。可以跟根据这个专门做一个专题来进行接收和拓展。
   - `88` (source form `88`; L1984–L1986): 1200
-  - `JJ` (source form `JJ`; L1987–L1990): 110-120
+  - `JJ` (source form `JJ`; L1987–L1989): 110-120
 
 ### 214. 4、实践中观察的破幻程度
 
@@ -2653,7 +2653,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `,RR`; L1993–L1996): 60-70 / ，感觉在一个量变的积累上面，需要更多的去从超越视角的层面，从超越的层面去观察破幻，也就是直接从高维从本源进行破幻，而不是说从现有的幻象上面去找破绽来帮助破幻，好像很多人都会用这种方式去破幻，这就带来低效。因为催眠系统会想办法补上这个破绽，然后你就会需要再去找新的。
   - `88` (source form `88`; L1997–L1999): 1200-1300
-  - `JJ` (source form `JJ`; L2000–L2004): 110-120 / ，也是本身很擅长这方面
+  - `JJ` (source form `JJ`; L2000–L2003): 110-120 / ，也是本身很擅长这方面
 
 ### 215. 5、实践中的直达能力
 
@@ -2667,7 +2667,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L2007–L2010): 50 / 左右，一些幻想影响的比较多，很多这些顾虑总是会影响到自己，然后不得不停下来去处理那些顾虑，这样就浪费很多时间精力。在这方面，一方面是需要更有魄力，另外一方面就是上一点提到的这个观幻破幻能力，能够不去搭理这些顾虑，直接就去干。有时候觉得受影响的话就没法干，干不动，这就说明这个直达的能力不行，整体破幻的能力也不行，也包括有一些认知上的，希望自己在一个更好的状态下去做事，然后就要去锻炼在任何情况下都可以直接去做自己的事情，不管环境如何，都不影响自己做事。无论怎样，先把自己的目标完成了再说，这样往往你会发现在做的过程中，那些顾虑自然就破掉了，而且是真正有效的破掉。因为这是实践破幻，不是空想破幻，会真正彻底。
   - `88` (source form `88`; L2011–L2013): 1200-1300
-  - `JJ` (source form `JJ`; L2014–L2017): 110-120
+  - `JJ` (source form `JJ`; L2014–L2016): 110-120
 
 ### 216. 6、实践中的应变能力
 
@@ -2681,7 +2681,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L2020–L2023): 70-80 / ，这方面还是很强的，可以更多的去恢复和发挥
   - `88` (source form `88`; L2024–L2027): 1200-1300 / ，也是很擅长的
-  - `JJ` (source form `JJ`; L2028–L2031): 110-120
+  - `JJ` (source form `JJ`; L2028–L2030): 110-120
 
 ### 217. 7、实践中的实时复盘能力
 
@@ -2709,7 +2709,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L2051–L2054): 60-70 / ，需要从这个角度去做一个整体的评估，也是属于整体计划的一部分，能更清楚地看清自己需要做什么，帮助自己的规划。
   - `88` (source form `88`; L2055–L2057): 1200
-  - `JJ` (source form `JJ`; L2058–L2061): 120
+  - `JJ` (source form `JJ`; L2058–L2060): 120
 
 ### 219. 9、实践中的资源运用能力
 
@@ -2723,7 +2723,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L2064–L2067): 70-80 / ，这方面其实
   - `88` (source form `88`; L2070–L2072): 1200-1300
-  - `JJ` (source form `JJ`; L2073–L2076): 120
+  - `JJ` (source form `JJ`; L2073–L2075): 120
 
 ### 220. 10、实践中灵活性的追踪把握能力
 
@@ -2737,7 +2737,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L2079–L2082): 70-80 / ，灵魂层面也是很擅长的，是继续恢复和发挥。
   - `88` (source form `88`; L2083–L2085): 1200
-  - `JJ` (source form `JJ`; L2086–L2089): 100-120
+  - `JJ` (source form `JJ`; L2086–L2088): 100-120
 
 ### 221. 11、落地层面的稳定输出能力
 
@@ -2751,7 +2751,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L2092–L2094): 50-60
   - `88` (source form `88`; L2095–L2097): 1000-1100
-  - `JJ` (source form `JJ`; L2098–L2101): 100-110
+  - `JJ` (source form `JJ`; L2098–L2100): 100-110
 
 ### 222. 12、实践中的实时反馈能力
 
@@ -2779,7 +2779,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L2123–L2126): 2-3 / 级，这方面感觉也是一个灵魂强点，需要更充分地去发挥出来，还是宏观整体视角的不足，这方面补足之后能更多的把这个强点发挥出来。
   - `88` (source form `88`; L2127–L2130): 7-8 / 级
-  - `JJ` (source form `JJ`; L2131–L2137): 3 / 级左右，一部分也有到 / 4 / 级。
+  - `JJ` (source form `JJ`; L2131–L2136): 3 / 级左右，一部分也有到 / 4 / 级。
 
 ### 224. 2、实践中的叠加能力。
 
