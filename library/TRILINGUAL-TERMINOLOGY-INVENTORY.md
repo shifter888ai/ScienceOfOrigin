@@ -645,9 +645,9 @@
 - **繁體中文:** 原始對應詞待核；保留英文原詞
 - **日本語:** 原始對應詞待核；保留英文原詞
 - **Current public research-page wording (SRC):** `entropy-of-consciousness.html` uses the term Entropy Particle for structures whose characteristics are examined in the framework. Its Zone 6 examples include oscillation, energy accumulation, elasticity, resistance, controlled movement, weighting and self-balancing.
-- **Context / limitation:** The public page says detailed definitions and operational treatment are outside its scope. The derivative index `entropy-rr-assessment-points-index.md` summarizes an Entropy assessment framework, but the underlying DOCX/RTF source was not directly inspected in this tranche. Do not treat the listed examples as a complete definition or assume the particle terminology is equivalent to a conventional physical particle.
-- **Source:** SRC-ENT-001; SRC-ENT-IDX-001.
-- **Review status:** English occurrence and limited context extracted; original-language mapping, source-level definition and measurement protocol OPEN.
+- **Context / limitation:** The public page says detailed definitions and operational treatment are outside its scope. The RTF v1.1 assessment source has now been directly inspected and provides further source-specific descriptions and assessment points, recorded in the text-run transcription and first-pass point-level register. These passages remain source-contextual and do not establish a complete ontology or operational definition. The DOCX counterpart has not been directly inspected. Do not treat the listed examples as a complete definition or assume the particle terminology is equivalent to a conventional physical particle.
+- **Source:** SRC-ENT-001; SRC-ENT-002; SRC-ENT-003; SRC-ENT-004; SRC-ENT-005; SRC-ENT-IDX-001.
+- **Review status:** English occurrence and RTF source context extracted; original-language mapping, complete source-level definition and measurement protocol OPEN.
 
 ### T-055 — Strength of Consciousness of Things / 中文對應待核 / 日本語対応待核
 
