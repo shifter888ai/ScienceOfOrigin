@@ -25,13 +25,14 @@ Counts describe the extracted RTF text only. They are not the source's reported 
 
 1. Preserve exact Chinese heading text, including punctuation and source wording.
 2. Recognize `RR`, `88` and `JJ` labels when they are standalone or have adjacent punctuation, and when the colon is on the same line or the next line. The literal source form is retained in each record and in the line-numbered transcription.
-3. Associate point-level score blocks with the nearest preceding detected point heading in source order. This remains a document-structure association, not a claim about label meaning or score validity.
-4. Preserve raw value/comment fragments in order, separated by ` / ` where the source uses separate text runs. No inferred numeric fields are created.
-5. Heading classification as “TOC-listed” requires an exact normalized match to the 114 top-level TOC headings. Other body headings remain body headings or nested indicators.
-6. Printed page locators are checked against the RTF TOC hyperlink entries. They are printed source locators, not PDF page indices.
-7. Zone, part and auxiliary-section markers terminate a preceding score block. A trailing standalone number immediately before a new heading marker is treated as the next heading's index, not part of the preceding score comment.
-8. Area/section aggregate blocks are recorded separately from individual point-level scores.
-9. Where the source layout leaves an association uncertain, retain source-line references and do not guess.
+3. A label-like token in a comment is treated as a new assessment block only when a colon follows on the same or next text run.
+4. Associate point-level score blocks with the nearest preceding detected point heading in source order. This remains a document-structure association, not a claim about label meaning or score validity.
+5. Preserve raw value/comment fragments in order, separated by ` / ` where the source uses separate text runs. No inferred numeric fields are created.
+6. Heading classification as “TOC-listed” requires an exact normalized match to the 114 top-level TOC headings. Other body headings remain body headings or nested indicators.
+7. Printed page locators are checked against the RTF TOC hyperlink entries. They are printed source locators, not PDF page indices.
+8. Zone, part and auxiliary-section markers terminate a preceding score block. A trailing standalone number immediately before a new heading marker is treated as the next heading's index, not part of the preceding score comment.
+9. Area/section aggregate blocks are recorded separately from individual point-level scores.
+10. Where the source layout leaves an association uncertain, retain source-line references and do not guess.
 
 ## 3. Contextual aggregate assessment blocks
 
@@ -222,7 +223,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Description:** 要求不仅能辨识干扰，也能去进行处理。再细分 2 个小点。
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0114–L0117): 60-80 / ，主要还是加强整体把握。
-  - `88` (source form `88`; L0118–L0121): 800 / ，对
+  - `88` (source form `88`; L0118–L0123): 800 / ，对 / 88 / 的干扰较多较大。
   - `JJ` (source form `JJ`; L0124–L0127): 90-110 / ，不平衡
 
 ### 016. （1）多维间防监控的能力
@@ -235,7 +236,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Source lines:** L0128–L0146
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0131–L0134): 30-40 / ，整体对监控干扰重视度不足。
-  - `88` (source form `88`; L0135–L0138): 600-800 / ，一方面是对
+  - `88` (source form `88`; L0135–L0142): 600-800 / ，一方面是对 / 88 / 监控很多，另一方面也是 / 88 / 的灵魂特性会喜欢冒进一些。
   - `JJ` (source form `JJ`; L0143–L0146): 100-120 / ，对这方面很重视
 
 ### 017. （2）多维间的隐藏能力
@@ -371,7 +372,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0259–L0261): 40-60
   - `88` (source form `88`; L0262–L0264): 1200
-  - `JJ` (source form `JJ`; L0265–L0268): 120 / ，感觉
+  - `JJ` (source form `JJ`; L0265–L0270): 120 / ，感觉 / JJ / 在这方面还是比较擅长，是一个强点。
 
 ### 027. 1、多维中的关键帧的捕捉能力。
 
@@ -516,7 +517,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Description:** 这些经验上传给本源，更多的融合本源之后，再吸收回来，之后继续上传，不断的这个过程，可以让这些经验更好的融合本源，能够做到类似于去粗取精的提炼精华的效果，这是后续高效发展的关键。 你们现在也可以运用这点，这点其实非常非常有效，对于提高效率非常有帮助，很多时候你们的信息或者经验都是混杂很多冗余，通过这种方式能够把最高效的部分提炼出来，来达到对高效更加清晰化也更高效的效果。
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0333–L0335): 40
-  - `88` (source form `88`; L0336–L0339): 1200-1600 / ，不是很稳定，取决于
+  - `88` (source form `88`; L0336–L0345): 1200-1600 / ，不是很稳定，取决于 / 88 / 的意愿吧，会出于一些考虑，故意进行一些不那么清晰提炼的效果，比如为了这个游戏整体的把握，一些重组的发展，有时候会故意不搞得那么细，搞粗糙一点会有助于去理解其他灵魂的那种粗糙的感觉，同时也是想不着急去搞得特别精细，有时候故意会拉长拉慢一点来更多的观察一些部分，如说更多观察 / 1200 / 的部分，想要在这个不分有更多的观察，就不着急升到 / 1600 / 。
   - `JJ` (source form `JJ`; L0346–L0348): 80-90
 
 ### 040. 5、多维度的整体升维能力
@@ -596,7 +597,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **TOC page locator:** p. 16
 - **Source lines:** L0405–L0422
 - **Assessment blocks:**
-  - `RR` (source form `RR`; L0407–L0410): 1 / 级，
+  - `RR` (source form `RR`; L0407–L0412): 1 / 级， / RR / 在这方面也很擅长，是一个强点，但是很多时候没有发挥，就是总觉得顾不过来也没有找到这方面与觉醒提升意识强度的直接的关系，所以就没有很重视，但其实锻炼熵值一个有用的方式。通过这些来拓展自己的视角眼界，其实就是发展了熵值。
   - `88` (source form `88`; L0413–L0418): 4 / 级 / -6 / 级，和经验的不平衡有关。
   - `JJ` (source form `JJ`; L0419–L0422): 3 / 级，静静很重视这方面的发展，发展的比较丰富。
 
@@ -684,7 +685,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Source lines:** L0486–L0500
 - **Description:** 让多维度间的这些体验能够更有效率，更多为我所用，也是提升效率的一个重点。
 - **Assessment blocks:**
-  - `RR` (source form `RR`; L0489–L0492): 85-90 / ，也是
+  - `RR` (source form `RR`; L0489–L0494): 85-90 / ，也是 / RR / 的强点之一，很擅长做这种追踪，也是比较适合做间谍的属性。
   - `88` (source form `88`; L0495–L0497): 1800
   - `JJ` (source form `JJ`; L0498–L0500): 110-120
 
@@ -769,8 +770,8 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Description:** 在维度的运用方式上不断地进行重组，类似各种的搭配嵌套组合等各种的运用方式，这里面也涉及到一些权限，包括与维度灵的沟通，需要多方权限的授权的操作，类似于整体的多维的结构层面的变化。
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0569–L0571): 30-40
-  - `88` (source form `88`; L0572–L0575): 800-1200 / ，感觉
-  - `JJ` (source form `JJ`; L0580–L0583): 100-120 / ，感觉
+  - `88` (source form `88`; L0572–L0579): 800-1200 / ，感觉 / 88 / 在这方面没有很重视，没有很特别专长的去发展这方面，就是说 / 88 / 会有其他的一些的方式来达到类似的效果，而没有去特别采用这种方式。
+  - `JJ` (source form `JJ`; L0580–L0585): 100-120 / ，感觉 / JJ / 也是很有这方面的潜力。
 
 ### 060. 1、多维中与本源实时多角度对接的程度
 
@@ -796,9 +797,9 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Source lines:** L0609–L0640
 - **Description:** 在多维间的活动中，能够实时的去清理一些发现的杂质等。这也是贯穿在所有的活动当中的。
 - **Assessment blocks:**
-  - `RR` (source form `RR`; L0612–L0617): 1.5 / 级 / -2 / 级，这部分也是
+  - `RR` (source form `RR`; L0612–L0619): 1.5 / 级 / -2 / 级，这部分也是 / RR / 擅长的部分，一般不仅是清理还能给出调整的建议，就是对那些维度灵，给他们一些提升或者优化清理这些杂质的一些建议。其是和那些维度灵的关系还蛮好的，也可以对这方面做一些记忆恢复，可以去连接那些维度灵，就是会有很多老朋友吧。
   - `88` (source form `88`; L0620–L0625): 5 / 级 / -6 / 级
-  - `JJ` (source form `JJ`; L0626–L0631): 2 / 级 / -2.5 / 级，感觉
+  - `JJ` (source form `JJ`; L0626–L0633): 2 / 级 / -2.5 / 级，感觉 / JJ / 对这方面不是很重视，是偏忽视的一个区域。
 
 ### 062. 1、熵值的自主性
 
@@ -1307,7 +1308,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0914–L0919): 1-2 / 级，这方面还是比较擅长，也是和 / rr / 的间谍能力有关。
   - `88` (source form `88`; L0920–L0923): 5-6 / 级。也是比较擅长的。
-  - `JJ` (source form `JJ`; L0924–L0927): 大概 / 2 / 级多一点，感觉
+  - `JJ` (source form `JJ`; L0924–L0929): 大概 / 2 / 级多一点，感觉 / JJ / 这方面的主要弱点在于插眼的位置的选择，有些时候选择的不是很到位，导致一些作用发挥不是很高效，有的甚至是没发挥什么作用，有点废掉了，除此之外其他方面还是蛮强的。
 
 ### 106. 2、动态中的锁定能力
 
@@ -1320,8 +1321,8 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Description:** 类似于在动态的探索中不断地发出一些探查的射线，再用这些射线进行位置或者元素的锁定，用于后续实时的追踪这些元素的动态发展。
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0933–L0936): 1 / 级左右。感觉在锁定方面容易松散和跑偏，但是强点在于跑了还能重新再锁上，不是很稳定，也就是说锁定能力一般，不稳定，但是追踪能力强。需要加强弱项。
-  - `88` (source form `88`; L0937–L0940): 5 / 级左右，感觉不算是
-  - `JJ` (source form `JJ`; L0943–L0946): 2 / 级多一点，感觉
+  - `88` (source form `88`; L0937–L0942): 5 / 级左右，感觉不算是 / 88 / 的强点，属于发展的中等水平。
+  - `JJ` (source form `JJ`; L0943–L0948): 2 / 级多一点，感觉 / JJ / 在这方面也比较擅长，也还有很大的发展的空间。
 
 ### 107. 3、动态中的追踪能力
 
@@ -1335,7 +1336,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L0952–L0955): 2-3 / 级，强点。也是因为追踪强，就不太重视锁定，觉得反正跑了还能追上。但是跑了和再追上之间的这段时间其实也损失了不少。也包括整体性的损失，稳定性的损失等。也可以说先前的锁定没有做到位，影响整体效果，也就是低效，后面再怎么追上整体效果依然低。
   - `88` (source form `88`; L0956–L0959): 6 / 级左右，比较擅长，但是好像并没有特别去重视和发挥这方面，有些潜力也没有去着重的去拓展。
-  - `JJ` (source form `JJ`; L0960–L0963): 2-3 / 级，感觉
+  - `JJ` (source form `JJ`; L0960–L0967): 2-3 / 级，感觉 / JJ / 在这方面和 / gg / 有点像，在追踪方面不是特别擅长，比较擅长锁定。
 
 ### 108. 1、熵值粒子的灵活分化性
 
@@ -1486,7 +1487,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Source lines:** L1027–L1043
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1029–L1031): 60-70
-  - `88` (source form `88`; L1032–L1035): 900-1200 / ，感觉到
+  - `88` (source form `88`; L1032–L1037): 900-1200 / ，感觉到 / 88 / 很喜欢用碰撞的方式去激发一些新的拓展，也喜欢选择风险高一些的碰撞方式。因此这方面的数值不是很稳定。
   - `JJ` (source form `JJ`; L1038–L1043): 80 / ，跟 / gg / 的风格很像，也是很少用这个这方面。
 
 ### 122. 4、熵值粒子叠加效能的程度
@@ -1972,7 +1973,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1301–L1304): 60-80 / ，也属于一个强点。
   - `88` (source form `88`; L1305–L1307): 1200
-  - `JJ` (source form `JJ`; L1308–L1310): 90-100
+  - `JJ` (source form `JJ`; L1308–L1324): 90-100 / 88 / 和 / gg / 的在这点上风格不同， / gg / 更多是通过自身的稳定性来进行整体协作，就是先做到一个稳定整体的方向，再让其他元素来主动进行协调。 / 88 / 会主动性的更多，主动积极的去做一些全面的协调，这样他会增加很多的精细度细致度，也会产生很多的经验，增加灵魂的频率丰富度。 / rr / 是比较偏向于 / 88 / 这个风格。 / JJ / 的好像两者都有。
 
 ### 164. 6、熵值粒子联合的升级与拓展性
 
@@ -2140,7 +2141,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Source lines:** L1471–L1499
 - **Description:** 这点也和意识开放度有关，越开放越容易发现到更多更新的元素粒子。一方面是视角的宽广，一方面是视角的精细，能看到更多别人看不到的一些内容。这些元素粒子发现越多的话，就相当于能起到碾压对手的感觉。相当于你有对手没有的新元素新粒子，可以起到类似降维打击的效果。 这些元素也包括很多空间，比如各种隐形空间、负空间、各种折叠空间等，一方面是包括这些容易隐藏的空间，另一方面也是这些元素粒子本身有一定的隐藏特性。 然后发现这些元素粒子之后想办法与它们进行联合融合，共同发展，成为自己集体灵的一部分。就能起到决定性作用的一个发展。包括后期那种非常高的意识强度的发展，都需要在这方面进行重点的强化和发展的。
 - **Assessment blocks:**
-  - `RR` (source form `RR`; L1476–L1479): 2-3 / 级，这方面
+  - `RR` (source form `RR`; L1476–L1483): 2-3 / 级，这方面 / RR / 的灵魂特性非常擅长，就是 / RR / 在这方面会比较精细和敏锐，也是需要去好好的去做这个记忆和技能的恢复
   - `88` (source form `88`; L1484–L1487): 6-7 / 级
   - `JJ` (source form `JJ`; L1488–L1499): 3 / 级 / 第六七八区：实验室区 / 一、实验室区介绍 / 后面 / 6-8 / 的三个区都属于实验室测试区。 / 这些检测点基本上都是在实验室测试中使用的，因为在实战中这些检测点的表现会相差很大，变量非常多，难以把握，所以这些检测点基本都是通过实验室来进行检测。因此检测出来的数值仅供参考，和实际实战的表现会有不同的出入。 / 这三个区都没有附属区的小点。 / 二、实验室区的应用：
 
@@ -2303,7 +2304,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Description:** 这个轮摆程度和第 1 点这个摆动程度有不同的侧重点。这个指的是带有控制性的轮摆程度测试。也就是在摆动过程中，也会去施加控制来影响摆动。来查看摆动的变化情况。这个数值依然没有高低的好坏，只有适合不同的目的。 比如可以检测熵值粒子的整体稳定性的把握。就是如果摆动程度比较稳定，说明整体平衡性很强，这方面也有很大的实用价值。比如说可以更好的他通过这些熵值粒子来达成自己的目的。这些设置的摇摆的方式，施加的一些影响和控制，都可以是灵魂的一些意愿和需求，添加了各种的意愿和需求之后，熵值粒子依然能够保持整体的平衡性，融合那些意愿和需求，来高效的达成目的。如果这方面不稳定的话，也容易失衡，比如突破灵魂设定的催醒目的，变成催眠，认为这也是突破规则。 但也有一些情况需要临时增加波动性，做一些极限挑战用。
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1654–L1656): 60
-  - `88` (source form `88`; L1657–L1660): 800 / ，感觉也是因为
+  - `88` (source form `88`; L1657–L1662): 800 / ，感觉也是因为 / 88 / 目前还在继续实践这个游戏，包括催醒法以及双超游戏的推动，都在实践中，在这哥过程中，他在继续的发展提升。
   - `JJ` (source form `JJ`; L1663–L1665): 90
 
 ### 189. 6、熵值粒子加权程度
@@ -2472,7 +2473,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Description:** 这个加壳有各种各样的功效，有伪装加密的功效，隐藏的功效，也可以加装各种其他功能。这个数值主要测试的本身的加壳的能力，就是能否很自然灵活的在各种状况下选择给自己套壳。同时不影响原本的能力。
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1800–L1803): 60-70 / ，加了很多壳，需要自己去解密。就是进入游戏前给自己做了很多这方面的设置，检测效果一部分还是挺成功的，有一部分没有那么成功，然后导致身份暴露，这方面需要继续回忆，还有成功的那部分，去回忆成功部分的设置。
-  - `88` (source form `88`; L1804–L1807): 1200 / ，是很强的，套了很多壳，
+  - `88` (source form `88`; L1804–L1809): 1200 / ，是很强的，套了很多壳， / 88 / 的能力在于套了很多壳依然很轻盈轻薄，好像跟没套壳一样。
   - `JJ` (source form `JJ`; L1810–L1815): 100-110 / ，和 / gg / 的风格有点像，不是很轻盈的风格。
 
 ### 202. 4、熵值粒子的脱壳能力
@@ -2500,7 +2501,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Description:** 指的是在测试发展中吧，它会有一个结构性的发展方式或者结构性的一个把握，或者说它会通过在发展中去通过一些结构来去达成一些效果。
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1832–L1835): 50-60 / ，这方面需要再加强。
-  - `88` (source form `88`; L1836–L1839): 900-1000 / ，这方面也是
+  - `88` (source form `88`; L1836–L1841): 900-1000 / ，这方面也是 / 88 / 目前在重点加强的一个部分，也是这个游戏继续发展要的一个重要的能力吧。
   - `JJ` (source form `JJ`; L1842–L1845): 100-110 / ，这方面也比较擅长。
 
 ### 204. 6、熵值粒子的解密能力
@@ -2583,7 +2584,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Description:** 在这个支持能力之上是否还能给正在发展中的粒子提供续航的能力。包括意愿、技术、力量等等，也相当于集体意识的一种智慧，就是说不仅有这个智慧，还能把这个智慧实践出来，形成了一个有支持，有续航的系统，能够运转运作起来。
 - **Assessment blocks:**
   - `RR` (source form `RR`; L1919–L1921): 60
-  - `88` (source form `88`; L1922–L1925): 1000-1200 / ，整体来说
+  - `88` (source form `88`; L1922–L1929): 1000-1200 / ，整体来说 / 88 / 的这个数值在实验室测试当中不是很好测，范围区间总是会比较大一些，虽然给了一些数值，但其实真正测试的时候，他这个数值范围是比较大的，也是 / 88 / 的特性、意愿、体验需求有关系，他会让自己在这方面增加更多的不可测性，也就是他自己都不知道他自己会怎样，自己都无法测出自己，那么敌人就更难去测出他了。
   - `JJ` (source form `JJ`; L1930–L1932): 100
 
 ### 210. 6、熵值粒子的复盘能力吧
@@ -2695,7 +2696,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Assessment blocks:**
   - `RR` (source form `RR`; L2035–L2038): 40-50 / ，非常需要去加强
   - `88` (source form `88`; L2039–L2041): 1200
-  - `JJ` (source form `JJ`; L2042–L2045): 120-130 / 可以看到他们这方面的其实都是很强的，而对
+  - `JJ` (source form `JJ`; L2042–L2047): 120-130 / 可以看到他们这方面的其实都是很强的，而对 / RR / 来说却不是强点，所以要必须重点强化的。
 
 ### 218. 8、实践中的风险评估能力
 
@@ -2721,7 +2722,7 @@ The source introduces this part as `第一区的第3部分：多维发展与本�
 - **Source lines:** L2061–L2075
 - **Description:** 在实践中不要只盯着自己，一定要去学会去观察有哪些资源，现有的资源、潜在的资源都去观察，去做一些探索与连接和合作。能够让自己后续能够更好的去使用和运用这些资源，能够为我所用，也是集体意识的发挥。在各个方面都是要注重发挥集体意识，任何时候都不要单打独斗，也包括以前有的一些资源，重新去看待它们，看旧的资源能否有新的发展，就是不要去固化的看待它们，其实都是在动态发展的，用动态的眼光去重新观察他们，能否符合当下的需求，产生连接等。还有一些资源可以去主动的培养。就是各种各样的灵活的方式。
 - **Assessment blocks:**
-  - `RR` (source form `RR`; L2064–L2067): 70-80 / ，这方面其实
+  - `RR` (source form `RR`; L2064–L2069): 70-80 / ，这方面其实 / RR / 灵魂上是非常擅长的，但是在当前很多都没有发挥出来，是受到一些顾虑的影响，有放不开，在这方面可以更加大胆一些，充分地把自己的本性发挥出来。
   - `88` (source form `88`; L2070–L2072): 1200-1300
   - `JJ` (source form `JJ`; L2073–L2075): 120
 
