@@ -1,6 +1,6 @@
 # Science of Origin — Trilingual Glossary Inventory
 
-**Status:** Expanded source-derived glossary register · Version 0.4  
+**Status:** Expanded source-derived glossary register · Version 0.6  
 **Languages:** English · 繁體中文 · 日本語  
 **Purpose:** A curated working explanation layer built from the Terminology Inventory. This is an internal research document, not the public Glossary. The published Glossary remains English-only.
 
@@ -582,7 +582,7 @@ The following terms or source families still require more original passage revie
 - 意识光谱
 - Level of Actualization of Freewill — the legacy repository inventory records it as a previously adopted replacement term for “Freedom of Consciousness”; its primary defining passage, operational meaning and relationship to Freedomality of Consciousness / FI remain unverified.
 - Hypnotic Reincarnation — a source-stated relationship is recorded in the terminology inventory, but its fuller definition and source history remain open.
-- Entropy assessment source — the underlying DOCX/RTF must be inspected directly before detailed point-level definitions are added.
+- Entropy assessment source — RTF v1.1 directly inspected for overview, full TOC and selected detailed passages. Full point-by-point transcription, nested-indicator mapping and score-field extraction remain open; DOCX counterpart not directly inspected.
 - Soul Nature / Soul Characteristics — used in the Freedomality working description; their independent definitions and source history remain to be reviewed.
 
 The application terms Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation now have working entries. These are not final public definitions; unresolved measurement, source-history, translation and architecture questions remain open.
@@ -593,6 +593,7 @@ This document is an internal trilingual research aid. The public `glossary.html`
 
 ## 5. Change history
 
+- **2026-11-26 — Version 0.6:** Updated the Entropy assessment source status after direct inspection of the RTF v1.1; detailed point-by-point extraction and scoring interpretation remain open. No definitions or measurement validity claims were inferred.
 - **2026-11-26 — Version 0.5:** Updated the unresolved Level of Actualization of Freewill note after locating its historical project-term record; no definition or equivalence was inferred. No public HTML was changed.
 - **2026-11-25 — Version 0.4:** Added working trilingual entries for Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Entropy Particle, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation. Preserved source-version differences in field/application classification and the Awakenology / Exincarnology relationship. Kept Level of Actualization of Freewill and detailed Entropy assessment definitions open pending direct source verification. No public HTML was changed.
 - **2026-11-25 — Version 0.3:** Added source-grounded working entries for Infinity, Zero / Idle, Spirit / Void / Voidness, True Origin / Oneness Origin / Fake Origin, Freewill, and Imagination / Origination / Manifestation. Preserved historical and current wording separately and kept unresolved translations provisional. No public HTML was changed.

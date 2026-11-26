@@ -103,3 +103,14 @@ Recommended next research step: build a point-level extraction with exact Chines
 - Git blob identifiers are not SHA-256 checksums.
 - The index is a derivative navigation aid. It does not replace the source, verify its claims, or establish that the supplied section is the complete entropy assessment system.
 - Any later point-level extraction must preserve exact wording, source order, uncertainty, and surrounding context.
+
+
+## 9. Direct RTF source review — 2026-11-26
+
+The RTF v1.1 was directly retrieved and inspected. Its complete table of contents contains 114 top-level assessment headings distributed across nine areas, plus nested sub-indicators. This is a count of TOC headings only; it is not a count of all detection points. The source overview reports approximately 1,800 main points and much larger totals when subdivisions are included; those figures are source-reported, not independently verified.
+
+The source's detailed body uses the literal assessment labels `RR`, `88` and `JJ`, with heterogeneous numerical ranges and, in some cases, grade levels. The overview says the scoring system is not wholly percentage-based and may be unlimited at higher stages. The body explicitly distinguishes laboratory reference values from practical performance and describes some points as laboratory-oriented. No common unit or comparability across the labels or values is established in this index.
+
+The source overview refers to one auxiliary area, while the TOC names multiple attached auxiliary sections. This difference is retained rather than reconciled. The RTF v1.1 update note records a second batch received 2026-06-08, covering several Zone 1 subdivisions. The DOCX counterpart was identified but not directly inspected.
+
+See [Entropy Assessment Source Review — RTF v1.1](../ENTROPY-ASSESSMENT-SOURCE-REVIEW.md) for the extracted 114-heading map, selected direct descriptions, score/comparability cautions and next extraction plan.
