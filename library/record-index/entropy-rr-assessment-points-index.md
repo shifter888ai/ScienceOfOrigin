@@ -94,9 +94,11 @@ Page numbers above are the document's printed/table-of-contents references, not 
 - **Freedomality of Consciousness / Science of Freewill:** possible connections may be explored where the source's actual indicators concern autonomy, choice, flexibility, or action. Do not infer these links from area names alone; inspect the exact point descriptions first.
 - **Science of Consciousness / Spectrum of Consciousness:** possible comparison material only after defining whether the source's constructs and measurement units correspond to the project's constructs.
 
-A line-numbered transcription of the RTF appendix body is now available at [`library/entropy-assessment-body-transcription-v1.1.md`](../entropy-assessment-body-transcription-v1.1.md). It preserves 2,151 non-empty paragraphs in source order, including source wording, visible `RR`, `88` and `JJ` labels, values and comments. It does not yet reconstruct formatting or assign every fragmented score/value to a point.
+The line-numbered transcription is available at [`library/entropy-assessment-body-transcription-v1.1.md`](../entropy-assessment-body-transcription-v1.1.md). It preserves 2,151 non-empty appendix paragraphs in source order, including visible `RR`, `88` and `JJ` labels, values and comments.
 
-Next: build a normalized point-level register with exact Chinese wording, parent zone/part/auxiliary status, nested-indicator hierarchy, printed TOC/page locator, separate RR/88/JJ fields, comments and transcription line references. Keep source text, source ratings and research interpretation separate; record ambiguous associations rather than guessing.
+A first-pass point-level register is now available at [`library/entropy-assessment-point-register-v1.1.md`](../entropy-assessment-point-register-v1.1.md). It records 224 body headings, 371 score blocks, source-line references and TOC page locators where matched. It leaves six unheaded score blocks unassigned, flags four headings with incomplete label sets, and records one TOC/body wording mismatch for manual review. The register's nearest-preceding-heading association is provisional and must be checked against the original RTF/DOCX layout.
+
+Next: manually verify the provisional associations, the four incomplete label sets, six unheaded blocks, page locators and the TOC/body wording difference. Keep source text, source ratings and research interpretation separate; record ambiguity rather than guessing.
 
 ## 8. Preservation and limitations
 
