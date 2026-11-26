@@ -102,4 +102,4 @@ Completed next step: the full linked TOC was extracted with exact Chinese wordin
 - The RTF is the readable version used for this index. The RTF was directly inspected on 2026-11-26. The DOCX binary was identified in the repository but its contents were not independently parsed by the current connector.
 - Git blob identifiers are not SHA-256 checksums.
 - The index is a derivative navigation aid. It does not replace the source, verify its claims, or establish that the supplied section is the complete entropy assessment system.
-- Any later point-level extraction must preserve exact wording, source order, uncertainty, and surrounding context.
+- The linked TOC catalogue preserves the source wording, order and printed page locators. Further point-level definition work should preserve surrounding context and keep general source descriptions separate from individual assessment values and comments.

@@ -1,6 +1,6 @@
 # Science of Origin — Trilingual Glossary Inventory
 
-**Status:** Expanded source-derived glossary register · Version 0.4  
+**Status:** Expanded source-derived glossary register · Version 0.5  
 **Languages:** English · 繁體中文 · 日本語  
 **Purpose:** A curated working explanation layer built from the Terminology Inventory. This is an internal research document, not the public Glossary. The published Glossary remains English-only.
 

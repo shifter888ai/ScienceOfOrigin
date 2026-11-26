@@ -1,6 +1,6 @@
 # Science of Origin — Trilingual Terminology Inventory
 
-**Status:** Expanded source-extraction edition · Version 0.4  
+**Status:** Expanded source-extraction edition · Version 0.5  
 **Languages:** English · 繁體中文 · 日本語  
 **Purpose:** Preserve terminology found in original Science of Origin materials, with source traceability and provisional cross-language mappings. This is an internal research inventory, not the published website terminology page.
 
