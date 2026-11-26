@@ -28,7 +28,7 @@ The initial register used an overly strict label detector: it required the exact
 
 After recognizing these source forms without altering the transcription, the RTF contains **375** point/aggregate assessment blocks: **125 RR**, **125 88**, and **125 JJ**. All **123** point headings with individual assessment blocks have a complete RR/88/JJ set. There are no incomplete point-level sets in this pass.
 
-The literal source forms remain visible in the transcription and are recorded in the corrected point-level register.
+The literal source forms remain visible in the transcription and are recorded in the corrected point-level register. A standalone `JJ` appearing later in a comment (L0928) is retained as comment text, not treated as another score label, because no colon follows it. The corrected parser starts a new score block only when a recognized label is followed by a colon on the same or next text run.
 
 ## 4. Contextual aggregate blocks
 
