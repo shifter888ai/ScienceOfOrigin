@@ -5,7 +5,7 @@
 **Source title/version:** `熵值检测点`, v1.1 (with v1.0 material referenced)  
 **RTF Git blob:** `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`  
 **DOCX counterpart:** `materials/熵值检测点RR部分.docx` (owner-confirmed equivalent to the RTF; not separately extracted or layout-audited)  
-**Status:** Direct RTF source review, full TOC extraction, line-numbered text-run transcription, RTF text-run/TOC comparison, corrected first-pass point-level register and source-qualification classification. The owner confirms that the DOCX counterpart is equivalent to the RTF, so separate DOCX extraction is not planned unless a discrepancy arises. Scoring interpretation remains open; this is not a validation of the assessment model.
+**Status:** Direct RTF source review, full TOC extraction, line-numbered text-run transcription, RTF text-run/TOC comparison, corrected first-pass point-level register, source-qualification classification and measurement-specification gap inventory. The owner confirms that the DOCX counterpart is equivalent to the RTF, so separate DOCX extraction is not planned unless a discrepancy arises. Scoring interpretation remains open; this is not a validation of the assessment model.
 
 ## 1. Source and version observations
 
@@ -267,6 +267,8 @@ The document's own overview says the scale is not wholly percentage-based and ma
 
 A separate [Entropy Assessment v1.1 Source Qualification Register](entropy-assessment-qualification-register-v1.1.md) now classifies the explicit reverse-value designation, laboratory/practical boundary, purpose-dependent or non-monotonic indicators, case-level auxiliary scoring, and point-specific intention/strategy/environment/experience qualifications. It preserves each qualification at its source location and does not infer scoring formulas or universal directions.
 
+A [Measurement Specification Gap Register](entropy-assessment-measurement-specification-gaps-v1.1.md) now separates what v1.1 explicitly specifies from what it only partially describes or does not specify in the inspected document. It covers label semantics, point-level scales, reverse-value handling, rubrics, aggregation, test procedures, calibration, repeatability, uncertainty, laboratory/practical comparison, contextual recording, missing results, longitudinal comparison and AI-workflow traceability. It does not supply missing rules or assume that they do not exist in other source materials.
+
 ## 7. Relationship to the public Entropy of Consciousness framework
 
 The public `entropy-of-consciousness.html` introduction presents a nine-zone architecture and explicitly distinguishes laboratory reference assessments from practical performance. The RTF supplies substantially more detailed source material beneath that architecture.
@@ -293,8 +295,9 @@ Remaining work:
 
 1. The owner confirms that the DOCX counterpart is equivalent to the RTF. No separate DOCX extraction is planned; revisit only if a concrete discrepancy is identified.
 2. If rendered-page review becomes necessary, compare the RTF's printed TOC locators and selected score blocks against page images; the current page check compares the RTF's own TOC hyperlink-result entries, not screenshots.
-3. Continue reviewing the qualification register against the source if additional point-level qualifications are identified; the current first pass classifies the explicit qualifications found in the inspected RTF text.
-4. Only after source extraction is verified, examine possible mappings to the public nine-zone architecture, Spectrum research, Freedomality or another Science of Origin field. Such mappings remain research proposals until source wording and measurement relationships support them.
+3. Use the [Measurement Specification Gap Register](entropy-assessment-measurement-specification-gaps-v1.1.md) to guide source-owner clarification of RR/88/JJ, point-level scales, reverse-value handling, auxiliary-level descriptors, aggregation and test/calibration procedures. The register distinguishes missing details in this document from claims about the wider source archive.
+4. Continue reviewing the qualification register against the source if additional point-level qualifications are identified; the current first pass classifies the explicit qualifications found in the inspected RTF text.
+5. Only after source extraction and the relevant measurement definitions are verified, examine possible mappings to the public nine-zone architecture, Spectrum research, Freedomality or another Science of Origin field. Such mappings remain research proposals until source wording and measurement relationships support them.
 
 ## 9. Source and access limitations
 
