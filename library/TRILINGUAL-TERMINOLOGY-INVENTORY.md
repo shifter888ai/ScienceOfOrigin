@@ -40,6 +40,8 @@
 | SRC-SOC-001 | `Science-of-Consciousness.txt` (project-supplied file) | Project Description & Research Framework |
 | SRC-SOC-002 | `Science-of-Consciousness-—-Research-Architecture.txt` (project-supplied file) | Short research architecture outline |
 | SRC-SOC-003 | `materials/awakenology/Science.md` | Current author-framed internal Science of Consciousness framework; directly inspected Sections 1–7, including field/application relationships, Freedomality terminology and Exincarnation terminology |
+| SRC-SOC-004 | `TERMINOLOGY-INVENTORY.md` (legacy repository-wide inventory) | Directly reviewed the Freedomality candidate table and its historical note identifying Level of Actualization of Freewill as a previously adopted replacement term for “Freedom of Consciousness”; this is a secondary project record, not the primary defining source |
+| SRC-SOC-005 | `library/TERMINOLOGY-CONCEPTUAL-REVIEW-2.md` | Directly reviewed the application terminology review and its explicit statement that the supplied framework documents do not define Level of Actualization of Freewill, Freedomality Index or Freedometry |
 | SRC-AW-TERM-001 | `materials/awakenology/Awakenology-Glossary/Terminology.md` | Internal glossary review draft; inspected application and Freedomality rows; treated as a working terminology source, not a final public glossary |
 | SRC-ENT-001 | `entropy-of-consciousness.html` | Public research introduction; directly inspected nine-zone architecture, research approach, laboratory/practical distinction and Entropy Particle usage |
 | SRC-ENT-IDX-001 | `library/record-index/entropy-rr-assessment-points-index.md` | Derivative index of an Entropy assessment source; inspected index only, not the underlying DOCX/RTF binary; used as a navigation and coverage aid, not a substitute for the original |
@@ -687,6 +689,18 @@
 - **Source:** SRC-SOC-001; SRC-SOC-003, Sections 3–4; SRC-CC-001, Page 264, lines 7431–7463.
 - **Review status:** Project mapping and historical source relation extracted; operational scope and independent verification OPEN.
 
+### T-059 — Level of Actualization of Freewill / 中文對應待核 / 日本語対応待核
+
+- **English project term:** Level of Actualization of Freewill
+- **繁體中文:** 尚無已核定對應詞；保留英文原詞
+- **日本語:** 確認済みの対応語なし；英語原語を保持
+- **Legacy project record (SRC):** The repository-wide legacy `TERMINOLOGY-INVENTORY.md` records this as a previously adopted replacement term for “Freedom of Consciousness.”
+- **Current-source comparison:** The current internal `materials/awakenology/Science.md` uses the phrase “actualization of free will” when describing a research relationship that must be explicitly defined, tested and independently validated. It separately defines Freedomality of Consciousness as the degree to which inherent free will is actually expressed through Soul Characteristics.
+- **Related current terminology:** Freedomality of Consciousness (T-050), Freedomality Index (FI) (T-051), and Freedometry (T-052).
+- **Context / limitation:** The reviewed primary/current framework sources do not provide a complete definition of the exact title “Level of Actualization of Freewill,” nor a scale, unit, formula, or explicit equivalence with Freedomality of Consciousness or FI. The legacy inventory establishes that the term was previously adopted in project terminology, but does not supply its original defining passage. Do not infer that it is identical to Freedomality, FI, or the actualization of a manifestation.
+- **Source:** `TERMINOLOGY-INVENTORY.md` (legacy candidate table); `library/TERMINOLOGY-CONCEPTUAL-REVIEW-2.md`; `materials/awakenology/Science.md`, Section 5; `consciousness-freewill.html`; `what-is-freewill.html`.
+- **Review status:** Historical project-term usage located; primary definition, source history, operational meaning, measurement relation and cross-language mappings OPEN.
+
 ## 5. Candidate terms and unresolved source families
 
 The following still require additional direct source review before a fuller history or operational definition can be recorded:
@@ -699,7 +713,7 @@ The following still require additional direct source review before a fuller hist
 - 意识频率
 - 意识光谱
 - 自由度 / 自由意识的自由强度
-- Level of Actualization of Freewill — mentioned as an unresolved relationship in the conceptual review; the exact term and definition were not found in the reviewed current `Science.md` or Awakenology glossary source.
+- Level of Actualization of Freewill — the legacy repository inventory records it as a previously adopted replacement term for “Freedom of Consciousness” (T-059). Its primary defining passage, operational meaning and relationship to Freedomality of Consciousness / FI remain unverified.
 - Hypnotic Reincarnation — a source-stated relation is recorded in T-020, but a fuller definition and source history remain open.
 - Soul Nature / Soul Characteristics — used as related concepts in the Freedomality framework; their independent definitions and source history require extraction before further operational interpretation.
 
@@ -708,7 +722,7 @@ Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consc
 ## 6. Next extraction priorities
 
 1. Review the remaining original-source families for 本源意识, 万物本质, 虚拟存在 and 虚拟现实, separating definitions from examples, titles and contextual uses.
-2. Locate and directly verify the source history of **Level of Actualization of Freewill**; establish whether it is a preferred term, a descriptive measure, or a separate construct before defining it.
+2. Locate and directly verify the primary source history and defining passage for **Level of Actualization of Freewill** (T-059); establish its intended scope and relationship to Freedomality of Consciousness / FI before defining it.
 3. Inspect the underlying Entropy DOCX/RTF source directly and build point-level extraction with exact wording, original order, locators and surrounding context; the current assessment-point index is only a navigation aid.
 4. Review the source history and intended relationship among Freedomality of Consciousness, Freedomality Index (FI), Freedometry and any Level of Actualization of Freewill terminology.
 5. Compare Strength of Consciousness of Things with Strength of Consciousness and Spectrum of Things without assuming identity or a parent/child relationship.
@@ -717,7 +731,7 @@ Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consc
 
 ## 7. Change history
 
-- **2026-11-25 — Version 0.4:** Added T-050–T-058 for Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Entropy Particle, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation. Added direct review of the current internal Science.md framework, Awakenology terminology review draft, Entropy public research page and Entropy assessment-point index. Preserved conflicting field/application classifications and the different Awakenology / Exincarnology hierarchies by source version. Left Level of Actualization of Freewill unresolved because the exact term and definition were not present in the reviewed current source files. No public HTML was changed.
+- **2026-11-26 — Version 0.5:** Added T-059 for Level of Actualization of Freewill after locating its historical project-term record in the legacy terminology inventory. Preserved that historical usage while keeping the primary definition, operational meaning and relationship to Freedomality / FI open. Added a source-attributed Freedomality–actualization conceptual review. No public HTML was changed.\n- **2026-11-25 — Version 0.4:** Added T-050–T-058 for Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Entropy Particle, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation. Added direct review of the current internal Science.md framework, Awakenology terminology review draft, Entropy public research page and Entropy assessment-point index. Preserved conflicting field/application classifications and the different Awakenology / Exincarnology hierarchies by source version. Left Level of Actualization of Freewill unresolved because the exact term and definition were not present in the reviewed current source files. No public HTML was changed.
 - **2026-11-25 — Version 0.3:** Added 13 terminology records (T-037–T-049) from direct review of current Science of Origin framework pages and preserved historical First Edition wording. Recorded Infinity, Zero, Idle State, Spirit, Void, Voidness, True Origin, Oneness Origin, Fake Origin, Freewill, Imagination, Origination and Manifestation. Explicitly retained unresolved Void/Voidness, Spirit/Soul, historical Infinity/Origin and cross-language mappings. No public HTML was changed.
 - **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
 - **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
