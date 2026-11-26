@@ -640,7 +640,7 @@
 - **繁體中文原詞:** 熵值粒子
 - **日本語:** 確認済みの対応語なし；英語・中国語原語を保持
 - **Direct original-source wording (SRC):** The v1.1 Chinese assessment source repeatedly uses `熵值粒子` (Entropy Particle) across Areas 4–8. Area 4 describes flexible differentiation as responding to different scenarios through flexible changes and differentiation. Area 6 describes particle movement/swing as one of several forms or dynamic displays during operation, used in numerical adjustment and testing of the particle's own values. Other named tests include energy storage, elasticity, resistance, controlled swing, weighting, self-balancing, risk response, projection, landing, adaptation and return.
-- **Context / limitation:** The RTF is a source-authored assessment document with point names and explanations, not a complete formal definition of Entropy Particle. The listed properties and tests should not be treated as an exhaustive specification or assumed equivalent to a conventional physical particle. The source includes case-specific RR/88/JJ values and comments; these were excluded from the public-facing derivative catalogue.
+- **Context / limitation:** The RTF is a source-authored assessment document with point names and explanations, not a complete formal definition of Entropy Particle. The listed properties and tests should not be treated as an exhaustive specification or assumed equivalent to a conventional physical particle. The source includes case-specific RR/88/JJ values and comments; these were excluded from the derivative catalogue.
 - **Source:** SRC-ENT-001; SRC-ENT-RTF-001; SRC-ENT-IDX-001.
 - **Review status:** Chinese source mapping and multiple source-defined attributes directly extracted; complete operational definition, measurement protocol, Japanese mapping and construct validation OPEN.
 
@@ -689,10 +689,10 @@
 - **Review status:** Project mapping and historical source relation extracted; operational scope and independent verification OPEN.
 
 
-### T-059 — Entropy Assessment Points / 熵值检测點 / 日本語対応待核
+### T-059 — Entropy Assessment Points / 熵值檢測點 / 日本語対応待核
 
 - **English display term:** Entropy Assessment Points
-- **繁體中文原詞:** 熵值检测点（繁體呈現：熵值檢測點）
+- **繁體中文對應:** 熵值檢測點（原始簡體中文標題：熵值检测点）
 - **日本語:** 確認済みの対応語なし；原語表記を保持
 - **Source title:** `熵值检测点`, v1.1.
 - **Source wording (SRC):** The source describes nine main areas and one auxiliary area. It reports approximately 1,800 main assessment points, several tens of thousands in total, and over one hundred thousand subdivisions. It describes main-area scoring as not wholly percentage-based, with higher stages able to exceed conventional percentage ranges. Auxiliary sections are described separately as graded from Level 1 to Level 9.
