@@ -4,8 +4,8 @@
 **Primary source inspected:** `materials/熵值检测点RR部分.rtf`  
 **Source title/version:** `熵值检测点`, v1.1 (with v1.0 material referenced)  
 **RTF Git blob:** `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`  
-**DOCX counterpart:** `materials/熵值检测点RR部分.docx` (identified in repository, not directly inspected in this review)  
-**Status:** Direct RTF source review, full TOC extraction, line-numbered text-run transcription, RTF text-run/TOC comparison and corrected first-pass point-level register. DOCX counterpart inspection and scoring interpretation remain open; this is not a validation of the assessment model.
+**DOCX counterpart:** `materials/熵值检测点RR部分.docx` (owner-confirmed equivalent to the RTF; not separately extracted or layout-audited)  
+**Status:** Direct RTF source review, full TOC extraction, line-numbered text-run transcription, RTF text-run/TOC comparison, corrected first-pass point-level register and source-qualification classification. The owner confirms that the DOCX counterpart is equivalent to the RTF, so separate DOCX extraction is not planned unless a discrepancy arises. Scoring interpretation remains open; this is not a validation of the assessment model.
 
 ## 1. Source and version observations
 
@@ -265,6 +265,8 @@ The document's own overview says the scale is not wholly percentage-based and ma
 
 **Do not normalize, compare or aggregate these values as though they shared a verified common unit.** Before any quantitative analysis, the project would need the source-defined meanings of RR/88/JJ, the scale/range for each point, the direction of better/worse where applicable, test conditions, calibration rules, and the relationship between laboratory reference and practical results.
 
+A separate [Entropy Assessment v1.1 Source Qualification Register](entropy-assessment-qualification-register-v1.1.md) now classifies the explicit reverse-value designation, laboratory/practical boundary, purpose-dependent or non-monotonic indicators, case-level auxiliary scoring, and point-specific intention/strategy/environment/experience qualifications. It preserves each qualification at its source location and does not infer scoring formulas or universal directions.
+
 ## 7. Relationship to the public Entropy of Consciousness framework
 
 The public `entropy-of-consciousness.html` introduction presents a nine-zone architecture and explicitly distinguishes laboratory reference assessments from practical performance. The RTF supplies substantially more detailed source material beneath that architecture.
@@ -289,15 +291,15 @@ The earlier four “incomplete” label sets were extraction false positives cau
 
 Remaining work:
 
-1. Inspect the DOCX counterpart separately and compare its visible content/layout with the RTF. The DOCX has not yet been directly inspected.
+1. The owner confirms that the DOCX counterpart is equivalent to the RTF. No separate DOCX extraction is planned; revisit only if a concrete discrepancy is identified.
 2. If rendered-page review becomes necessary, compare the RTF's printed TOC locators and selected score blocks against page images; the current page check compares the RTF's own TOC hyperlink-result entries, not screenshots.
-3. Extract and classify source qualifications point by point (for example, laboratory-oriented, practical, reverse-value, purpose-dependent or otherwise qualified) without generalizing beyond the source.
+3. Continue reviewing the qualification register against the source if additional point-level qualifications are identified; the current first pass classifies the explicit qualifications found in the inspected RTF text.
 4. Only after source extraction is verified, examine possible mappings to the public nine-zone architecture, Spectrum research, Freedomality or another Science of Origin field. Such mappings remain research proposals until source wording and measurement relationships support them.
 
 ## 9. Source and access limitations
 
 - The RTF binary was directly retrieved and its Unicode text extracted for this review.
-- The DOCX counterpart is present in the repository but was not directly inspected.
+- The DOCX counterpart is present in the repository. The owner confirms it is equivalent to the RTF; it has not been separately extracted or layout-audited.
 - The current extraction covers the RTF's overview, full TOC heading structure, selected direct explanations, 2,151 visible text runs and a corrected first-pass register of 224 body headings and 375 assessment blocks. The transcription preserves text-run order, not Word paragraph boundaries or rendered formatting.
 - The 113 matched top-level body headings have page locators that agree with the RTF's own TOC hyperlink-result entries. These remain printed source locators, not independently verified PDF page images.
 - No claims about validity, reliability, scientific acceptance or external reproducibility are made here.
