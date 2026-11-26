@@ -6,7 +6,7 @@
 **RTF Git blob SHA:** `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`  
 **DOCX counterpart:** `materials/熵值检测点RR部分.docx` (1,764,873 bytes; Git blob SHA `509d7dc53ba656bcc4b7f19631d162986b0a9119`)  
 **Version shown:** v1.1; v1.0 material is also referenced  
-**Index status:** Structural extraction from the RTF; not a full point-by-point transcription or validation of the scoring system.
+**Index status:** RTF structural extraction and source-linked navigation aid; the separate point-level register and text-run transcription are first-pass derivatives, not a complete audit of every source-reported point or validation of the scoring system.
 
 ## 1. Source and version notes
 
@@ -84,7 +84,7 @@ The table of contents indicates:
 - Main area detail: pages 7–65
 - Appendix, original `互催` documents: page 65
 
-Page numbers above are the document's printed/table-of-contents references, not verified PDF page indices. Use the original RTF or corresponding source file for exact wording, formatting, tables, and context.
+The 113 body headings that match the top-level TOC have page locators agreeing with the RTF's own TOC hyperlink-result entries. These are printed source locators, not independently verified PDF page indices. Use the original RTF for exact wording and context; the text-run transcription does not reconstruct visual formatting or page layout.
 
 ## 7. Relationship to Science of Origin research
 
@@ -94,11 +94,13 @@ Page numbers above are the document's printed/table-of-contents references, not 
 - **Freedomality of Consciousness / Science of Freewill:** possible connections may be explored where the source's actual indicators concern autonomy, choice, flexibility, or action. Do not infer these links from area names alone; inspect the exact point descriptions first.
 - **Science of Consciousness / Spectrum of Consciousness:** possible comparison material only after defining whether the source's constructs and measurement units correspond to the project's constructs.
 
-The line-numbered transcription is available at [`library/entropy-assessment-body-transcription-v1.1.md`](../entropy-assessment-body-transcription-v1.1.md). It preserves 2,151 non-empty appendix paragraphs in source order, including visible `RR`, `88` and `JJ` labels, values and comments.
+The line-numbered transcription is available at [`library/entropy-assessment-body-transcription-v1.1.md`](../entropy-assessment-body-transcription-v1.1.md). It preserves 2,151 non-empty visible text runs in source order; each numbered line is a text run, not necessarily a Word paragraph. An independent comparison found all 2,151 lines in the original RTF text-run sequence in the same order.
 
-A first-pass point-level register is now available at [`library/entropy-assessment-point-register-v1.1.md`](../entropy-assessment-point-register-v1.1.md). It records 224 body headings, 371 score blocks, source-line references and TOC page locators where matched. It leaves six unheaded score blocks unassigned, flags four headings with incomplete label sets, and records one TOC/body wording mismatch for manual review. The register's nearest-preceding-heading association is provisional and must be checked against the original RTF/DOCX layout.
+The corrected point-level register is available at [`library/entropy-assessment-point-register-v1.1.md`](../entropy-assessment-point-register-v1.1.md). It records 224 body headings (including 100 nested indicators) and 375 assessment blocks: 125 each for `RR`, `88` and `JJ`. All 123 point headings with individual scores have complete three-label sets. Six other blocks are preserved as two contextual aggregates: the Zone 1 opening overview and Zone 1 Part 3 aggregate. Punctuation and inline-colon variations are recognized while the literal source forms remain visible.
 
-Next: manually verify the provisional associations, the four incomplete label sets, six unheaded blocks, page locators and the TOC/body wording difference. Keep source text, source ratings and research interpretation separate; record ambiguity rather than guessing.
+The RTF layout verification memo is available at [`library/entropy-assessment-layout-verification-v1.1.md`](../entropy-assessment-layout-verification-v1.1.md). It records the text-run comparison, the 113 matched TOC page locators, and the one unresolved TOC/body wording difference: `实践中的复盘能力` versus `实践中的实时复盘能力`.
+
+The DOCX counterpart remains uninspected. The current RTF checks do not claim rendered-page comparison, scientific validation or coverage of all source-reported 1,800 main points. Keep source text, source ratings and research interpretation separate.
 
 ## 8. Preservation and limitations
 
@@ -118,3 +120,14 @@ The source's detailed body uses the literal assessment labels `RR`, `88` and `JJ
 The source overview refers to one auxiliary area, while the TOC names multiple attached auxiliary sections. This difference is retained rather than reconciled. The RTF v1.1 update note records a second batch received 2026-06-08, covering several Zone 1 subdivisions. The DOCX counterpart was identified but not directly inspected.
 
 See [Entropy Assessment Source Review — RTF v1.1](../ENTROPY-ASSESSMENT-SOURCE-REVIEW.md) for the extracted 114-heading map, selected direct descriptions, score/comparability cautions and next extraction plan.
+
+
+## 10. RTF text-run and TOC verification — 2026-11-26
+
+The RTF appendix transcription contains 2,151 non-empty visible text runs. All 2,151 numbered lines were found in the original RTF text-run sequence in the same order. This confirms textual coverage and order, not reconstruction of Word paragraph boundaries or visual formatting.
+
+The corrected register recognizes punctuation/inline-colon variants in the literal `RR`, `88` and `JJ` labels. It records 375 blocks (125 per label), with complete triplets for all 123 point headings that carry individual assessment blocks. Six additional blocks are grouped as two contextual aggregates rather than being attached to individual points. The original label forms are preserved.
+
+All 113 body headings that match a top-level TOC heading have page locators agreeing with the RTF's own TOC hyperlink-result entries. The one unresolved title difference is preserved: `实践中的复盘能力` in the TOC and `实践中的实时复盘能力` in the body. The DOCX counterpart and rendered page images have not been directly inspected.
+
+See [RTF v1.1 Layout Verification](../entropy-assessment-layout-verification-v1.1.md) and [Corrected Point-Level Register](../entropy-assessment-point-register-v1.1.md).

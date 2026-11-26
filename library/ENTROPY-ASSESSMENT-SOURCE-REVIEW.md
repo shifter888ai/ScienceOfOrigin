@@ -5,7 +5,7 @@
 **Source title/version:** `熵值检测点`, v1.1 (with v1.0 material referenced)  
 **RTF Git blob:** `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`  
 **DOCX counterpart:** `materials/熵值检测点RR部分.docx` (identified in repository, not directly inspected in this review)  
-**Status:** Direct source review, full TOC extraction, line-numbered appendix transcription and first-pass point-level register. Manual source-layout verification and scoring interpretation remain open; this is not a validation of the assessment model.
+**Status:** Direct RTF source review, full TOC extraction, line-numbered text-run transcription, RTF text-run/TOC comparison and corrected first-pass point-level register. DOCX counterpart inspection and scoring interpretation remain open; this is not a validation of the assessment model.
 
 ## 1. Source and version observations
 
@@ -277,28 +277,37 @@ The broad relationship is supported by the shared nine-zone structure. However:
 
 ## 8. Research implications and open questions
 
-The original source now supports a more precise follow-up programme. A line-numbered transcription of the RTF appendix body has been added at [`library/entropy-assessment-body-transcription-v1.1.md`](entropy-assessment-body-transcription-v1.1.md). It preserves 2,151 non-empty source paragraphs in order. This is a searchable transcription, not yet a normalized point register: score labels, values and comments have not been semantically assigned to headings where the original layout fragments them across formatted runs.
+The source now has three complementary extraction and verification aids:
 
-Remaining extraction steps:
+- [`library/entropy-assessment-body-transcription-v1.1.md`](entropy-assessment-body-transcription-v1.1.md) preserves 2,151 non-empty visible text runs in source order. Each numbered line is a text run, not necessarily a Word paragraph.
+- [`library/entropy-assessment-point-register-v1.1.md`](entropy-assessment-point-register-v1.1.md) records 224 body headings (including 100 nested-indicator headings) and 375 assessment blocks: 125 each for `RR`, `88` and `JJ`. All 123 point headings with individual assessment blocks have complete three-label sets. Six additional blocks are recorded as two contextual aggregates, not individual point scores.
+- [`library/entropy-assessment-layout-verification-v1.1.md`](entropy-assessment-layout-verification-v1.1.md) documents the independent RTF text-run comparison, TOC page-locator check and correction of punctuation/inline-label recognition.
 
-1. Build a normalized point-level register in source order, retaining the exact Chinese point title, parent zone/part/auxiliary area, nested-indicator hierarchy, printed page locator, explanatory passage and transcription line references.
-2. Extract each `RR`, `88` and `JJ` record as a separate source field, preserving the literal label, value, range and associated subject/context. Where the original layout makes an association ambiguous, record the ambiguity rather than guessing.
-3. Record whether the source describes an indicator as laboratory-only, practical, reverse-valued, purpose-dependent, or otherwise qualified.
-4. Identify points that have explicit sub-indicators and avoid counting them as separate top-level points unless the source structure does so.
-5. Preserve the difference between the overview's “one auxiliary area” wording and the multiple named auxiliary sections in the TOC.
-6. Only after extraction, examine whether any point has a defensible mapping to the public nine-zone architecture, Spectrum research, Freedomality or another Science of Origin field. Such mappings remain research proposals until source wording and measurement relationships support them.
+All 2,151 transcription lines were found in the original RTF text-run sequence in the same order. The 113 body headings that match the 114 top-level TOC titles have matching printed page locators in the RTF's TOC entries. The remaining title difference is preserved as `实践中的复盘能力` (TOC) versus `实践中的实时复盘能力` (body).
+
+The earlier four “incomplete” label sets were extraction false positives caused by source punctuation/line formatting: `,RR`, `88,`, `JJ：大概` and similar run boundaries. The corrected register recognizes these forms while retaining their literal source form. The six blocks previously called “unheaded” are two contextual groups: the Zone 1 opening overview and the Zone 1 Part 3 aggregate introduced by `可以测一下这部分总的数值`.
+
+Remaining work:
+
+1. Inspect the DOCX counterpart separately and compare its visible content/layout with the RTF. The DOCX has not yet been directly inspected.
+2. If rendered-page review becomes necessary, compare the RTF's printed TOC locators and selected score blocks against page images; the current page check compares the RTF's own TOC hyperlink-result entries, not screenshots.
+3. Extract and classify source qualifications point by point (for example, laboratory-oriented, practical, reverse-value, purpose-dependent or otherwise qualified) without generalizing beyond the source.
+4. Only after source extraction is verified, examine possible mappings to the public nine-zone architecture, Spectrum research, Freedomality or another Science of Origin field. Such mappings remain research proposals until source wording and measurement relationships support them.
 
 ## 9. Source and access limitations
 
 - The RTF binary was directly retrieved and its Unicode text extracted for this review.
 - The DOCX counterpart is present in the repository but was not directly inspected.
-- The current extraction covers the RTF's overview, full TOC heading structure, selected direct explanations and a line-numbered transcription of the appendix body (1,353 non-empty paragraphs). The transcription does not reconstruct formatting or fully normalize point/score associations; that structured extraction remains open.
-- The printed page references in the TOC are source locators, not independently verified PDF page indices.
+- The current extraction covers the RTF's overview, full TOC heading structure, selected direct explanations, 2,151 visible text runs and a corrected first-pass register of 224 body headings and 375 assessment blocks. The transcription preserves text-run order, not Word paragraph boundaries or rendered formatting.
+- The 113 matched top-level body headings have page locators that agree with the RTF's own TOC hyperlink-result entries. These remain printed source locators, not independently verified PDF page images.
 - No claims about validity, reliability, scientific acceptance or external reproducibility are made here.
 
 ## 10. Source references
 
 - `materials/熵值检测点RR部分.rtf` — primary inspected source, v1.1.
 - `materials/熵值检测点RR部分.docx` — repository counterpart, identified but not directly inspected.
-- `library/record-index/entropy-rr-assessment-points-index.md` — earlier derivative structural index.
+- `library/record-index/entropy-rr-assessment-points-index.md` — derivative structural index.
+- `library/entropy-assessment-body-transcription-v1.1.md` — line-numbered text-run transcription.
+- `library/entropy-assessment-point-register-v1.1.md` — corrected first-pass point-level and aggregate register.
+- `library/entropy-assessment-layout-verification-v1.1.md` — RTF text-run and TOC layout verification.
 - `entropy-of-consciousness.html` — public nine-zone introduction and laboratory/practical distinction.

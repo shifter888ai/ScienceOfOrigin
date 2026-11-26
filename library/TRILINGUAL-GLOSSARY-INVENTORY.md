@@ -498,7 +498,7 @@ The public framework approaches Entropy through multiple dimensions and explicit
 The public Entropy research page uses the term Entropy Particle. Its basic laboratory-testing zone gives examples including oscillation, energy accumulation, elasticity, resistance, controlled movement, weighting and self-balancing.
 
 **Working explanation:**  
-The page does not provide a complete definition or operational treatment of Entropy Particle. The listed characteristics are examples within one research zone, not a complete specification and not evidence that the term means a conventional physical particle.
+The public page does not provide a complete definition or operational treatment of Entropy Particle. The RTF v1.1 assessment source has now been directly inspected and contains further source-specific descriptions and assessment points; these remain source-contextual and do not establish a complete ontology or operational definition. The DOCX counterpart has not been directly inspected. The listed characteristics are examples within one research zone, not a complete specification and not evidence that the term means a conventional physical particle.
 
 **繁體中文說明:**  
 公開 Entropy 研究頁使用 Entropy Particle 一詞，並在基礎實驗室測試區列出振盪、能量累積、彈性、阻力、受控移動、加權及自我平衡等例子。該頁未提供完整定義或操作方式；這些例子不能視為完整規格，也不能據此認定其等同一般物理學中的粒子。
@@ -506,7 +506,7 @@ The page does not provide a complete definition or operational treatment of Entr
 **日本語メモ:**  
 公開研究ページは Entropy Particle という用語を使用し、基礎的な実験室テストの例として振動、エネルギー蓄積、弾性、抵抗、制御された移動、重み付け、自己平衡を挙げる。ただし完全な定義や操作方法は示していない。これらの例を完全な仕様や通常の物理粒子の定義とみなさない。
 
-**Sources:** entropy-of-consciousness.html; library/record-index/entropy-rr-assessment-points-index.md (derivative index only; underlying source not directly inspected in this tranche).
+**Sources:** entropy-of-consciousness.html; `materials/熵值检测点RR部分.rtf` (v1.1); `library/entropy-assessment-point-register-v1.1.md` (derivative register); `library/entropy-assessment-layout-verification-v1.1.md`.
 
 ### Strength of Consciousness of Things — 中文對應待核 — 日本語対応待核
 
@@ -582,7 +582,7 @@ The following terms or source families still require more original passage revie
 - 意识光谱
 - Level of Actualization of Freewill — the legacy repository inventory records it as a previously adopted replacement term for “Freedom of Consciousness”; its primary defining passage, operational meaning and relationship to Freedomality of Consciousness / FI remain unverified.
 - Hypnotic Reincarnation — a source-stated relationship is recorded in the terminology inventory, but its fuller definition and source history remain open.
-- Entropy assessment source — RTF v1.1 directly inspected for overview, full TOC and selected detailed passages. Full point-by-point transcription, nested-indicator mapping and score-field extraction remain open; DOCX counterpart not directly inspected.
+- Entropy assessment source — RTF v1.1 directly inspected; a 2,151-text-run transcription, 224-heading / 375-block point-level register and RTF text-run/TOC verification memo are available. Source-specific point qualifications and semantic interpretation remain open; DOCX counterpart not directly inspected.
 - Soul Nature / Soul Characteristics — used in the Freedomality working description; their independent definitions and source history remain to be reviewed.
 
 The application terms Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation now have working entries. These are not final public definitions; unresolved measurement, source-history, translation and architecture questions remain open.
@@ -593,6 +593,7 @@ This document is an internal trilingual research aid. The public `glossary.html`
 
 ## 5. Change history
 
+- **2026-11-26 — Version 0.7:** Updated the Entropy assessment source status after direct RTF text-run and TOC verification. Added the corrected 224-heading / 375-block register and clarified that DOCX comparison and source-specific semantic interpretation remain open. No definitions or measurement-validity claims were inferred; no public HTML was changed.
 - **2026-11-26 — Version 0.6:** Updated the Entropy assessment source status after direct inspection of the RTF v1.1; detailed point-by-point extraction and scoring interpretation remain open. No definitions or measurement validity claims were inferred.
 - **2026-11-26 — Version 0.5:** Updated the unresolved Level of Actualization of Freewill note after locating its historical project-term record; no definition or equivalence was inferred. No public HTML was changed.
 - **2026-11-25 — Version 0.4:** Added working trilingual entries for Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Entropy Particle, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation. Preserved source-version differences in field/application classification and the Awakenology / Exincarnology relationship. Kept Level of Actualization of Freewill and detailed Entropy assessment definitions open pending direct source verification. No public HTML was changed.
