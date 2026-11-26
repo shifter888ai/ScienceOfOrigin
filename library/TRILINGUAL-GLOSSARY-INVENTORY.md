@@ -482,7 +482,7 @@ Freedometry is a proposed methodology, not an established or validated measureme
 The supplied Project Description names Entropy of Consciousness as an application research field concerning entropy in relation to consciousness, including its properties, characteristics and measurable aspects. The current internal `Science.md` instead lists it as the third field of Science of Consciousness. The public research page presents a nine-zone framework covering multidimensional capabilities, foundational characteristics, dynamics, flexibility, integration and collaboration, laboratory testing and practical application.
 
 **Working explanation:**  
-The public framework approaches Entropy through multiple dimensions and explicitly avoids reducing it to a single numerical value. It distinguishes laboratory reference assessments from practical performance. The reviewed sources do not provide a single operational definition. Do not import a conventional thermodynamic definition without a source-grounded mapping.
+The public framework approaches Entropy through multiple dimensions and explicitly avoids reducing it to a single numerical value. It distinguishes laboratory reference assessments from practical performance. The reviewed sources do not provide a single operational definition. The original `熵值检测点` v1.1 assessment document is relevant source material, but it does not explicitly equate its `熵值` framework with the project's `Entropy of Consciousness` field. Do not import a conventional thermodynamic definition or assume construct identity without a source-grounded mapping.
 
 **繁體中文說明:**  
 提供的 Project Description 將 Entropy of Consciousness 列為應用研究領域，研究意識相關的熵及其性質、特徵與可測量面向；現行內部 `Science.md` 則將其列為 Science of Consciousness 的第三個研究領域。公開研究頁以九個主要區域呈現多維能力、基礎特徵、動態、靈活性、整合協作、實驗室測試及實際應用，並明確避免將其簡化為單一數值。目前檢視的來源尚未提供統一的操作性定義，不應直接套用熱力學定義。
@@ -498,7 +498,7 @@ The public framework approaches Entropy through multiple dimensions and explicit
 The public Entropy research page uses the term Entropy Particle. Its basic laboratory-testing zone gives examples including oscillation, energy accumulation, elasticity, resistance, controlled movement, weighting and self-balancing.
 
 **Working explanation:**  
-The page does not provide a complete definition or operational treatment of Entropy Particle. The listed characteristics are examples within one research zone, not a complete specification and not evidence that the term means a conventional physical particle.
+The public page does not provide a complete definition or operational treatment of Entropy Particle. The original v1.1 assessment source also uses the Chinese term `熵值粒子` across Areas 4–8. Area 4 describes flexible differentiation in response to different scenarios; Area 6 describes movement/swing as a dynamic display used in numerical adjustment and testing. Other named tests include energy storage, elasticity, resistance, controlled swing, weighting, self-balancing, risk response, projection, landing, adaptation and return. These are source-defined attributes and tests, not an exhaustive specification or evidence that the term means a conventional physical particle.
 
 **繁體中文說明:**  
 公開 Entropy 研究頁使用 Entropy Particle 一詞，並在基礎實驗室測試區列出振盪、能量累積、彈性、阻力、受控移動、加權及自我平衡等例子。該頁未提供完整定義或操作方式；這些例子不能視為完整規格，也不能據此認定其等同一般物理學中的粒子。
@@ -506,7 +506,7 @@ The page does not provide a complete definition or operational treatment of Entr
 **日本語メモ:**  
 公開研究ページは Entropy Particle という用語を使用し、基礎的な実験室テストの例として振動、エネルギー蓄積、弾性、抵抗、制御された移動、重み付け、自己平衡を挙げる。ただし完全な定義や操作方法は示していない。これらの例を完全な仕様や通常の物理粒子の定義とみなさない。
 
-**Sources:** entropy-of-consciousness.html; library/record-index/entropy-rr-assessment-points-index.md (derivative index only; underlying source not directly inspected in this tranche).
+**Sources:** `entropy-of-consciousness.html`; `materials/熵值检测点RR部分.rtf` v1.1; Entropy Assessment Point Catalogue; earlier structural index.
 
 ### Strength of Consciousness of Things — 中文對應待核 — 日本語対応待核
 
@@ -523,6 +523,27 @@ Keep this exact name distinct from Strength of Consciousness. The internal Awake
 提供された Project Description は Strength of Consciousness of Things を、物事に関係する意識の強度、その特性および測定可能性を研究する応用分野として挙げる。Awakenology 内部枠組みに別途登場する Strength of Consciousness と同一の構成概念または改称関係であるとは確認されていない。Spectrum of Things = Spectrum of Consciousness は研究目標であり、結論ではない。
 
 **Sources:** Science-of-Consciousness.txt, Section 5; Science-of-Consciousness-—-Research-Architecture.txt; materials/awakenology/Science.md, Sections 2–3; library/TERMINOLOGY-CONCEPTUAL-REVIEW-2.md.
+
+
+### Entropy Assessment Points — 熵值檢測點 — 日本語対応待核
+
+**Source statement:**  
+The original v1.1 source is titled `熵值检测点`. Its overview describes nine main areas and one auxiliary area, reports approximately 1,800 main assessment points, several tens of thousands in total and more than one hundred thousand subdivisions. The table of contents contains 230 linked entries, including area headings, subsections and point names.
+
+**Working explanation:**  
+The source organizes its assessment material into nine areas: multidimensional capability, foundational entropy, entropy dynamics, flexibility, combination/union, three laboratory zones, and practical activity. The source describes main-area scoring as not wholly percentage-based, with higher stages able to exceed conventional percentage ranges. Auxiliary sections are described as using Levels 1–9. The source's overview says “one auxiliary area,” while the detailed TOC/body show auxiliary subsections attached to several areas; preserve both descriptions.
+
+**繁體中文說明:**  
+原始 v1.1 文件標題為「熵值檢測點」。其概述稱系統分為九個主區及一個副區，並報告約1,800個主要檢測點、總計數萬個、細分十幾萬個。目錄共抽取出230個連結項目，包含區域、分節及檢測點名稱。主要區域的評分並非完全採百分制，高階分數可超出一般百分制範圍；附屬區則描述為第1至第9級。上述數量及評分方式均為來源陳述，尚未獨立驗證。
+
+**日本語メモ:**  
+原資料 v1.1 の表題は「熵值检测点」。概要では九つの主区と一つの補助区、約1,800の主要測定点、数万件、十万件以上の細分を記載する。目次からは区域・節・測定点名を含む230件のリンク項目を抽出した。主区の評価は完全な百分率方式ではなく、高段階では通常の百分率範囲を超えると説明される。補助区は第1級から第9級の段階評価とされる。これらは原資料の記述であり、独立検証済みの数値・尺度ではない。
+
+**Distinction:**  
+This source's `熵值检测点` framework is relevant to Entropy of Consciousness research, but the source itself does not explicitly equate the two terms. The relationship must remain a research mapping, not a presumed identity.
+
+**Sources:** `materials/熵值检测点RR部分.rtf` v1.1; Entropy Assessment Point Catalogue; `entropy-of-consciousness.html`.
+
 
 ### Awakenology — 催醒法＋催醒學 — 催醒法・催醒学（暫定）
 
@@ -580,7 +601,7 @@ The following terms or source families still require more original passage revie
 - 虚拟存在 / 虚拟现实
 - 频率 / 意识频率
 - 意识光谱
-- Level of Actualization of Freewill — exact source wording, definition and relationship to Freedomality of Consciousness remain unverified.
+- Level of Actualization of Freewill — the exact capitalized term remains unverified. The current Awakenology Science.md contains the phrase “actualization of free will” in a measurement-direction paragraph but does not define a named Level construct or operational measure.
 - Hypnotic Reincarnation — a source-stated relationship is recorded in the terminology inventory, but its fuller definition and source history remain open.
 - Entropy assessment source — the underlying DOCX/RTF must be inspected directly before detailed point-level definitions are added.
 - Soul Nature / Soul Characteristics — used in the Freedomality working description; their independent definitions and source history remain to be reviewed.
@@ -593,7 +614,7 @@ This document is an internal trilingual research aid. The public `glossary.html`
 
 ## 5. Change history
 
-- **2026-11-25 — Version 0.4:** Added working trilingual entries for Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Entropy Particle, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation. Preserved source-version differences in field/application classification and the Awakenology / Exincarnology relationship. Kept Level of Actualization of Freewill and detailed Entropy assessment definitions open pending direct source verification. No public HTML was changed.
+- **2026-11-26 — Version 0.5:** Added Entropy Assessment Points as a source-grounded working entry; updated Entropy Particle with direct Chinese source wording and Area 4/6 examples from the original v1.1 RTF; clarified that 熵值检测点 is relevant to but not explicitly equated with Entropy of Consciousness. No public HTML changed.\n- **2026-11-25 — Version 0.4:** Added working trilingual entries for Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Entropy Particle, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation. Preserved source-version differences in field/application classification and the Awakenology / Exincarnology relationship. Kept Level of Actualization of Freewill and detailed Entropy assessment definitions open pending direct source verification. No public HTML was changed.
 - **2026-11-25 — Version 0.3:** Added source-grounded working entries for Infinity, Zero / Idle, Spirit / Void / Voidness, True Origin / Oneness Origin / Fake Origin, Freewill, and Imagination / Origination / Manifestation. Preserved historical and current wording separately and kept unresolved translations provisional. No public HTML was changed.
 - **2026-11-25 — Version 0.2:** Added source-grounded entries for Attaining the Way, Exincarnation, Consciousness Strength Assessment Points, the two functional areas, and the Level of Awareness / Lucidity relationship. Added direct citations to the Chinese compilation TXT and Reddit archive. No published HTML was changed.
 - **2026-11-25 — Version 0.1:** Created an initial source-derived trilingual glossary register. Source quotations and relations are kept separate from editorial working explanations. No published HTML was changed.

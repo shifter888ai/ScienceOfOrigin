@@ -42,7 +42,8 @@
 | SRC-SOC-003 | `materials/awakenology/Science.md` | Current author-framed internal Science of Consciousness framework; directly inspected Sections 1–7, including field/application relationships, Freedomality terminology and Exincarnation terminology |
 | SRC-AW-TERM-001 | `materials/awakenology/Awakenology-Glossary/Terminology.md` | Internal glossary review draft; inspected application and Freedomality rows; treated as a working terminology source, not a final public glossary |
 | SRC-ENT-001 | `entropy-of-consciousness.html` | Public research introduction; directly inspected nine-zone architecture, research approach, laboratory/practical distinction and Entropy Particle usage |
-| SRC-ENT-IDX-001 | `library/record-index/entropy-rr-assessment-points-index.md` | Derivative index of an Entropy assessment source; inspected index only, not the underlying DOCX/RTF binary; used as a navigation and coverage aid, not a substitute for the original |
+| SRC-ENT-RTF-001 | `materials/熵值检测点RR部分.rtf` | Original readable v1.1 RTF directly inspected on 2026-11-26; extracted complete linked TOC (230 entries) and selected general descriptions; individual RR/88/JJ assessments excluded from derivative catalogue |
+| SRC-ENT-IDX-001 | `library/record-index/entropy-rr-assessment-points-index.md` | Earlier structural index, now checked against the directly inspected RTF; remains a derivative summary, not the source itself |
 | SRC-AW-PAGE-001 | `materials/awakenology/What-Is-Awakenology/index.html`; `materials/awakenology/What-is-SoC-Strength-of-Consciousness/index.html` | Snapshot pages inspected for Awakenology and Strength of Consciousness context; claims remain attributed to the source framework |
 
 **Access and version note:** The Chinese compilation TXT is the canonical source for current research under the completed-library scope. The two PDF volumes are retained as supplemental references; optional OCR/image review is not a completion blocker. The Chinese compilation passages cited in Version 0.2 were read directly from the TXT. For later tranches, each additional source is identified separately in the register; derivative indexes remain discovery aids, not substitutes for original-source review.
@@ -633,15 +634,15 @@
 - **Source:** SRC-SOC-001; SRC-SOC-003, Section 1; SRC-AW-TERM-001; SRC-ENT-001.
 - **Review status:** Application/field descriptions and public research architecture extracted; operational definition, measurement and cross-document classification OPEN.
 
-### T-054 — Entropy Particle / 中文對應待核 / 日本語対応待核
+### T-054 — Entropy Particle / 熵值粒子 / 日本語対応待核
 
 - **English source term:** Entropy Particle
-- **繁體中文:** 原始對應詞待核；保留英文原詞
-- **日本語:** 原始對應詞待核；保留英文原詞
-- **Current public research-page wording (SRC):** `entropy-of-consciousness.html` uses the term Entropy Particle for structures whose characteristics are examined in the framework. Its Zone 6 examples include oscillation, energy accumulation, elasticity, resistance, controlled movement, weighting and self-balancing.
-- **Context / limitation:** The public page says detailed definitions and operational treatment are outside its scope. The derivative index `entropy-rr-assessment-points-index.md` summarizes an Entropy assessment framework, but the underlying DOCX/RTF source was not directly inspected in this tranche. Do not treat the listed examples as a complete definition or assume the particle terminology is equivalent to a conventional physical particle.
-- **Source:** SRC-ENT-001; SRC-ENT-IDX-001.
-- **Review status:** English occurrence and limited context extracted; original-language mapping, source-level definition and measurement protocol OPEN.
+- **繁體中文原詞:** 熵值粒子
+- **日本語:** 確認済みの対応語なし；英語・中国語原語を保持
+- **Direct original-source wording (SRC):** The v1.1 Chinese assessment source repeatedly uses `熵值粒子` (Entropy Particle) across Areas 4–8. Area 4 describes flexible differentiation as responding to different scenarios through flexible changes and differentiation. Area 6 describes particle movement/swing as one of several forms or dynamic displays during operation, used in numerical adjustment and testing of the particle's own values. Other named tests include energy storage, elasticity, resistance, controlled swing, weighting, self-balancing, risk response, projection, landing, adaptation and return.
+- **Context / limitation:** The RTF is a source-authored assessment document with point names and explanations, not a complete formal definition of Entropy Particle. The listed properties and tests should not be treated as an exhaustive specification or assumed equivalent to a conventional physical particle. The source includes case-specific RR/88/JJ values and comments; these were excluded from the public-facing derivative catalogue.
+- **Source:** SRC-ENT-001; SRC-ENT-RTF-001; SRC-ENT-IDX-001.
+- **Review status:** Chinese source mapping and multiple source-defined attributes directly extracted; complete operational definition, measurement protocol, Japanese mapping and construct validation OPEN.
 
 ### T-055 — Strength of Consciousness of Things / 中文對應待核 / 日本語対応待核
 
@@ -687,6 +688,20 @@
 - **Source:** SRC-SOC-001; SRC-SOC-003, Sections 3–4; SRC-CC-001, Page 264, lines 7431–7463.
 - **Review status:** Project mapping and historical source relation extracted; operational scope and independent verification OPEN.
 
+
+### T-059 — Entropy Assessment Points / 熵值检测點 / 日本語対応待核
+
+- **English display term:** Entropy Assessment Points
+- **繁體中文原詞:** 熵值检测点（繁體呈現：熵值檢測點）
+- **日本語:** 確認済みの対応語なし；原語表記を保持
+- **Source title:** `熵值检测点`, v1.1.
+- **Source wording (SRC):** The source describes nine main areas and one auxiliary area. It reports approximately 1,800 main assessment points, several tens of thousands in total, and over one hundred thousand subdivisions. It describes main-area scoring as not wholly percentage-based, with higher stages able to exceed conventional percentage ranges. Auxiliary sections are described separately as graded from Level 1 to Level 9.
+- **Context / limitation:** The figures and scoring descriptions are reported by the source and have not been independently verified. The table of contents contains 230 linked entries, including area headings, subsections and point names; this is not the total number of assessment points in the wider system. The detailed source shows auxiliary subsections attached to multiple main areas, while its overview uses the phrase “one auxiliary area”; preserve this structural nuance.
+- **Distinction:** `熵值检测点` is the title/name of this source's assessment-point framework. Its relationship to the project's `Entropy of Consciousness` research field is relevant but not explicitly equated in the source itself.
+- **Source:** SRC-ENT-RTF-001; SRC-ENT-IDX-001; SRC-ENT-001.
+- **Review status:** Source title, structure and scoring descriptions directly extracted; completeness of the wider system, operational definitions, measurement validity and Japanese mapping OPEN.
+
+
 ## 5. Candidate terms and unresolved source families
 
 The following still require additional direct source review before a fuller history or operational definition can be recorded:
@@ -699,7 +714,7 @@ The following still require additional direct source review before a fuller hist
 - 意识频率
 - 意识光谱
 - 自由度 / 自由意识的自由强度
-- Level of Actualization of Freewill — mentioned as an unresolved relationship in the conceptual review; the exact term and definition were not found in the reviewed current `Science.md` or Awakenology glossary source.
+- Level of Actualization of Freewill — the exact capitalized term was not found in searches of the current Science of Origin and Awakenology repositories. The current Awakenology `Science.md` does use the lower-case phrase “actualization of free will” in a sentence about the relationship between measurements and actualization, but it does not define a named “Level” construct or give it an operational definition. Keep the preferred term and its relationship to Freedomality open pending the author's source or clarification.
 - Hypnotic Reincarnation — a source-stated relation is recorded in T-020, but a fuller definition and source history remain open.
 - Soul Nature / Soul Characteristics — used as related concepts in the Freedomality framework; their independent definitions and source history require extraction before further operational interpretation.
 
@@ -709,7 +724,7 @@ Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consc
 
 1. Review the remaining original-source families for 本源意识, 万物本质, 虚拟存在 and 虚拟现实, separating definitions from examples, titles and contextual uses.
 2. Locate and directly verify the source history of **Level of Actualization of Freewill**; establish whether it is a preferred term, a descriptive measure, or a separate construct before defining it.
-3. Inspect the underlying Entropy DOCX/RTF source directly and build point-level extraction with exact wording, original order, locators and surrounding context; the current assessment-point index is only a navigation aid.
+3. Compare the extracted RTF catalogue against the DOCX counterpart if direct DOCX parsing becomes available; then continue point-by-point operational-definition extraction beyond the TOC and selected general descriptions.
 4. Review the source history and intended relationship among Freedomality of Consciousness, Freedomality Index (FI), Freedometry and any Level of Actualization of Freewill terminology.
 5. Compare Strength of Consciousness of Things with Strength of Consciousness and Spectrum of Things without assuming identity or a parent/child relationship.
 6. Continue Awakenology / Exincarnology source-history review and preserve the different organizational descriptions across document versions.
@@ -717,7 +732,7 @@ Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consc
 
 ## 7. Change history
 
-- **2026-11-25 — Version 0.4:** Added T-050–T-058 for Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Entropy Particle, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation. Added direct review of the current internal Science.md framework, Awakenology terminology review draft, Entropy public research page and Entropy assessment-point index. Preserved conflicting field/application classifications and the different Awakenology / Exincarnology hierarchies by source version. Left Level of Actualization of Freewill unresolved because the exact term and definition were not present in the reviewed current source files. No public HTML was changed.
+- **2026-11-26 — Version 0.5:** Directly inspected the original readable v1.1 Entropy assessment RTF. Added SRC-ENT-RTF-001, refined T-054 with the source's Chinese term 熵值粒子 and Area 4/6 test descriptions, and added T-059 for Entropy Assessment Points. Recorded the 230-link TOC catalogue, source-reported scoring structure and the distinction between the document's 熵值 assessment framework and the project's Entropy of Consciousness field. Confirmed that the current Awakenology Science.md uses the phrase “actualization of free will” but does not define the exact named term Level of Actualization of Freewill. No public HTML changed.\n- **2026-11-25 — Version 0.4:** Added T-050–T-058 for Freedomality of Consciousness, Freedomality Index, Freedometry, Entropy of Consciousness, Entropy Particle, Strength of Consciousness of Things, Awakenology, Exincarnology and Exincarnation. Added direct review of the current internal Science.md framework, Awakenology terminology review draft, Entropy public research page and Entropy assessment-point index. Preserved conflicting field/application classifications and the different Awakenology / Exincarnology hierarchies by source version. Left Level of Actualization of Freewill unresolved because the exact term and definition were not present in the reviewed current source files. No public HTML was changed.
 - **2026-11-25 — Version 0.3:** Added 13 terminology records (T-037–T-049) from direct review of current Science of Origin framework pages and preserved historical First Edition wording. Recorded Infinity, Zero, Idle State, Spirit, Void, Voidness, True Origin, Oneness Origin, Fake Origin, Freewill, Imagination, Origination and Manifestation. Explicitly retained unresolved Void/Voidness, Spirit/Soul, historical Infinity/Origin and cross-language mappings. No public HTML was changed.
 - **2026-11-25 — Version 0.2:** Added direct passage extraction from the completed Chinese compilation TXT (Pages 264, 300, 306–316, 399 and 1669) and the English Reddit archive (lines 6432–6483). Expanded the Consciousness Strength assessment vocabulary and recorded the source's distinctions between union with Origin, liberation from reincarnation, assessment points, practice points, and the historical 18-level model. No published HTML was changed.
 - **2026-11-25 — Version 0.1:** Created the first source-traceable trilingual extraction tranche from selected Weibo records, the Weibo context audit, source indexes, and the two supplied Science of Consciousness framework documents. No published HTML was changed.
