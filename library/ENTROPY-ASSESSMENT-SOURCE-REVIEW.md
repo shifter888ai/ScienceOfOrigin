@@ -5,7 +5,7 @@
 **Source title/version:** `熵值检测点`, v1.1 (with v1.0 material referenced)  
 **RTF Git blob:** `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`  
 **DOCX counterpart:** `materials/熵值检测点RR部分.docx` (identified in repository, not directly inspected in this review)  
-**Status:** Direct source review and full TOC extraction; not a validation of the assessment model or a complete transcription of every detailed point.
+**Status:** Direct source review, full TOC extraction, line-numbered appendix transcription and first-pass point-level register. Manual source-layout verification and scoring interpretation remain open; this is not a validation of the assessment model.
 
 ## 1. Source and version observations
 
@@ -277,10 +277,12 @@ The broad relationship is supported by the shared nine-zone structure. However:
 
 ## 8. Research implications and open questions
 
-The original source now supports a more precise follow-up programme:
+The original source now supports a more precise follow-up programme. A line-numbered transcription of the RTF appendix body has been added at [`library/entropy-assessment-body-transcription-v1.1.md`](entropy-assessment-body-transcription-v1.1.md). It preserves 2,151 non-empty source paragraphs in order. This is a searchable transcription, not yet a normalized point register: score labels, values and comments have not been semantically assigned to headings where the original layout fragments them across formatted runs.
 
-1. Build a full point-level register in source order, retaining the exact Chinese point title, its parent zone/auxiliary area, nested indicator, printed page locator, and any explanatory passage.
-2. Extract each `RR`, `88` and `JJ` record as a separate source field, preserving the literal label, value, range and associated subject/context.
+Remaining extraction steps:
+
+1. Build a normalized point-level register in source order, retaining the exact Chinese point title, parent zone/part/auxiliary area, nested-indicator hierarchy, printed page locator, explanatory passage and transcription line references.
+2. Extract each `RR`, `88` and `JJ` record as a separate source field, preserving the literal label, value, range and associated subject/context. Where the original layout makes an association ambiguous, record the ambiguity rather than guessing.
 3. Record whether the source describes an indicator as laboratory-only, practical, reverse-valued, purpose-dependent, or otherwise qualified.
 4. Identify points that have explicit sub-indicators and avoid counting them as separate top-level points unless the source structure does so.
 5. Preserve the difference between the overview's “one auxiliary area” wording and the multiple named auxiliary sections in the TOC.
@@ -290,7 +292,7 @@ The original source now supports a more precise follow-up programme:
 
 - The RTF binary was directly retrieved and its Unicode text extracted for this review.
 - The DOCX counterpart is present in the repository but was not directly inspected.
-- The current extraction covers the RTF's overview, full TOC heading structure, and selected detailed passages across the nine areas. It is not a complete transcription of every body paragraph, nested indicator, sample record or appendix.
+- The current extraction covers the RTF's overview, full TOC heading structure, selected direct explanations and a line-numbered transcription of the appendix body (1,353 non-empty paragraphs). The transcription does not reconstruct formatting or fully normalize point/score associations; that structured extraction remains open.
 - The printed page references in the TOC are source locators, not independently verified PDF page indices.
 - No claims about validity, reliability, scientific acceptance or external reproducibility are made here.
 
