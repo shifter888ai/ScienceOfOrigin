@@ -1,6 +1,6 @@
 # Science of Origin — Trilingual Terminology Inventory
 
-**Status:** Expanded source-extraction edition · Version 0.4  
+**Status:** Expanded source-extraction edition · Version 0.6  
 **Languages:** English · 繁體中文 · 日本語  
 **Purpose:** Preserve terminology found in original Science of Origin materials, with source traceability and provisional cross-language mappings. This is an internal research inventory, not the published website terminology page.
 
@@ -44,7 +44,8 @@
 | SRC-SOC-005 | `library/TERMINOLOGY-CONCEPTUAL-REVIEW-2.md` | Directly reviewed the application terminology review and its explicit statement that the supplied framework documents do not define Level of Actualization of Freewill, Freedomality Index or Freedometry |
 | SRC-AW-TERM-001 | `materials/awakenology/Awakenology-Glossary/Terminology.md` | Internal glossary review draft; inspected application and Freedomality rows; treated as a working terminology source, not a final public glossary |
 | SRC-ENT-001 | `entropy-of-consciousness.html` | Public research introduction; directly inspected nine-zone architecture, research approach, laboratory/practical distinction and Entropy Particle usage |
-| SRC-ENT-IDX-001 | `library/record-index/entropy-rr-assessment-points-index.md` | Derivative structural index of the Entropy assessment source; updated after direct inspection of the RTF v1.1; remains a navigation aid, not a substitute for complete point-level extraction |\n| SRC-ENT-002 | `materials/熵值检测点RR部分.rtf` | Directly retrieved and inspected RTF v1.1 on 2026-11-26; extracted overview, complete TOC heading structure (114 top-level headings across nine areas), and selected detailed passages; Git blob `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`; full point-by-point transcription remains incomplete |
+| SRC-ENT-IDX-001 | `library/record-index/entropy-rr-assessment-points-index.md` | Derivative structural index of the Entropy assessment source; updated after direct inspection of the RTF v1.1; remains a navigation aid, not a substitute for complete point-level extraction |
+| SRC-ENT-002 | `materials/熵值检测点RR部分.rtf` | Directly retrieved and inspected RTF v1.1 on 2026-11-26; extracted overview, complete TOC heading structure (114 top-level headings across nine areas), and selected detailed passages; Git blob `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`; full point-by-point transcription remains incomplete |
 | SRC-AW-PAGE-001 | `materials/awakenology/What-Is-Awakenology/index.html`; `materials/awakenology/What-is-SoC-Strength-of-Consciousness/index.html` | Snapshot pages inspected for Awakenology and Strength of Consciousness context; claims remain attributed to the source framework |
 
 **Access and version note:** The Chinese compilation TXT is the canonical source for current research under the completed-library scope. The two PDF volumes are retained as supplemental references; optional OCR/image review is not a completion blocker. The Chinese compilation passages cited in Version 0.2 were read directly from the TXT. For later tranches, each additional source is identified separately in the register; derivative indexes remain discovery aids, not substitutes for original-source review.
