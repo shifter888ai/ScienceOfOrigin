@@ -94,7 +94,7 @@ Page numbers above are the document's printed/table-of-contents references, not 
 - **Freedomality of Consciousness / Science of Freewill:** possible connections may be explored where the source's actual indicators concern autonomy, choice, flexibility, or action. Do not infer these links from area names alone; inspect the exact point descriptions first.
 - **Science of Consciousness / Spectrum of Consciousness:** possible comparison material only after defining whether the source's constructs and measurement units correspond to the project's constructs.
 
-A line-numbered transcription of the RTF appendix body is now available at [`library/entropy-assessment-body-transcription-v1.1.md`](../entropy-assessment-body-transcription-v1.1.md). It preserves 1,353 non-empty paragraphs in source order, including source wording, labels, values and comments. It does not yet reconstruct formatting or assign every fragmented score/value to a point.
+A line-numbered transcription of the RTF appendix body is now available at [`library/entropy-assessment-body-transcription-v1.1.md`](../entropy-assessment-body-transcription-v1.1.md). It preserves 2,151 non-empty paragraphs in source order, including source wording, visible `RR`, `88` and `JJ` labels, values and comments. It does not yet reconstruct formatting or assign every fragmented score/value to a point.
 
 Next: build a normalized point-level register with exact Chinese wording, parent zone/part/auxiliary status, nested-indicator hierarchy, printed TOC/page locator, separate RR/88/JJ fields, comments and transcription line references. Keep source text, source ratings and research interpretation separate; record ambiguous associations rather than guessing.
 
