@@ -5,7 +5,7 @@
 **Source title/version:** `熵值检测点`, v1.1 (with v1.0 material referenced)  
 **RTF Git blob:** `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`  
 **DOCX counterpart:** `materials/熵值检测点RR部分.docx` (identified in repository, not directly inspected in this review)  
-**Status:** Direct source review, full TOC extraction and line-numbered transcription of the RTF appendix body; normalized point-to-score association remains in progress. This is not a validation of the assessment model.
+**Status:** Direct source review, full TOC extraction, line-numbered appendix transcription and first-pass point-level register. Manual source-layout verification and scoring interpretation remain open; this is not a validation of the assessment model.
 
 ## 1. Source and version observations
 
