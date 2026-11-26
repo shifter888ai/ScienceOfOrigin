@@ -74,6 +74,18 @@ The source also gives point-specific explanations in which values or performance
 | 熵值粒子的爆开能力 | Compared with collision, the source describes spontaneous “爆开” as lower risk and having a more stable success rate, while still producing unknown effects. | L1143–L1146 | Preserve this as the source's comparative description; it is not an independently validated risk estimate. |
 | 熵值粒子的续航能力 — 88 comment | The source says this value is difficult to measure well in laboratory testing and has a wide range; it relates this to 88's characteristics, intention and experiential needs, including deliberate or self-generated unpredictability. | L1916–L1929 | Preserve the stated measurement difficulty and wide range. Do not treat the displayed value as a precise, stable point estimate. |
 
+### Q6. Explicit directional relationships stated for particular points
+
+The source also states some directional relationships. These are recorded only for the points and relationships where the source says them; they do not establish a universal score direction across the assessment system.
+
+| Assessment point / context | Source-stated relationship | Source lines | Handling |
+|---|---|---:|---|
+| 运用本源意识创造新维度的能力 | The source says a higher value corresponds to stronger new-dimension creation capability, and describes the created dimensions as more durable, larger and able to accommodate larger collective consciousness. | L0553–L0555 | Preserve this point-specific directional statement; do not extend it to unrelated indicators or assume it defines the RR/88/JJ scales. |
+| 多维中与本源实时多角度对接的程度 | The source says that more angles of real-time connection correspond to greater stability and precision, and a higher degree for this point. | L0588–L0590 | Preserve the stated relationship for this point only. |
+| 熵值粒子联合的融合度 | The source says higher fusion makes the parties more compatible and calibrated, increasing efficiency. | L1271–L1273 | Record as a source-described relationship between fusion and efficiency, not as a universal numerical scoring rule. |
+| 熵值粒子的轮摆程度 | In the described example, relatively stable oscillation is said to indicate stronger overall balance. | L1648–L1652 | This is one stated use/interpretation of the controlled test; retain alongside the same passage's statement that the value has no universal high/low good/bad ranking. |
+| 熵值粒子的自平衡能力 | The source describes self-balancing as restoring the particle after temporary adaptive changes, including extreme deformation. | L1678–L1680 | Preserve the described recovery function; do not infer a numerical threshold. |
+
 ## 3. Cross-cutting cautions supported by the source
 
 1. **No universal score direction:** The source explicitly identifies one reverse-value point and separately identifies points with no simple high/low good/bad direction. These are distinct qualifications.
