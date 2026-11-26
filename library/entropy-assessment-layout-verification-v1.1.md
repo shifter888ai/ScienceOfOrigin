@@ -24,7 +24,7 @@ The initial register used an overly strict label detector: it required the exact
 - `,RR` at L1357
 - `88,` at L1789
 - `,RR` at L1993
-- `JJ：大概` at L0925, where the label and colon/value begin on one line
+- `JJ` at L0924 followed by `：大概` at L0925, where the colon/value begin on the next text run
 
 After recognizing these source forms without altering the transcription, the RTF contains **375** point/aggregate assessment blocks: **125 RR**, **125 88**, and **125 JJ**. All **123** point headings with individual assessment blocks have a complete RR/88/JJ set. There are no incomplete point-level sets in this pass.
 
