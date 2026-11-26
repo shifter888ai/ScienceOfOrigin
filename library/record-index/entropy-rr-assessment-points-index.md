@@ -6,7 +6,7 @@
 **RTF Git blob SHA:** `4554f3c8fbdf64a76f4fbbfc4a51dac10de05657`  
 **DOCX counterpart:** `materials/熵值检测点RR部分.docx` (1,764,873 bytes; Git blob SHA `509d7dc53ba656bcc4b7f19631d162986b0a9119`)  
 **Version shown:** v1.1; v1.0 material is also referenced  
-**Index status:** Structural summary checked against direct inspection of the RTF on 2026-11-26; not a full point-by-point transcription or validation of the scoring system. See `library/record-index/entropy-assessment-point-catalogue.md` for the complete 230-link TOC catalogue.
+**Index status:** Structural summary checked against direct inspection of the RTF on 2026-11-26; not a full point-by-point transcription or validation of the scoring system. See `library/record-index/entropy-assessment-point-catalogue.md` for the complete 231-link TOC catalogue.
 
 ## 1. Source and version notes
 
