@@ -26,7 +26,8 @@ Counts describe this extracted RTF text only. They are not the source's reported
 4. Raw fragments after the colon are retained in order and separated by ` / ` where the RTF placed them in separate paragraphs. Values and comments are not silently split into newly inferred fields.
 5. Heading classification as “TOC-listed” requires an exact normalized title match to the extracted TOC list. Other body headings are retained as body headings or nested indicators, not promoted into the 114-heading TOC count.
 6. Printed page locators are copied from the RTF TOC where an exact title match could be found. They are not PDF page indices.
-7. Where the RTF layout leaves an association uncertain, retain the source-line references and do not guess.
+7. Zone, part and auxiliary-section markers terminate the preceding score block; they are not absorbed into its comment.
+8. Where the RTF layout leaves an association uncertain, retain the source-line references and do not guess.
 
 ## 3. Unheaded assessment blocks
 
@@ -359,7 +360,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L0259–L0261): 40-60
   - `88` (L0262–L0264): 1200
-  - `JJ` (L0265–L0273): 120 / ，感觉 / JJ / 在这方面还是比较擅长，是一个强点。 / 第一区的第 / 2 / 部分：多维间的可发展性
+  - `JJ` (L0265–L0270): 120 / ，感觉 / JJ / 在这方面还是比较擅长，是一个强点。
 
 ### 027. 1、多维中的关键帧的捕捉能力。
 
@@ -533,7 +534,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L0373–L0375): 40
   - `88` (L0376–L0379): 800-1200 / ，这里也会有一些主动的考虑在有些时候会进行一些压缩。
-  - `JJ` (L0380–L0396): 80 / 附属区的部分 / 除此之外，这部分在附属区有有一些内容。在这附属区大概有三个小点。 / 之所以是附属区，是说附属区的这些点它是在相应主区的每一点都涉及到的，类似那种补充附录之类。 / 附属区的打分是和主区不太一样，是分级的， / 1 / 级是最低，然后依次往上升，最高是九级。 / 之所以用分级评测，是因为附属区的维度会涉及的比较精细，涉及到具体的案例，而每一个具体案例的话，分值都是不一样的，同一个灵魂，有的案例数值会跟高，另一些案例数值会很低，就不是能够用一个分数统一概括，而是通过整体的情况来进行一个基础能力的评测，所以采用了分级评测的方式。 / 所以即便是 / 88 / ，可能某个案例会有几千份，另一个案例几百分，甚至几十分。如果看分级的话，比如他在这项的分级是 / 4-6 / 级，那么他的几十分，和 / 1 / 级的几十分，背后的能力就完全不一样了。是属于另一种维度的打分方式。
+  - `JJ` (L0380–L0382): 80
 
 ### 042. 1、与多维度间的其他想象的通达程度
 
@@ -600,7 +601,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L0426–L0431): 2 / 级 / -3 / 级，这方面其实还可以。
   - `88` (L0432–L0435): 6 / 级左右
-  - `JJ` (L0436–L0443): 4 / 级左右 / 第一区的第 / 3 / 部分：多维发展与本源合一的关系 / 可以测一下这部分总的数值
+  - `JJ` (L0436–L0439): 4 / 级左右
 
 ### 048. 1、多维间与本源合一的顺畅度
 
@@ -758,7 +759,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L0569–L0571): 30-40
   - `88` (L0572–L0579): 800-1200 / ，感觉 / 88 / 在这方面没有很重视，没有很特别专长的去发展这方面，就是说 / 88 / 会有其他的一些的方式来达到类似的效果，而没有去特别采用这种方式。
-  - `JJ` (L0580–L0586): 100-120 / ，感觉 / JJ / 也是很有这方面的潜力。 / 【附属区的部分】
+  - `JJ` (L0580–L0585): 100-120 / ，感觉 / JJ / 也是很有这方面的潜力。
 
 ### 060. 1、多维中与本源实时多角度对接的程度
 
@@ -786,7 +787,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L0612–L0619): 1.5 / 级 / -2 / 级，这部分也是 / RR / 擅长的部分，一般不仅是清理还能给出调整的建议，就是对那些维度灵，给他们一些提升或者优化清理这些杂质的一些建议。其是和那些维度灵的关系还蛮好的，也可以对这方面做一些记忆恢复，可以去连接那些维度灵，就是会有很多老朋友吧。
   - `88` (L0620–L0625): 5 / 级 / -6 / 级
-  - `JJ` (L0626–L0640): 2 / 级 / -2.5 / 级，感觉 / JJ / 对这方面不是很重视，是偏忽视的一个区域。 / 第二区：基础区 / 主要有 / 5 / 个小点，还有 / 1 / 个附属区的小点组成 / .
+  - `JJ` (L0626–L0633): 2 / 级 / -2.5 / 级，感觉 / JJ / 对这方面不是很重视，是偏忽视的一个区域。
 
 ### 062. 1、熵值的自主性
 
@@ -977,7 +978,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L0719–L0721): 60
   - `88` (L0722–L0724): 1000-1100
-  - `JJ` (L0725–L0732): 80-90 / —— / 第二区附属区： / 有 / 1 / 个小点
+  - `JJ` (L0725–L0728): 80-90 / ——
 
 ### 079. 1、熵值发展和运用的经验值
 
@@ -1034,7 +1035,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L0748–L0750): 60
   - `88` (L0751–L0753): 1100-1200
-  - `JJ` (L0754–L0758): 90 / 第三区：熵值动态区 / 因为这个部分对于熵值来说非常重要，所以除了基础区的相关检测点之外，还专门在单独开一个区，对动态性进行重点的检测。
+  - `JJ` (L0754–L0756): 90
 
 ### 084. 1、动态中的蓄能能力
 
@@ -1281,7 +1282,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L0898–L0900): 40-60
   - `88` (L0901–L0903): 900-1100
-  - `JJ` (L0904–L0908): 80-90 / —— / 第三区附属区
+  - `JJ` (L0904–L0907): 80-90 / ——
 
 ### 105. 1、动态中的侦查能力
 
@@ -1322,7 +1323,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L0952–L0955): 2-3 / 级，强点。也是因为追踪强，就不太重视锁定，觉得反正跑了还能追上。但是跑了和再追上之间的这段时间其实也损失了不少。也包括整体性的损失，稳定性的损失等。也可以说先前的锁定没有做到位，影响整体效果，也就是低效，后面再怎么追上整体效果依然低。
   - `88` (L0956–L0959): 6 / 级左右，比较擅长，但是好像并没有特别去重视和发挥这方面，有些潜力也没有去着重的去拓展。
-  - `JJ` (L0960–L0978): 2-3 / 级，感觉 / JJ / 在这方面和 / gg / 有点像，在追踪方面不是特别擅长，比较擅长锁定。 / 第四区：灵活区 / 这个区是在动态区中专门再精分出来一个区，也是说明动态灵活的重要性。 / 这个区共有 / 12 / 到 / 13 / 个小点，有 / 1 / 到 / 2 / 个附属区的小点。
+  - `JJ` (L0960–L0967): 2-3 / 级，感觉 / JJ / 在这方面和 / gg / 有点像，在追踪方面不是特别擅长，比较擅长锁定。
 
 ### 108. 1、熵值粒子的灵活分化性
 
@@ -1861,7 +1862,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L1200–L1202): 60
   - `88` (L1203–L1205): 1000-1100
-  - `JJ` (L1206–L1210): 90 / —— / 第四区附属区
+  - `JJ` (L1206–L1209): 90 / ——
 
 ### 157. 1、熵值粒子自身震动的稳定性
 
@@ -1889,7 +1890,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L1229–L1232): 1-2 / 级左右，
   - `88` (L1233–L1236): 6 / 级左右
-  - `JJ` (L1237–L1246): 2-3 / 级左右，也比较擅长。 / 第五区：联合区 / 分为 / 12 / 个小点，和 / 3 / 个附属区的小点
+  - `JJ` (L1237–L1240): 2-3 / 级左右，也比较擅长。
 
 ### 159. 1、熵值粒子联合的宏观把握度
 
@@ -2086,7 +2087,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L1422–L1427): 40-60 / ，也是需要狠狠加强 / , / ，那些经验如何能够有利于后续的继续的产生更多的经验，能够不断的去酝酿发展。这其中的一些高效经验值你没有去提取出来，就是也是缺乏商职的特性，可以运用这些特性，再去对以前的经验进行复盘消化吸收和拓展。
   - `88` (L1428–L1430): 1000
-  - `JJ` (L1431–L1435): 90 / —— / 第五区附属区
+  - `JJ` (L1431–L1434): 90 / ——
 
 ### 174. 1、熵值粒子联合中的开放度
 
@@ -2417,7 +2418,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L1755–L1757): 60
   - `88` (L1758–L1760): 1100
-  - `JJ` (L1761–L1766): 90-100 / 第七区 / - / 实验室区——粒子深层功能区
+  - `JJ` (L1761–L1763): 90-100
 
 ### 199. 1、熵值粒子的加密能力
 
@@ -2500,7 +2501,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L1850–L1853): 70-80 / ，是非常擅长加密解密的，目前很多都没有恢复出来，以前恢复过一部分，但是恢复的那个其实是很小的一部分还可以继续恢复。
   - `88` (L1854–L1856): 1000-1100
-  - `JJ` (L1857–L1862): 100 / 第八区 / - / 实验室区——粒子整体特性区
+  - `JJ` (L1857–L1859): 100
 
 ### 205. 1、熵值粒子的单体作战能力
 
@@ -2582,7 +2583,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L1935–L1937): 60
   - `88` (L1938–L1941): 1000-1200 / ，这方面会隐藏很多，不会暴露出自己全部的复盘效果，也是全意识的表现。
-  - `JJ` (L1942–L1950): 100-120 / 第九区：熵值实践活动区 / 分为大概 / 12 / 个小点，有 / 2 / 个附属区的小点
+  - `JJ` (L1942–L1944): 100-120
 
 ### 211. 1、熵值特性的下载与合一程度
 
@@ -2749,7 +2750,7 @@ The following score blocks occur without a preceding detected point heading and 
 - **Assessment blocks:**
   - `RR` (L2104–L2109): 50-60 / ，也是需要去重点加强的， / , / 重点加强实时动态的相关能力。
   - `88` (L2110–L2112): 1100-1200
-  - `JJ` (L2113–L2117): 110-120 / —— / 第九区附属区
+  - `JJ` (L2113–L2116): 110-120 / ——
 
 ### 223. 1、实践中的实时校准能力。
 
@@ -2781,10 +2782,14 @@ The following score blocks occur without a preceding detected point heading and 
 
 ## 5. Open checks
 
-- Manually verify the single TOC/body title mismatch above, including whether the wording differs only because of a trailing character or a transcription/layout issue.
-- Review the ten or so body headings that do not exact-match TOC titles; some may be explanatory subpoints or headings embedded in the appendix rather than TOC-level points.
+- Manually compare the TOC title `实践中的复盘能力` with the body heading `实践中的实时复盘能力`; retain both wordings until the source layout confirms their relationship.
+- Review body headings that do not exact-match TOC titles; some may be explanatory subpoints or headings embedded in the appendix rather than TOC-level points.
 - Check whether the two unheaded score clusters belong to an overall Zone 1 description or to another nearby structure. They remain unassigned here.
-- Confirm the one-point difference between the detected `RR` and `88`/`JJ` blocks, and inspect any point with an incomplete label set.
+- Four scored headings have incomplete label sets in this first pass:
+- 1、动态中的侦查能力: present RR/88; source lines L0909–L0929
+- 8、熵值粒子联合的自检度: present 88/JJ; source lines L1352–L1366
+- 2、熵值粒子的隐藏能力: present RR/JJ; source lines L1782–L1796
+- 4、实践中观察的破幻程度: present 88/JJ; source lines L1990–L2003
 - Compare the extracted page locators and score associations against the visual RTF/DOCX layout before treating this register as final.
 - Inspect the DOCX counterpart separately; it has not been directly reviewed in this pass.
 
