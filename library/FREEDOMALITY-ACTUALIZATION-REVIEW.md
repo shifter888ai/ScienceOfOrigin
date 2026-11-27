@@ -106,3 +106,31 @@ The most defensible source-based position is:
 - Supplied `Science-of-Consciousness.txt` and `Science-of-Consciousness-—-Research-Architecture.txt` — application classification and project research framing.
 
 **Source limitation:** This review does not claim to have located the original primary passage defining Level of Actualization of Freewill. The Entropy DOCX/RTF point-level extraction is also a separate source task and is not represented as completed here.
+
+## 8. Supplementary source-location check — 2026-11-28
+
+A further check was made to locate the primary passage behind the historical term **Level of Actualization of Freewill**.
+
+### Sources checked
+
+- Supplied `Science-of-Consciousness.txt`: lists **Freedomality of Consciousness** as an application research field concerning freedomality as a property of consciousness and its possible measurement and quantification. It does not use or define **Level of Actualization of Freewill**.
+- Supplied `Science-of-Consciousness-—-Research-Architecture.txt`: lists the research scope, two core research fields, Spectrum / Spectra methodology and five applications. It does not use or define the Level term.
+- Current `materials/awakenology/Science.md`: defines Freedomality of Consciousness, FI and Freedometry in Section 5; it does not define the Level term.
+- Current `GLOSSARY.md`: mentions the Level term in a review note and in the list of terms requiring review, but supplies no definition or primary-source citation.
+- Legacy `TERMINOLOGY-INVENTORY.md`: records the Level term as a previously adopted replacement for “Freedom of Consciousness”; its source pointer remains “Prior Science of Consciousness project material,” without a document, date or passage.
+- Chinese-compilation, Weibo and Reddit terminology candidate indexes: entries for related terms such as `自由意志`, `Freewill` and `Strength of Freewill` were found, but the inspected indexes did not identify a matching record for the Level term or an explicit source definition.
+- Repository-wide occurrence index: confirms that the Level term occurs in the terminology artifacts, but does not identify an earlier primary-source document.
+
+### Result
+
+The supplementary search strengthens the finding that the Level term is part of the project's recorded terminology history, but **does not recover its original defining passage**. The two supplied framework documents support Freedomality of Consciousness as an application field; they do not support treating it as a definition or direct replacement for Level of Actualization of Freewill.
+
+The exact original source, date, intended scope and authorial rationale for the historical replacement remain unknown in the material checked. This is a source-location gap, not evidence that the term has no intended meaning.
+
+### Handling
+
+- Keep the Level term in the terminology history.
+- Do not assign it a new definition from the current Freedomality wording.
+- Do not declare equivalence with Freedomality of Consciousness, FI or Freedometry.
+- Resume the search if an earlier Science of Consciousness source, archived draft, dated discussion or other primary record becomes available.
+
