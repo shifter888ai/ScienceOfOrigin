@@ -171,6 +171,7 @@ No public page was found that explicitly promises to persuade readers, repeatedl
 - `fake-origin-divided-origin.html`
 - `identity-continuity.html`
 - `imagination.html`
+- `infinity-of-imagination.html`
 - `independent-origination-capabilities.html`
 - `infinity-of-imagination.html`
 - `information-patterns.html`
