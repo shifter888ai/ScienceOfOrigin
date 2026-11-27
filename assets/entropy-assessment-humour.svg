@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">Measuring Entropy? It's Complicated...</title>
+<desc id="desc">A puzzled scientist examines a friendly Spectrum scanner. The scanner prints a completed Entropy Report while a cheerful robot says, Don't worry, we've got this.</desc>
+<defs>
+  <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#172331"/><stop offset="1" stop-color="#071018"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#dce2e6"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#18212a" flood-opacity=".16"/></filter>
+</defs>
+<rect width="1200" height="680" rx="28" fill="#fbfbfa"/>
+<text x="54" y="78" font-family="Arial,sans-serif" font-size="49" font-weight="700" font-style="italic" fill="#101820">Measuring Entropy?</text>
+<text x="54" y="132" font-family="Arial,sans-serif" font-size="43" font-weight="700" font-style="italic" fill="#101820">It's Complicated...</text>
+<!-- scientist -->
+<g stroke="#17212a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M42 570 Q48 492 112 472 L202 474 Q255 496 274 570Z" fill="#f4f5f5"/>
+ <path d="M94 490 Q124 457 177 472 L209 505 L174 570 L75 570Z" fill="#fff"/>
+ <path d="M111 465 Q91 435 96 391 Q101 328 160 315 Q224 310 242 366 Q260 422 220 464 Q176 499 133 467Z" fill="#f2d6c3"/>
+ <path d="M100 390 Q68 360 91 326 Q74 280 119 270 Q145 229 181 258 Q221 246 240 288 Q269 307 246 346 L230 367 Q224 325 189 319 Q158 342 124 326 Q116 361 100 390Z" fill="#fff"/>
+ <path d="M126 378 Q145 358 165 377 M191 374 Q210 355 226 375" fill="none"/>
+ <circle cx="151" cy="391" r="6" fill="#17212a"/><circle cx="211" cy="390" r="6" fill="#17212a"/>
+ <path d="M171 427 Q190 414 205 428" fill="none"/>
+ <circle cx="145" cy="391" r="30" fill="none"/><circle cx="211" cy="390" r="30" fill="none"/><path d="M175 389 L181 389" fill="none"/>
+ <path d="M135 468 Q163 451 191 469 L213 505" fill="none"/>
+ <path d="M208 500 Q235 465 257 440" fill="none"/>
+ <path d="M258 440 Q273 427 286 440 Q295 451 283 464 L263 482" fill="#f2d6c3"/>
+</g>
+<path d="M181 236 Q210 203 242 226 Q270 251 247 279 Q227 300 206 286 L183 300 L188 278 Q162 260 181 236Z" fill="#fff" stroke="#17212a" stroke-width="5"/>
+<text x="211" y="269" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#17212a">?</text>
+<!-- scanner body -->
+<g filter="url(#shadow)" stroke="#17212a" stroke-width="7" stroke-linejoin="round">
+ <path d="M330 292 Q343 205 443 196 L902 196 Q1003 205 1020 292 L1044 558 Q1047 591 1014 591 L346 591 Q314 591 318 558Z" fill="url(#metal)"/>
+ <path d="M382 289 Q395 240 454 237 L891 237 Q950 241 965 289 L972 331 L370 331Z" fill="#fff"/>
+ <rect x="409" y="315" width="526" height="177" rx="23" fill="url(#screen)"/>
+ <rect x="432" y="337" width="480" height="132" rx="13" fill="none" stroke="#43576a" stroke-width="3"/>
+ <path d="M453 424 L485 424 L500 389 L519 444 L539 373 L558 432 L581 401 L597 433 L621 360 L641 433 L662 393 L679 432 L700 377 L719 435 L741 403 L759 432 L780 388 L800 432 L823 411 L845 432 L891 432" fill="none" stroke="#72d5ff" stroke-width="5"/>
+ <text x="672" y="460" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#d9f5ff">SCANNING COMPLETE</text>
+ <path d="M500 516 L846 516 L887 558 L463 558Z" fill="#fff"/>
+ <path d="M530 537 L813 537" stroke="#aeb8c0" stroke-width="3"/>
+ <path d="M546 551 L788 551" stroke="#aeb8c0" stroke-width="3"/>
+</g>
+<text x="672" y="283" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#17212a">ENTROPY ASSESSMENT</text>
+<text x="672" y="311" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#344454">SPECTRUM-BASED MEASUREMENT</text>
+<text x="672" y="535" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#17212a">ENTROPY REPORT</text>
+<!-- report sheet -->
+<path d="M540 563 L815 563 L786 652 L514 652Z" fill="#fff" stroke="#17212a" stroke-width="5"/>
+<text x="664" y="600" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#17212a">✓  Measurement complete!</text>
+<path d="M562 620 L758 620 M554 634 L745 634" stroke="#b8c0c6" stroke-width="3"/>
+<!-- robot -->
+<g stroke="#17212a" stroke-width="7" stroke-linejoin="round">
+ <path d="M1037 397 L1084 375 L1110 401 L1110 475 L1068 495 L1037 470Z" fill="#e7edf0"/>
+ <rect x="1033" y="292" width="143" height="111" rx="34" fill="#fff"/>
+ <rect x="1053" y="313" width="103" height="67" rx="21" fill="#101b27"/>
+ <path d="M1075 344 Q1087 329 1099 344 M1110 344 Q1122 329 1134 344" fill="none" stroke="#8de2ff" stroke-width="6" stroke-linecap="round"/>
+ <path d="M1084 361 Q1104 378 1125 361" fill="none" stroke="#8de2ff" stroke-width="5" stroke-linecap="round"/>
+ <path d="M1103 292 L1103 270 M1089 270 L1117 270" fill="none"/>
+</g>
+<path d="M965 162 Q1002 111 1086 127 L1148 157 Q1181 180 1158 220 Q1138 251 1077 241 L1041 262 L1046 232 Q987 218 965 190Z" fill="#fff" stroke="#17212a" stroke-width="5"/>
+<text x="1065" y="177" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#17212a">Don't worry!</text>
+<text x="1065" y="207" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#17212a">We've got this.</text>
+<!-- books -->
+<g font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#fff" stroke="#17212a" stroke-width="4">
+ <rect x="35" y="586" width="240" height="25" rx="5" fill="#263d50"/><rect x="35" y="613" width="240" height="25" rx="5" fill="#3d5364"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#fff">
+ <text x="155" y="605" text-anchor="middle">SPECTRUM · CONSCIOUSNESS</text>
+ <text x="155" y="632" text-anchor="middle">FREEWILL · ENTROPY</text>
+</g>
+<text x="600" y="674" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#64717b">SCIENCE OF ORIGIN · Exploring the Unknown, with a Smile</text>
+</svg>
