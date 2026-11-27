@@ -161,3 +161,30 @@ A critique is itself an assessment to be examined. It should not be accepted or 
 **Explore without artificial boundaries. Investigate without preconceived conclusions. Conclude only when the evidence justifies it.**
 
 **All roads lead to Rome: remain open to every path that may contribute to discovering the truth of Origin / the Ultimate Source, while examining each path and its findings with intellectual integrity.**
+
+
+## 12. Research and Sharing Philosophy
+
+The following principles govern how Science of Origin presents its research and shares discoveries. They distinguish the conduct and preservation of research from decisions about what is made public. They apply to website content, research summaries, publication preparation and AI-assisted collaboration.
+
+1. **Research comes first** — pages should not imply that research must pause to satisfy readers' demands.
+2. **Sharing is voluntary** — publishing a discovery does not mean every underlying record or material must also be published.
+3. **No persuasion obligation** — sharing should not be framed as a duty to convince people or repeatedly defend acceptance.
+4. **Independent investigation** — readers can conduct their own observations and experiments and reach their own conclusions.
+5. **No assumed support service** — avoid promises to provide extra documents, explanations, tutoring, or ongoing research assistance unless you explicitly choose to offer them.
+6. **Keep research open** — don't impose premature endpoints or conclusions on ongoing research.
+
+### 12.1 Research records and public disclosure
+
+Preserving a complete or detailed research record for the researcher's own work is distinct from publishing that record. A research method may benefit from clear procedures, observations, measurements, source provenance, review or reproducibility. Those research qualities do not, by themselves, create an obligation to disclose the complete archive, release supplementary materials, respond to individual requests, or provide a service to readers. The researcher decides what to share and when.
+
+### 12.2 Editorial application
+
+When reviewing or drafting public pages:
+
+- Describe research practices without turning them into promises of public disclosure or reader support.
+- Distinguish an invitation to make contact or submit material from a commitment to reply, review, accept or incorporate it.
+- Describe reproducibility as a property or aim of a method where applicable; do not imply that all underlying records must be publicly released.
+- Avoid wording that makes persuasion, repeated defence, supplementary-document provision or reader supervision appear to be part of the researcher's role.
+- Keep open questions and ongoing research visibly open. Do not imply that a page, publication or current explanation exhausts the subject.
+- Treat the Research and Sharing Philosophy page as the public reference for these principles. This internal protocol records how AI-assisted work should respect them.
